@@ -321,12 +321,12 @@ body {
       line-height: 3.125rem;
       margin-bottom: 2.25rem;
       font-size: calc(42px + 0.0303 * (100vw - 1056px));
-      line-height: calc(50px + 0.0303 * (100vw - 1056px));
+      line-height: calc(50px + 0.03367 * (100vw - 1056px));
       margin-bottom: calc(36px + -0.02694 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-i {
       font-size: 3.75rem;
-      line-height: 4.25rem;
+      line-height: 4.375rem;
       margin-bottom: 1.25rem; } }
 
 .ibm-type-j {
@@ -337,28 +337,28 @@ body {
   @media (min-width: 320px) {
     .ibm-type-j {
       font-size: calc(42px + 0.08125 * (100vw - 320px));
-      line-height: calc(50px + 0.08125 * (100vw - 320px));
+      line-height: calc(50px + 0.0875 * (100vw - 320px));
       margin-bottom: calc(16px + 0.0125 * (100vw - 320px)); } }
   @media (min-width: 640px) {
     .ibm-type-j {
       font-size: 4.25rem;
-      line-height: 4.75rem;
+      line-height: 4.875rem;
       margin-bottom: 1.25rem;
       font-size: calc(68px + 0.21154 * (100vw - 640px));
-      line-height: calc(76px + 0.20192 * (100vw - 640px));
+      line-height: calc(78px + 0.20673 * (100vw - 640px));
       margin-bottom: calc(20px + 0.02885 * (100vw - 640px)); } }
   @media (min-width: 1056px) {
     .ibm-type-j {
       font-size: 9.75rem;
-      line-height: 10rem;
+      line-height: 10.25rem;
       letter-spacing: -0.06rem;
       margin-bottom: 2rem;
       font-size: calc(156px + 0.0202 * (100vw - 1056px));
-      line-height: calc(160px + 0.0202 * (100vw - 1056px)); } }
+      line-height: calc(164px + 0.01684 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-j {
       font-size: 10.5rem;
-      line-height: 10.75rem;
+      line-height: 10.875rem;
       margin-bottom: 2rem; } }
 
 .ibm-type-k {
@@ -369,28 +369,28 @@ body {
   @media (min-width: 320px) {
     .ibm-type-k {
       font-size: calc(42px + 0.08125 * (100vw - 320px));
-      line-height: calc(50px + 0.08125 * (100vw - 320px));
+      line-height: calc(50px + 0.0875 * (100vw - 320px));
       margin-bottom: calc(16px + 0.0125 * (100vw - 320px)); } }
   @media (min-width: 640px) {
     .ibm-type-k {
       font-size: 4.25rem;
-      line-height: 4.75rem;
+      line-height: 4.875rem;
       margin-bottom: 1.25rem;
       font-size: calc(68px + 0.21154 * (100vw - 640px));
-      line-height: calc(76px + 0.20192 * (100vw - 640px));
+      line-height: calc(78px + 0.20673 * (100vw - 640px));
       margin-bottom: calc(20px + 0.02885 * (100vw - 640px)); } }
   @media (min-width: 1056px) {
     .ibm-type-k {
       font-size: 9.75rem;
-      line-height: 10rem;
+      line-height: 10.25rem;
       letter-spacing: -0.04rem;
       margin-bottom: 2rem;
       font-size: calc(156px + 0.0202 * (100vw - 1056px));
-      line-height: calc(160px + 0.0202 * (100vw - 1056px)); } }
+      line-height: calc(164px + 0.01684 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-k {
       font-size: 10.5rem;
-      line-height: 10.75rem;
+      line-height: 10.875rem;
       margin-bottom: 2rem; } }
 
 [class*="ibm-type-"] {

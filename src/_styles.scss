@@ -14,10 +14,12 @@ $breakpoints-map: (
 $ibm-type-scale-map: (
   1: (
 		font-size: .75rem,
+		letter-spacing: .02rem,
 		line-height: 1rem,
   ),
   2: (
 		font-size: .875rem,
+		letter-spacing: .01rem,
 		line-height: 1.25rem,
   ),
   3: (
@@ -58,55 +60,68 @@ $ibm-type-scale-map: (
   ),
   12: (
 		font-size: 3.375rem,
-		line-height: 3.875rem,
+		line-height: 4rem,
   ),
   13: (
 		font-size: 3.75rem,
-		line-height: 4.25rem,
+		line-height: 4.375rem,
   ),
   14: (
 		font-size: 4.25rem,
-		line-height: 4.75rem,
+		line-height: 4.875rem,
   ),
   15: (
 		font-size: 4.75rem,
-		line-height: 5.25rem,
+		line-height: 5.375rem,
   ),
   16: (
 		font-size: 5.25rem,
-		line-height: 5.75rem,
+		line-height: 5.875rem,
   ),
   17: (
 		font-size: 5.75rem,
-		line-height: 6.125rem,
+		letter-spacing: -.04rem,
+		line-height: 6.375rem,
   ),
   18: (
 		font-size: 6.375rem,
-		line-height: 6.75rem,
+		letter-spacing: -.04rem,
+		line-height: 7rem,
   ),
   19: (
 		font-size: 7rem,
-		line-height: 7.375rem,
+		letter-spacing: -.04rem,
+		line-height: 7.625rem,
   ),
   20: (
 		font-size: 7.625rem,
-		line-height: 8rem,
+		letter-spacing: -.04rem,
+		line-height: 8.125rem,
   ),
   21: (
 		font-size: 7.25rem,
-		line-height: 8.625rem,
+		letter-spacing: -.04rem,
+		line-height: 8.75rem,
   ),
   22: (
 		font-size: 9rem,
-		line-height: 8.75rem,
+		letter-spacing: -.06rem,
+		line-height: 9.5rem,
   ),
   23: (
 		font-size: 9.75rem,
-		line-height: 10rem,
+		letter-spacing: -.06rem,
+		line-height: 10.25rem,
   ),
   24: (
 		font-size: 10.5rem,
-		line-height: 10.75rem,
+		letter-spacing: -.06rem,
+		line-height: 10.875rem,
+  ),
+  25: (
+		font-size: 11.25rem,
+		letter-spacing: -.06rem,
+		line-height: 11.75rem,
   )
 );
 
