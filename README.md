@@ -62,9 +62,9 @@ If you want to use the compiled css, reference the file in the dist folder:
 
 If you want to use the sass partials, import the files in the src folder:
 ```
-@import 'node_modules/@ibm/grid/src/_core.scss';
-@import 'node_modules/@ibm/grid/src/_styles.scss';
-@import 'node_modules/@ibm/grid/src/_width.scss';
+@import 'node_modules/@ibm/type/src/_core.scss';
+@import 'node_modules/@ibm/type/src/_styles.scss';
+@import 'node_modules/@ibm/type/src/_width.scss';
 ```
 
 Check out the Performance section below for a description of each partial.
