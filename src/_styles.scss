@@ -1,0 +1,490 @@
+$base-unit: 16;
+$breakpoints: "sm", "md", "lg", "max";
+$breakpoint--sm: 320;
+$breakpoint--md: 640;
+$breakpoint--lg: 1056;
+$breakpoint--max: 1650;
+$breakpoints-map: (
+  "sm": 320,
+  "md": 640,
+  "lg": 1056,
+  "max": 1650
+);
+
+$ibm-type-scale-map: (
+  1: (
+		font-size: .75rem,
+		line-height: 1rem,
+  ),
+  2: (
+		font-size: .875rem,
+		line-height: 1.25rem,
+  ),
+  3: (
+		font-size: 1rem,
+		line-height: 1.375rem,
+  ),
+  4: (
+		font-size: 1.125rem,
+		line-height: 1.5rem,
+  ),
+  5: (
+		font-size: 1.25rem,
+		line-height: 1.625rem,
+  ),
+  6: (
+		font-size: 1.5rem,
+		line-height: 1.875rem,
+  ),
+  7: (
+		font-size: 1.75rem,
+		line-height: 2.25rem,
+  ),
+  8: (
+		font-size: 2rem,
+		line-height: 2.5rem,
+  ),
+  9: (
+		font-size: 2.25rem,
+		line-height: 2.75rem,
+  ),
+  10: (
+		font-size: 2.625rem,
+		line-height: 3.125rem,
+  ),
+  11: (
+		font-size: 3rem,
+		line-height: 3.5rem,
+  ),
+  12: (
+		font-size: 3.375rem,
+		line-height: 3.875rem,
+  ),
+  13: (
+		font-size: 3.75rem,
+		line-height: 4.25rem,
+  ),
+  14: (
+		font-size: 4.25rem,
+		line-height: 4.75rem,
+  ),
+  15: (
+		font-size: 4.75rem,
+		line-height: 5.25rem,
+  ),
+  16: (
+		font-size: 5.25rem,
+		line-height: 5.75rem,
+  ),
+  17: (
+		font-size: 5.75rem,
+		line-height: 6.125rem,
+  ),
+  18: (
+		font-size: 6.375rem,
+		line-height: 6.75rem,
+  ),
+  19: (
+		font-size: 7rem,
+		line-height: 7.375rem,
+  ),
+  20: (
+		font-size: 7.625rem,
+		line-height: 8rem,
+  ),
+  21: (
+		font-size: 7.25rem,
+		line-height: 8.625rem,
+  ),
+  22: (
+		font-size: 9rem,
+		line-height: 8.75rem,
+  ),
+  23: (
+		font-size: 9.75rem,
+		line-height: 10rem,
+  ),
+  24: (
+		font-size: 10.5rem,
+		line-height: 10.75rem,
+  )
+);
+
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+@function rem($px) {
+  @return (strip-unit($px) / $base-unit) * 1rem;
+}
+
+@function em($px) {
+  @return (strip-unit($px) / $base-unit) * 1em;
+}
+
+@function getFontSize($step) {
+  @if map-has-key($ibm-type-scale-map, $step) {
+    @return map-get(map-get($ibm-type-scale-map, $step), font-size);
+  }
+  @else {
+    @warn 'There is no font size for that step of the IBM Type Scale!';
+  }
+}
+
+@function getLineHeight($step) {
+  @if map-has-key($ibm-type-scale-map, $step) {
+    @return map-get(map-get($ibm-type-scale-map, $step), line-height);
+  }
+  @else {
+    @warn 'There is no line height for that step of the IBM Type Scale!';
+  }
+}
+
+$ibm-type-prescription-map: (
+  'a': (
+		'sm': (
+			font-weight: 400,
+			letter-spacing: .02rem,
+			margin-bottom: 1.25rem,
+			step: 1,
+		),
+		'max': (
+			letter-spacing: 0,
+			margin-bottom: 1.5rem,
+			step: 3,
+		)
+  ),
+  'b': (
+		'sm': (
+			font-weight: 400,
+			letter-spacing: .01rem,
+			margin-bottom: 1.25rem,
+			step: 2,
+		),
+		'max': (
+			letter-spacing: 0,
+			margin-bottom: 1.5rem,
+			step: 4,
+		)
+  ),
+  'c': (
+		'sm': (
+			font-weight: 400,
+			margin-bottom: 1.5rem,
+			step: 3,
+		),
+		'max': (
+			margin-bottom: 1.75rem,
+			step: 5,
+		)
+  ),
+  'd': (
+		'sm': (
+			font-weight: 600,
+			margin-bottom: 1rem,
+			step: 3,
+		),
+		'max': (
+			margin-bottom: 2rem,
+			step: 5,
+		)
+  ),
+  'e': (
+		'sm': (
+			font-weight: 400,
+			margin-bottom: 1.5rem,
+			step: 4,
+		),
+		'md': (
+			margin-bottom: 1.75rem,
+			step: 5,
+		),
+		'max': (
+			margin-bottom: 2rem,
+			step: 6,
+		)
+  ),
+  'f': (
+		'sm': (
+			font-weight: 400,
+			margin-bottom: 1.75rem,
+			step: 5,
+		),
+		'md': (
+			margin-bottom: 2rem,
+			step: 6,
+		),
+		'max': (
+			margin-bottom: 2rem,
+			step: 8,
+		)
+  ),
+  'g': (
+		'sm': (
+			font-weight: 400,
+			margin-bottom: 2rem,
+			step: 6,
+		),
+		'lg': (
+			step: 7,
+		),
+		'max': (
+			margin-bottom: 2rem,
+			step: 8,
+		)
+  ),
+  'h': (
+		'sm': (
+			font-weight: 300,
+			margin-bottom: 2rem,
+			step: 7,
+		),
+		'md': (
+			step: 8,
+		),
+		'lg': (
+			margin-bottom: 2.25rem,
+			step: 9,
+		),
+		'max': (
+			margin-bottom: 2.25rem,
+			step: 10,
+		)
+  ),
+  'i': (
+		'sm': (
+			font-weight: 300,
+			margin-bottom: 2rem,
+			step: 7,
+		),
+		'md': (
+			step: 9,
+		),
+		'lg': (
+			margin-bottom: 2.25rem,
+			step: 10,
+		),
+		'max': (
+			margin-bottom: 1.25rem,
+			step: 13,
+		)
+  ),
+  'j': (
+		'sm': (
+			font-weight: 300,
+			margin-bottom: 1rem,
+			step: 10,
+		),
+		'md': (
+			margin-bottom: 1.25rem,
+			step: 14,
+		),
+		'lg': (
+			letter-spacing: -.06rem,
+			margin-bottom: 2rem,
+			step: 23,
+		),
+		'max': (
+			margin-bottom: 2rem,
+			step: 24,
+		)
+  ),
+  'k': (
+		'sm': (
+			font-weight: 600,
+			margin-bottom: 1rem,
+			step: 10,
+		),
+		'md': (
+			margin-bottom: 1.25rem,
+			step: 14,
+		),
+		'lg': (
+			letter-spacing: -.04rem,
+			margin-bottom: 2rem,
+			step: 23,
+		),
+		'max': (
+			margin-bottom: 2rem,
+			step: 24,
+		)
+  )
+);
+
+@mixin fluidRule($rule, $minSize, $maxSize, $minViewport, $maxViewport) {
+	#{$rule}: calc(#{strip-unit($minSize) * $base-unit}px + #{(strip-unit($maxSize) - strip-unit($minSize)) * $base-unit / ($maxViewport - $minViewport)} * (100vw - #{$minViewport}px));
+}
+
+@mixin fluidRules($prescription, $breakpoint, $margin: true) {
+	$last-breakpoint: map-get($breakpoints-map, nth(map-keys($breakpoints-map), index(map-keys($breakpoints-map), $breakpoint) - 1));
+	$last-specs: map-get($prescription, nth(map-keys($prescription), index(map-keys($prescription), $breakpoint) - 1));
+
+	@include fluidRule(
+		font-size,
+		getFontSize(map-get($last-specs, 'step')),
+		getFontSize(map-get(map-get($prescription, $breakpoint), 'step')),
+		$last-breakpoint,
+		map-get($breakpoints-map, $breakpoint)
+	);
+
+	@include fluidRule(
+		line-height,
+		getLineHeight(map-get($last-specs, 'step')),
+		getLineHeight(map-get(map-get($prescription, $breakpoint), 'step')),
+		$last-breakpoint,
+		map-get($breakpoints-map, $breakpoint)
+	);
+	
+	@if map-get($last-specs, 'letter-spacing') != null and map-get(map-get($prescription, $breakpoint), 'letter-spacing') != null {
+		@include fluidRule(
+			margin-bottom,
+			map-get($last-specs, 'letter-spacing'),
+			map-get(map-get($prescription, $breakpoint), 'letter-spacing'),
+			$last-breakpoint,
+			map-get($breakpoints-map, $breakpoint)
+		);
+	}
+
+	@if $margin == true and map-get($last-specs, 'margin-bottom') != null and map-get(map-get($prescription, $breakpoint), 'margin-bottom') != null and map-get($last-specs, 'margin-bottom') != map-get(map-get($prescription, $breakpoint), 'margin-bottom') {
+		@include fluidRule(
+			margin-bottom,
+			map-get($last-specs, 'margin-bottom'),
+			map-get(map-get($prescription, $breakpoint), 'margin-bottom'),
+			$last-breakpoint,
+			map-get($breakpoints-map, $breakpoint)
+		);
+	}
+}
+
+@mixin typePrescription($prescription, $margin: true) {
+	font-size: getFontSize(map-get(map-get($prescription, 'sm'), 'step'));
+	font-weight: map-get(map-get($prescription, 'sm'), 'font-weight');
+	line-height: getLineHeight(map-get(map-get($prescription, 'sm'), 'step'));
+
+	@if map-has-key(map-get($prescription, 'sm'), 'letter-spacing') {
+		letter-spacing: map-get(map-get($prescription, 'sm'), 'letter-spacing');
+	}
+
+	@if $margin == true {
+		margin-bottom: map-get(map-get($prescription, 'sm'), 'margin-bottom');
+	}
+
+	@if map-has-key(map-get($prescription, 'sm'), 'text-transform') {
+		text-transform: map-get(map-get($prescription, 'sm'), 'text-transform');
+	}
+
+	@if map-has-key($prescription, 'md') {
+		@media (min-width: $breakpoint--sm + 'px') {
+			@include fluidRules(
+				$prescription,
+				"md",
+				$margin
+			);
+		}
+	} @else if map-has-key($prescription, 'lg') {
+		@media (min-width: $breakpoint--md + 'px') {
+			@include fluidRules(
+				$prescription,
+				"lg",
+				$margin
+			);
+		}
+	} @else if map-has-key($prescription, 'max') {
+		@media (min-width: $breakpoint--lg + 'px') {
+			@include fluidRules(
+				$prescription,
+				"max",
+				$margin
+			);
+		}
+	}
+
+	@if map-has-key($prescription, 'md') {
+		@media (min-width: $breakpoint--md + 'px') {
+			font-size: getFontSize(map-get(map-get($prescription, 'md'), 'step'));
+			line-height: getLineHeight(map-get(map-get($prescription, 'md'), 'step'));
+			
+
+			@if map-has-key(map-get($prescription, 'md'), 'letter-spacing') {
+				letter-spacing: map-get(map-get($prescription, 'md'), 'letter-spacing');
+			}
+
+			@if map-has-key(map-get($prescription, 'md'), 'margin-bottom') AND $margin == true {
+				margin-bottom: map-get(map-get($prescription, 'md'), 'margin-bottom');
+			}
+
+			@if map-has-key($prescription, 'lg') {
+				@include fluidRules(
+					$prescription,
+					"lg",
+					$margin
+				);
+			} @else if map-has-key($prescription, 'max') {
+				@media (min-width: $breakpoint--lg + 'px') {
+					@include fluidRules(
+						$prescription,
+						"max",
+						$margin
+					);
+				}
+			}
+		}
+	}
+
+	@if map-has-key($prescription, 'lg') {
+		@media (min-width: $breakpoint--lg + 'px') {
+			font-size: getFontSize(map-get(map-get($prescription, 'lg'), 'step'));
+			line-height: getLineHeight(map-get(map-get($prescription, 'lg'), 'step'));
+
+			@if map-has-key(map-get($prescription, 'lg'), 'letter-spacing') {
+				letter-spacing: map-get(map-get($prescription, 'lg'), 'letter-spacing');
+			}
+
+			@if map-has-key(map-get($prescription, 'lg'), 'margin-bottom') AND $margin == true {
+				margin-bottom: map-get(map-get($prescription, 'lg'), 'margin-bottom');
+			}
+
+
+			@if map-has-key($prescription, 'max') {
+				@include fluidRules(
+					$prescription,
+					"max",
+					$margin
+				);
+			}
+		}
+	}
+
+	@if map-has-key($prescription, 'max') {
+		@media (min-width: $breakpoint--max + 'px') {
+			font-size: getFontSize(map-get(map-get($prescription, 'max'), 'step'));
+			line-height: getLineHeight(map-get(map-get($prescription, 'max'), 'step'));
+
+			@if map-has-key(map-get($prescription, 'max'), 'letter-spacing') {
+				letter-spacing: map-get(map-get($prescription, 'max'), 'letter-spacing');
+			}
+
+			@if map-has-key(map-get($prescription, 'max'), 'margin-bottom') AND $margin == true {
+				margin-bottom: map-get(map-get($prescription, 'max'), 'margin-bottom');
+			}
+		}
+	}
+}
+
+@mixin singleTypePrescription($prescription, $margin: true) {
+	@include typePrescription(map-get($ibm-type-prescription-map, $prescription), $margin);
+}
+
+body {
+	font-size: #{$base-unit}px;
+}
+
+@each $name, $prescription in $ibm-type-prescription-map {
+	.ibm-type-#{$name} {
+		@include typePrescription($prescription);
+	}
+}

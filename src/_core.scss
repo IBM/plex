@@ -1,0 +1,187 @@
+/**
+  Font Weights:
+  300 - Light
+  400 - Regular
+  600 - Semi Bold (Default Bold)
+**/
+
+$plexFontFamilyMono : 'ibm-plex-mono';
+$plexFontFamilySans : 'ibm-plex-sans';
+$plexFontFamilySerif : 'ibm-plex-serif';
+
+$fontPathMono: 'mono';
+$fontPathSans: 'sans';
+$fontPathSerif: 'serif';
+
+$unicodes: (
+  Latin: 'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215',
+  Latin-Ext: 'U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF',
+  Vietnamese: 'U+0102-0103, U+1EA0-1EF9, U+20AB',
+);
+
+@mixin addFonts ($fontPath, $fontname) {
+  src: url('../fonts/#{$fontPath}/web/woff2/#{$fontname}.woff2') format('woff2'),
+    url('../fonts/#{$fontPath}/web/woff/#{$fontname}.woff') format('woff');
+}
+
+@mixin addFontPartial($fontPath, $fontname, $partial) {
+  @include addFonts($fontPath, #{$fontname + '-' + $partial});
+  unicode-range: map-get($unicodes, $partial);
+}
+
+
+@mixin plexMono {
+  font-family: "ibm-plex-mono", "Menlo", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Courier, monospace;
+}
+
+@mixin plexSans {
+  font-family: "ibm-plex-sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+@mixin plexSerif {
+  font-family: "ibm-plex-serif", "Georgia", Times, serif;
+}
+
+@font-face {
+  @include addFonts($fontPathSans, 'IBMPlexSans-Light');
+  font-family: $plexFontFamilySans;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  @include addFonts($fontPathSans, 'IBMPlexSans-LightItalic');
+  font-family: $plexFontFamilySans;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  @include addFontPartial($fontPathSans, 'IBMPlexSans-Regular', 'Vietnamese');
+  font-family: $plexFontFamilySans;
+  font-weight: 400;
+}
+
+@font-face {
+  @include addFontPartial($fontPathSans, 'IBMPlexSans-Regular', 'Latin-Ext');
+  font-family: $plexFontFamilySans;
+  font-weight: 400;
+}
+
+@font-face {
+  @include addFontPartial($fontPathSans, 'IBMPlexSans-Regular', 'Latin');
+  font-family: $plexFontFamilySans;
+  font-weight: 400;
+}
+
+@font-face {
+  @include addFonts($fontPathSans, 'IBMPlexSans-Italic');
+  font-family: $plexFontFamilySans;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  @include addFonts($fontPathSans, 'IBMPlexSans-SemiBold');
+  font-family: $plexFontFamilySans;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  @include addFonts($fontPathSans, 'IBMPlexSans-SemiBoldItalic');
+  font-family: $plexFontFamilySans;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  @include addFonts($fontPathMono, 'IBMPlexMono-Regular');
+  font-family: $plexFontFamilyMono;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Serif */
+
+@font-face {
+  @include addFonts($fontPathSerif, 'IBMPlexSerif-Light');
+  font-family: $plexFontFamilySerif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  @include addFonts($fontPathSerif, 'IBMPlexSerif-LightItalic');
+  font-family: $plexFontFamilySerif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  @include addFonts($fontPathSerif, 'IBMPlexSerif-Regular');
+  font-family: $plexFontFamilySerif;
+  font-weight: 400;
+}
+
+@font-face {
+  @include addFonts($fontPathSerif, 'IBMPlexSerif-Italic');
+  font-family: $plexFontFamilySerif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  @include addFonts($fontPathSerif, 'IBMPlexSerif-SemiBold');
+  font-family: $plexFontFamilySerif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  @include addFonts($fontPathSerif, 'IBMPlexSerif-SemiBoldItalic');
+  font-family: $plexFontFamilySerif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm,
+[class*="ibm-type"] {
+  font-family: $plexFontFamilySans;
+  font-size: 100%;
+  margin-top: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+[class*="ibm-type"] {
+  margin-top: 0;
+}
+
+.ibm-type-italic {
+  font-style: italic;
+}
+
+.ibm-type-light {
+  font-weight: 300;
+}
+
+code,
+.ibm-type-mono,
+.ibm-type-mono * {
+  font-family: $plexFontFamilyMono;
+}
+
+.ibm-type-regular {
+  font-weight: 400;
+}
+
+strong,
+.ibm-type-semibold {
+  font-weight: 600;
+}
+
+.ibm-type-serif,
+.ibm-type-serif * {
+  font-family: $plexFontFamilySerif;
+}
