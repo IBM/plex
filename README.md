@@ -15,7 +15,6 @@ Check that any webpage follows the IBM Type with our [Chrome and Firefox extensi
 ### Examples
 
 We want to show off many examples of what IBM Type is capable of. Check out the examples below and learn at the bottom of this document how to provide a new example:
--  [Capabilities](https://ibm.github.io/grid/capabilities.html) ([Source](https://github.com/ibm/grid/docs/capabilities.html))
 -  [Dev Tutorial](https://ibm.github.io/type/) ([Source](./docs/index.html))
 
 # Design
@@ -25,6 +24,7 @@ We want to show off many examples of what IBM Type is capable of. Check out the 
 Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save this [Sketch file](https://github.com/IBM/grid/raw/master/ibm-type.sketch).
 
 ### Type scales and weights
+
 We consider both performance and craftmanship of typography. When we think of type ratio, we keep in mind what works for IBM Plex and effectively deliver and organize the content for our viewers. Based on the type ratio, we have a basic set of styles: 14, 16, 26, 44, and 56. Based on the type scales, IBM Plex Sans Light works well in large scale type sizes and IBM Plex Sans  Regular works well for relevant small type size.
 
 IBM Plex Sans Light, IBM Plex Sans Regular, IBM Plex Sans SemiBold will be the primary weights for digital environment. ExtraLight and Thin are not for digital environments.
@@ -62,9 +62,9 @@ If you want to use the compiled css, reference the file in the dist folder:
 
 If you want to use the sass partials, import the files in the src folder:
 ```
-@import 'node_modules/@ibm/grid/src/_core.scss';
-@import 'node_modules/@ibm/grid/src/_styles.scss';
-@import 'node_modules/@ibm/grid/src/_width.scss';
+@import 'node_modules/@ibm/type/src/_core.scss';
+@import 'node_modules/@ibm/type/src/_styles.scss';
+@import 'node_modules/@ibm/type/src/_width.scss';
 ```
 
 Check out the Performance section below for a description of each partial.
