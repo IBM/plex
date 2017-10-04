@@ -35,6 +35,7 @@ gulp.task('grid', function () {
 
 gulp.task('watch', function () {
 	browserSync.init({
+		open: false,
 		server: {
 			baseDir: "./docs"
 		}

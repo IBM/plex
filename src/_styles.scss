@@ -331,7 +331,13 @@ $ibm-type-prescription-map: (
 );
 
 @mixin fluidRule($rule, $minSize, $maxSize, $minViewport, $maxViewport) {
+	
 	#{$rule}: calc(#{strip-unit($minSize) * $base-unit}px + #{(strip-unit($maxSize) - strip-unit($minSize)) * $base-unit / ($maxViewport - $minViewport)} * (100vw - #{$minViewport}px));
+	@if $rule == "font-size" {
+		&.ibm-type-serif {
+			font-size: calc(#{strip-unit($minSize) * $base-unit - 1}px + #{(strip-unit($maxSize) - strip-unit($minSize)) * ($base-unit - 1) / ($maxViewport - $minViewport)} * (100vw - #{$minViewport}px));
+		}
+	}
 }
 
 @mixin fluidRules($prescription, $breakpoint, $margin: true) {
@@ -376,7 +382,11 @@ $ibm-type-prescription-map: (
 }
 
 @mixin typePrescription($prescription, $margin: true) {
-	font-size: getFontSize(map-get(map-get($prescription, 'sm'), 'step'));
+	$size: getFontSize(map-get(map-get($prescription, 'sm'), 'step'));
+	font-size: $size;
+	&.ibm-type-serif {
+		font-size: calc(#{$size} - 1px);
+	}
 	font-weight: map-get(map-get($prescription, 'sm'), 'font-weight');
 	line-height: getLineHeight(map-get(map-get($prescription, 'sm'), 'step'));
 
@@ -420,7 +430,11 @@ $ibm-type-prescription-map: (
 
 	@if map-has-key($prescription, 'md') {
 		@media (min-width: $breakpoint--md + 'px') {
-			font-size: getFontSize(map-get(map-get($prescription, 'md'), 'step'));
+			$size: getFontSize(map-get(map-get($prescription, 'md'), 'step'));
+			font-size: $size;
+			&.ibm-type-serif {
+				font-size: calc(#{$size} - 1px);
+			}
 			line-height: getLineHeight(map-get(map-get($prescription, 'md'), 'step'));
 			
 
@@ -452,7 +466,11 @@ $ibm-type-prescription-map: (
 
 	@if map-has-key($prescription, 'lg') {
 		@media (min-width: $breakpoint--lg + 'px') {
-			font-size: getFontSize(map-get(map-get($prescription, 'lg'), 'step'));
+			$size: getFontSize(map-get(map-get($prescription, 'lg'), 'step'));
+			font-size: $size;
+			&.ibm-type-serif {
+				font-size: calc(#{$size} - 1px);
+			}
 			line-height: getLineHeight(map-get(map-get($prescription, 'lg'), 'step'));
 
 			@if map-has-key(map-get($prescription, 'lg'), 'letter-spacing') {
@@ -476,7 +494,11 @@ $ibm-type-prescription-map: (
 
 	@if map-has-key($prescription, 'max') {
 		@media (min-width: $breakpoint--max + 'px') {
-			font-size: getFontSize(map-get(map-get($prescription, 'max'), 'step'));
+			$size: getFontSize(map-get(map-get($prescription, 'max'), 'step'));
+			font-size: $size;
+			&.ibm-type-serif {
+				font-size: calc(#{$size} - 1px);
+			}
 			line-height: getLineHeight(map-get(map-get($prescription, 'max'), 'step'));
 
 			@if map-has-key(map-get($prescription, 'max'), 'letter-spacing') {
@@ -496,6 +518,10 @@ $ibm-type-prescription-map: (
 
 body {
 	font-size: #{$base-unit}px;
+
+	&.ibm-type-serif, .ibm-type-serif {
+		font-size: #{$base-unit - 1}px;
+	}
 }
 
 @each $name, $prescription in $ibm-type-prescription-map {
