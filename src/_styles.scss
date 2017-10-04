@@ -362,7 +362,7 @@ $ibm-type-prescription-map: (
 	
 	@if map-get($last-specs, 'letter-spacing') != null and map-get(map-get($prescription, $breakpoint), 'letter-spacing') != null {
 		@include fluidRule(
-			margin-bottom,
+			letter-spacing,
 			map-get($last-specs, 'letter-spacing'),
 			map-get(map-get($prescription, $breakpoint), 'letter-spacing'),
 			$last-breakpoint,

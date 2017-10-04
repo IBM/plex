@@ -144,7 +144,7 @@ body {
     .ibm-type-a {
       font-size: calc(12px + 0.00673 * (100vw - 1056px));
       line-height: calc(16px + 0.0101 * (100vw - 1056px));
-      margin-bottom: calc(0.32px + -0.00054 * (100vw - 1056px));
+      letter-spacing: calc(0.32px + -0.00054 * (100vw - 1056px));
       margin-bottom: calc(20px + 0.00673 * (100vw - 1056px)); }
       .ibm-type-a.ibm-type-serif {
         font-size: calc(11px + 0.00631 * (100vw - 1056px)); } }
@@ -169,7 +169,7 @@ body {
     .ibm-type-b {
       font-size: calc(14px + 0.00673 * (100vw - 1056px));
       line-height: calc(20px + 0.00673 * (100vw - 1056px));
-      margin-bottom: calc(0.16px + -0.00027 * (100vw - 1056px));
+      letter-spacing: calc(0.16px + -0.00027 * (100vw - 1056px));
       margin-bottom: calc(20px + 0.00673 * (100vw - 1056px)); }
       .ibm-type-b.ibm-type-serif {
         font-size: calc(13px + 0.00631 * (100vw - 1056px)); } }
