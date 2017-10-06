@@ -6,7 +6,7 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 
 gulp.task('clean', function () {
-	return del(['dist/**/*']);
+	return del(['dist/**/*', 'docs/css/**/*', 'docs/fonts/**/*']);
 });
 
 gulp.task('styles', function () {
@@ -35,7 +35,6 @@ gulp.task('grid', function () {
 
 gulp.task('watch', function () {
 	browserSync.init({
-		open: false,
 		server: {
 			baseDir: "./docs"
 		}

@@ -1,157 +1,61 @@
-/**
-  Font Weights:
-  300 - Light
-  400 - Regular
-  600 - Semi Bold (Default Bold)
-**/
-
-$plexFontFamilyMono : 'ibm-plex-mono';
-$plexFontFamilySans : 'ibm-plex-sans';
-$plexFontFamilySerif : 'ibm-plex-serif';
-
-$fontPathMono: 'mono';
-$fontPathSans: 'sans';
-$fontPathSerif: 'serif';
-
 $unicodes: (
-  Latin: 'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215',
-  Latin-Ext: 'U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF',
-  Vietnamese: 'U+0102-0103, U+1EA0-1EF9, U+20AB',
+  Latin1: 'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC',
+  Latin2: 'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02',
+  Latin3: 'U+0102-0103, U+1EA0-1EF9, U+20AB',
+  Pi: 'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'
 );
 
-@mixin addFonts ($fontPath, $fontname) {
-  src: url('../fonts/#{$fontPath}/web/woff2/#{$fontname}.woff2') format('woff2'),
-    url('../fonts/#{$fontPath}/web/woff/#{$fontname}.woff') format('woff');
-}
+$families: (
+  "Mono": "\"ibm-plex-mono\", \"Menlo\", \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", Courier, monospace",
+  "Sans": "\"ibm-plex-sans\", \"Helvetica Neue\", Arial, sans-serif",
+  "Serif": "\"ibm-plex-serif\", \"Georgia\", Times, serif",
+);
 
-@mixin addFontPartial($fontPath, $fontname, $partial) {
-  @include addFonts($fontPath, #{$fontname + '-' + $partial});
-  unicode-range: map-get($unicodes, $partial);
-}
+$weights: (
+  "Italic": (
+    font-style: italic,
+    font-weight: 400,
+  ),
+  "Light": (
+    font-style: normal,
+    font-weight: 300,
+  ),
+  "LightItalic": (
+    font-style: italic,
+    font-weight: 300,
+  ),
+  "Regular": (
+    font-style: normal,
+    font-weight: 400,
+  ),
+  "SemiBold": (
+    font-style: normal,
+    font-weight: 600,
+  ),
+  "SemiBoldItalic": (
+    font-style: italic,
+    font-weight: 600,
+  )
+);
 
-
-@mixin plexMono {
-  font-family: "ibm-plex-mono", "Menlo", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Courier, monospace;
-}
-
-@mixin plexSans {
-  font-family: "ibm-plex-sans", "Helvetica Neue", Arial, sans-serif;
-}
-
-@mixin plexSerif {
-  font-family: "ibm-plex-serif", "Georgia", Times, serif;
-}
-
-@font-face {
-  @include addFonts($fontPathSans, 'IBMPlexSans-Light');
-  font-family: $plexFontFamilySans;
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  @include addFonts($fontPathSans, 'IBMPlexSans-LightItalic');
-  font-family: $plexFontFamilySans;
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  @include addFontPartial($fontPathSans, 'IBMPlexSans-Regular', 'Vietnamese');
-  font-family: $plexFontFamilySans;
-  font-weight: 400;
-}
-
-@font-face {
-  @include addFontPartial($fontPathSans, 'IBMPlexSans-Regular', 'Latin-Ext');
-  font-family: $plexFontFamilySans;
-  font-weight: 400;
-}
-
-@font-face {
-  @include addFontPartial($fontPathSans, 'IBMPlexSans-Regular', 'Latin');
-  font-family: $plexFontFamilySans;
-  font-weight: 400;
-}
-
-@font-face {
-  @include addFonts($fontPathSans, 'IBMPlexSans-Italic');
-  font-family: $plexFontFamilySans;
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  @include addFonts($fontPathSans, 'IBMPlexSans-SemiBold');
-  font-family: $plexFontFamilySans;
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  @include addFonts($fontPathSans, 'IBMPlexSans-SemiBoldItalic');
-  font-family: $plexFontFamilySans;
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-face {
-  @include addFonts($fontPathMono, 'IBMPlexMono-Regular');
-  font-family: $plexFontFamilyMono;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* Serif */
-
-@font-face {
-  @include addFonts($fontPathSerif, 'IBMPlexSerif-Light');
-  font-family: $plexFontFamilySerif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  @include addFonts($fontPathSerif, 'IBMPlexSerif-LightItalic');
-  font-family: $plexFontFamilySerif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  @include addFonts($fontPathSerif, 'IBMPlexSerif-Regular');
-  font-family: $plexFontFamilySerif;
-  font-weight: 400;
-}
-
-@font-face {
-  @include addFonts($fontPathSerif, 'IBMPlexSerif-Italic');
-  font-family: $plexFontFamilySerif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  @include addFonts($fontPathSerif, 'IBMPlexSerif-SemiBold');
-  font-family: $plexFontFamilySerif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  @include addFonts($fontPathSerif, 'IBMPlexSerif-SemiBoldItalic');
-  font-family: $plexFontFamilySerif;
-  font-weight: 600;
-  font-style: italic;
+@each $family, $fallbacks in $families {
+  @each $weight, $styles in $weights {
+    @each $unicode, $range in $unicodes {
+      @font-face {
+        font-family: $fallbacks;
+        font-style: map-get($styles, "font-style");
+        font-weight: map-get($styles, "font-weight");
+        src: url('../fonts/#{$family}/web/woff2/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff2') format('woff2'),
+          url('../fonts/#{$family}/web/woff/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff') format('woff');
+        unicode-range: map-get($unicodes, $unicode);
+      }
+    }
+  }
 }
 
 .ibm,
 [class*="ibm-type"] {
-  font-family: $plexFontFamilySans;
-  font-size: 100%;
-  margin-top: 0;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  font-family: map-get($families, "Sans");
 }
 
 [class*="ibm-type"] {
@@ -169,7 +73,7 @@ $unicodes: (
 code,
 .ibm-type-mono,
 .ibm-type-mono * {
-  font-family: $plexFontFamilyMono;
+  font-family: map-get($families, "Mono");
 }
 
 .ibm-type-regular {
@@ -183,5 +87,5 @@ strong,
 
 .ibm-type-serif,
 .ibm-type-serif * {
-  font-family: $plexFontFamilySerif;
+  font-family:  map-get($families, "Serif");
 }
