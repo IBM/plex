@@ -19,8 +19,7 @@
   "license": "OFL-1.1 AND Apache-2.0",
   "pre-commit": "test",
   "scripts": {
-    "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch",
-    "test": "node test.js"
+    "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch"
   },
   "dependencies": {}
 }
