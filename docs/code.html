@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IBM Type - Code</title>
+	</head>
+	<body>
+		<div class="ibm">
+			<section>
+				<div>
+					<h1 class="ibm-type-f">IBM Type</h1>
+					<p class="ibm-type-f">The package of IBM’s new typeface, IBM Plex, and accompanying typography code. Find installation instructions on the <a href="https://github.com/ibm/type">Github repo.</a></p>
+				</div>
+			</section>
+
+			<section class="ibm-col-group">
+				<div>
+					<h2 class="ibm-type-f">Characters</h2>
+				</div>
+				<div class="ibm-col-md-4">
+					<p class="ibm-type-c">To ensure that correct characters load in HTML, add the meta tag for UTC-8.</p>
+					<p class="ibm-type-c">A common example of why this is necessary is when correcting a straight single quote (') for an actual apostraphe (’).
+				</div>
+				<div class="ibm-col-md-4 ibm-col-full black">
+					<div class="ibm-col-full_padding">
+						<pre><p class="ibm-type-c ibm-type-mono">&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  ...
+&lt;/head&gt;</p></pre>
+					</div>
+				</div>
+			</section>
+
+			<section class="ibm-col-group">
+				<div>
+					<h2 class="ibm-type-f">Weights</h2>
+				</div>
+				<div class="ibm-col-lg-8">
+					<h3 class="ibm-type-d">Recommended</h3>
+					<p class="ibm-type-c">There are three font weights loaded by our type scale:</p>
+				</div>
+				<div class="ibm-col-lg-8">
+					<h3 class="ibm-type-d">Extra</h3>
+					<p class="ibm-type-c">Ten additional font weights are available to use sparingly. Keep in mind that each weight added to a web experience will increase load time:</p>
+				</div>
+				<div class="ibm-col-lg-8 ibm-col-group baseline">
+					<div class="ibm-col-full grey">
+						<div class="ibm-col-full_padding ibm-type">
+							<p class="ibm-type-light">Light</p>
+							<p>Regular</p>
+							<p class="ibm-type-semibold">SemiBold</p>
+						</div>
+					</div>
+					<div class="ibm-col-full black">
+						<div class="ibm-col-full_padding">
+							<pre><p class="ibm-type-mono ibm-type-c">&lt;!-- .ibm is not needed if using type scale classes --&gt;
+
+&lt;div class=&quot;ibm&quot;&gt;
+	&lt;p class=&quot;ibm-type-light&quot;&gt;Light&lt;/p&gt;
+	&lt;p&gt;Regular&lt;/p&gt;
+	&lt;p class=&quot;ibm-type-semibold&quot;&gt;SemiBold&lt;/p&gt;
+&lt;/div&gt;</p></pre>
+						</div>
+					</div>
+				</div>
+				<div class="ibm-col-lg-8 ibm-col-group baseline">
+					<div class="ibm-col-full grey">
+							<div class="ibm-col-full_padding ibm-type">
+								<p class="ibm-type-italic">Italic</p>
+								<p class="ibm-type-light ibm-type-italic">Light Italic</p>
+								<p class="ibm-type-mono">Mono</p>
+								<p class="ibm-type-italic ibm-type-semibold">SemiBold Italic</p>
+								<p class="ibm-type-serif ibm-type-light">Serif Light</p>
+								<p class="ibm-type-serif ibm-type-light ibm-type-italic">Serif Light Italic</p>
+								<p class="ibm-type-serif">Serif Regular</p>
+								<p class="ibm-type-serif ibm-type-italic">Serif Regular Italic</p>
+								<p class="ibm-type-serif ibm-type-semibold">Serif SemiBold</p>
+								<p class="ibm-type-serif ibm-type-semibold ibm-type-italic">Serif SemiBold Italic</p>
+							</div>
+					</div>
+					<div class="ibm-col-full black overflow">
+						<div class="ibm-col-full_padding">
+							<pre><p class="ibm-type-mono ibm-type-c">&lt;!-- .ibm is not needed if using type scale classes --&gt;
+
+&lt;div class=&quot;ibm&quot;&gt;
+  &lt;p class=&quot;ibm-type-italic&quot;&gt;Italic&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-light ibm-type-italic&quot;&gt;Light Italic&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-mono&quot;&gt;Mono&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-italic ibm-type-semibold&quot;&gt;SemiBold Italic&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-serif ibm-type-light&quot;&gt;Serif Light&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-serif ibm-type-light ibm-type-italic&quot;&gt;Serif Light Italic&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-serif&quot;&gt;Serif Regular&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-serif ibm-type-italic&quot;&gt;Serif Regular Italic&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-serif ibm-type-semibold&quot;&gt;Serif SemiBold&lt;/p&gt;
+  &lt;p class=&quot;ibm-type-serif ibm-type-semibold ibm-type-italic&quot;&gt;Serif SemiBold Italic&lt;/p&gt;
+&lt;/div&gt;</p></pre>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="ibm-col-group">
+				<div>
+					<h2 class="ibm-type-f">Styles</h2>
+				</div>
+				<div>
+					<p class="ibm-type-c">There are two prescriptive sets of the same type scale. Both variations start to differentiate at the size of Type D. You are able to toggle between type scales based on editorial and product use.</p>
+					<p class="ibm-type-c">The type styles will apply font sizing, weight, line height, character spacing, and bottom margin for you. Please add a negative left margin when the line starts away from container padding. Further bottom margin specifications should be considered when pairing different parts of the scale together.</p>
+					<p class="ibm-type-c">The type scale variations are fluid. This means that there are fixed sizes at the small, medium, and large breakpoints. However, the text sizes will increase and decrease between those screen width breakpoints for perfect sizing with the user's device.</p>
+					<p class="ibm-type-c">When applying a type style to the serif family, the size will always be 1px smaller than sans-serif and mono. This is due to an optical test revealing that the serif files appear larger than the other families.</p>
+				</div>
+				<div class="ibm-col-lg-8 ibm-col-group">
+					<h3 class="ibm-type-d">Editorial</h3>
+					<div class="ibm-col-full grey">
+						<div class="ibm-col-full_padding collection">
+							<p class="ibm-type-a">Type A</p>
+							<p class="ibm-type-b">Type B</p>
+							<p class="ibm-type-c">Type C</p>
+							<p class="ibm-type-d">Type D</p>
+							<p class="ibm-type-f">Type F</p>
+							<p class="ibm-type-i">Type I</p>
+							<p class="ibm-type-j">Type J</p>
+							<p class="ibm-type-k">Type K</p>
+						</div>
+					</div>
+					<div class="ibm-col-full overflow black">
+						<div class="ibm-col-full_padding">
+							<pre><p class="ibm-type-mono ibm-type-c">&lt;p class=&quot;ibm-type-a&quot;&gt;Type A&lt;/p&gt;
+&lt;p class=&quot;ibm-type-b&quot;&gt;Type B&lt;/p&gt;
+&lt;p class=&quot;ibm-type-c&quot;&gt;Type C&lt;/p&gt;
+&lt;p class=&quot;ibm-type-d&quot;&gt;Type D&lt;/p&gt;
+&lt;p class=&quot;ibm-type-f&quot;&gt;Type F&lt;/p&gt;
+&lt;p class=&quot;ibm-type-i&quot;&gt;Type I&lt;/p&gt;
+&lt;p class=&quot;ibm-type-j&quot;&gt;Type J&lt;/p&gt;
+&lt;p class=&quot;ibm-type-k&quot;&gt;Type K&lt;/p&gt;</p></pre>
+							</div>
+						</div>
+					</div>
+
+				<div class="ibm-col-lg-8 ibm-col-group baseline">
+					<h3 class="ibm-type-d">Product</h3>
+					<div class="ibm-col-full grey">
+						<div class="ibm-col-full_padding collection">
+							<p class="ibm-type-a">Type A</p>
+							<p class="ibm-type-b">Type B</p>
+							<p class="ibm-type-c">Type C</p>
+							<p class="ibm-type-d">Type D</p>
+							<p class="ibm-type-e">Type E</p>
+							<p class="ibm-type-g">Type G</p>
+							<p class="ibm-type-h">Type H</p>
+						</div>
+					</div>
+					<div class="ibm-col-full overflow black">
+						<div class="ibm-col-full_padding">
+							<pre><p class="ibm-type-mono ibm-type-c">&lt;p class=&quot;ibm-type-a&quot;&gt;Type A&lt;/p&gt;
+&lt;p class=&quot;ibm-type-b&quot;&gt;Type B&lt;/p&gt;
+&lt;p class=&quot;ibm-type-c&quot;&gt;Type C&lt;/p&gt;
+&lt;p class=&quot;ibm-type-d&quot;&gt;Type D&lt;/p&gt;
+&lt;p class=&quot;ibm-type-e&quot;&gt;Type E&lt;/p&gt;
+&lt;p class=&quot;ibm-type-g&quot;&gt;Type G&lt;/p&gt;
+&lt;p class=&quot;ibm-type-h&quot;&gt;Type H&lt;/p&gt;</p></pre>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="ibm-col-group">
+				<div>
+					<h2 class="ibm-type-f">Line Length</h2>
+					<p class="ibm-type-c">If you use <a href="https://github.com/ibm/grid">IBM Grid</a>, the code in IBM Type will automatically apply maximum line lengths to the type for readability. This is based on which type prescription is used within which grid item size:</p>
+
+					<script>
+						var change = function(control) {
+							var elements = document.getElementsByClassName('change');
+							for (i = 0; i < elements.length; i++) {
+								elements[i].classList = 'change ibm-type-' + control.value;
+							}
+						}
+					</script>
+					<select class="ibm-type-c" id="choice" onchange="change(this)">
+						<option value="a">Type A</option>
+						<option value="b">Type B</option>
+						<option value="c" selected>Type C</option>
+						<option value="d">Type D</option>
+						<option value="e">Type E</option>
+						<option value="f">Type F</option>
+						<option value="g">Type G</option>
+						<option value="h">Type H</option>
+						<option value="i">Type I</option>
+						<option value="j">Type J</option>
+						<option value="k">Type K</option>
+					</select>
+				</div>
+				<div class="ibm-col-group">
+					<div class="grey">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+
+					<div class="ibm-col-sm-2 ibm-col-md-6 ibm-col-lg-8 teal">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-8 purple">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+
+					<div class="ibm-col-sm-2 ibm-col-md-2 red">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 blue">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 grey">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 teal">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+
+
+
+					<div class="ibm-col-sm-2 ibm-col-md-2 purple">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-4 red">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 blue">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+
+					<div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-8 grey">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-2 blue">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-2 grey">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 teal">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 purple">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+
+					<div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-4 red">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-6 blue">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-6 grey">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+
+					<div class="ibm-col-md-2 ibm-col-lg-2 teal">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 purple">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-2 red">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-2 ibm-col-lg-10 blue">
+						<p class="ibm-type-c change">This is a sentence using the IBM Type’s scale. We can see the line length code enforcing maximum widths on text elements within IBM Grid.
+					</div>
+				</div>
+			</section>
+		</div>
+		<link href="./css/ibm-type.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./css/ibm-grid.min.css">		
+		<style type="text/css">			
+			body {
+				background:#ebebeb
+			}
+
+			a {
+				color: #0034CC;
+				text-decoration: none;
+			}
+
+			section {
+				margin-bottom: 8rem;
+			}
+
+			pre p {
+				margin-bottom: 0 !important;
+			}
+
+			.baseline {
+				align-content: baseline;
+				border-left: 1px solid #ebebeb;
+			}
+
+			.overflow {
+				overflow-x: scroll;
+			}
+
+			.collection > *:last-child {
+				margin-bottom: 0;
+			}
+
+			.black {
+				background: #000;
+				color: #fff;
+			}
+
+      .blue {
+        background: #c5deff;
+      }
+
+      .grey {
+        background: #d8d8d8;
+      }
+
+      .purple {
+        background: #b380e0;
+      }
+
+      .red {
+        background: #d75193;
+      }
+
+      .teal {
+        background: #5de4e2;
+      }
+		</style>
+	</body>
+</html>
