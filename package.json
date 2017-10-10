@@ -7,7 +7,7 @@
     "url": "https://github.com/ibm/type/issues"
   },
   "devDependencies": {
-    "@ibm/grid": "^0.1.0",
+    "@ibm/grid": "git://github.com/ibm/grid.git#v0.2.0",
     "browser-sync": "^2.18.12",
     "del": "^3.0.0",
     "gulp": "^3.9.1",

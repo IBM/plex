@@ -12,13 +12,11 @@
 	.ibm-type-b {
 		max-width: 62.5vw;
 	}
-
-	.ibm-col-sm-2,
-	.ibm-col-sm-3,
-	.ibm-col-md-4,
-	.ibm-col-md-5 {
-		[class*="ibm-type-"] {
-			max-width: 40.625vw;
+	
+	.ibm-col-sm-4,
+	.ibm-col-md-8 {
+		.ibm-type-b {
+			max-width: 62.5vw;
 		}
 	}
 
@@ -29,17 +27,19 @@
 		}
 	}
 
-	[class*="ibm-col-"] {
-		.ibm-type-a,
-		.ibm-type-b {
+	.ibm-col-sm-2,
+	.ibm-col-sm-3,
+	.ibm-col-md-4,
+	.ibm-col-md-5 {
+		[class*="ibm-type-"] {
 			max-width: 40.625vw;
 		}
 	}
 
-	.ibm-col-sm-4,
-	.ibm-col-md-8 {
+	[class*="ibm-col-"] {
+		.ibm-type-a,
 		.ibm-type-b {
-			max-width: 62.5vw;
+			max-width: 40.625vw;
 		}
 	}
 }
@@ -73,22 +73,7 @@
 	.ibm-type-k {
 		max-width: 71.875vw;
 	}
-
-	.ibm-col-sm-2,
-	.ibm-col-sm-3 {
-		[class*="ibm-type-"] {
-			max-width: 37.5vw;
-		}
-
-		.ibm-type-a {
-			max-width: 18.75vw;
-		}
-
-		.ibm-type-b {
-			max-width: 28.125vw;
-		}
-	}
-
+	
 	.ibm-col-sm-4 {
 		.ibm-type-a {
 			max-width: 18.75vw;
@@ -119,16 +104,9 @@
 			max-width: 71.875vw;
 		}
 	}
-	
-	.ibm-col-md-2,
-	.ibm-col-md-3 {
-		[class*="ibm-type-"] {
-			max-width: 18.75vw;
-		}
-	}
 
-	.ibm-col-md-4,
-	.ibm-col-md-5 {
+	.ibm-col-sm-2,
+	.ibm-col-sm-3 {
 		[class*="ibm-type-"] {
 			max-width: 37.5vw;
 		}
@@ -142,26 +120,7 @@
 		}
 	}
 
-	.ibm-col-md-6,
-	.ibm-col-md-7 {
-		[class*="ibm-type-"] {
-			max-width: 56.25vw;
-		}
 
-		.ibm-type-a {
-			max-width: 18.75vw;
-		}
-
-		.ibm-type-b {
-			max-width: 28.125vw;
-		}
-
-		.ibm-type-c ,
-		.ibm-type-d {
-			max-width: 46.875vw;
-		}
-	}
-	
 	.ibm-col-md-8 {
 		.ibm-type-a {
 			max-width: 18.75vw;
@@ -192,27 +151,29 @@
 			max-width: 71.875vw;
 		}
 	}
-
-	.ibm-col-lg-4,
-	.ibm-col-lg-5 {
-		[class*="ibm-type-"] {
-			max-width: 18.75vw;
-		}
-	}
 	
-	.ibm-col-lg-6,
-	.ibm-col-lg-7 {
+	.ibm-col-md-6,
+	.ibm-col-md-7 {
 		[class*="ibm-type-"] {
-			max-width: 28.125vw;
+			max-width: 56.25vw;
 		}
 
 		.ibm-type-a {
 			max-width: 18.75vw;
 		}
+
+		.ibm-type-b {
+			max-width: 28.125vw;
+		}
+
+		.ibm-type-c ,
+		.ibm-type-d {
+			max-width: 46.875vw;
+		}
 	}
 	
-	.ibm-col-lg-8,
-	.ibm-col-lg-9 {
+	.ibm-col-md-4,
+	.ibm-col-md-5 {
 		[class*="ibm-type-"] {
 			max-width: 37.5vw;
 		}
@@ -226,67 +187,13 @@
 		}
 	}
 	
-	.ibm-col-lg-10,
-	.ibm-col-lg-11 {
+	.ibm-col-md-2,
+	.ibm-col-md-3 {
 		[class*="ibm-type-"] {
-			max-width: 46.875vw;
-		}
-
-		.ibm-type-a {
 			max-width: 18.75vw;
-		}
-
-		.ibm-type-b {
-			max-width: 28.125vw;
-		}
-	}
-
-	.ibm-col-lg-12,
-	.ibm-col-lg-13 {
-		[class*="ibm-type-"] {
-			max-width: 56.25vw;
-		}
-
-		.ibm-type-a {
-			max-width: 18.75vw;
-		}
-
-		.ibm-type-b {
-			max-width: 28.125vw;
-		}
-
-		.ibm-type-c ,
-		.ibm-type-d {
-			max-width: 46.875vw;
 		}
 	}
 	
-	.ibm-col-lg-14,
-	.ibm-col-lg-15 {
-		[class*="ibm-type-"] {
-			max-width: 65.625vw
-		}
-
-		.ibm-type-a {
-			max-width: 18.75vw;
-		}
-
-		.ibm-type-b {
-			max-width: 28.125vw;
-		}
-		
-		.ibm-type-c ,
-		.ibm-type-d {
-			max-width: 46.875vw;
-		}
-		
-		.ibm-type-e,
-		.ibm-type-g,
-		.ibm-type-h {
-			max-width: 56.25vw;
-		}
-	}
-
 	.ibm-col-lg-16 {
 		.ibm-type-a {
 			max-width: 18.75vw;
@@ -315,6 +222,100 @@
 		.ibm-type-j,
 		.ibm-type-k {
 			max-width: 71.875vw;
+		}
+	}
+	
+	.ibm-col-lg-14,
+	.ibm-col-lg-15 {
+		[class*="ibm-type-"] {
+			max-width: 65.625vw
+		}
+
+		.ibm-type-a {
+			max-width: 18.75vw;
+		}
+
+		.ibm-type-b {
+			max-width: 28.125vw;
+		}
+		
+		.ibm-type-c ,
+		.ibm-type-d {
+			max-width: 46.875vw;
+		}
+		
+		.ibm-type-e,
+		.ibm-type-g,
+		.ibm-type-h {
+			max-width: 56.25vw;
+		}
+	}
+	
+	.ibm-col-lg-12,
+	.ibm-col-lg-13 {
+		[class*="ibm-type-"] {
+			max-width: 56.25vw;
+		}
+
+		.ibm-type-a {
+			max-width: 18.75vw;
+		}
+
+		.ibm-type-b {
+			max-width: 28.125vw;
+		}
+
+		.ibm-type-c ,
+		.ibm-type-d {
+			max-width: 46.875vw;
+		}
+	}
+	
+	.ibm-col-lg-10,
+	.ibm-col-lg-11 {
+		[class*="ibm-type-"] {
+			max-width: 46.875vw;
+		}
+
+		.ibm-type-a {
+			max-width: 18.75vw;
+		}
+
+		.ibm-type-b {
+			max-width: 28.125vw;
+		}
+	}
+	
+	.ibm-col-lg-8,
+	.ibm-col-lg-9 {
+		[class*="ibm-type-"] {
+			max-width: 37.5vw;
+		}
+
+		.ibm-type-a {
+			max-width: 18.75vw;
+		}
+
+		.ibm-type-b {
+			max-width: 28.125vw;
+		}
+	}
+	
+	.ibm-col-lg-6,
+	.ibm-col-lg-7 {
+		[class*="ibm-type-"] {
+			max-width: 28.125vw;
+		}
+
+		.ibm-type-a {
+			max-width: 18.75vw;
+		}
+	}
+
+	.ibm-col-lg-4,
+	.ibm-col-lg-5 {
+		[class*="ibm-type-"] {
+			max-width: 18.75vw;
 		}
 	}
 }
@@ -348,22 +349,7 @@
 	.ibm-type-k {
 		max-width: unquote(71.875 / 100 * $breakpoint--max + 'px');
 	}
-
-	.ibm-col-sm-2,
-	.ibm-col-sm-3 {
-		[class*="ibm-type-"] {
-			max-width: unquote(37.5 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-a {
-			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-b {
-			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
-		}
-	}
-
+	
 	.ibm-col-sm-4 {
 		.ibm-type-a {
 			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
@@ -394,16 +380,9 @@
 			max-width: unquote(71.875 / 100 * $breakpoint--max + 'px');
 		}
 	}
-	
-	.ibm-col-md-2,
-	.ibm-col-md-3 {
-		[class*="ibm-type-"] {
-			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
-		}
-	}
 
-	.ibm-col-md-4,
-	.ibm-col-md-5 {
+	.ibm-col-sm-2,
+	.ibm-col-sm-3 {
 		[class*="ibm-type-"] {
 			max-width: unquote(37.5 / 100 * $breakpoint--max + 'px');
 		}
@@ -416,7 +395,7 @@
 			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
 		}
 	}
-
+	
 	.ibm-col-md-6,
 	.ibm-col-md-7 {
 		[class*="ibm-type-"] {
@@ -434,6 +413,28 @@
 		.ibm-type-c ,
 		.ibm-type-d {
 			max-width: unquote(46.875 / 100 * $breakpoint--max + 'px');
+		}
+	}
+	
+	.ibm-col-md-4,
+	.ibm-col-md-5 {
+		[class*="ibm-type-"] {
+			max-width: unquote(37.5 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-a {
+			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-b {
+			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
+		}
+	}
+	
+	.ibm-col-md-2,
+	.ibm-col-md-3 {
+		[class*="ibm-type-"] {
+			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
 		}
 	}
 	
@@ -467,101 +468,7 @@
 			max-width: unquote(71.875 / 100 * $breakpoint--max + 'px');
 		}
 	}
-
-	.ibm-col-lg-4,
-	.ibm-col-lg-5 {
-		[class*="ibm-type-"] {
-			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
-		}
-	}
 	
-	.ibm-col-lg-6,
-	.ibm-col-lg-7 {
-		[class*="ibm-type-"] {
-			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-a {
-			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
-		}
-	}
-	
-	.ibm-col-lg-8,
-	.ibm-col-lg-9 {
-		[class*="ibm-type-"] {
-			max-width: unquote(37.5 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-a {
-			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-b {
-			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
-		}
-	}
-	
-	.ibm-col-lg-10,
-	.ibm-col-lg-11 {
-		[class*="ibm-type-"] {
-			max-width: unquote(46.875 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-a {
-			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-b {
-			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
-		}
-	}
-
-	.ibm-col-lg-12,
-	.ibm-col-lg-13 {
-		[class*="ibm-type-"] {
-			max-width: unquote(56.25 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-a {
-			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-b {
-			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-c ,
-		.ibm-type-d {
-			max-width: unquote(46.875 / 100 * $breakpoint--max + 'px');
-		}
-	}
-	
-	.ibm-col-lg-14,
-	.ibm-col-lg-15 {
-		[class*="ibm-type-"] {
-			max-width: unquote(65.625vw / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-a {
-			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
-		}
-
-		.ibm-type-b {
-			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
-		}
-		
-		.ibm-type-c ,
-		.ibm-type-d {
-			max-width: unquote(46.875 / 100 * $breakpoint--max + 'px');
-		}
-		
-		.ibm-type-e,
-		.ibm-type-g,
-		.ibm-type-h {
-			max-width: unquote(56.25 / 100 * $breakpoint--max + 'px');
-		}
-	}
-
 	.ibm-col-lg-16 {
 		.ibm-type-a {
 			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
@@ -590,6 +497,100 @@
 		.ibm-type-j,
 		.ibm-type-k {
 			max-width: unquote(71.875 / 100 * $breakpoint--max + 'px');
+		}
+	}
+	
+	.ibm-col-lg-14,
+	.ibm-col-lg-15 {
+		[class*="ibm-type-"] {
+			max-width: unquote(65.625vw / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-a {
+			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-b {
+			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
+		}
+		
+		.ibm-type-c ,
+		.ibm-type-d {
+			max-width: unquote(46.875 / 100 * $breakpoint--max + 'px');
+		}
+		
+		.ibm-type-e,
+		.ibm-type-g,
+		.ibm-type-h {
+			max-width: unquote(56.25 / 100 * $breakpoint--max + 'px');
+		}
+	}
+	
+	.ibm-col-lg-12,
+	.ibm-col-lg-13 {
+		[class*="ibm-type-"] {
+			max-width: unquote(56.25 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-a {
+			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-b {
+			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-c ,
+		.ibm-type-d {
+			max-width: unquote(46.875 / 100 * $breakpoint--max + 'px');
+		}
+	}
+	
+	.ibm-col-lg-10,
+	.ibm-col-lg-11 {
+		[class*="ibm-type-"] {
+			max-width: unquote(46.875 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-a {
+			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-b {
+			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
+		}
+	}
+	
+	.ibm-col-lg-8,
+	.ibm-col-lg-9 {
+		[class*="ibm-type-"] {
+			max-width: unquote(37.5 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-a {
+			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-b {
+			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
+		}
+	}
+	
+	.ibm-col-lg-6,
+	.ibm-col-lg-7 {
+		[class*="ibm-type-"] {
+			max-width: unquote(28.125 / 100 * $breakpoint--max + 'px');
+		}
+
+		.ibm-type-a {
+			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
+		}
+	}
+
+	.ibm-col-lg-4,
+	.ibm-col-lg-5 {
+		[class*="ibm-type-"] {
+			max-width: unquote(18.75 / 100 * $breakpoint--max + 'px');
 		}
 	}
 }
