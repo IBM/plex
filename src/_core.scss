@@ -6,15 +6,15 @@ $unicodes: (
 );
 
 $families: (
-  "Mono": unquote("\"ibm-plex-mono\""),
-  "Sans": unquote("\"ibm-plex-sans\""),
-  "Serif": unquote("\"ibm-plex-serif\""),
+  "Mono": unquote("\'ibm-plex-mono\'"),
+  "Sans": unquote("\'ibm-plex-sans\'"),
+  "Serif": unquote("\'ibm-plex-serif\'"),
 );
 
 $fallbacks: (
-  "Mono": unquote("\"ibm-plex-mono\", \"Menlo\", \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", Courier, monospace"),
-  "Sans": unquote("\"ibm-plex-sans\", \"Helvetica Neue\", Arial, sans-serif"),
-  "Serif": unquote("\"ibm-plex-serif\", \"Georgia\", Times, serif"),
+  "Mono": unquote("\'ibm-plex-mono\', \'Menlo\', \'DejaVu Sans Mono\', \'Bitstream Vera Sans Mono\', Courier, monospace"),
+  "Sans": unquote("\'ibm-plex-sans\', \'Helvetica Neue\', Arial, sans-serif"),
+  "Serif": unquote("\'ibm-plex-serif\', \'Georgia\', Times, serif"),
 );
 
 $weights: (
