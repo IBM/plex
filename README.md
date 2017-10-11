@@ -21,7 +21,7 @@ We want to show off many examples of what IBM Type is capable of. Check out the 
 
 ### IBM Type Sketch File
 
-Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save this [Sketch file](https://github.com/IBM/grid/raw/master/ibm-type.sketch).
+Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save this [Sketch file](https://github.com/IBM/type/raw/master/ibm-type.sketch).
 
 ### Type scales and weights
 

@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@ibm/grid@git://github.com/ibm/grid.git#v0.2.0":
-  version "0.2.0"
-  resolved "git://github.com/ibm/grid.git#0dbd50a72ee802e0ead6124ab0056e1f06f867d4"
+"@ibm/grid@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@ibm/grid/-/grid-0.2.1.tgz#4e837aa9d218cebf97f09ab47e413f96ee7c2ebc"
 
 abbrev@1:
   version "1.1.0"
