@@ -6,6 +6,12 @@ $unicodes: (
 );
 
 $families: (
+  "Mono": unquote("\"ibm-plex-mono\""),
+  "Sans": unquote("\"ibm-plex-sans\""),
+  "Serif": unquote("\"ibm-plex-serif\""),
+);
+
+$fallbacks: (
   "Mono": unquote("\"ibm-plex-mono\", \"Menlo\", \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", Courier, monospace"),
   "Sans": unquote("\"ibm-plex-sans\", \"Helvetica Neue\", Arial, sans-serif"),
   "Serif": unquote("\"ibm-plex-serif\", \"Georgia\", Times, serif"),
@@ -38,11 +44,11 @@ $weights: (
   )
 );
 
-@each $family, $fallbacks in $families {
+@each $family, $name in $families {
   @each $weight, $styles in $weights {
     @each $unicode, $range in $unicodes {
       @font-face {
-        font-family: $fallbacks;
+        font-family: $name;
         font-style: map-get($styles, "font-style");
         font-weight: map-get($styles, "font-weight");
         src: url('../fonts/#{$family}/web/woff2/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff2') format('woff2'),
@@ -55,7 +61,7 @@ $weights: (
 
 .ibm,
 [class*="ibm-type"] {
-  font-family: map-get($families, "Sans");
+  font-family: map-get($fallbacks, "Sans");
 }
 
 [class*="ibm-type"] {
@@ -73,7 +79,7 @@ $weights: (
 code,
 .ibm-type-mono,
 .ibm-type-mono * {
-  font-family: map-get($families, "Mono");
+  font-family: map-get($fallbacks, "Mono");
 }
 
 .ibm-type-regular {
@@ -87,5 +93,5 @@ strong,
 
 .ibm-type-serif,
 .ibm-type-serif * {
-  font-family:  map-get($families, "Serif");
+  font-family:  map-get($fallbacks, "Serif");
 }
