@@ -21,6 +21,7 @@ $weights: (
   "Italic": (
     font-style: italic,
     font-weight: 400,
+    mono: true,
   ),
   "Light": (
     font-style: normal,
@@ -33,6 +34,7 @@ $weights: (
   "Regular": (
     font-style: normal,
     font-weight: 400,
+    mono: true,
   ),
   "SemiBold": (
     font-style: normal,
@@ -47,13 +49,15 @@ $weights: (
 @each $family, $name in $families {
   @each $weight, $styles in $weights {
     @each $unicode, $range in $unicodes {
-      @font-face {
-        font-family: $name;
-        font-style: map-get($styles, "font-style");
-        font-weight: map-get($styles, "font-weight");
-        src: url('../fonts/#{$family}/web/woff2/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff2') format('woff2'),
-          url('../fonts/#{$family}/web/woff/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff') format('woff');
-        unicode-range: map-get($unicodes, $unicode);
+      @if map-get($styles, "mono") or $family != 'Mono' {
+        @font-face {
+          font-family: $name;
+          font-style: map-get($styles, "font-style");
+          font-weight: map-get($styles, "font-weight");
+          src: url('../fonts/#{$family}/web/woff2/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff2') format('woff2'),
+            url('../fonts/#{$family}/web/woff/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff') format('woff');
+          unicode-range: map-get($unicodes, $unicode);
+        }
       }
     }
   }

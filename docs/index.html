@@ -4,6 +4,97 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>IBM Type - Design</title>
+
+		<link href="./css/ibm-type.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./css/ibm-grid.min.css">		
+		<style type="text/css">			
+			body {
+				background:#ebebeb;
+				color: #272727;
+			}
+
+			a {
+				color: #0034CC;
+				text-decoration: none;
+			}
+
+			button {
+				border: none;
+				background: none;
+				color: #0034CC;
+				margin: 0;
+				padding: 0;
+			}
+
+			button:disabled {
+				color: #8C8C8C;
+			}
+
+			.border-bottom {
+				border-bottom: 2px solid #d8d8d8;
+			}
+
+			.margin-bottom-0 {
+				margin-bottom: 0;
+			}
+
+			img {
+				width: 100%;
+			}
+
+			.magenta {
+				color: #db2663;
+			}
+
+			.padding-bottom-small {
+				padding-bottom: .5rem;
+			}
+
+			.height-100 {
+				height: 100%;
+			}
+
+			.download {
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				justify-content: space-between;
+			}
+
+			.download svg {
+				align-self: flex-end;
+			}
+
+			.item2 {
+				border-top: 1px solid #ebebeb;
+			}
+
+			@media (min-width: 640px) {
+				.item2 {
+					border-left: 1px solid #ebebeb;
+					border-top: none;
+				}
+			}
+
+			@media (min-width: 1650px) {
+				.max-only {
+					display: initial;
+				}
+
+				.max-0 {
+					display: none !important;
+				}
+			}
+
+			.black {
+				background: #000;
+				color: #fff;
+			}
+			
+			.white {
+				background: #fff;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="ibm">
@@ -860,95 +951,5 @@
 				</div>
 			</section>
 		</div>
-		<link href="./css/ibm-type.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="./css/ibm-grid.min.css">		
-		<style type="text/css">			
-			body {
-				background:#ebebeb;
-				color: #272727;
-			}
-
-			a {
-				color: #0034CC;
-				text-decoration: none;
-			}
-
-			button {
-				border: none;
-				background: none;
-				color: #0034CC;
-				margin: 0;
-				padding: 0;
-			}
-
-			button:disabled {
-				color: #8C8C8C;
-			}
-
-			.border-bottom {
-				border-bottom: 2px solid #d8d8d8;
-			}
-
-			.margin-bottom-0 {
-				margin-bottom: 0;
-			}
-
-			img {
-				width: 100%;
-			}
-
-			.magenta {
-				color: #db2663;
-			}
-
-			.padding-bottom-small {
-				padding-bottom: .5rem;
-			}
-
-			.height-100 {
-				height: 100%;
-			}
-
-			.download {
-				display: flex;
-				flex-direction: column;
-				height: 100%;
-				justify-content: space-between;
-			}
-
-			.download svg {
-				align-self: flex-end;
-			}
-
-			.item2 {
-				border-top: 1px solid #ebebeb;
-			}
-
-			@media (min-width: 640px) {
-				.item2 {
-					border-left: 1px solid #ebebeb;
-					border-top: none;
-				}
-			}
-
-			@media (min-width: 1650px) {
-				.max-only {
-					display: initial;
-				}
-
-				.max-0 {
-					display: none !important;
-				}
-			}
-
-			.black {
-				background: #000;
-				color: #fff;
-			}
-			
-			.white {
-				background: #fff;
-			}
-		</style>
 	</body>
 </html>

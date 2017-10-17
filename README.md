@@ -88,13 +88,14 @@ Use [this walkthrough](https://ibm.github.io/type/) to learn the foundational as
 
 ## Performance
 
-There are three distinct capabilities of this codebase and you are welcome to only import what you need:
+There are two distinct capabilities of this codebase and you are welcome to only import what you need:
 1. Core - All capabilities not listed below.
-2. Styles - Provides a map of the raw type scale and then a map and mixins of the type styles.
-3. Width - When using IBM Type with IBM Grid, line lengths for the written content will be optically correct automatically.
+2. Styles - Provides a map of the raw type scale and then a map and mixins of the type sets.
 
-|                          | Includes core font references? | Includes scale and styles? | Includes line lengths? | File Size | Minified | Gzip  |
+|                          | Includes core font references? | Includes scale and styles? | Includes line lengths? | File Size | Minified | Gzipped  |
 |--------------------------|---------------------|-----------------------|-------------------------|-----------|----------|-------|
-| IBM Type                 | Yes                 | Yes                   | Yes                     | 24kb      | 19kb      | 3.1kb |
-| _core.scss + _styles.scss | Yes                 | Yes                   | No                      | 12kb       | 9kb      | 1.5kb |
-| _core.scss               | Yes                 | No                    | No                      | 3kb       | 3kb      | 0.5kb |
+| IBM Type                 | Yes                 | Yes                   | Yes                     | 39kb      | 34kb      | 2.6kb |
+| _styles.scss               | Yes                 | No                    | No                      | 15kb       | 11kb      | 1.3kb |
+| _core.scss               | Yes                 | No                    | No                      | 24kb       | 23kb      | 1.3kb |
+
+Finally, each font file (~40kb) has been split into four separate files (~10kb). If your webpage does not use any unicodes from one of the four splitted files, the user’s device will not have to download the splitted file.

@@ -11,117 +11,144 @@ $breakpoints-map: (
   "max": 1650
 );
 
+// Steps 1-6 have max-width for 75 characters
+// Steps 6+ have max-width for 50 characters
 $ibm-type-scale-map: (
   1: (
 		font-size: .75rem,
 		letter-spacing: .02rem,
 		line-height: 1rem,
+		max-width: 26.5rem,
   ),
   2: (
 		font-size: .875rem,
 		letter-spacing: .01rem,
 		line-height: 1.25rem,
+		max-width: 30rem,
   ),
   3: (
 		font-size: 1rem,
 		line-height: 1.375rem,
+		max-width: 35rem,
   ),
   4: (
 		font-size: 1.125rem,
 		line-height: 1.5rem,
+		max-width: 37.5rem,
   ),
   5: (
 		font-size: 1.25rem,
 		line-height: 1.625rem,
+		max-width: 43rem,
   ),
   6: (
 		font-size: 1.5rem,
 		line-height: 1.875rem,
+		max-width: 34rem,
   ),
   7: (
 		font-size: 1.75rem,
 		line-height: 2.25rem,
+		max-width: 39.5rem,
   ),
   8: (
 		font-size: 2rem,
 		line-height: 2.5rem,
+		max-width: 45rem,
   ),
   9: (
 		font-size: 2.25rem,
 		line-height: 2.75rem,
+		max-width: 50.5rem,
   ),
   10: (
 		font-size: 2.625rem,
 		line-height: 3.125rem,
+		max-width: 59rem,
   ),
   11: (
 		font-size: 3rem,
 		line-height: 3.5rem,
+		max-width: 67.5rem,
   ),
   12: (
 		font-size: 3.375rem,
 		line-height: 4rem,
+		max-width: 76rem,
   ),
   13: (
 		font-size: 3.75rem,
 		line-height: 4.375rem,
+		max-width: 84rem,
   ),
   14: (
 		font-size: 4.25rem,
 		line-height: 4.875rem,
+		max-width: 95.5rem,
   ),
   15: (
 		font-size: 4.75rem,
 		line-height: 5.375rem,
+		max-width: 106.5rem,
   ),
   16: (
 		font-size: 5.25rem,
 		line-height: 5.875rem,
+		max-width: 118rem,
   ),
   17: (
 		font-size: 5.75rem,
 		letter-spacing: -.04rem,
 		line-height: 6.375rem,
+		max-width: 127rem,
   ),
   18: (
 		font-size: 6.375rem,
 		letter-spacing: -.04rem,
 		line-height: 7rem,
+		max-width: 141rem,
   ),
   19: (
 		font-size: 7rem,
 		letter-spacing: -.04rem,
 		line-height: 7.625rem,
+		max-width: 155rem,
   ),
   20: (
 		font-size: 7.25rem,
 		letter-spacing: -.04rem,
 		line-height: 8.125rem,
+		max-width: 160.5rem,
   ),
   21: (
 		font-size: 7.625rem,
 		letter-spacing: -.04rem,
 		line-height: 8.75rem,
+		max-width: 169rem,
   ),
   22: (
 		font-size: 9rem,
 		letter-spacing: -.06rem,
 		line-height: 9.5rem,
+		max-width: 199rem,
   ),
   23: (
 		font-size: 9.75rem,
 		letter-spacing: -.06rem,
 		line-height: 10.25rem,
+		max-width: 215.5rem,
   ),
   24: (
 		font-size: 10.5rem,
 		letter-spacing: -.06rem,
 		line-height: 10.875rem,
+		max-width: 232.5rem,
   ),
   25: (
 		font-size: 11.25rem,
 		letter-spacing: -.06rem,
 		line-height: 11.75rem,
+		max-width: 249rem,
   )
 );
 
@@ -159,12 +186,21 @@ $ibm-type-scale-map: (
   }
 }
 
+@function getMaxWidth($step) {
+  @if map-has-key($ibm-type-scale-map, $step) {
+    @return map-get(map-get($ibm-type-scale-map, $step), max-width);
+  }
+  @else {
+    @warn 'There is no max width for that step of the IBM Type Scale!';
+  }
+}
+
 $ibm-type-prescription-map: (
   'a': (
 		'sm': (
 			font-weight: 400,
 			letter-spacing: .02rem,
-			margin-bottom: 1.25rem,
+			margin-bottom: 1rem,
 			step: 1,
 		),
 		'max': (
@@ -193,7 +229,7 @@ $ibm-type-prescription-map: (
 			step: 3,
 		),
 		'max': (
-			margin-bottom: 1.75rem,
+			margin-bottom: 2rem,
 			step: 5,
 		)
   ),
@@ -215,18 +251,17 @@ $ibm-type-prescription-map: (
 			step: 4,
 		),
 		'md': (
-			margin-bottom: 1.75rem,
+			margin-bottom: 2rem,
 			step: 5,
 		),
 		'max': (
-			margin-bottom: 2rem,
 			step: 6,
 		)
   ),
   'f': (
 		'sm': (
 			font-weight: 400,
-			margin-bottom: 1.75rem,
+			margin-bottom: 1.5rem,
 			step: 5,
 		),
 		'md': (
@@ -234,7 +269,6 @@ $ibm-type-prescription-map: (
 			step: 6,
 		),
 		'max': (
-			margin-bottom: 2rem,
 			step: 8,
 		)
   ),
@@ -248,7 +282,6 @@ $ibm-type-prescription-map: (
 			step: 7,
 		),
 		'max': (
-			margin-bottom: 2rem,
 			step: 8,
 		)
   ),
@@ -262,11 +295,9 @@ $ibm-type-prescription-map: (
 			step: 8,
 		),
 		'lg': (
-			margin-bottom: 2.25rem,
 			step: 9,
 		),
 		'max': (
-			margin-bottom: 2.25rem,
 			step: 10,
 		)
   ),
@@ -280,58 +311,49 @@ $ibm-type-prescription-map: (
 			step: 9,
 		),
 		'lg': (
-			margin-bottom: 2.25rem,
 			step: 10,
 		),
 		'max': (
-			margin-bottom: 1.25rem,
 			step: 13,
 		)
   ),
   'j': (
 		'sm': (
 			font-weight: 300,
-			margin-bottom: 1rem,
+			margin-bottom: 2rem,
 			step: 10,
 		),
 		'md': (
-			margin-bottom: 1.25rem,
 			step: 14,
 		),
 		'lg': (
 			letter-spacing: -.06rem,
-			margin-bottom: 2rem,
 			step: 23,
 		),
 		'max': (
-			margin-bottom: 2rem,
 			step: 24,
 		)
   ),
   'k': (
 		'sm': (
 			font-weight: 600,
-			margin-bottom: 1rem,
+			margin-bottom: 2rem,
 			step: 10,
 		),
 		'md': (
-			margin-bottom: 1.25rem,
 			step: 14,
 		),
 		'lg': (
 			letter-spacing: -.04rem,
-			margin-bottom: 2rem,
 			step: 23,
 		),
 		'max': (
-			margin-bottom: 2rem,
 			step: 24,
 		)
   )
 );
 
 @mixin fluidRule($rule, $minSize, $maxSize, $minViewport, $maxViewport) {
-	
 	#{$rule}: calc(#{strip-unit($minSize) * $base-unit}px + #{(strip-unit($maxSize) - strip-unit($minSize)) * $base-unit / ($maxViewport - $minViewport)} * (100vw - #{$minViewport}px));
 	@if $rule == "font-size" {
 		&.ibm-type-serif {
@@ -356,6 +378,14 @@ $ibm-type-prescription-map: (
 		line-height,
 		getLineHeight(map-get($last-specs, 'step')),
 		getLineHeight(map-get(map-get($prescription, $breakpoint), 'step')),
+		$last-breakpoint,
+		map-get($breakpoints-map, $breakpoint)
+	);
+	
+	@include fluidRule(
+		max-width,
+		getMaxWidth(map-get($last-specs, 'step')),
+		getMaxWidth(map-get(map-get($prescription, $breakpoint), 'step')),
 		$last-breakpoint,
 		map-get($breakpoints-map, $breakpoint)
 	);
@@ -385,10 +415,11 @@ $ibm-type-prescription-map: (
 	$size: getFontSize(map-get(map-get($prescription, 'sm'), 'step'));
 	font-size: $size;
 	&.ibm-type-serif {
-		font-size: calc(#{$size} - 1px);
+		font-size: #{(strip-unit($size) * $base-unit - 1) / $base-unit}rem;
 	}
 	font-weight: map-get(map-get($prescription, 'sm'), 'font-weight');
 	line-height: getLineHeight(map-get(map-get($prescription, 'sm'), 'step'));
+	max-width: getMaxWidth(map-get(map-get($prescription, 'sm'), 'step'));
 
 	@if map-has-key(map-get($prescription, 'sm'), 'letter-spacing') {
 		letter-spacing: map-get(map-get($prescription, 'sm'), 'letter-spacing');
@@ -436,6 +467,7 @@ $ibm-type-prescription-map: (
 				font-size: calc(#{$size} - 1px);
 			}
 			line-height: getLineHeight(map-get(map-get($prescription, 'md'), 'step'));
+			max-width: getMaxWidth(map-get(map-get($prescription, 'md'), 'step'));
 			
 
 			@if map-has-key(map-get($prescription, 'md'), 'letter-spacing') {
@@ -472,6 +504,7 @@ $ibm-type-prescription-map: (
 				font-size: calc(#{$size} - 1px);
 			}
 			line-height: getLineHeight(map-get(map-get($prescription, 'lg'), 'step'));
+			max-width: getMaxWidth(map-get(map-get($prescription, 'lg'), 'step'));
 
 			@if map-has-key(map-get($prescription, 'lg'), 'letter-spacing') {
 				letter-spacing: map-get(map-get($prescription, 'lg'), 'letter-spacing');
@@ -500,6 +533,7 @@ $ibm-type-prescription-map: (
 				font-size: calc(#{$size} - 1px);
 			}
 			line-height: getLineHeight(map-get(map-get($prescription, 'max'), 'step'));
+			max-width: getMaxWidth(map-get(map-get($prescription, 'max'), 'step'));
 
 			@if map-has-key(map-get($prescription, 'max'), 'letter-spacing') {
 				letter-spacing: map-get(map-get($prescription, 'max'), 'letter-spacing');
