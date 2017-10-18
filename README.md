@@ -45,11 +45,12 @@ For better reading experience, we set up max-widths for text length based on the
 
 # Code
 
-The IBM Type code provides the following benefits:
-
-- Rendering and kerning that best reflects IBM Plex
-- Specific styles that set size, line height, and weights for both editorial and product experiences
-- When used with [IBM Grid](https://github.com/ibm/grid), automatic line lengths based on which type style and which grid container
+The IBM Type code provides rendering and kerning that best reflects IBM Plex. The editorial and product style sets also take care of:
+- Size
+- Line height
+- Line length
+- Bottom margin
+- Weights
 
 ### How to Use
 
