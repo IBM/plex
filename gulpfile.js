@@ -11,6 +11,7 @@ gulp.task('clean', function () {
 
 gulp.task('styles', function () {
 	gulp.src("src/**/*.scss")
+		.pipe(gulp.dest('dist/scss'))
 		.pipe(sass().on('error', sass.logError))
 		.pipe(rename('ibm-type.css'))
 		.pipe(gulp.dest('dist/css'))
@@ -23,7 +24,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('fonts', function () {
-	gulp.src("fonts/**/*.*")
+	gulp.src("src/fonts/**/*.*")
 		.pipe(gulp.dest('dist/fonts'))
 		.pipe(gulp.dest('docs/fonts'));
 });
