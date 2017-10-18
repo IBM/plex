@@ -4,13 +4,13 @@ With our new corporate typeface, IBM Plex, comes a new set of guidance and best 
 
 ---
 
-**Warning:** IBM Type is still in development and being carefully implemented in real cases where we can look for any difficulties. Look out for a stable v1.0.0 release by October 16th.
+**Warning:** IBM Type is still in development and being carefully implemented in real cases where we can look for any difficulties. Look out for a stable v1.0.0 release in the near future.
 
 ---
 
-### IBM Type Checker
+### IBM Type Checker (work-in-progress)
 
-Check that any webpage follows the IBM Type with our [Chrome and Firefox extension](https://github.com/ibm/type-checker). This extremely helpful to developers as they code and designers as they review work.
+Check that any webpage follows the IBM Type with our [Chrome and Firefox extension](https://github.com/ibm/type-checker). This is helpful to developers as they code and designers as they review work.
 
 ### Examples
 
@@ -19,29 +19,11 @@ We want to show off many examples of what IBM Type is capable of. Check out the 
 
 # Design
 
+Use [this walkthrough](https://ibm.github.io/type) to learn the foundational aspects of designing with IBM Type. Recommended for all first-time users.
+
 ### IBM Type Sketch File
 
 Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save this [Sketch file](https://github.com/IBM/type/raw/master/ibm-type.sketch).
-
-### Type scales and weights
-
-We consider both performance and craftmanship of typography. When we think of type ratio, we keep in mind what works for IBM Plex and effectively deliver and organize the content for our viewers. Based on the type ratio, we have a basic set of styles: 14, 16, 26, 44, and 56. Based on the type scales, IBM Plex Sans Light works well in large scale type sizes and IBM Plex Sans  Regular works well for relevant small type size.
-
-IBM Plex Sans Light, IBM Plex Sans Regular, IBM Plex Sans SemiBold will be the primary weights for digital environment. ExtraLight and Thin are not for digital environments.
-
-We recommend always using flush left text, no centered, no flush right.
-
-### Tracking consideration
-
-IBM Plex has been designed to not be spaced tightly. It requires space to breath comfortably within text and headlines. It's lighter in appearance and is more legible when spaced appropriately. We recommend a default tracking of 0. No tracking for most of the cases.
-
-Exception:
-  * Display A/B: Adobe: -5 to -10 Sketch:-0.1
-  * Caption style: Adobe: +5 to +10 Sketch: +.1
-
-### Line Length
-
-For better reading experience, we set up max-widths for text length based on the column width, type scales and the right amount of characters.
 
 # Code
 
@@ -72,7 +54,7 @@ Check out the Performance section below for a description of each partial.
 
 ### Developer Tutorial
 
-Use [this walkthrough](https://ibm.github.io/type/) to learn the foundational aspects of coding with the IBM Type. Recommended for all first-time users.
+Use [this walkthrough](https://ibm.github.io/type/code.html) to learn the foundational aspects of coding with IBM Type. Recommended for all first-time users.
 
 ## Classname Reference
 
