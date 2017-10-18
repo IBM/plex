@@ -1,3 +1,5 @@
+$directory: '../fonts' !default;
+
 $unicodes: (
   Latin1: 'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02',
   Latin2: 'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02',
@@ -54,8 +56,8 @@ $weights: (
           font-family: $name;
           font-style: map-get($styles, "font-style");
           font-weight: map-get($styles, "font-weight");
-          src: url('../fonts/#{$family}/web/woff2/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff2') format('woff2'),
-            url('../fonts/#{$family}/web/woff/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff') format('woff');
+          src: url('#{$directory}/#{$family}/web/woff2/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff2') format('woff2'),
+            url('#{$directory}/#{$family}/web/woff/IBMPlex#{$family}-#{$weight}-#{$unicode}.woff') format('woff');
           unicode-range: map-get($unicodes, $unicode);
         }
       }
