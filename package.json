@@ -10,10 +10,12 @@
     "@ibm/grid": "^0.2.1",
     "browser-sync": "^2.18.12",
     "del": "^3.0.0",
+    "fs-extra": "^4.0.2",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "rimraf": "^2.6.2"
   },
   "license": "OFL-1.1 AND Apache-2.0",
   "scripts": {
