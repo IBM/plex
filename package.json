@@ -1,13 +1,13 @@
 {
   "name": "@ibm/type",
   "description": "An opinionated type for all IBM experiences, including the IBM Plex fontface.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": "https://github.com/ibm/type.git",
   "bugs": {
     "url": "https://github.com/ibm/type/issues"
   },
   "devDependencies": {
-    "@ibm/grid": "^0.2.1",
+    "@ibm/grid": "^0.2.3",
     "browser-sync": "^2.18.12",
     "del": "^3.0.0",
     "gulp": "^3.9.1",

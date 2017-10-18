@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/ibm-grid.min.css">		
 		<style type="text/css">			
 			body {
-				background:#ebebeb
+				background:#F3F3F3;
 			}
 
 			a {
@@ -52,22 +52,23 @@
 	</head>
 	<body>
 		<div class="ibm">
-			<section class="ibm-col-bleed ibm-col-group border-bottom">
-				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
-				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
-					<div class="ibm-padding-vertical"></div>
-					<div class="ibm-padding-vertical"></div>
-					<div class="ibm-padding-vertical"></div>
-					<h1 class="ibm-type-d margin-bottom-0">IBM Type</h1>
-					<p class="ibm-type-c"><a href="./index.html">Design</a> | Code</p>
-					<div class="ibm-padding-vertical"></div>
-					<div class="ibm-padding-vertical"></div>
-					<div>
-						<div class="ibm-padding-vertical">
-							<p class="ibm-type-f">The code of IBM’s new typeface, IBM Plex, and accompanying styles was built to shorten the bridge from design to implementation. Find installation instructions on the <a href="https://github.com/ibm/type">GitHub repo.</a></p>
+				<section class="ibm-col-bleed ibm-col-group border-bottom">
+					<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+					<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
+						<div>
+							<div class="ibm-padding-vertical">
+								<p class="ibm-type-c"><a href="./index.html">Design</a> | Code</p>
+							</div>
 						</div>
 						<div class="ibm-padding-vertical"></div>
 						<div class="ibm-padding-vertical"></div>
+						<div>
+							<div class="ibm-padding-vertical">
+								<p class="ibm-type-f">The code of IBM’s new typeface, IBM Plex, and accompanying styles was built to shorten the bridge from design to implementation. Find installation instructions on the <a href="https://github.com/ibm/type">GitHub repo.</a></p>
+							</div>
+							<div class="ibm-padding-vertical"></div>
+							<div class="ibm-padding-vertical"></div>
+					</div>
 				</div>
 			</section>
 
@@ -107,19 +108,15 @@
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8 white ibm-type">
 					<p class="ibm-type-light">Light</p>
-					<p>Regular</p>
+					<p class="ibm-type">Regular</p>
 					<p class="ibm-type-semibold">SemiBold</p>
 				</div>
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8 black overflow">
-					<pre><p class="ibm-type-c ibm-type-mono">&lt;!-- .ibm is not needed if using type scale classes --&gt;
-					
-&lt;div class=&quot;ibm&quot;&gt;
-  &lt;p class=&quot;ibm-type-light&quot;&gt;Light&lt;/p&gt;
-  &lt;p&gt;Regular&lt;/p&gt;
-  &lt;p class=&quot;ibm-type-semibold&quot;&gt;SemiBold&lt;/p&gt;
-&lt;/div&gt;</p></pre>
+					<pre><p class="ibm-type-c ibm-type-mono">&lt;p class=&quot;ibm-type-light&quot;&gt;Light&lt;/p&gt;
+&lt;p class=&quot;ibm-type&quot;&gt;Regular&lt;/p&gt;
+&lt;p class=&quot;ibm-type-semibold&quot;&gt;SemiBold&lt;/p&gt;</p></pre>
 				</div>
 				<div class="ibm-padding-vertical"></div>
 				<div class="ibm-padding-vertical"></div>
@@ -174,8 +171,7 @@
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8">
 					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0">Sets</h2>
-					<p class="ibm-type-c">There are two prescriptive sets of the same type scale. Both variations start to differentiate at the size of Type D. You are able to toggle between type scales based on editorial and product use.</p>
-					<p class="ibm-type-c">The type styles will apply font sizing, weight, line height, character spacing, and bottom margin for you. Please add a negative left margin when the line starts away from container padding. Further bottom margin specifications should be consideblue-darker when pairing different parts of the scale together.</p>
+					<p class="ibm-type-c">The type styles will apply font sizing, weight, line height, line length, character spacing, and bottom margin for you. Please add a negative left and top margin when the text starts away from container padding.</p>
 					<p class="ibm-type-c">The type scale variations are fluid. This means that there are fixed sizes at the small, medium, and large breakpoints. However, the text sizes will increase and decrease between those screen width breakpoints for perfect sizing with the user’s device.</p>
 					<p class="ibm-type-c">When applying a type style to the serif family, the size will always be 1px smaller than sans-serif and mono. This is due to an optical test revealing that the serif files appear larger than the other families.</p>
 					<div class="ibm-padding-vertical"></div>
@@ -284,6 +280,9 @@
 				<div class="white">
 					<p class="ibm-type-c change">The sentence is now exactly fifty characters long. This end makes it at 75. Here is an extra sentence to prove line length is enforced.</p>
 				</div>
+				<div class="ibm-padding-vertical"></div>
+				<div class="ibm-padding-vertical"></div>
+				<div class="ibm-padding-vertical"></div>
 			</section>
 		</div>
 	</body>
