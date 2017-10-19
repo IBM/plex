@@ -10,12 +10,10 @@ gulp.task('clean', function() {
   return del(['css', 'scss', 'fonts', 'docs/css/**/*', 'docs/fonts/**/*']);
 });
 
-gulp.task('styles', ['clean'], function() {
-  const includePaths = [path.resolve(__dirname, './src/styles')];
+gulp.task('css', ['clean'], function() {
   return gulp
     .src('src/styles/**/*.scss')
-    .pipe(gulp.dest('scss'))
-    .pipe(sass({ includePaths }).on('error', sass.logError))
+    .pipe(sass().on('error', sass.logError))
     .pipe(rename('ibm-type.css'))
     .pipe(gulp.dest('css'))
     .pipe(
@@ -26,6 +24,10 @@ gulp.task('styles', ['clean'], function() {
     .pipe(rename('ibm-type.min.css'))
     .pipe(gulp.dest('css'))
     .pipe(gulp.dest('docs/css'));
+});
+
+gulp.task('scss', ['clean'], function() {
+  return gulp.src('src/styles/**/*.scss').pipe(gulp.dest('scss'));
 });
 
 gulp.task('fonts', ['clean'], function() {
@@ -53,5 +55,4 @@ gulp.task('watch', function() {
   gulp.watch('docs/**/*').on('change', browserSync.reload);
 });
 
-// gulp.task('default', ['clean', 'fonts', 'styles', 'grid']);
-gulp.task('default', ['clean', 'fonts', 'styles']);
+gulp.task('default', ['clean', 'fonts', 'scss', 'css', 'grid']);
