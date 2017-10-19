@@ -46,14 +46,7 @@ const filesToWrite = families
 
           return {
             filename: `${OUTPUT_DIRECTORY}/${filename}`,
-            content: createFontFace(
-              filename,
-              FONT_DIRECTORY,
-              OUTPUT_DIRECTORY,
-              family,
-              weight,
-              unicode
-            ),
+            content: createFontFace(filename, family, weight, unicode),
             unicode
           };
         });

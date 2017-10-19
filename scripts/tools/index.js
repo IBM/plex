@@ -1,7 +1,5 @@
 'use strict';
 
-const path = require('path');
-
 /**
  * Often times, we generate a filename by creating an array of each part of the
  * path for the filename and then we need to clean it up using this function.
@@ -21,14 +19,7 @@ exports.formatFilename = formatFilename;
  * `createFontFace` is used to generate the actual `@font-face` declarations
  * that get written to the appropriate files.
  */
-const createFontFace = (
-  filename,
-  fontDirectory,
-  outputDirectory,
-  family,
-  weight,
-  unicode
-) => {
+const createFontFace = (filename, family, weight, unicode) => {
   const fontFileName = [
     `IBMPlex${family.type}`,
     weight.variant ? weight.type + weight.variant : weight.type,
@@ -36,10 +27,6 @@ const createFontFace = (
   ]
     .filter(Boolean)
     .join('-');
-  const relativePath = path.relative(
-    `${outputDirectory}/${filename}`,
-    fontDirectory
-  );
 
   const urls = {
     woff2: `../fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
