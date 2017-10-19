@@ -4,12 +4,14 @@
   "version": "0.3.0",
   "repository": "https://github.com/ibm/type.git",
   "files": [
+    "css",
     "fonts",
-    "styles"
+    "scss"
   ],
   "bugs": {
     "url": "https://github.com/ibm/type/issues"
   },
+  "dependencies": {},
   "devDependencies": {
     "@ibm/grid": "^0.2.1",
     "browser-sync": "^2.18.12",
@@ -25,8 +27,8 @@
   },
   "license": "OFL-1.1 AND Apache-2.0",
   "scripts": {
+    "generate": "node scripts/generate.js",
     "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch",
     "test": "jest"
-  },
-  "dependencies": {}
+  }
 }
