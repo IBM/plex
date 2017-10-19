@@ -1,7 +1,7 @@
-@import './variables';
-@import './functions';
-@import './mixins';
-@import './fonts';
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'fonts';
 
 body {
   font-size: #{$base-unit}px;

@@ -39,7 +39,8 @@
   },
   "prettier": {
     "printWidth": 80,
-    "singleQuote": true
+    "singleQuote": true,
+    "useTabs": false
   },
   "lint-staged": {
     "**/*.js": [
