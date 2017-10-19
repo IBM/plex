@@ -1,3 +1,4 @@
+const path = require('path');
 const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const del = require('del');
@@ -6,20 +7,15 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 
 gulp.task('clean', function() {
-  return del([
-    'css/**/*',
-    'scss/**/*',
-    'fonts/**/*',
-    'docs/css/**/*',
-    'docs/fonts/**/*'
-  ]);
+  return del(['css', 'scss', 'fonts', 'docs/css/**/*', 'docs/fonts/**/*']);
 });
 
-gulp.task('styles', function() {
-  gulp
+gulp.task('styles', ['clean'], function() {
+  const includePaths = [path.resolve(__dirname, './src/styles')];
+  return gulp
     .src('src/styles/**/*.scss')
     .pipe(gulp.dest('scss'))
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({ includePaths }).on('error', sass.logError))
     .pipe(rename('ibm-type.css'))
     .pipe(gulp.dest('css'))
     .pipe(
@@ -32,15 +28,15 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('docs/css'));
 });
 
-gulp.task('fonts', function() {
-  gulp
+gulp.task('fonts', ['clean'], function() {
+  return gulp
     .src('src/fonts/**/*.*')
     .pipe(gulp.dest('fonts'))
     .pipe(gulp.dest('docs/fonts'));
 });
 
-gulp.task('grid', function() {
-  gulp
+gulp.task('grid', ['clean'], function() {
+  return gulp
     .src('node_modules/@ibm/grid/dist/ibm-grid.min.css')
     .pipe(gulp.dest('docs/css'));
 });
@@ -57,4 +53,5 @@ gulp.task('watch', function() {
   gulp.watch('docs/**/*').on('change', browserSync.reload);
 });
 
-gulp.task('default', ['clean', 'fonts', 'styles', 'grid']);
+// gulp.task('default', ['clean', 'fonts', 'styles', 'grid']);
+gulp.task('default', ['clean', 'fonts', 'styles']);
