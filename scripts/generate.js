@@ -41,13 +41,13 @@ const filesToWrite = families
             family.type,
             weight.type,
             weight.variant,
-            `_${unicode.type}.scss`
+            `_${unicode.type}.scss`,
           ]);
 
           return {
             filename: `${OUTPUT_DIRECTORY}/${filename}`,
             content: createFontFace(filename, family, weight, unicode),
-            unicode
+            unicode,
           };
         });
 
@@ -57,7 +57,7 @@ const filesToWrite = families
           family.type,
           weight.type,
           weight.variant,
-          '_index.scss'
+          '_index.scss',
         ]);
         const content = innerFiles
           .map(({ unicode }) => {
@@ -74,8 +74,8 @@ const filesToWrite = families
           {
             filename: `${OUTPUT_DIRECTORY}/${filename}`,
             content,
-            weight
-          }
+            weight,
+          },
         ];
       })
       .filter(Boolean)
@@ -96,8 +96,8 @@ const filesToWrite = families
       ...files,
       {
         filename,
-        content
-      }
+        content,
+      },
     ];
   })
   .reduce((acc, array) => acc.concat(array));

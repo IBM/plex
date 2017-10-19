@@ -32,47 +32,47 @@
   );
 
   @include fluidRule(
-		font-size,
-		getFontSize(map-get($last-specs, 'step')),
-		getFontSize(map-get(map-get($prescription, $breakpoint), 'step')),
-		$last-breakpoint,
-		map-get($breakpoints-map, $breakpoint)
-	);
+    font-size,
+    getFontSize(map-get($last-specs, 'step')),
+    getFontSize(map-get(map-get($prescription, $breakpoint), 'step')),
+    $last-breakpoint,
+    map-get($breakpoints-map, $breakpoint)
+  );
 
   @include fluidRule(
-		line-height,
-		getLineHeight(map-get($last-specs, 'step')),
-		getLineHeight(map-get(map-get($prescription, $breakpoint), 'step')),
-		$last-breakpoint,
-		map-get($breakpoints-map, $breakpoint)
-	);
+    line-height,
+    getLineHeight(map-get($last-specs, 'step')),
+    getLineHeight(map-get(map-get($prescription, $breakpoint), 'step')),
+    $last-breakpoint,
+    map-get($breakpoints-map, $breakpoint)
+  );
 
   @include fluidRule(
-		max-width,
-		getMaxWidth(map-get($last-specs, 'step')),
-		getMaxWidth(map-get(map-get($prescription, $breakpoint), 'step')),
-		$last-breakpoint,
-		map-get($breakpoints-map, $breakpoint)
-	);
+    max-width,
+    getMaxWidth(map-get($last-specs, 'step')),
+    getMaxWidth(map-get(map-get($prescription, $breakpoint), 'step')),
+    $last-breakpoint,
+    map-get($breakpoints-map, $breakpoint)
+  );
 
   @if map-get($last-specs, 'letter-spacing') != null and map-get(map-get($prescription, $breakpoint), 'letter-spacing') != null {
     @include fluidRule(
-			letter-spacing,
-			map-get($last-specs, 'letter-spacing'),
-			map-get(map-get($prescription, $breakpoint), 'letter-spacing'),
-			$last-breakpoint,
-			map-get($breakpoints-map, $breakpoint)
-		);
+      letter-spacing,
+      map-get($last-specs, 'letter-spacing'),
+      map-get(map-get($prescription, $breakpoint), 'letter-spacing'),
+      $last-breakpoint,
+      map-get($breakpoints-map, $breakpoint)
+    );
   }
 
   @if $margin == true and map-get($last-specs, 'margin-bottom') != null and map-get(map-get($prescription, $breakpoint), 'margin-bottom') != null and map-get($last-specs, 'margin-bottom') != map-get(map-get($prescription, $breakpoint), 'margin-bottom') {
     @include fluidRule(
-			margin-bottom,
-			map-get($last-specs, 'margin-bottom'),
-			map-get(map-get($prescription, $breakpoint), 'margin-bottom'),
-			$last-breakpoint,
-			map-get($breakpoints-map, $breakpoint)
-		);
+      margin-bottom,
+      map-get($last-specs, 'margin-bottom'),
+      map-get(map-get($prescription, $breakpoint), 'margin-bottom'),
+      $last-breakpoint,
+      map-get($breakpoints-map, $breakpoint)
+    );
   }
 }
 
@@ -101,26 +101,26 @@
   @if map-has-key($prescription, 'md') {
     @media (min-width: $breakpoint--sm + 'px') {
       @include fluidRules(
-				$prescription,
-				'md',
-				$margin
-			);
+        $prescription,
+        'md',
+        $margin
+      );
     }
   } @else if map-has-key($prescription, 'lg') {
     @media (min-width: $breakpoint--md + 'px') {
       @include fluidRules(
-				$prescription,
-				'lg',
-				$margin
-			);
+        $prescription,
+        'lg',
+        $margin
+      );
     }
   } @else if map-has-key($prescription, 'max') {
     @media (min-width: $breakpoint--lg + 'px') {
       @include fluidRules(
-				$prescription,
-				'max',
-				$margin
-			);
+        $prescription,
+        'max',
+        $margin
+      );
     }
   }
 
@@ -144,17 +144,17 @@
 
       @if map-has-key($prescription, 'lg') {
         @include fluidRules(
-					$prescription,
-					'lg',
-					$margin
-				);
+          $prescription,
+          'lg',
+          $margin
+        );
       } @else if map-has-key($prescription, 'max') {
         @media (min-width: $breakpoint--lg + 'px') {
           @include fluidRules(
-						$prescription,
-						'max',
-						$margin
-					);
+            $prescription,
+            'max',
+            $margin
+          );
         }
       }
     }
@@ -180,10 +180,10 @@
 
       @if map-has-key($prescription, 'max') {
         @include fluidRules(
-					$prescription,
-					'max',
-					$margin
-				);
+          $prescription,
+          'max',
+          $margin
+        );
       }
     }
   }

@@ -18,7 +18,7 @@ gulp.task('css', ['clean'], function() {
     .pipe(gulp.dest('css'))
     .pipe(
       cleanCSS({
-        level: 2
+        level: 2,
       })
     )
     .pipe(rename('ibm-type.min.css'))
@@ -46,8 +46,8 @@ gulp.task('grid', ['clean'], function() {
 gulp.task('watch', function() {
   browserSync.init({
     server: {
-      baseDir: './docs'
-    }
+      baseDir: './docs',
+    },
   });
 
   gulp.watch('src/styles/**/*.scss', ['styles']);

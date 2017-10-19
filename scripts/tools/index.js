@@ -23,14 +23,14 @@ const createFontFace = (filename, family, weight, unicode) => {
   const fontFileName = [
     `IBMPlex${family.type}`,
     weight.variant ? weight.type + weight.variant : weight.type,
-    unicode.type
+    unicode.type,
   ]
     .filter(Boolean)
     .join('-');
 
   const urls = {
     woff2: `../fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
-    woff: `../fonts/${family.type}/web/woff/${fontFileName}.woff`
+    woff: `../fonts/${family.type}/web/woff/${fontFileName}.woff`,
   };
 
   return `@font-face {

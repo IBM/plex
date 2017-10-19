@@ -41,7 +41,9 @@
   "prettier": {
     "printWidth": 80,
     "singleQuote": true,
-    "useTabs": false
+    "tabWidth": 2,
+    "semi": true,
+    "trailingComma": "es5"
   },
   "lint-staged": {
     "**/*.js": [

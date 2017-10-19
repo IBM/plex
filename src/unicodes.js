@@ -14,8 +14,8 @@ const unicodes = [
       'U+20AC',
       'U+2122',
       'U+2212',
-      'U+FB01-FB02'
-    ]
+      'U+FB01-FB02',
+    ],
   },
   {
     type: 'Latin2',
@@ -27,12 +27,12 @@ const unicodes = [
       'U+20AD-20CF',
       'U+2C60-2C7F',
       'U+A720-A7FF',
-      'U+FB01-FB02'
-    ]
+      'U+FB01-FB02',
+    ],
   },
   {
     type: 'Latin3',
-    characters: ['U+0102-0103', 'U+1EA0-1EF9', 'U+20AB']
+    characters: ['U+0102-0103', 'U+1EA0-1EF9', 'U+20AB'],
   },
   {
     type: 'Pi',
@@ -73,9 +73,9 @@ const unicodes = [
       'U+EBE3-EBE4',
       'U+EBE6-EBE7',
       'U+ECE0',
-      'U+EFCC'
-    ]
-  }
+      'U+EFCC',
+    ],
+  },
 ];
 
 module.exports = unicodes;
