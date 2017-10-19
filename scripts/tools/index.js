@@ -2,6 +2,13 @@
 
 const path = require('path');
 
+/**
+ * Often times, we generate a filename by creating an array of each part of the
+ * path for the filename and then we need to clean it up using this function.
+ *
+ * Here, `formatFilename` gets rid of false-y values and normalizes each part
+ * of the path before joining them with the '/' separator.
+ */
 const formatFilename = array => array
   .filter(Boolean)
   .map(string => string.toLowerCase())
@@ -9,9 +16,14 @@ const formatFilename = array => array
 
 exports.formatFilename = formatFilename;
 
+/**
+ * `createFontFace` is used to generate the actual `@font-face` declarations
+ * that get written to the appropriate files.
+ */
 const createFontFace = (
   filename,
   fontDirectory,
+  outputDirectory,
   family,
   weight,
   unicode
@@ -23,7 +35,10 @@ const createFontFace = (
       : weight.type,
     unicode.type,
   ].filter(Boolean).join('-');
-  const relativePath = path.relative(filename, fontDirectory);
+  const relativePath = path.relative(
+    `${outputDirectory}/${filename}`,
+    fontDirectory
+  );
 
   const urls = {
     woff2: `${relativePath}/${family.type}/web/woff2/${fontFileName}.woff2`,

@@ -3,6 +3,10 @@
   "description": "An opinionated type for all IBM experiences, including the IBM Plex fontface.",
   "version": "0.3.0",
   "repository": "https://github.com/ibm/type.git",
+  "files": [
+    "fonts",
+    "styles"
+  ],
   "bugs": {
     "url": "https://github.com/ibm/type/issues"
   },
@@ -15,11 +19,14 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "jest": "^21.2.1",
+    "node-sass": "^4.5.3",
     "rimraf": "^2.6.2"
   },
   "license": "OFL-1.1 AND Apache-2.0",
   "scripts": {
-    "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch"
+    "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch",
+    "test": "jest"
   },
   "dependencies": {}
 }
