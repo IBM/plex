@@ -9,7 +9,6 @@ const fs = require('fs-extra');
 const path = require('path');
 const rimraf = require('rimraf');
 
-const fallbacks = require('../src/fallbacks');
 const families = require('../src/families');
 const { formatFilename, createFontFace } = require('./tools');
 const unicodes = require('../src/unicodes');
@@ -66,7 +65,7 @@ const filesToWrite = families
         const content = innerFiles
           .map(({ unicode }) => {
             const importPath = formatFilename([unicode.type]);
-            return `@import './${importPath}';`;
+            return `@import '${importPath}';`;
           }).join('\n');
 
         // We spread all the inner files, since they are valid files that we'll
@@ -90,7 +89,7 @@ const filesToWrite = families
       .filter(file => file.weight)
       .map(({ weight }) => {
         const importPath = formatFilename([weight.type, weight.variant]);
-        return `@import './${importPath}/index';`;
+        return `@import '${importPath}/index';`;
       }).join('\n');
 
     return [

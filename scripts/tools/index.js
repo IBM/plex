@@ -41,8 +41,8 @@ const createFontFace = (
   );
 
   const urls = {
-    woff2: `${relativePath}/${family.type}/web/woff2/${fontFileName}.woff2`,
-    woff: `${relativePath}/${family.type}/web/woff/${fontFileName}.woff`,
+    woff2: `../fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
+    woff: `../fonts/${family.type}/web/woff/${fontFileName}.woff`,
   };
 
   return `@font-face {
