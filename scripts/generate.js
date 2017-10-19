@@ -29,6 +29,10 @@ const filesToWrite = families
   .map(family => {
     const files = weights
       .map(weight => {
+        if (family.type === 'Mono' && weight.mono === undefined) {
+          return;
+        }
+
         // When mapping over the unicodes, we'll create the actual @font-face
         // declarations and the appropriate file labeled by the unicode's type
         // field.
@@ -81,6 +85,7 @@ const filesToWrite = families
           }
         ];
       })
+      .filter(Boolean)
       .reduce((acc, array) => acc.concat(array), []);
 
     // Here we'll generate a `_index.scss` partial for a specific font family

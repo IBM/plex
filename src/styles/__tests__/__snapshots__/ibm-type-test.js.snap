@@ -507,7 +507,8 @@ exports[`ibm-type should compile 1`] = `
 
 body {
   font-size: 16px; }
-  body.ibm-type-serif, body .ibm-type-serif {
+  body.ibm-type-serif,
+  body .ibm-type-serif {
     font-size: 15px; }
 
 .ibm-type-a {
@@ -521,13 +522,13 @@ body {
     font-size: 0.6875rem; }
   @media (min-width: 1056px) {
     .ibm-type-a {
-      font-size: calc(12px + 0.00673 * (100vw - 1056px));
-      line-height: calc(16px + 0.0101 * (100vw - 1056px));
-      max-width: calc(424px + 0.22896 * (100vw - 1056px));
-      letter-spacing: calc(0.32px + -0.00054 * (100vw - 1056px));
-      margin-bottom: calc(16px + 0.01347 * (100vw - 1056px)); }
+      font-size: calc( 12px + 0.00673 * (100vw - 1056px));
+      line-height: calc( 16px + 0.0101 * (100vw - 1056px));
+      max-width: calc( 424px + 0.22896 * (100vw - 1056px));
+      letter-spacing: calc( 0.32px + -0.00054 * (100vw - 1056px));
+      margin-bottom: calc( 16px + 0.01347 * (100vw - 1056px)); }
       .ibm-type-a.ibm-type-serif {
-        font-size: calc(11px + 0.00631 * (100vw - 1056px)); } }
+        font-size: calc( 11px + 0.00631 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-a {
       font-size: 1rem;
@@ -549,13 +550,13 @@ body {
     font-size: 0.8125rem; }
   @media (min-width: 1056px) {
     .ibm-type-b {
-      font-size: calc(14px + 0.00673 * (100vw - 1056px));
-      line-height: calc(20px + 0.00673 * (100vw - 1056px));
-      max-width: calc(480px + 0.20202 * (100vw - 1056px));
-      letter-spacing: calc(0.16px + -0.00027 * (100vw - 1056px));
-      margin-bottom: calc(20px + 0.00673 * (100vw - 1056px)); }
+      font-size: calc( 14px + 0.00673 * (100vw - 1056px));
+      line-height: calc( 20px + 0.00673 * (100vw - 1056px));
+      max-width: calc( 480px + 0.20202 * (100vw - 1056px));
+      letter-spacing: calc( 0.16px + -0.00027 * (100vw - 1056px));
+      margin-bottom: calc( 20px + 0.00673 * (100vw - 1056px)); }
       .ibm-type-b.ibm-type-serif {
-        font-size: calc(13px + 0.00631 * (100vw - 1056px)); } }
+        font-size: calc( 13px + 0.00631 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-b {
       font-size: 1.125rem;
@@ -576,12 +577,12 @@ body {
     font-size: 0.9375rem; }
   @media (min-width: 1056px) {
     .ibm-type-c {
-      font-size: calc(16px + 0.00673 * (100vw - 1056px));
-      line-height: calc(22px + 0.00673 * (100vw - 1056px));
-      max-width: calc(560px + 0.21549 * (100vw - 1056px));
-      margin-bottom: calc(24px + 0.01347 * (100vw - 1056px)); }
+      font-size: calc( 16px + 0.00673 * (100vw - 1056px));
+      line-height: calc( 22px + 0.00673 * (100vw - 1056px));
+      max-width: calc( 560px + 0.21549 * (100vw - 1056px));
+      margin-bottom: calc( 24px + 0.01347 * (100vw - 1056px)); }
       .ibm-type-c.ibm-type-serif {
-        font-size: calc(15px + 0.00631 * (100vw - 1056px)); } }
+        font-size: calc( 15px + 0.00631 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-c {
       font-size: 1.25rem;
@@ -601,12 +602,12 @@ body {
     font-size: 0.9375rem; }
   @media (min-width: 1056px) {
     .ibm-type-d {
-      font-size: calc(16px + 0.00673 * (100vw - 1056px));
-      line-height: calc(22px + 0.00673 * (100vw - 1056px));
-      max-width: calc(560px + 0.21549 * (100vw - 1056px));
-      margin-bottom: calc(16px + 0.02694 * (100vw - 1056px)); }
+      font-size: calc( 16px + 0.00673 * (100vw - 1056px));
+      line-height: calc( 22px + 0.00673 * (100vw - 1056px));
+      max-width: calc( 560px + 0.21549 * (100vw - 1056px));
+      margin-bottom: calc( 16px + 0.02694 * (100vw - 1056px)); }
       .ibm-type-d.ibm-type-serif {
-        font-size: calc(15px + 0.00631 * (100vw - 1056px)); } }
+        font-size: calc( 15px + 0.00631 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-d {
       font-size: 1.25rem;
@@ -626,12 +627,12 @@ body {
     font-size: 1.0625rem; }
   @media (min-width: 320px) {
     .ibm-type-e {
-      font-size: calc(18px + 0.00625 * (100vw - 320px));
-      line-height: calc(24px + 0.00625 * (100vw - 320px));
-      max-width: calc(600px + 0.275 * (100vw - 320px));
-      margin-bottom: calc(24px + 0.025 * (100vw - 320px)); }
+      font-size: calc( 18px + 0.00625 * (100vw - 320px));
+      line-height: calc( 24px + 0.00625 * (100vw - 320px));
+      max-width: calc( 600px + 0.275 * (100vw - 320px));
+      margin-bottom: calc( 24px + 0.025 * (100vw - 320px)); }
       .ibm-type-e.ibm-type-serif {
-        font-size: calc(17px + 0.00586 * (100vw - 320px)); } }
+        font-size: calc( 17px + 0.00586 * (100vw - 320px)); } }
   @media (min-width: 640px) {
     .ibm-type-e {
       font-size: 1.25rem;
@@ -642,11 +643,11 @@ body {
         font-size: calc(1.25rem - 1px); } }
   @media (min-width: 640px) and (min-width: 1056px) {
     .ibm-type-e {
-      font-size: calc(20px + 0.00673 * (100vw - 1056px));
-      line-height: calc(26px + 0.00673 * (100vw - 1056px));
-      max-width: calc(688px + -0.24242 * (100vw - 1056px)); }
+      font-size: calc( 20px + 0.00673 * (100vw - 1056px));
+      line-height: calc( 26px + 0.00673 * (100vw - 1056px));
+      max-width: calc( 688px + -0.24242 * (100vw - 1056px)); }
       .ibm-type-e.ibm-type-serif {
-        font-size: calc(19px + 0.00631 * (100vw - 1056px)); } }
+        font-size: calc( 19px + 0.00631 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-e {
       font-size: 1.5rem;
@@ -665,12 +666,12 @@ body {
     font-size: 1.1875rem; }
   @media (min-width: 320px) {
     .ibm-type-f {
-      font-size: calc(20px + 0.0125 * (100vw - 320px));
-      line-height: calc(26px + 0.0125 * (100vw - 320px));
-      max-width: calc(688px + -0.45 * (100vw - 320px));
-      margin-bottom: calc(24px + 0.025 * (100vw - 320px)); }
+      font-size: calc( 20px + 0.0125 * (100vw - 320px));
+      line-height: calc( 26px + 0.0125 * (100vw - 320px));
+      max-width: calc( 688px + -0.45 * (100vw - 320px));
+      margin-bottom: calc( 24px + 0.025 * (100vw - 320px)); }
       .ibm-type-f.ibm-type-serif {
-        font-size: calc(19px + 0.01172 * (100vw - 320px)); } }
+        font-size: calc( 19px + 0.01172 * (100vw - 320px)); } }
   @media (min-width: 640px) {
     .ibm-type-f {
       font-size: 1.5rem;
@@ -681,11 +682,11 @@ body {
         font-size: calc(1.5rem - 1px); } }
   @media (min-width: 640px) and (min-width: 1056px) {
     .ibm-type-f {
-      font-size: calc(24px + 0.01347 * (100vw - 1056px));
-      line-height: calc(30px + 0.01684 * (100vw - 1056px));
-      max-width: calc(544px + 0.2963 * (100vw - 1056px)); }
+      font-size: calc( 24px + 0.01347 * (100vw - 1056px));
+      line-height: calc( 30px + 0.01684 * (100vw - 1056px));
+      max-width: calc( 544px + 0.2963 * (100vw - 1056px)); }
       .ibm-type-f.ibm-type-serif {
-        font-size: calc(23px + 0.01263 * (100vw - 1056px)); } }
+        font-size: calc( 23px + 0.01263 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-f {
       font-size: 2rem;
@@ -704,23 +705,23 @@ body {
     font-size: 1.4375rem; }
   @media (min-width: 640px) {
     .ibm-type-g {
-      font-size: calc(24px + 0.00962 * (100vw - 640px));
-      line-height: calc(30px + 0.01442 * (100vw - 640px));
-      max-width: calc(544px + 0.21154 * (100vw - 640px)); }
+      font-size: calc( 24px + 0.00962 * (100vw - 640px));
+      line-height: calc( 30px + 0.01442 * (100vw - 640px));
+      max-width: calc( 544px + 0.21154 * (100vw - 640px)); }
       .ibm-type-g.ibm-type-serif {
-        font-size: calc(23px + 0.00901 * (100vw - 640px)); } }
+        font-size: calc( 23px + 0.00901 * (100vw - 640px)); } }
   @media (min-width: 1056px) {
     .ibm-type-g {
       font-size: 1.75rem;
       line-height: 2.25rem;
       max-width: 39.5rem;
-      font-size: calc(28px + 0.00673 * (100vw - 1056px));
-      line-height: calc(36px + 0.00673 * (100vw - 1056px));
-      max-width: calc(632px + 0.14815 * (100vw - 1056px)); }
+      font-size: calc( 28px + 0.00673 * (100vw - 1056px));
+      line-height: calc( 36px + 0.00673 * (100vw - 1056px));
+      max-width: calc( 632px + 0.14815 * (100vw - 1056px)); }
       .ibm-type-g.ibm-type-serif {
         font-size: calc(1.75rem - 1px); }
       .ibm-type-g.ibm-type-serif {
-        font-size: calc(27px + 0.00631 * (100vw - 1056px)); } }
+        font-size: calc( 27px + 0.00631 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-g {
       font-size: 2rem;
@@ -739,35 +740,35 @@ body {
     font-size: 1.6875rem; }
   @media (min-width: 320px) {
     .ibm-type-h {
-      font-size: calc(28px + 0.0125 * (100vw - 320px));
-      line-height: calc(36px + 0.0125 * (100vw - 320px));
-      max-width: calc(632px + 0.275 * (100vw - 320px)); }
+      font-size: calc( 28px + 0.0125 * (100vw - 320px));
+      line-height: calc( 36px + 0.0125 * (100vw - 320px));
+      max-width: calc( 632px + 0.275 * (100vw - 320px)); }
       .ibm-type-h.ibm-type-serif {
-        font-size: calc(27px + 0.01172 * (100vw - 320px)); } }
+        font-size: calc( 27px + 0.01172 * (100vw - 320px)); } }
   @media (min-width: 640px) {
     .ibm-type-h {
       font-size: 2rem;
       line-height: 2.5rem;
       max-width: 45rem;
-      font-size: calc(32px + 0.00962 * (100vw - 640px));
-      line-height: calc(40px + 0.00962 * (100vw - 640px));
-      max-width: calc(720px + 0.21154 * (100vw - 640px)); }
+      font-size: calc( 32px + 0.00962 * (100vw - 640px));
+      line-height: calc( 40px + 0.00962 * (100vw - 640px));
+      max-width: calc( 720px + 0.21154 * (100vw - 640px)); }
       .ibm-type-h.ibm-type-serif {
         font-size: calc(2rem - 1px); }
       .ibm-type-h.ibm-type-serif {
-        font-size: calc(31px + 0.00901 * (100vw - 640px)); } }
+        font-size: calc( 31px + 0.00901 * (100vw - 640px)); } }
   @media (min-width: 1056px) {
     .ibm-type-h {
       font-size: 2.25rem;
       line-height: 2.75rem;
       max-width: 50.5rem;
-      font-size: calc(36px + 0.0101 * (100vw - 1056px));
-      line-height: calc(44px + 0.0101 * (100vw - 1056px));
-      max-width: calc(808px + 0.22896 * (100vw - 1056px)); }
+      font-size: calc( 36px + 0.0101 * (100vw - 1056px));
+      line-height: calc( 44px + 0.0101 * (100vw - 1056px));
+      max-width: calc( 808px + 0.22896 * (100vw - 1056px)); }
       .ibm-type-h.ibm-type-serif {
         font-size: calc(2.25rem - 1px); }
       .ibm-type-h.ibm-type-serif {
-        font-size: calc(35px + 0.00947 * (100vw - 1056px)); } }
+        font-size: calc( 35px + 0.00947 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-h {
       font-size: 2.625rem;
@@ -786,35 +787,35 @@ body {
     font-size: 1.6875rem; }
   @media (min-width: 320px) {
     .ibm-type-i {
-      font-size: calc(28px + 0.025 * (100vw - 320px));
-      line-height: calc(36px + 0.025 * (100vw - 320px));
-      max-width: calc(632px + 0.55 * (100vw - 320px)); }
+      font-size: calc( 28px + 0.025 * (100vw - 320px));
+      line-height: calc( 36px + 0.025 * (100vw - 320px));
+      max-width: calc( 632px + 0.55 * (100vw - 320px)); }
       .ibm-type-i.ibm-type-serif {
-        font-size: calc(27px + 0.02344 * (100vw - 320px)); } }
+        font-size: calc( 27px + 0.02344 * (100vw - 320px)); } }
   @media (min-width: 640px) {
     .ibm-type-i {
       font-size: 2.25rem;
       line-height: 2.75rem;
       max-width: 50.5rem;
-      font-size: calc(36px + 0.01442 * (100vw - 640px));
-      line-height: calc(44px + 0.01442 * (100vw - 640px));
-      max-width: calc(808px + 0.32692 * (100vw - 640px)); }
+      font-size: calc( 36px + 0.01442 * (100vw - 640px));
+      line-height: calc( 44px + 0.01442 * (100vw - 640px));
+      max-width: calc( 808px + 0.32692 * (100vw - 640px)); }
       .ibm-type-i.ibm-type-serif {
         font-size: calc(2.25rem - 1px); }
       .ibm-type-i.ibm-type-serif {
-        font-size: calc(35px + 0.01352 * (100vw - 640px)); } }
+        font-size: calc( 35px + 0.01352 * (100vw - 640px)); } }
   @media (min-width: 1056px) {
     .ibm-type-i {
       font-size: 2.625rem;
       line-height: 3.125rem;
       max-width: 59rem;
-      font-size: calc(42px + 0.0303 * (100vw - 1056px));
-      line-height: calc(50px + 0.03367 * (100vw - 1056px));
-      max-width: calc(944px + 0.6734 * (100vw - 1056px)); }
+      font-size: calc( 42px + 0.0303 * (100vw - 1056px));
+      line-height: calc( 50px + 0.03367 * (100vw - 1056px));
+      max-width: calc( 944px + 0.6734 * (100vw - 1056px)); }
       .ibm-type-i.ibm-type-serif {
         font-size: calc(2.625rem - 1px); }
       .ibm-type-i.ibm-type-serif {
-        font-size: calc(41px + 0.02841 * (100vw - 1056px)); } }
+        font-size: calc( 41px + 0.02841 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-i {
       font-size: 3.75rem;
@@ -833,36 +834,36 @@ body {
     font-size: 2.5625rem; }
   @media (min-width: 320px) {
     .ibm-type-j {
-      font-size: calc(42px + 0.08125 * (100vw - 320px));
-      line-height: calc(50px + 0.0875 * (100vw - 320px));
-      max-width: calc(944px + 1.825 * (100vw - 320px)); }
+      font-size: calc( 42px + 0.08125 * (100vw - 320px));
+      line-height: calc( 50px + 0.0875 * (100vw - 320px));
+      max-width: calc( 944px + 1.825 * (100vw - 320px)); }
       .ibm-type-j.ibm-type-serif {
-        font-size: calc(41px + 0.07617 * (100vw - 320px)); } }
+        font-size: calc( 41px + 0.07617 * (100vw - 320px)); } }
   @media (min-width: 640px) {
     .ibm-type-j {
       font-size: 4.25rem;
       line-height: 4.875rem;
       max-width: 95.5rem;
-      font-size: calc(68px + 0.21154 * (100vw - 640px));
-      line-height: calc(78px + 0.20673 * (100vw - 640px));
-      max-width: calc(1528px + 4.61538 * (100vw - 640px)); }
+      font-size: calc( 68px + 0.21154 * (100vw - 640px));
+      line-height: calc( 78px + 0.20673 * (100vw - 640px));
+      max-width: calc( 1528px + 4.61538 * (100vw - 640px)); }
       .ibm-type-j.ibm-type-serif {
         font-size: calc(4.25rem - 1px); }
       .ibm-type-j.ibm-type-serif {
-        font-size: calc(67px + 0.19832 * (100vw - 640px)); } }
+        font-size: calc( 67px + 0.19832 * (100vw - 640px)); } }
   @media (min-width: 1056px) {
     .ibm-type-j {
       font-size: 9.75rem;
       line-height: 10.25rem;
       max-width: 215.5rem;
       letter-spacing: -0.06rem;
-      font-size: calc(156px + 0.0202 * (100vw - 1056px));
-      line-height: calc(164px + 0.01684 * (100vw - 1056px));
-      max-width: calc(3448px + 0.45791 * (100vw - 1056px)); }
+      font-size: calc( 156px + 0.0202 * (100vw - 1056px));
+      line-height: calc( 164px + 0.01684 * (100vw - 1056px));
+      max-width: calc( 3448px + 0.45791 * (100vw - 1056px)); }
       .ibm-type-j.ibm-type-serif {
         font-size: calc(9.75rem - 1px); }
       .ibm-type-j.ibm-type-serif {
-        font-size: calc(155px + 0.01894 * (100vw - 1056px)); } }
+        font-size: calc( 155px + 0.01894 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-j {
       font-size: 10.5rem;
@@ -881,36 +882,36 @@ body {
     font-size: 2.5625rem; }
   @media (min-width: 320px) {
     .ibm-type-k {
-      font-size: calc(42px + 0.08125 * (100vw - 320px));
-      line-height: calc(50px + 0.0875 * (100vw - 320px));
-      max-width: calc(944px + 1.825 * (100vw - 320px)); }
+      font-size: calc( 42px + 0.08125 * (100vw - 320px));
+      line-height: calc( 50px + 0.0875 * (100vw - 320px));
+      max-width: calc( 944px + 1.825 * (100vw - 320px)); }
       .ibm-type-k.ibm-type-serif {
-        font-size: calc(41px + 0.07617 * (100vw - 320px)); } }
+        font-size: calc( 41px + 0.07617 * (100vw - 320px)); } }
   @media (min-width: 640px) {
     .ibm-type-k {
       font-size: 4.25rem;
       line-height: 4.875rem;
       max-width: 95.5rem;
-      font-size: calc(68px + 0.21154 * (100vw - 640px));
-      line-height: calc(78px + 0.20673 * (100vw - 640px));
-      max-width: calc(1528px + 4.61538 * (100vw - 640px)); }
+      font-size: calc( 68px + 0.21154 * (100vw - 640px));
+      line-height: calc( 78px + 0.20673 * (100vw - 640px));
+      max-width: calc( 1528px + 4.61538 * (100vw - 640px)); }
       .ibm-type-k.ibm-type-serif {
         font-size: calc(4.25rem - 1px); }
       .ibm-type-k.ibm-type-serif {
-        font-size: calc(67px + 0.19832 * (100vw - 640px)); } }
+        font-size: calc( 67px + 0.19832 * (100vw - 640px)); } }
   @media (min-width: 1056px) {
     .ibm-type-k {
       font-size: 9.75rem;
       line-height: 10.25rem;
       max-width: 215.5rem;
       letter-spacing: -0.04rem;
-      font-size: calc(156px + 0.0202 * (100vw - 1056px));
-      line-height: calc(164px + 0.01684 * (100vw - 1056px));
-      max-width: calc(3448px + 0.45791 * (100vw - 1056px)); }
+      font-size: calc( 156px + 0.0202 * (100vw - 1056px));
+      line-height: calc( 164px + 0.01684 * (100vw - 1056px));
+      max-width: calc( 3448px + 0.45791 * (100vw - 1056px)); }
       .ibm-type-k.ibm-type-serif {
         font-size: calc(9.75rem - 1px); }
       .ibm-type-k.ibm-type-serif {
-        font-size: calc(155px + 0.01894 * (100vw - 1056px)); } }
+        font-size: calc( 155px + 0.01894 * (100vw - 1056px)); } }
   @media (min-width: 1650px) {
     .ibm-type-k {
       font-size: 10.5rem;
@@ -920,10 +921,10 @@ body {
         font-size: calc(10.5rem - 1px); } }
 
 .ibm,
-[class*=\\"ibm-type\\"] {
+[class*='ibm-type'] {
   font-family: 'ibm-plex-sans', 'Helvetica Neue', Arial, sans-serif; }
 
-[class*=\\"ibm-type\\"] {
+[class*='ibm-type'] {
   margin-top: 0; }
 
 .ibm-type-italic {
