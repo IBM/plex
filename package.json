@@ -17,6 +17,7 @@
     "generate": "node scripts/generate.js",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{js,scss}\"",
+    "prepare": "yarn build",
     "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch",
     "test": "jest"
   },
