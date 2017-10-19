@@ -13,11 +13,12 @@
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "menuspy": "^1.1.2"
   },
   "license": "OFL-1.1 AND Apache-2.0",
   "scripts": {
-    "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch"
+    "start": "gulp clean && gulp fonts && gulp grid && gulp scripts && gulp styles && gulp watch"
   },
   "dependencies": {}
 }

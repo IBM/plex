@@ -9,6 +9,11 @@ gulp.task('clean', function () {
 	return del(['dist/**/*', 'docs/css/**/*', 'docs/fonts/**/*']);
 });
 
+gulp.task('scripts', function () {
+	gulp.src("node_modules/menuspy/dist/menuspy.min.js")
+		.pipe(gulp.dest('docs/scripts'))
+});
+
 gulp.task('styles', function () {
 	gulp.src("src/**/*.scss")
 		.pipe(gulp.dest('dist/scss'))
@@ -46,4 +51,4 @@ gulp.task('watch', function () {
 	gulp.watch("docs/**/*").on("change", browserSync.reload);
 });
 
-gulp.task('default', ['clean', 'fonts', 'styles', 'grid']);
+gulp.task('default', ['clean', 'fonts', 'scripts', 'styles', 'grid']);

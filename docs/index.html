@@ -104,26 +104,68 @@
 			.white {
 				background: #fff;
 			}
+
+			.black-font {
+				color: #272727;
+			}
+
+			.nav {
+				left: 0;
+				pointer-events: none;
+				position: fixed;
+				top: 0;
+				width: 100vw;
+			}
+
+			.nav .ibm > * {
+				pointer-events: initial;
+			}
+
+			.nav a {
+				color: inherit;
+			}
+
+			.nav ul {
+				list-style: none;
+			}
+
+			.nav select {
+				background: #fff;
+				border: none;
+				height: 100%;
+				margin-left: -.5rem;
+				max-width: initial;
+				width: calc(100% + .5rem);
+			}
+
+			.nav .active a {
+				font-weight: 600;
+			}
+
+			.space-between {
+				border-right: 1px solid #ebebeb;
+				display: flex;
+    		justify-content: space-between;
+			}
+
+			.nav .space-between * {
+				margin-bottom: 0;
+			}
 		</style>
 	</head>
 	<body>
 		<div class="ibm">
 			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-height-sm-6 ibm-height-md-4 ibm-col-lg-0"></div>
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
-				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
-					<div>
-						<div class="ibm-padding-vertical">
-								<p class="ibm-type-c margin-bottom-0">Design | <a href="./code.html">Code</a></p>
-						</div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group" id="Intro">
+					<div class="ibm-col-sm-0 ibm-col-lg-8 ibm-height-lg-8">
+						<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Design</span> | <a class="black-font" href="./code.html">Code</a></p>
 					</div>
-					<div class="ibm-padding-vertical"></div>
-					<div class="ibm-padding-vertical"></div>
 					<div>
-						<div class="ibm-padding-vertical">
-							<p class="ibm-type-f">Typography is the appearance and arrangement of type. Each letterform lives in a <a href="https://ibm.github.io/grid/">grid system</a>—creating harmonious relationships, clear organizations, and useful hierarchies to guide users through the content.</p>
-							<p class="ibm-type-f">With our new corporate typeface, <a href="https://github.com/IBM/type/archive/master.zip">IBM Plex™,</a> comes a new set of guidance and best practices. IBM typography is international and modern to reflect our brand and our design principles.</p>
-							<p class="ibm-type-f">You can start with:</p>
-						</div>
+						<p class="ibm-type-f">Typography is the appearance and arrangement of type. Each letterform lives in a <a href="https://ibm.github.io/grid/">grid system</a>—creating harmonious relationships, clear organizations, and useful hierarchies to guide users through the content.</p>
+						<p class="ibm-type-f">With our new corporate typeface, <a href="https://github.com/IBM/type/archive/master.zip">IBM Plex™,</a> comes a new set of guidance and best practices. IBM typography is international and modern to reflect our brand and our design principles.</p>
+						<p class="ibm-type-f">You can start with:</p>
 					</div>
 					<div class="ibm-col-md-3 ibm-col-lg-4 ibm-height-lg-10 ibm-col-full white">
 						<a class="ibm-padding download" href="https://github.com/IBM/type/archive/master.zip">
@@ -192,7 +234,7 @@
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8">
 					<div class="ibm-padding-vertical">
-						<h2 class="ibm-type-f">Typeface</h2>
+						<h2 class="ibm-type-f" id="Typeface">Typeface</h2>
 						<p class="ibm-type-c">The IBM Plex™ family comes in sans, sans serif, and monospace versions to serve a variety of needs across all experiences.</p>
 					</div>
 				</div>
@@ -214,7 +256,7 @@
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8">
 					<div class="ibm-padding-vertical">
-						<h2 class="ibm-type-f">Scale</h2>
+						<h2 class="ibm-type-f" id="Scale">Scale</h2>
 						<p class="ibm-type-c">The IBM type scale is built on a single equation.</p>
 					</div>
 				</div>
@@ -375,7 +417,7 @@
 			<section class="ibm-col-bleed ibm-col-group border-bottom">
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8 border-bottom">
-					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0">Style</h2>
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Style">Style</h2>
 					<p class="ibm-type-c">Typography creates texture. It guides users to read and understand the hierarchy of information. Typographic treatment and the controlled usage of types styles helps manage the display of content.</p>
 					<div class="ibm-padding-vertical"></div>
 					<div class="ibm-padding-vertical"></div>
@@ -596,7 +638,7 @@
 			<section class="ibm-col-bleed ibm-col-group border-bottom">
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8 border-bottom">
-					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0">Type Sets</h2>
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Type_Sets">Type Sets</h2>
 					<p class="ibm-type-c">Even though IBM Plex™ contains a wide range of type scales, it’s important to use a curated set of type sizes and styles. Choosing a type set creates a clear and focused reading experience. Consider the content needs and how type works across various screen sizes to choose the ideal set.</p>
 					<div class="ibm-padding-vertical"></div>
 					<div class="ibm-padding-vertical"></div>
@@ -1010,7 +1052,7 @@
 			<section class="ibm-col-bleed ibm-col-group border-bottom">
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8">
-					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0">Alignments</h2>
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Alignments">Alignments</h2>
 					<p class="ibm-type-c">Text alignments organize content for the eye to follow, aiding readability. We use this standard for Western Latin languages  to create clean and consistent layouts.</p>
 					<div class="ibm-padding-vertical"></div>
 					<div class="ibm-padding-vertical"></div>
@@ -1199,7 +1241,7 @@
 			<section class="ibm-col-bleed ibm-col-group border-bottom">
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8">
-					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0">Fluid Type</h2>
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Fluid_Type">Fluid Type</h2>
 					<p class="ibm-type-c">Use fluid type to create a unified experience with the grid. The fixed type scales are fluid between breakpoints to maintain the quality of typography.</p>
 				</div>
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
@@ -1227,7 +1269,7 @@
 			<section class="ibm-col-bleed ibm-col-group border-bottom">
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8">
-					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0">Type Color</h2>
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Type_Color">Type Color</h2>
 					<p class="ibm-type-c">Careful consideration of color maintains quality and recognition for users. Legibility and accessibility are two keys. Keep colored type neutral when in paragraphs. Never use pure black (Hex value: #000000) for text, but instead, a range of grays. Use primary blue for primary actions.</p>
 				</div>
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
@@ -1311,5 +1353,53 @@
 				</div>
 			</section>
 		</div>
+
+		<nav class="nav">
+			<div class="ibm">
+				<div class="ibm-col-sm-4 ibm-col-lg-0 ibm-col-group white">
+					<div class="ibm-col-md-4 space-between">
+						<h1 class="ibm-type-b"><span class="ibm-type-semibold">IBM Type</span></h1>
+						<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Design</span> | <a href="./code.html">Code</a></p>
+					</div>
+					<div class="ibm-col-md-4">
+						<select class="ibm-type-b" name="navMobile" id="nav-mobile">
+							<option value="Intro" href="#Intro">Intro</option> 
+							<option value="Typeface" href="#Typeface">Typeface</option>
+							<option value="Scale" href="#Scale">Scale</option>
+							<option value="Style" href="#Style">Style</option>
+							<option value="Type_Sets" href="#Type_Sets">Type Sets</option>
+							<option value="Alignments" href="#Alignments">Alignments</option>
+							<option value="Fluid_Type" href="#Fluid_Type">Fluid Type</option>
+							<option value="Type_Color" href="#Type_Color">Type Color</option>
+						</select>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-3 ibm-col-group">
+					<div class="ibm-height-lg-9">
+						<h1 class="ibm-type-b"><span class="ibm-type-semibold">IBM Type</span></h1>
+					</div>
+					<ul class="ibm-height-lg-8 white" id="nav-desktop">
+						<li><a class="ibm-type-b" href="#Intro">Intro</a></li>
+						<li><a class="ibm-type-b" href="#Typeface">Typeface</a></li>
+						<li><a class="ibm-type-b" href="#Scale">Scale</a></li>
+						<li><a class="ibm-type-b" href="#Style">Style</a></li>
+						<li><a class="ibm-type-b" href="#Type_Sets">Type Sets</a></li>
+						<li><a class="ibm-type-b" href="#Alignments">Alignments</a></li>
+						<li><a class="ibm-type-b" href="#Fluid_Type">Fluid Type</a></li>
+						<li><a class="ibm-type-b" href="#Type_Color">Type Color</a></li>
+						</ul>
+				</div>
+			</div>
+		</nav>
 	</body>
+	<script src="./scripts/menuspy.min.js" type="text/javascript"></script>
+	<script>
+		var msDesktop = new MenuSpy(document.querySelector('#nav-desktop'));
+		var msMobile = new MenuSpy(document.querySelector('#nav-mobile'));
+
+		var select = document.querySelector('#nav-mobile');
+		select.onchange = function(){
+			window.location.hash = this.getElementsByTagName('option')[this.selectedIndex].value;
+		};
+	</script>
 </html>
