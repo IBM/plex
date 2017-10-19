@@ -4,25 +4,26 @@
 @import './fonts';
 
 body {
-	font-size: #{$base-unit}px;
+  font-size: #{$base-unit}px;
 
-	&.ibm-type-serif, .ibm-type-serif {
-		font-size: #{$base-unit - 1}px;
-	}
+  &.ibm-type-serif,
+  .ibm-type-serif {
+    font-size: #{$base-unit - 1}px;
+  }
 }
 
 @each $name, $prescription in $ibm-type-prescription-map {
-	.ibm-type-#{$name} {
-		@include typePrescription($prescription);
-	}
+  .ibm-type-#{$name} {
+    @include typePrescription($prescription);
+  }
 }
 
 .ibm,
-[class*="ibm-type"] {
-  font-family: map-get($fallbacks, "Sans");
+[class*='ibm-type'] {
+  font-family: map-get($fallbacks, 'Sans');
 }
 
-[class*="ibm-type"] {
+[class*='ibm-type'] {
   margin-top: 0;
 }
 
@@ -37,7 +38,7 @@ body {
 code,
 .ibm-type-mono,
 .ibm-type-mono * {
-  font-family: map-get($fallbacks, "Mono");
+  font-family: map-get($fallbacks, 'Mono');
 }
 
 .ibm-type-regular {
@@ -51,5 +52,5 @@ strong,
 
 .ibm-type-serif,
 .ibm-type-serif * {
-  font-family:  map-get($fallbacks, "Serif");
+  font-family: map-get($fallbacks, 'Serif');
 }

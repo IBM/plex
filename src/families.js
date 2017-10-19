@@ -3,16 +3,16 @@
 const families = [
   {
     type: 'Mono',
-    name: 'ibm-plex-mono',
+    name: 'ibm-plex-mono'
   },
   {
     type: 'Sans',
-    name: 'ibm-plex-sans',
+    name: 'ibm-plex-sans'
   },
   {
     type: 'Serif',
-    name: 'ibm-plex-serif',
-  },
+    name: 'ibm-plex-serif'
+  }
 ];
 
 module.exports = families;

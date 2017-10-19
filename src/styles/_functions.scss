@@ -17,8 +17,7 @@
 @function getFontSize($step) {
   @if map-has-key($ibm-type-scale-map, $step) {
     @return map-get(map-get($ibm-type-scale-map, $step), font-size);
-  }
-  @else {
+  } @else {
     @warn 'There is no font size for that step of the IBM Type Scale!';
   }
 }
@@ -26,8 +25,7 @@
 @function getLineHeight($step) {
   @if map-has-key($ibm-type-scale-map, $step) {
     @return map-get(map-get($ibm-type-scale-map, $step), line-height);
-  }
-  @else {
+  } @else {
     @warn 'There is no line height for that step of the IBM Type Scale!';
   }
 }
@@ -35,8 +33,7 @@
 @function getMaxWidth($step) {
   @if map-has-key($ibm-type-scale-map, $step) {
     @return map-get(map-get($ibm-type-scale-map, $step), max-width);
-  }
-  @else {
+  } @else {
     @warn 'There is no max width for that step of the IBM Type Scale!';
   }
 }

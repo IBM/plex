@@ -3,6 +3,7 @@
   "description": "An opinionated type for all IBM experiences, including the IBM Plex fontface.",
   "version": "0.3.0",
   "repository": "https://github.com/ibm/type.git",
+  "license": "OFL-1.1 AND Apache-2.0",
   "files": [
     "css",
     "fonts",
@@ -10,6 +11,13 @@
   ],
   "bugs": {
     "url": "https://github.com/ibm/type/issues"
+  },
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "precommit": "lint-staged",
+    "prettier": "prettier --write \"**/*.{js,scss}\"",
+    "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch",
+    "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
@@ -21,14 +29,25 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "husky": "^0.14.3",
     "jest": "^21.2.1",
+    "lint-staged": "^4.3.0",
     "node-sass": "^4.5.3",
+    "prettier": "^1.7.4",
     "rimraf": "^2.6.2"
   },
-  "license": "OFL-1.1 AND Apache-2.0",
-  "scripts": {
-    "generate": "node scripts/generate.js",
-    "start": "gulp clean && gulp fonts && gulp grid && gulp styles && gulp watch",
-    "test": "jest"
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier",
+      "git add"
+    ],
+    "**/*.scss": [
+      "prettier",
+      "git add"
+    ]
   }
 }

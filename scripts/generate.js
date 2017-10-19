@@ -37,7 +37,7 @@ const filesToWrite = families
             family.type,
             weight.type,
             weight.variant,
-            `_${unicode.type}.scss`,
+            `_${unicode.type}.scss`
           ]);
 
           return {
@@ -50,7 +50,7 @@ const filesToWrite = families
               weight,
               unicode
             ),
-            unicode,
+            unicode
           };
         });
 
@@ -60,13 +60,14 @@ const filesToWrite = families
           family.type,
           weight.type,
           weight.variant,
-          '_index.scss',
+          '_index.scss'
         ]);
         const content = innerFiles
           .map(({ unicode }) => {
             const importPath = formatFilename([unicode.type]);
             return `@import '${importPath}';`;
-          }).join('\n');
+          })
+          .join('\n');
 
         // We spread all the inner files, since they are valid files that we'll
         // want to create in the future, and then reduce over the whole
@@ -76,8 +77,8 @@ const filesToWrite = families
           {
             filename: `${OUTPUT_DIRECTORY}/${filename}`,
             content,
-            weight,
-          },
+            weight
+          }
         ];
       })
       .reduce((acc, array) => acc.concat(array), []);
@@ -90,14 +91,15 @@ const filesToWrite = families
       .map(({ weight }) => {
         const importPath = formatFilename([weight.type, weight.variant]);
         return `@import '${importPath}/index';`;
-      }).join('\n');
+      })
+      .join('\n');
 
     return [
       ...files,
       {
         filename,
-        content,
-      },
+        content
+      }
     ];
   })
   .reduce((acc, array) => acc.concat(array));

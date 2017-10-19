@@ -9,10 +9,11 @@ const path = require('path');
  * Here, `formatFilename` gets rid of false-y values and normalizes each part
  * of the path before joining them with the '/' separator.
  */
-const formatFilename = array => array
-  .filter(Boolean)
-  .map(string => string.toLowerCase())
-  .join('/');
+const formatFilename = array =>
+  array
+    .filter(Boolean)
+    .map(string => string.toLowerCase())
+    .join('/');
 
 exports.formatFilename = formatFilename;
 
@@ -30,11 +31,11 @@ const createFontFace = (
 ) => {
   const fontFileName = [
     `IBMPlex${family.type}`,
-    weight.variant
-      ? weight.type + weight.variant
-      : weight.type,
-    unicode.type,
-  ].filter(Boolean).join('-');
+    weight.variant ? weight.type + weight.variant : weight.type,
+    unicode.type
+  ]
+    .filter(Boolean)
+    .join('-');
   const relativePath = path.relative(
     `${outputDirectory}/${filename}`,
     fontDirectory
@@ -42,7 +43,7 @@ const createFontFace = (
 
   const urls = {
     woff2: `../fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
-    woff: `../fonts/${family.type}/web/woff/${fontFileName}.woff`,
+    woff: `../fonts/${family.type}/web/woff/${fontFileName}.woff`
   };
 
   return `@font-face {
