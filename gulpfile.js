@@ -6,26 +6,32 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 
 gulp.task('clean', function () {
-	return del(['dist/**/*', 'docs/css/**/*', 'docs/fonts/**/*']);
+  return del([
+    'css/**/*',
+    'scss/**/*',
+    'fonts/**/*',
+    'docs/css/**/*',
+    'docs/fonts/**/*'
+  ]);
 });
 
 gulp.task('styles', function () {
-	gulp.src("src/**/*.scss")
-		.pipe(gulp.dest('dist/scss'))
+  gulp.src("src/styles/**/*.scss")
+		.pipe(gulp.dest('scss'))
 		.pipe(sass().on('error', sass.logError))
 		.pipe(rename('ibm-type.css'))
-		.pipe(gulp.dest('dist/css'))
+		.pipe(gulp.dest('css'))
 		.pipe(cleanCSS({
 			level: 2
 		}))
 		.pipe(rename('ibm-type.min.css'))
-		.pipe(gulp.dest('dist/css'))
+		.pipe(gulp.dest('css'))
 		.pipe(gulp.dest('docs/css'));
 });
 
 gulp.task('fonts', function () {
 	gulp.src("src/fonts/**/*.*")
-		.pipe(gulp.dest('dist/fonts'))
+		.pipe(gulp.dest('fonts'))
 		.pipe(gulp.dest('docs/fonts'));
 });
 
@@ -41,7 +47,7 @@ gulp.task('watch', function () {
 		}
 	});
 
-	gulp.watch('src/**/*.scss', ['styles']);
+  gulp.watch('src/styles/**/*.scss', ['styles']);
 	gulp.watch("dist/**/*").on("change", browserSync.reload);
 	gulp.watch("docs/**/*").on("change", browserSync.reload);
 });
