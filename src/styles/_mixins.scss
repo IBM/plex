@@ -1,0 +1,219 @@
+@mixin fluidRule($rule, $minSize, $maxSize, $minViewport, $maxViewport) {
+  #{$rule}: calc(
+    #{strip-unit($minSize) * $base-unit}px + #{(
+        strip-unit($maxSize) - strip-unit($minSize)
+      ) * $base-unit / ($maxViewport - $minViewport)} * (100vw - #{$minViewport}px)
+  );
+  @if $rule == 'font-size' {
+    &.ibm-type-serif {
+      font-size: calc(
+        #{strip-unit($minSize) * $base-unit - 1}px + #{(
+            strip-unit($maxSize) - strip-unit($minSize)
+          ) * ($base-unit - 1) / ($maxViewport - $minViewport)} * (100vw - #{$minViewport}px)
+      );
+    }
+  }
+}
+
+@mixin fluidRules($prescription, $breakpoint, $margin: true) {
+  $last-breakpoint: map-get(
+    $breakpoints-map,
+    nth(
+      map-keys($breakpoints-map),
+      index(map-keys($breakpoints-map), $breakpoint) - 1
+    )
+  );
+  $last-specs: map-get(
+    $prescription,
+    nth(
+      map-keys($prescription),
+      index(map-keys($prescription), $breakpoint) - 1
+    )
+  );
+
+  @include fluidRule(
+    font-size,
+    getFontSize(map-get($last-specs, 'step')),
+    getFontSize(map-get(map-get($prescription, $breakpoint), 'step')),
+    $last-breakpoint,
+    map-get($breakpoints-map, $breakpoint)
+  );
+
+  @include fluidRule(
+    line-height,
+    getLineHeight(map-get($last-specs, 'step')),
+    getLineHeight(map-get(map-get($prescription, $breakpoint), 'step')),
+    $last-breakpoint,
+    map-get($breakpoints-map, $breakpoint)
+  );
+
+  @include fluidRule(
+    max-width,
+    getMaxWidth(map-get($last-specs, 'step')),
+    getMaxWidth(map-get(map-get($prescription, $breakpoint), 'step')),
+    $last-breakpoint,
+    map-get($breakpoints-map, $breakpoint)
+  );
+
+  @if map-get($last-specs, 'letter-spacing') != null and map-get(map-get($prescription, $breakpoint), 'letter-spacing') != null {
+    @include fluidRule(
+      letter-spacing,
+      map-get($last-specs, 'letter-spacing'),
+      map-get(map-get($prescription, $breakpoint), 'letter-spacing'),
+      $last-breakpoint,
+      map-get($breakpoints-map, $breakpoint)
+    );
+  }
+
+  @if $margin == true and map-get($last-specs, 'margin-bottom') != null and map-get(map-get($prescription, $breakpoint), 'margin-bottom') != null and map-get($last-specs, 'margin-bottom') != map-get(map-get($prescription, $breakpoint), 'margin-bottom') {
+    @include fluidRule(
+      margin-bottom,
+      map-get($last-specs, 'margin-bottom'),
+      map-get(map-get($prescription, $breakpoint), 'margin-bottom'),
+      $last-breakpoint,
+      map-get($breakpoints-map, $breakpoint)
+    );
+  }
+}
+
+@mixin typePrescription($prescription, $margin: true) {
+  $size: getFontSize(map-get(map-get($prescription, 'sm'), 'step'));
+  font-size: $size;
+  &.ibm-type-serif {
+    font-size: #{(strip-unit($size) * $base-unit - 1) / $base-unit}rem;
+  }
+  font-weight: map-get(map-get($prescription, 'sm'), 'font-weight');
+  line-height: getLineHeight(map-get(map-get($prescription, 'sm'), 'step'));
+  max-width: getMaxWidth(map-get(map-get($prescription, 'sm'), 'step'));
+
+  @if map-has-key(map-get($prescription, 'sm'), 'letter-spacing') {
+    letter-spacing: map-get(map-get($prescription, 'sm'), 'letter-spacing');
+  }
+
+  @if $margin == true {
+    margin-bottom: map-get(map-get($prescription, 'sm'), 'margin-bottom');
+  }
+
+  @if map-has-key(map-get($prescription, 'sm'), 'text-transform') {
+    text-transform: map-get(map-get($prescription, 'sm'), 'text-transform');
+  }
+
+  @if map-has-key($prescription, 'md') {
+    @media (min-width: $breakpoint--sm + 'px') {
+      @include fluidRules(
+        $prescription,
+        'md',
+        $margin
+      );
+    }
+  } @else if map-has-key($prescription, 'lg') {
+    @media (min-width: $breakpoint--md + 'px') {
+      @include fluidRules(
+        $prescription,
+        'lg',
+        $margin
+      );
+    }
+  } @else if map-has-key($prescription, 'max') {
+    @media (min-width: $breakpoint--lg + 'px') {
+      @include fluidRules(
+        $prescription,
+        'max',
+        $margin
+      );
+    }
+  }
+
+  @if map-has-key($prescription, 'md') {
+    @media (min-width: $breakpoint--md + 'px') {
+      $size: getFontSize(map-get(map-get($prescription, 'md'), 'step'));
+      font-size: $size;
+      &.ibm-type-serif {
+        font-size: calc(#{$size} - 1px);
+      }
+      line-height: getLineHeight(map-get(map-get($prescription, 'md'), 'step'));
+      max-width: getMaxWidth(map-get(map-get($prescription, 'md'), 'step'));
+
+      @if map-has-key(map-get($prescription, 'md'), 'letter-spacing') {
+        letter-spacing: map-get(map-get($prescription, 'md'), 'letter-spacing');
+      }
+
+      @if map-has-key(map-get($prescription, 'md'), 'margin-bottom') AND $margin == true {
+        margin-bottom: map-get(map-get($prescription, 'md'), 'margin-bottom');
+      }
+
+      @if map-has-key($prescription, 'lg') {
+        @include fluidRules(
+          $prescription,
+          'lg',
+          $margin
+        );
+      } @else if map-has-key($prescription, 'max') {
+        @media (min-width: $breakpoint--lg + 'px') {
+          @include fluidRules(
+            $prescription,
+            'max',
+            $margin
+          );
+        }
+      }
+    }
+  }
+
+  @if map-has-key($prescription, 'lg') {
+    @media (min-width: $breakpoint--lg + 'px') {
+      $size: getFontSize(map-get(map-get($prescription, 'lg'), 'step'));
+      font-size: $size;
+      &.ibm-type-serif {
+        font-size: calc(#{$size} - 1px);
+      }
+      line-height: getLineHeight(map-get(map-get($prescription, 'lg'), 'step'));
+      max-width: getMaxWidth(map-get(map-get($prescription, 'lg'), 'step'));
+
+      @if map-has-key(map-get($prescription, 'lg'), 'letter-spacing') {
+        letter-spacing: map-get(map-get($prescription, 'lg'), 'letter-spacing');
+      }
+
+      @if map-has-key(map-get($prescription, 'lg'), 'margin-bottom') AND $margin == true {
+        margin-bottom: map-get(map-get($prescription, 'lg'), 'margin-bottom');
+      }
+
+      @if map-has-key($prescription, 'max') {
+        @include fluidRules(
+          $prescription,
+          'max',
+          $margin
+        );
+      }
+    }
+  }
+
+  @if map-has-key($prescription, 'max') {
+    @media (min-width: $breakpoint--max + 'px') {
+      $size: getFontSize(map-get(map-get($prescription, 'max'), 'step'));
+      font-size: $size;
+      &.ibm-type-serif {
+        font-size: calc(#{$size} - 1px);
+      }
+      line-height: getLineHeight(
+        map-get(map-get($prescription, 'max'), 'step')
+      );
+      max-width: getMaxWidth(map-get(map-get($prescription, 'max'), 'step'));
+
+      @if map-has-key(map-get($prescription, 'max'), 'letter-spacing') {
+        letter-spacing: map-get(
+          map-get($prescription, 'max'),
+          'letter-spacing'
+        );
+      }
+
+      @if map-has-key(map-get($prescription, 'max'), 'margin-bottom') AND $margin == true {
+        margin-bottom: map-get(map-get($prescription, 'max'), 'margin-bottom');
+      }
+    }
+  }
+}
+
+@mixin singleTypePrescription($prescription, $margin: true) {
+  @include typePrescription(map-get($ibm-type-prescription-map, $prescription), $margin);
+}

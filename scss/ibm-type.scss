@@ -1,0 +1,56 @@
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'fonts';
+
+body {
+  font-size: #{$base-unit}px;
+
+  &.ibm-type-serif,
+  .ibm-type-serif {
+    font-size: #{$base-unit - 1}px;
+  }
+}
+
+@each $name, $prescription in $ibm-type-prescription-map {
+  .ibm-type-#{$name} {
+    @include typePrescription($prescription);
+  }
+}
+
+.ibm,
+[class*='ibm-type'] {
+  font-family: map-get($fallbacks, 'Sans');
+}
+
+[class*='ibm-type'] {
+  margin-top: 0;
+}
+
+.ibm-type-italic {
+  font-style: italic;
+}
+
+.ibm-type-light {
+  font-weight: 300;
+}
+
+code,
+.ibm-type-mono,
+.ibm-type-mono * {
+  font-family: map-get($fallbacks, 'Mono');
+}
+
+.ibm-type-regular {
+  font-weight: 400;
+}
+
+strong,
+.ibm-type-semibold {
+  font-weight: 600;
+}
+
+.ibm-type-serif,
+.ibm-type-serif * {
+  font-family: map-get($fallbacks, 'Serif');
+}

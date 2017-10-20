@@ -1,0 +1,14 @@
+# Ignore generated dependency folders
+node_modules
+
+# Logs
+*.log
+
+# Editor
+.DS_Store
+*.swp
+.idea
+.vscode
+
+# Coverage directory used by tools like Istanbul
+coverage

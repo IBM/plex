@@ -1,0 +1,190 @@
+$fallbacks: (
+  'Mono': unquote("'ibm-plex-mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace"),
+  'Sans': unquote("'ibm-plex-sans', 'Helvetica Neue', Arial, sans-serif"),
+  'Serif': unquote("'ibm-plex-serif', 'Georgia', Times, serif")
+);
+
+$base-unit: 16;
+$breakpoints: 'sm', 'md', 'lg', 'max';
+$breakpoint--sm: 320;
+$breakpoint--md: 640;
+$breakpoint--lg: 1056;
+$breakpoint--max: 1650;
+$breakpoints-map: ('sm': 320, 'md': 640, 'lg': 1056, 'max': 1650);
+
+// Steps 1-6 have max-width for 75 characters
+// Steps 6+ have max-width for 50 characters
+$ibm-type-scale-map: (
+  1:
+    (
+      font-size: 0.75rem,
+      letter-spacing: 0.02rem,
+      line-height: 1rem,
+      max-width: 26.5rem
+    ),
+  2:
+    (
+      font-size: 0.875rem,
+      letter-spacing: 0.01rem,
+      line-height: 1.25rem,
+      max-width: 30rem
+    ),
+  3: (font-size: 1rem, line-height: 1.375rem, max-width: 35rem),
+  4: (font-size: 1.125rem, line-height: 1.5rem, max-width: 37.5rem),
+  5: (font-size: 1.25rem, line-height: 1.625rem, max-width: 43rem),
+  6: (font-size: 1.5rem, line-height: 1.875rem, max-width: 34rem),
+  7: (font-size: 1.75rem, line-height: 2.25rem, max-width: 39.5rem),
+  8: (font-size: 2rem, line-height: 2.5rem, max-width: 45rem),
+  9: (font-size: 2.25rem, line-height: 2.75rem, max-width: 50.5rem),
+  10: (font-size: 2.625rem, line-height: 3.125rem, max-width: 59rem),
+  11: (font-size: 3rem, line-height: 3.5rem, max-width: 67.5rem),
+  12: (font-size: 3.375rem, line-height: 4rem, max-width: 76rem),
+  13: (font-size: 3.75rem, line-height: 4.375rem, max-width: 84rem),
+  14: (font-size: 4.25rem, line-height: 4.875rem, max-width: 95.5rem),
+  15: (font-size: 4.75rem, line-height: 5.375rem, max-width: 106.5rem),
+  16: (font-size: 5.25rem, line-height: 5.875rem, max-width: 118rem),
+  17:
+    (
+      font-size: 5.75rem,
+      letter-spacing: -0.04rem,
+      line-height: 6.375rem,
+      max-width: 127rem
+    ),
+  18:
+    (
+      font-size: 6.375rem,
+      letter-spacing: -0.04rem,
+      line-height: 7rem,
+      max-width: 141rem
+    ),
+  19:
+    (
+      font-size: 7rem,
+      letter-spacing: -0.04rem,
+      line-height: 7.625rem,
+      max-width: 155rem
+    ),
+  20:
+    (
+      font-size: 7.25rem,
+      letter-spacing: -0.04rem,
+      line-height: 8.125rem,
+      max-width: 160.5rem
+    ),
+  21:
+    (
+      font-size: 7.625rem,
+      letter-spacing: -0.04rem,
+      line-height: 8.75rem,
+      max-width: 169rem
+    ),
+  22:
+    (
+      font-size: 9rem,
+      letter-spacing: -0.06rem,
+      line-height: 9.5rem,
+      max-width: 199rem
+    ),
+  23:
+    (
+      font-size: 9.75rem,
+      letter-spacing: -0.06rem,
+      line-height: 10.25rem,
+      max-width: 215.5rem
+    ),
+  24:
+    (
+      font-size: 10.5rem,
+      letter-spacing: -0.06rem,
+      line-height: 10.875rem,
+      max-width: 232.5rem
+    ),
+  25:
+    (
+      font-size: 11.25rem,
+      letter-spacing: -0.06rem,
+      line-height: 11.75rem,
+      max-width: 249rem
+    )
+);
+
+$ibm-type-prescription-map: (
+  'a':
+    (
+      'sm':
+        (
+          font-weight: 400,
+          letter-spacing: 0.02rem,
+          margin-bottom: 1rem,
+          step: 1
+        ),
+      'max': (letter-spacing: 0, margin-bottom: 1.5rem, step: 3)
+    ),
+  'b':
+    (
+      'sm':
+        (
+          font-weight: 400,
+          letter-spacing: 0.01rem,
+          margin-bottom: 1.25rem,
+          step: 2
+        ),
+      'max': (letter-spacing: 0, margin-bottom: 1.5rem, step: 4)
+    ),
+  'c':
+    (
+      'sm': (font-weight: 400, margin-bottom: 1.5rem, step: 3),
+      'max': (margin-bottom: 2rem, step: 5)
+    ),
+  'd':
+    (
+      'sm': (font-weight: 600, margin-bottom: 1rem, step: 3),
+      'max': (margin-bottom: 2rem, step: 5)
+    ),
+  'e':
+    (
+      'sm': (font-weight: 400, margin-bottom: 1.5rem, step: 4),
+      'md': (margin-bottom: 2rem, step: 5),
+      'max': (step: 6)
+    ),
+  'f':
+    (
+      'sm': (font-weight: 400, margin-bottom: 1.5rem, step: 5),
+      'md': (margin-bottom: 2rem, step: 6),
+      'max': (step: 8)
+    ),
+  'g':
+    (
+      'sm': (font-weight: 400, margin-bottom: 2rem, step: 6),
+      'lg': (step: 7),
+      'max': (step: 8)
+    ),
+  'h':
+    (
+      'sm': (font-weight: 300, margin-bottom: 2rem, step: 7),
+      'md': (step: 8),
+      'lg': (step: 9),
+      'max': (step: 10)
+    ),
+  'i':
+    (
+      'sm': (font-weight: 300, margin-bottom: 2rem, step: 7),
+      'md': (step: 9),
+      'lg': (step: 10),
+      'max': (step: 13)
+    ),
+  'j':
+    (
+      'sm': (font-weight: 300, margin-bottom: 2rem, step: 10),
+      'md': (step: 14),
+      'lg': (letter-spacing: -0.06rem, step: 23),
+      'max': (step: 24)
+    ),
+  'k':
+    (
+      'sm': (font-weight: 600, margin-bottom: 2rem, step: 10),
+      'md': (step: 14),
+      'lg': (letter-spacing: -0.04rem, step: 23),
+      'max': (step: 24)
+    )
+);

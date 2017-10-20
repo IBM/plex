@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IBM Type - Design</title>
+
+		<link href="./css/ibm-type.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./css/ibm-grid.min.css">		
+		<style type="text/css">			
+			body {
+				background:#F3F3F3;
+				color: #272727;
+			}
+
+			a {
+				color: #0034CC;
+				text-decoration: none;
+			}
+
+			button {
+				border: none;
+				background: none;
+				color: #0034CC;
+				margin: 0;
+				padding: 0;
+			}
+
+			button:disabled {
+				color: #8C8C8C;
+			}
+
+			.border-bottom {
+				border-bottom: 2px solid #d8d8d8;
+			}
+
+			.margin-bottom-0 {
+				margin-bottom: 0;
+			}
+
+			img {
+				width: 100%;
+			}
+
+			.flex {
+				align-items: center;
+				display: flex;
+			}
+
+			.flex * {
+
+				max-width: 100%;
+			}
+
+			.magenta {
+				color: #db2663;
+			}
+
+			.padding-bottom-small {
+				padding-bottom: .5rem;
+			}
+
+			.height-100 {
+				height: 100%;
+			}
+
+			.download {
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				justify-content: space-between;
+			}
+
+			.download svg {
+				align-self: flex-end;
+			}
+
+			.item2 {
+				border-top: 1px solid #ebebeb;
+			}
+
+			@media (min-width: 640px) {
+				.item2 {
+					border-left: 1px solid #ebebeb;
+					border-top: none;
+				}
+			}
+
+			@media (min-width: 1650px) {
+				.max-only {
+					display: initial;
+				}
+
+				.max-0 {
+					display: none !important;
+				}
+			}
+
+			.black {
+				background: #000;
+				color: #fff;
+			}
+			
+			.white {
+				background: #fff;
+			}
+
+			.black-font {
+				color: #272727;
+			}
+
+			.nav {
+				left: 0;
+				pointer-events: none;
+				position: fixed;
+				top: 0;
+				width: 100vw;
+			}
+
+			.nav .ibm > * {
+				pointer-events: initial;
+			}
+
+			.nav a {
+				color: inherit;
+			}
+
+			.nav ul {
+				list-style: none;
+			}
+
+			.nav select {
+				background: #fff;
+				border: none;
+				height: 100%;
+				margin-left: -.5rem;
+				max-width: initial;
+				width: calc(100% + .5rem);
+			}
+
+			.nav .active a {
+				font-weight: 600;
+			}
+
+			.space-between {
+				border-right: 1px solid #ebebeb;
+				display: flex;
+    		justify-content: space-between;
+			}
+
+			.nav .space-between * {
+				margin-bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ibm">
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-height-sm-6 ibm-height-md-4 ibm-col-lg-0"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group" id="Intro">
+					<div class="ibm-col-sm-0 ibm-col-lg-8 ibm-height-lg-8">
+						<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Design</span> | <a class="black-font" href="./code.html">Code</a></p>
+					</div>
+					<div>
+						<p class="ibm-type-f">Typography is the appearance and arrangement of type. Each letterform lives in a <a href="https://ibm.github.io/grid/">grid system</a>—creating harmonious relationships, clear organizations, and useful hierarchies to guide users through the content.</p>
+						<p class="ibm-type-f">With our new corporate typeface, <a href="https://github.com/IBM/type/archive/master.zip">IBM Plex™,</a> comes a new set of guidance and best practices. IBM typography is international and modern to reflect our brand and our design principles.</p>
+						<p class="ibm-type-f">You can start with:</p>
+					</div>
+					<div class="ibm-col-md-3 ibm-col-lg-4 ibm-height-lg-10 ibm-col-full white">
+						<a class="ibm-padding download" href="https://github.com/IBM/type/archive/master.zip">
+							<p class="ibm-type-c">
+								Download
+								<br />
+								IBM Plex™ Family
+							</p>
+							<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g id="Product—1056-Copy" transform="translate(-491.000000, -763.000000)" fill-rule="nonzero" fill="#000000">
+												<g id="download" transform="translate(488.000000, 760.000000)">
+														<g id="Group" transform="translate(3.000000, 3.000000)">
+																<rect id="Rectangle-path" x="0" y="16.5" width="18" height="1.5"></rect>
+																<polygon id="Shape" points="15.45 8.55 14.4 7.5 9.75 12.15 9.75 0 8.25 0 8.25 12.15 3.6 7.5 2.55 8.55 9 15"></polygon>
+														</g>
+												</g>
+										</g>
+								</g>
+							</svg>
+						</a>
+					</div>
+					<div class="ibm-col-md-3 ibm-col-lg-4 ibm-height-lg-10 ibm-col-full white item2">
+						<a class="ibm-padding download" href="https://github.com/IBM/type/raw/master/ibm-type.sketch">
+							<p class="ibm-type-c">
+								Download
+								<br />
+								IBM Type Sketch File
+							</p>
+							<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+								<desc>Created with Sketch.</desc>
+								<defs></defs>
+								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g id="Product—1056-Copy" transform="translate(-491.000000, -763.000000)" fill-rule="nonzero" fill="#000000">
+												<g id="download" transform="translate(488.000000, 760.000000)">
+														<g id="Group" transform="translate(3.000000, 3.000000)">
+																<rect id="Rectangle-path" x="0" y="16.5" width="18" height="1.5"></rect>
+																<polygon id="Shape" points="15.45 8.55 14.4 7.5 9.75 12.15 9.75 0 8.25 0 8.25 12.15 3.6 7.5 2.55 8.55 9 15"></polygon>
+														</g>
+												</g>
+										</g>
+								</g>
+							</svg>
+						</a>
+					</div>
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical">
+							<p class="ibm-type-c">Go to <a href="./code.html">Code</a> for guidance of IBM Type’s developer offerings.</p>
+						</div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<div class="ibm-padding-vertical">
+						<h2 class="ibm-type-f" id="Typeface">Typeface</h2>
+						<p class="ibm-type-c">The IBM Plex™ family comes in sans, sans serif, and monospace versions to serve a variety of needs across all experiences.</p>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 white">
+					<p class="ibm-type-f ibm-type-mono">IBM Plex Mono</p>
+					<p class="ibm-type-f">IBM Plex Sans</p>
+					<p class="ibm-type-f ibm-type-serif">IBM Plex Serif</p>
+				</div>
+				<div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+			</section>
+			
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<div class="ibm-padding-vertical">
+						<h2 class="ibm-type-f" id="Scale">Scale</h2>
+						<p class="ibm-type-c">The IBM type scale is built on a single equation.</p>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group white scales">
+					<div class="ibm-col-md-2 ibm-col-lg-2">
+						<p class="ibm-type-b">rem</p>
+					</div>
+					<div class="ibm-col-sm-0 ibm-col-md-4 ibm-col-lg-6">
+						<p class="ibm-type-b">px</p>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">0.75</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 12</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">0.875</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 14</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">1</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 16</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">1.125</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 18</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">1.25</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 20</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">1.5</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 24</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">1.75</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 28</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">2</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 32</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">2.25</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 36</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">2.625</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 42</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">3</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 48</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">3.375</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 54</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">3.75</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 60</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">4.25</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 68</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">4.75</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 76</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="ibm-type-b">5.25</p></div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6 ibm-col-full">
+						<div class="ibm-padding-horizontal"><p class="scale">Plex 84</p></div>
+					</div>
+					<div class="ibm-col-md-2 ibm-col-lg-2">
+						<div class="ibm-padding-vertical">
+							<p class="ibm-type-e">...</p>
+						</div>
+					</div>
+					<div class="ibm-col-md-4 ibm-col-lg-6">
+						<div class="ibm-padding-vertical">
+							<p class="ibm-type-e">...</p>
+						</div>
+					</div>
+				</div>
+				<script>
+					var elements = document.getElementsByClassName('scale');
+					for (i = 0; i < elements.length; i++) {
+						var example = elements[i];
+						var size = example.innerText.split('Plex ')[1];
+						example.style.fontSize = size + 'px';
+						if (parseInt(size) > 42) {
+							example.style.lineHeight = size * 0.8 + 'px';
+						} else if (parseInt(size) > 18) {
+							example.style.lineHeight = size * 0.95 + 'px';
+						}
+					}
+				</script>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<div class="ibm-padding-vertical"></div>
+					<p class="ibm-type-c">The formula for our scale was created to provide hierarchy for all types of experiences. The scale assumes y<sub>0</sub> is 12px.</p>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-md-2 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 black">	
+					<p class="ibm-type-c ibm-type-mono">y<sub>n</sub> = y<sub>n-1</sub> + ⌊(n-2) ÷ 4⌋ · 2</p>		
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-md-2 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<p class="ibm-type-c ibm-padding-vertical"><span class="ibm-type-semibold">Note:</span> When using IBM Plex™ Serif, always subtract the expected font size by 1px.</p>
+				</div>
+				<div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+			</section>
+			
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 border-bottom">
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Style">Style</h2>
+					<p class="ibm-type-c">Typography creates texture. It guides users to read and understand the hierarchy of information. Typographic treatment and the controlled usage of types styles helps manage the display of content.</p>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<h3 class="ibm-type-d margin-bottom-0">Weights</h3>
+					<p class="ibm-type-c">We suggest to use IBM Plex Light, Regular, SemiBold, and Italic for digital experiences. Note that IBM Plex Sans Bold, ExtraLight, Text, and Thin are <span class="ibm-type-italic">not</span> for digital experiences.</p>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/weight-good.png" />
+						</div>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/weight-bad.png" />
+						</div>
+						<div class="ibm-col-md-2 ibm-col-lg-3 magenta">
+							<p class="ibm-type-c margin-bottom-0">Oops!</p>
+							<p class="ibm-type-b">Bold, Medium, Text, Extralight and Thin should not be used in websites.</p>
+						</div>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
+					<div>
+						<div class="ibm-padding-vertical">
+							<p class="ibm-type-c">Weights for specific type scales:</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Font Size (px)</p>
+						<div class="ibm-padding-vertical border-bottom">
+							<p class="ibm-type-b margin-bottom-0">12 — 28</p>
+							<p class="ibm-type-b margin-bottom-0">32 —</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Suggested default weights</p>
+						<div class="ibm-padding-vertical border-bottom">
+							<p class="ibm-type-b margin-bottom-0">Regular</p>
+							<p class="ibm-type-b margin-bottom-0">Light</p>
+						</div>
+					</div>
+					<div class="border-bottom">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Italic</h3>
+						<p class="ibm-type-c">Each weight has an Italic style, which should be used sparingly. Use italic when you need to emphasize certain word in a sentence. Here are some cases you use italic: titles of works, technical terms, names of devices, captions.</p>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/italic.png" />
+						</div>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/italic-good.png" />
+						</div>
+					</div>
+					<div class="ibm-col-lg-8 border-bottom">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Case</h3>
+						<p class="ibm-type-c">Write content in sentence case. Title case can be used in proper titles, product names, and serive names. but avoid uppercase or “all caps.”</p>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/case-bad.png" />
+						</div>
+						<div class="ibm-col-md-2 ibm-col-lg-3 magenta">
+							<p class="ibm-type-c margin-bottom-0">Oops!</p>
+							<p class="ibm-type-b">Uppercase is not to be used for writing. It yells too much and is hard to read.</p>
+						</div>
+					</div>
+					<div class="ibm-col-lg-8 border-bottom">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Line-height</h3>
+						<p class="ibm-type-c">Line heights are included in the type scale to match type sizes, styles, and weights.</p>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/line-height-good.png" />
+						</div>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/line-height-bad.png" />
+						</div>
+						<div class="ibm-col-md-2 ibm-col-lg-3 magenta">
+							<p class="ibm-type-c margin-bottom-0">Oops!</p>
+							<p class="ibm-type-b">The line-height is too open.</p>
+						</div>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
+					<div>
+						<div class="ibm-padding-vertical">
+							<p class="ibm-type-c">Line heights for type size ranges:</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Font Size (px)</p>
+						<div class="ibm-padding-vertical border-bottom">
+							<p class="ibm-type-b margin-bottom-0">12</p>
+							<p class="ibm-type-b margin-bottom-0">14—24</p>
+							<p class="ibm-type-b margin-bottom-0">28—48</p>
+							<p class="ibm-type-b margin-bottom-0">54—112</p>
+							<p class="ibm-type-b margin-bottom-0">112—180</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Suggested line-height</p>
+						<div class="ibm-padding-vertical border-bottom">
+							<p class="ibm-type-b margin-bottom-0">Font-size + 4</p>
+							<p class="ibm-type-b margin-bottom-0">Font-size + 6</p>
+							<p class="ibm-type-b margin-bottom-0">Font-size + 8</p>
+							<p class="ibm-type-b margin-bottom-0">Font-size + 10</p>
+							<p class="ibm-type-b margin-bottom-0">Font-size + 8</p>
+						</div>
+					</div>
+					<div class="border-bottom">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Line length</h3>
+						<p class="ibm-type-c">Max width for text length is based on the column width, type scales and the limit of characters. They are built in our type code. Use the standard—45 to 75 characters—for the line length of a single-column page set in a text size.</p>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/line-length.png" />
+						</div>
+					</div>
+					<div class="ibm-col-lg-8 border-bottom">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Letter-spacing</h3>
+						<p class="ibm-type-c">Keep the type tracking at 0. Letter-spacing is included based on the type size. This setting is determined by the software and is different across applications.</p>	
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
+					<div>
+						<div class="ibm-padding-vertical">
+							<p class="ibm-type-c">Tracking (letter-spacing):</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Font Size (px)</p>
+						<div class="ibm-padding-vertical border-bottom">
+							<p class="ibm-type-b margin-bottom-0">12</p>
+							<p class="ibm-type-b margin-bottom-0">14</p>
+							<p class="ibm-type-b margin-bottom-0">16—84</p>
+							<p class="ibm-type-b margin-bottom-0">92—132</p>
+							<p class="ibm-type-b margin-bottom-0">144—168</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Sketch</p>
+						<div class="ibm-padding-vertical border-bottom">
+							<p class="ibm-type-b margin-bottom-0">+1.0</p>
+							<p class="ibm-type-b margin-bottom-0">+1.0</p>
+							<p class="ibm-type-b margin-bottom-0">0</p>
+							<p class="ibm-type-b margin-bottom-0">-0.05</p>
+							<p class="ibm-type-b margin-bottom-0">-0.1</p>
+						</div>
+					</div>
+					<div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 border-bottom">
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Type_Sets">Type Sets</h2>
+					<p class="ibm-type-c">Even though IBM Plex™ contains a wide range of type scales, it’s important to use a curated set of type sizes and styles. Choosing a type set creates a clear and focused reading experience. Consider the content needs and how type works across various screen sizes to choose the ideal set.</p>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+
+				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group border-bottom">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Editorial type set</h3>
+						<p class="ibm-type-c">For editorial experiences, the type styles and sizes provided accommodate dense content within a dynamic layout.</p>
+					</div>
+
+					<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
+						<div class="ibm-padding-horizontal">
+							<p class="ibm-type-c"><span class="ibm-type-semibold">Note: </span>There are four different breakpoints (sm, md, lg, and max). You are now viewing type at the <span class="ibm-type-semibold"><span class="ibm-col-md-0">sm</span><span class="ibm-col-sm-0-only ibm-col-lg-0-only">md</span><span class="ibm-col-sm-0 ibm-col-lg- max-0">lg</span><span class="ibm-col-sm-0 max-only">max</span></span> breakpoint.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4 ibm-col-full">
+						<div class="ibm-padding-horizontal">
+							<div class="ibm-padding-vertical border-bottom">
+								<p class="ibm-type-b margin-bottom-0">Purpose</p>
+							</div>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4 ibm-col-full">
+						<div class="ibm-padding-horizontal height-100">
+							<div class="ibm-padding-vertical border-bottom">
+								<p class="ibm-type-b margin-bottom-0">Specs</p>
+							</div>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-a">Small copy style is mainly for legal copy usage.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type A</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 12px/16px (0.75rem/1rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 16px/22px (1rem/1.375rem)</p>
+							<p class="ibm-type-a margin-bottom-0">Letter-spacing: +0.1 (Sketch)</p>
+							<p class="ibm-type-a">.ibm-type-a</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b">Main body copy style is for dense content or table body.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type B</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 14px/20px (0.857rem/1.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 18px/24px (1.125rem/1.5rem)</p>
+							<p class="ibm-type-a margin-bottom-0">Letter-spacing: +0.1 (Sketch)</p>
+							<p class="ibm-type-a">.ibm-type-b</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b ibm-type-mono">&lt;p class=&ldquo;ibm-type-b ibm-type-mono&quot;&gt;Mainly for code snippets.&lt;/p&gt;</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type B Mono</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 14px/20px (0.857rem/1.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 18px/24px (1.125rem/1.5rem)</p>
+							<p class="ibm-type-a margin-bottom-0">Letter-spacing: +0.1 (Sketch)</p>
+							<p class="ibm-type-a">.ibm-type-b .ibm-type-mono</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-c">Body copy style alt is for main paragraph style, primary button, links, etc.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type C</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 16px/22px (1rem/1.375rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 20px/26px (1.25rem/1.625rem)</p>
+							<p class="ibm-type-a">.ibm-type-c</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-c ibm-type-serif">Primary body copy style for article page.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type C Serif</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 15px/21px (0.9375rem/1.375rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 19px/25px (1.1875rem/1.625rem)</p>
+							<p class="ibm-type-a">.ibm-type-c .ibm-type-serif</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-d">This heading style is for short section headline.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type D</span></p>
+							<p class="ibm-type-a margin-bottom-0">SemiBold</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 16px/22px (1rem/1.375rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 20px/26px (1.25rem/1.625rem)</p>
+							<p class="ibm-type-a">.ibm-type-d</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-f">This style is for section heading style or high level paragraph.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type F</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 20px/26px (1.25rem/1.625rem)</p>
+							<p class="ibm-type-a margin-bottom-0">md: 24px/30px (1.5rem/1.875rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 32px/40px (2rem/2.5rem)</p>
+							<p class="ibm-type-a">.ibm-type-f</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-i">Heading style</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type I</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 28px/36px (1.75rem/2.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">md: 36px/44px (2.25rem/2.75rem)</p>
+							<p class="ibm-type-a margin-bottom-0">lg: 42px/50px (2.625rem/3.125rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 60px/70px (3.75rem/4.375rem)</p>
+							<p class="ibm-type-a">.ibm-type-i</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-i ibm-type-serif">“Quote.”</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type I</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 27px/36px (1.6875rem/2.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">md: 35px/44px (2.1875rem/2.75rem)</p>
+							<p class="ibm-type-a margin-bottom-0">lg: 41px/50px (2.5625rem/3.125rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 59px/70px (3.6875rem/4.375rem)</p>
+							<p class="ibm-type-a">.ibm-type-i</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-4 ibm-col-md-6 ibm-col-lg-8">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-j">Display</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-0 ibm-col-md-3 ibm-col-lg-4"></div>
+					<div class="ibm-col-sm-4 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type J</span></p>
+							<p class="ibm-type-a margin-bottom-0">Light</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 42px/50px (2.625rem/3.125rem)</p>
+							<p class="ibm-type-a margin-bottom-0">md: 68px/78px (4.25rem/4.875rem)</p>
+							<p class="ibm-type-a margin-bottom-0">lg: 156px/164px (9.75rem/10.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 168px/174px (10.5rem/10.875rem)</p>
+							<p class="ibm-type-a margin-bottom-0">Letter-spacing: -0.1 (Sketch)</p>
+							<p class="ibm-type-a margin-bottom-0"><span class="ibm-type-semibold">Warning: </span>Never use this style as the main headline.</p>
+							<p class="ibm-type-a">.ibm-type-j</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-4 ibm-col-md-6 ibm-col-lg-8">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-k">Display</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-0 ibm-col-md-3 ibm-col-lg-4"></div>
+					<div class="ibm-col-sm-4 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type K</span></p>
+							<p class="ibm-type-a margin-bottom-0">SemiBold</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 42px/50px (2.625rem/3.125rem)</p>
+							<p class="ibm-type-a margin-bottom-0">md: 68px/78px (4.25rem/4.875rem)</p>
+							<p class="ibm-type-a margin-bottom-0">lg: 156px/164px (9.75rem/10.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 168px/174px (10.5rem/10.875rem)</p>
+							<p class="ibm-type-a margin-bottom-0">Letter-spacing: -0.1 (Sketch)</p>
+							<p class="ibm-type-a margin-bottom-0"><span class="ibm-type-semibold">Warning: </span>Never use this style as the main headline.</p>
+							<p class="ibm-type-a">.ibm-type-K</p>
+						</div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<p class="ibm-type-c">Curated examples of Editorial type set in context:</p>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-4 ibm-col-bleed ibm-col-full flex">
+					<img src="./images/editorial-1.png" />
+				</div>
+				<div class="ibm-col-sm-4 ibm-col-md-4 ibm-col-bleed-left ibm-col-full flex">
+					<img src="./images/editorial-2.png" />
+				</div>
+				<div class="ibm-col-sm-4 ibm-col-md-4 ibm-col-bleed-right ibm-col-full flex">
+					<img src="./images/editorial-3.png" />
+				</div>
+				<div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+				
+
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group border-bottom">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Product type set</h3>
+						<p class="ibm-type-c">Use controlled type sizes and styles for design layouts.  In product, a select range of type styles and sizes are provided to accommodate dense content within a dynamic layout.</p>
+					</div>
+
+					<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
+						<div class="ibm-padding-horizontal">
+							<p class="ibm-type-c"><span class="ibm-type-semibold">Note: </span>There are four different breakpoints (sm, md, lg, and max). You are now viewing type at the <span class="ibm-type-semibold"><span class="ibm-col-md-0">sm</span><span class="ibm-col-sm-0-only ibm-col-lg-0-only">md</span><span class="ibm-col-sm-0 ibm-col-lg- max-0">lg</span><span class="ibm-col-sm-0 max-only">max</span></span> breakpoint.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4 ibm-col-full">
+						<div class="ibm-padding-horizontal">
+							<div class="ibm-padding-vertical border-bottom">
+								<p class="ibm-type-b margin-bottom-0">Purpose</p>
+							</div>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4 ibm-col-full">
+						<div class="ibm-padding-horizontal height-100">
+							<div class="ibm-padding-vertical border-bottom">
+								<p class="ibm-type-b margin-bottom-0">Specs</p>
+							</div>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-a">Small copy style is mainly for legal copy usage.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type A</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 12px/16px (0.75rem/1rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 16px/22px (1rem/1.375rem)</p>
+							<p class="ibm-type-a margin-bottom-0">Letter-spacing: +0.1 (Sketch)</p>
+							<p class="ibm-type-a">.ibm-type-a</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b">Main body copy style is for dense content or table body.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type B</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 14px/20px (0.857rem/1.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 18px/24px (1.125rem/1.5rem)</p>
+							<p class="ibm-type-a margin-bottom-0">Letter-spacing: +0.1 (Sketch)</p>
+							<p class="ibm-type-a">.ibm-type-b</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b ibm-type-mono">&lt;p class=&ldquo;ibm-type-b ibm-type-mono&quot;&gt;Mainly for code snippets.&lt;/p&gt;</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type B Mono</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 14px/20px (0.857rem/1.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 18px/24px (1.125rem/1.5rem)</p>
+							<p class="ibm-type-a margin-bottom-0">Letter-spacing: +0.1 (Sketch)</p>
+							<p class="ibm-type-a">.ibm-type-b .ibm-type-mono</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-c">Body copy style alt is for main paragraph style, primary button, links, etc.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type C</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 16px/22px (1rem/1.375rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 20px/26px (1.25rem/1.625rem)</p>
+							<p class="ibm-type-a">.ibm-type-c</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-d">This heading style is for short section headline.</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type D</span></p>
+							<p class="ibm-type-a margin-bottom-0">SemiBold</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 16px/22px (1rem/1.375rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 20px/26px (1.25rem/1.625rem)</p>
+							<p class="ibm-type-a">.ibm-type-d</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-e">Heading is for section headline style or high level paragraph</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type E</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 18px/24px (1.125rem/1.5rem)</p>
+							<p class="ibm-type-a margin-bottom-0">md: 20px/26px (1.25rem/1.625rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 24px/30px (1.5rem/1.875rem)</p>
+							<p class="ibm-type-a">.ibm-type-e</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-g">This style is for section heading</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100 border-bottom">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type G</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 24px/30px (1.5rem/1.875rem)</p>
+							<p class="ibm-type-a margin-bottom-0">lg: 28px/36px (1.75rem/2.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 36px/44px (2.25rem/2.75rem)</p>
+							<p class="ibm-type-a">.ibm-type-g</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100">
+							<p class="ibm-type-h">Heading style</p>
+						</div>
+					</div>
+					<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-4">
+						<div class="height-100">
+							<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Type H</span></p>
+							<p class="ibm-type-a margin-bottom-0">Regular</p>
+							<p class="ibm-type-a margin-bottom-0">sm: 28px/36px (1.75rem/2.25rem)</p>
+							<p class="ibm-type-a margin-bottom-0">md: 32px/40px (2rem/2.5rem)</p>
+							<p class="ibm-type-a margin-bottom-0">lg: 36px/44px (2.25rem/2.75rem)</p>
+							<p class="ibm-type-a margin-bottom-0">max: 42px/50px (2.625rem/3.125rem)</p>
+							<p class="ibm-type-a">.ibm-type-h</p>
+						</div>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<p class="ibm-type-c">Curated examples of Product type set in context:</p>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-4 ibm-col-bleed ibm-col-full flex">
+					<img src="./images/product-1.png" />
+				</div>
+				<div class="ibm-col-sm-4 ibm-col-md-4 ibm-col-bleed-left ibm-col-full flex">
+					<img src="./images/product-2.png" />
+				</div>
+				<div class="ibm-col-sm-4 ibm-col-md-4 ibm-col-bleed-right ibm-col-full flex">
+					<img src="./images/product-3.png" />
+				</div>
+				<div class="ibm-col-sm-4 ibm-col-bleed ibm-col-full flex">
+					<img src="./images/product-4.png" />
+				</div>
+				<div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+			</section>
+
+
+
+
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Alignments">Alignments</h2>
+					<p class="ibm-type-c">Text alignments organize content for the eye to follow, aiding readability. We use this standard for Western Latin languages  to create clean and consistent layouts.</p>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/flush-left-good.png" />
+						</div>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/flush-left-bad-2.png" />
+						</div>
+						<div class="ibm-col-md-2 ibm-col-lg-3 magenta">
+							<p class="ibm-type-c margin-bottom-0">Oops!</p>
+							<p class="ibm-type-b">Centered type does not fit the IBM typography approach, which creates relationships based on strong alignments and grid column systems.</p>
+						</div>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/flush-left-bad-1.png" />
+						</div>
+						<div class="ibm-col-md-2 ibm-col-lg-3 magenta">
+							<p class="ibm-type-c margin-bottom-0">Oops!</p>
+							<p class="ibm-type-b">Flush right is reserved for languages that read right to left but is hard to read in Western Latin languages.</p>
+						</div>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/flush-left-bad-3.png" />
+						</div>
+						<div class="ibm-col-md-2 ibm-col-lg-3 magenta">
+							<p class="ibm-type-c margin-bottom-0">Oops!</p>
+							<p class="ibm-type-b">Justified copy can fit into IBM typography, but we recommend not using this approach as it is difficult to do well and requires strong typographic expertise.</p>
+						</div>
+					</div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+				
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Margin Bottom</h3>
+						<p class="ibm-type-c">We set up bottom margin based on the type scales and weights. Use the increments of 4px (0.25rem) to define the bottom-margin for text pairings. They are built in our type code.</p>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/bottom-margin-good-1.png" />
+						</div>
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/bottom-margin-bad-1.png" />
+						</div>
+						<div class="ibm-col-lg-12 ibm-col-group">
+							<div class="ibm-col-md-3 ibm-col-lg-4">
+								<img src="./images/bottom-margin-good-2.png" />
+							</div>
+							<div class="ibm-col-md-3 ibm-col-lg-4">
+								<img src="./images/bottom-margin-bad-2.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Bottom Margin</h3>
+						<p class="ibm-type-c">We set up bottom margin based on the type scales and weights. Use the increments of 2px (0.125rem) to define the bottom-margin for text pairings.</p>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/bottom-margin-good-1.png" />
+						</div>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-6 ibm-col-lg-8">
+							<img src="./images/bottom-margin-bad-1.png" />
+						</div>
+					</div>
+					<div class="ibm-col-lg-12 ibm-col-group">
+						<div class="ibm-col-md-3 ibm-col-lg-4">
+							<img src="./images/bottom-margin-good-2.png" />
+						</div>
+						<div class="ibm-col-md-3 ibm-col-lg-4">
+							<img src="./images/bottom-margin-bad-2.png" />
+						</div><div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+						<div class="ibm-col-md-6 ibm-col-lg-8 ibm-col-group">
+							<div>
+								<div class="ibm-padding-vertical"></div>
+								<div class="ibm-padding-vertical"></div>
+								<div class="ibm-padding-vertical">
+									<p class="ibm-type-c">We have built margin-bottom in to our code, here is the breakdown for the selected type scales.</p>
+								</div>
+							</div>
+							<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-2">
+								<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Font Size (px)</p>
+								<div class="ibm-padding-vertical border-bottom">
+									<p class="ibm-type-b margin-bottom-0">12px</p>
+									<p class="ibm-type-b margin-bottom-0">14px</p>
+									<p class="ibm-type-b margin-bottom-0">15px</p>
+									<p class="ibm-type-b margin-bottom-0">16px</p>
+									<p class="ibm-type-b margin-bottom-0">16px</p>
+									<p class="ibm-type-b margin-bottom-0">24px</p>
+									<p class="ibm-type-b margin-bottom-0">41px</p>
+									<p class="ibm-type-b margin-bottom-0">42px</p>
+									<p class="ibm-type-b margin-bottom-0">156px</p>
+									<p class="ibm-type-b margin-bottom-0">156px</p>
+									<p class="ibm-type-b margin-bottom-0">168px</p>
+									<p class="ibm-type-b margin-bottom-0">168px</p>
+								</div>
+							</div>
+							<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-2">
+								<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Plex Family</p>
+								<div class="ibm-padding-vertical border-bottom">
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+									<p class="ibm-type-b margin-bottom-0">Mono</p>
+									<p class="ibm-type-b margin-bottom-0">Serif</p>
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+									<p class="ibm-type-b margin-bottom-0">Serif</p>
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+									<p class="ibm-type-b margin-bottom-0">Sans</p>
+								</div>
+							</div>
+							<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-2">
+								<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Weight</p>
+								<div class="ibm-padding-vertical border-bottom">
+									<p class="ibm-type-b margin-bottom-0">Regular</p>
+									<p class="ibm-type-b margin-bottom-0">Regular</p>
+									<p class="ibm-type-b margin-bottom-0">Regular</p>
+									<p class="ibm-type-b margin-bottom-0">Regular</p>
+									<p class="ibm-type-b margin-bottom-0">SemiBold</p>
+									<p class="ibm-type-b margin-bottom-0">Regular</p>
+									<p class="ibm-type-b margin-bottom-0">Light</p>
+									<p class="ibm-type-b margin-bottom-0">Light</p>
+									<p class="ibm-type-b margin-bottom-0">Light</p>
+									<p class="ibm-type-b margin-bottom-0">SemiBold</p>
+									<p class="ibm-type-b margin-bottom-0">Light</p>
+									<p class="ibm-type-b margin-bottom-0">SemiBold</p>
+								</div>
+							</div>
+							<div class="ibm-col-sm-2 ibm-col-md-3 ibm-col-lg-2">
+								<p class="ibm-type-b margin-bottom-0 padding-bottom-small border-bottom">Margin-bottom</p>
+								<div class="ibm-padding-vertical border-bottom">
+									<p class="ibm-type-b margin-bottom-0">16px</p>
+									<p class="ibm-type-b margin-bottom-0">20px</p>
+									<p class="ibm-type-b margin-bottom-0">24px</p>
+									<p class="ibm-type-b margin-bottom-0">24px</p>
+									<p class="ibm-type-b margin-bottom-0">16px</p>
+									<p class="ibm-type-b margin-bottom-0">32px</p>
+									<p class="ibm-type-b margin-bottom-0">32px</p>
+									<p class="ibm-type-b margin-bottom-0">32px</p>
+									<p class="ibm-type-b margin-bottom-0">32px</p>
+									<p class="ibm-type-b margin-bottom-0">32px</p>
+									<p class="ibm-type-b margin-bottom-0">32px</p>
+									<p class="ibm-type-b margin-bottom-0">32px</p>
+								</div>
+							</div>
+							<div>
+								<div class="ibm-padding-vertical"></div>
+								<div class="ibm-padding-vertical"></div>
+								<div class="ibm-padding-vertical"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+			
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Fluid_Type">Fluid Type</h2>
+					<p class="ibm-type-c">Use fluid type to create a unified experience with the grid. The fixed type scales are fluid between breakpoints to maintain the quality of typography.</p>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<div class="ibm-padding-vertical">
+						<img src="./images/fluid-type.gif" />
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<p class="ibm-type-b margin-bottom-0">Why fluid type?</p>
+					<p class="ibm-type-b">It creates cleaner type rag when you scale up the screen and provides a better line-length for reading.</p>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+			</section>
+			
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<h2 class="ibm-type-f ibm-padding-vertical margin-bottom-0" id="Type_Color">Type Color</h2>
+					<p class="ibm-type-c">Careful consideration of color maintains quality and recognition for users. Legibility and accessibility are two keys. Keep colored type neutral when in paragraphs. Never use pure black (Hex value: #000000) for text, but instead, a range of grays. Use primary blue for primary actions.</p>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-8 ibm-col-group border-bottom">
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-col-md-3 ibm-col-lg-4">
+						<img src="./images/color-good-1.png" />
+					</div>
+					<div class="ibm-col-md-3 ibm-col-lg-4">
+						<img src="./images/color-bad-1.png" />
+					</div>
+					<div class="ibm-col-md-3 ibm-col-lg-4">
+						<img src="./images/color-good-2.png" />
+					</div>
+					<div class="ibm-col-md-3 ibm-col-lg-4">
+						<img src="./images/color-bad-2.png" />
+					</div>
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Interactive text</h3>
+						<p class="ibm-type-c">Primary colors are used for text links or main actions.</p>
+					</div>
+					<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+					<div class="ibm-col-md-3 ibm-col-lg-4">
+						<img src="./images/interactive-text-1.png" />
+					</div>
+					<div class="ibm-col-md-3 ibm-col-lg-4">
+						<img src="./images/interactive-text-2.png" />
+					</div>
+					<div class="ibm-col-lg-8 border-bottom">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+				
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-lg-12 ibm-col-group">
+					<div class="ibm-col-md-6 ibm-col-lg-8">
+						<h3 class="ibm-type-d margin-bottom-0">Color type for specific usage</h3>
+						<p class="ibm-type-c">Other use cases for colored type: code snippet, warning, alert, etc.</p>
+					</div>
+					<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+					<div class="ibm-col-md-3 ibm-col-lg-4">
+						<img src="./images/interactive-text-3.png" />
+					</div>
+					<div class="ibm-col-md-3 ibm-col-lg-4">
+						<img src="./images/interactive-text-4.png" />
+					</div>
+					<div class="ibm-col-lg-8 border-bottom">
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+						<div class="ibm-padding-vertical"></div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="ibm-col-bleed ibm-col-group border-bottom">
+				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
+				<div class="ibm-col-md-6 ibm-col-lg-8">
+					<p class="ibm-type-f ibm-padding-vertical margin-bottom-0">We work hard to make our typography useful and beautiful. Give us feedback to make an improvement or just say hi.</p>
+					<p class="ibm-type-c margin-bottom-0">Leave us a <a href="https://github.com/ibm/type/issues/new">GitHub issue.</a></p>
+					<p class="ibm-type-c margin-bottom-0">IBMers, join the Slack <a href="https://ibm-studios.slack.com/messages/C0U35LB2B/">conversation.</a></p>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+					<div class="ibm-padding-vertical"></div>
+				</div>
+			</section>
+		</div>
+
+		<nav class="nav">
+			<div class="ibm">
+				<div class="ibm-col-sm-4 ibm-col-lg-0 ibm-col-group white">
+					<div class="ibm-col-md-4 space-between">
+						<h1 class="ibm-type-b"><span class="ibm-type-semibold">IBM Type</span></h1>
+						<p class="ibm-type-b margin-bottom-0"><span class="ibm-type-semibold">Design</span> | <a href="./code.html">Code</a></p>
+					</div>
+					<div class="ibm-col-md-4">
+						<select class="ibm-type-b" name="navMobile" id="nav-mobile">
+							<option value="Intro" href="#Intro">Intro</option> 
+							<option value="Typeface" href="#Typeface">Typeface</option>
+							<option value="Scale" href="#Scale">Scale</option>
+							<option value="Style" href="#Style">Style</option>
+							<option value="Type_Sets" href="#Type_Sets">Type Sets</option>
+							<option value="Alignments" href="#Alignments">Alignments</option>
+							<option value="Fluid_Type" href="#Fluid_Type">Fluid Type</option>
+							<option value="Type_Color" href="#Type_Color">Type Color</option>
+						</select>
+					</div>
+				</div>
+				<div class="ibm-col-sm-0 ibm-col-lg-3 ibm-col-group">
+					<div class="ibm-height-lg-9">
+						<h1 class="ibm-type-b"><span class="ibm-type-semibold">IBM Type</span></h1>
+					</div>
+					<ul class="ibm-height-lg-8 white" id="nav-desktop">
+						<li><a class="ibm-type-b" href="#Intro">Intro</a></li>
+						<li><a class="ibm-type-b" href="#Typeface">Typeface</a></li>
+						<li><a class="ibm-type-b" href="#Scale">Scale</a></li>
+						<li><a class="ibm-type-b" href="#Style">Style</a></li>
+						<li><a class="ibm-type-b" href="#Type_Sets">Type Sets</a></li>
+						<li><a class="ibm-type-b" href="#Alignments">Alignments</a></li>
+						<li><a class="ibm-type-b" href="#Fluid_Type">Fluid Type</a></li>
+						<li><a class="ibm-type-b" href="#Type_Color">Type Color</a></li>
+						</ul>
+				</div>
+			</div>
+		</nav>
+	</body>
+	<script src="./js/menuspy.min.js" type="text/javascript"></script>
+	<script>
+		var msDesktop = new MenuSpy(document.querySelector('#nav-desktop'));
+		var msMobile = new MenuSpy(document.querySelector('#nav-mobile'));
+
+		var select = document.querySelector('#nav-mobile');
+		select.onchange = function(){
+			window.location.hash = this.getElementsByTagName('option')[this.selectedIndex].value;
+		};
+	</script>
+</html>

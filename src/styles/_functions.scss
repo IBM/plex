@@ -1,0 +1,39 @@
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+@function rem($px) {
+  @return (strip-unit($px) / $base-unit) * 1rem;
+}
+
+@function em($px) {
+  @return (strip-unit($px) / $base-unit) * 1em;
+}
+
+@function getFontSize($step) {
+  @if map-has-key($ibm-type-scale-map, $step) {
+    @return map-get(map-get($ibm-type-scale-map, $step), font-size);
+  } @else {
+    @warn 'There is no font size for that step of the IBM Type Scale!';
+  }
+}
+
+@function getLineHeight($step) {
+  @if map-has-key($ibm-type-scale-map, $step) {
+    @return map-get(map-get($ibm-type-scale-map, $step), line-height);
+  } @else {
+    @warn 'There is no line height for that step of the IBM Type Scale!';
+  }
+}
+
+@function getMaxWidth($step) {
+  @if map-has-key($ibm-type-scale-map, $step) {
+    @return map-get(map-get($ibm-type-scale-map, $step), max-width);
+  } @else {
+    @warn 'There is no max width for that step of the IBM Type Scale!';
+  }
+}
