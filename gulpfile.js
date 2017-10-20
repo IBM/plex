@@ -68,4 +68,4 @@ gulp.task('watch', function() {
   gulp.watch('docs/**/*').on('change', browserSync.reload);
 });
 
-gulp.task('default', ['clean', 'fonts', 'scss', 'css', 'js', 'grid']);
+gulp.task('default', ['fonts', 'scss', 'css', 'js', 'grid']);

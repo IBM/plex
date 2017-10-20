@@ -13,7 +13,7 @@
     "url": "https://github.com/ibm/type/issues"
   },
   "scripts": {
-    "build": "gulp",
+    "build": "gulp clean && gulp",
     "generate": "node scripts/generate.js",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{js,scss}\"",
