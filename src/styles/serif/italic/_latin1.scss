@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'ibm-plex-serif';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/Serif/web/woff2/IBMPlexSerif-Italic-Latin1.woff2')
+      format('woff2'),
+    url('../fonts/Serif/web/woff/IBMPlexSerif-Italic-Latin1.woff')
+      format('woff');
+  unicode-range: 'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02';
+}

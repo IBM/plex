@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'ibm-plex-sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Sans/web/woff2/IBMPlexSans-Regular-Latin3.woff2')
+      format('woff2'),
+    url('../fonts/Sans/web/woff/IBMPlexSans-Regular-Latin3.woff') format('woff');
+  unicode-range: 'U+0102-0103, U+1EA0-1EF9, U+20AB';
+}
