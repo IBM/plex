@@ -30,16 +30,18 @@
 				color: #8C8C8C;
 			}
 
+			video {
+				height: auto;
+				max-height: 100%;
+				width: 100%;
+			}
+
 			.border-bottom {
 				border-bottom: 1px solid #d8d8d8;
 			}
 
 			.margin-bottom-0 {
 				margin-bottom: 0;
-			}
-
-			.margin-bottom-20 {
-				margin-bottom: 1.25rem;
 			}
 
 			img {
@@ -135,6 +137,10 @@
 				list-style: none;
 			}
 
+			.nav li {
+				margin-bottom: 2px;
+			}
+
 			.nav select {
 				background: #fff;
 				border: none;
@@ -157,6 +163,10 @@
 			.nav .space-between * {
 				margin-bottom: 0;
 			}
+			
+		.max-width-36 {
+			max-width: 36rem;
+		}
 		</style>
 	</head>
 	<body>
@@ -245,9 +255,9 @@
 					<div class="ibm-col-md-4 ibm-col-lg-6">
 						<div class="ibm-padding-vertical">
 							<div class="ibm-padding-vertical">
-								<p class="ibm-type-i margin-bottom-20">IBM Plex Sans</p>
-								<p class="ibm-type-i ibm-type-mono">IBM Plex Mono</p>
-								<p class="ibm-type-i ibm-type-serif margin-bottom-20">IBM Plex Serif</p>
+								<p class="ibm-type-i margin-bottom-0">IBM Plex Sans</p>
+								<p class="ibm-type-i ibm-type-mono margin-bottom-0">IBM Plex Mono</p>
+								<p class="ibm-type-i ibm-type-serif margin-bottom-0">IBM Plex Serif</p>
 							</div>
 						</div>
 					</div>
@@ -861,11 +871,18 @@
 				<div class="ibm-col-sm-4 ibm-col-bleed ibm-col-full flex">
 					<img src="./images/editorial-1.png" />
 				</div>
-				<div class="ibm-col-sm-4 ibm-col-md-4 ibm-col-bleed-left ibm-col-full flex">
-					<img src="./images/editorial-2.png" />
+				<div class="ibm-col-sm-4 ibm-col-md-8 ibm-col-lg-8 ibm-col-bleed-left white">
+					<p class="ibm-type-i ibm-type-serif">“In a sense, a corporation should be like a good painting; everything visible should contribute to the correct total statement; nothing visible should detract.”</p>
+					<p class="ibm-type-d ibm-type-serif ibm-type-italic">Eliot Noyes</p>
 				</div>
-				<div class="ibm-col-sm-4 ibm-col-md-4 ibm-col-bleed-right ibm-col-full flex">
+				<div class="ibm-col-sm-4 ibm-col-md-0 ibm-col-lg-8 ibm-col-bleed-right ibm-col-full flex">
 					<img src="./images/editorial-3.png" />
+				</div>
+				<div class="ibm-col-bleed ibm-col-full">
+					<video controls>
+						<source src="./images/Duo_Type.mp4" type="video/mp4">
+						<source src="./images/Duo_Type.webm" type="video/webm">
+					</video>
 				</div>
 				<div>
 					<div class="ibm-padding-vertical"></div>
@@ -1322,7 +1339,7 @@
 			<section class="ibm-col-bleed ibm-col-group">
 				<div class="ibm-col-sm-0 ibm-col-lg-4"></div>
 				<div class="ibm-col-md-6 ibm-col-lg-8">
-					<p class="ibm-type-f ibm-padding-vertical margin-bottom-0">We work hard to make our typography useful and beautiful. Give us feedback to make an improvement or just say hi.</p>
+					<p class="ibm-type-f ibm-padding-vertical margin-bottom-0 max-width-36">We work hard to make our typography useful and beautiful. Give us feedback to make an improvement or just say hi.</p>
 					<p class="ibm-type-c margin-bottom-0">Leave us a <a href="https://github.com/ibm/type/issues/new">GitHub issue.</a></p>
 					<p class="ibm-type-c margin-bottom-0">IBMers, join the Slack <a href="https://ibm-studios.slack.com/messages/C0U35LB2B/">conversation.</a></p>
 					<div class="ibm-padding-vertical"></div>
@@ -1368,7 +1385,7 @@
 						<li><a class="ibm-type-b" href="#Alignments">Alignments</a></li>
 						<li><a class="ibm-type-b" href="#Fluid_Type">Fluid Type</a></li>
 						<li><a class="ibm-type-b" href="#Type_Color">Type Color</a></li>
-						</ul>
+					</ul>
 				</div>
 			</div>
 		</nav>
