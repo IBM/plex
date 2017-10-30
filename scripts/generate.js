@@ -17,6 +17,8 @@ const weights = require('../src/weights');
 const FONT_DIRECTORY = path.resolve(__dirname, '../src/fonts');
 const OUTPUT_DIRECTORY = path.resolve(__dirname, '../src/styles');
 
+const formats = ['url', 'inline'];
+
 /**
  * The general flow for this is to iterate through families, weights, and
  * unicodes, using them to generate an array of objects that contains
@@ -46,7 +48,14 @@ const filesToWrite = families
 
           return {
             filename: `${OUTPUT_DIRECTORY}/${filename}`,
-            content: createFontFace(filename, family, weight, unicode),
+            content: createFontFace(
+              filename,
+              family,
+              weight,
+              unicode,
+              FONT_DIRECTORY,
+              OUTPUT_DIRECTORY
+            ),
             unicode,
           };
         });

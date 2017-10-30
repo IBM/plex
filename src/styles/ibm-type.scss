@@ -18,11 +18,6 @@ body {
   }
 }
 
-.ibm,
-[class*='ibm-type'] {
-  font-family: map-get($fallbacks, 'Sans');
-}
-
 [class*='ibm-type'] {
   margin-top: 0;
 }
@@ -35,12 +30,6 @@ body {
   font-weight: 300;
 }
 
-code,
-.ibm-type-mono,
-.ibm-type-mono * {
-  font-family: map-get($fallbacks, 'Mono');
-}
-
 .ibm-type-regular {
   font-weight: 400;
 }
@@ -50,7 +39,40 @@ strong,
   font-weight: 600;
 }
 
-.ibm-type-serif,
-.ibm-type-serif * {
-  font-family: map-get($fallbacks, 'Serif');
+.ibm-type--loading {
+  .ibm,
+  &.ibm,
+  [class*='ibm-type'] {
+    font-family: map-get($fallbacks, 'Sans');
+  }
+
+  code,
+  .ibm-type-mono,
+  .ibm-type-mono * {
+    font-family: map-get($fallbacks, 'Mono');
+  }
+
+  .ibm-type-serif,
+  .ibm-type-serif * {
+    font-family: map-get($fallbacks, 'Serif');
+  }
+}
+
+.ibm-type--loaded {
+  .ibm,
+  &.ibm,
+  [class*='ibm-type'] {
+    font-family: unquote("'ibm-plex-sans', #{map-get($fallbacks, 'Sans')}");
+  }
+
+  code,
+  .ibm-type-mono,
+  .ibm-type-mono * {
+    font-family: unquote("'ibm-plex-mono', #{map-get($fallbacks, 'Mono')}");
+  }
+
+  .ibm-type-serif,
+  .ibm-type-serif * {
+    font-family: unquote("'ibm-plex-serif', #{map-get($fallbacks, 'Serif')}");
+  }
 }
