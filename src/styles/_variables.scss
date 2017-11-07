@@ -1,3 +1,5 @@
+$publicPath: '/' !default;
+
 $fallbacks: (
   'Mono': unquote("'ibm-plex-mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace"),
   'Sans': unquote("'ibm-plex-sans', 'Helvetica Neue', Arial, sans-serif"),

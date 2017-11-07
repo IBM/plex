@@ -37,8 +37,8 @@ const createFontFace = (filename, family, weight, unicode) => {
   font-family: '${family.name}';
   font-style: ${weight.properties.fontStyle};
   font-weight: ${weight.properties.fontWeight};
-  src: url('${urls.woff2}') format('woff2'),
-    url('${urls.woff}') format('woff');
+  src: url('#{$publicPath}${urls.woff2}') format('woff2'),
+    url('#{$publicPath}${urls.woff}') format('woff');
   unicode-range: '${unicode.characters.join(', ')}';
 }
 `;
