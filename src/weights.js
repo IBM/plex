@@ -8,6 +8,7 @@ const weights = [
       fontStyle: 'italic',
       fontWeight: 400,
     },
+    selector: 'ibm-type-italic',
   },
   {
     type: 'Light',
@@ -15,6 +16,7 @@ const weights = [
       fontStyle: 'normal',
       fontWeight: 300,
     },
+    selector: 'ibm-type-light',
   },
   {
     type: 'Light',
@@ -23,6 +25,7 @@ const weights = [
       fontStyle: 'italic',
       fontWeight: 300,
     },
+    selector: 'ibm-type-light ibm-type-italic',
   },
   {
     type: 'Regular',
@@ -31,6 +34,7 @@ const weights = [
       fontStyle: 'normal',
       fontWeight: 400,
     },
+    selector: 'ibm-type-regular',
   },
   {
     type: 'SemiBold',
@@ -38,6 +42,7 @@ const weights = [
       fontStyle: 'normal',
       fontWeight: 600,
     },
+    selector: 'ibm-type-semibold',
   },
   {
     type: 'SemiBold',
@@ -46,6 +51,7 @@ const weights = [
       fontStyle: 'italic',
       fontWeight: 600,
     },
+    selector: 'ibm-type-semibold ibm-type-italic',
   },
 ];
 
