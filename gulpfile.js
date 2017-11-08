@@ -20,7 +20,7 @@ gulp.task('clean', function() {
 gulp.task('js', function() {
   gulp
     .src('node_modules/menuspy/dist/menuspy.min.js')
-    .pipe(gulp.dest('docs/js'));
+    .pipe(gulp.dest('guidelines/js'));
 });
 
 gulp.task('css', function() {
@@ -36,7 +36,8 @@ gulp.task('css', function() {
     )
     .pipe(rename('ibm-type.min.css'))
     .pipe(gulp.dest('css'))
-    .pipe(gulp.dest('docs/css'));
+    .pipe(gulp.dest('docs/css'))
+    .pipe(gulp.dest('guidelines/css'));
 });
 
 gulp.task('scss', function() {
@@ -47,25 +48,27 @@ gulp.task('fonts', function() {
   return gulp
     .src('src/fonts/**/*.*')
     .pipe(gulp.dest('fonts'))
-    .pipe(gulp.dest('docs/fonts'));
+    .pipe(gulp.dest('docs/fonts'))
+    .pipe(gulp.dest('guidelines/fonts'));
 });
 
 gulp.task('grid', function() {
   return gulp
     .src('node_modules/@ibm/grid/dist/ibm-grid.min.css')
-    .pipe(gulp.dest('docs/css'));
+    .pipe(gulp.dest('docs/css'))
+    .pipe(gulp.dest('guidelines/css'));
 });
 
 gulp.task('watch', function() {
   browserSync.init({
     server: {
-      baseDir: './docs',
+      baseDir: './guidelines',
     },
   });
 
   gulp.watch('src/styles/**/*.scss', ['styles']);
   gulp.watch('dist/**/*').on('change', browserSync.reload);
-  gulp.watch('docs/**/*').on('change', browserSync.reload);
+  gulp.watch('guidelines/**/*').on('change', browserSync.reload);
 });
 
 gulp.task('default', ['fonts', 'scss', 'css', 'js', 'grid']);
