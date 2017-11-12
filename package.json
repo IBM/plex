@@ -4,16 +4,19 @@
   "version": "0.4.1",
   "repository": "https://github.com/ibm/type.git",
   "license": "OFL-1.1 AND Apache-2.0",
+  "main": "lib/index.js",
   "files": [
     "css",
     "fonts",
-    "scss"
+    "scss",
+    "lib"
   ],
   "bugs": {
     "url": "https://github.com/ibm/type/issues"
   },
   "scripts": {
     "build": "gulp clean && gulp",
+    "build:js": "babel --ignore \"__tests__/*\" --presets env,stage-2 -q -d lib src",
     "generate": "node scripts/generate.js",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{js,scss}\"",
@@ -21,9 +24,14 @@
     "start": "yarn build && gulp watch",
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fontfaceobserver": "^2.0.13"
+  },
   "devDependencies": {
     "@ibm/grid": "^0.2.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
     "browser-sync": "^2.18.12",
     "del": "^3.0.0",
     "fs-extra": "^4.0.2",

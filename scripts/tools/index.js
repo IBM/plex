@@ -1,5 +1,7 @@
 'use strict';
 
+const path = require('path');
+
 /**
  * Often times, we generate a filename by creating an array of each part of the
  * path for the filename and then we need to clean it up using this function.
@@ -19,7 +21,15 @@ exports.formatFilename = formatFilename;
  * `createFontFace` is used to generate the actual `@font-face` declarations
  * that get written to the appropriate files.
  */
-const createFontFace = (filename, family, weight, unicode) => {
+const createFontFace = (
+  filename,
+  family,
+  weight,
+  unicode,
+  fontDirectory,
+  outputDirectory,
+  inline
+) => {
   const fontFileName = [
     `IBMPlex${family.type}`,
     weight.variant ? weight.type + weight.variant : weight.type,
@@ -27,10 +37,20 @@ const createFontFace = (filename, family, weight, unicode) => {
   ]
     .filter(Boolean)
     .join('-');
+  const fileOutputDirectory = [family.type, weight.type, weight.variant]
+    .filter(Boolean)
+    .map(string => string.toLowerCase())
+    .join('/');
 
   const urls = {
-    woff2: `../fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
-    woff: `../fonts/${family.type}/web/woff/${fontFileName}.woff`,
+    woff2: path.relative(
+      `${outputDirectory}/${fileOutputDirectory}`,
+      `${fontDirectory}/${family.type}/web/woff2/${fontFileName}.woff2`
+    ),
+    woff: path.relative(
+      `${outputDirectory}/${fileOutputDirectory}`,
+      `${fontDirectory}/${family.type}/web/woff/${fontFileName}.woff`
+    ),
   };
 
   return `@font-face {
@@ -40,6 +60,8 @@ const createFontFace = (filename, family, weight, unicode) => {
   src: url('${urls.woff2}') format('woff2'),
     url('${urls.woff}') format('woff');
   unicode-range: '${unicode.characters.join(', ')}';
+  // Opt-in to FOUT on browsers that support it.
+  font-display: swap;
 }
 `;
 };
