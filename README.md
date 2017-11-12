@@ -81,4 +81,4 @@ There are two distinct capabilities of this codebase and you are welcome to only
 | _styles.scss               | Yes                 | No                    | No                      | 15kb       | 11kb      | 1.3kb |
 | _core.scss               | Yes                 | No                    | No                      | 24kb       | 23kb      | 1.3kb |
 
-Finally, each font file (~40kb) has been split into four separate files (~10kb). If your webpage does not use any unicodes from one of the four splitted files, the user’s device will not have to download the splitted file.
+Finally, each font file (~40kb) has been split into four separate files (~10kb). If your webpage does not use any unicodes from one of the four split files, the user’s device will not have to download the split file.
