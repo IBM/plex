@@ -1,3 +1,64 @@
-@import 'mono/index';
-@import 'sans/index';
-@import 'serif/index';
+// For bundled font faces, we start with
+// the least used unicode ranges (pi) and
+// end with the most used (latin1). This helps
+// prevent a staggered paint on Safari.
+
+@import 'mono/italic/pi';
+@import 'mono/regular/pi';
+@import 'sans/italic/pi';
+@import 'sans/light/pi';
+@import 'sans/light/italic/pi';
+@import 'sans/regular/pi';
+@import 'sans/semibold/pi';
+@import 'sans/semibold/italic/pi';
+@import 'serif/italic/pi';
+@import 'serif/light/pi';
+@import 'serif/light/italic/pi';
+@import 'serif/regular/pi';
+@import 'serif/semibold/pi';
+@import 'serif/semibold/italic/pi';
+
+@import 'mono/italic/latin3';
+@import 'mono/regular/latin3';
+@import 'sans/italic/latin3';
+@import 'sans/light/latin3';
+@import 'sans/light/italic/latin3';
+@import 'sans/regular/latin3';
+@import 'sans/semibold/latin3';
+@import 'sans/semibold/italic/latin3';
+@import 'serif/italic/latin3';
+@import 'serif/light/latin3';
+@import 'serif/light/italic/latin3';
+@import 'serif/regular/latin3';
+@import 'serif/semibold/latin3';
+@import 'serif/semibold/italic/latin3';
+
+@import 'mono/italic/latin2';
+@import 'mono/regular/latin2';
+@import 'sans/italic/latin2';
+@import 'sans/light/latin2';
+@import 'sans/light/italic/latin2';
+@import 'sans/regular/latin2';
+@import 'sans/semibold/latin2';
+@import 'sans/semibold/italic/latin2';
+@import 'serif/italic/latin2';
+@import 'serif/light/latin2';
+@import 'serif/light/italic/latin2';
+@import 'serif/regular/latin2';
+@import 'serif/semibold/latin2';
+@import 'serif/semibold/italic/latin2';
+
+@import 'mono/italic/latin1';
+@import 'mono/regular/latin1';
+@import 'sans/italic/latin1';
+@import 'sans/light/latin1';
+@import 'sans/light/italic/latin1';
+@import 'sans/regular/latin1';
+@import 'sans/semibold/latin1';
+@import 'sans/semibold/italic/latin1';
+@import 'serif/italic/latin1';
+@import 'serif/light/latin1';
+@import 'serif/light/italic/latin1';
+@import 'serif/regular/latin1';
+@import 'serif/semibold/latin1';
+@import 'serif/semibold/italic/latin1';

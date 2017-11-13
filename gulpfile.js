@@ -66,7 +66,7 @@ gulp.task('watch', function() {
     },
   });
 
-  gulp.watch('src/styles/**/*.scss', ['styles']);
+  gulp.watch('src/styles/**/*.scss', ['css']);
   gulp.watch('dist/**/*').on('change', browserSync.reload);
   gulp.watch('guidelines/**/*').on('change', browserSync.reload);
 });
