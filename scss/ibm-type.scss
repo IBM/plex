@@ -5,11 +5,6 @@
 
 body {
   font-size: #{$base-unit}px;
-
-  &.ibm-type-serif,
-  .ibm-type-serif {
-    font-size: #{$base-unit - 1}px;
-  }
 }
 
 @each $name, $prescription in $ibm-type-prescription-map {

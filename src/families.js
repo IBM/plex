@@ -3,15 +3,15 @@
 const families = [
   {
     type: 'Mono',
-    name: 'ibm-plex-mono',
+    name: 'IBM Plex Mono',
   },
   {
     type: 'Sans',
-    name: 'ibm-plex-sans',
+    name: 'IBM Plex Sans',
   },
   {
     type: 'Serif',
-    name: 'ibm-plex-serif',
+    name: 'IBM Plex Serif',
   },
 ];
 

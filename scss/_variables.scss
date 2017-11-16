@@ -1,7 +1,7 @@
 $fallbacks: (
-  'Mono': unquote("'ibm-plex-mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace"),
-  'Sans': unquote("'ibm-plex-sans', 'Helvetica Neue', Arial, sans-serif"),
-  'Serif': unquote("'ibm-plex-serif', 'Georgia', Times, serif")
+  'Mono': unquote("local('IBM Plex Mono'), 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace"),
+  'Sans': unquote("local('IBM Plex Sans'), 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"),
+  'Serif': unquote("local('IBM Plex Serif'), 'IBM Plex Serif', 'Georgia', Times, serif")
 );
 
 $base-unit: 16;

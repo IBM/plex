@@ -4,15 +4,6 @@
         strip-unit($maxSize) - strip-unit($minSize)
       ) * $base-unit / ($maxViewport - $minViewport)} * (100vw - #{$minViewport}px)
   );
-  @if $rule == 'font-size' {
-    &.ibm-type-serif {
-      font-size: calc(
-        #{strip-unit($minSize) * $base-unit - 1}px + #{(
-            strip-unit($maxSize) - strip-unit($minSize)
-          ) * ($base-unit - 1) / ($maxViewport - $minViewport)} * (100vw - #{$minViewport}px)
-      );
-    }
-  }
 }
 
 @mixin fluidRules($prescription, $breakpoint, $margin: true) {
@@ -79,9 +70,6 @@
 @mixin typePrescription($prescription, $margin: true) {
   $size: getFontSize(map-get(map-get($prescription, 'sm'), 'step'));
   font-size: $size;
-  &.ibm-type-serif {
-    font-size: #{(strip-unit($size) * $base-unit - 1) / $base-unit}rem;
-  }
   font-weight: map-get(map-get($prescription, 'sm'), 'font-weight');
   line-height: getLineHeight(map-get(map-get($prescription, 'sm'), 'step'));
   max-width: getMaxWidth(map-get(map-get($prescription, 'sm'), 'step'));
@@ -128,9 +116,6 @@
     @media (min-width: $breakpoint--md + 'px') {
       $size: getFontSize(map-get(map-get($prescription, 'md'), 'step'));
       font-size: $size;
-      &.ibm-type-serif {
-        font-size: calc(#{$size} - 1px);
-      }
       line-height: getLineHeight(map-get(map-get($prescription, 'md'), 'step'));
       max-width: getMaxWidth(map-get(map-get($prescription, 'md'), 'step'));
 
@@ -164,9 +149,6 @@
     @media (min-width: $breakpoint--lg + 'px') {
       $size: getFontSize(map-get(map-get($prescription, 'lg'), 'step'));
       font-size: $size;
-      &.ibm-type-serif {
-        font-size: calc(#{$size} - 1px);
-      }
       line-height: getLineHeight(map-get(map-get($prescription, 'lg'), 'step'));
       max-width: getMaxWidth(map-get(map-get($prescription, 'lg'), 'step'));
 
@@ -192,9 +174,6 @@
     @media (min-width: $breakpoint--max + 'px') {
       $size: getFontSize(map-get(map-get($prescription, 'max'), 'step'));
       font-size: $size;
-      &.ibm-type-serif {
-        font-size: calc(#{$size} - 1px);
-      }
       line-height: getLineHeight(
         map-get(map-get($prescription, 'max'), 'step')
       );
