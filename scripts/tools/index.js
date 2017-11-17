@@ -30,7 +30,7 @@ const createFontFace = (filename, family, weight, unicode) => {
   const localFileName = [
     `IBM Plex ${family.type}`,
     weight.type !== 'Regular' &&
-      (weight.variant ? weight.type + weight.variant : weight.type),
+      (weight.variant ? weight.type + ' ' + weight.variant : weight.type),
   ]
     .filter(Boolean)
     .join(' ');
