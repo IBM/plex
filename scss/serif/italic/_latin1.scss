@@ -2,8 +2,7 @@
   font-family: 'IBM Plex Serif';
   font-style: italic;
   font-weight: 400;
-  src: local('IBM Plex Serif'), local('IBMPlexSerif-Italic'),
-    url('../fonts/Serif/web/woff2/IBMPlexSerif-Italic-Latin1.woff2')
+  src: url('../fonts/Serif/web/woff2/IBMPlexSerif-Italic-Latin1.woff2')
       format('woff2'),
     url('../fonts/Serif/web/woff/IBMPlexSerif-Italic-Latin1.woff')
       format('woff');
