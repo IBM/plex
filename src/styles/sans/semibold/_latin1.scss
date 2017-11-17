@@ -2,7 +2,8 @@
   font-family: 'IBM Plex Sans';
   font-style: normal;
   font-weight: 600;
-  src: url('#{$font-prefix}/fonts/Sans/web/woff2/IBMPlexSans-SemiBold-Latin1.woff2')
+  src: local('IBM Plex Sans SemiBold'),
+    url('#{$font-prefix}/fonts/Sans/web/woff2/IBMPlexSans-SemiBold-Latin1.woff2')
       format('woff2'),
     url('#{$font-prefix}/fonts/Sans/web/woff/IBMPlexSans-SemiBold-Latin1.woff')
       format('woff');
