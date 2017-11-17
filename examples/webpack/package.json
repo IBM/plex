@@ -1,0 +1,24 @@
+{
+  "name": "webpack-example",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js",
+    "develop": "webpack-dev-server --config webpack.config.dev.js --content-base public"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.6.1",
+    "postcss-flexbugs-fixes": "^3.2.0",
+    "postcss-loader": "^2.0.8",
+    "resolve-url-loader": "^2.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "@ibm/type": "^0.5.2"
+  }
+}
