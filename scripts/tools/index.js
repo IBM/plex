@@ -29,8 +29,8 @@ const createFontFace = (filename, family, weight, unicode) => {
     .join('-');
 
   const urls = {
-    woff2: `../fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
-    woff: `../fonts/${family.type}/web/woff/${fontFileName}.woff`,
+    woff2: `#{$font-prefix}/fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
+    woff: `#{$font-prefix}/fonts/${family.type}/web/woff/${fontFileName}.woff`,
   };
 
   return `@font-face {

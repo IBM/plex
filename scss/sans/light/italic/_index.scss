@@ -1,4 +1,5 @@
-@import 'latin1';
-@import 'latin2';
-@import 'latin3';
+$font-prefix: '' !default;
 @import 'pi';
+@import 'latin3';
+@import 'latin2';
+@import 'latin1';
