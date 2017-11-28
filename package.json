@@ -21,9 +21,7 @@
     "start": "yarn build && gulp watch",
     "test": "jest"
   },
-  "dependencies": {
-    "gulp-zip": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@ibm/grid": "^0.2.3",
     "browser-sync": "^2.18.12",
@@ -33,6 +31,7 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
+    "gulp-zip": "^4.0.0",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^4.3.0",
