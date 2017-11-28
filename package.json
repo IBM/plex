@@ -1,7 +1,7 @@
 {
   "name": "@ibm/type",
-  "description": "An opinionated type for all IBM experiences, including the IBM Plex typeface.",
-  "version": "0.5.2",
+  "description": "The package of IBM’s new typeface, IBM Plex, and accompanying typography code.",
+  "version": "0.5.3",
   "repository": "https://github.com/ibm/type.git",
   "license": "OFL-1.1 AND Apache-2.0",
   "files": [
@@ -21,7 +21,9 @@
     "start": "yarn build && gulp watch",
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp-zip": "^4.0.0"
+  },
   "devDependencies": {
     "@ibm/grid": "^0.2.3",
     "browser-sync": "^2.18.12",
