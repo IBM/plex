@@ -2,7 +2,7 @@
   "name": "webpack-example",
   "private": true,
   "scripts": {
-    "build": "webpack --config webpack.config.prod.js",
+    "build": "webpack --config webpack.config.js",
     "develop": "webpack-dev-server --config webpack.config.dev.js --content-base public"
   },
   "devDependencies": {
