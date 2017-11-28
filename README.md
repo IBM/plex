@@ -54,10 +54,6 @@ Check out the Performance section below for a description of each partial.
 
 ## Performance
 
-There are two distinct capabilities of this codebase and you are welcome to only import what you need:
-1. Core - All capabilities not listed below.
-2. Styles - Provides a map of the raw type scale and then a map and mixins of the type sets.
-
 | ibm-type.css | ibm-type.min.css | Gzipped  |
 |-----------|----------|-------|
 | 35kb      | 31kb      | 3kb |
