@@ -1,6 +1,6 @@
 # IBM Type
 
-With our new corporate typeface, IBM Plex, comes a new set of guidance and best practices. IBM typography is international and modern to reflect our brand and our design principles.
+The package of IBM’s new typeface, IBM Plex, and accompanying typography code.
 
 ---
 
@@ -8,24 +8,11 @@ With our new corporate typeface, IBM Plex, comes a new set of guidance and best 
 
 ---
 
-### IBM Type Checker (work-in-progress)
-
-Check that any webpage follows the IBM Type with our [Chrome and Firefox extension](https://github.com/ibm/type-checker). This is helpful to developers as they code and designers as they review work.
-
-### Examples
-
-We want to show off many examples of what IBM Type is capable of. Check out the examples below and learn at the bottom of this document how to provide a new example:
--  [Dev Tutorial](https://ibm.github.io/type/) ([Source](./docs/index.html))
-
-# Design
-
-Use [this walkthrough](https://ibm.github.io/type) to learn the foundational aspects of designing with IBM Type. Recommended for all first-time users.
-
-### IBM Type Sketch File
+## IBM Type Sketch File
 
 Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save this [Sketch file](https://github.com/IBM/type/raw/master/ibm-type.sketch).
 
-# Code
+## Typography Code
 
 The IBM Type code provides rendering and kerning that best reflects IBM Plex. The editorial and product style sets also take care of:
 - Size
@@ -34,7 +21,7 @@ The IBM Type code provides rendering and kerning that best reflects IBM Plex. Th
 - Bottom margin
 - Weights
 
-### How to Use
+## How to Use
 
 To install, run `npm install @ibm/type`
 
@@ -52,10 +39,6 @@ If you want to use the sass partials, import the files in the src folder:
 
 Check out the Performance section below for a description of each partial.
 
-### Developer Tutorial
-
-Use [this walkthrough](https://ibm.github.io/type/code.html) to learn the foundational aspects of coding with IBM Type. Recommended for all first-time users.
-
 ## Classname Reference
 
 | Classname                     | Purpose                                                                                                                                             |
@@ -71,14 +54,8 @@ Use [this walkthrough](https://ibm.github.io/type/code.html) to learn the founda
 
 ## Performance
 
-There are two distinct capabilities of this codebase and you are welcome to only import what you need:
-1. Core - All capabilities not listed below.
-2. Styles - Provides a map of the raw type scale and then a map and mixins of the type sets.
-
-|                          | Includes core font references? | Includes scale and styles? | Includes line lengths? | File Size | Minified | Gzipped  |
-|--------------------------|---------------------|-----------------------|-------------------------|-----------|----------|-------|
-| IBM Type                 | Yes                 | Yes                   | Yes                     | 39kb      | 34kb      | 2.6kb |
-| _styles.scss               | Yes                 | No                    | No                      | 15kb       | 11kb      | 1.3kb |
-| _core.scss               | Yes                 | No                    | No                      | 24kb       | 23kb      | 1.3kb |
+| ibm-type.css | ibm-type.min.css | Gzipped  |
+|-----------|----------|-------|
+| 35kb      | 31kb      | 3kb |
 
 Finally, each font file (~40kb) has been split into four separate files (~10kb). If your webpage does not use any unicodes from one of the four split files, the user’s device will not have to download the split file.

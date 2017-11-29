@@ -14,7 +14,7 @@ const { formatFilename, createFontFace } = require('./tools');
 const unicodes = require('../src/unicodes');
 const weights = require('../src/weights');
 
-const FONT_DIRECTORY = path.resolve(__dirname, '../src/fonts');
+const FONT_DIRECTORY = path.resolve(__dirname, '../fonts');
 const OUTPUT_DIRECTORY = path.resolve(__dirname, '../src/styles');
 
 /**

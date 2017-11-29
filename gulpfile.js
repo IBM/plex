@@ -1,26 +1,14 @@
-const path = require('path');
-const gulp = require('gulp');
 const browserSync = require('browser-sync').create();
 const del = require('del');
 const cleanCSS = require('gulp-clean-css');
+const gulp = require('gulp');
 const rename = require('gulp-rename');
+const path = require('path');
 const sass = require('gulp-sass');
+const zip = require('gulp-zip');
 
 gulp.task('clean', function() {
-  return del([
-    'css',
-    'scss',
-    'fonts',
-    'docs/css/**/*',
-    'docs/fonts/**/*',
-    'docs/js/**/*',
-  ]);
-});
-
-gulp.task('js', function() {
-  gulp
-    .src('node_modules/menuspy/dist/menuspy.min.js')
-    .pipe(gulp.dest('guidelines/js'));
+  return del(['css', 'scss']);
 });
 
 gulp.task('css', function() {
@@ -35,40 +23,36 @@ gulp.task('css', function() {
       })
     )
     .pipe(rename('ibm-type.min.css'))
-    .pipe(gulp.dest('css'))
-    .pipe(gulp.dest('docs/css'))
-    .pipe(gulp.dest('guidelines/css'));
+    .pipe(gulp.dest('css'));
 });
 
 gulp.task('scss', function() {
   return gulp.src('src/styles/**/*.scss').pipe(gulp.dest('scss'));
 });
 
-gulp.task('fonts', function() {
-  return gulp
-    .src('src/fonts/**/*.*')
-    .pipe(gulp.dest('fonts'))
-    .pipe(gulp.dest('docs/fonts'))
-    .pipe(gulp.dest('guidelines/fonts'));
-});
-
 gulp.task('grid', function() {
   return gulp
     .src('node_modules/@ibm/grid/dist/ibm-grid.min.css')
-    .pipe(gulp.dest('docs/css'))
-    .pipe(gulp.dest('guidelines/css'));
+    .pipe(gulp.dest('misc'));
+});
+
+gulp.task('fonts', function() {
+  return gulp
+    .src('/fonts/**/*.*')
+    .pipe(zip('ibm-plex.zip'))
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('watch', function() {
   browserSync.init({
     server: {
-      baseDir: './guidelines',
+      baseDir: '.',
     },
   });
 
   gulp.watch('src/styles/**/*.scss', ['css']);
   gulp.watch('dist/**/*').on('change', browserSync.reload);
-  gulp.watch('guidelines/**/*').on('change', browserSync.reload);
+  gulp.watch('index.html').on('change', browserSync.reload);
 });
 
-gulp.task('default', ['fonts', 'scss', 'css', 'js', 'grid']);
+gulp.task('default', ['fonts', 'scss', 'css', 'grid']);

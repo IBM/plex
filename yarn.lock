@@ -500,6 +500,10 @@ bser@^2.0.0:
   dependencies:
     node-int64 "^0.4.0"
 
+buffer-crc32@~0.2.3:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/buffer-crc32/-/buffer-crc32-0.2.13.tgz#0d333e3f00eac50aa1454abd30ef8c2a5d9a7242"
+
 builtin-modules@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
@@ -1541,6 +1545,15 @@ gulp-util@3.0.8, gulp-util@^3.0, gulp-util@^3.0.0:
     replace-ext "0.0.1"
     through2 "^2.0.0"
     vinyl "^0.5.0"
+
+gulp-zip@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-zip/-/gulp-zip-4.0.0.tgz#1cefc08b4bf36df4b5b1e7c6b36ee55ebbe4a881"
+  dependencies:
+    get-stream "^3.0.0"
+    gulp-util "^3.0.0"
+    through2 "^2.0.1"
+    yazl "^2.1.0"
 
 gulp@^3.9.1:
   version "3.9.1"
@@ -2682,17 +2695,11 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
 
-<<<<<<< HEAD
-menuspy@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/menuspy/-/menuspy-1.1.2.tgz#284d2c55e659023f1cb6c6f70d6f80127a53ff59"
-=======
 mem@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
   dependencies:
     mimic-fn "^1.0.0"
->>>>>>> e8de5083d4232f04c253963e5d16feafdd641980
 
 meow@^3.7.0:
   version "3.7.0"
@@ -4001,7 +4008,7 @@ throat@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"
 
-through2@2.0.3, through2@^2.0.0:
+through2@2.0.3, through2@^2.0.0, through2@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.3.tgz#0004569b37c7c74ba39c43f3ced78d1ad94140be"
   dependencies:
@@ -4434,6 +4441,12 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
+
+yazl@^2.1.0:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/yazl/-/yazl-2.4.3.tgz#ec26e5cc87d5601b9df8432dbdd3cd2e5173a071"
+  dependencies:
+    buffer-crc32 "~0.2.3"
 
 yeast@0.1.2:
   version "0.1.2"
