@@ -23,21 +23,14 @@ The IBM Type code provides rendering and kerning that best reflects IBM Plex. Th
 
 ## How to Use
 
+At the moment, installation requires [Node.js and npm](https://docs.npmjs.com/getting-started/installing-node). This will change by v1.0.0 when a CDN become available.
+
 To install, run `npm install @ibm/type`
 
 If you want to use the compiled css, reference the file in the dist folder:
 ```
 <link rel="stylesheet" type="text/css" href="node_modules/@ibm/type/dist/css/ibm-type.min.css">
 ```
-
-If you want to use the sass partials, import the files in the src folder:
-```
-@import 'node_modules/@ibm/type/src/_core.scss';
-@import 'node_modules/@ibm/type/src/_styles.scss';
-@import 'node_modules/@ibm/type/src/_width.scss';
-```
-
-Check out the Performance section below for a description of each partial.
 
 ## Classname Reference
 
