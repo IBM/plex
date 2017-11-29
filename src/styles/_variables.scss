@@ -1,3 +1,5 @@
+$font-prefix: '..' !default;
+
 $fallbacks: (
   'Mono': unquote("'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace"),
   'Sans': unquote("'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif"),

@@ -14,7 +14,7 @@ const { formatFilename, createFontFace } = require('./tools');
 const unicodes = require('../src/unicodes');
 const weights = require('../src/weights');
 
-const FONT_DIRECTORY = path.resolve(__dirname, '../src/fonts');
+const FONT_DIRECTORY = path.resolve(__dirname, '../fonts');
 const OUTPUT_DIRECTORY = path.resolve(__dirname, '../src/styles');
 
 /**
@@ -59,7 +59,14 @@ const filesToWrite = families
           weight.variant,
           '_index.scss',
         ]);
+        const order = {
+          Pi: 1,
+          Latin3: 2,
+          Latin2: 3,
+          Latin1: 4,
+        };
         const content = innerFiles
+          .sort((a, b) => order[a.unicode.type] - order[b.unicode.type])
           .map(({ unicode }) => {
             const importPath = formatFilename([unicode.type]);
             return `@import '${importPath}';`;
@@ -73,7 +80,8 @@ const filesToWrite = families
           ...innerFiles,
           {
             filename: `${OUTPUT_DIRECTORY}/${filename}`,
-            content,
+            content: `$font-prefix: '' !default;
+${content}`,
             weight,
           },
         ];
@@ -96,7 +104,8 @@ const filesToWrite = families
       ...files,
       {
         filename,
-        content,
+        content: `$font-prefix: '' !default;
+${content}`,
       },
     ];
   })
