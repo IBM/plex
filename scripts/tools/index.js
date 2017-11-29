@@ -27,17 +27,33 @@ const createFontFace = (filename, family, weight, unicode) => {
   ]
     .filter(Boolean)
     .join('-');
+  const localFileName = [
+    `IBM Plex ${family.type}`,
+    weight.type !== 'Regular' &&
+      (weight.variant ? weight.type + ' ' + weight.variant : weight.type),
+  ]
+    .filter(Boolean)
+    .join(' ');
+  const localPostscriptName = [
+    `IBMPlex${family.type}`,
+    weight.type !== 'Regular' &&
+      (weight.variant ? '-' + weight.type + weight.variant : '-' + weight.type),
+  ]
+    .filter(Boolean)
+    .join('');
 
   const urls = {
-    woff2: `../fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
-    woff: `../fonts/${family.type}/web/woff/${fontFileName}.woff`,
+    woff2: `#{$font-prefix}/fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
+    woff: `#{$font-prefix}/fonts/${family.type}/web/woff/${fontFileName}.woff`,
   };
 
   return `@font-face {
   font-family: '${family.name}';
   font-style: ${weight.properties.fontStyle};
   font-weight: ${weight.properties.fontWeight};
-  src: url('${urls.woff2}') format('woff2'),
+  src: local('${localFileName}'),
+    local('${localPostscriptName}'),
+    url('${urls.woff2}') format('woff2'),
     url('${urls.woff}') format('woff');
   unicode-range: '${unicode.characters.join(', ')}';
 }
