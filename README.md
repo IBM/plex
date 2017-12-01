@@ -27,9 +27,9 @@ At the moment, installation requires [Node.js and npm](https://docs.npmjs.com/ge
 
 To install, run `npm install @ibm/type`
 
-If you want to use the compiled css, reference the file in the dist folder:
+If you want to use the compiled css, reference the file in the css folder:
 ```
-<link rel="stylesheet" type="text/css" href="node_modules/@ibm/type/dist/css/ibm-type.min.css">
+<link rel="stylesheet" type="text/css" href="node_modules/@ibm/type/css/ibm-type.min.css">
 ```
 
 ## Classname Reference
