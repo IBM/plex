@@ -9,6 +9,9 @@
     "fonts",
     "scss"
   ],
+  "keywords": [
+    "eyeglass-module"
+  ],
   "bugs": {
     "url": "https://github.com/ibm/type/issues"
   },
@@ -55,5 +58,11 @@
       "prettier",
       "git add"
     ]
+  },
+  "eyeglass": {
+    "exports": false,
+    "name": "ibm-type",
+    "sassDir": "scss",
+    "needs": "^1.3.0"
   }
 }
