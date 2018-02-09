@@ -1,44 +1,30 @@
 {
-  "name": "@ibm/type",
+  "name": "@ibm/plex",
   "description": "The package of IBM’s new typeface, IBM Plex, and accompanying typography code.",
-  "version": "0.5.4",
-  "repository": "https://github.com/ibm/type.git",
-  "license": "OFL-1.1 AND Apache-2.0",
-  "files": [
-    "css",
-    "fonts",
-    "scss"
-  ],
+  "version": "1.0.0",
+  "repository": "https://github.com/ibm/plex.git",
+  "license": "OFL-1.1",
   "keywords": [
     "eyeglass-module"
   ],
   "bugs": {
-    "url": "https://github.com/ibm/type/issues"
+    "url": "https://github.com/ibm/plex/issues"
   },
   "scripts": {
-    "build": "gulp clean && gulp",
-    "generate": "node scripts/generate.js",
+    "build": "npm run build:scss && npm run build:css",
+    "build:css": "node-sass scss/ibm-plex.scss --output css && node-sass scss/ibm-plex.scss > css/ibm-plex.min.css --output-style compressed",
+    "build:scss": "node scripts/export-scss.js",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{js,scss}\"",
     "prepare": "yarn build",
-    "start": "yarn build && gulp watch",
     "test": "jest"
   },
   "dependencies": {},
   "devDependencies": {
-    "@ibm/grid": "^0.2.3",
-    "browser-sync": "^2.18.12",
-    "del": "^3.0.0",
-    "fs-extra": "^4.0.2",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.7.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-zip": "^4.0.0",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^4.3.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.7.2",
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2"
   },
@@ -61,8 +47,8 @@
   },
   "eyeglass": {
     "exports": false,
-    "name": "ibm-type",
+    "name": "ibm-plex",
     "sassDir": "scss",
-    "needs": "^1.3.0"
+    "needs": "*"
   }
 }

@@ -21,7 +21,7 @@ exports.formatFilename = formatFilename;
  */
 const createFontFace = (filename, family, weight, unicode) => {
   const fontFileName = [
-    `IBMPlex${family.type}`,
+    `IBMPlex${family.type.replace(' ', '')}`,
     weight.variant ? weight.type + weight.variant : weight.type,
     unicode.type,
   ]
@@ -35,7 +35,7 @@ const createFontFace = (filename, family, weight, unicode) => {
     .filter(Boolean)
     .join(' ');
   const localPostscriptName = [
-    `IBMPlex${family.type}`,
+    `IBMPlex${family.type.replace(' ', '')}`,
     weight.type !== 'Regular' &&
       (weight.variant ? '-' + weight.type + weight.variant : '-' + weight.type),
   ]
@@ -43,8 +43,12 @@ const createFontFace = (filename, family, weight, unicode) => {
     .join('');
 
   const urls = {
-    woff2: `#{$font-prefix}/fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
-    woff: `#{$font-prefix}/fonts/${family.type}/web/woff/${fontFileName}.woff`,
+    woff2: `#{$font-prefix}/IBM Plex ${
+      family.type
+    }/fonts/split/woff2/${fontFileName}.woff2`,
+    woff: `#{$font-prefix}/IBM Plex ${
+      family.type
+    }/fonts/split/woff/${fontFileName}.woff`,
   };
 
   return `@font-face {

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="-925" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="IBM Plex Mono" filename="IBM Plex Mono-Thin Italic.ufo" stylename="Thin Italic">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="-925" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Mono" filename="IBM Plex Mono-Italic.ufo" stylename="Italic">
+            <groups copy="1" />
+            <features copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Mono" filename="IBM Plex Mono-Bold Italic.ufo" stylename="Bold Italic">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="IBM Plex Mono" filename="instances/IBMPlexMono-Extralight Italic.ufo" postscriptfontname="IBMPlexMono-ExtralightItalic" stylemapfamilyname="IBM Plex Mono Extralight" stylemapstylename="italic" stylename="Extralight Italic">
+            <location>
+                <dimension name="weight" xvalue="-705.780000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Mono" filename="instances/IBMPlexMono-Light Italic.ufo" postscriptfontname="IBMPlexMono-LightItalic" stylemapfamilyname="IBM Plex Mono Light" stylemapstylename="italic" stylename="Light Italic">
+            <location>
+                <dimension name="weight" xvalue="-360.750000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Mono" filename="instances/IBMPlexMono-Text Italic.ufo" postscriptfontname="IBMPlexMono-TextItalic" stylemapfamilyname="IBM Plex Mono Text" stylemapstylename="italic" stylename="Text Italic">
+            <location>
+                <dimension name="weight" xvalue="191" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Mono" filename="instances/IBMPlexMono-Medium Italic.ufo" postscriptfontname="IBMPlexMono-MediumItalic" stylemapfamilyname="IBM Plex Mono Medium" stylemapstylename="italic" stylename="Medium Italic">
+            <location>
+                <dimension name="weight" xvalue="427" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Mono" filename="instances/IBMPlexMono-SemiBold Italic.ufo" postscriptfontname="IBMPlexMono-SemiBoldItalic" stylemapfamilyname="IBM Plex Mono SemiBold" stylemapstylename="italic" stylename="SemiBold Italic">
+            <location>
+                <dimension name="weight" xvalue="705" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>
