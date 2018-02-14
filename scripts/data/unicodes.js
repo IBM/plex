@@ -75,6 +75,24 @@ const unicodes = [
       "U+ECE0",
       "U+EFCC"
     ]
+  },
+  {
+    type: "Cyrillic",
+    characters: [
+      "U+0400-045F",
+      "U+0472-0473",
+      "U+0490-049D",
+      "U+04A0-04A5",
+      "U+04AA-04AB",
+      "U+04AE-04B3",
+      "U+04B6-04BB",
+      "U+04C0-04C2",
+      "U+04CF-04D9",
+      "U+04DC-04DF",
+      "U+04E2-04E9",
+      "U+04EE-04F5",
+      "U+04F8-04F9"
+    ]
   }
 ];
 

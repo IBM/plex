@@ -43,11 +43,11 @@ const createFontFace = (filename, family, weight, unicode) => {
     .join('');
 
   const urls = {
-    woff2: `#{$font-prefix}/IBM Plex ${
-      family.type
+    woff2: `#{$font-prefix}/IBM\ Plex\ ${
+      family.type.replace(" ", "\ ")
     }/fonts/split/woff2/${fontFileName}.woff2`,
-    woff: `#{$font-prefix}/IBM Plex ${
-      family.type
+    woff: `#{$font-prefix}/IBM\ Plex\ ${
+      family.type.replace(" ", "\ ")
     }/fonts/split/woff/${fontFileName}.woff`,
   };
 

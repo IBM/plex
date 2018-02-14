@@ -55,10 +55,11 @@ const filesToWrite = families
           '_index.scss',
         ]);
         const order = {
-          Pi: 1,
-          Latin3: 2,
-          Latin2: 3,
-          Latin1: 4,
+          Cyrillic: 1,
+          Pi: 2,
+          Latin3: 3,
+          Latin2: 4,
+          Latin1: 5,
         };
         const content = innerFiles
           .sort((a, b) => order[a.unicode.type] - order[b.unicode.type])
