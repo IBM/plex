@@ -2,7 +2,7 @@
 
 ## Device installation
 
-Please download the latest zip files from our [releases page](https://github.com/IBM/plex/releases) for installation.
+Please download the latest zip files from our [releases page](https://github.com/IBM/type/releases) for installation.
 
 ## Web usage
 
@@ -10,20 +10,17 @@ This project contains the following for web development:
 - IBM Plex .woff2 and .woff files split into performant subsets of glyphs
 - css code to reference any weight, variant, and split
 - scss code partials down to each weight, variant, and split
-- A [Webpack example](./examples/webpack/) demonstrating how build with your font path
-
-This package does not include any typography choices, but we do provide [@ibm/type](https://www.npmjs.com/package/@ibm/type) for IBM’s opinionated choices.
 
 Installation with [Node](https://nodejs.org/en/):
 ```
-npm install @ibm/plex
+npm install @ibm/type
 ```
 
-Manually installing the files for web development can be done by downloading the latest zip files from our [releases page](https://github.com/IBM/plex/releases).
+Manually installing the files for web development can be done by downloading the latest source code zip from our [releases page](https://github.com/IBM/type/releases).
 
 ### Font file paths
 
-The css code assumes the font directories are located in the same directory as your css directory. The location of the font directories can be changed in the scss code by declaring a path with `$font-prefix`. See [example](./examples/webpack/) for how to adjust the path with Webpack.
+The css code assumes the font directories are located in the same directory as your css directory. The location of the font directories can be changed in the scss code by declaring a path with `$font-prefix`.
 
 ### Recommended fallbacks
 
