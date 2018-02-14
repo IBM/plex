@@ -122,9 +122,12 @@ filesToWrite.forEach(({ filename, content }) => {
 });
 
 // Create partial for all families
-const rootPartial = families
+const rootPartial = `
+$font-prefix: '..' !default;
+
+${families
   .map(
     family => `@import '${family.type.replace(' ', '-').toLowerCase()}/index';`
   )
-  .join('\n');
-fs.outputFileSync(`${OUTPUT_DIRECTORY}/ibm-plex.scss`, rootPartial, 'utf8');
+  .join('\n')}`;
+fs.outputFileSync(`${OUTPUT_DIRECTORY}/ibm-type.scss`, rootPartial, 'utf8');

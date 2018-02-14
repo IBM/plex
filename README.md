@@ -1,4 +1,4 @@
-# IBM Plex
+# IBM Type
 
 ## Device installation
 
