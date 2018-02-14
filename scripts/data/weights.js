@@ -5,7 +5,7 @@ const weights = [
     type: "Bold",
     properties: {
       fontStyle: "normal",
-      fontWeight: 800
+      fontWeight: 700
     }
   },
   {
@@ -13,7 +13,7 @@ const weights = [
     variant: "Italic",
     properties: {
       fontStyle: "italic",
-      fontWeight: 800
+      fontWeight: 700
     }
   },
   {
@@ -58,7 +58,7 @@ const weights = [
     type: "Medium",
     properties: {
       fontStyle: "normal",
-      fontWeight: 600
+      fontWeight: 500
     }
   },
   {
@@ -66,7 +66,7 @@ const weights = [
     variant: "Italic",
     properties: {
       fontStyle: "italic",
-      fontWeight: 600
+      fontWeight: 500
     }
   },
   {
@@ -81,7 +81,7 @@ const weights = [
     type: "SemiBold",
     properties: {
       fontStyle: "normal",
-      fontWeight: 700
+      fontWeight: 600
     }
   },
   {
@@ -89,14 +89,14 @@ const weights = [
     variant: "Italic",
     properties: {
       fontStyle: "italic",
-      fontWeight: 700
+      fontWeight: 600
     }
   },
   {
     type: "Text",
     properties: {
       fontStyle: "normal",
-      fontWeight: 500
+      fontWeight: 450
     }
   },
   {
@@ -104,7 +104,7 @@ const weights = [
     variant: "Italic",
     properties: {
       fontStyle: "italic",
-      fontWeight: 500
+      fontWeight: 450
     }
   },
   {
