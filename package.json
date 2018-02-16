@@ -15,14 +15,12 @@
     "build:css": "node-sass scss/ibm-type.scss --output css && node-sass scss/ibm-type.scss > css/ibm-type.min.css --output-style compressed",
     "build:scss": "node scripts/export-scss.js",
     "precommit": "lint-staged",
-    "prettier": "prettier --write \"**/*.{js,scss}\"",
-    "prepare": "yarn build",
-    "test": "jest"
+    "prettier": "prettier --write \"**/*.{scss}\"",
+    "prepare": "yarn build"
   },
   "dependencies": {},
   "devDependencies": {
     "husky": "^0.14.3",
-    "jest": "^21.2.1",
     "lint-staged": "^4.3.0",
     "node-sass": "^4.7.2",
     "prettier": "^1.7.4",
