@@ -1,6 +1,12 @@
-# IBM Type
+# IBM Plex™
 
-## Device installation
+Meet IBM Plex, our new corporate typeface. It’s global, it’s versatile and it’s distinctly IBM.
+
+We designed Plex carefully to both meet our needs as a global tech company and express who we are as people. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Plex is an open-source project (OFL) and free to download and use. The Plex family comes in a Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have designed to work well in user interface (UI) environments as well as other mediums. This project provides all source files and file formats to support most typographical situations.
+
+Thanks for trying Plex! We hope you like it.
+
+## Add Plex to your device
 
 Please download the latest zip files from our [releases page](https://github.com/IBM/type/releases) for installation.
 
@@ -18,42 +24,16 @@ npm install @ibm/type
 
 Manually installing the files for web development can be done by downloading the latest source code zip from our [releases page](https://github.com/IBM/type/releases).
 
-### Font file paths
-
 The css code assumes the font directories are located in the same directory as your css directory. The location of the font directories can be changed in the scss code by declaring a path with `$font-prefix`.
 
-### Recommended fallbacks
+Below are the `font-family` rules for the family:
 
 ```css
-.ibm-plex-mono {
-  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
-}
-
-.ibm-plex-sans {
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.ibm-plex-sans-condensed {
-  font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.ibm-plex-serif {
-  font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
-}
+font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
+font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
 ```
-
-### Weights
-
-| `font-weight` | Weight     |
-|---------------|------------|
-| 100           | Thin       |
-| 200           | ExtraLight |
-| 300           | Light      |
-| 400           | Regular    |
-| 500           | Text       |
-| 600           | Medium     |
-| 700           | SemiBold   |
-| 800           | Bold       |
 
 ## Building the fonts from source
 
