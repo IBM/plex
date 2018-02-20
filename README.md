@@ -2,13 +2,13 @@
 
 Meet IBM Plex, our new corporate typeface. It’s global, it’s versatile and it’s distinctly IBM.
 
-We designed Plex carefully to both meet our needs as a global tech company and express who we are as people. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Plex is an open-source project (OFL) and free to download and use. The Plex family comes in a Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have designed to work well in user interface (UI) environments as well as other mediums. This project provides all source files and file formats to support most typographical situations.
+We designed Plex carefully to both meet our needs as a global tech company and express who we are as people. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Plex is an open-source project (OFL) and free to download and use. The Plex family comes in a Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have been designed to work well in user interface (UI) environments as well as other mediums. This project provides all source files and file formats to support most typographical situations.
 
 Thanks for trying Plex! We hope you like it.
 
 ## Add Plex to your device
 
-Please download the latest zip files from our [releases page](https://github.com/IBM/type/releases) for installation.
+Please download the latest zip files from our [releases page](https://github.com/IBM/plex/releases) for installation.
 
 ## Web usage
 
@@ -19,10 +19,10 @@ This project contains the following for web development:
 
 Installation with [Node](https://nodejs.org/en/):
 ```
-npm install @ibm/type
+npm install @ibm/plex
 ```
 
-Manually installing the files for web development can be done by downloading the latest source code zip from our [releases page](https://github.com/IBM/type/releases).
+Manually installing the files for web development can be done by downloading the latest source code zip from our [releases page](https://github.com/IBM/plex/releases).
 
 The css code assumes the font directories are located in the same directory as your css directory. The location of the font directories can be changed in the scss code by declaring a path with `$font-prefix`.
 

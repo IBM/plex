@@ -134,4 +134,4 @@ ${families
     family => `@import '${family.type.replace(" ", "-").toLowerCase()}/index';`
   )
   .join("\n")}`;
-fs.outputFileSync(`${OUTPUT_DIRECTORY}/ibm-type.scss`, rootPartial, "utf8");
+fs.outputFileSync(`${OUTPUT_DIRECTORY}/ibm-plex.scss`, rootPartial, "utf8");
