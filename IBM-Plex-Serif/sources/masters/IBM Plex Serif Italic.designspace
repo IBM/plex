@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="-925" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="IBM Plex Serif" filename="IBM Plex Serif-Thin Italic.ufo" stylename="Thin Italic">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="-925" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Serif" filename="IBM Plex Serif-Italic.ufo" stylename="Italic">
+            <groups copy="1" />
+            <features copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Serif" filename="IBM Plex Serif-Bold Italic.ufo" stylename="Bold Italic">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-Extralight Italic.ufo" postscriptfontname="IBMPlexSerif-ExtralightItalic" stylemapfamilyname="IBM Plex Serif Extralight" stylemapstylename="italic" stylename="Extralight Italic">
+            <location>
+                <dimension name="weight" xvalue="-705.780000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-Light Italic.ufo" postscriptfontname="IBMPlexSerif-LightItalic" stylemapfamilyname="IBM Plex Serif Light" stylemapstylename="italic" stylename="Light Italic">
+            <location>
+                <dimension name="weight" xvalue="-360.750000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-Text Italic.ufo" postscriptfontname="IBMPlexSerif-TextItalic" stylemapfamilyname="IBM Plex Serif Text" stylemapstylename="italic" stylename="Text Italic">
+            <location>
+                <dimension name="weight" xvalue="191" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-Medium Italic.ufo" postscriptfontname="IBMPlexSerif-MediumItalic" stylemapfamilyname="IBM Plex Serif Medium" stylemapstylename="italic" stylename="Medium Italic">
+            <location>
+                <dimension name="weight" xvalue="427" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-SemiBold Italic.ufo" postscriptfontname="IBMPlexSerif-SemiBoldItalic" stylemapfamilyname="IBM Plex Serif SemiBold" stylemapstylename="italic" stylename="SemiBold Italic">
+            <location>
+                <dimension name="weight" xvalue="705" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

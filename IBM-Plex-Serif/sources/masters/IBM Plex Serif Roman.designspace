@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="-925" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="IBM Plex Serif" filename="IBM Plex Serif-Thin.ufo" stylename="Thin">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="-925" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Serif" filename="IBM Plex Serif-Regular.ufo" stylename="Regular">
+            <groups copy="1" />
+            <features copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Serif" filename="IBM Plex Serif-Bold.ufo" stylename="Bold">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-Extralight.ufo" postscriptfontname="IBMPlexSerif-Extralight" stylemapfamilyname="IBM Plex Serif Extralight" stylemapstylename="regular" stylename="Extralight">
+            <location>
+                <dimension name="weight" xvalue="-705.780000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-Light.ufo" postscriptfontname="IBMPlexSerif-Light" stylemapfamilyname="IBM Plex Serif Light" stylemapstylename="regular" stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="-360.750000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-Text.ufo" postscriptfontname="IBMPlexSerif-Text" stylemapfamilyname="IBM Plex Serif Text" stylemapstylename="regular" stylename="Text">
+            <location>
+                <dimension name="weight" xvalue="191" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-Medium.ufo" postscriptfontname="IBMPlexSerif-Medium" stylemapfamilyname="IBM Plex Serif Medium" stylemapstylename="regular" stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="427" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Serif" filename="instances/IBMPlexSerif-SemiBold.ufo" postscriptfontname="IBMPlexSerif-SemiBold" stylemapfamilyname="IBM Plex Serif SemiBold" stylemapstylename="regular" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="705" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

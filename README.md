@@ -1,54 +1,56 @@
-# IBM Type
+# IBM Plex™
 
-The package of IBM’s new typeface, IBM Plex, and accompanying typography code.
+Meet IBM Plex, our new corporate typeface. It’s global, it’s versatile and it’s distinctly IBM.
 
----
+We designed Plex carefully to both meet our needs as a global tech company and express who we are as people. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Plex is an open-source project (OFL) and free to download and use. The Plex family comes in a Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have been designed to work well in user interface (UI) environments as well as other mediums. This project provides all source files and file formats to support most typographical situations.
 
-**Warning:** IBM Type is still in development and being carefully implemented in real cases where we can look for any difficulties. Look out for a stable v1.0.0 release in the near future.
+Thanks for trying Plex! We hope you like it.
 
----
+## Add Plex to your device
 
-## IBM Type Sketch File
+Please download the latest zip files from our [releases page](https://github.com/IBM/plex/releases) for installation.
 
-Use these artboards in your Sketch files to accomplish a design at each breakpoint your developer will be working with. Right click and select `Save link as` to save this [Sketch file](https://github.com/IBM/type/raw/master/ibm-type.sketch).
+## Web usage
 
-## Typography Code
+This project contains the following for web development:
+- IBM Plex .woff2 and .woff files split into performant subsets of glyphs
+- css code to reference any weight, variant, and split
+- scss code partials down to each weight, variant, and split
 
-The IBM Type code provides rendering and kerning that best reflects IBM Plex. The editorial and product style sets also take care of:
-- Size
-- Line height
-- Line length
-- Bottom margin
-- Weights
+We also include whole .woff2, .woff, and .eot files. However, we recommend using the prescribed split strategy for performance.
 
-## How to Use
-
-At the moment, installation requires [Node.js and npm](https://docs.npmjs.com/getting-started/installing-node). This will change by v1.0.0 when a CDN become available.
-
-To install, run `npm install @ibm/type`
-
-If you want to use the compiled css, reference the file in the css folder:
+Installation with [Node](https://nodejs.org/en/):
 ```
-<link rel="stylesheet" type="text/css" href="node_modules/@ibm/type/css/ibm-type.min.css">
+npm install @ibm/plex
 ```
 
-## Classname Reference
+Manually installing the files for web development can be done by downloading the latest web zip from our [releases page](https://github.com/IBM/plex/releases).
 
-| Classname                     | Purpose                                                                                                                                             |
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| `.ibm`                        | Container div to apply IBM Plex Sans to all type by default                                                                                                                           |
-| `.ibm-type-mono`           | Switch a text node and children to IBM Plex Mono                                                               |
-| `.ibm-type-serif`           | Switch a text node and children to IBM Plex Serif                                                            |
-| `.ibm-type-light`           | Use the light weight of either IBM Plex Sans or IBM Plex Serif                                                            |
-| `.ibm-type-semibold`  | Use the semibold weight of either IBM Plex Sans or IBM Plex Serif                                                                                                    |
-| `.ibm-type-italic`              | Use the italic style of either IBM Plex Sans or IBM Plex Serif                                                                                     |
-| `.ibm-type-[a, b, c, d, f, i, j, k]`               | Use the sizing and weight of a style prescribed for editorial experiences                                                                                                              |
-| `.ibm-type-[a, b, c, d, e, g, h]`               | Use the sizing and weight of a style prescribed for product experiences                                                                                                                         |
+Devs using the css files should keep the directory structure as-is so that the font files will be found. If you are importing the scss files, you can set the path of the font files beforehand by declaring this variable:
 
-## Performance
+```scss
+$font-prefix: './custom/path/to/font/files';
+@import 'node_modules/@ibm/plex/scss/ibm-plex.scss';
+```
 
-| ibm-type.css | ibm-type.min.css | Gzipped  |
-|-----------|----------|-------|
-| 35kb      | 31kb      | 3kb |
+Below are the `font-family` rules for the family:
 
-Finally, each font file (~40kb) has been split into four separate files (~10kb). If your webpage does not use any unicodes from one of the four split files, the user’s device will not have to download the split file.
+```css
+font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
+font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
+```
+
+## Building the fonts from source
+
+### Requirements
+
+To build binary font files from vfb sources you need [FontLab Studio 5](https://www.fontlab.com). A Python script called `IBM Plex export FDK files.py` is necessary to export the proper files from FontLab. In order to run this script you will need the [RoboFab](https://github.com/robofab-developers/robofab) library. Also you need to have installed the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO).
+
+### Building one font
+
+From FontLab, run `IBM Plex export FDK files.py` and choose a directory with IBM Plex vfb source files. The script will create a new directory called `fdk` in which sub-directories are created for every font. The script will export files necessary for AFDKO in those sub-directories.
+
+Subsequently, OTF or TTF fonts can be generated from the command line using `makeotf`, which is part of the AFDKO toolset.
+Information and usage instructions can be found by executing `makeotf -h`.

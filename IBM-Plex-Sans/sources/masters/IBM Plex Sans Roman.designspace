@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="-925" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="IBM Plex Sans" filename="IBM Plex Sans-Thin.ufo" stylename="Thin">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="-925" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans" filename="IBM Plex Sans-Regular.ufo" stylename="Regular">
+            <groups copy="1" />
+            <features copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans" filename="IBM Plex Sans-Bold.ufo" stylename="Bold">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="IBM Plex Sans" filename="instances/IBMPlexSans-Extralight.ufo" postscriptfontname="IBMPlexSans-Extralight" stylemapfamilyname="IBM Plex Sans Extralight" stylemapstylename="regular" stylename="Extralight">
+            <location>
+                <dimension name="weight" xvalue="-705.780000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans" filename="instances/IBMPlexSans-Light.ufo" postscriptfontname="IBMPlexSans-Light" stylemapfamilyname="IBM Plex Sans Light" stylemapstylename="regular" stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="-360.750000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans" filename="instances/IBMPlexSans-Text.ufo" postscriptfontname="IBMPlexSans-Text" stylemapfamilyname="IBM Plex Sans Text" stylemapstylename="regular" stylename="Text">
+            <location>
+                <dimension name="weight" xvalue="191" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans" filename="instances/IBMPlexSans-Medium.ufo" postscriptfontname="IBMPlexSans-Medium" stylemapfamilyname="IBM Plex Sans Medium" stylemapstylename="regular" stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="427" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans" filename="instances/IBMPlexSans-SemiBold.ufo" postscriptfontname="IBMPlexSans-SemiBold" stylemapfamilyname="IBM Plex Sans SemiBold" stylemapstylename="regular" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="705" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

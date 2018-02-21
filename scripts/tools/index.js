@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Often times, we generate a filename by creating an array of each part of the
@@ -8,10 +8,7 @@
  * of the path before joining them with the '/' separator.
  */
 const formatFilename = array =>
-  array
-    .filter(Boolean)
-    .map(string => string.toLowerCase())
-    .join('/');
+  array.filter(Boolean).map(string => string.toLowerCase()).join("/");
 
 exports.formatFilename = formatFilename;
 
@@ -21,30 +18,30 @@ exports.formatFilename = formatFilename;
  */
 const createFontFace = (filename, family, weight, unicode) => {
   const fontFileName = [
-    `IBMPlex${family.type}`,
+    `IBMPlex${family.type.replace(" ", "")}`,
     weight.variant ? weight.type + weight.variant : weight.type,
-    unicode.type,
+    unicode.type
   ]
     .filter(Boolean)
-    .join('-');
+    .join("-");
   const localFileName = [
     `IBM Plex ${family.type}`,
-    weight.type !== 'Regular' &&
-      (weight.variant ? weight.type + ' ' + weight.variant : weight.type),
+    weight.type !== "Regular" &&
+      (weight.variant ? weight.type + " " + weight.variant : weight.type)
   ]
     .filter(Boolean)
-    .join(' ');
+    .join(" ");
   const localPostscriptName = [
-    `IBMPlex${family.type}`,
-    weight.type !== 'Regular' &&
-      (weight.variant ? '-' + weight.type + weight.variant : '-' + weight.type),
+    `IBMPlex${family.type.replace(" ", "")}`,
+    weight.type !== "Regular" &&
+      (weight.variant ? "-" + weight.type + weight.variant : "-" + weight.type)
   ]
     .filter(Boolean)
-    .join('');
+    .join("");
 
   const urls = {
-    woff2: `#{$font-prefix}/fonts/${family.type}/web/woff2/${fontFileName}.woff2`,
-    woff: `#{$font-prefix}/fonts/${family.type}/web/woff/${fontFileName}.woff`,
+    woff2: `#{$font-prefix}/IBM-Plex-${family.type.replace(" ", "-")}/fonts/split/woff2/${fontFileName}.woff2`,
+    woff: `#{$font-prefix}/IBM-Plex-${family.type.replace(" ", "-")}/fonts/split/woff/${fontFileName}.woff`
   };
 
   return `@font-face {
@@ -55,7 +52,7 @@ const createFontFace = (filename, family, weight, unicode) => {
     local('${localPostscriptName}'),
     url('${urls.woff2}') format('woff2'),
     url('${urls.woff}') format('woff');
-  unicode-range: '${unicode.characters.join(', ')}';
+  unicode-range: '${unicode.characters.join(", ")}';
 }
 `;
 };
