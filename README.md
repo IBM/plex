@@ -17,14 +17,21 @@ This project contains the following for web development:
 - css code to reference any weight, variant, and split
 - scss code partials down to each weight, variant, and split
 
+We also include whole .woff2, .woff, and .eot files. However, we recommend using the prescribed split strategy for performance.
+
 Installation with [Node](https://nodejs.org/en/):
 ```
 npm install @ibm/plex
 ```
 
-Manually installing the files for web development can be done by downloading the latest source code zip from our [releases page](https://github.com/IBM/plex/releases).
+Manually installing the files for web development can be done by downloading the latest web zip from our [releases page](https://github.com/IBM/plex/releases).
 
-The css code assumes the font directories are located in the same directory as your css directory. The location of the font directories can be changed in the scss code by declaring a path with `$font-prefix`.
+Devs using the css files should keep the directory structure as-is so that the font files will be found. If you are importing the scss files, you can set the path of the font files beforehand by declaring this variable:
+
+```scss
+$font-prefix: './custom/path/to/font/files';
+@import 'node_modules/@ibm/plex/scss/ibm-plex.scss';
+```
 
 Below are the `font-family` rules for the family:
 
