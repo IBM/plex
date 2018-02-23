@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevetilde.case" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="72" y="950" type="curve" smooth="yes"/>
+      <point x="113" y="950"/>
+      <point x="140" y="969"/>
+      <point x="169" y="1010" type="curve"/>
+      <point x="124" y="1069" type="line"/>
+      <point x="105" y="1052"/>
+      <point x="95" y="1044"/>
+      <point x="74" y="1044" type="curve" smooth="yes"/>
+      <point x="53" y="1044"/>
+      <point x="28" y="1057"/>
+      <point x="2" y="1071" type="curve" smooth="yes"/>
+      <point x="-23" y="1085"/>
+      <point x="-50" y="1092"/>
+      <point x="-74" y="1092" type="curve" smooth="yes" name="hr01"/>
+      <point x="-123" y="1092"/>
+      <point x="-151" y="1065"/>
+      <point x="-173" y="1030" type="curve"/>
+      <point x="-128" y="971" type="line"/>
+      <point x="-103" y="993"/>
+      <point x="-93" y="998"/>
+      <point x="-76" y="998" type="curve" smooth="yes"/>
+      <point x="-55" y="998"/>
+      <point x="-30" y="985"/>
+      <point x="-4" y="971" type="curve" smooth="yes"/>
+      <point x="21" y="957"/>
+      <point x="48" y="950"/>
+    </contour>
+    <contour>
+      <point x="0" y="733" type="curve" smooth="yes"/>
+      <point x="90" y="733"/>
+      <point x="141" y="766"/>
+      <point x="186" y="889" type="curve"/>
+      <point x="110" y="929" type="line"/>
+      <point x="90" y="887" type="line" smooth="yes"/>
+      <point x="70" y="844"/>
+      <point x="41" y="827"/>
+      <point x="0" y="827" type="curve" smooth="yes"/>
+      <point x="-41" y="827"/>
+      <point x="-71" y="844"/>
+      <point x="-91" y="887" type="curve" smooth="yes"/>
+      <point x="-111" y="929" type="line"/>
+      <point x="-186" y="889" type="line"/>
+      <point x="-141" y="766"/>
+      <point x="-86" y="733"/>
+    </contour>
+    <contour>
+      <point x="0" y="698" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

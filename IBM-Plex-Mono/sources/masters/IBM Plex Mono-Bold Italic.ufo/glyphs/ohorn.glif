@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohorn" format="1">
+  <advance width="600"/>
+  <unicode hex="01A1"/>
+  <outline>
+    <contour>
+      <point x="265" y="-12" type="curve" smooth="yes"/>
+      <point x="438" y="-12"/>
+      <point x="557" y="109"/>
+      <point x="557" y="306" type="curve" smooth="yes"/>
+      <point x="557" y="361"/>
+      <point x="545" y="399"/>
+      <point x="519" y="433" type="curve"/>
+      <point x="589" y="435"/>
+      <point x="612" y="466"/>
+      <point x="623" y="528" type="curve" smooth="yes" name="hr01"/>
+      <point x="640" y="631" type="line"/>
+      <point x="517" y="631" type="line"/>
+      <point x="497" y="516" type="line" name="hr02"/>
+      <point x="418" y="516" type="line"/>
+      <point x="393" y="524"/>
+      <point x="365" y="528"/>
+      <point x="335" y="528" type="curve" smooth="yes" name="hr03"/>
+      <point x="162" y="528"/>
+      <point x="43" y="407"/>
+      <point x="43" y="210" type="curve" smooth="yes"/>
+      <point x="43" y="74"/>
+      <point x="125" y="-12"/>
+    </contour>
+    <contour>
+      <point x="276" y="97" type="curve" smooth="yes"/>
+      <point x="222" y="97"/>
+      <point x="188" y="127"/>
+      <point x="188" y="188" type="curve" smooth="yes"/>
+      <point x="188" y="200"/>
+      <point x="191" y="217"/>
+      <point x="193" y="229" type="curve" smooth="yes"/>
+      <point x="206" y="307" type="line" smooth="yes"/>
+      <point x="218" y="379"/>
+      <point x="260" y="419"/>
+      <point x="324" y="419" type="curve" smooth="yes"/>
+      <point x="378" y="419"/>
+      <point x="412" y="389"/>
+      <point x="412" y="328" type="curve" smooth="yes"/>
+      <point x="412" y="316"/>
+      <point x="409" y="299"/>
+      <point x="407" y="287" type="curve" smooth="yes"/>
+      <point x="394" y="209" type="line" smooth="yes"/>
+      <point x="382" y="137"/>
+      <point x="340" y="97"/>
+    </contour>
+    <contour>
+      <point x="259" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="343" y="516" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

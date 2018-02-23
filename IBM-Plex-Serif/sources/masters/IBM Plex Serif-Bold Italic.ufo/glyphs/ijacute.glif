@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ijacute" format="1">
+  <advance width="656"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="acute" xOffset="-80"/>
+    <component base="dotlessj" xOffset="340"/>
+    <component base="acute" xOffset="261"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

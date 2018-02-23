@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexhook" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="70" y="822" type="line" name="hr00"/>
+      <point x="173" y="822" type="line"/>
+      <point x="110" y="714" type="line"/>
+      <point x="148" y="692" type="line"/>
+      <point x="184" y="733" type="line" smooth="yes"/>
+      <point x="221" y="776"/>
+      <point x="234" y="802"/>
+      <point x="234" y="834" type="curve" smooth="yes"/>
+      <point x="234" y="865"/>
+      <point x="216" y="880"/>
+      <point x="185" y="880" type="curve" smooth="yes"/>
+      <point x="82" y="880" type="line"/>
+    </contour>
+    <contour>
+      <point x="-11" y="745" type="line"/>
+      <point x="-146" y="611" type="line"/>
+      <point x="-107" y="581" type="line"/>
+      <point x="21" y="697" type="line"/>
+      <point x="103" y="581" type="line"/>
+      <point x="144" y="608" type="line"/>
+      <point x="59" y="745" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="540" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

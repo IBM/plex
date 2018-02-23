@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevehook" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="13" y="594" type="curve" smooth="yes" name="hr00"/>
+      <point x="83" y="594"/>
+      <point x="117" y="632"/>
+      <point x="161" y="701" type="curve"/>
+      <point x="145" y="708" type="line"/>
+      <point x="119" y="672" type="line" smooth="yes"/>
+      <point x="85" y="626"/>
+      <point x="59" y="613"/>
+      <point x="13" y="613" type="curve" smooth="yes"/>
+      <point x="-28" y="613"/>
+      <point x="-53" y="630"/>
+      <point x="-71" y="673" type="curve" smooth="yes"/>
+      <point x="-86" y="708" type="line"/>
+      <point x="-102" y="701" type="line"/>
+      <point x="-80" y="633"/>
+      <point x="-53" y="594"/>
+    </contour>
+    <contour>
+      <point x="-39" y="829" type="line"/>
+      <point x="101" y="829" type="line"/>
+      <point x="-1" y="704" type="line"/>
+      <point x="14" y="695" type="line"/>
+      <point x="83" y="777" type="line" smooth="yes"/>
+      <point x="117" y="817"/>
+      <point x="121" y="823"/>
+      <point x="121" y="832" type="curve" smooth="yes"/>
+      <point x="121" y="841"/>
+      <point x="115" y="847"/>
+      <point x="97" y="847" type="curve" smooth="yes"/>
+      <point x="-36" y="847" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="540" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

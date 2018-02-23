@@ -1,0 +1,383 @@
+# ----------------
+# LANGUAGE SYSTEMS
+# ----------------
+
+languagesystem DFLT dflt;   # Default
+languagesystem latn dflt;   # Latin default
+languagesystem cyrl dflt;   # Cyrillic default
+
+
+
+# --------------
+# GLOBAL CLASSES
+# --------------
+
+@lca_dflt = [a aacute abreve acircumflex adieresis adotbelow agrave ahook amacron aogonek aring aringacute atilde abreveacute abrevedotbelow abrevegrave abrevehook abrevetilde acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhook acircumflextilde];   # 23 items
+@lca_alt1 = [a.alt01 aacute.alt01 abreve.alt01 acircumflex.alt01 adieresis.alt01 adotbelow.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aogonek.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevedotbelow.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexdotbelow.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01];   # 23 items
+@lca_cyrl_dflt = [uni0430 uni04D3 uni04D1];   # 3 items
+@lca_cyrl_alt1 = [uni0430.alt01 uni04D3.alt01 uni04D1.alt01];   # 3 items
+@lcg_dflt = [g gbreve gcircumflex gcommaaccent gdotaccent];   # 5 items
+@lcg_alt1 = [g.alt01 gbreve.alt01 gcircumflex.alt01 gcommaaccent.alt01 gdotaccent.alt01];   # 5 items
+@numbers_dflt = [zero one two three four five six seven eight nine];   # 10 items
+@numbers_sups = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];   # 10 items
+@numbers_sinf = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];   # 10 items
+@numbers_numr = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];   # 10 items
+@numbers_dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];   # 10 items
+
+
+
+
+feature aalt {
+	sub a from [a.alt01]; # 1 glyph(s)
+	sub g from [g.alt01 g.alt02]; # 2 glyph(s)
+	sub zero from [zero.alt01 zero.alt02 zero.numr zero.dnom]; # 4 glyph(s)
+	sub one from [one.numr one.dnom]; # 2 glyph(s)
+	sub two from [two.numr two.dnom]; # 2 glyph(s)
+	sub three from [three.numr three.dnom]; # 2 glyph(s)
+	sub four from [four.numr four.dnom]; # 2 glyph(s)
+	sub five from [five.numr five.dnom]; # 2 glyph(s)
+	sub six from [six.numr six.dnom]; # 2 glyph(s)
+	sub seven from [seven.numr seven.dnom]; # 2 glyph(s)
+	sub eight from [eight.numr eight.dnom]; # 2 glyph(s)
+	sub nine from [nine.numr nine.dnom]; # 2 glyph(s)
+	sub aacute from [aacute.alt01]; # 1 glyph(s)
+	sub abreve from [abreve.alt01]; # 1 glyph(s)
+	sub acircumflex from [acircumflex.alt01]; # 1 glyph(s)
+	sub adieresis from [adieresis.alt01]; # 1 glyph(s)
+	sub adotbelow from [adotbelow.alt01]; # 1 glyph(s)
+	sub agrave from [agrave.alt01]; # 1 glyph(s)
+	sub ahook from [ahook.alt01]; # 1 glyph(s)
+	sub amacron from [amacron.alt01]; # 1 glyph(s)
+	sub aogonek from [aogonek.alt01]; # 1 glyph(s)
+	sub aring from [aring.alt01]; # 1 glyph(s)
+	sub aringacute from [aringacute.alt01]; # 1 glyph(s)
+	sub atilde from [atilde.alt01]; # 1 glyph(s)
+	sub abreveacute from [abreveacute.alt01]; # 1 glyph(s)
+	sub abrevedotbelow from [abrevedotbelow.alt01]; # 1 glyph(s)
+	sub abrevegrave from [abrevegrave.alt01]; # 1 glyph(s)
+	sub abrevehook from [abrevehook.alt01]; # 1 glyph(s)
+	sub abrevetilde from [abrevetilde.alt01]; # 1 glyph(s)
+	sub acircumflexacute from [acircumflexacute.alt01]; # 1 glyph(s)
+	sub acircumflexdotbelow from [acircumflexdotbelow.alt01]; # 1 glyph(s)
+	sub acircumflexgrave from [acircumflexgrave.alt01]; # 1 glyph(s)
+	sub acircumflexhook from [acircumflexhook.alt01]; # 1 glyph(s)
+	sub acircumflextilde from [acircumflextilde.alt01]; # 1 glyph(s)
+	sub gbreve from [gbreve.alt01]; # 1 glyph(s)
+	sub gcircumflex from [gcircumflex.alt01]; # 1 glyph(s)
+	sub gcommaaccent from [gcommaaccent.alt01]; # 1 glyph(s)
+	sub gdotaccent from [gdotaccent.alt01]; # 1 glyph(s)
+	sub germandbls from [germandbls.alt01]; # 1 glyph(s)
+	sub tilde from [tilde.alt01 tilde.case tilde.alt01.case]; # 3 glyph(s)
+	sub macron from [macron.case]; # 1 glyph(s)
+	sub dotaccent from [dotaccent.case]; # 1 glyph(s)
+	sub dieresis from [dieresis.case]; # 1 glyph(s)
+	sub hungarumlaut from [hungarumlaut.case]; # 1 glyph(s)
+	sub acute from [acute.case]; # 1 glyph(s)
+	sub grave from [grave.case]; # 1 glyph(s)
+	sub circumflex from [circumflex.case]; # 1 glyph(s)
+	sub caron from [caron.case]; # 1 glyph(s)
+	sub breve from [breve.case breve.cyrl breve.cyrl_case]; # 3 glyph(s)
+	sub ring from [ring.case]; # 1 glyph(s)
+	sub ringacute from [ringacute.case]; # 1 glyph(s)
+	sub hookcomb from [hookcomb.case]; # 1 glyph(s)
+	sub breveacute from [breveacute.case]; # 1 glyph(s)
+	sub brevegrave from [brevegrave.case]; # 1 glyph(s)
+	sub brevehook from [brevehook.case]; # 1 glyph(s)
+	sub brevetilde from [brevetilde.case]; # 1 glyph(s)
+	sub dieresisacute from [dieresisacute.case]; # 1 glyph(s)
+	sub dieresiscaron from [dieresiscaron.case]; # 1 glyph(s)
+	sub dieresisgrave from [dieresisgrave.case]; # 1 glyph(s)
+	sub circumflexacute from [circumflexacute.case]; # 1 glyph(s)
+	sub circumflexbreve from [circumflexbreve.case]; # 1 glyph(s)
+	sub circumflexgrave from [circumflexgrave.case]; # 1 glyph(s)
+	sub circumflexhook from [circumflexhook.case]; # 1 glyph(s)
+	sub dieresismacron from [dieresismacron.case]; # 1 glyph(s)
+	sub circumflextilde from [circumflextilde.case]; # 1 glyph(s)
+	sub uni0430 from [uni0430.alt01]; # 1 glyph(s)
+	sub uni04D3 from [uni04D3.alt01]; # 1 glyph(s)
+	sub uni04D1 from [uni04D1.alt01]; # 1 glyph(s)
+} aalt;
+
+feature ccmp {
+	# glyph composition/decomposition
+	@uc_basic = [A AE Aogonek B C Ccedilla D E Eogonek F G H I Iogonek J K L M N O OE Ohorn Oslash P Q R S Schwa T U Uhorn Uogonek V W X Y Z]; # 37 glyphs
+	@acc_comb_top = [acutecomb breveacute brevecomb brevegrave brevehook brevetilde caroncomb caronslovakcomb circumflexacute circumflexbreve circumflexcomb circumflexgrave circumflexhook circumflextilde commaturnedtopcomb dieresisacute dieresiscaron dieresiscomb dieresisgrave dieresismacron dotaccentcomb gravecomb hookcomb horncomb hungarumlautcomb macroncomb ringcomb tildecomb]; # 28 glyphs
+	@acc_comb_dflt = [breveacute brevegrave brevehook brevetilde circumflexacute circumflexbreve circumflexgrave circumflexhook circumflextilde dieresisacute dieresiscaron dieresisgrave dieresismacron hookcomb]; # 14 glyphs
+	@acc_comb_case = [breveacute.case brevegrave.case brevehook.case brevetilde.case circumflexacute.case circumflexbreve.case circumflexgrave.case circumflexhook.case circumflextilde.case dieresisacute.case dieresiscaron.case dieresisgrave.case dieresismacron.case hookcomb.case]; # 14 glyphs
+
+	lookup nonContextSubs {
+		sub brevecomb acutecomb by breveacute;
+		sub brevecomb gravecomb by brevegrave;
+		sub brevecomb hookcomb by brevehook;
+		sub brevecomb tildecomb by brevetilde;
+		sub circumflexcomb acutecomb by circumflexacute;
+		sub circumflexcomb gravecomb by circumflexgrave;
+		sub circumflexcomb hookcomb by circumflexhook;
+		sub circumflexcomb tildecomb by circumflextilde;
+		sub circumflexcomb brevecomb by circumflexbreve;
+		sub dieresiscomb acutecomb by dieresisacute;
+		sub dieresiscomb caroncomb by dieresiscaron;
+		sub dieresiscomb gravecomb by dieresisgrave;
+		sub dieresiscomb macroncomb by dieresismacron;
+	} nonContextSubs;
+
+	lookup contextSubs {
+		sub [L d l t] caroncomb' by caronslovakcomb; # /Lcaron /dcaron /lcaron /tcaron
+		sub g commabelowcomb' by commaturnedtopcomb; # /gcommaaccent
+		sub i' @acc_comb_top by dotlessi;
+		sub j' @acc_comb_top by dotlessj;
+		sub @uc_basic @acc_comb_dflt' by @acc_comb_case; # case accents
+	} contextSubs;
+} ccmp;
+
+feature ordn {
+	# ordinals
+	sub [a o] by [ordfeminine ordmasculine];
+} ordn;
+
+feature frac {
+	# fractions
+	sub one [slash fraction] two by onehalf;
+	sub one [slash fraction] three by uni2153;
+	sub two [slash fraction] three by uni2154;
+	sub one [slash fraction] four by onequarter;
+	sub three [slash fraction] four by threequarters;
+	sub one [slash fraction] five by uni2155;
+	sub two [slash fraction] five by uni2156;
+	sub three [slash fraction] five by uni2157;
+	sub four [slash fraction] five by uni2158;
+	sub one [slash fraction] six by uni2159;
+	sub five [slash fraction] six by uni215A;
+	sub one [slash fraction] seven by uni2150;
+	sub one [slash fraction] eight by uni215B;
+	sub three [slash fraction] eight by uni215C;
+	sub five [slash fraction] eight by uni215D;
+	sub seven [slash fraction] eight by uni215E;
+	sub one [slash fraction] nine by uni2151;
+} frac;
+
+feature numr {
+	# numerators
+	sub @numbers_dflt by @numbers_numr;
+} numr;
+
+feature dnom {
+	# denominators
+	sub @numbers_dflt by @numbers_dnom;
+} dnom;
+
+feature sups {
+	# superiors
+	sub @numbers_dflt by @numbers_sups;
+} sups;
+
+feature sinf {
+	# inferiors
+	sub @numbers_dflt by @numbers_sinf;
+} sinf;
+
+feature zero {
+	# slashed zero
+	sub zero by zero.alt01;
+} zero;
+
+feature ss01 {
+	featureNames {
+		name 3 1 0x0409 "alternate lowercase a"; # Win / Unicode / English US
+		name 1 0 0 "alternate lowercase a"; #   Mac / Roman / English
+	};
+	# stylistic set 1 - single storey a
+	sub @lca_dflt by @lca_alt1;
+	sub @lca_cyrl_dflt by @lca_cyrl_alt1;
+} ss01;
+
+feature ss02 {
+	featureNames {
+		name 3 1 0x0409 "simple lowercase g"; # Win / Unicode / English US
+		name 1 0 0 "simple lowercase g"; #   Mac / Roman / English
+	};
+	# stylistic set 2 - single storey g
+	sub @lcg_dflt by @lcg_alt1;
+} ss02;
+
+feature ss03 {
+	featureNames {
+		name 3 1 0x0409 "slashed number zero"; # Win / Unicode / English US
+		name 1 0 0 "slashed number zero"; #   Mac / Roman / English
+	};
+	# slashed zero
+	sub zero by zero.alt01;
+} ss03;
+
+feature ss04 {
+	featureNames {
+		name 3 1 0x0409 "plain number zero"; # Win / Unicode / English US
+		name 1 0 0 "plain number zero"; #   Mac / Roman / English
+	};
+	# plain zero
+	sub zero by zero.alt02;
+} ss04;
+
+feature ss05 {
+	featureNames {
+		name 3 1 0x0409 "alternate lowercase eszett"; # Win / Unicode / English US
+		name 1 0 0 "alternate lowercase eszett"; #   Mac / Roman / English
+	};
+	# alternative german eszett
+	sub germandbls by germandbls.alt01;
+} ss05;
+
+feature salt {
+	# stylistic alternates - all stylistic sets combined
+	sub @lca_dflt by @lca_alt1;
+	sub @lcg_dflt by @lcg_alt1;
+	sub @lca_cyrl_dflt by @lca_cyrl_alt1;
+	sub zero by zero.alt02;
+	sub germandbls by germandbls.alt01;
+} salt;
+
+feature mark {
+	# Created: Sun May 21 13:18:10 2017
+	# PS Name: IBMEliotMono-BoldItalic
+	# MM Inst: IBM Eliot Mono
+	# exported from FontLab
+
+	@mGC_bottom_0_0 = [cedillacomb commabelowcomb dotbelowcomb];
+	@mGC_top_0_516 = [acutecomb breveacute brevecomb brevegrave brevehook brevetilde caroncomb circumflexacute circumflexbreve circumflexcomb circumflexgrave circumflexhook circumflextilde commaturnedtopcomb dieresisacute dieresiscaron dieresiscomb dieresisgrave dieresismacron dotaccentcomb gravecomb hookcomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@mGC_top_0_698 = [breveacute.case brevegrave.case brevehook.case brevetilde.case circumflexacute.case circumflexbreve.case circumflexgrave.case circumflexhook.case circumflextilde.case dieresisacute.case dieresiscaron.case dieresisgrave.case dieresismacron.case hookcomb.case];
+
+	markClass @mGC_bottom_0_0 <anchor 0 0> @MC_bottom;
+	markClass @mGC_top_0_516 <anchor 0 516> @MC_top;
+	markClass @mGC_top_0_698 <anchor 0 698> @MC_top;
+	markClass caronslovakcomb <anchor 0 740> @MC_topright;
+	markClass ogonekcomb <anchor 0 0> @MC_bottomright;
+
+	lookup MARK_BASE_bottom {
+		@bGC_H_bottom = [H W X];
+		@bGC_I_bottom = [I N T Y];
+		@bGC_K_bottom = [K R];
+		@bGC_L_bottom = [L uhorn];
+		@bGC_O_bottom = [O Ohorn];
+		@bGC_a.alt01_bottom = [a.alt01 m M V];
+		@bGC_h_bottom = [h B];
+		@bGC_n_bottom = [n A];
+		@bGC_o_bottom = [o ohorn];
+		@bGC_u_bottom = [u U Uhorn];
+		@bGC_v_bottom = [v D];
+		pos base @bGC_H_bottom <anchor 256 0> mark @MC_bottom;
+		pos base @bGC_I_bottom <anchor 258 0> mark @MC_bottom;
+		pos base @bGC_K_bottom <anchor 275 0> mark @MC_bottom;
+		pos base @bGC_L_bottom <anchor 277 0> mark @MC_bottom;
+		pos base @bGC_O_bottom <anchor 265 0> mark @MC_bottom;
+		pos base @bGC_a.alt01_bottom <anchor 257 0> mark @MC_bottom;
+		pos base @bGC_h_bottom <anchor 260 0> mark @MC_bottom;
+		pos base @bGC_n_bottom <anchor 261 0> mark @MC_bottom;
+		pos base @bGC_o_bottom <anchor 259 0> mark @MC_bottom;
+		pos base @bGC_u_bottom <anchor 267 0> mark @MC_bottom;
+		pos base @bGC_v_bottom <anchor 238 0> mark @MC_bottom;
+		pos base C <anchor 293 0> mark @MC_bottom;
+		pos base E <anchor 283 0> mark @MC_bottom;
+		pos base F <anchor 112 0> mark @MC_bottom;
+		pos base G <anchor 298 0> mark @MC_bottom;
+		pos base J <anchor 241 0> mark @MC_bottom;
+		pos base P <anchor 110 0> mark @MC_bottom;
+		pos base S <anchor 269 0> mark @MC_bottom;
+		pos base Z <anchor 253 0> mark @MC_bottom;
+		pos base a <anchor 254 0> mark @MC_bottom;
+		pos base b <anchor 318 0> mark @MC_bottom;
+		pos base c <anchor 276 0> mark @MC_bottom;
+		pos base d <anchor 198 0> mark @MC_bottom;
+		pos base dotlessi <anchor 292 0> mark @MC_bottom;
+		pos base e <anchor 294 0> mark @MC_bottom;
+		pos base i <anchor 296 0> mark @MC_bottom;
+		pos base k <anchor 248 0> mark @MC_bottom;
+		pos base l <anchor 270 0> mark @MC_bottom;
+		pos base r <anchor 217 0> mark @MC_bottom;
+		pos base s <anchor 263 0> mark @MC_bottom;
+		pos base t <anchor 281 0> mark @MC_bottom;
+		pos base w <anchor 225 0> mark @MC_bottom;
+		pos base x <anchor 240 0> mark @MC_bottom;
+		pos base y <anchor 512 0> mark @MC_bottom;
+		pos base z <anchor 287 0> mark @MC_bottom;
+	} MARK_BASE_bottom;
+
+
+	lookup MARK_BASE_bottomright {
+		@bGC_a.alt01_bottomright = [a.alt01 I];
+		pos base @bGC_a.alt01_bottomright <anchor 483 0> mark @MC_bottomright;
+		pos base A <anchor 552 0> mark @MC_bottomright;
+		pos base E <anchor 484 0> mark @MC_bottomright;
+		pos base U <anchor 404 0> mark @MC_bottomright;
+		pos base a <anchor 493 0> mark @MC_bottomright;
+		pos base dotlessi <anchor 393 0> mark @MC_bottomright;
+		pos base e <anchor 409 0> mark @MC_bottomright;
+		pos base i <anchor 466 0> mark @MC_bottomright;
+		pos base u <anchor 488 0> mark @MC_bottomright;
+	} MARK_BASE_bottomright;
+
+
+	lookup MARK_BASE_top {
+		@bGC_A_top = [A Uhorn];
+		@bGC_C_top = [C E T X];
+		@bGC_H_top = [H I M N V W];
+		@bGC_O_top = [O Q Ohorn];
+		@bGC_S_top = [S Y];
+		@bGC_a_top = [a n];
+		@bGC_c_top = [c v];
+		@bGC_e_top = [e o ohorn];
+		@bGC_g.alt01_top = [g.alt01 g.alt02];
+		pos base @bGC_A_top <anchor 370 698> mark @MC_top;
+		pos base @bGC_C_top <anchor 373 698> mark @MC_top;
+		pos base @bGC_H_top <anchor 374 698> mark @MC_top;
+		pos base @bGC_O_top <anchor 358 698> mark @MC_top;
+		pos base @bGC_S_top <anchor 367 698> mark @MC_top;
+		pos base @bGC_a_top <anchor 332 516> mark @MC_top;
+		pos base @bGC_c_top <anchor 339 516> mark @MC_top;
+		pos base @bGC_e_top <anchor 343 516> mark @MC_top;
+		pos base @bGC_g.alt01_top <anchor 334 516> mark @MC_top;
+		pos base AE <anchor 454 698> mark @MC_top;
+		pos base B <anchor 365 698> mark @MC_top;
+		pos base D <anchor 345 698> mark @MC_top;
+		pos base F <anchor 386 698> mark @MC_top;
+		pos base G <anchor 366 698> mark @MC_top;
+		pos base J <anchor 392 698> mark @MC_top;
+		pos base K <anchor 384 698> mark @MC_top;
+		pos base L <anchor 237 698> mark @MC_top;
+		pos base Oslash <anchor 356 698> mark @MC_top;
+		pos base P <anchor 363 698> mark @MC_top;
+		pos base R <anchor 354 698> mark @MC_top;
+		pos base U <anchor 371 698> mark @MC_top;
+		pos base Z <anchor 364 698> mark @MC_top;
+		pos base a.alt01 <anchor 340 516> mark @MC_top;
+		pos base ae <anchor 333 516> mark @MC_top;
+		pos base dotlessi <anchor 318 516> mark @MC_top;
+		pos base dotlessj <anchor 405 516> mark @MC_top;
+		pos base g <anchor 331 516> mark @MC_top;
+		pos base h <anchor 213 698> mark @MC_top;
+		pos base l <anchor 326 698> mark @MC_top;
+		pos base m <anchor 355 516> mark @MC_top;
+		pos base oslash <anchor 300 516> mark @MC_top;
+		pos base p <anchor 403 516> mark @MC_top;
+		pos base q <anchor 282 516> mark @MC_top;
+		pos base r <anchor 356 516> mark @MC_top;
+		pos base s <anchor 335 516> mark @MC_top;
+		pos base u <anchor 338 516> mark @MC_top;
+		pos base uhorn <anchor 341 516> mark @MC_top;
+		pos base w <anchor 336 516> mark @MC_top;
+		pos base x <anchor 353 516> mark @MC_top;
+		pos base y <anchor 349 516> mark @MC_top;
+		pos base z <anchor 320 516> mark @MC_top;
+	} MARK_BASE_top;
+
+
+	lookup MARK_BASE_topright {
+		pos base L <anchor 400 740> mark @MC_topright;
+		pos base d <anchor 667 740> mark @MC_topright;
+		pos base l <anchor 470 740> mark @MC_topright;
+		pos base t <anchor 466 780> mark @MC_topright;
+	} MARK_BASE_topright;
+
+
+
+} mark;
+

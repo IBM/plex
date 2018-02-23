@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omega" format="1">
+  <advance width="760"/>
+  <unicode hex="2126"/>
+  <outline>
+    <contour>
+      <point x="52" y="0" type="line"/>
+      <point x="330" y="0" type="line"/>
+      <point x="330" y="179" type="line"/>
+      <point x="279" y="198"/>
+      <point x="252" y="251"/>
+      <point x="252" y="322" type="curve" smooth="yes" name="hr01"/>
+      <point x="252" y="481" type="line" smooth="yes"/>
+      <point x="252" y="572"/>
+      <point x="298" y="634"/>
+      <point x="380" y="634" type="curve" smooth="yes"/>
+      <point x="462" y="634"/>
+      <point x="508" y="572"/>
+      <point x="508" y="481" type="curve" smooth="yes"/>
+      <point x="508" y="322" type="line" smooth="yes"/>
+      <point x="508" y="251"/>
+      <point x="481" y="198"/>
+      <point x="430" y="179" type="curve"/>
+      <point x="430" y="0" type="line"/>
+      <point x="708" y="0" type="line" name="hr02"/>
+      <point x="708" y="140" type="line"/>
+      <point x="585" y="140" type="line"/>
+      <point x="585" y="68" type="line"/>
+      <point x="502" y="68" type="line"/>
+      <point x="502" y="128" type="line"/>
+      <point x="611" y="180"/>
+      <point x="699" y="247"/>
+      <point x="699" y="407" type="curve" smooth="yes" name="hr03"/>
+      <point x="699" y="559"/>
+      <point x="602" y="710"/>
+      <point x="380" y="710" type="curve" smooth="yes"/>
+      <point x="158" y="710"/>
+      <point x="61" y="559"/>
+      <point x="61" y="407" type="curve" smooth="yes"/>
+      <point x="61" y="247"/>
+      <point x="149" y="180"/>
+      <point x="258" y="128" type="curve"/>
+      <point x="258" y="68" type="line"/>
+      <point x="175" y="68" type="line" name="hr04"/>
+      <point x="175" y="140" type="line"/>
+      <point x="52" y="140" type="line"/>
+    </contour>
+  </outline>
+</glyph>

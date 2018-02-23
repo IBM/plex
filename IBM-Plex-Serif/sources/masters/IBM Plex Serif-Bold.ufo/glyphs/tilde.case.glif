@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde.case" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="376" y="755" type="curve" smooth="yes"/>
+      <point x="433" y="755"/>
+      <point x="464" y="799"/>
+      <point x="498" y="859" type="curve"/>
+      <point x="458" y="901" type="line"/>
+      <point x="430" y="862"/>
+      <point x="418" y="859"/>
+      <point x="397" y="859" type="curve" smooth="yes"/>
+      <point x="372" y="859"/>
+      <point x="345" y="876"/>
+      <point x="316" y="890" type="curve" smooth="yes"/>
+      <point x="287" y="904"/>
+      <point x="255" y="921"/>
+      <point x="223" y="921" type="curve" smooth="yes" name="hr01"/>
+      <point x="166" y="921"/>
+      <point x="135" y="877"/>
+      <point x="101" y="817" type="curve"/>
+      <point x="141" y="775" type="line"/>
+      <point x="169" y="814"/>
+      <point x="181" y="817"/>
+      <point x="202" y="817" type="curve" smooth="yes"/>
+      <point x="227" y="817"/>
+      <point x="254" y="800"/>
+      <point x="283" y="786" type="curve" smooth="yes"/>
+      <point x="312" y="772"/>
+      <point x="344" y="755"/>
+    </contour>
+    <contour>
+      <point x="300" y="698" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

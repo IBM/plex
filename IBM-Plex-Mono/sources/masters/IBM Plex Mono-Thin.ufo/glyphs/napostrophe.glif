@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe" format="1">
+  <advance width="600"/>
+  <unicode hex="0149"/>
+  <outline>
+    <contour>
+      <point x="127" y="0" type="line"/>
+      <point x="148" y="0" type="line"/>
+      <point x="148" y="372" type="line" smooth="yes"/>
+      <point x="148" y="464"/>
+      <point x="223" y="509"/>
+      <point x="306" y="509" type="curve" smooth="yes"/>
+      <point x="406" y="509"/>
+      <point x="462" y="456"/>
+      <point x="462" y="333" type="curve" smooth="yes"/>
+      <point x="462" y="0" type="line"/>
+      <point x="483" y="0" type="line"/>
+      <point x="483" y="336" type="line" smooth="yes"/>
+      <point x="483" y="461"/>
+      <point x="423" y="528"/>
+      <point x="309" y="528" type="curve" smooth="yes"/>
+      <point x="218" y="528"/>
+      <point x="169" y="486"/>
+      <point x="151" y="442" type="curve"/>
+      <point x="148" y="442" type="line"/>
+      <point x="148" y="516" type="line" name="hr01"/>
+      <point x="127" y="516" type="line"/>
+    </contour>
+    <contour>
+      <point x="15" y="555" type="line"/>
+      <point x="32" y="555" type="line"/>
+      <point x="82" y="740" type="line"/>
+      <point x="44" y="740" type="line"/>
+    </contour>
+  </outline>
+</glyph>

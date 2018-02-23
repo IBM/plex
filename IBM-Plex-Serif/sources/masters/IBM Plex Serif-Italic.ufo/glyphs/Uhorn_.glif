@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorn" format="1">
+  <advance width="676"/>
+  <unicode hex="01AF"/>
+  <outline>
+    <contour>
+      <point x="290" y="-12" type="curve" smooth="yes"/>
+      <point x="438" y="-12"/>
+      <point x="522" y="55"/>
+      <point x="569" y="245" type="curve" smooth="yes"/>
+      <point x="673" y="662" type="line"/>
+      <point x="705" y="662" type="line" smooth="yes"/>
+      <point x="753" y="662"/>
+      <point x="772" y="688"/>
+      <point x="779" y="717" type="curve" smooth="yes"/>
+      <point x="802" y="810" type="line"/>
+      <point x="721" y="810" type="line"/>
+      <point x="693" y="698" type="line"/>
+      <point x="556" y="698" type="line"/>
+      <point x="545" y="654" type="line" name="hr01"/>
+      <point x="615" y="654" type="line"/>
+      <point x="513" y="245" type="line" smooth="yes"/>
+      <point x="479" y="110"/>
+      <point x="418" y="42"/>
+      <point x="299" y="42" type="curve" smooth="yes"/>
+      <point x="213" y="42"/>
+      <point x="178" y="76"/>
+      <point x="178" y="146" type="curve" smooth="yes"/>
+      <point x="178" y="173"/>
+      <point x="183" y="205"/>
+      <point x="192" y="242" type="curve" smooth="yes"/>
+      <point x="294" y="654" type="line"/>
+      <point x="364" y="654" type="line"/>
+      <point x="375" y="698" type="line"/>
+      <point x="143" y="698" type="line"/>
+      <point x="132" y="654" type="line"/>
+      <point x="202" y="654" type="line"/>
+      <point x="106" y="267" type="line" smooth="yes"/>
+      <point x="96" y="225"/>
+      <point x="90" y="189"/>
+      <point x="90" y="158" type="curve" smooth="yes"/>
+      <point x="90" y="35"/>
+      <point x="166" y="-12"/>
+    </contour>
+    <contour>
+      <point x="293" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="460" y="698" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>
