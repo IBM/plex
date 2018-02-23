@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="B" format="1">
+  <advance width="621"/>
+  <unicode hex="0042"/>
+  <outline>
+    <contour>
+      <point x="-21" y="0" type="line"/>
+      <point x="336" y="0" type="line" smooth="yes"/>
+      <point x="459" y="0"/>
+      <point x="552" y="118"/>
+      <point x="552" y="223" type="curve" smooth="yes"/>
+      <point x="552" y="291"/>
+      <point x="512" y="339"/>
+      <point x="444" y="359" type="curve"/>
+      <point x="446" y="365" type="line"/>
+      <point x="547" y="393"/>
+      <point x="609" y="470"/>
+      <point x="609" y="563" type="curve" smooth="yes" name="hr01"/>
+      <point x="609" y="653"/>
+      <point x="553" y="698"/>
+      <point x="460" y="698" type="curve" smooth="yes" name="hr02"/>
+      <point x="153" y="698" type="line"/>
+      <point x="142" y="654" type="line" name="hr03"/>
+      <point x="212" y="654" type="line"/>
+      <point x="60" y="44" type="line"/>
+      <point x="-10" y="44" type="line"/>
+    </contour>
+    <contour>
+      <point x="225" y="336" type="line"/>
+      <point x="374" y="336" type="line" smooth="yes"/>
+      <point x="430" y="336"/>
+      <point x="460" y="301"/>
+      <point x="460" y="249" type="curve" smooth="yes"/>
+      <point x="460" y="226"/>
+      <point x="449" y="188"/>
+      <point x="444" y="170" type="curve" smooth="yes"/>
+      <point x="424" y="98"/>
+      <point x="372" y="48"/>
+      <point x="302" y="48" type="curve"/>
+      <point x="153" y="48" type="line"/>
+    </contour>
+    <contour>
+      <point x="303" y="650" type="line" name="hr04"/>
+      <point x="439" y="650" type="line" smooth="yes"/>
+      <point x="495" y="650"/>
+      <point x="518" y="615"/>
+      <point x="518" y="574" type="curve" smooth="yes"/>
+      <point x="518" y="551"/>
+      <point x="507" y="514"/>
+      <point x="503" y="498" type="curve" smooth="yes"/>
+      <point x="487" y="434"/>
+      <point x="436" y="384"/>
+      <point x="372" y="384" type="curve"/>
+      <point x="237" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="215" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="390" y="698" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

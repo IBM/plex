@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iogonek" format="1">
+  <advance width="372"/>
+  <unicode hex="012E"/>
+  <outline>
+    <contour>
+      <point x="68" y="0" type="line"/>
+      <point x="275" y="0" type="line"/>
+      <point x="276" y="-3" type="line"/>
+      <point x="189" y="-54"/>
+      <point x="164" y="-97"/>
+      <point x="164" y="-135" type="curve" smooth="yes"/>
+      <point x="164" y="-179"/>
+      <point x="198" y="-202"/>
+      <point x="243" y="-202" type="curve" smooth="yes"/>
+      <point x="279" y="-202"/>
+      <point x="305" y="-188"/>
+      <point x="318" y="-170" type="curve"/>
+      <point x="304" y="-159" type="line"/>
+      <point x="294" y="-171"/>
+      <point x="276" y="-184"/>
+      <point x="244" y="-184" type="curve" smooth="yes"/>
+      <point x="209" y="-184"/>
+      <point x="185" y="-169"/>
+      <point x="185" y="-132" type="curve" smooth="yes"/>
+      <point x="185" y="-82"/>
+      <point x="225" y="-51"/>
+      <point x="304" y="0" type="curve"/>
+      <point x="304" y="19" type="line"/>
+      <point x="197" y="19" type="line" name="hr01"/>
+      <point x="197" y="679" type="line"/>
+      <point x="304" y="679" type="line"/>
+      <point x="304" y="698" type="line"/>
+      <point x="68" y="698" type="line"/>
+      <point x="68" y="679" type="line"/>
+      <point x="175" y="679" type="line"/>
+      <point x="175" y="19" type="line"/>
+      <point x="68" y="19" type="line"/>
+    </contour>
+  </outline>
+</glyph>

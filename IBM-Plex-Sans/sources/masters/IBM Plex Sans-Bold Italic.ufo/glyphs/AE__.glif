@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE" format="1">
+  <advance width="920"/>
+  <unicode hex="00C6"/>
+  <outline>
+    <contour>
+      <point x="364" y="0" type="line"/>
+      <point x="823" y="0" type="line"/>
+      <point x="849" y="128" type="line"/>
+      <point x="535" y="128" type="line"/>
+      <point x="567" y="289" type="line"/>
+      <point x="835" y="289" type="line"/>
+      <point x="861" y="417" type="line"/>
+      <point x="593" y="417" type="line"/>
+      <point x="624" y="570" type="line"/>
+      <point x="927" y="570" type="line"/>
+      <point x="953" y="698" type="line"/>
+      <point x="388" y="698" type="line"/>
+      <point x="-56" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="201" y="169" type="line" name="hr01"/>
+      <point x="398" y="169" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="570" type="line"/>
+      <point x="422" y="291" type="line"/>
+      <point x="278" y="291" type="line"/>
+      <point x="449" y="570" type="line"/>
+    </contour>
+    <contour>
+      <point x="558" y="698" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gdotaccent" format="1">
+  <advance width="600"/>
+  <unicode hex="0120"/>
+  <outline>
+    <component base="G"/>
+    <component base="dotaccent.case" xOffset="37"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ring" format="1">
+  <advance width="600"/>
+  <unicode hex="02DA"/>
+  <outline>
+    <contour>
+      <point x="300" y="576" type="curve" smooth="yes" name="hr00"/>
+      <point x="365" y="576"/>
+      <point x="416" y="625"/>
+      <point x="416" y="691" type="curve" smooth="yes"/>
+      <point x="416" y="757"/>
+      <point x="365" y="806"/>
+      <point x="300" y="806" type="curve" smooth="yes"/>
+      <point x="235" y="806"/>
+      <point x="184" y="757"/>
+      <point x="184" y="691" type="curve" smooth="yes"/>
+      <point x="184" y="625"/>
+      <point x="235" y="576"/>
+    </contour>
+    <contour>
+      <point x="300" y="625" type="curve" smooth="yes"/>
+      <point x="264" y="625"/>
+      <point x="242" y="645"/>
+      <point x="242" y="680" type="curve" smooth="yes"/>
+      <point x="242" y="702" type="line" smooth="yes"/>
+      <point x="242" y="737"/>
+      <point x="264" y="757"/>
+      <point x="300" y="757" type="curve" smooth="yes"/>
+      <point x="336" y="757"/>
+      <point x="358" y="737"/>
+      <point x="358" y="702" type="curve" smooth="yes"/>
+      <point x="358" y="680" type="line" smooth="yes"/>
+      <point x="358" y="645"/>
+      <point x="336" y="625"/>
+    </contour>
+    <contour>
+      <point x="300" y="540" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

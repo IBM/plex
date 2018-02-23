@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevegrave.case" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="21" y="774" type="curve" smooth="yes" name="hr00"/>
+      <point x="85" y="774"/>
+      <point x="122" y="817"/>
+      <point x="176" y="892" type="curve"/>
+      <point x="166" y="898" type="line"/>
+      <point x="145" y="871" type="line" smooth="yes"/>
+      <point x="97" y="810"/>
+      <point x="66" y="792"/>
+      <point x="22" y="792" type="curve" smooth="yes"/>
+      <point x="-21" y="792"/>
+      <point x="-38" y="808"/>
+      <point x="-59" y="871" type="curve" smooth="yes"/>
+      <point x="-68" y="898" type="line"/>
+      <point x="-79" y="894" type="line"/>
+      <point x="-60" y="820"/>
+      <point x="-43" y="774"/>
+    </contour>
+    <contour>
+      <point x="42" y="878" type="line"/>
+      <point x="52" y="885" type="line"/>
+      <point x="-35" y="1041" type="line"/>
+      <point x="-54" y="1029" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="698" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

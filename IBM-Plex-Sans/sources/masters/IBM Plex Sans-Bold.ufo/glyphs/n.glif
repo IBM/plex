@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="n" format="1">
+  <advance width="596"/>
+  <unicode hex="006E"/>
+  <outline>
+    <contour>
+      <point x="217" y="0" type="line"/>
+      <point x="217" y="340" type="line"/>
+      <point x="217" y="392"/>
+      <point x="264" y="417"/>
+      <point x="312" y="417" type="curve" smooth="yes"/>
+      <point x="366" y="417"/>
+      <point x="385" y="384"/>
+      <point x="385" y="317" type="curve" smooth="yes"/>
+      <point x="385" y="0" type="line"/>
+      <point x="533" y="0" type="line"/>
+      <point x="533" y="329" type="line" smooth="yes"/>
+      <point x="533" y="461"/>
+      <point x="476" y="537"/>
+      <point x="369" y="537" type="curve" smooth="yes"/>
+      <point x="286" y="537"/>
+      <point x="242" y="491"/>
+      <point x="223" y="436" type="curve"/>
+      <point x="217" y="436" type="line"/>
+      <point x="217" y="525" type="line" name="hr01"/>
+      <point x="69" y="525" type="line"/>
+      <point x="69" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="299" y="540" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

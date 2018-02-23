@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E" format="1">
+  <advance width="580"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="50" y="0" type="line"/>
+      <point x="520" y="0" type="line"/>
+      <point x="520" y="148" type="line"/>
+      <point x="499" y="148" type="line"/>
+      <point x="499" y="18" type="line"/>
+      <point x="157" y="18" type="line"/>
+      <point x="157" y="359" type="line"/>
+      <point x="419" y="359" type="line"/>
+      <point x="419" y="274" type="line"/>
+      <point x="440" y="274" type="line"/>
+      <point x="440" y="462" type="line"/>
+      <point x="419" y="462" type="line"/>
+      <point x="419" y="377" type="line"/>
+      <point x="157" y="377" type="line"/>
+      <point x="157" y="680" type="line"/>
+      <point x="491" y="680" type="line" name="hr01"/>
+      <point x="491" y="550" type="line"/>
+      <point x="512" y="550" type="line"/>
+      <point x="512" y="698" type="line"/>
+      <point x="50" y="698" type="line"/>
+      <point x="50" y="680" type="line"/>
+      <point x="135" y="680" type="line"/>
+      <point x="135" y="18" type="line"/>
+      <point x="50" y="18" type="line"/>
+    </contour>
+    <contour>
+      <point x="306" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="520" y="0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="306" y="698" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

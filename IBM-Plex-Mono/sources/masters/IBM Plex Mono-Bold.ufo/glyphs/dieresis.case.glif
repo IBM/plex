@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis.case" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="190" y="761" type="curve" smooth="yes" name="hr00"/>
+      <point x="250" y="761"/>
+      <point x="271" y="789"/>
+      <point x="271" y="824" type="curve" smooth="yes"/>
+      <point x="271" y="850" type="line" smooth="yes"/>
+      <point x="271" y="885"/>
+      <point x="250" y="912"/>
+      <point x="190" y="912" type="curve" smooth="yes"/>
+      <point x="131" y="912"/>
+      <point x="110" y="885"/>
+      <point x="110" y="850" type="curve" smooth="yes"/>
+      <point x="110" y="824" type="line" smooth="yes"/>
+      <point x="110" y="789"/>
+      <point x="131" y="761"/>
+    </contour>
+    <contour>
+      <point x="410" y="761" type="curve" smooth="yes"/>
+      <point x="469" y="761"/>
+      <point x="490" y="789"/>
+      <point x="490" y="824" type="curve" smooth="yes"/>
+      <point x="490" y="850" type="line" smooth="yes"/>
+      <point x="490" y="885"/>
+      <point x="469" y="912"/>
+      <point x="410" y="912" type="curve" smooth="yes"/>
+      <point x="350" y="912"/>
+      <point x="329" y="885"/>
+      <point x="329" y="850" type="curve" smooth="yes"/>
+      <point x="329" y="824" type="line" smooth="yes"/>
+      <point x="329" y="789"/>
+      <point x="350" y="761"/>
+    </contour>
+    <contour>
+      <point x="300" y="698" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

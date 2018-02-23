@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflextilde.case" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="75" y="946" type="curve" smooth="yes"/>
+      <point x="129" y="946"/>
+      <point x="162" y="986"/>
+      <point x="194" y="1044" type="curve"/>
+      <point x="155" y="1086" type="line"/>
+      <point x="127" y="1046"/>
+      <point x="116" y="1037"/>
+      <point x="95" y="1037" type="curve" smooth="yes"/>
+      <point x="70" y="1037"/>
+      <point x="45" y="1053"/>
+      <point x="16" y="1068" type="curve" smooth="yes"/>
+      <point x="-14" y="1083"/>
+      <point x="-43" y="1100"/>
+      <point x="-76" y="1100" type="curve" smooth="yes" name="hr01"/>
+      <point x="-130" y="1100"/>
+      <point x="-163" y="1060"/>
+      <point x="-195" y="1002" type="curve"/>
+      <point x="-156" y="960" type="line"/>
+      <point x="-128" y="1000"/>
+      <point x="-117" y="1009"/>
+      <point x="-96" y="1009" type="curve" smooth="yes"/>
+      <point x="-71" y="1009"/>
+      <point x="-46" y="993"/>
+      <point x="-17" y="978" type="curve" smooth="yes"/>
+      <point x="13" y="963"/>
+      <point x="42" y="946"/>
+    </contour>
+    <contour>
+      <point x="-138" y="730" type="line"/>
+      <point x="0" y="827" type="line"/>
+      <point x="138" y="730" type="line"/>
+      <point x="181" y="766" type="line"/>
+      <point x="47" y="926" type="line"/>
+      <point x="-47" y="926" type="line"/>
+      <point x="-181" y="766" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="698" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

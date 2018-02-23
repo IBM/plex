@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uogonek" format="1">
+  <advance width="607"/>
+  <unicode hex="0172"/>
+  <outline>
+    <contour>
+      <point x="148" y="698" type="line"/>
+      <point x="66" y="289" type="line" smooth="yes"/>
+      <point x="58" y="251"/>
+      <point x="53" y="220"/>
+      <point x="53" y="185" type="curve" smooth="yes"/>
+      <point x="53" y="50"/>
+      <point x="120" y="-12"/>
+      <point x="270" y="-12" type="curve" smooth="yes"/>
+      <point x="277" y="-12" type="line"/>
+      <point x="278" y="-19" type="line"/>
+      <point x="186" y="-48"/>
+      <point x="153" y="-80"/>
+      <point x="153" y="-134" type="curve" smooth="yes" name="hr01"/>
+      <point x="153" y="-185"/>
+      <point x="192" y="-212"/>
+      <point x="255" y="-212" type="curve" smooth="yes"/>
+      <point x="312" y="-212"/>
+      <point x="346" y="-193"/>
+      <point x="370" y="-163" type="curve"/>
+      <point x="327" y="-118" type="line"/>
+      <point x="317" y="-134"/>
+      <point x="300" y="-144"/>
+      <point x="276" y="-144" type="curve" smooth="yes"/>
+      <point x="251" y="-144"/>
+      <point x="243" y="-131"/>
+      <point x="243" y="-113" type="curve" smooth="yes"/>
+      <point x="243" y="-82"/>
+      <point x="260" y="-58"/>
+      <point x="353" y="-10" type="curve" smooth="yes"/>
+      <point x="468" y="49"/>
+      <point x="513" y="98"/>
+      <point x="545" y="259" type="curve" smooth="yes"/>
+      <point x="633" y="698" type="line"/>
+      <point x="496" y="698" type="line"/>
+      <point x="408" y="259" type="line" smooth="yes"/>
+      <point x="385" y="142"/>
+      <point x="350" y="109"/>
+      <point x="282" y="109" type="curve" smooth="yes"/>
+      <point x="218" y="109"/>
+      <point x="189" y="132"/>
+      <point x="189" y="196" type="curve" smooth="yes" name="hr02"/>
+      <point x="189" y="219"/>
+      <point x="194" y="246"/>
+      <point x="199" y="269" type="curve" smooth="yes"/>
+      <point x="285" y="698" type="line"/>
+    </contour>
+  </outline>
+</glyph>
