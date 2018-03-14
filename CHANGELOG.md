@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 - Repo renamed to `IBM/Plex`
-- npm package published called `@ibm/plex´
+- npm package published called `@ibm/plex`
 - README leads user to releases tab for downloads
 - Fix typos in Brazilian Portugese translation.
 
