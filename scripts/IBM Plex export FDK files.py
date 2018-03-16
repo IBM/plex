@@ -11,6 +11,7 @@
 	author: Paul van der Laan
 	last modification: 2018-02-07
 '''
+from __future__ import print_function
 
 import os
 try:
@@ -19,11 +20,11 @@ try:
 except ImportError:
 	hasRF = False
 
-if hasRF == True:
+if hasRF is True:
 	from robofab.world import CurrentFont, OpenFont
 	from robofab.interface.all.dialogs import ProgressBar, GetFolder
 	FLmode = world.inFontLab
-	if FLmode == True:
+	if FLmode is True:
 		from FL import *
 		import fl_cmd
 
@@ -42,7 +43,7 @@ def stringToUnicode(myString):
 		try:
 			unicodeString = myString.decode('mac_roman')
 		except UnicodeDecodeError:
-			print '* ERROR - unable to decode string to unicode *'
+			print('* ERROR - unable to decode string to unicode *')
 			unicodeString = ''
 	return unicodeString
 
@@ -110,9 +111,7 @@ def createDSIG(f):
 	'''create empty DSIG table in FontLab'''
 	ttag = 'DSIG'
 	l = [0, 0, 0, 1, 0, 0, 0, 0]   # table data
-	tvalue = ''
-	for x in l:
-		tvalue += chr(x)
+	tvalue = ''.join(chr(x) for x in l)
 	ttTables = f.naked().truetypetables
 	# delete existing table first
 	for n in range(len(ttTables)):
@@ -138,15 +137,13 @@ def writeFontInfo(f, targetPath):
 	allLines.append('')   # extra linebreak
 
 	myPath = os.path.join(targetPath, "fontinfo")
-	myFile = open(myPath, "w")
-	myFile.write(lineBreakChr.join(allLines))
-	myFile.close()
+	with open(myPath, "w") as myFile:
+	  myFile.write(lineBreakChr.join(allLines))
 
 
 
 def writeGlyphOrderAndAliasDB(f, targetPath, hasPS):
 	'''write GlyphOrderAndAliasDB'''
-	renameDict = {}
 	libKey = 'com.type-invaders.name.final'
 	renameDict = {}
 	for g in f:
@@ -362,11 +359,8 @@ def checkCurveType(f):
 				if hasType == None:
 					typeDict[pType] = True
 
-	allTypes = typeDict.keys()
-	if 'curve' in allTypes:
-		return True
-	else:
-		return False
+	allTypes = typeDict
+	return bool('curve' in allTypes)
 
 
 
@@ -412,22 +406,22 @@ def exportFDKFiles(f, fdkPath):
 	# determine PS or TT outlines
 	hasPS = checkCurveType(f)
 	# write required FDK files
-	print 'exporting fontinfo...'
+	print('exporting fontinfo...')
 	writeFontInfo(f, targetPath)
-	print 'exporting GlyphOrderAndAliasDB...'
+	print('exporting GlyphOrderAndAliasDB...')
 	writeGlyphOrderAndAliasDB(f, targetPath, hasPS)
-	print 'exporting FontMenuNameDB...'
+	print('exporting FontMenuNameDB...')
 	writeFontMenuNameDB(f, targetPath)
-	print 'exporting features...'
+	print('exporting features...')
 	writeFeatures(f, targetPath)
 	# generate binaries
 	if hasPS == True:
-		print 'exporting PostScript font...'
+		print('exporting PostScript font...')
 		generatePS(f, targetPath)
 	else:
-		print 'exporting TrueType font...'
+		print('exporting TrueType font...')
 		generateTTF(f, targetPath)
-	print 'done.'
+	print('done.')
 
 
 
@@ -448,8 +442,8 @@ def run():
 			allFiles = getFilePaths(myPath, '.vfb')
 			for myFile in allFiles:
 				f = OpenFont(myFile)
-				print ''
-				print 'Processing %s...' % os.path.basename(f.path)
+				print('')
+				print('Processing %s...' % os.path.basename(f.path))
 				exportFDKFiles(f, fdkPath)
 				f.naked().modified = 0
 				f.close(False)
@@ -457,13 +451,13 @@ def run():
 
 
 t = '* IBM Plex export for FDK *'
-print '-' * len(t)
-print t
-print '-' * len(t)
-if FLmode != True:
-	print '* ERROR - this script requires FontLab *'
-elif hasRF != True:
-	print '* ERROR - this script requires installation of RoboFab library *'
-	print 'More info: https://github.com/robofab-developers/robofab'
+print('-' * len(t))
+print(t)
+print('-' * len(t))
+if FLmode is not True:
+	print('* ERROR - this script requires FontLab *')
+elif hasRF is not True:
+	print('* ERROR - this script requires installation of RoboFab library *')
+	print('More info: https://github.com/robofab-developers/robofab')
 else:
 	run()
