@@ -16,7 +16,7 @@ exports.formatFilename = formatFilename;
  * `createFontFace` is used to generate the actual `@font-face` declarations
  * that get written to the appropriate files.
  */
-const createFontFace = (filename, family, weight, unicode) => {
+const createFontFace = (filename, family, weight, unicode = {type: ''}) => {
   const fontFileName = [
     `IBMPlex${family.type.replace(" ", "")}`,
     weight.variant ? weight.type + weight.variant : weight.type,
@@ -39,20 +39,26 @@ const createFontFace = (filename, family, weight, unicode) => {
     .filter(Boolean)
     .join("");
 
+  const local = `local('${localFileName}'),
+    local('${localPostscriptName}')`;
+
   const urls = {
-    woff2: `#{$font-prefix}/IBM-Plex-${family.type.replace(" ", "-")}/fonts/split/woff2/${fontFileName}.woff2`,
-    woff: `#{$font-prefix}/IBM-Plex-${family.type.replace(" ", "-")}/fonts/split/woff/${fontFileName}.woff`
+    woff: `#{$font-prefix}/IBM-Plex-${family.type.replace(" ", "-")}/fonts/complete/woff/${fontFileName}.woff`,
+    woff2: `#{$font-prefix}/IBM-Plex-${family.type.replace(" ", "-")}/fonts/split/woff2/${fontFileName}.woff2`
   };
+
+  const src = unicode.characters
+    ? `src: ${local},
+    url('${urls.woff2}') format('woff2');
+    unicode-range: ${unicode.characters.join(", ")};` 
+    : `src: ${local},
+    url('${urls.woff}') format('woff');`
 
   return `@font-face {
   font-family: '${family.name}';
   font-style: ${weight.properties.fontStyle};
   font-weight: ${weight.properties.fontWeight};
-  src: local('${localFileName}'),
-    local('${localPostscriptName}'),
-    url('${urls.woff2}') format('woff2'),
-    url('${urls.woff}') format('woff');
-  unicode-range: '${unicode.characters.join(", ")}';
+  ${src}
 }
 `;
 };

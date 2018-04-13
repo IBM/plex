@@ -64,7 +64,7 @@ const filesToWrite = families
           Latin2: 4,
           Latin1: 5
         };
-        const content = innerFiles
+        const contentSplit = innerFiles
           .sort((a, b) => order[a.unicode.type] - order[b.unicode.type])
           .filter(({ unicode }) => family.unicodes.includes(unicode.type))
           .map(({ unicode }) => {
@@ -72,16 +72,20 @@ const filesToWrite = families
             return `@import '${importPath}';`;
           })
           .join("\n");
+        const contentWhole = createFontFace(filename, family, weight);
 
         // We spread all the inner files, since they are valid files that we'll
         // want to create in the future, and then reduce over the whole
         // collection to flatten the array entries.
+        // String contentWhole (woff) goes before contentSplit (woff2) so modern
+        // browsers will look for split files.
         return [
           ...innerFiles,
           {
             filename: `${OUTPUT_DIRECTORY}/${filename.replace(" ", "-")}`,
             content: `$font-prefix: '..' !default;
-${content}`,
+${contentWhole}
+${contentSplit}`,
             weight
           }
         ];
