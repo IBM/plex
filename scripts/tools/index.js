@@ -16,7 +16,7 @@ exports.formatFilename = formatFilename;
  * `createFontFace` is used to generate the actual `@font-face` declarations
  * that get written to the appropriate files.
  */
-const createFontFace = (filename, family, weight, unicode = {type: ''}) => {
+const createFontFace = (filename, family, weight, unicode = {}) => {
   const fontFileName = [
     `IBMPlex${family.type.replace(" ", "")}`,
     weight.variant ? weight.type + weight.variant : weight.type,
