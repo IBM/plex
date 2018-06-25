@@ -20,6 +20,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "fs-extra": "^6.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
     "node-sass": "^4.7.2",
