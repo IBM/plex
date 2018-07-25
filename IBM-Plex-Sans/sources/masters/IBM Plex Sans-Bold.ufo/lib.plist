@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.type-invaders.fontnaming.macfam</key>
+	<string>IBM Plex Sans</string>
+	<key>com.type-invaders.fontnaming.macstyle</key>
+	<string>Bold</string>
+	<key>com.type-invaders.fontnaming.winfam</key>
+	<string>IBM Plex Sans</string>
+	<key>com.type-invaders.fontnaming.winstyle</key>
+	<string>Bold</string>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 	</array>
@@ -86,8 +94,11 @@
 		<string>colon</string>
 		<string>comma</string>
 		<string>semicolon</string>
+		<string>questiongreek</string>
 		<string>quotesingle</string>
 		<string>quotedbl</string>
+		<string>prime</string>
+		<string>primedbl</string>
 		<string>quoteleft</string>
 		<string>quoteright</string>
 		<string>quotedblleft</string>
@@ -142,6 +153,7 @@
 		<string>lessequal</string>
 		<string>greaterequal</string>
 		<string>periodcentered</string>
+		<string>anoteleia</string>
 		<string>bullet</string>
 		<string>lozenge</string>
 		<string>logicalnot</string>
@@ -152,6 +164,7 @@
 		<string>litre</string>
 		<string>numerosign</string>
 		<string>partialdiff</string>
+		<string>currency</string>
 		<string>cent</string>
 		<string>Euro</string>
 		<string>florin</string>
@@ -518,7 +531,77 @@
 		<string>product</string>
 		<string>summation</string>
 		<string>Omega</string>
+		<string>alpha</string>
+		<string>alpha.alt01</string>
+		<string>beta</string>
+		<string>gamma</string>
+		<string>delta</string>
+		<string>epsilon</string>
+		<string>zeta</string>
+		<string>eta</string>
+		<string>theta</string>
+		<string>iota</string>
+		<string>kappa</string>
+		<string>lambda</string>
+		<string>uni03BC</string>
+		<string>nu</string>
+		<string>xi</string>
+		<string>omicron</string>
 		<string>pi</string>
+		<string>rho</string>
+		<string>sigma1</string>
+		<string>sigma</string>
+		<string>tau</string>
+		<string>upsilon</string>
+		<string>phi</string>
+		<string>chi</string>
+		<string>psi</string>
+		<string>omega</string>
+		<string>Alpha</string>
+		<string>Beta</string>
+		<string>Gamma</string>
+		<string>uni0394</string>
+		<string>Epsilon</string>
+		<string>Zeta</string>
+		<string>Eta</string>
+		<string>Theta</string>
+		<string>Iota</string>
+		<string>Kappa</string>
+		<string>Lambda</string>
+		<string>Mu</string>
+		<string>Nu</string>
+		<string>Xi</string>
+		<string>Omicron</string>
+		<string>Pi</string>
+		<string>Rho</string>
+		<string>Sigma</string>
+		<string>Tau</string>
+		<string>Upsilon</string>
+		<string>Phi</string>
+		<string>Chi</string>
+		<string>Psi</string>
+		<string>uni03A9</string>
+		<string>alphatonos</string>
+		<string>alphatonos.alt01</string>
+		<string>epsilontonos</string>
+		<string>etatonos</string>
+		<string>iotatonos</string>
+		<string>iotadieresis</string>
+		<string>iotadieresistonos</string>
+		<string>omicrontonos</string>
+		<string>upsilontonos</string>
+		<string>upsilondieresis</string>
+		<string>upsilondieresistonos</string>
+		<string>omegatonos</string>
+		<string>Alphatonos</string>
+		<string>Epsilontonos</string>
+		<string>Etatonos</string>
+		<string>Iotatonos</string>
+		<string>Iotadieresis</string>
+		<string>Omicrontonos</string>
+		<string>Upsilontonos</string>
+		<string>Upsilondieresis</string>
+		<string>Omegatonos</string>
 		<string>uni0430</string>
 		<string>uni0430.alt01</string>
 		<string>uni0431</string>
@@ -710,6 +793,26 @@
 		<string>seveninferior</string>
 		<string>eightinferior</string>
 		<string>nineinferior</string>
+		<string>zero.numr</string>
+		<string>one.numr</string>
+		<string>two.numr</string>
+		<string>three.numr</string>
+		<string>four.numr</string>
+		<string>five.numr</string>
+		<string>six.numr</string>
+		<string>seven.numr</string>
+		<string>eight.numr</string>
+		<string>nine.numr</string>
+		<string>zero.dnom</string>
+		<string>one.dnom</string>
+		<string>two.dnom</string>
+		<string>three.dnom</string>
+		<string>four.dnom</string>
+		<string>five.dnom</string>
+		<string>six.dnom</string>
+		<string>seven.dnom</string>
+		<string>eight.dnom</string>
+		<string>nine.dnom</string>
 		<string>onehalf</string>
 		<string>uni2153</string>
 		<string>uni2154</string>
@@ -758,14 +861,19 @@
 		<string>tilde</string>
 		<string>tilde.alt01</string>
 		<string>macron</string>
+		<string>macron.alt01</string>
 		<string>dotaccent</string>
 		<string>dieresis</string>
+		<string>dieresis.alt01</string>
 		<string>hungarumlaut</string>
 		<string>acute</string>
 		<string>grave</string>
 		<string>circumflex</string>
+		<string>circumflex.alt01</string>
 		<string>caron</string>
+		<string>caron.alt01</string>
 		<string>breve</string>
+		<string>breve.alt01</string>
 		<string>breve.cyrl</string>
 		<string>ring</string>
 		<string>ringacute</string>
@@ -773,6 +881,8 @@
 		<string>caronslovak</string>
 		<string>cedilla</string>
 		<string>ogonek</string>
+		<string>tonos</string>
+		<string>dieresistonos</string>
 		<string>tildecomb</string>
 		<string>macroncomb</string>
 		<string>dotaccentcomb</string>
@@ -819,6 +929,7 @@
 		<string>breve.cyrl_case</string>
 		<string>ring.case</string>
 		<string>ringacute.case</string>
+		<string>tonos.case</string>
 		<string>hookcomb.case</string>
 		<string>breveacute.case</string>
 		<string>brevegrave.case</string>
@@ -835,10 +946,6 @@
 		<string>circumflextilde.case</string>
 		<string>space</string>
 		<string>nbspace</string>
-		<string>ibmlogo01</string>
-		<string>ibmlogo03</string>
-		<string>ibmlogo04</string>
-		<string>ibmlogo06</string>
 		<string>ibmlogo07</string>
 		<string>fcclogo</string>
 		<string>celogo</string>

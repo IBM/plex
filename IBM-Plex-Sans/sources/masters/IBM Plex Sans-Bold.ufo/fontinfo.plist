@@ -18,11 +18,10 @@
 	<integer>1982</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSans Bold</string>
+	<key>note</key>
+	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeHeadCreated</key>
-	<string>2017/12/18 11:00:30</string>
-	<key>openTypeHeadFlags</key>
-	<array>
-	</array>
+	<string>2018/12/18 11:00:30</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1025</integer>
 	<key>openTypeHheaDescender</key>
@@ -41,17 +40,22 @@
 	<string>Bold Monday</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.boldmonday.com</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>IBM Plex Sans</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Bold</string>
 	<key>openTypeNameSampleText</key>
 	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSans-Bold;2.001;2018</string>
+	<string>IBM;IBMPlexSans-Bold;3.000;2018</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.001 2018</string>
+	<string>Version 3.000 2018</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
 		<integer>1</integer>
 		<integer>2</integer>
+		<integer>3</integer>
 		<integer>4</integer>
 		<integer>7</integer>
 		<integer>8</integer>
@@ -74,9 +78,6 @@
 		<integer>0</integer>
 		<integer>2</integer>
 		<integer>3</integer>
-	</array>
-	<key>openTypeOS2Selection</key>
-	<array>
 	</array>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>306</integer>
@@ -115,6 +116,7 @@
 		<integer>3</integer>
 		<integer>5</integer>
 		<integer>6</integer>
+		<integer>7</integer>
 		<integer>9</integer>
 		<integer>29</integer>
 		<integer>31</integer>
@@ -197,7 +199,7 @@
 		<integer>160</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-66</integer>
+	<integer>-116</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>100</integer>
 	<key>postscriptUniqueID</key>
@@ -217,9 +219,9 @@
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>versionMinor</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>xHeight</key>
 	<integer>525</integer>
 	<key>year</key>

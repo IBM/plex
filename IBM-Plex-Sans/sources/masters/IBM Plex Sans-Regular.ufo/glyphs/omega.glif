@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omega" format="1">
+  <advance width="736"/>
+  <unicode hex="03C9"/>
+  <outline>
+    <contour>
+      <point x="408" y="349" type="line" name="hr00"/>
+      <point x="328" y="349" type="line"/>
+      <point x="328" y="217" type="line" smooth="yes"/>
+      <point x="328" y="98"/>
+      <point x="292" y="59"/>
+      <point x="233" y="59" type="curve" smooth="yes"/>
+      <point x="174" y="59"/>
+      <point x="138" y="98"/>
+      <point x="138" y="217" type="curve" smooth="yes"/>
+      <point x="138" y="269" type="line" smooth="yes"/>
+      <point x="138" y="377"/>
+      <point x="170" y="436"/>
+      <point x="242" y="472" type="curve"/>
+      <point x="197" y="528" type="line"/>
+      <point x="105" y="484"/>
+      <point x="52" y="392"/>
+      <point x="52" y="242" type="curve" smooth="yes"/>
+      <point x="52" y="63"/>
+      <point x="120" y="-12"/>
+      <point x="223" y="-12" type="curve" smooth="yes"/>
+      <point x="305" y="-12"/>
+      <point x="350" y="40"/>
+      <point x="366" y="115" type="curve"/>
+      <point x="370" y="115" type="line"/>
+      <point x="386" y="40"/>
+      <point x="431" y="-12"/>
+      <point x="513" y="-12" type="curve" smooth="yes"/>
+      <point x="616" y="-12"/>
+      <point x="684" y="63"/>
+      <point x="684" y="242" type="curve" smooth="yes"/>
+      <point x="684" y="398"/>
+      <point x="632" y="485"/>
+      <point x="539" y="528" type="curve"/>
+      <point x="494" y="472" type="line"/>
+      <point x="564" y="438"/>
+      <point x="598" y="370"/>
+      <point x="598" y="269" type="curve" smooth="yes"/>
+      <point x="598" y="217" type="line" smooth="yes"/>
+      <point x="598" y="98"/>
+      <point x="562" y="59"/>
+      <point x="503" y="59" type="curve" smooth="yes"/>
+      <point x="444" y="59"/>
+      <point x="408" y="98"/>
+      <point x="408" y="217" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="368" y="540" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>
