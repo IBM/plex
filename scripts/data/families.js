@@ -17,6 +17,11 @@ const families = [
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi'],
   },
   {
+    type: 'Sans Hebrew',
+    name: 'IBM Plex Sans Hebrew',
+    unicodes: [],
+  },
+  {
     type: 'Serif',
     name: 'IBM Plex Serif',
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
