@@ -18,11 +18,10 @@
 	<integer>1968</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSans Thin</string>
+	<key>note</key>
+	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeHeadCreated</key>
-	<string>2017/02/28 08:26:48</string>
-	<key>openTypeHeadFlags</key>
-	<array>
-	</array>
+	<string>2018/02/28 08:26:48</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1025</integer>
 	<key>openTypeHheaDescender</key>
@@ -48,14 +47,15 @@
 	<key>openTypeNameSampleText</key>
 	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSans-Thin;2.001;2018</string>
+	<string>IBM;IBMPlexSans-Thin;3.000;2018</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.001 2018</string>
+	<string>Version 3.000 2018</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
 		<integer>1</integer>
 		<integer>2</integer>
+		<integer>3</integer>
 		<integer>4</integer>
 		<integer>7</integer>
 		<integer>8</integer>
@@ -78,9 +78,6 @@
 		<integer>0</integer>
 		<integer>2</integer>
 		<integer>3</integer>
-	</array>
-	<key>openTypeOS2Selection</key>
-	<array>
 	</array>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>301</integer>
@@ -119,6 +116,7 @@
 		<integer>3</integer>
 		<integer>5</integer>
 		<integer>6</integer>
+		<integer>7</integer>
 		<integer>9</integer>
 		<integer>29</integer>
 		<integer>31</integer>
@@ -187,7 +185,7 @@
 		<integer>329</integer>
 	</array>
 	<key>postscriptSlantAngle</key>
-	<real>0.0</real>
+	<real>-0.0</real>
 	<key>postscriptStemSnapH</key>
 	<array>
 		<integer>19</integer>
@@ -202,7 +200,7 @@
 		<integer>46</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-184</integer>
+	<integer>-192</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>16</integer>
 	<key>postscriptUniqueID</key>
@@ -222,9 +220,9 @@
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>versionMinor</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>xHeight</key>
 	<integer>506</integer>
 	<key>year</key>

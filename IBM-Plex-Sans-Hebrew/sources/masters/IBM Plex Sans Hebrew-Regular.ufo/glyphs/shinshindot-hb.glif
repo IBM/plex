@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shinshindot-hb" format="1">
+  <advance width="752"/>
+  <unicode hex="FB2A"/>
+  <outline>
+    <component base="shin-hb"/>
+    <component base="shindot-hb" xOffset="634"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

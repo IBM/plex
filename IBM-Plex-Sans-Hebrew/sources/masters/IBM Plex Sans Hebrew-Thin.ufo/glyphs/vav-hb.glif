@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vav-hb" format="1">
+  <advance width="234"/>
+  <unicode hex="05D5"/>
+  <outline>
+    <contour>
+      <point x="106" y="0" type="line" name="hr00"/>
+      <point x="128" y="0" type="line"/>
+      <point x="128" y="596" type="line"/>
+      <point x="106" y="596" type="line"/>
+    </contour>
+    <contour>
+      <point x="117.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="42.0" y="297.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="506.0" type="move" name="topleft_hebr"/>
+    </contour>
+  </outline>
+</glyph>
