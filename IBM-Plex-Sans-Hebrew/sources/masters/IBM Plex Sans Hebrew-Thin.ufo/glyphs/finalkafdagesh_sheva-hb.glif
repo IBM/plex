@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="finalkafdagesh_sheva-hb" format="1">
+  <advance width="500"/>
+  <outline>
+    <component base="finalkaf-hb"/>
+    <component base="dagesh-hb" xOffset="195"/>
+    <component base="sheva-hb" xOffset="194"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

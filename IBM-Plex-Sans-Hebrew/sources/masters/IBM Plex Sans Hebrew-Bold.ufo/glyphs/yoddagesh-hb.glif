@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yoddagesh-hb" format="1">
+  <advance width="282"/>
+  <unicode hex="FB39"/>
+  <outline>
+    <component base="yod-hb"/>
+    <component base="dagesh-hb" yOffset="42"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
