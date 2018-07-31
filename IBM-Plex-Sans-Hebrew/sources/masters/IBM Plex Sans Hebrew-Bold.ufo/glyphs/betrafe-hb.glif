@@ -5,6 +5,15 @@
   <outline>
     <component base="bet-hb"/>
     <component base="rafe-hb" xOffset="246"/>
+    <contour>
+      <point x="286.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="171.0" y="315.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="525.0" type="move" name="topleft_hebr"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -5,6 +5,12 @@
   <outline>
     <component base="nun-hb"/>
     <component base="dagesh-hb" xOffset="138"/>
+    <contour>
+      <point x="145.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="506.0" type="move" name="topleft_hebr"/>
+    </contour>
   </outline>
   <lib>
     <dict>

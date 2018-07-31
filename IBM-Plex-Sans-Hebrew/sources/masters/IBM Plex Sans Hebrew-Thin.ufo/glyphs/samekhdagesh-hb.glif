@@ -5,6 +5,12 @@
   <outline>
     <component base="samekh-hb"/>
     <component base="dagesh-hb" xOffset="319"/>
+    <contour>
+      <point x="319.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="5.0" y="506.0" type="move" name="topleft_hebr"/>
+    </contour>
   </outline>
   <lib>
     <dict>

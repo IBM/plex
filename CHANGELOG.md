@@ -16,6 +16,13 @@ All notable changes to the IBM Plex typeface family will be documented in this f
 
 
 
+## [IBM PLEX SANS HEBREW V1.1] - 2018-06-15
+### Fixed
+- Errors in mark positioning
+- Added license.txt to all folders
+
+
+
 ## [IBM PLEX SANS HEBREW V1.0] - 2018-06-02
 ### Added
 - Support for Hebrew including cantillation marks (103 glyphs per font)
@@ -33,7 +40,6 @@ All notable changes to the IBM Plex typeface family will be documented in this f
   Referenced in [issue 145](https://github.com/IBM/plex/issues/145)
 
 ### Changed
-- TrueType hinting for many glyphs has been refined. Thanks to Mike Duggan at Microsoft for reporting some!
 - OpenType layout feature <mark> includes support for combining mark positioning on Cyrillic vowels
   Referenced in [issue 155](https://github.com/IBM/plex/issues/155)
 - OpenType layout feature <mark> includes support for combining mark positioning on Greek vowels

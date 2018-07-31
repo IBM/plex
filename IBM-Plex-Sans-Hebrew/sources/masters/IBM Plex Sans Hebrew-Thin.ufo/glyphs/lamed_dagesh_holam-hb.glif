@@ -5,6 +5,9 @@
     <component base="lamed-hb"/>
     <component base="dagesh-hb" xOffset="160"/>
     <component base="holam-hb" xOffset="-11"/>
+    <contour>
+      <point x="216.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
   </outline>
   <lib>
     <dict>
