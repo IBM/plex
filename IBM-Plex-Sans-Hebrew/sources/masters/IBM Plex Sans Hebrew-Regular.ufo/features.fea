@@ -278,7 +278,7 @@ feature ccmp {
 
 
 feature mark {
-	# Created: Thu May 31 13:12:44 2018
+	# Created: Fri Jun 15 14:43:11 2018
 	# PS Name: IBMPlexSansHebrew
 	# MM Inst: IBM Plex Sans Hebrew
 	# exported from FontLab
@@ -349,31 +349,49 @@ feature mark {
 
 
 	lookup MARK_BASE_bottom_hebr {
+		@bGC_alef-hb_bottom_hebr = [alef-hb alefdagesh-hb];
 		@bGC_ayin-hb_bottom_hebr = [ayin-hb ayinaltone-hb];
-		@bGC_tet-hb_bottom_hebr = [tet-hb samekh-hb];
+		@bGC_bet-hb_bottom_hebr = [bet-hb betdagesh-hb betrafe-hb];
+		@bGC_dalet-hb_bottom_hebr = [dalet-hb daletdagesh-hb];
+		@bGC_gimel-hb_bottom_hebr = [gimel-hb gimeldagesh-hb];
+		@bGC_he-hb_bottom_hebr = [he-hb hedagesh-hb];
+		@bGC_kaf-hb_bottom_hebr = [kaf-hb kafrafe-hb kafdagesh-hb];
+		@bGC_lamed-hb_bottom_hebr = [lamed-hb lamed_holam-hb lameddagesh-hb lamed_dagesh_holam-hb];
+		@bGC_mem-hb_bottom_hebr = [mem-hb memdagesh-hb];
+		@bGC_nun-hb_bottom_hebr = [nun-hb nundagesh-hb];
+		@bGC_pe-hb_bottom_hebr = [pe-hb perafe-hb pedagesh-hb];
+		@bGC_qof-hb_bottom_hebr = [qof-hb qofdagesh-hb];
+		@bGC_resh-hb_bottom_hebr = [resh-hb reshdagesh-hb];
+		@bGC_shin-hb_bottom_hebr = [shin-hb shindagesh-hb shinshindot-hb shinsindot-hb shindageshshindot-hb shindageshsindot-hb];
+		@bGC_tav-hb_bottom_hebr = [tav-hb tavdagesh-hb];
+		@bGC_tet-hb_bottom_hebr = [tet-hb samekh-hb tetdagesh-hb samekhdagesh-hb];
+		@bGC_tsadi-hb_bottom_hebr = [tsadi-hb tsadidagesh-hb];
+		@bGC_vav-hb_bottom_hebr = [vav-hb vavholam-hb vavdagesh-hb];
+		@bGC_yod-hb_bottom_hebr = [yod-hb yoddagesh-hb];
+		@bGC_zayin-hb_bottom_hebr = [zayin-hb zayindagesh-hb];
+		pos base @bGC_alef-hb_bottom_hebr <anchor 317 0> mark @MC_bottom_hebr;
 		pos base @bGC_ayin-hb_bottom_hebr <anchor 289 0> mark @MC_bottom_hebr;
+		pos base @bGC_bet-hb_bottom_hebr <anchor 280 0> mark @MC_bottom_hebr;
+		pos base @bGC_dalet-hb_bottom_hebr <anchor 369 0> mark @MC_bottom_hebr;
+		pos base @bGC_gimel-hb_bottom_hebr <anchor 204 0> mark @MC_bottom_hebr;
+		pos base @bGC_he-hb_bottom_hebr <anchor 321 0> mark @MC_bottom_hebr;
+		pos base @bGC_kaf-hb_bottom_hebr <anchor 239 0> mark @MC_bottom_hebr;
+		pos base @bGC_lamed-hb_bottom_hebr <anchor 208 0> mark @MC_bottom_hebr;
+		pos base @bGC_mem-hb_bottom_hebr <anchor 348 0> mark @MC_bottom_hebr;
+		pos base @bGC_nun-hb_bottom_hebr <anchor 152 0> mark @MC_bottom_hebr;
+		pos base @bGC_pe-hb_bottom_hebr <anchor 307 0> mark @MC_bottom_hebr;
+		pos base @bGC_qof-hb_bottom_hebr <anchor 365 0> mark @MC_bottom_hebr;
+		pos base @bGC_resh-hb_bottom_hebr <anchor 401 0> mark @MC_bottom_hebr;
+		pos base @bGC_shin-hb_bottom_hebr <anchor 376 0> mark @MC_bottom_hebr;
+		pos base @bGC_tav-hb_bottom_hebr <anchor 372 0> mark @MC_bottom_hebr;
 		pos base @bGC_tet-hb_bottom_hebr <anchor 325 0> mark @MC_bottom_hebr;
-		pos base alef-hb <anchor 317 0> mark @MC_bottom_hebr;
-		pos base bet-hb <anchor 280 0> mark @MC_bottom_hebr;
-		pos base dalet-hb <anchor 369 0> mark @MC_bottom_hebr;
+		pos base @bGC_tsadi-hb_bottom_hebr <anchor 257 0> mark @MC_bottom_hebr;
+		pos base @bGC_vav-hb_bottom_hebr <anchor 130 0> mark @MC_bottom_hebr;
+		pos base @bGC_yod-hb_bottom_hebr <anchor 120 0> mark @MC_bottom_hebr;
+		pos base @bGC_zayin-hb_bottom_hebr <anchor 211 0> mark @MC_bottom_hebr;
 		pos base finalkaf-hb <anchor 190 399> mark @MC_bottom_hebr;
 		pos base finalkafdagesh-hb <anchor 189 0> mark @MC_bottom_hebr;
-		pos base gimel-hb <anchor 204 0> mark @MC_bottom_hebr;
-		pos base he-hb <anchor 321 0> mark @MC_bottom_hebr;
 		pos base het-hb <anchor 326 0> mark @MC_bottom_hebr;
-		pos base kaf-hb <anchor 239 0> mark @MC_bottom_hebr;
-		pos base lamed-hb <anchor 208 0> mark @MC_bottom_hebr;
-		pos base mem-hb <anchor 348 0> mark @MC_bottom_hebr;
-		pos base nun-hb <anchor 152 0> mark @MC_bottom_hebr;
-		pos base pe-hb <anchor 307 0> mark @MC_bottom_hebr;
-		pos base qof-hb <anchor 365 0> mark @MC_bottom_hebr;
-		pos base resh-hb <anchor 401 0> mark @MC_bottom_hebr;
-		pos base shin-hb <anchor 376 0> mark @MC_bottom_hebr;
-		pos base tav-hb <anchor 372 0> mark @MC_bottom_hebr;
-		pos base tsadi-hb <anchor 257 0> mark @MC_bottom_hebr;
-		pos base vav-hb <anchor 130 0> mark @MC_bottom_hebr;
-		pos base yod-hb <anchor 120 0> mark @MC_bottom_hebr;
-		pos base zayin-hb <anchor 211 0> mark @MC_bottom_hebr;
 	} MARK_BASE_bottom_hebr;
 
 
@@ -391,26 +409,33 @@ feature mark {
 
 
 	lookup MARK_BASE_center_hebr {
+		@bGC_alef-hb_center_hebr = [alef-hb alefpatah-hb alefqamats-hb];
+		@bGC_bet-hb_center_hebr = [bet-hb betrafe-hb];
+		@bGC_kaf-hb_center_hebr = [kaf-hb kafrafe-hb];
+		@bGC_lamed-hb_center_hebr = [lamed-hb lamed_holam-hb];
+		@bGC_pe-hb_center_hebr = [pe-hb perafe-hb];
+		@bGC_shin-hb_center_hebr = [shin-hb shinshindot-hb shinsindot-hb];
 		@bGC_tet-hb_center_hebr = [tet-hb samekh-hb];
+		@bGC_vav-hb_center_hebr = [vav-hb vavholam-hb];
+		pos base @bGC_alef-hb_center_hebr <anchor 275 142> mark @MC_center_hebr;
+		pos base @bGC_bet-hb_center_hebr <anchor 188 305> mark @MC_center_hebr;
+		pos base @bGC_kaf-hb_center_hebr <anchor 212 305> mark @MC_center_hebr;
+		pos base @bGC_lamed-hb_center_hebr <anchor 139 305> mark @MC_center_hebr;
+		pos base @bGC_pe-hb_center_hebr <anchor 398 305> mark @MC_center_hebr;
+		pos base @bGC_shin-hb_center_hebr <anchor 504 305> mark @MC_center_hebr;
 		pos base @bGC_tet-hb_center_hebr <anchor 325 305> mark @MC_center_hebr;
-		pos base alef-hb <anchor 275 142> mark @MC_center_hebr;
-		pos base bet-hb <anchor 188 305> mark @MC_center_hebr;
+		pos base @bGC_vav-hb_center_hebr <anchor 23 305> mark @MC_center_hebr;
 		pos base dalet-hb <anchor 179 305> mark @MC_center_hebr;
 		pos base finalkaf-hb <anchor 189 305> mark @MC_center_hebr;
 		pos base finalpe-hb <anchor 377 305> mark @MC_center_hebr;
 		pos base gimel-hb <anchor 130 305> mark @MC_center_hebr;
 		pos base he-hb <anchor 321 305> mark @MC_center_hebr;
-		pos base kaf-hb <anchor 212 305> mark @MC_center_hebr;
-		pos base lamed-hb <anchor 139 305> mark @MC_center_hebr;
 		pos base mem-hb <anchor 348 305> mark @MC_center_hebr;
 		pos base nun-hb <anchor 111 305> mark @MC_center_hebr;
-		pos base pe-hb <anchor 398 305> mark @MC_center_hebr;
 		pos base qof-hb <anchor 287 305> mark @MC_center_hebr;
 		pos base resh-hb <anchor 195 305> mark @MC_center_hebr;
-		pos base shin-hb <anchor 504 305> mark @MC_center_hebr;
 		pos base tav-hb <anchor 361 305> mark @MC_center_hebr;
 		pos base tsadi-hb <anchor 140 214> mark @MC_center_hebr;
-		pos base vav-hb <anchor 23 305> mark @MC_center_hebr;
 		pos base yod-hb <anchor 12 369> mark @MC_center_hebr;
 		pos base zayin-hb <anchor 50 305> mark @MC_center_hebr;
 	} MARK_BASE_center_hebr;
@@ -470,35 +495,50 @@ feature mark {
 
 
 	lookup MARK_BASE_top_hebr {
-		pos base bet-hb <anchor 242 516> mark @MC_top_hebr;
-		pos base kaf-hb <anchor 216 516> mark @MC_top_hebr;
-		pos base pe-hb <anchor 285 516> mark @MC_top_hebr;
-		pos base shin-hb <anchor 120 516> mark @MC_top_hebr;
+		@bGC_bet-hb_top_hebr = [bet-hb betdagesh-hb];
+		@bGC_kaf-hb_top_hebr = [kaf-hb kafdagesh-hb];
+		@bGC_pe-hb_top_hebr = [pe-hb pedagesh-hb];
+		@bGC_shin-hb_top_hebr = [shin-hb shindagesh-hb shinshindot-hb shindageshshindot-hb];
+		pos base @bGC_bet-hb_top_hebr <anchor 242 516> mark @MC_top_hebr;
+		pos base @bGC_kaf-hb_top_hebr <anchor 216 516> mark @MC_top_hebr;
+		pos base @bGC_pe-hb_top_hebr <anchor 285 516> mark @MC_top_hebr;
+		pos base @bGC_shin-hb_top_hebr <anchor 120 516> mark @MC_top_hebr;
 	} MARK_BASE_top_hebr;
 
 
 	lookup MARK_BASE_topleft_hebr {
-		@bGC_alef-hb_topleft_hebr = [alef-hb tsadi-hb];
+		@bGC_alef-hb_topleft_hebr = [alef-hb tsadi-hb alefpatah-hb alefqamats-hb alefdagesh-hb tsadidagesh-hb];
 		@bGC_ayin-hb_topleft_hebr = [ayin-hb ayinaltone-hb];
-		@bGC_dalet-hb_topleft_hebr = [dalet-hb kaf-hb];
-		@bGC_he-hb_topleft_hebr = [he-hb vav-hb het-hb qof-hb];
-		@bGC_samekh-hb_topleft_hebr = [samekh-hb tav-hb];
+		@bGC_bet-hb_topleft_hebr = [bet-hb betdagesh-hb betrafe-hb];
+		@bGC_dalet-hb_topleft_hebr = [dalet-hb kaf-hb daletdagesh-hb kafrafe-hb kafdagesh-hb];
+		@bGC_gimel-hb_topleft_hebr = [gimel-hb gimeldagesh-hb];
+		@bGC_he-hb_topleft_hebr = [he-hb vav-hb het-hb qof-hb hedagesh-hb vavdagesh-hb qofdagesh-hb];
+		@bGC_lamed-hb_topleft_hebr = [lamed-hb lameddagesh-hb];
+		@bGC_mem-hb_topleft_hebr = [mem-hb memdagesh-hb];
+		@bGC_nun-hb_topleft_hebr = [nun-hb nundagesh-hb];
+		@bGC_pe-hb_topleft_hebr = [pe-hb perafe-hb pedagesh-hb];
+		@bGC_resh-hb_topleft_hebr = [resh-hb reshdagesh-hb];
+		@bGC_samekh-hb_topleft_hebr = [samekh-hb tav-hb samekhdagesh-hb tavdagesh-hb];
+		@bGC_shin-hb_topleft_hebr = [shin-hb shindagesh-hb shinshindot-hb shinsindot-hb shindageshshindot-hb shindageshsindot-hb];
+		@bGC_tet-hb_topleft_hebr = [tet-hb tetdagesh-hb];
+		@bGC_yod-hb_topleft_hebr = [yod-hb yoddagesh-hb];
+		@bGC_zayin-hb_topleft_hebr = [zayin-hb zayindagesh-hb];
 		pos base @bGC_alef-hb_topleft_hebr <anchor 17 516> mark @MC_topleft_hebr;
 		pos base @bGC_ayin-hb_topleft_hebr <anchor 23 516> mark @MC_topleft_hebr;
+		pos base @bGC_bet-hb_topleft_hebr <anchor 13 516> mark @MC_topleft_hebr;
 		pos base @bGC_dalet-hb_topleft_hebr <anchor 0 516> mark @MC_topleft_hebr;
+		pos base @bGC_gimel-hb_topleft_hebr <anchor 39 516> mark @MC_topleft_hebr;
 		pos base @bGC_he-hb_topleft_hebr <anchor 20 516> mark @MC_topleft_hebr;
+		pos base @bGC_lamed-hb_topleft_hebr <anchor -28 516> mark @MC_topleft_hebr;
+		pos base @bGC_mem-hb_topleft_hebr <anchor 49 516> mark @MC_topleft_hebr;
+		pos base @bGC_nun-hb_topleft_hebr <anchor 12 516> mark @MC_topleft_hebr;
+		pos base @bGC_pe-hb_topleft_hebr <anchor 55 516> mark @MC_topleft_hebr;
+		pos base @bGC_resh-hb_topleft_hebr <anchor 3 516> mark @MC_topleft_hebr;
 		pos base @bGC_samekh-hb_topleft_hebr <anchor 21 516> mark @MC_topleft_hebr;
-		pos base bet-hb <anchor 13 516> mark @MC_topleft_hebr;
-		pos base gimel-hb <anchor 39 516> mark @MC_topleft_hebr;
-		pos base lamed-hb <anchor -28 516> mark @MC_topleft_hebr;
-		pos base mem-hb <anchor 49 516> mark @MC_topleft_hebr;
-		pos base nun-hb <anchor 12 516> mark @MC_topleft_hebr;
-		pos base pe-hb <anchor 55 516> mark @MC_topleft_hebr;
-		pos base resh-hb <anchor 3 516> mark @MC_topleft_hebr;
-		pos base shin-hb <anchor 7 516> mark @MC_topleft_hebr;
-		pos base tet-hb <anchor 28 516> mark @MC_topleft_hebr;
-		pos base yod-hb <anchor 30 516> mark @MC_topleft_hebr;
-		pos base zayin-hb <anchor 10 516> mark @MC_topleft_hebr;
+		pos base @bGC_shin-hb_topleft_hebr <anchor 7 516> mark @MC_topleft_hebr;
+		pos base @bGC_tet-hb_topleft_hebr <anchor 28 516> mark @MC_topleft_hebr;
+		pos base @bGC_yod-hb_topleft_hebr <anchor 30 516> mark @MC_topleft_hebr;
+		pos base @bGC_zayin-hb_topleft_hebr <anchor 10 516> mark @MC_topleft_hebr;
 	} MARK_BASE_topleft_hebr;
 
 
@@ -511,7 +551,8 @@ feature mark {
 
 
 	lookup MARK_BASE_topright_hebr {
-		pos base shin-hb <anchor 634 516> mark @MC_topright_hebr;
+		@bGC_shin-hb_topright_hebr = [shin-hb shindagesh-hb shinsindot-hb shindageshsindot-hb];
+		pos base @bGC_shin-hb_topright_hebr <anchor 634 516> mark @MC_topright_hebr;
 	} MARK_BASE_topright_hebr;
 
 

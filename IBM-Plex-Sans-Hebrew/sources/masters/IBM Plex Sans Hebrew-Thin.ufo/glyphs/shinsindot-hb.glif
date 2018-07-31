@@ -5,6 +5,18 @@
   <outline>
     <component base="shin-hb"/>
     <component base="sindot-hb" xOffset="98"/>
+    <contour>
+      <point x="353.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="481.0" y="297.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="7.0" y="506.0" type="move" name="topleft_hebr"/>
+    </contour>
+    <contour>
+      <point x="608.0" y="506.0" type="move" name="topright_hebr"/>
+    </contour>
   </outline>
   <lib>
     <dict>
