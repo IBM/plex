@@ -4,6 +4,12 @@
   <outline>
     <component base="lamed-hb"/>
     <component base="holam-hb" xOffset="-39"/>
+    <contour>
+      <point x="236.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="163.0" y="315.0" type="move" name="center_hebr"/>
+    </contour>
   </outline>
   <lib>
     <dict>

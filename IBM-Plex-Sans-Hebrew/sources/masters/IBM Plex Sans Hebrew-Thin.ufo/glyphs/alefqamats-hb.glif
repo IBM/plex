@@ -5,6 +5,12 @@
   <outline>
     <component base="alef-hb"/>
     <component base="qamats-hb" xOffset="313"/>
+    <contour>
+      <point x="270.0" y="142.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="27.0" y="506.0" type="move" name="topleft_hebr"/>
+    </contour>
   </outline>
   <lib>
     <dict>
