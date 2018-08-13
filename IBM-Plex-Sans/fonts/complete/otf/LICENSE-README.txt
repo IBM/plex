@@ -1,0 +1,1 @@
+All fonts in this directory are licensed under the Apache License, Version 2.0 (see LICENSE-APACHE.txt) and under the SIL Open Font License, Version 1.1 (OFL) (see LICENSE-OFL.txt). 
