@@ -2,13 +2,9 @@
 
 Meet IBM Plex, our new corporate typeface. It’s global, it’s versatile and it’s distinctly IBM.
 
-We designed Plex carefully to both meet our needs as a global tech company and express who we are as people. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Plex is an open-source project and free to download and use. The Plex family comes in a Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have been designed to work well in user interface (UI) environments as well as other mediums. This project provides all source files and file formats to support most typographical situations.
+We designed Plex carefully to both meet our needs as a global tech company and express who we are as people. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Plex is an open-source project (OFL) and free to download and use. The Plex family comes in a Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have been designed to work well in user interface (UI) environments as well as other mediums. This project provides all source files and file formats to support most typographical situations.
 
 Thanks for trying Plex! We hope you like it.
-
-## License
-
-All files in this repository, including the source and final font files, are licensed under the [Apache License, Version 2.0](./LICENSE.txt). In addition, the source and final font files are also licensed under the [SIL Open Font License, Version 1.1 (OFL)](./LICENSE-OFL.txt) with Reserved Font Name "Plex". You can select which license terms you wish to use, modify and/or further distribute the fonts under. 
 
 ## Add Plex to your device
 
