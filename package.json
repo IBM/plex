@@ -10,6 +10,14 @@
   "bugs": {
     "url": "https://github.com/ibm/plex/issues"
   },
+  "scripts": {
+    "build": "npm run build:scss && npm run build:css",
+    "build:css": "node-sass scss/ibm-plex.scss --output css && node-sass scss/ibm-plex.scss > css/ibm-plex.min.css --output-style compressed",
+    "build:scss": "node scripts/export-scss.js",
+    "precommit": "lint-staged",
+    "prettier": "prettier --write \"**/*.{scss}\"",
+    "prepare": "yarn build"
+  },
   "dependencies": {},
   "devDependencies": {
     "fs-extra": "^7.0.0",
