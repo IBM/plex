@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04E7" format="1">
-  <advance width="560"/>
+  <advance width="549"/>
   <unicode hex="04E7"/>
   <outline>
     <component base="o"/>
-    <component base="dieresis" xOffset="42"/>
+    <component base="dieresis" xOffset="37"/>
+    <contour>
+      <point x="213.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhornacute" format="1">
-  <advance width="751"/>
+  <advance width="733"/>
   <unicode hex="1EE8"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="acute.case" xOffset="93"/>
+    <component base="acute.case" xOffset="83"/>
+    <contour>
+      <point x="368.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

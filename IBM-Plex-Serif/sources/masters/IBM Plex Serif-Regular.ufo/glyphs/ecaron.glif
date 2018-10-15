@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecaron" format="1">
-  <advance width="549"/>
+  <advance width="536"/>
   <unicode hex="011B"/>
   <outline>
     <component base="e"/>
-    <component base="caron" xOffset="-21"/>
+    <component base="caron" xOffset="-27"/>
+    <contour>
+      <point x="277.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="355.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="udotbelow" format="1">
-  <advance width="575"/>
+  <advance width="567"/>
   <unicode hex="1EE5"/>
   <outline>
     <component base="u"/>
-    <component base="dotbelowcomb" xOffset="233"/>
+    <component base="dotbelowcomb" xOffset="230"/>
+    <contour>
+      <point x="426.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="349.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

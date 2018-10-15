@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflexgrave" format="1">
-  <advance width="609"/>
+  <advance width="604"/>
   <unicode hex="1EC0"/>
   <outline>
     <component base="E"/>
-    <component base="circumflexgrave.case" xOffset="412"/>
+    <component base="circumflexgrave.case" xOffset="409"/>
+    <contour>
+      <point x="232.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="491.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="-925" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="IBM Plex Thai" filename="IBM Plex Thai-Thin.ufo" stylename="Thin">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="-925" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Thai" filename="IBM Plex Thai-Regular.ufo" stylename="Regular">
+            <groups copy="1" />
+            <features copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Thai" filename="IBM Plex Thai-Bold.ufo" stylename="Bold">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="IBM Plex Thai" filename="instances/IBMPlexThai-Extralight.ufo" postscriptfontname="IBMPlexThai-Extralight" stylemapfamilyname="IBM Plex Thai Extralight" stylemapstylename="regular" stylename="Extralight">
+            <location>
+                <dimension name="weight" xvalue="-705" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Thai" filename="instances/IBMPlexThai-Light.ufo" postscriptfontname="IBMPlexThai-Light" stylemapfamilyname="IBM Plex Thai Light" stylemapstylename="regular" stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="-360" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Thai" filename="instances/IBMPlexThai-Text.ufo" postscriptfontname="IBMPlexThai-Text" stylemapfamilyname="IBM Plex Thai Text" stylemapstylename="regular" stylename="Text">
+            <location>
+                <dimension name="weight" xvalue="191" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Thai" filename="instances/IBMPlexThai-Medium.ufo" postscriptfontname="IBMPlexThai-Medium" stylemapfamilyname="IBM Plex Thai Medium" stylemapstylename="regular" stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="427" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Thai" filename="instances/IBMPlexThai-SemiBold.ufo" postscriptfontname="IBMPlexThai-SemiBold" stylemapfamilyname="IBM Plex Thai SemiBold" stylemapstylename="regular" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="705" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

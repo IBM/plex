@@ -4,7 +4,7 @@
   <unicode hex="00D8"/>
   <outline>
     <contour>
-      <point x="102" y="-32" type="line" name="hr00"/>
+      <point x="103" y="-31" type="line" name="hr00"/>
       <point x="163" y="55" type="line"/>
       <point x="211" y="10"/>
       <point x="275" y="-12"/>
@@ -15,8 +15,8 @@
       <point x="645" y="475"/>
       <point x="616" y="569"/>
       <point x="561" y="629" type="curve"/>
-      <point x="625" y="719" type="line"/>
-      <point x="608" y="730" type="line"/>
+      <point x="626" y="720" type="line"/>
+      <point x="609" y="731" type="line"/>
       <point x="547" y="643" type="line"/>
       <point x="499" y="688"/>
       <point x="435" y="710"/>
@@ -27,7 +27,7 @@
       <point x="65" y="223"/>
       <point x="94" y="129"/>
       <point x="149" y="69" type="curve"/>
-      <point x="85" y="-21" type="line"/>
+      <point x="86" y="-20" type="line"/>
     </contour>
     <contour>
       <point x="160" y="87" type="line"/>
@@ -56,7 +56,7 @@
       <point x="520" y="6"/>
     </contour>
     <contour>
-      <point x="355" y="698" type="move" name="top"/>
+      <point x="355.0" y="698.0" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

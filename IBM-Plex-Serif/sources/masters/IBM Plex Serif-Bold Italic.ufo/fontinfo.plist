@@ -18,11 +18,10 @@
 	<integer>1983</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSerif BoldItalic</string>
+	<key>note</key>
+	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeHeadCreated</key>
-	<string>2017/05/21 02:21:59</string>
-	<key>openTypeHeadFlags</key>
-	<array>
-	</array>
+	<string>2018/06/18 09:17:56</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1025</integer>
 	<key>openTypeHheaDescender</key>
@@ -41,12 +40,16 @@
 	<string>Bold Monday</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.boldmonday.com</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>IBM Plex Serif</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Bold Italic</string>
 	<key>openTypeNameSampleText</key>
 	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSerif-BoldItalic;2.001;2018</string>
+	<string>IBM;IBMPlexSerif-BoldItalic;2.005;2018</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.001 2018</string>
+	<string>Version 2.005 2018</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -75,13 +78,10 @@
 		<integer>2</integer>
 		<integer>3</integer>
 	</array>
-	<key>openTypeOS2Selection</key>
-	<array>
-	</array>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>306</integer>
 	<key>openTypeOS2StrikeoutSize</key>
-	<integer>68</integer>
+	<integer>62</integer>
 	<key>openTypeOS2SubscriptXOffset</key>
 	<integer>0</integer>
 	<key>openTypeOS2SubscriptXSize</key>
@@ -102,11 +102,11 @@
 	<array>
 	</array>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>780</integer>
+	<integer>1025</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-220</integer>
+	<integer>-275</integer>
 	<key>openTypeOS2TypoLineGap</key>
-	<integer>300</integer>
+	<integer>0</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
 		<integer>0</integer>
@@ -123,7 +123,6 @@
 		<integer>35</integer>
 		<integer>36</integer>
 		<integer>37</integer>
-		<integer>38</integer>
 		<integer>45</integer>
 		<integer>60</integer>
 		<integer>62</integer>
@@ -135,9 +134,9 @@
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>1025</integer>
+	<integer>1150</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>275</integer>
+	<integer>286</integer>
 	<key>postscriptBlueFuzz</key>
 	<integer>0</integer>
 	<key>postscriptBlueScale</key>
@@ -148,16 +147,14 @@
 	<array>
 		<integer>-12</integer>
 		<integer>0</integer>
-		<integer>369</integer>
-		<integer>375</integer>
-		<integer>525</integer>
-		<integer>537</integer>
+		<integer>368</integer>
+		<integer>374</integer>
+		<integer>524</integer>
+		<integer>536</integer>
 		<integer>698</integer>
 		<integer>710</integer>
-		<integer>740</integer>
-		<integer>752</integer>
-		<integer>758</integer>
-		<integer>770</integer>
+		<integer>748</integer>
+		<integer>760</integer>
 	</array>
 	<key>postscriptDefaultCharacter</key>
 	<string>.notdef</string>
@@ -181,28 +178,27 @@
 	<array>
 		<integer>-212</integer>
 		<integer>-200</integer>
-		<integer>323</integer>
-		<integer>329</integer>
+		<integer>324</integer>
+		<integer>330</integer>
 	</array>
 	<key>postscriptSlantAngle</key>
 	<real>0.0</real>
 	<key>postscriptStemSnapH</key>
 	<array>
-		<integer>63</integer>
-		<integer>54</integer>
-		<integer>68</integer>
-		<integer>84</integer>
-		<integer>109</integer>
+		<integer>60</integer>
+		<integer>80</integer>
+		<integer>92</integer>
+		<integer>105</integer>
 	</array>
 	<key>postscriptStemSnapV</key>
 	<array>
-		<integer>153</integer>
-		<integer>100</integer>
+		<integer>149</integer>
+		<integer>98</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-48</integer>
+	<integer>-82</integer>
 	<key>postscriptUnderlineThickness</key>
-	<integer>68</integer>
+	<integer>62</integer>
 	<key>postscriptUniqueID</key>
 	<integer>-1</integer>
 	<key>postscriptWeightName</key>
@@ -222,9 +218,9 @@
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>1</integer>
+	<integer>5</integer>
 	<key>xHeight</key>
-	<integer>525</integer>
+	<integer>524</integer>
 	<key>year</key>
 	<integer>2018</integer>
 </dict>

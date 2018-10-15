@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gbreve" format="1">
-  <advance width="795"/>
+  <advance width="775"/>
   <unicode hex="011E"/>
   <outline>
     <component base="G"/>
-    <component base="breve.case" xOffset="89"/>
+    <component base="breve.case" xOffset="78"/>
+    <contour>
+      <point x="378.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

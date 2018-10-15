@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wgrave" format="1">
-  <advance width="896"/>
+  <advance width="889"/>
   <unicode hex="1E80"/>
   <outline>
     <component base="W"/>
-    <component base="grave.case" xOffset="273"/>
+    <component base="grave.case" xOffset="268"/>
+    <contour>
+      <point x="383.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

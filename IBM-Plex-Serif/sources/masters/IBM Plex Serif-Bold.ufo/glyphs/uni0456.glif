@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0456" format="1">
-  <advance width="345"/>
+  <advance width="335"/>
   <unicode hex="0456"/>
   <outline>
     <component base="i"/>
+    <contour>
+      <point x="173.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="309.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

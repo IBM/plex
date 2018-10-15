@@ -4,7 +4,7 @@
   <unicode hex="2116"/>
   <outline>
     <contour>
-      <point x="50" y="0" type="line"/>
+      <point x="50" y="0" type="line" name="hr00"/>
       <point x="242" y="0" type="line"/>
       <point x="242" y="18" type="line"/>
       <point x="157" y="18" type="line"/>
@@ -12,7 +12,7 @@
       <point x="160" y="674" type="line"/>
       <point x="574" y="0" type="line"/>
       <point x="604" y="0" type="line"/>
-      <point x="604" y="680" type="line" name="hr01"/>
+      <point x="604" y="680" type="line"/>
       <point x="689" y="680" type="line"/>
       <point x="689" y="698" type="line"/>
       <point x="497" y="698" type="line"/>
@@ -24,7 +24,7 @@
       <point x="50" y="698" type="line"/>
       <point x="50" y="680" type="line"/>
       <point x="135" y="680" type="line"/>
-      <point x="135" y="18" type="line" name="hr02"/>
+      <point x="135" y="18" type="line"/>
       <point x="50" y="18" type="line"/>
     </contour>
     <contour>
@@ -58,10 +58,10 @@
       <point x="794" y="366"/>
     </contour>
     <contour>
-      <point x="749" y="286" type="line"/>
-      <point x="1024" y="286" type="line"/>
-      <point x="1024" y="304" type="line"/>
-      <point x="749" y="304" type="line"/>
+      <point x="749" y="284" type="line"/>
+      <point x="1024" y="284" type="line"/>
+      <point x="1024" y="302" type="line"/>
+      <point x="749" y="302" type="line"/>
     </contour>
   </outline>
 </glyph>

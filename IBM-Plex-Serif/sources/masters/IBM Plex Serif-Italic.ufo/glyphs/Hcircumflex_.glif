@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hcircumflex" format="1">
-  <advance width="727"/>
+  <advance width="723"/>
   <unicode hex="0124"/>
   <outline>
     <component base="H"/>
-    <component base="circumflex.case" xOffset="173"/>
+    <component base="circumflex.case" xOffset="172"/>
+    <contour>
+      <point x="297.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

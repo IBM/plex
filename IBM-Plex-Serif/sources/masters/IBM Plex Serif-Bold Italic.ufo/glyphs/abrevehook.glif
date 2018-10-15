@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevehook" format="1">
-  <advance width="603"/>
+  <advance width="592"/>
   <unicode hex="1EB3"/>
   <outline>
     <component base="a"/>
-    <component base="brevehook" xOffset="330"/>
+    <component base="brevehook" xOffset="325"/>
+    <contour>
+      <point x="228.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="455.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

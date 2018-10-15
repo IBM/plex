@@ -3,6 +3,15 @@
   <advance width="475"/>
   <outline>
     <component base="a.alt01"/>
+    <contour>
+      <point x="179.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="325.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="269.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

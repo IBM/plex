@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohook" format="1">
-  <advance width="596"/>
+  <advance width="582"/>
   <unicode hex="1ECF"/>
   <outline>
     <component base="o"/>
-    <component base="hookcomb" xOffset="298"/>
+    <component base="hookcomb" xOffset="291"/>
+    <contour>
+      <point x="291.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

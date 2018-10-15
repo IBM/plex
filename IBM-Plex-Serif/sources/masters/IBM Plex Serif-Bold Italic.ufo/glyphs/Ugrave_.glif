@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ugrave" format="1">
-  <advance width="707"/>
+  <advance width="701"/>
   <unicode hex="00D9"/>
   <outline>
     <component base="U"/>
-    <component base="grave.case" xOffset="206"/>
+    <component base="grave.case" xOffset="198"/>
+    <contour>
+      <point x="316.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="407.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

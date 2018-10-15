@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Cacute" format="1">
-  <advance width="597"/>
+  <advance width="591"/>
   <unicode hex="0106"/>
   <outline>
     <component base="C"/>
-    <component base="acute.case" xOffset="114"/>
+    <component base="acute.case" xOffset="112"/>
+    <contour>
+      <point x="267.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

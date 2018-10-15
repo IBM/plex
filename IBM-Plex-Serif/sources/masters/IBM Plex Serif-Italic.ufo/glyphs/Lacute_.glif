@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lacute" format="1">
-  <advance width="552"/>
+  <advance width="547"/>
   <unicode hex="0139"/>
   <outline>
     <component base="L"/>
-    <component base="acute.case" xOffset="-29"/>
+    <component base="acute.case" xOffset="-32"/>
+    <contour>
+      <point x="225.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="403.0" y="740.0" type="move" name="topright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edotbelow" format="1">
-  <advance width="549"/>
+  <advance width="536"/>
   <unicode hex="1EB9"/>
   <outline>
     <component base="e"/>
-    <component base="dotbelowcomb" xOffset="283"/>
+    <component base="dotbelowcomb" xOffset="277"/>
+    <contour>
+      <point x="355.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="273.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

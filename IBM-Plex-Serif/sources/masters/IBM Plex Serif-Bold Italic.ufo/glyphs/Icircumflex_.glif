@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Icircumflex" format="1">
-  <advance width="352"/>
+  <advance width="343"/>
   <unicode hex="00CE"/>
   <outline>
     <component base="I"/>
-    <component base="circumflex.case" xOffset="-17"/>
+    <component base="circumflex.case" xOffset="-21"/>
+    <contour>
+      <point x="106.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="246.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

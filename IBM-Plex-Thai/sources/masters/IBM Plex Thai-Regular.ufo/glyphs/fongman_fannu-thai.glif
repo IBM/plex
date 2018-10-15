@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fongman_fannu-thai" format="1">
+  <advance width="640"/>
+  <unicode hex="EC09"/>
+  <outline>
+    <component base="fongman-thai"/>
+    <component base="fannu-thai" xOffset="470"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scaron" format="1">
-  <advance width="584"/>
+  <advance width="575"/>
   <unicode hex="0160"/>
   <outline>
     <component base="S"/>
-    <component base="caron.case" xOffset="68"/>
+    <component base="caron.case" xOffset="65"/>
+    <contour>
+      <point x="244.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
