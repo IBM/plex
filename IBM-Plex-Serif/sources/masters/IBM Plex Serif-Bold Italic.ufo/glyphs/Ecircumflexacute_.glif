@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflexacute" format="1">
-  <advance width="609"/>
+  <advance width="604"/>
   <unicode hex="1EBE"/>
   <outline>
     <component base="E"/>
-    <component base="circumflexacute.case" xOffset="412"/>
+    <component base="circumflexacute.case" xOffset="409"/>
+    <contour>
+      <point x="232.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="491.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

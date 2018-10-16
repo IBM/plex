@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Amacron" format="1">
-  <advance width="641"/>
+  <advance width="638"/>
   <unicode hex="0100"/>
   <outline>
     <component base="A"/>
-    <component base="macron.case" xOffset="128"/>
+    <component base="macron.case" xOffset="127"/>
+    <contour>
+      <point x="243.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="563.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

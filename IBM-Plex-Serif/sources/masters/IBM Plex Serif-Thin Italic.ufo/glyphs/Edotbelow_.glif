@@ -4,7 +4,13 @@
   <unicode hex="1EB8"/>
   <outline>
     <component base="E"/>
-    <component base="dotbelowcomb" xOffset="252"/>
+    <component base="dotbelowcomb" xOffset="230"/>
+    <contour>
+      <point x="461.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="404.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lcommaaccent" format="1">
-  <advance width="336"/>
+  <advance width="326"/>
   <unicode hex="013C"/>
   <outline>
     <component base="l"/>
-    <component base="commabelowcomb" xOffset="168"/>
+    <component base="commabelowcomb" xOffset="163"/>
+    <contour>
+      <point x="163.0" y="740.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="273.0" y="758.0" type="move" name="topright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

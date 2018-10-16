@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ydotbelow" format="1">
-  <advance width="456"/>
+  <advance width="453"/>
   <unicode hex="1EF5"/>
   <outline>
     <component base="y"/>
     <component base="dotbelowcomb" xOffset="298"/>
+    <contour>
+      <point x="307.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

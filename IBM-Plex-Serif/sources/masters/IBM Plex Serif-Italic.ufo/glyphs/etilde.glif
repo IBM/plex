@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="etilde" format="1">
-  <advance width="450"/>
+  <advance width="445"/>
   <unicode hex="1EBD"/>
   <outline>
     <component base="e"/>
-    <component base="tilde" xOffset="9"/>
+    <component base="tilde" xOffset="6"/>
+    <contour>
+      <point x="178.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="237.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

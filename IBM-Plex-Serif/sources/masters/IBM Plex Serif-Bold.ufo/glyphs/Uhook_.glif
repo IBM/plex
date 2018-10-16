@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhook" format="1">
-  <advance width="787"/>
+  <advance width="769"/>
   <unicode hex="1EE6"/>
   <outline>
     <component base="U"/>
-    <component base="hookcomb.case" xOffset="441"/>
+    <component base="hookcomb.case" xOffset="429"/>
+    <contour>
+      <point x="409.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="505.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

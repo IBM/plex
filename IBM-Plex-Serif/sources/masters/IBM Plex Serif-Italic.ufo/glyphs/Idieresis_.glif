@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idieresis" format="1">
-  <advance width="320"/>
+  <advance width="314"/>
   <unicode hex="00CF"/>
   <outline>
     <component base="I"/>
-    <component base="dieresis.case" xOffset="-31"/>
+    <component base="dieresis.case" xOffset="-34"/>
+    <contour>
+      <point x="92.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="206.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

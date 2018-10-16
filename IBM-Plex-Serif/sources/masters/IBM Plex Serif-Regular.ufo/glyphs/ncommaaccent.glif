@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ncommaaccent" format="1">
-  <advance width="655"/>
+  <advance width="639"/>
   <unicode hex="0146"/>
   <outline>
     <component base="n"/>
-    <component base="commabelowcomb" xOffset="335"/>
+    <component base="commabelowcomb" xOffset="328"/>
+    <contour>
+      <point x="336.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

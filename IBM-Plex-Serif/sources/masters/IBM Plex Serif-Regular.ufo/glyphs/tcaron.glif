@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcaron" format="1">
-  <advance width="363"/>
+  <advance width="353"/>
   <unicode hex="0165"/>
   <outline>
     <component base="t"/>
-    <component base="caronslovak" xOffset="-49"/>
+    <component base="caronslovak" xOffset="-57"/>
+    <contour>
+      <point x="215.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

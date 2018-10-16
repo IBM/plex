@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="amacron.alt01" format="1">
-  <advance width="540"/>
+  <advance width="531"/>
   <outline>
     <component base="a.alt01"/>
-    <component base="macron" xOffset="1"/>
+    <component base="macron" xOffset="-4"/>
+    <contour>
+      <point x="189.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="398.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

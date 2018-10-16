@@ -224,10 +224,10 @@
 	</array>
 	<key>@MMK_L_cyr_uc_Zecyrillic</key>
 	<array>
-		<string>uni0412</string>
 		<string>uni0417</string>
 		<string>uni0498</string>
 		<string>uni04DE</string>
+		<string>uni0412</string>
 	</array>
 	<key>@MMK_L_inp_colon</key>
 	<array>
@@ -841,9 +841,9 @@
 		<string>uni0473</string>
 		<string>uni04AB</string>
 		<string>uni04D7</string>
-		<string>uni04D9</string>
 		<string>uni04E7</string>
 		<string>uni04E9</string>
+		<string>uni04D9</string>
 	</array>
 	<key>@MMK_R_cyr_lc_shhacyrillic</key>
 	<array>
@@ -852,9 +852,9 @@
 	</array>
 	<key>@MMK_R_cyr_lc_tecyrillic</key>
 	<array>
-		<string>uni0442</string>
 		<string>uni044A</string>
 		<string>uni04A1</string>
+		<string>uni0442</string>
 	</array>
 	<key>@MMK_R_cyr_lc_ucyrillic</key>
 	<array>
@@ -867,9 +867,9 @@
 	<key>@MMK_R_cyr_lc_zecyrilic</key>
 	<array>
 		<string>uni0437</string>
-		<string>uni044D</string>
 		<string>uni0499</string>
 		<string>uni04DF</string>
+		<string>uni044D</string>
 	</array>
 	<key>@MMK_R_cyr_lc_zhecyrillic</key>
 	<array>
@@ -898,11 +898,12 @@
 	</array>
 	<key>@MMK_R_cyr_uc_Encyrillic</key>
 	<array>
+		<string>uni0406</string>
+		<string>uni0407</string>
+		<string>uni04C0</string>
 		<string>uni0400</string>
 		<string>uni0401</string>
 		<string>uni0403</string>
-		<string>uni0406</string>
-		<string>uni0407</string>
 		<string>uni040A</string>
 		<string>uni040C</string>
 		<string>uni040D</string>
@@ -918,6 +919,9 @@
 		<string>uni041D</string>
 		<string>uni041F</string>
 		<string>uni0420</string>
+		<string>uni04D6</string>
+		<string>uni04E2</string>
+		<string>uni04E4</string>
 		<string>uni0426</string>
 		<string>uni0428</string>
 		<string>uni0429</string>
@@ -931,10 +935,6 @@
 		<string>uni04A2</string>
 		<string>uni04A4</string>
 		<string>uni04BA</string>
-		<string>uni04C0</string>
-		<string>uni04D6</string>
-		<string>uni04E2</string>
-		<string>uni04E4</string>
 		<string>uni04F8</string>
 	</array>
 	<key>@MMK_R_cyr_uc_Hardsigncyrillic</key>
@@ -975,9 +975,9 @@
 	<key>@MMK_R_cyr_uc_Zecyrillic</key>
 	<array>
 		<string>uni0417</string>
-		<string>uni042D</string>
 		<string>uni0498</string>
 		<string>uni04DE</string>
+		<string>uni042D</string>
 	</array>
 	<key>@MMK_R_cyr_uc_Zhecyrillic</key>
 	<array>
@@ -1320,7 +1320,6 @@
 		<string>B</string>
 		<string>D</string>
 		<string>Dcaron</string>
-		<string>Dcroat</string>
 		<string>E</string>
 		<string>Eacute</string>
 		<string>Ebreve</string>
@@ -1337,18 +1336,12 @@
 		<string>Egrave</string>
 		<string>Ehook</string>
 		<string>Emacron</string>
-		<string>Eng</string>
 		<string>Eogonek</string>
-		<string>Eth</string>
 		<string>Etilde</string>
 		<string>F</string>
-		<string>Germandbls</string>
 		<string>H</string>
-		<string>Hbar</string>
 		<string>Hcircumflex</string>
 		<string>I</string>
-		<string>IJ</string>
-		<string>IJacute</string>
 		<string>Iacute</string>
 		<string>Ibreve</string>
 		<string>Icircumflex</string>
@@ -1366,20 +1359,27 @@
 		<string>Lacute</string>
 		<string>Lcaron</string>
 		<string>Lcommaaccent</string>
-		<string>Ldot</string>
-		<string>Lslash</string>
 		<string>M</string>
 		<string>N</string>
 		<string>Nacute</string>
 		<string>Ncaron</string>
 		<string>Ncommaaccent</string>
 		<string>Ntilde</string>
+		<string>Dcroat</string>
+		<string>Eng</string>
+		<string>Eth</string>
+		<string>Germandbls</string>
+		<string>Hbar</string>
+		<string>IJ</string>
+		<string>Ldot</string>
+		<string>Lslash</string>
 		<string>P</string>
 		<string>R</string>
 		<string>Racute</string>
 		<string>Rcaron</string>
 		<string>Rcommaaccent</string>
 		<string>Thorn</string>
+		<string>IJacute</string>
 	</array>
 	<key>@MMK_R_uc_j</key>
 	<array>

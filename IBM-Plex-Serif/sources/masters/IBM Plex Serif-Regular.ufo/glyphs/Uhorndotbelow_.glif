@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorndotbelow" format="1">
-  <advance width="751"/>
+  <advance width="733"/>
   <unicode hex="1EF0"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="dotbelowcomb" xOffset="376"/>
+    <component base="dotbelowcomb" xOffset="368"/>
+    <contour>
+      <point x="383.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

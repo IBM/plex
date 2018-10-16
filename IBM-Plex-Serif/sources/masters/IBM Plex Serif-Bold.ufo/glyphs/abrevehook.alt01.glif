@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevehook.alt01" format="1">
-  <advance width="649"/>
+  <advance width="633"/>
   <outline>
     <component base="a.alt01"/>
-    <component base="brevehook" xOffset="314"/>
+    <component base="brevehook" xOffset="304"/>
+    <contour>
+      <point x="296.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="585.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

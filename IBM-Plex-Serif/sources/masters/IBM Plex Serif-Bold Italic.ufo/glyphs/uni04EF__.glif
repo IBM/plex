@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04EF" format="1">
-  <advance width="518"/>
+  <advance width="512"/>
   <unicode hex="04EF"/>
   <outline>
     <component base="y"/>
-    <component base="macron" xOffset="70"/>
+    <component base="macron" xOffset="64"/>
+    <contour>
+      <point x="362.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rcaron" format="1">
-  <advance width="489"/>
+  <advance width="480"/>
   <unicode hex="0159"/>
   <outline>
     <component base="r"/>
-    <component base="caron" xOffset="-2"/>
+    <component base="caron" xOffset="-5"/>
+    <contour>
+      <point x="92.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

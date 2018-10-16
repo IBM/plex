@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJacute" format="1">
-  <advance width="923"/>
+  <advance width="898"/>
   <outline>
     <component base="I"/>
-    <component base="acute.case" xOffset="-102"/>
-    <component base="J" xOffset="394"/>
-    <component base="acute.case" xOffset="430"/>
+    <component base="acute.case" xOffset="-108"/>
+    <component base="J" xOffset="384"/>
+    <component base="acute.case" xOffset="407"/>
+    <contour>
+      <point x="192.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="343.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

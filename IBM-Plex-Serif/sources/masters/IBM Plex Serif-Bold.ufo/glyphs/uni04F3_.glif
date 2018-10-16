@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04F3" format="1">
-  <advance width="591"/>
+  <advance width="571"/>
   <unicode hex="04F3"/>
   <outline>
     <component base="y"/>
-    <component base="hungarumlaut" xOffset="41"/>
+    <component base="hungarumlaut" xOffset="27"/>
+    <contour>
+      <point x="397.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

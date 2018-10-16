@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevedotbelow.alt01" format="1">
-  <advance width="649"/>
+  <advance width="633"/>
   <outline>
     <component base="a.alt01"/>
-    <component base="breve" xOffset="14"/>
-    <component base="dotbelowcomb" xOffset="304"/>
+    <component base="breve" xOffset="4"/>
+    <component base="dotbelowcomb" xOffset="296"/>
+    <contour>
+      <point x="585.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

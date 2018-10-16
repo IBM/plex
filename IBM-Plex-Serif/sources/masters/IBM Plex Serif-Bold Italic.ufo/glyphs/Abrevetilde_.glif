@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Abrevetilde" format="1">
-  <advance width="665"/>
+  <advance width="663"/>
   <unicode hex="1EB4"/>
   <outline>
     <component base="A"/>
     <component base="brevetilde.case" xOffset="438"/>
+    <contour>
+      <point x="234.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="588.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

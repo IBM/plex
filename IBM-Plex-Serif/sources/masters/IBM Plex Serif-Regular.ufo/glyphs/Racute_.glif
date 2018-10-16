@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Racute" format="1">
-  <advance width="688"/>
+  <advance width="672"/>
   <unicode hex="0154"/>
   <outline>
     <component base="R"/>
-    <component base="acute.case" xOffset="15"/>
+    <component base="acute.case" xOffset="10"/>
+    <contour>
+      <point x="381.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

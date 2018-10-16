@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Jcircumflex" format="1">
-  <advance width="441"/>
+  <advance width="436"/>
   <unicode hex="0134"/>
   <outline>
     <component base="J"/>
-    <component base="circumflex.case" xOffset="90"/>
+    <component base="circumflex.case" xOffset="87"/>
+    <contour>
+      <point x="107.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

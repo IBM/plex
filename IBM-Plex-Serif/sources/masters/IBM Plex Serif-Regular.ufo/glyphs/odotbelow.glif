@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="odotbelow" format="1">
-  <advance width="578"/>
+  <advance width="564"/>
   <unicode hex="1ECD"/>
   <outline>
     <component base="o"/>
-    <component base="dotbelowcomb" xOffset="289"/>
+    <component base="dotbelowcomb" xOffset="282"/>
+    <contour>
+      <point x="282.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

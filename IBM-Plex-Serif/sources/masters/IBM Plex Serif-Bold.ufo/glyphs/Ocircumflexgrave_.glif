@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflexgrave" format="1">
-  <advance width="778"/>
+  <advance width="760"/>
   <unicode hex="1ED2"/>
   <outline>
     <component base="O"/>
-    <component base="circumflexgrave.case" xOffset="389"/>
+    <component base="circumflexgrave.case" xOffset="380"/>
+    <contour>
+      <point x="380.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

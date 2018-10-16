@@ -4,7 +4,10 @@
   <unicode hex="1EEC"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="hookcomb.case" xOffset="501"/>
+    <component base="hookcomb.case" xOffset="494"/>
+    <contour>
+      <point x="317.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acircumflexhook" format="1">
-  <advance width="558"/>
+  <advance width="546"/>
   <unicode hex="1EA9"/>
   <outline>
     <component base="a"/>
-    <component base="circumflexhook" xOffset="272"/>
+    <component base="circumflexhook" xOffset="264"/>
+    <contour>
+      <point x="244.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="497.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

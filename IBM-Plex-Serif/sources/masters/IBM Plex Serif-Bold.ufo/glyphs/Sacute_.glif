@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Sacute" format="1">
-  <advance width="646"/>
+  <advance width="629"/>
   <unicode hex="015A"/>
   <outline>
     <component base="S"/>
-    <component base="acute.case" xOffset="5"/>
+    <component base="acute.case" xOffset="-4"/>
+    <contour>
+      <point x="319.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

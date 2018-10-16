@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0400" format="1">
-  <advance width="672"/>
+  <advance width="658"/>
   <unicode hex="0400"/>
   <outline>
     <component base="E"/>
-    <component base="grave.case" xOffset="51"/>
+    <component base="grave.case" xOffset="40"/>
+    <contour>
+      <point x="340.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="606.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

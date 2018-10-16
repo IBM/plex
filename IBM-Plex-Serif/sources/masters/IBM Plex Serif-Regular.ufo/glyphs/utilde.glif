@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="utilde" format="1">
-  <advance width="635"/>
+  <advance width="619"/>
   <unicode hex="0169"/>
   <outline>
     <component base="u"/>
-    <component base="tilde" xOffset="7"/>
+    <component base="tilde" xOffset="-1"/>
+    <contour>
+      <point x="307.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="585.0" y="18.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

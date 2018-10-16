@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ebreve" format="1">
-  <advance width="450"/>
+  <advance width="445"/>
   <unicode hex="0115"/>
   <outline>
     <component base="e"/>
-    <component base="breve" xOffset="9"/>
+    <component base="breve" xOffset="6"/>
+    <contour>
+      <point x="178.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="237.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

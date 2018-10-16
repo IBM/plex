@@ -1,8 +1,6 @@
 # Changelog for IBM Plex
 All notable changes to the IBM Plex typeface family will be documented in this file.
 
-
-
 ## [Unreleased]
 - IBM Plex Sans Thai
 - IBM Plex Sans Devanagari
@@ -12,8 +10,36 @@ All notable changes to the IBM Plex typeface family will be documented in this f
 - [IBM Plex Sans Condensed] Bug that prevents OTF versions of certain members to be installed on Windows
   Referenced in [issue 161](https://github.com/IBM/plex/issues/161)
 - [IBM Plex Sans Condensed] Addition of glyphs /currency /prime /primedbl
-- [IBM Plex Serif] Addition of glyphs /currency /prime /primedbl
 
+
+## [IBM PLEX THAI V1.0] - 2018-09-06
+### Added
+- Support for Thai (158 glyphs per font)
+
+
+## [IBM PLEX SERIF V2.5] - 2018-09-05
+### Added
+- Glyph /currency (0x00A4)
+- Glyph /prime (0x2032)
+  Referenced in [issue 145](https://github.com/IBM/plex/issues/145)
+- Glyph /primedbl (0x2033)
+  Referenced in [issue 145](https://github.com/IBM/plex/issues/145)
+- meta table to all generated otf and ttf font files
+
+### Changed
+- Width of all glyphs is now 98% of original width to improve pairing with IBM Plex Sans
+- Weight of all glyphs has been reduced slightly to improve pairing with IBM Plex Sans
+- All ascenders have been made 10 units less tall
+- OpenType layout feature "mark" includes support for combining mark positioning on Cyrillic vowels
+  Referenced in [issue 155](https://github.com/IBM/plex/issues/155)
+- Glyph /gcommaaccent (0x0123) uses /g.alt02 now (instead of /g)
+- Glyph /gdotaccent (0x0121) uses /g.alt02 now (instead of /g)
+- Synchronised vertical metrics settings between hhea and OS/2 table
+- Glyph /ibmlogo07 updated to new version
+
+### Fixed
+- Errors in PS hint replacement in all files containing PostScript outlines
+- Error in OpenType feature "zero"
 
 
 ## [IBM PLEX SANS HEBREW V1.1] - 2018-06-15
