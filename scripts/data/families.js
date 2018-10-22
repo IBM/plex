@@ -22,8 +22,8 @@ const families = [
     unicodes: [],
   },
   {
-    type: 'Sans Thai',
-    name: 'IBM Plex Sans Thai',
+    type: 'Thai',
+    name: 'IBM Plex Thai',
     unicodes: [],
   },
   {
