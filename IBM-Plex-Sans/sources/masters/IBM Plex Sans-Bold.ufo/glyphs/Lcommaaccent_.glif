@@ -5,6 +5,12 @@
   <outline>
     <component base="L"/>
     <component base="commabelowcomb" xOffset="286"/>
+    <contour>
+      <point x="153.0" y="698.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="301.0" y="740.0" type="move" name="topright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

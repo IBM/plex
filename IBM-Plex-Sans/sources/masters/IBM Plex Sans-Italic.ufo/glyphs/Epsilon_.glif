@@ -4,6 +4,18 @@
   <unicode hex="0395"/>
   <outline>
     <component base="E"/>
+    <contour>
+      <point x="252.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="467.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="376.0" y="698.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="40.0" y="540.0" type="move" name="topleft"/>
+    </contour>
   </outline>
   <lib>
     <dict>

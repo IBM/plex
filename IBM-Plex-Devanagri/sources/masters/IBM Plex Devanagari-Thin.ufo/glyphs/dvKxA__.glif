@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvKxA" format="1">
+  <advance width="857"/>
+  <unicode hex="0958"/>
+  <outline>
+    <component base="dvKA"/>
+    <component base="dvNukta"/>
+    <contour>
+      <point x="444.0" y="0.0" type="move" name="bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="433.0" y="696.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="444.0" y="696.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -4,6 +4,15 @@
   <unicode hex="0430"/>
   <outline>
     <component base="a"/>
+    <contour>
+      <point x="254.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="523.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="333.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

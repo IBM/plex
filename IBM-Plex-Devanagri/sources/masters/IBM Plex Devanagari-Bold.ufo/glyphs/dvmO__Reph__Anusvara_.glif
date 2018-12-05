@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmO_Reph_Anusvara" format="1">
+  <advance width="312"/>
+  <outline>
+    <contour>
+      <point x="97" y="0" type="line"/>
+      <point x="234" y="0" type="line"/>
+      <point x="234" y="594" type="line"/>
+      <point x="351" y="594" type="line"/>
+      <point x="351" y="698" type="line"/>
+      <point x="234" y="698" type="line"/>
+      <point x="234" y="848" type="line" smooth="yes"/>
+      <point x="234" y="907"/>
+      <point x="255" y="942"/>
+      <point x="321" y="942" type="curve" smooth="yes"/>
+      <point x="378" y="942" type="line"/>
+      <point x="378" y="1042" type="line"/>
+      <point x="311" y="1042" type="line" smooth="yes"/>
+      <point x="209" y="1042"/>
+      <point x="160" y="982"/>
+      <point x="160" y="884" type="curve"/>
+      <point x="160" y="801" type="line"/>
+      <point x="152" y="799" type="line"/>
+      <point x="96" y="895" type="line" smooth="yes"/>
+      <point x="66" y="947"/>
+      <point x="41" y="968"/>
+      <point x="-31" y="968" type="curve" smooth="yes" name="hr01"/>
+      <point x="-140" y="968" type="line"/>
+      <point x="-140" y="843" type="line"/>
+      <point x="-6" y="843" type="line"/>
+      <point x="87" y="720" type="line"/>
+      <point x="102" y="698" type="line"/>
+      <point x="-20" y="698" type="line"/>
+      <point x="-20" y="594" type="line"/>
+      <point x="97" y="594" type="line"/>
+    </contour>
+    <contour>
+      <point x="363" y="750" type="curve" smooth="yes" name="hr02"/>
+      <point x="412" y="750"/>
+      <point x="432" y="772"/>
+      <point x="432" y="809" type="curve" smooth="yes"/>
+      <point x="432" y="827" type="line" smooth="yes"/>
+      <point x="432" y="863"/>
+      <point x="415" y="888"/>
+      <point x="363" y="888" type="curve" smooth="yes"/>
+      <point x="313" y="888"/>
+      <point x="296" y="863"/>
+      <point x="296" y="827" type="curve" smooth="yes"/>
+      <point x="296" y="810" type="line" smooth="yes"/>
+      <point x="296" y="775"/>
+      <point x="317" y="750"/>
+    </contour>
+    <contour>
+      <point x="164.0" y="688.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="234.0" y="688.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+</glyph>

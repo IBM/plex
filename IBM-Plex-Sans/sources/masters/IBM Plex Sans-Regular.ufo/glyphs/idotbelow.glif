@@ -5,6 +5,9 @@
   <outline>
     <component base="i"/>
     <component base="dotbelowcomb" xOffset="125"/>
+    <contour>
+      <point x="165.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
