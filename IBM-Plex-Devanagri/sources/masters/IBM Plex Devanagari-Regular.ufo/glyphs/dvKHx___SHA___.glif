@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvKHx_SHA" format="1">
+  <advance width="1436"/>
+  <outline>
+    <component base="dvKH_SHA"/>
+    <component base="dvNukta" xOffset="5" yOffset="-33"/>
+    <contour>
+      <point x="1318.0" y="0.0" type="move" name="bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="1127.0" y="688.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="1318.0" y="688.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

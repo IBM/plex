@@ -5,6 +5,9 @@
   <outline>
     <component base="W"/>
     <component base="grave.case" xOffset="264"/>
+    <contour>
+      <point x="420.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

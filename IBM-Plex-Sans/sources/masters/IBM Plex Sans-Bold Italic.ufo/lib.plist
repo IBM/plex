@@ -15,6 +15,7 @@
 	</array>
 	<key>public.glyphOrder</key>
 	<array>
+		<string>.notdef</string>
 		<string>a</string>
 		<string>a.alt01</string>
 		<string>b</string>
@@ -97,8 +98,6 @@
 		<string>questiongreek</string>
 		<string>quotesingle</string>
 		<string>quotedbl</string>
-		<string>prime</string>
-		<string>primedbl</string>
 		<string>quoteleft</string>
 		<string>quoteright</string>
 		<string>quotedblleft</string>
@@ -134,6 +133,8 @@
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
 		<string>degree</string>
+		<string>prime</string>
+		<string>primedbl</string>
 		<string>asterisk</string>
 		<string>dagger</string>
 		<string>daggerdbl</string>
@@ -946,10 +947,8 @@
 		<string>circumflextilde.case</string>
 		<string>space</string>
 		<string>nbspace</string>
-		<string>ibmlogo07</string>
 		<string>fcclogo</string>
 		<string>celogo</string>
-		<string>.notdef</string>
 	</array>
 </dict>
 </plist>

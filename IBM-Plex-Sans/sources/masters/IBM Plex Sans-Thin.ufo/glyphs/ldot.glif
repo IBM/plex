@@ -5,6 +5,12 @@
   <outline>
     <component base="l"/>
     <component base="dotaccent" xOffset="-50" yOffset="-403"/>
+    <contour>
+      <point x="162.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="220.0" y="740.0" type="move" name="topright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

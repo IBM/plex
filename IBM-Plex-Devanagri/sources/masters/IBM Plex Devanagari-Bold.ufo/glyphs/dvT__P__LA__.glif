@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvT_P_LA" format="1">
+  <advance width="1525"/>
+  <outline>
+    <contour>
+      <point x="1293" y="0" type="line"/>
+      <point x="1430" y="0" type="line"/>
+      <point x="1430" y="594" type="line"/>
+      <point x="1545" y="594" type="line"/>
+      <point x="1545" y="698" type="line"/>
+      <point x="-20" y="698" type="line"/>
+      <point x="-20" y="594" type="line"/>
+      <point x="381" y="594" type="line"/>
+      <point x="381" y="492" type="line"/>
+      <point x="272" y="492" type="line" smooth="yes"/>
+      <point x="129" y="492"/>
+      <point x="42" y="417"/>
+      <point x="42" y="256" type="curve" smooth="yes"/>
+      <point x="42" y="141"/>
+      <point x="92" y="58"/>
+      <point x="177" y="-14" type="curve"/>
+      <point x="271" y="66" type="line"/>
+      <point x="205" y="130"/>
+      <point x="183" y="173"/>
+      <point x="183" y="233" type="curve" smooth="yes"/>
+      <point x="183" y="255" type="line" smooth="yes"/>
+      <point x="183" y="334"/>
+      <point x="224" y="373"/>
+      <point x="295" y="373" type="curve" smooth="yes"/>
+      <point x="384" y="373" type="line"/>
+      <point x="398" y="250"/>
+      <point x="467" y="194"/>
+      <point x="583" y="194" type="curve" smooth="yes"/>
+      <point x="649" y="194"/>
+      <point x="688" y="209"/>
+      <point x="718" y="235" type="curve"/>
+      <point x="721" y="234" type="line"/>
+      <point x="721" y="213" type="line" smooth="yes"/>
+      <point x="721" y="97"/>
+      <point x="811" y="7"/>
+      <point x="964" y="-12" type="curve"/>
+      <point x="989" y="96" type="line"/>
+      <point x="883" y="119"/>
+      <point x="848" y="158"/>
+      <point x="848" y="241" type="curve" smooth="yes"/>
+      <point x="848" y="282" type="line" smooth="yes"/>
+      <point x="848" y="348"/>
+      <point x="873" y="380"/>
+      <point x="926" y="380" type="curve" smooth="yes" name="hr01"/>
+      <point x="979" y="380"/>
+      <point x="1004" y="348"/>
+      <point x="1004" y="282" type="curve" smooth="yes"/>
+      <point x="1004" y="176" type="line"/>
+      <point x="1135" y="176" type="line"/>
+      <point x="1135" y="286" type="line" smooth="yes"/>
+      <point x="1135" y="350"/>
+      <point x="1161" y="380"/>
+      <point x="1214" y="380" type="curve" smooth="yes"/>
+      <point x="1267" y="380"/>
+      <point x="1293" y="350"/>
+      <point x="1293" y="286" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="607" y="316" type="curve" smooth="yes"/>
+      <point x="551" y="316"/>
+      <point x="518" y="348"/>
+      <point x="518" y="425" type="curve" smooth="yes"/>
+      <point x="518" y="594" type="line"/>
+      <point x="1293" y="594" type="line"/>
+      <point x="1293" y="543" type="line"/>
+      <point x="1296" y="467" type="line"/>
+      <point x="1291" y="467" type="line"/>
+      <point x="1268" y="488"/>
+      <point x="1243" y="500"/>
+      <point x="1201" y="500" type="curve" smooth="yes"/>
+      <point x="1142" y="500"/>
+      <point x="1090" y="462"/>
+      <point x="1073" y="373" type="curve" name="hr02"/>
+      <point x="1069" y="373" type="line"/>
+      <point x="1050" y="461"/>
+      <point x="992" y="504"/>
+      <point x="902" y="504" type="curve" smooth="yes" name="hr03"/>
+      <point x="824" y="504"/>
+      <point x="773" y="464"/>
+      <point x="737" y="397" type="curve" smooth="yes"/>
+      <point x="710" y="347"/>
+      <point x="664" y="316"/>
+    </contour>
+    <contour>
+      <point x="1430.0" y="0.0" type="move" name="bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="1120.0" y="688.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="1430.0" y="688.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+</glyph>

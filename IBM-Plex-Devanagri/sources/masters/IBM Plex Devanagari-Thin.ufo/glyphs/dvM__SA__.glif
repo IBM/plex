@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvM_SA" format="1">
+  <advance width="1067"/>
+  <outline>
+    <contour>
+      <point x="665" y="-2" type="line"/>
+      <point x="681" y="10" type="line"/>
+      <point x="534" y="239" type="line"/>
+      <point x="471" y="335" type="line"/>
+      <point x="471" y="337" type="line"/>
+      <point x="902" y="337" type="line"/>
+      <point x="902" y="0" type="line"/>
+      <point x="923" y="0" type="line"/>
+      <point x="923" y="679" type="line"/>
+      <point x="1087" y="679" type="line"/>
+      <point x="1087" y="698" type="line"/>
+      <point x="-20" y="698" type="line"/>
+      <point x="-20" y="679" type="line"/>
+      <point x="157" y="679" type="line"/>
+      <point x="157" y="356" type="line"/>
+      <point x="141" y="354"/>
+      <point x="132" y="342"/>
+      <point x="132" y="324" type="curve" smooth="yes"/>
+      <point x="132" y="305"/>
+      <point x="141" y="291"/>
+      <point x="162" y="291" type="curve" smooth="yes"/>
+      <point x="168" y="291"/>
+      <point x="174" y="292"/>
+      <point x="178" y="294" type="curve"/>
+      <point x="178" y="338" type="line" name="hr01"/>
+      <point x="446" y="338" type="line"/>
+    </contour>
+    <contour>
+      <point x="619" y="511" type="line" smooth="yes"/>
+      <point x="619" y="405"/>
+      <point x="555" y="357"/>
+      <point x="447" y="357" type="curve" smooth="yes"/>
+      <point x="178" y="357" type="line"/>
+      <point x="178" y="679" type="line"/>
+      <point x="619" y="679" type="line"/>
+    </contour>
+    <contour>
+      <point x="540" y="356" type="line" name="hr02"/>
+      <point x="597" y="375"/>
+      <point x="640" y="420"/>
+      <point x="640" y="516" type="curve" smooth="yes"/>
+      <point x="640" y="679" type="line"/>
+      <point x="902" y="679" type="line"/>
+      <point x="902" y="356" type="line"/>
+      <point x="662" y="356" type="line"/>
+      <point x="540" y="355" type="line"/>
+    </contour>
+    <contour>
+      <point x="923.0" y="0.0" type="move" name="bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="776.0" y="696.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="923.0" y="696.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+</glyph>

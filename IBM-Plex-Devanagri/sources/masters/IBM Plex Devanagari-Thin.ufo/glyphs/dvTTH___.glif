@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvTTH" format="1">
+  <advance width="622"/>
+  <outline>
+    <component base="dvTTHA"/>
+    <component base="dvVirama" xOffset="476" yOffset="33"/>
+    <contour>
+      <point x="332.0" y="33.0" type="move" name="_bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="332.0" y="33.0" type="move" name="bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="349.0" y="696.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="359.0" y="696.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

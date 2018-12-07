@@ -5,6 +5,12 @@
   <outline>
     <component base="U"/>
     <component base="ring.case" xOffset="37"/>
+    <contour>
+      <point x="337.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="436.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

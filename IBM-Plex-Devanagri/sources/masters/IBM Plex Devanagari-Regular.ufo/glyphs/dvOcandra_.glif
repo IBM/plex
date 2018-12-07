@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvOcandra" format="1">
+  <advance width="1148"/>
+  <unicode hex="0911"/>
+  <outline>
+    <component base="dvAA"/>
+    <component base="dvmEcandra" xOffset="1136"/>
+    <contour>
+      <point x="840.0" y="688.0" type="move" name="_center_deva"/>
+    </contour>
+    <contour>
+      <point x="866.0" y="688.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="879.0" y="767.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
