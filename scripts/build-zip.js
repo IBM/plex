@@ -131,9 +131,9 @@ const compressAll = () => {
   s += zip('TrueType');
   s += zip('Web');
 
-  const fileName = branch.sync();
-  s += zip(`Source\\ Code/${fileName}`);
-  s += tar(`Source\\ Code/${fileName}`);
+  // const fileName = branch.sync();
+  // s += zip(`Source\\ Code/${fileName}`);
+  // s += tar(`Source\\ Code/${fileName}`);
 
   console.log('########################### \n');
   console.log('Run this to generate zip files for git release \n');
@@ -147,6 +147,6 @@ writeZip('TrueType', globDirectory('ttf'));
 
 writeWebFiles();
 
-writeSourceFiles();
+// writeSourceFiles();
 
 compressAll();
