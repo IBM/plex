@@ -120,7 +120,7 @@ const zip = target => {
 const tar = target => {
   const f = target;
   DBUG && console.log(` Taring ${f}`);
-  return `tar -zcf ${f}.tar.gz ${f}\n`;
+  return `tar -zcf ${f}.tar.gz ${f} >/dev/null 2>&1 \n`;
 };
 
 const compressAll = () => {
