@@ -136,7 +136,7 @@ const compressAll = () => {
   s += tar(`Source\\ Code/${fileName}`);
 
   console.log('########################### \n');
-  console.log('Run this \n');
+  console.log('Run this to generate zip files for git release \n');
   console.log('cd zip');
   console.log(s);
 };
