@@ -6,6 +6,9 @@
     <component base="A"/>
     <component base="breve.case" xOffset="69"/>
     <component base="dotbelowcomb" xOffset="252"/>
+    <contour>
+      <point x="519.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

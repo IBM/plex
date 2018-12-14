@@ -5,6 +5,12 @@
   <outline>
     <component base="e"/>
     <component base="grave" xOffset="-32"/>
+    <contour>
+      <point x="272.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="351.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

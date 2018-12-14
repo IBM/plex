@@ -5,6 +5,15 @@
   <outline>
     <component base="H" xOffset="22"/>
     <component base="tonos.case" xOffset="-302"/>
+    <contour>
+      <point x="44.0" y="540.0" type="move" name="_topleft"/>
+    </contour>
+    <contour>
+      <point x="311.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="451.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

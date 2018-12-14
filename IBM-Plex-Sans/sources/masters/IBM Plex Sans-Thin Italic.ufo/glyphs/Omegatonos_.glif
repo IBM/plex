@@ -5,6 +5,9 @@
   <outline>
     <component base="Omega" xOffset="8"/>
     <component base="tonos.case" xOffset="-302"/>
+    <contour>
+      <point x="44.0" y="540.0" type="move" name="_topleft"/>
+    </contour>
   </outline>
   <lib>
     <dict>

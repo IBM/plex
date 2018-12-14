@@ -5,6 +5,9 @@
   <outline>
     <component base="T"/>
     <component base="caron.case" xOffset="-14"/>
+    <contour>
+      <point x="286.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

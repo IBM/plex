@@ -5,6 +5,9 @@
     <component base="a.alt01"/>
     <component base="breve" xOffset="15"/>
     <component base="dotbelowcomb" xOffset="291"/>
+    <contour>
+      <point x="540.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

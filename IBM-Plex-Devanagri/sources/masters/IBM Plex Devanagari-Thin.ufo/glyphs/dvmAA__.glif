@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmAA" format="1">
+  <advance width="309"/>
+  <unicode hex="093E"/>
+  <outline>
+    <contour>
+      <point x="144" y="0" type="line" name="hr00"/>
+      <point x="165" y="0" type="line"/>
+      <point x="165" y="679" type="line"/>
+      <point x="329" y="679" type="line"/>
+      <point x="329" y="698" type="line"/>
+      <point x="-20" y="698" type="line"/>
+      <point x="-20" y="679" type="line"/>
+      <point x="144" y="679" type="line"/>
+    </contour>
+    <contour>
+      <point x="155.0" y="696.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="165.0" y="696.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+</glyph>

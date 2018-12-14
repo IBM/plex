@@ -6,6 +6,12 @@
     <component base="acute" xOffset="-111"/>
     <component base="acute" xOffset="172"/>
     <component base="dotlessi"/>
+    <contour>
+      <point x="125.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="213.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

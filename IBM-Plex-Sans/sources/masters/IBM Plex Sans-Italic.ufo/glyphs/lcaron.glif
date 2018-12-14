@@ -5,6 +5,12 @@
   <outline>
     <component base="l"/>
     <component base="caronslovak" xOffset="35"/>
+    <contour>
+      <point x="116.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="223.0" y="740.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

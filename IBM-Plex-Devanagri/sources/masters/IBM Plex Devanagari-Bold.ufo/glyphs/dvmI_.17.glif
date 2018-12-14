@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmI.17" format="1">
+  <advance width="331"/>
+  <outline>
+    <contour>
+      <point x="97" y="0" type="line" name="hr00"/>
+      <point x="234" y="0" type="line"/>
+      <point x="234" y="594" type="line"/>
+      <point x="351" y="594" type="line"/>
+      <point x="351" y="698" type="line"/>
+      <point x="234" y="698" type="line"/>
+      <point x="234" y="716" type="line" smooth="yes"/>
+      <point x="234" y="778"/>
+      <point x="331" y="867"/>
+      <point x="687" y="867" type="curve" smooth="yes"/>
+      <point x="984" y="867"/>
+      <point x="1243" y="818"/>
+      <point x="1455" y="735" type="curve"/>
+      <point x="1481" y="841" type="line"/>
+      <point x="1255" y="926"/>
+      <point x="1008" y="983"/>
+      <point x="677" y="983" type="curve" smooth="yes"/>
+      <point x="234" y="983"/>
+      <point x="98" y="853"/>
+      <point x="98" y="725" type="curve" smooth="yes"/>
+      <point x="98" y="698" type="line"/>
+      <point x="-20" y="698" type="line"/>
+      <point x="-20" y="594" type="line"/>
+      <point x="97" y="594" type="line"/>
+    </contour>
+    <contour>
+      <point x="164.0" y="688.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="234.0" y="688.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+</glyph>

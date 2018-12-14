@@ -110,6 +110,10 @@ const unicodes = [
     type: 'Greek',
     characters: ['U+0384-038A', 'U+038C', 'U+038E-03A1', 'U+03A3-03CE'],
   },
+  {
+    type: 'Devanagari',
+    characters: ['U+0900–097F'],
+  },
 ];
 
 module.exports = unicodes;
