@@ -23,8 +23,8 @@ const families = [
     unicodes: [],
   },
   {
-    type: 'Sans Devanagari',
-    name: 'IBM Plex Sans Devanagari',
+    type: 'Devanagari',
+    name: 'IBM Plex Devanagari',
     hasItalic: false,
     unicodes: [],
   },
