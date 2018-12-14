@@ -12,7 +12,7 @@ const execFile = require('child_process').execFile;
 const exec = require('child_process').exec;
 const archiver = require('archiver');
 
-const DBUG = true;
+const DBUG = false;
 const OUTPUT_DIRECTORY = path.resolve(__dirname, '../zip');
 
 const getFontDirectories = () => {
@@ -135,7 +135,8 @@ const compressAll = () => {
   // s += zip(`Source\\ Code/${fileName}`);
   // s += tar(`Source\\ Code/${fileName}`);
 
-  console.log('########################### \n');
+  DBUG && console.log('\n###########################\n');
+
   console.log('Run this to generate zip files for git release \n');
   console.log('cd zip');
   console.log(s);
