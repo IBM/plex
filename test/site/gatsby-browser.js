@@ -4,5 +4,6 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
-import './../../css/ibm-plex.css'
+// Test each one here
+import './../../scss/ibm-plex.scss'
+// import './../../css/ibm-plex.css'
