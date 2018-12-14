@@ -3,18 +3,18 @@
  * need for each font family, supported weight, and unicode range.
  */
 
-"use strict";
+'use strict';
 
-const fs = require("fs-extra");
-const path = require("path");
-const rimraf = require("rimraf");
+const fs = require('fs-extra');
+const path = require('path');
+const rimraf = require('rimraf');
 
-const families = require("./data/families");
-const { formatFilename, createFontFace } = require("./tools");
-const unicodes = require("./data/unicodes");
-const weights = require("./data/weights");
+const families = require('./data/families');
+const { formatFilename, createFontFace } = require('./tools');
+const unicodes = require('./data/unicodes');
+const weights = require('./data/weights');
 
-const OUTPUT_DIRECTORY = path.resolve(__dirname, "../scss");
+const OUTPUT_DIRECTORY = path.resolve(__dirname, '../scss');
 
 /**
  * The general flow for this is to iterate through families, weights, and
@@ -38,23 +38,30 @@ const filesToWrite = families
               family.type,
               weight.type,
               weight.variant,
-              `_${unicode.type}.scss`
+              `_${unicode.type}.scss`,
             ]);
-
+            if (family.hasItalic === false && weight.variant === 'Italic')
+              return null;
             return {
-              filename: `${OUTPUT_DIRECTORY}/${filename.replace(" ", "-")}`,
+              filename: `${OUTPUT_DIRECTORY}/${filename.replace(' ', '-')}`,
               content: createFontFace(filename, family, weight, unicode),
-              unicode
+              unicode,
             };
-          });
-
+          })
+          .filter(Boolean);
+        // console.log(innerFiles)
         // Create a helpful `_index.scss` partial that imports all of the
         // unicode files that were generated above.
+
+        // Ignore italic fonts if flag present
+        if (family.hasItalic === false && weight.variant === 'Italic')
+          return null;
+
         const filename = formatFilename([
           family.type,
           weight.type,
           weight.variant,
-          "_index.scss"
+          '_index.scss',
         ]);
 
         const order = {
@@ -62,7 +69,7 @@ const filesToWrite = families
           Pi: 2,
           Latin3: 3,
           Latin2: 4,
-          Latin1: 5
+          Latin1: 5,
         };
         const contentSplit = innerFiles
           .sort((a, b) => order[a.unicode.type] - order[b.unicode.type])
@@ -71,7 +78,7 @@ const filesToWrite = families
             const importPath = formatFilename([unicode.type]);
             return `@import '${importPath}';`;
           })
-          .join("\n");
+          .join('\n');
         const contentWhole = createFontFace(filename, family, weight);
 
         // We spread all the inner files, since they are valid files that we'll
@@ -82,12 +89,11 @@ const filesToWrite = families
         return [
           ...innerFiles,
           {
-            filename: `${OUTPUT_DIRECTORY}/${filename.replace(" ", "-")}`,
-            content: `$font-prefix: '..' !default;
-${contentWhole}
-${contentSplit}`,
-            weight
-          }
+            hasItalic: family.hasItalic,
+            filename: `${OUTPUT_DIRECTORY}/${filename.replace(' ', '-')}`,
+            content: `$font-prefix: '..' !default;\n${contentWhole}\n${contentSplit}`,
+            weight,
+          },
         ];
       })
       .filter(Boolean)
@@ -95,22 +101,30 @@ ${contentSplit}`,
 
     // Here we'll generate a `_index.scss` partial for a specific font family
     // that includes all the various weight files generated for the font-family.
-    const filename = `${OUTPUT_DIRECTORY}/${family.type.replace(" ", "-")}/_index.scss`;
+    const filename = `${OUTPUT_DIRECTORY}/${family.type.replace(
+      ' ',
+      '-'
+    )}/_index.scss`;
     const content = files
       .filter(file => file.weight)
+      .filter(file => {
+        // Ignore italic fonts if flag present
+        if (file.hasItalic === false && file.weight.type === 'Italic')
+          return false;
+        return true;
+      })
       .map(({ weight }) => {
         const importPath = formatFilename([weight.type, weight.variant]);
         return `@import '${importPath}/index';`;
       })
-      .join("\n");
+      .join('\n');
 
     return [
       ...files,
       {
         filename,
-        content: `$font-prefix: '..' !default;
-${content}`
-      }
+        content: `$font-prefix: '..' !default;\n${content}`,
+      },
     ];
   })
   .reduce((acc, array) => acc.concat(array));
@@ -126,16 +140,15 @@ families.forEach(family => {
 
 // Write all the files that we created above
 filesToWrite.forEach(({ filename, content }) => {
-  fs.outputFileSync(filename, content, "utf8");
+  fs.outputFileSync(filename, content, 'utf8');
 });
 
 // Create partial for all families
-const rootPartial = `
-$font-prefix: '..' !default;
+const rootPartial = `\n$font-prefix: '..' !default;
 
 ${families
   .map(
-    family => `@import '${family.type.replace(" ", "-").toLowerCase()}/index';`
+    family => `@import '${family.type.replace(' ', '-').toLowerCase()}/index';`
   )
-  .join("\n")}`;
-fs.outputFileSync(`${OUTPUT_DIRECTORY}/ibm-plex.scss`, rootPartial, "utf8");
+  .join('\n')}`;
+fs.outputFileSync(`${OUTPUT_DIRECTORY}/ibm-plex.scss`, rootPartial, 'utf8');

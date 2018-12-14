@@ -19,11 +19,13 @@ const families = [
   {
     type: 'Sans Hebrew',
     name: 'IBM Plex Sans Hebrew',
+    hasItalic: false,
     unicodes: [],
   },
   {
     type: 'Thai',
     name: 'IBM Plex Thai',
+    hasItalic: false,
     unicodes: [],
   },
   {
