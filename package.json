@@ -11,7 +11,7 @@
     "url": "https://github.com/ibm/plex/issues"
   },
   "scripts": {
-    "build": "npm run build:scss && npm run build:css && npm run build:zip",
+    "build": "npm run build:scss && npm run build:css",
     "build:zip": "node scripts/build-zip.js",
     "build:css": "node-sass scss/ibm-plex.scss --output css && node-sass scss/ibm-plex.scss > css/ibm-plex.min.css --output-style compressed",
     "build:scss": "node scripts/export-scss.js",
