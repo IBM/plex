@@ -119,10 +119,10 @@ All notable changes to the IBM Plex typeface family will be documented in this f
 - Glyph /ibmlogo06 (0xEBE6)
 
 
-## [IBM PLEX SERIF V2.2] - 2018-12-06
+## [IBM PLEX SANS V2.2] - 2018-12-06
 ### Added
 - IBM Plex Sans Thai 
 
-## [IBM PLEX SERIF V2.3] - 2018-12-18
+## [IBM PLEX SANS V2.3] - 2018-12-18
 ### Added 
 - IBM Plex Sans Devanagari
