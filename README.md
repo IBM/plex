@@ -32,6 +32,9 @@ Devs using the css files should keep the directory structure as-is so that the f
 $font-prefix: './custom/path/to/font/files';
 @import 'node_modules/@ibm/plex/scss/ibm-plex.scss';
 ```
+**Note:**
+If your app (e.g. React) complains that it cannot import the font because it is outside the 'src' directory, then edit the imported 'ibm-plex.scss' file and change the relative path prefix there as follows:
+```$font-prefix: '' !default;```
 
 Below are the `font-family` rules for the family:
 
