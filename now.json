@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "plex-cdn",
+  "alias": "plex-cdn",
+  "builds": [
+    {"src": "**/*.woff", "use": "@now/static" },
+    {"src": "**/*.woff2", "use": "@now/static" }
+  ],
+  "public": false,
+  "routes": [
+    {"src": "/.*", "headers": {"access-control-allow-origin": "*", "cache-control": "public, s-maxage=604800"}}
+  ]
+}
