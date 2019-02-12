@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefWavyhamzaabove-ar.fina" format="1">
+  <advance width="270"/>
+  <outline>
+    <component base="alef-ar.fina.short"/>
+    <component base="wavyhamza_above-ar" xOffset="-43" yOffset="329"/>
+    <contour>
+      <point x="121.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="112.0" y="618.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0672.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>alefWavyhamzaabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

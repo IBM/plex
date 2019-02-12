@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behThreedotsupabove-ar.fina" format="1">
+  <advance width="919"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="353" yOffset="-570"/>
+    <component base="threedotsupabove-ar" xOffset="289"/>
+    <contour>
+      <point x="418.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="418.0" y="-12.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="418.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0751.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>behThreedotsupabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

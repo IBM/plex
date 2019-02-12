@@ -39,6 +39,12 @@ const families = [
     name: 'IBM Plex Serif',
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
   },
+  {
+    type: 'Arabic',
+    name: 'IBM Plex Arabic',
+    hasItalic: false,
+    unicodes: []
+  }
 ];
 
 module.exports = families;

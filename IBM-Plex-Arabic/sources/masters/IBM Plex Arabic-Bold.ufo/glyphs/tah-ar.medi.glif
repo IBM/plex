@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tah-ar.medi" format="1">
+  <advance width="731"/>
+  <unicode hex="FEC4"/>
+  <outline>
+    <contour>
+      <point x="701" y="0" type="curve" name="hr00"/>
+      <point x="731" y="30" type="line"/>
+      <point x="731" y="150" type="line"/>
+      <point x="701" y="150" type="line" smooth="yes"/>
+      <point x="685" y="150"/>
+      <point x="669" y="151"/>
+      <point x="652" y="153" type="curve"/>
+      <point x="657" y="173"/>
+      <point x="659" y="195"/>
+      <point x="659" y="219" type="curve" smooth="yes"/>
+      <point x="659" y="372"/>
+      <point x="580" y="463"/>
+      <point x="423" y="463" type="curve" smooth="yes"/>
+      <point x="330" y="463"/>
+      <point x="254" y="433"/>
+      <point x="186" y="363" type="curve"/>
+      <point x="178" y="367" type="line"/>
+      <point x="190" y="484" type="line"/>
+      <point x="190" y="740" type="line"/>
+      <point x="70" y="740" type="line"/>
+      <point x="70" y="193" type="line"/>
+      <point x="45" y="150" type="line"/>
+      <point x="0" y="150" type="line"/>
+      <point x="-30" y="120" type="line"/>
+      <point x="-30" y="0" type="line"/>
+      <point x="393" y="0" type="line" smooth="yes"/>
+      <point x="472" y="0"/>
+      <point x="532" y="13"/>
+      <point x="575" y="40" type="curve"/>
+      <point x="612" y="10"/>
+      <point x="654" y="0"/>
+    </contour>
+    <contour>
+      <point x="393" y="150" type="curve"/>
+      <point x="142" y="150" type="line"/>
+      <point x="139" y="156" type="line"/>
+      <point x="182" y="221" type="line" smooth="yes"/>
+      <point x="233" y="298"/>
+      <point x="288" y="313"/>
+      <point x="408" y="313" type="curve" smooth="yes"/>
+      <point x="438" y="313" type="line" smooth="yes"/>
+      <point x="524" y="313"/>
+      <point x="559" y="285"/>
+      <point x="559" y="228" type="curve" smooth="yes"/>
+      <point x="559" y="165"/>
+      <point x="520" y="150"/>
+    </contour>
+    <contour>
+      <point x="366.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="393.0" y="463.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEC4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>tah-ar.medi</string>
+    </dict>
+  </lib>
+</glyph>

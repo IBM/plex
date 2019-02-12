@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="three-ar" format="1">
+  <advance width="635"/>
+  <unicode hex="0663"/>
+  <outline>
+    <contour>
+      <point x="182" y="610" type="line"/>
+      <point x="60" y="610" type="line"/>
+      <point x="99" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="202" y="287" type="line"/>
+      <point x="204" y="287" type="line" smooth="yes"/>
+      <point x="261" y="287"/>
+      <point x="299" y="327"/>
+      <point x="307" y="414" type="curve"/>
+      <point x="313" y="414" type="line"/>
+      <point x="329" y="319"/>
+      <point x="374" y="275"/>
+      <point x="454" y="275" type="curve" smooth="yes" name="hr01"/>
+      <point x="562" y="275"/>
+      <point x="611" y="345"/>
+      <point x="611" y="487" type="curve" smooth="yes"/>
+      <point x="611" y="523"/>
+      <point x="607" y="558"/>
+      <point x="595" y="622" type="curve"/>
+      <point x="483" y="599" type="line"/>
+      <point x="499" y="534"/>
+      <point x="500" y="518"/>
+      <point x="500" y="499" type="curve" smooth="yes"/>
+      <point x="500" y="454"/>
+      <point x="489" y="427"/>
+      <point x="463" y="427" type="curve" smooth="yes"/>
+      <point x="453" y="427" type="line" smooth="yes"/>
+      <point x="423" y="427"/>
+      <point x="410" y="452"/>
+      <point x="410" y="507" type="curve" smooth="yes"/>
+      <point x="410" y="560" type="line"/>
+      <point x="300" y="560" type="line"/>
+      <point x="300" y="507" type="line" smooth="yes"/>
+      <point x="300" y="455"/>
+      <point x="282" y="437"/>
+      <point x="230" y="437" type="curve" smooth="yes" name="hr02"/>
+      <point x="193" y="437" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0663</string>
+      <key>com.type-invaders.name.production</key>
+      <string>three-ar</string>
+    </dict>
+  </lib>
+</glyph>

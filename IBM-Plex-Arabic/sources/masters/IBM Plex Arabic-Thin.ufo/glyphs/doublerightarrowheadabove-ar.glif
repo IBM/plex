@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doublerightarrowheadabove-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08FB"/>
+  <outline>
+    <contour>
+      <point x="163" y="531" type="line"/>
+      <point x="163" y="509" type="line"/>
+      <point x="304" y="446" type="line"/>
+      <point x="304" y="444" type="line"/>
+      <point x="163" y="382" type="line"/>
+      <point x="163" y="362" type="line"/>
+      <point x="322" y="434" type="line"/>
+      <point x="322" y="459" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="531" type="line" name="hr01"/>
+      <point x="20" y="509" type="line"/>
+      <point x="161" y="446" type="line"/>
+      <point x="161" y="444" type="line"/>
+      <point x="20" y="382" type="line"/>
+      <point x="20" y="362" type="line"/>
+      <point x="179" y="434" type="line"/>
+      <point x="179" y="459" type="line"/>
+    </contour>
+    <contour>
+      <point x="171.0" y="531.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="171.0" y="289.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08FB</string>
+      <key>com.type-invaders.name.production</key>
+      <string>doublerightarrowheadabove-ar</string>
+    </dict>
+  </lib>
+</glyph>

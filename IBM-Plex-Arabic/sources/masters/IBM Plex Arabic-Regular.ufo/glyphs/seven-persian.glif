@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven-persian" format="1">
+  <advance width="531"/>
+  <unicode hex="06F7"/>
+  <outline>
+    <component base="seven-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06F7</string>
+      <key>com.type-invaders.name.production</key>
+      <string>seven-persian</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

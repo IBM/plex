@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamAlefabove-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="06D9"/>
+  <outline>
+    <contour>
+      <point x="16" y="369" type="line"/>
+      <point x="121" y="369" type="line" smooth="yes"/>
+      <point x="152" y="369"/>
+      <point x="176" y="394"/>
+      <point x="176" y="425" type="curve" smooth="yes"/>
+      <point x="176" y="450"/>
+      <point x="167" y="465"/>
+      <point x="146" y="483" type="curve" smooth="yes"/>
+      <point x="140" y="488" type="line"/>
+      <point x="163" y="509"/>
+      <point x="167" y="525"/>
+      <point x="167" y="547" type="curve" smooth="yes" name="hr01"/>
+      <point x="167" y="626" type="line"/>
+      <point x="119" y="626" type="line"/>
+      <point x="119" y="547" type="line" smooth="yes"/>
+      <point x="119" y="528"/>
+      <point x="116" y="520"/>
+      <point x="110" y="514" type="curve"/>
+      <point x="30" y="583" type="line"/>
+      <point x="-3" y="544" type="line"/>
+      <point x="72" y="479" type="line"/>
+      <point x="16" y="429" type="line"/>
+    </contour>
+    <contour>
+      <point x="132" y="429" type="line" name="hr02"/>
+      <point x="70" y="429" type="line"/>
+      <point x="70" y="430" type="line"/>
+      <point x="101" y="455" type="line"/>
+    </contour>
+    <contour>
+      <point x="86.0" y="280.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="87.0" y="626.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06D9</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lamAlefabove-ar</string>
+    </dict>
+  </lib>
+</glyph>

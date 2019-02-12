@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shaddaDamma-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="72" y="355" type="curve" smooth="yes"/>
+      <point x="113" y="355"/>
+      <point x="133" y="383"/>
+      <point x="139" y="444" type="curve"/>
+      <point x="144" y="444" type="line"/>
+      <point x="150" y="412"/>
+      <point x="175" y="393"/>
+      <point x="209" y="393" type="curve" smooth="yes" name="hr01"/>
+      <point x="266" y="393"/>
+      <point x="300" y="434"/>
+      <point x="300" y="503" type="curve" smooth="yes"/>
+      <point x="300" y="528"/>
+      <point x="294" y="562"/>
+      <point x="284" y="592" type="curve"/>
+      <point x="216" y="573" type="line"/>
+      <point x="226" y="547"/>
+      <point x="232" y="521"/>
+      <point x="232" y="503" type="curve" smooth="yes"/>
+      <point x="232" y="488"/>
+      <point x="223" y="479"/>
+      <point x="209" y="479" type="curve" smooth="yes"/>
+      <point x="196" y="479"/>
+      <point x="188" y="488"/>
+      <point x="188" y="503" type="curve" smooth="yes"/>
+      <point x="188" y="547" type="line"/>
+      <point x="120" y="547" type="line"/>
+      <point x="120" y="476" type="line" smooth="yes"/>
+      <point x="120" y="452"/>
+      <point x="112" y="441"/>
+      <point x="96" y="441" type="curve" smooth="yes" name="hr02"/>
+      <point x="85" y="441"/>
+      <point x="78" y="448"/>
+      <point x="78" y="461" type="curve" smooth="yes"/>
+      <point x="78" y="517" type="line"/>
+      <point x="10" y="517" type="line"/>
+      <point x="10" y="440" type="line" smooth="yes"/>
+      <point x="10" y="386"/>
+      <point x="33" y="355"/>
+    </contour>
+    <contour>
+      <point x="41" y="572" type="line"/>
+      <point x="185" y="638" type="line" smooth="yes"/>
+      <point x="253" y="669"/>
+      <point x="289" y="716"/>
+      <point x="289" y="775" type="curve" smooth="yes"/>
+      <point x="289" y="832"/>
+      <point x="246" y="874"/>
+      <point x="189" y="874" type="curve" smooth="yes"/>
+      <point x="131" y="874"/>
+      <point x="88" y="829"/>
+      <point x="88" y="772" type="curve" smooth="yes"/>
+      <point x="88" y="740"/>
+      <point x="104" y="712"/>
+      <point x="130" y="695" type="curve"/>
+      <point x="130" y="690" type="line"/>
+      <point x="12" y="636" type="line"/>
+    </contour>
+    <contour>
+      <point x="152" y="775" type="curve" smooth="yes"/>
+      <point x="152" y="792"/>
+      <point x="167" y="804"/>
+      <point x="186" y="804" type="curve" smooth="yes"/>
+      <point x="208" y="804"/>
+      <point x="224" y="788"/>
+      <point x="224" y="767" type="curve" smooth="yes"/>
+      <point x="224" y="748"/>
+      <point x="217" y="738"/>
+      <point x="203" y="728" type="curve"/>
+      <point x="185" y="737" type="line" smooth="yes"/>
+      <point x="162" y="748"/>
+      <point x="152" y="760"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0651064F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>shaddaDamma-ar</string>
+    </dict>
+  </lib>
+</glyph>

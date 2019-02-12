@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reh-ar.isol" format="1">
+  <advance width="299"/>
+  <unicode hex="FEAD"/>
+  <outline>
+    <component base="reh-ar"/>
+    <contour>
+      <point x="210.0" y="-8.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="40.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="102.0" y="-224.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="164.0" y="323.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEAD</string>
+      <key>com.type-invaders.name.production</key>
+      <string>reh-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hehAlefabove-ar.init" format="1">
+  <advance width="580"/>
+  <unicode hex="FCD9"/>
+  <outline>
+    <component base="heh-ar.init"/>
+    <component base="alefabove-ar" xOffset="183" yOffset="150"/>
+    <contour>
+      <point x="213.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="213.0" y="439.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFCD9</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hehAlefabove-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

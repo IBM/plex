@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gaf_alefMaksura-ar" format="1">
+  <advance width="803"/>
+  <outline>
+    <component base="kaf_alefMaksura-ar"/>
+    <component base="comp.kafbar-ar" xOffset="333" yOffset="110"/>
+    <contour>
+      <point x="662.0" y="-240.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="376.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="353.0" y="808.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="353.0" y="709.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="130.0" y="217.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06AF0649</string>
+      <key>com.type-invaders.name.production</key>
+      <string>gaf_alefMaksura-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

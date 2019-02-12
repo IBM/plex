@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="foururducenter-ar" format="1">
+  <advance width="256"/>
+  <outline>
+    <contour>
+      <point x="79" y="363" type="line"/>
+      <point x="154" y="363" type="line"/>
+      <point x="111" y="461" type="line" smooth="yes"/>
+      <point x="87" y="515"/>
+      <point x="81" y="532"/>
+      <point x="81" y="545" type="curve" smooth="yes"/>
+      <point x="81" y="557"/>
+      <point x="88" y="564"/>
+      <point x="99" y="564" type="curve" smooth="yes"/>
+      <point x="114" y="564"/>
+      <point x="119" y="554"/>
+      <point x="119" y="531" type="curve" smooth="yes"/>
+      <point x="119" y="497" type="line"/>
+      <point x="180" y="497" type="line"/>
+      <point x="180" y="531" type="line" smooth="yes"/>
+      <point x="180" y="550"/>
+      <point x="190" y="559"/>
+      <point x="211" y="559" type="curve" smooth="yes" name="hr01"/>
+      <point x="246" y="559" type="line"/>
+      <point x="246" y="640" type="line"/>
+      <point x="228" y="640" type="line" smooth="yes"/>
+      <point x="196" y="640"/>
+      <point x="181" y="614"/>
+      <point x="178" y="580" type="curve"/>
+      <point x="174" y="580" type="line"/>
+      <point x="167" y="624"/>
+      <point x="145" y="646"/>
+      <point x="99" y="646" type="curve" smooth="yes" name="hr02"/>
+      <point x="49" y="646"/>
+      <point x="20" y="614"/>
+      <point x="20" y="547" type="curve" smooth="yes"/>
+      <point x="20" y="511"/>
+      <point x="28" y="487"/>
+      <point x="50" y="434" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="133.0" y="508.0" type="move" name="_center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>foururducenterar</string>
+      <key>com.type-invaders.name.production</key>
+      <string>foururducenter-ar</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeemTwodotsabove-ar.init" format="1">
+  <advance width="662"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="dotbelow-ar" xOffset="246" yOffset="-579"/>
+    <component base="twodotshorizontalabove-ar" xOffset="116" yOffset="160"/>
+    <contour>
+      <point x="325.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="274.0" y="443.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08A2.init</string>
+      <key>com.type-invaders.name.production</key>
+      <string>jeemTwodotsabove-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

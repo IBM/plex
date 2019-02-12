@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gaf-ar.fina" format="1">
+  <advance width="984"/>
+  <unicode hex="FB93"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="comp.kafbar-ar" xOffset="506" yOffset="17"/>
+    <contour>
+      <point x="420.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="786.0" y="603.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="626.0" y="626.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFB93</string>
+      <key>com.type-invaders.name.production</key>
+      <string>gaf-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

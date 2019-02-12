@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sheenDotbelow-ar" format="1">
+  <advance width="1133"/>
+  <unicode hex="06FA"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="threedotsupabove-ar" xOffset="705"/>
+    <component base="dotbelow-ar" xOffset="282" yOffset="-810"/>
+    <contour>
+      <point x="347.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="834.0" y="-145.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="834.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06FA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>sheenDotbelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

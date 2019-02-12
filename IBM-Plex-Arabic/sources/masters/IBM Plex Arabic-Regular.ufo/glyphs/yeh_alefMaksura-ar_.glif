@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh_alefMaksura-ar" format="1">
+  <advance width="726"/>
+  <unicode hex="FC59"/>
+  <outline>
+    <component base="comp.behDotless_alefMaksura-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="508" yOffset="-730"/>
+    <contour>
+      <point x="637.0" y="-160.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="567.0" y="421.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="118.0" y="191.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFC59</string>
+      <key>com.type-invaders.name.production</key>
+      <string>yeh_alefMaksura-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="samvat-ar" format="1">
+  <advance width="1680"/>
+  <unicode hex="0604"/>
+  <outline>
+    <contour>
+      <point x="928" y="-99" type="line"/>
+      <point x="971" y="-24" type="line"/>
+      <point x="870" y="41" type="line" smooth="yes"/>
+      <point x="813" y="77"/>
+      <point x="799" y="96"/>
+      <point x="799" y="133" type="curve" smooth="yes"/>
+      <point x="799" y="202"/>
+      <point x="869" y="267"/>
+      <point x="943" y="267" type="curve" smooth="yes"/>
+      <point x="999" y="267"/>
+      <point x="1035" y="243"/>
+      <point x="1058" y="190" type="curve" smooth="yes"/>
+      <point x="1091" y="115" type="line" smooth="yes"/>
+      <point x="1132" y="22"/>
+      <point x="1169" y="-12"/>
+      <point x="1234" y="-12" type="curve" smooth="yes"/>
+      <point x="1299" y="-12"/>
+      <point x="1336" y="19"/>
+      <point x="1350" y="88" type="curve"/>
+      <point x="1355" y="88" type="line"/>
+      <point x="1368" y="23"/>
+      <point x="1414" y="-12"/>
+      <point x="1493" y="-12" type="curve" smooth="yes"/>
+      <point x="1583" y="-12"/>
+      <point x="1635" y="46"/>
+      <point x="1635" y="138" type="curve" smooth="yes"/>
+      <point x="1635" y="164"/>
+      <point x="1632" y="204"/>
+      <point x="1627" y="245" type="curve" smooth="yes"/>
+      <point x="1620" y="298" type="line"/>
+      <point x="1551" y="289" type="line"/>
+      <point x="1559" y="234" type="line" smooth="yes"/>
+      <point x="1565" y="195"/>
+      <point x="1567" y="159"/>
+      <point x="1567" y="138" type="curve" smooth="yes"/>
+      <point x="1567" y="94"/>
+      <point x="1547" y="74"/>
+      <point x="1503" y="74" type="curve" smooth="yes"/>
+      <point x="1483" y="74" type="line" smooth="yes"/>
+      <point x="1434" y="74"/>
+      <point x="1416" y="99"/>
+      <point x="1416" y="171" type="curve" smooth="yes"/>
+      <point x="1416" y="249" type="line"/>
+      <point x="1346" y="249" type="line"/>
+      <point x="1346" y="171" type="line" smooth="yes"/>
+      <point x="1346" y="101"/>
+      <point x="1316" y="74"/>
+      <point x="1254" y="74" type="curve" smooth="yes"/>
+      <point x="1210" y="74"/>
+      <point x="1188" y="92"/>
+      <point x="1166" y="143" type="curve" smooth="yes"/>
+      <point x="1132" y="223" type="line" smooth="yes"/>
+      <point x="1095" y="310"/>
+      <point x="1037" y="353"/>
+      <point x="953" y="353" type="curve" smooth="yes"/>
+      <point x="839" y="353"/>
+      <point x="732" y="240"/>
+      <point x="732" y="130" type="curve" smooth="yes"/>
+      <point x="732" y="111"/>
+      <point x="735" y="95"/>
+      <point x="742" y="78" type="curve"/>
+      <point x="739" y="75" type="line"/>
+      <point x="721" y="83"/>
+      <point x="700" y="86"/>
+      <point x="662" y="86" type="curve" smooth="yes" name="hr01"/>
+      <point x="20" y="86" type="line"/>
+      <point x="20" y="0" type="line"/>
+      <point x="662" y="0" type="line" smooth="yes"/>
+      <point x="738" y="0"/>
+      <point x="790" y="-11"/>
+      <point x="827" y="-34" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0604</string>
+      <key>com.type-invaders.name.production</key>
+      <string>samvat-ar</string>
+    </dict>
+  </lib>
+</glyph>

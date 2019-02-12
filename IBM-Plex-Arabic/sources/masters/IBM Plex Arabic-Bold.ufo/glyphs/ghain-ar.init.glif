@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghain-ar.init" format="1">
+  <advance width="570"/>
+  <unicode hex="FECF"/>
+  <outline>
+    <component base="ain-ar.init"/>
+    <component base="dotabove-ar" xOffset="188" yOffset="242"/>
+    <contour>
+      <point x="276.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="267.0" y="525.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFECF</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ghain-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

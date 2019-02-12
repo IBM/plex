@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peh_yehHamzaabove-ar" format="1">
+  <advance width="716"/>
+  <outline>
+    <component base="comp.behDotless_alefMaksura-ar"/>
+    <component base="threedotsdownbelow-ar" xOffset="477" yOffset="-897"/>
+    <component base="hamzaabove-ar" xOffset="-5" yOffset="-87"/>
+    <contour>
+      <point x="603.0" y="-160.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="357.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="554.0" y="436.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="202.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni067E0626</string>
+      <key>com.type-invaders.name.production</key>
+      <string>peh_yehHamzaabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

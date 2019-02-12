@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="allah-ar" format="1">
+  <advance width="1238"/>
+  <unicode hex="FDF2"/>
+  <outline>
+    <contour>
+      <point x="451" y="0" type="curve" smooth="yes"/>
+      <point x="526" y="0"/>
+      <point x="566" y="31"/>
+      <point x="578" y="98" type="curve"/>
+      <point x="583" y="98" type="line"/>
+      <point x="605" y="31"/>
+      <point x="659" y="0"/>
+      <point x="755" y="0" type="curve" smooth="yes"/>
+      <point x="871" y="0"/>
+      <point x="939" y="66"/>
+      <point x="939" y="178" type="curve" smooth="yes"/>
+      <point x="939" y="678" type="line"/>
+      <point x="865" y="678" type="line"/>
+      <point x="865" y="178" type="line" smooth="yes"/>
+      <point x="865" y="115"/>
+      <point x="837" y="86"/>
+      <point x="775" y="86" type="curve" smooth="yes"/>
+      <point x="735" y="86" type="line" smooth="yes"/>
+      <point x="673" y="86"/>
+      <point x="645" y="113"/>
+      <point x="645" y="171" type="curve" smooth="yes"/>
+      <point x="645" y="597" type="line"/>
+      <point x="575" y="597" type="line"/>
+      <point x="575" y="171" type="line" smooth="yes"/>
+      <point x="575" y="113"/>
+      <point x="545" y="86"/>
+      <point x="481" y="86" type="curve" smooth="yes"/>
+      <point x="441" y="86" type="line" smooth="yes"/>
+      <point x="377" y="86"/>
+      <point x="355" y="104"/>
+      <point x="355" y="156" type="curve" smooth="yes"/>
+      <point x="355" y="516" type="line"/>
+      <point x="285" y="516" type="line"/>
+      <point x="285" y="466" type="line"/>
+      <point x="184" y="408" type="line" smooth="yes"/>
+      <point x="61" y="338"/>
+      <point x="15" y="287"/>
+      <point x="15" y="211" type="curve" smooth="yes"/>
+      <point x="15" y="124"/>
+      <point x="68" y="73"/>
+      <point x="157" y="73" type="curve" smooth="yes" name="hr01"/>
+      <point x="219" y="73"/>
+      <point x="266" y="104"/>
+      <point x="285" y="163" type="curve"/>
+      <point x="290" y="163" type="line"/>
+      <point x="290" y="146" type="line" smooth="yes"/>
+      <point x="290" y="38"/>
+      <point x="331" y="0"/>
+    </contour>
+    <contour>
+      <point x="1089" y="0" type="line"/>
+      <point x="1163" y="0" type="line"/>
+      <point x="1163" y="740" type="line"/>
+      <point x="1089" y="740" type="line"/>
+    </contour>
+    <contour>
+      <point x="172" y="159" type="curve" smooth="yes" name="hr03"/>
+      <point x="109" y="159"/>
+      <point x="85" y="178"/>
+      <point x="85" y="221" type="curve" smooth="yes"/>
+      <point x="85" y="264"/>
+      <point x="113" y="293"/>
+      <point x="184" y="331" type="curve" smooth="yes"/>
+      <point x="285" y="385" type="line"/>
+      <point x="285" y="239" type="line" smooth="yes"/>
+      <point x="285" y="179"/>
+      <point x="253" y="159"/>
+    </contour>
+    <contour>
+      <point x="541" y="667" type="curve" smooth="yes"/>
+      <point x="577" y="667"/>
+      <point x="599" y="697"/>
+      <point x="602" y="747" type="curve"/>
+      <point x="605" y="747" type="line"/>
+      <point x="613" y="717"/>
+      <point x="633" y="699"/>
+      <point x="658" y="699" type="curve" smooth="yes" name="hr04"/>
+      <point x="708" y="699"/>
+      <point x="737" y="737"/>
+      <point x="737" y="800" type="curve" smooth="yes"/>
+      <point x="737" y="822"/>
+      <point x="733" y="845"/>
+      <point x="724" y="873" type="curve"/>
+      <point x="675" y="858" type="line"/>
+      <point x="683" y="832"/>
+      <point x="687" y="813"/>
+      <point x="687" y="797" type="curve" smooth="yes"/>
+      <point x="687" y="776"/>
+      <point x="677" y="763"/>
+      <point x="659" y="763" type="curve" smooth="yes"/>
+      <point x="643" y="763"/>
+      <point x="635" y="771"/>
+      <point x="635" y="801" type="curve" smooth="yes"/>
+      <point x="635" y="835" type="line"/>
+      <point x="585" y="835" type="line"/>
+      <point x="585" y="777" type="line" smooth="yes"/>
+      <point x="585" y="745"/>
+      <point x="576" y="731"/>
+      <point x="556" y="731" type="curve" smooth="yes" name="hr05"/>
+      <point x="542" y="731"/>
+      <point x="533" y="741"/>
+      <point x="533" y="758" type="curve" smooth="yes"/>
+      <point x="533" y="808" type="line"/>
+      <point x="483" y="808" type="line"/>
+      <point x="483" y="740" type="line" smooth="yes" name="hr06"/>
+      <point x="483" y="694"/>
+      <point x="505" y="667"/>
+    </contour>
+    <contour>
+      <point x="585" y="866" type="line"/>
+      <point x="635" y="866" type="line"/>
+      <point x="635" y="1037" type="line"/>
+      <point x="585" y="1037" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFDF2</string>
+      <key>com.type-invaders.name.production</key>
+      <string>allah-ar</string>
+    </dict>
+  </lib>
+</glyph>

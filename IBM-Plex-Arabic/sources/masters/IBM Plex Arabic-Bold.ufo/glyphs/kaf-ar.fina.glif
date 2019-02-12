@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaf-ar.fina" format="1">
+  <advance width="966"/>
+  <unicode hex="FEDA"/>
+  <outline>
+    <contour>
+      <point x="431" y="-12" type="curve" smooth="yes"/>
+      <point x="641" y="-12"/>
+      <point x="722" y="26"/>
+      <point x="743" y="135" type="curve"/>
+      <point x="749" y="135" type="line"/>
+      <point x="769" y="42"/>
+      <point x="828" y="0"/>
+      <point x="936" y="0" type="curve" name="hr01"/>
+      <point x="966" y="30" type="line"/>
+      <point x="966" y="150" type="line"/>
+      <point x="936" y="150" type="line" smooth="yes"/>
+      <point x="881" y="150"/>
+      <point x="856" y="172"/>
+      <point x="856" y="220" type="curve" smooth="yes"/>
+      <point x="856" y="740" type="line"/>
+      <point x="736" y="740" type="line"/>
+      <point x="736" y="220" type="line" smooth="yes"/>
+      <point x="736" y="164"/>
+      <point x="689" y="150"/>
+      <point x="511" y="150" type="curve" smooth="yes"/>
+      <point x="371" y="150" type="line" smooth="yes"/>
+      <point x="199" y="150"/>
+      <point x="140" y="176"/>
+      <point x="140" y="253" type="curve" smooth="yes"/>
+      <point x="140" y="286"/>
+      <point x="154" y="330"/>
+      <point x="176" y="375" type="curve"/>
+      <point x="80" y="403" type="line"/>
+      <point x="55" y="341"/>
+      <point x="40" y="273"/>
+      <point x="40" y="220" type="curve" smooth="yes"/>
+      <point x="40" y="48"/>
+      <point x="141" y="-12"/>
+    </contour>
+    <contour>
+      <point x="377" y="247" type="line"/>
+      <point x="486" y="302" type="line" smooth="yes"/>
+      <point x="542" y="330"/>
+      <point x="569" y="357"/>
+      <point x="569" y="405" type="curve" smooth="yes"/>
+      <point x="569" y="452"/>
+      <point x="541" y="467"/>
+      <point x="492" y="467" type="curve" smooth="yes"/>
+      <point x="414" y="467" type="line"/>
+      <point x="412" y="475" type="line"/>
+      <point x="535" y="544" type="line"/>
+      <point x="499" y="604" type="line"/>
+      <point x="433" y="566" type="line" smooth="yes"/>
+      <point x="376" y="533"/>
+      <point x="344" y="508"/>
+      <point x="344" y="462" type="curve" smooth="yes"/>
+      <point x="344" y="409"/>
+      <point x="371" y="392"/>
+      <point x="419" y="392" type="curve" smooth="yes"/>
+      <point x="499" y="392" type="line"/>
+      <point x="501" y="385" type="line"/>
+      <point x="344" y="311" type="line"/>
+    </contour>
+    <contour>
+      <point x="443.0" y="1.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="454.0" y="566.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEDA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kaf-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

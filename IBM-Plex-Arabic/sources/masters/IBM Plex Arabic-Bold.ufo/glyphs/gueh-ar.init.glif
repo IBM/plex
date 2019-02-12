@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gueh-ar.init" format="1">
+  <advance width="380"/>
+  <unicode hex="FB98"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="comp.kafbar-ar" xOffset="-10" yOffset="70"/>
+    <component base="twodotsverticalbelow-ar" xOffset="-12" yOffset="-703"/>
+    <contour>
+      <point x="225.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="305.0" y="558.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="159.0" y="698.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFB98</string>
+      <key>com.type-invaders.name.production</key>
+      <string>gueh-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

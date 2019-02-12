@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedotsdownabove-ar" format="1">
+  <advance width="651"/>
+  <unicode hex="075E"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="threedotsdownabove-ar" xOffset="177" yOffset="361"/>
+    <contour>
+      <point x="341.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="351.0" y="0.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="335.0" y="644.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni075E</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ainThreedotsdownabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

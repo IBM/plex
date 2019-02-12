@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pertenthousand-ar" format="1">
+  <advance width="620"/>
+  <unicode hex="060A"/>
+  <outline>
+    <contour>
+      <point x="60" y="0" type="line" name="hr00"/>
+      <point x="83" y="0" type="line"/>
+      <point x="471" y="618" type="line"/>
+      <point x="448" y="618" type="line"/>
+    </contour>
+    <contour>
+      <point x="89" y="591" type="curve" smooth="yes"/>
+      <point x="89" y="573"/>
+      <point x="98" y="564"/>
+      <point x="114" y="564" type="curve" smooth="yes"/>
+      <point x="122" y="564" type="line" smooth="yes"/>
+      <point x="138" y="564"/>
+      <point x="147" y="573"/>
+      <point x="147" y="591" type="curve" smooth="yes"/>
+      <point x="147" y="609"/>
+      <point x="138" y="618"/>
+      <point x="122" y="618" type="curve" smooth="yes"/>
+      <point x="114" y="618" type="line" smooth="yes"/>
+      <point x="98" y="618"/>
+      <point x="89" y="609"/>
+    </contour>
+    <contour>
+      <point x="287" y="27" type="curve" smooth="yes"/>
+      <point x="287" y="9"/>
+      <point x="296" y="0"/>
+      <point x="312" y="0" type="curve" smooth="yes"/>
+      <point x="320" y="0" type="line" smooth="yes"/>
+      <point x="336" y="0"/>
+      <point x="345" y="9"/>
+      <point x="345" y="27" type="curve" smooth="yes"/>
+      <point x="345" y="45"/>
+      <point x="336" y="54"/>
+      <point x="320" y="54" type="curve" smooth="yes"/>
+      <point x="312" y="54" type="line" smooth="yes"/>
+      <point x="296" y="54"/>
+      <point x="287" y="45"/>
+    </contour>
+    <contour>
+      <point x="502" y="27" type="curve" smooth="yes"/>
+      <point x="502" y="9"/>
+      <point x="511" y="0"/>
+      <point x="527" y="0" type="curve" smooth="yes"/>
+      <point x="535" y="0" type="line" smooth="yes"/>
+      <point x="551" y="0"/>
+      <point x="560" y="9"/>
+      <point x="560" y="27" type="curve" smooth="yes"/>
+      <point x="560" y="45"/>
+      <point x="551" y="54"/>
+      <point x="535" y="54" type="curve" smooth="yes"/>
+      <point x="527" y="54" type="line" smooth="yes"/>
+      <point x="511" y="54"/>
+      <point x="502" y="45"/>
+    </contour>
+    <contour>
+      <point x="394" y="27" type="curve" smooth="yes"/>
+      <point x="394" y="9"/>
+      <point x="403" y="0"/>
+      <point x="419" y="0" type="curve" smooth="yes"/>
+      <point x="427" y="0" type="line" smooth="yes"/>
+      <point x="443" y="0"/>
+      <point x="452" y="9"/>
+      <point x="452" y="27" type="curve" smooth="yes"/>
+      <point x="452" y="45"/>
+      <point x="443" y="54"/>
+      <point x="427" y="54" type="curve" smooth="yes"/>
+      <point x="419" y="54" type="line" smooth="yes"/>
+      <point x="403" y="54"/>
+      <point x="394" y="45"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni060A</string>
+      <key>com.type-invaders.name.production</key>
+      <string>pertenthousand-ar</string>
+    </dict>
+  </lib>
+</glyph>

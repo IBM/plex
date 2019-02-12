@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rhombusStopbelow-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="06EA"/>
+  <outline>
+    <contour>
+      <point x="157" y="613" type="line" name="hr00"/>
+      <point x="30" y="486" type="line"/>
+      <point x="157" y="359" type="line"/>
+      <point x="285" y="486" type="line"/>
+    </contour>
+    <contour>
+      <point x="157" y="542" type="line"/>
+      <point x="214" y="486" type="line"/>
+      <point x="157" y="430" type="line"/>
+      <point x="101" y="486" type="line"/>
+    </contour>
+    <contour>
+      <point x="157.0" y="698.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="157.0" y="359.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06EA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rhombusStopbelow-ar</string>
+    </dict>
+  </lib>
+</glyph>

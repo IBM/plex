@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threedots-ar" format="1">
+  <advance width="662"/>
+  <unicode hex="061E"/>
+  <outline>
+    <component base="period"/>
+    <component base="period" xOffset="352"/>
+    <component base="period" xOffset="176" yOffset="305"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni061E</string>
+      <key>com.type-invaders.name.production</key>
+      <string>threedots-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

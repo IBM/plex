@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hehDoachashmee-ar" format="1">
+  <advance width="637"/>
+  <unicode hex="06BE"/>
+  <outline>
+    <contour>
+      <point x="57" y="23" type="curve" name="hr00"/>
+      <point x="20" y="23" type="line"/>
+      <point x="20" y="0" type="line"/>
+      <point x="57" y="0" type="line" smooth="yes"/>
+      <point x="144" y="0"/>
+      <point x="213" y="19"/>
+      <point x="270" y="47" type="curve"/>
+      <point x="326" y="19"/>
+      <point x="401" y="0"/>
+      <point x="484" y="0" type="curve" smooth="yes"/>
+      <point x="558" y="0" type="line"/>
+      <point x="577" y="23" type="line"/>
+      <point x="577" y="97" type="line" smooth="yes"/>
+      <point x="577" y="228"/>
+      <point x="530" y="304"/>
+      <point x="396" y="390" type="curve" smooth="yes"/>
+      <point x="263" y="474" type="line"/>
+      <point x="251" y="454" type="line"/>
+      <point x="279" y="439" type="line"/>
+      <point x="270" y="439" type="line" smooth="yes"/>
+      <point x="181" y="439"/>
+      <point x="113" y="362"/>
+      <point x="113" y="259" type="curve" smooth="yes"/>
+      <point x="113" y="177"/>
+      <point x="162" y="106"/>
+      <point x="247" y="61" type="curve"/>
+      <point x="247" y="58" type="line"/>
+      <point x="190" y="35"/>
+      <point x="126" y="23"/>
+    </contour>
+    <contour>
+      <point x="270" y="70" type="curve"/>
+      <point x="185" y="113"/>
+      <point x="132" y="180"/>
+      <point x="132" y="259" type="curve" smooth="yes"/>
+      <point x="132" y="349"/>
+      <point x="187" y="416"/>
+      <point x="260" y="416" type="curve" smooth="yes"/>
+      <point x="280" y="416" type="line" smooth="yes"/>
+      <point x="353" y="416"/>
+      <point x="408" y="349"/>
+      <point x="408" y="259" type="curve" smooth="yes"/>
+      <point x="408" y="181"/>
+      <point x="354" y="114"/>
+    </contour>
+    <contour>
+      <point x="558" y="96" type="curve"/>
+      <point x="558" y="23" type="line"/>
+      <point x="392" y="23"/>
+      <point x="346" y="34"/>
+      <point x="293" y="58" type="curve"/>
+      <point x="293" y="61" type="line"/>
+      <point x="378" y="106"/>
+      <point x="427" y="177"/>
+      <point x="427" y="259" type="curve" smooth="yes"/>
+      <point x="427" y="299"/>
+      <point x="417" y="335"/>
+      <point x="399" y="364" type="curve"/>
+      <point x="516" y="289"/>
+      <point x="558" y="219"/>
+    </contour>
+    <contour>
+      <point x="270.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="270.0" y="439.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06BE</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hehDoachashmee-ar</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comp.seenSmall-ar" format="1">
+  <advance width="480"/>
+  <outline>
+    <contour>
+      <point x="388" y="359" type="curve" smooth="yes"/>
+      <point x="438" y="359"/>
+      <point x="460" y="390"/>
+      <point x="460" y="454" type="curve" smooth="yes"/>
+      <point x="460" y="467"/>
+      <point x="458" y="485"/>
+      <point x="454" y="503" type="curve" smooth="yes"/>
+      <point x="451" y="517" type="line"/>
+      <point x="394" y="507" type="line"/>
+      <point x="398" y="486" type="line" smooth="yes"/>
+      <point x="400" y="476"/>
+      <point x="402" y="464"/>
+      <point x="402" y="454" type="curve" smooth="yes"/>
+      <point x="402" y="444"/>
+      <point x="398" y="440"/>
+      <point x="389" y="440" type="curve" smooth="yes"/>
+      <point x="379" y="440"/>
+      <point x="375" y="447"/>
+      <point x="375" y="461" type="curve" smooth="yes"/>
+      <point x="375" y="479" type="line"/>
+      <point x="316" y="479" type="line"/>
+      <point x="316" y="461" type="line" smooth="yes"/>
+      <point x="316" y="447"/>
+      <point x="311" y="443"/>
+      <point x="292" y="443" type="curve" smooth="yes" name="hr01"/>
+      <point x="268" y="443" type="line"/>
+      <point x="262" y="472" type="line"/>
+      <point x="257" y="496" type="line"/>
+      <point x="196" y="482" type="line"/>
+      <point x="202" y="458" type="line" smooth="yes"/>
+      <point x="209" y="428"/>
+      <point x="211" y="417"/>
+      <point x="211" y="402" type="curve" smooth="yes"/>
+      <point x="211" y="373"/>
+      <point x="199" y="363"/>
+      <point x="166" y="363" type="curve" smooth="yes"/>
+      <point x="120" y="363" type="line" smooth="yes"/>
+      <point x="95" y="363"/>
+      <point x="80" y="375"/>
+      <point x="80" y="396" type="curve" smooth="yes"/>
+      <point x="80" y="409"/>
+      <point x="87" y="432"/>
+      <point x="95" y="449" type="curve"/>
+      <point x="37" y="464" type="line"/>
+      <point x="27" y="438"/>
+      <point x="20" y="406"/>
+      <point x="20" y="382" type="curve" smooth="yes"/>
+      <point x="20" y="315"/>
+      <point x="62" y="275"/>
+      <point x="143" y="275" type="curve" smooth="yes" name="hr02"/>
+      <point x="216" y="275"/>
+      <point x="257" y="303"/>
+      <point x="268" y="363" type="curve"/>
+      <point x="271" y="363" type="line" smooth="yes"/>
+      <point x="298" y="363"/>
+      <point x="316" y="380"/>
+      <point x="319" y="419" type="curve"/>
+      <point x="322" y="419" type="line"/>
+      <point x="329" y="375"/>
+      <point x="351" y="359"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>comp.seenSmallar</string>
+      <key>com.type-invaders.name.production</key>
+      <string>comp.seenSmall-ar</string>
+    </dict>
+  </lib>
+</glyph>

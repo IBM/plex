@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tehMarbutagoal-ar.fina" format="1">
+  <advance width="641"/>
+  <outline>
+    <component base="hehgoal-ar.fina"/>
+    <component base="twodotshorizontalabove-ar" xOffset="260" yOffset="152"/>
+    <contour>
+      <point x="341.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="418.0" y="435.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06C3.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>tehMarbutagoal-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

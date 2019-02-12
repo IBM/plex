@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hahThreedotsupbelow-ar.init" format="1">
+  <advance width="634"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="threedotsupbelow-ar" xOffset="173" yOffset="-687"/>
+    <contour>
+      <point x="305.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="254.0" y="369.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0758.init</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hahThreedotsupbelow-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

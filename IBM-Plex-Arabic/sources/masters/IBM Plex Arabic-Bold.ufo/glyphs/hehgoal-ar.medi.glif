@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hehgoal-ar.medi" format="1">
+  <advance width="619"/>
+  <unicode hex="FBA9"/>
+  <outline>
+    <contour>
+      <point x="-30" y="0" type="line"/>
+      <point x="77" y="0" type="line" smooth="yes"/>
+      <point x="168" y="0"/>
+      <point x="202" y="15"/>
+      <point x="227" y="38" type="curve"/>
+      <point x="233" y="33" type="line"/>
+      <point x="214" y="10"/>
+      <point x="187" y="-34"/>
+      <point x="187" y="-90" type="curve" smooth="yes"/>
+      <point x="187" y="-142"/>
+      <point x="217" y="-186"/>
+      <point x="276" y="-270" type="curve"/>
+      <point x="411" y="-270" type="line"/>
+      <point x="522" y="0" type="line"/>
+      <point x="589" y="0" type="line"/>
+      <point x="619" y="30" type="line"/>
+      <point x="619" y="150" type="line"/>
+      <point x="536" y="150" type="line" smooth="yes"/>
+      <point x="490" y="150"/>
+      <point x="471" y="132"/>
+      <point x="446" y="73" type="curve" smooth="yes"/>
+      <point x="359" y="-131" type="line"/>
+      <point x="321" y="-68"/>
+      <point x="294" y="-18"/>
+      <point x="294" y="25" type="curve" smooth="yes"/>
+      <point x="294" y="65"/>
+      <point x="302" y="86"/>
+      <point x="335" y="153" type="curve" smooth="yes"/>
+      <point x="375" y="235" type="line"/>
+      <point x="276" y="283" type="line"/>
+      <point x="237" y="202" type="line" smooth="yes"/>
+      <point x="219" y="163"/>
+      <point x="191" y="150"/>
+      <point x="127" y="150" type="curve" smooth="yes"/>
+      <point x="0" y="150" type="line"/>
+      <point x="-30" y="120" type="line"/>
+    </contour>
+    <contour>
+      <point x="83" y="-304" type="curve" name="hr01"/>
+      <point x="103" y="-304" type="line" smooth="yes"/>
+      <point x="137" y="-304"/>
+      <point x="162" y="-284"/>
+      <point x="162" y="-237" type="curve" smooth="yes"/>
+      <point x="162" y="-190"/>
+      <point x="137" y="-170"/>
+      <point x="110" y="-170" type="curve"/>
+      <point x="119" y="-131"/>
+      <point x="138" y="-99"/>
+      <point x="163" y="-69" type="curve"/>
+      <point x="90" y="-69" type="line"/>
+      <point x="50" y="-109"/>
+      <point x="24" y="-168"/>
+      <point x="24" y="-237" type="curve" smooth="yes"/>
+      <point x="24" y="-284"/>
+      <point x="49" y="-304"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFBA9</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hehgoal-ar.medi</string>
+    </dict>
+  </lib>
+</glyph>

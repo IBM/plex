@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeemabove-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="06DA"/>
+  <outline>
+    <contour>
+      <point x="104" y="300" type="curve" smooth="yes"/>
+      <point x="138" y="300"/>
+      <point x="169" y="311"/>
+      <point x="194" y="339" type="curve"/>
+      <point x="182" y="355" type="line"/>
+      <point x="162" y="331"/>
+      <point x="135" y="321"/>
+      <point x="105" y="321" type="curve" smooth="yes"/>
+      <point x="57" y="321"/>
+      <point x="29" y="346"/>
+      <point x="29" y="385" type="curve" smooth="yes"/>
+      <point x="29" y="391" type="line" smooth="yes"/>
+      <point x="29" y="430"/>
+      <point x="57" y="450"/>
+      <point x="102" y="469" type="curve" smooth="yes"/>
+      <point x="179" y="501" type="line"/>
+      <point x="179" y="529" type="line"/>
+      <point x="49" y="535" type="line" smooth="yes"/>
+      <point x="34" y="536"/>
+      <point x="26" y="525"/>
+      <point x="26" y="514" type="curve" smooth="yes" name="hr01"/>
+      <point x="26" y="490" type="line"/>
+      <point x="41" y="490" type="line"/>
+      <point x="41" y="515" type="line"/>
+      <point x="165" y="512" type="line"/>
+      <point x="165" y="511" type="line"/>
+      <point x="96" y="482" type="line" smooth="yes"/>
+      <point x="39" y="458"/>
+      <point x="13" y="426"/>
+      <point x="13" y="386" type="curve" smooth="yes" name="hr02"/>
+      <point x="13" y="333"/>
+      <point x="50" y="300"/>
+    </contour>
+    <contour>
+      <point x="102" y="383" type="curve"/>
+      <point x="105" y="383" type="line" smooth="yes"/>
+      <point x="111" y="383"/>
+      <point x="116" y="387"/>
+      <point x="116" y="394" type="curve" smooth="yes"/>
+      <point x="116" y="402"/>
+      <point x="111" y="406"/>
+      <point x="105" y="406" type="curve" smooth="yes"/>
+      <point x="102" y="406" type="line" smooth="yes"/>
+      <point x="96" y="406"/>
+      <point x="91" y="402"/>
+      <point x="91" y="394" type="curve" smooth="yes"/>
+      <point x="91" y="387"/>
+      <point x="96" y="383"/>
+    </contour>
+    <contour>
+      <point x="104.0" y="243.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="104.0" y="534.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06DA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>jeemabove-ar</string>
+    </dict>
+  </lib>
+</glyph>

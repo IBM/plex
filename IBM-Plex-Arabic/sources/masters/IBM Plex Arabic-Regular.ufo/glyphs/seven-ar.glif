@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven-ar" format="1">
+  <advance width="531"/>
+  <unicode hex="0667"/>
+  <outline>
+    <contour>
+      <point x="507" y="606" type="line" name="hr00"/>
+      <point x="429" y="606" type="line"/>
+      <point x="270" y="84" type="line"/>
+      <point x="265" y="84" type="line"/>
+      <point x="111" y="606" type="line"/>
+      <point x="24" y="606" type="line"/>
+      <point x="214" y="0" type="line"/>
+      <point x="317" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0667</string>
+      <key>com.type-invaders.name.production</key>
+      <string>seven-ar</string>
+    </dict>
+  </lib>
+</glyph>

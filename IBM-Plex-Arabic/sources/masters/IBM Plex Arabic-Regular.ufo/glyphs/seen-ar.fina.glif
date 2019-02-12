@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seen-ar.fina" format="1">
+  <advance width="1211"/>
+  <unicode hex="FEB2"/>
+  <outline>
+    <contour>
+      <point x="927" y="-12" type="curve" smooth="yes"/>
+      <point x="989" y="-12"/>
+      <point x="1021" y="14"/>
+      <point x="1029" y="88" type="curve"/>
+      <point x="1034" y="88" type="line"/>
+      <point x="1054" y="28"/>
+      <point x="1103" y="0"/>
+      <point x="1191" y="0" type="curve" name="hr01"/>
+      <point x="1211" y="20" type="line"/>
+      <point x="1211" y="86" type="line"/>
+      <point x="1176" y="86" type="line" smooth="yes"/>
+      <point x="1118" y="86"/>
+      <point x="1091" y="113"/>
+      <point x="1091" y="171" type="curve" smooth="yes"/>
+      <point x="1091" y="289" type="line"/>
+      <point x="1021" y="289" type="line"/>
+      <point x="1021" y="171" type="line" smooth="yes"/>
+      <point x="1021" y="99"/>
+      <point x="1004" y="74"/>
+      <point x="955" y="74" type="curve" smooth="yes" name="hr02"/>
+      <point x="932" y="74" type="line" smooth="yes"/>
+      <point x="886" y="74"/>
+      <point x="869" y="99"/>
+      <point x="869" y="171" type="curve" smooth="yes"/>
+      <point x="869" y="249" type="line"/>
+      <point x="799" y="249" type="line"/>
+      <point x="799" y="171" type="line" smooth="yes"/>
+      <point x="799" y="110"/>
+      <point x="768" y="86"/>
+      <point x="705" y="86" type="curve" smooth="yes" name="hr03"/>
+      <point x="615" y="86" type="line"/>
+      <point x="611" y="114"/>
+      <point x="605" y="151"/>
+      <point x="595" y="205" type="curve" smooth="yes"/>
+      <point x="587" y="249" type="line"/>
+      <point x="517" y="235" type="line"/>
+      <point x="526" y="191" type="line" smooth="yes"/>
+      <point x="545" y="100"/>
+      <point x="552" y="58"/>
+      <point x="552" y="26" type="curve" smooth="yes"/>
+      <point x="552" y="-95"/>
+      <point x="494" y="-150"/>
+      <point x="367" y="-150" type="curve" smooth="yes"/>
+      <point x="307" y="-150" type="line" smooth="yes"/>
+      <point x="181" y="-150"/>
+      <point x="106" y="-84"/>
+      <point x="106" y="29" type="curve" smooth="yes"/>
+      <point x="106" y="79"/>
+      <point x="124" y="139"/>
+      <point x="149" y="191" type="curve"/>
+      <point x="87" y="210" type="line"/>
+      <point x="58" y="142"/>
+      <point x="40" y="71"/>
+      <point x="40" y="10" type="curve" smooth="yes"/>
+      <point x="40" y="-147"/>
+      <point x="150" y="-240"/>
+      <point x="337" y="-240" type="curve" smooth="yes"/>
+      <point x="521" y="-240"/>
+      <point x="611" y="-164"/>
+      <point x="619" y="0" type="curve"/>
+      <point x="685" y="0" type="line" smooth="yes"/>
+      <point x="750" y="0"/>
+      <point x="790" y="33"/>
+      <point x="803" y="88" type="curve"/>
+      <point x="808" y="88" type="line"/>
+      <point x="820" y="23"/>
+      <point x="860" y="-12"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="834.0" y="-145.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="834.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEB2</string>
+      <key>com.type-invaders.name.production</key>
+      <string>seen-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

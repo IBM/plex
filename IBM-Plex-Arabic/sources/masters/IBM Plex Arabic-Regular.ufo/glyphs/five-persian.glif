@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="five-persian" format="1">
+  <advance width="584"/>
+  <unicode hex="06F5"/>
+  <outline>
+    <contour>
+      <point x="176" y="-9" type="curve" smooth="yes" name="hr00"/>
+      <point x="232" y="-9"/>
+      <point x="258" y="19"/>
+      <point x="269" y="98" type="curve"/>
+      <point x="274" y="98" type="line"/>
+      <point x="287" y="26"/>
+      <point x="329" y="-9"/>
+      <point x="399" y="-9" type="curve" smooth="yes"/>
+      <point x="497" y="-9"/>
+      <point x="544" y="81"/>
+      <point x="544" y="198" type="curve" smooth="yes"/>
+      <point x="544" y="323"/>
+      <point x="487" y="443"/>
+      <point x="364" y="577" type="curve" smooth="yes"/>
+      <point x="337" y="606" type="line"/>
+      <point x="247" y="606" type="line"/>
+      <point x="213" y="567" type="line" smooth="yes"/>
+      <point x="94" y="431"/>
+      <point x="40" y="315"/>
+      <point x="40" y="198" type="curve" smooth="yes"/>
+      <point x="40" y="89"/>
+      <point x="78" y="-9"/>
+    </contour>
+    <contour>
+      <point x="191" y="86" type="curve" smooth="yes"/>
+      <point x="140" y="86"/>
+      <point x="108" y="125"/>
+      <point x="108" y="214" type="curve" smooth="yes"/>
+      <point x="108" y="295"/>
+      <point x="149" y="381"/>
+      <point x="239" y="487" type="curve" smooth="yes"/>
+      <point x="280" y="535" type="line"/>
+      <point x="286" y="535" type="line"/>
+      <point x="331" y="487" type="line" smooth="yes"/>
+      <point x="429" y="382"/>
+      <point x="474" y="291"/>
+      <point x="474" y="198" type="curve" smooth="yes"/>
+      <point x="474" y="115"/>
+      <point x="445" y="77"/>
+      <point x="399" y="77" type="curve" smooth="yes"/>
+      <point x="354" y="77"/>
+      <point x="336" y="107"/>
+      <point x="336" y="171" type="curve" smooth="yes"/>
+      <point x="336" y="249" type="line"/>
+      <point x="266" y="249" type="line"/>
+      <point x="266" y="171" type="line" smooth="yes"/>
+      <point x="266" y="114"/>
+      <point x="238" y="86"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06F5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>five-persian</string>
+    </dict>
+  </lib>
+</glyph>

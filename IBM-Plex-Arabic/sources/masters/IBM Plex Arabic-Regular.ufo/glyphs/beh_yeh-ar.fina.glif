@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beh_yeh-ar.fina" format="1">
+  <advance width="890"/>
+  <unicode hex="FC6F"/>
+  <outline>
+    <component base="comp.behDotless_alefMaksura-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="572" yOffset="-730"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="218" yOffset="-810"/>
+    <contour>
+      <point x="637.0" y="-160.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="553.0" y="419.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="118.0" y="191.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFC6F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>beh_yeh-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

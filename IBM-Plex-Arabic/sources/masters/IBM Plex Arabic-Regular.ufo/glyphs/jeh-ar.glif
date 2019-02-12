@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeh-ar" format="1">
+  <advance width="265"/>
+  <unicode hex="0698"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="threedotsupabove-ar" xOffset="16" yOffset="40"/>
+    <contour>
+      <point x="191.0" y="-58.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="32.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="84.0" y="-227.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="145.0" y="289.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0698</string>
+      <key>com.type-invaders.name.production</key>
+      <string>jeh-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaf_yeh-ar.fina" format="1">
+  <advance width="1058"/>
+  <unicode hex="FC84"/>
+  <outline>
+    <component base="kaf_alefMaksura-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="206" yOffset="-857"/>
+    <contour>
+      <point x="778.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="332.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="598.0" y="552.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="598.0" y="602.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="202.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFC84</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kaf_yeh-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

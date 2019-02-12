@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedots-ar.medi" format="1">
+  <advance width="455"/>
+  <outline>
+    <component base="ain-ar.medi"/>
+    <component base="threedotsupabove-ar" xOffset="107" yOffset="80"/>
+    <contour>
+      <point x="228.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="233.0" y="369.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06A0.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ainThreedots-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

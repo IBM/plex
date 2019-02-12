@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afghani-ar" format="1">
+  <advance width="831"/>
+  <unicode hex="060B"/>
+  <outline>
+    <contour>
+      <point x="324" y="-240" type="line"/>
+      <point x="394" y="-240" type="line"/>
+      <point x="394" y="0" type="line"/>
+      <point x="569" y="0" type="line" smooth="yes"/>
+      <point x="731" y="0"/>
+      <point x="786" y="69"/>
+      <point x="786" y="270" type="curve" smooth="yes"/>
+      <point x="786" y="447"/>
+      <point x="716" y="552"/>
+      <point x="602" y="552" type="curve" smooth="yes"/>
+      <point x="496" y="552"/>
+      <point x="420" y="455"/>
+      <point x="420" y="338" type="curve" smooth="yes"/>
+      <point x="420" y="239"/>
+      <point x="482" y="181"/>
+      <point x="588" y="181" type="curve" smooth="yes"/>
+      <point x="646" y="181"/>
+      <point x="692" y="208"/>
+      <point x="711" y="252" type="curve"/>
+      <point x="716" y="252" type="line"/>
+      <point x="716" y="220" type="line" smooth="yes"/>
+      <point x="716" y="121"/>
+      <point x="678" y="86"/>
+      <point x="569" y="86" type="curve" smooth="yes"/>
+      <point x="394" y="86" type="line"/>
+      <point x="394" y="107" type="line" smooth="yes"/>
+      <point x="394" y="278"/>
+      <point x="326" y="379"/>
+      <point x="216" y="379" type="curve" smooth="yes"/>
+      <point x="110" y="379"/>
+      <point x="34" y="280"/>
+      <point x="34" y="160" type="curve" smooth="yes"/>
+      <point x="34" y="59"/>
+      <point x="96" y="0"/>
+      <point x="202" y="0" type="curve" smooth="yes"/>
+      <point x="324" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="104" y="170" type="curve" smooth="yes"/>
+      <point x="104" y="243"/>
+      <point x="142" y="293"/>
+      <point x="210" y="293" type="curve" smooth="yes"/>
+      <point x="280" y="293"/>
+      <point x="324" y="220"/>
+      <point x="324" y="107" type="curve" smooth="yes"/>
+      <point x="324" y="86" type="line"/>
+      <point x="202" y="86" type="line" smooth="yes"/>
+      <point x="135" y="86"/>
+      <point x="104" y="112"/>
+    </contour>
+    <contour>
+      <point x="608" y="269" type="curve"/>
+      <point x="588" y="269" type="line" smooth="yes"/>
+      <point x="521" y="269"/>
+      <point x="490" y="293"/>
+      <point x="490" y="348" type="curve" smooth="yes"/>
+      <point x="490" y="418"/>
+      <point x="528" y="466"/>
+      <point x="596" y="466" type="curve" smooth="yes"/>
+      <point x="667" y="466"/>
+      <point x="713" y="401"/>
+      <point x="716" y="300" type="curve"/>
+      <point x="697" y="279"/>
+      <point x="665" y="269"/>
+    </contour>
+    <contour>
+      <point x="353" y="540" type="curve" name="hr01"/>
+      <point x="364" y="540" type="line" smooth="yes"/>
+      <point x="390" y="540"/>
+      <point x="408" y="555"/>
+      <point x="408" y="589" type="curve" smooth="yes"/>
+      <point x="408" y="623"/>
+      <point x="390" y="638"/>
+      <point x="364" y="638" type="curve" smooth="yes"/>
+      <point x="353" y="638" type="line" smooth="yes"/>
+      <point x="326" y="638"/>
+      <point x="309" y="623"/>
+      <point x="309" y="589" type="curve" smooth="yes"/>
+      <point x="309" y="555"/>
+      <point x="326" y="540"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni060B</string>
+      <key>com.type-invaders.name.production</key>
+      <string>afghani-ar</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehHamzaabove-ar" format="1">
+  <advance width="783"/>
+  <unicode hex="0626"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="hamzaabove-ar" xOffset="1" yOffset="-66"/>
+    <contour>
+      <point x="376.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="566.0" y="536.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="376.0" y="-240.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="178.0" y="217.0" type="move" name="tail"/>
+    </contour>
+    <contour>
+      <point x="130.0" y="217.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0626</string>
+      <key>com.type-invaders.name.production</key>
+      <string>yehHamzaabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

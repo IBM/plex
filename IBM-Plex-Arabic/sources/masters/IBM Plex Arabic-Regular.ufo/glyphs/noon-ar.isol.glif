@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon-ar.isol" format="1">
+  <advance width="657"/>
+  <unicode hex="FEE5"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="dotabove-ar" xOffset="272" yOffset="22"/>
+    <contour>
+      <point x="317.0" y="-160.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEE5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noon-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

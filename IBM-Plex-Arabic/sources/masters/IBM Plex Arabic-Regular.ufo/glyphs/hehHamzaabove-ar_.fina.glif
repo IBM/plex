@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hehHamzaabove-ar.fina" format="1">
+  <advance width="476"/>
+  <unicode hex="FBA5"/>
+  <outline>
+    <component base="heh-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="148" yOffset="190"/>
+    <contour>
+      <point x="233.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="261.0" y="479.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFBA5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hehHamzaabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

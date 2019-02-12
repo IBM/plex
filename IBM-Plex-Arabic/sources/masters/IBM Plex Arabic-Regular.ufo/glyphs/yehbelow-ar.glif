@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbelow-ar" format="1">
+  <advance width="299"/>
+  <unicode hex="06E6"/>
+  <outline>
+    <component base="comp.yehSmall-ar"/>
+    <contour>
+      <point x="149.0" y="698.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="149.0" y="369.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06E6</string>
+      <key>com.type-invaders.name.production</key>
+      <string>yehbelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

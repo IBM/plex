@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doublerightarrowheadDotabove-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08FC"/>
+  <outline>
+    <contour>
+      <point x="231" y="531" type="line"/>
+      <point x="231" y="509" type="line"/>
+      <point x="372" y="446" type="line"/>
+      <point x="372" y="444" type="line"/>
+      <point x="231" y="382" type="line"/>
+      <point x="231" y="362" type="line"/>
+      <point x="390" y="434" type="line"/>
+      <point x="390" y="459" type="line"/>
+    </contour>
+    <contour>
+      <point x="88" y="531" type="line" name="hr01"/>
+      <point x="88" y="509" type="line"/>
+      <point x="229" y="446" type="line"/>
+      <point x="229" y="444" type="line"/>
+      <point x="88" y="382" type="line"/>
+      <point x="88" y="362" type="line"/>
+      <point x="247" y="434" type="line"/>
+      <point x="247" y="459" type="line"/>
+    </contour>
+    <contour>
+      <point x="41" y="425" type="curve" smooth="yes"/>
+      <point x="45" y="425" type="line" smooth="yes"/>
+      <point x="57" y="425"/>
+      <point x="66" y="432"/>
+      <point x="66" y="447" type="curve" smooth="yes"/>
+      <point x="66" y="462"/>
+      <point x="57" y="469"/>
+      <point x="45" y="469" type="curve" smooth="yes"/>
+      <point x="41" y="469" type="line" smooth="yes"/>
+      <point x="29" y="469"/>
+      <point x="20" y="462"/>
+      <point x="20" y="447" type="curve" smooth="yes"/>
+      <point x="20" y="432"/>
+      <point x="29" y="425"/>
+    </contour>
+    <contour>
+      <point x="239.0" y="531.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="239.0" y="289.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08FC</string>
+      <key>com.type-invaders.name.production</key>
+      <string>doublerightarrowheadDotabove-ar</string>
+    </dict>
+  </lib>
+</glyph>

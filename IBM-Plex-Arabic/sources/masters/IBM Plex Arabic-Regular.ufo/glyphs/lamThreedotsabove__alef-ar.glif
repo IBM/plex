@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamThreedotsabove_alef-ar" format="1">
+  <advance width="518"/>
+  <outline>
+    <component base="lam_alef-ar"/>
+    <component base="threedotsupabove-ar" xOffset="287" yOffset="491"/>
+    <contour>
+      <point x="416.0" y="568.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="378.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="179.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="416.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="152.0" y="574.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06B70627</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lamThreedotsabove_alef-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

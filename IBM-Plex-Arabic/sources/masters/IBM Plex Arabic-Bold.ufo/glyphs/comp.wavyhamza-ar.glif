@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comp.wavyhamza-ar" format="1">
+  <advance width="326"/>
+  <outline>
+    <contour>
+      <point x="316" y="363" type="line" name="hr00"/>
+      <point x="316" y="451" type="line"/>
+      <point x="242" y="451" type="line" smooth="yes"/>
+      <point x="195" y="451"/>
+      <point x="173" y="461"/>
+      <point x="173" y="484" type="curve" smooth="yes"/>
+      <point x="173" y="499"/>
+      <point x="188" y="511"/>
+      <point x="211" y="511" type="curve" smooth="yes"/>
+      <point x="231" y="511"/>
+      <point x="250" y="503"/>
+      <point x="266" y="487" type="curve"/>
+      <point x="314" y="554" type="line"/>
+      <point x="288" y="582"/>
+      <point x="250" y="599"/>
+      <point x="211" y="599" type="curve" smooth="yes"/>
+      <point x="148" y="599"/>
+      <point x="102" y="557"/>
+      <point x="102" y="502" type="curve" smooth="yes"/>
+      <point x="102" y="483"/>
+      <point x="109" y="463"/>
+      <point x="122" y="449" type="curve"/>
+      <point x="121" y="444" type="line"/>
+      <point x="79" y="444" type="line" smooth="yes"/>
+      <point x="33" y="444"/>
+      <point x="10" y="414"/>
+      <point x="10" y="363" type="curve" smooth="yes"/>
+      <point x="10" y="327" type="line"/>
+      <point x="80" y="327" type="line"/>
+      <point x="80" y="363" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>comp.wavyhamzaar</string>
+      <key>com.type-invaders.name.production</key>
+      <string>comp.wavyhamza-ar</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shadda_fatha-ar.medi" format="1">
+  <advance width="347"/>
+  <unicode hex="FCF2"/>
+  <outline>
+    <component base="kashida-ar.long"/>
+    <component base="shaddaFatha-ar" xOffset="9"/>
+    <contour>
+      <point x="174.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFCF2</string>
+      <key>com.type-invaders.name.production</key>
+      <string>shadda_fatha-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

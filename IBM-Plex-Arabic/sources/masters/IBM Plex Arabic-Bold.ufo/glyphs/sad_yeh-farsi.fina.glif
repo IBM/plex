@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad_yeh-farsi.fina" format="1">
+  <advance width="1535"/>
+  <outline>
+    <component base="sad_alefMaksura-ar.fina"/>
+    <contour>
+      <point x="1073.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="376.0" y="-306.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="1197.0" y="463.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="130.0" y="151.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>sad_yehfarsi.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>sad_yeh-farsi.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

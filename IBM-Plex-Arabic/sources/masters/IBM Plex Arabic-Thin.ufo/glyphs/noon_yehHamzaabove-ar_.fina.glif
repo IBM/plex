@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon_yehHamzaabove-ar.fina" format="1">
+  <advance width="884"/>
+  <outline>
+    <component base="comp.behDotless_alefMaksura-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="-5" yOffset="-87"/>
+    <component base="dotabove-ar" xOffset="477" yOffset="111"/>
+    <contour>
+      <point x="603.0" y="-160.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="357.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="540.0" y="400.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="202.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06460626.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noon_yehHamzaabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

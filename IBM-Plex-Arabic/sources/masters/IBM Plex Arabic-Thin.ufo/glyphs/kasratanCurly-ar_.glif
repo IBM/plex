@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasratanCurly-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08E9"/>
+  <outline>
+    <component base="comp.fathacurly-ar"/>
+    <component base="comp.fathacurly-ar" yOffset="-116"/>
+    <contour>
+      <point x="107.0" y="543.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="107.0" y="265.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08E9</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kasratanCurly-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

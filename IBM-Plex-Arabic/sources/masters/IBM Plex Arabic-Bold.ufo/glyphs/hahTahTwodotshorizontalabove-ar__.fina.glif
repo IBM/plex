@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hahTahTwodotshorizontalabove-ar.fina" format="1">
+  <advance width="659"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="twodotshorizontalabove-ar" xOffset="169" yOffset="217"/>
+    <component base="tahabove-ar" xOffset="162" yOffset="431"/>
+    <contour>
+      <point x="339.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="334.0" y="9.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="327.0" y="500.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni076F.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hahTahTwodotshorizontalabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

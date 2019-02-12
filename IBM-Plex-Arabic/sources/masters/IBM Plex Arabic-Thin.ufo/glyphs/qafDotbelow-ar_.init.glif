@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotbelow-ar.init" format="1">
+  <advance width="440"/>
+  <outline>
+    <component base="fehDotless-ar.init"/>
+    <component base="twodotshorizontalabove-ar" xOffset="94" yOffset="253"/>
+    <component base="dotbelow-ar" xOffset="157" yOffset="-617"/>
+    <contour>
+      <point x="220.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="220.0" y="542.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08A5.init</string>
+      <key>com.type-invaders.name.production</key>
+      <string>qafDotbelow-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

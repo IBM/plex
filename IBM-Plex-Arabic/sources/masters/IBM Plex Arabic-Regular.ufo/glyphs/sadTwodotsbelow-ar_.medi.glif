@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sadTwodotsbelow-ar.medi" format="1">
+  <advance width="862"/>
+  <outline>
+    <component base="sad-ar.medi"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="302" yOffset="-570"/>
+    <contour>
+      <point x="431.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="576.0" y="410.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni069D.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>sadTwodotsbelow-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

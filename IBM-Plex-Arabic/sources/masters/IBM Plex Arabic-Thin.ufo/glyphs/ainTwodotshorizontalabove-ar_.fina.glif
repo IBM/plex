@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainTwodotshorizontalabove-ar.fina" format="1">
+  <advance width="571"/>
+  <outline>
+    <component base="ain-ar.fina"/>
+    <component base="twodotshorizontalabove-ar" xOffset="164" yOffset="160"/>
+    <contour>
+      <point x="297.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="258.0" y="-90.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="290.0" y="449.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni075D.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ainTwodotshorizontalabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

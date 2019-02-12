@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="meem-ar.fina" format="1">
+  <advance width="713"/>
+  <unicode hex="FEE2"/>
+  <outline>
+    <contour>
+      <point x="40" y="-304" type="line" name="hr00"/>
+      <point x="160" y="-304" type="line"/>
+      <point x="160" y="34" type="line" smooth="yes"/>
+      <point x="160" y="127"/>
+      <point x="168" y="155"/>
+      <point x="202" y="170" type="curve" smooth="yes"/>
+      <point x="225" y="180" type="line"/>
+      <point x="229" y="175" type="line"/>
+      <point x="214" y="155"/>
+      <point x="206" y="133"/>
+      <point x="206" y="109" type="curve" smooth="yes"/>
+      <point x="206" y="45"/>
+      <point x="260" y="0"/>
+      <point x="341" y="0" type="curve" smooth="yes"/>
+      <point x="510" y="0" type="line"/>
+      <point x="510" y="84" type="line"/>
+      <point x="516" y="85" type="line"/>
+      <point x="550" y="27"/>
+      <point x="595" y="0"/>
+      <point x="683" y="0" type="curve"/>
+      <point x="713" y="30" type="line"/>
+      <point x="713" y="150" type="line"/>
+      <point x="683" y="150" type="line" smooth="yes"/>
+      <point x="639" y="150"/>
+      <point x="621" y="160"/>
+      <point x="606" y="201" type="curve" smooth="yes"/>
+      <point x="527" y="413" type="line"/>
+      <point x="395" y="413" type="line"/>
+      <point x="195" y="318" type="line" smooth="yes"/>
+      <point x="72" y="260"/>
+      <point x="40" y="204"/>
+      <point x="40" y="34" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="282" y="191" type="curve" smooth="yes"/>
+      <point x="282" y="212"/>
+      <point x="297" y="226"/>
+      <point x="332" y="240" type="curve" smooth="yes"/>
+      <point x="437" y="282" type="line"/>
+      <point x="487" y="150" type="line"/>
+      <point x="340" y="150" type="line" smooth="yes"/>
+      <point x="304" y="150"/>
+      <point x="282" y="164"/>
+    </contour>
+    <contour>
+      <point x="395.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="395.0" y="413.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEE2</string>
+      <key>com.type-invaders.name.production</key>
+      <string>meem-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

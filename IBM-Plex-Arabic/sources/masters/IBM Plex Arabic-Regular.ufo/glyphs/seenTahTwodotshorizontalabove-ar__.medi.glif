@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenTahTwodotshorizontalabove-ar.medi" format="1">
+  <advance width="827"/>
+  <outline>
+    <component base="seen-ar.medi"/>
+    <component base="twodotshorizontalabove-ar" xOffset="318"/>
+    <component base="tahabove-ar" xOffset="316" yOffset="181"/>
+    <contour>
+      <point x="450.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="450.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0770.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>seenTahTwodotshorizontalabove-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

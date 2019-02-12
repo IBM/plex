@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenFourabove-ar.medi" format="1">
+  <advance width="827"/>
+  <outline>
+    <component base="seen-ar.medi"/>
+    <component base="foururduabove-ar" xOffset="339" yOffset="-40"/>
+    <contour>
+      <point x="450.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="450.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni077D.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>seenFourabove-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

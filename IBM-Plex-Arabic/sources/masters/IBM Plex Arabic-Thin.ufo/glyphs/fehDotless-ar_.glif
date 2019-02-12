@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehDotless-ar" format="1">
+  <advance width="921"/>
+  <unicode hex="06A1"/>
+  <outline>
+    <contour>
+      <point x="460" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="789" y="-12"/>
+      <point x="871" y="41"/>
+      <point x="871" y="252" type="curve" smooth="yes"/>
+      <point x="871" y="434"/>
+      <point x="807" y="542"/>
+      <point x="700" y="542" type="curve" smooth="yes"/>
+      <point x="602" y="542"/>
+      <point x="531" y="443"/>
+      <point x="531" y="323" type="curve" smooth="yes"/>
+      <point x="531" y="226"/>
+      <point x="588" y="170"/>
+      <point x="693" y="170" type="curve" smooth="yes"/>
+      <point x="751" y="170"/>
+      <point x="809" y="192"/>
+      <point x="848" y="228" type="curve"/>
+      <point x="851" y="228" type="line"/>
+      <point x="850" y="64"/>
+      <point x="774" y="11"/>
+      <point x="480" y="11" type="curve" smooth="yes"/>
+      <point x="440" y="11" type="line" smooth="yes"/>
+      <point x="165" y="11"/>
+      <point x="69" y="58"/>
+      <point x="69" y="194" type="curve" smooth="yes"/>
+      <point x="69" y="247"/>
+      <point x="82" y="299"/>
+      <point x="111" y="361" type="curve"/>
+      <point x="93" y="369" type="line"/>
+      <point x="64" y="306"/>
+      <point x="50" y="251"/>
+      <point x="50" y="194" type="curve" smooth="yes"/>
+      <point x="50" y="41"/>
+      <point x="156" y="-12"/>
+    </contour>
+    <contour>
+      <point x="700" y="193" type="curve"/>
+      <point x="686" y="193" type="line" smooth="yes"/>
+      <point x="599" y="193"/>
+      <point x="551" y="239"/>
+      <point x="551" y="323" type="curve" smooth="yes"/>
+      <point x="551" y="434"/>
+      <point x="615" y="519"/>
+      <point x="698" y="519" type="curve" smooth="yes"/>
+      <point x="794" y="519"/>
+      <point x="851" y="417"/>
+      <point x="851" y="272" type="curve" smooth="yes"/>
+      <point x="851" y="248" type="line"/>
+      <point x="810" y="213"/>
+      <point x="754" y="193"/>
+    </contour>
+    <contour>
+      <point x="460.0" y="-12.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="700.0" y="542.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06A1</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fehDotless-ar</string>
+    </dict>
+  </lib>
+</glyph>

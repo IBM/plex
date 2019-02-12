@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fullstop-ar" format="1">
+  <advance width="296"/>
+  <unicode hex="06D4"/>
+  <outline>
+    <contour>
+      <point x="276" y="86" type="line" name="hr00"/>
+      <point x="193" y="86" type="line" smooth="yes"/>
+      <point x="131" y="86"/>
+      <point x="95" y="94"/>
+      <point x="53" y="119" type="curve"/>
+      <point x="20" y="58" type="line"/>
+      <point x="72" y="12"/>
+      <point x="107" y="0"/>
+      <point x="193" y="0" type="curve" smooth="yes"/>
+      <point x="276" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06D4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fullstop-ar</string>
+    </dict>
+  </lib>
+</glyph>

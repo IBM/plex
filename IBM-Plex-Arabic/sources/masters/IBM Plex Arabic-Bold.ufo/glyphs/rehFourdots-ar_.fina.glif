@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rehFourdots-ar.fina" format="1">
+  <advance width="350"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="fourdotsabove-ar" xOffset="6" yOffset="40"/>
+    <contour>
+      <point x="211.0" y="0.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="40.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="102.0" y="-224.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="164.0" y="323.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0699.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rehFourdots-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

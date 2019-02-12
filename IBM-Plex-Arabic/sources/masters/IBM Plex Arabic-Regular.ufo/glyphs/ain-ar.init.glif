@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ain-ar.init" format="1">
+  <advance width="479"/>
+  <unicode hex="FECB"/>
+  <outline>
+    <contour>
+      <point x="-20" y="0" type="line" name="hr00"/>
+      <point x="120" y="0"/>
+      <point x="201" y="9"/>
+      <point x="330" y="45" type="curve" smooth="yes"/>
+      <point x="460" y="81" type="line"/>
+      <point x="441" y="159" type="line"/>
+      <point x="361" y="139" type="line" smooth="yes"/>
+      <point x="329" y="131"/>
+      <point x="298" y="127"/>
+      <point x="268" y="127" type="curve" smooth="yes"/>
+      <point x="178" y="127"/>
+      <point x="110" y="183"/>
+      <point x="110" y="258" type="curve" smooth="yes"/>
+      <point x="110" y="327"/>
+      <point x="151" y="373"/>
+      <point x="226" y="373" type="curve" smooth="yes"/>
+      <point x="277" y="373"/>
+      <point x="315" y="354"/>
+      <point x="349" y="311" type="curve"/>
+      <point x="399" y="369" type="line"/>
+      <point x="362" y="426"/>
+      <point x="305" y="459"/>
+      <point x="230" y="459" type="curve" smooth="yes"/>
+      <point x="125" y="459"/>
+      <point x="40" y="377"/>
+      <point x="40" y="258" type="curve" smooth="yes"/>
+      <point x="40" y="188"/>
+      <point x="77" y="123"/>
+      <point x="126" y="91" type="curve"/>
+      <point x="126" y="86" type="line"/>
+      <point x="0" y="86" type="line"/>
+      <point x="-20" y="66" type="line"/>
+    </contour>
+    <contour>
+      <point x="224.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="230.0" y="459.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFECB</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ain-ar.init</string>
+    </dict>
+  </lib>
+</glyph>

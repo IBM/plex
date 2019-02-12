@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qaf_yeh-farsi" format="1">
+  <advance width="726"/>
+  <outline>
+    <component base="fehDotless_alefMaksura-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="366" yOffset="341"/>
+    <contour>
+      <point x="627.0" y="-240.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="498.0" y="590.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="118.0" y="191.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>qaf_yehfarsi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>qaf_yeh-farsi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefThreeabove-ar" format="1">
+  <advance width="200"/>
+  <unicode hex="0774"/>
+  <outline>
+    <component base="alef-ar.short"/>
+    <component base="threeabove-ar" xOffset="-15" yOffset="329"/>
+    <contour>
+      <point x="100.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0774</string>
+      <key>com.type-invaders.name.production</key>
+      <string>alefThreeabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

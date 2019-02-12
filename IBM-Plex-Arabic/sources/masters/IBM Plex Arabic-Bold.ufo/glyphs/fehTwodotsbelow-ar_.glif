@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehTwodotsbelow-ar" format="1">
+  <advance width="944"/>
+  <unicode hex="0760"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="276" yOffset="-591"/>
+    <contour>
+      <point x="434.0" y="-12.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="702.0" y="611.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0760</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fehTwodotsbelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

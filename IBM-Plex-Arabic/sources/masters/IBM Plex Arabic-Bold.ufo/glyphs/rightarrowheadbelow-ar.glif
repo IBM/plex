@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rightarrowheadbelow-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08FA"/>
+  <outline>
+    <component base="rightarrowheadabove-ar"/>
+    <contour>
+      <point x="132.0" y="651.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="132.0" y="353.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08FA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rightarrowheadbelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

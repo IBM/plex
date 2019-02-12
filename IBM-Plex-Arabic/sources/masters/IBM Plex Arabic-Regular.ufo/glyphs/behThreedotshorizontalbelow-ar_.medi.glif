@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behThreedotshorizontalbelow-ar.medi" format="1">
+  <advance width="524"/>
+  <outline>
+    <contour>
+      <point x="-20" y="0" type="line"/>
+      <point x="87" y="0" type="line" smooth="yes"/>
+      <point x="178" y="0"/>
+      <point x="215" y="25"/>
+      <point x="230" y="98" type="curve"/>
+      <point x="235" y="98" type="line"/>
+      <point x="251" y="32"/>
+      <point x="304" y="0"/>
+      <point x="397" y="0" type="curve" smooth="yes"/>
+      <point x="504" y="0" type="line"/>
+      <point x="524" y="20" type="line"/>
+      <point x="524" y="86" type="line"/>
+      <point x="382" y="86" type="line" smooth="yes"/>
+      <point x="324" y="86"/>
+      <point x="297" y="113"/>
+      <point x="297" y="171" type="curve" smooth="yes"/>
+      <point x="297" y="329" type="line"/>
+      <point x="227" y="329" type="line"/>
+      <point x="227" y="171" type="line" smooth="yes"/>
+      <point x="227" y="114"/>
+      <point x="199" y="86"/>
+      <point x="142" y="86" type="curve" smooth="yes"/>
+      <point x="0" y="86" type="line"/>
+      <point x="-20" y="66" type="line"/>
+    </contour>
+    <contour>
+      <point x="385" y="-201" type="curve"/>
+      <point x="396" y="-201" type="line" smooth="yes"/>
+      <point x="422" y="-201"/>
+      <point x="440" y="-186"/>
+      <point x="440" y="-152" type="curve" smooth="yes"/>
+      <point x="440" y="-118"/>
+      <point x="422" y="-103"/>
+      <point x="396" y="-103" type="curve" smooth="yes"/>
+      <point x="385" y="-103" type="line" smooth="yes"/>
+      <point x="358" y="-103"/>
+      <point x="341" y="-118"/>
+      <point x="341" y="-152" type="curve" smooth="yes"/>
+      <point x="341" y="-186"/>
+      <point x="358" y="-201"/>
+    </contour>
+    <contour>
+      <point x="256" y="-201" type="curve"/>
+      <point x="267" y="-201" type="line" smooth="yes"/>
+      <point x="293" y="-201"/>
+      <point x="311" y="-186"/>
+      <point x="311" y="-152" type="curve" smooth="yes" name="hr01"/>
+      <point x="311" y="-118"/>
+      <point x="293" y="-103"/>
+      <point x="267" y="-103" type="curve" smooth="yes"/>
+      <point x="256" y="-103" type="line" smooth="yes"/>
+      <point x="229" y="-103"/>
+      <point x="212" y="-118"/>
+      <point x="212" y="-152" type="curve" smooth="yes"/>
+      <point x="212" y="-186"/>
+      <point x="229" y="-201"/>
+    </contour>
+    <contour>
+      <point x="127" y="-201" type="curve"/>
+      <point x="138" y="-201" type="line" smooth="yes"/>
+      <point x="164" y="-201"/>
+      <point x="182" y="-186"/>
+      <point x="182" y="-152" type="curve" smooth="yes"/>
+      <point x="182" y="-118"/>
+      <point x="164" y="-103"/>
+      <point x="138" y="-103" type="curve" smooth="yes"/>
+      <point x="127" y="-103" type="line" smooth="yes"/>
+      <point x="100" y="-103"/>
+      <point x="83" y="-118"/>
+      <point x="83" y="-152" type="curve" smooth="yes"/>
+      <point x="83" y="-186"/>
+      <point x="100" y="-201"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0750.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>behThreedotshorizontalbelow-ar.medi</string>
+    </dict>
+  </lib>
+</glyph>

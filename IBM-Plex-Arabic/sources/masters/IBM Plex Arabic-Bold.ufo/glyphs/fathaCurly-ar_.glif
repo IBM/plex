@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathaCurly-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08E4"/>
+  <outline>
+    <component base="comp.fathacurly-ar"/>
+    <contour>
+      <point x="149.0" y="283.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="149.0" y="435.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08E4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fathaCurly-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

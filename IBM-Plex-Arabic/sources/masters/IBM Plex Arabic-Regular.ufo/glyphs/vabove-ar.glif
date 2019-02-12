@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vabove-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="065A"/>
+  <outline>
+    <contour>
+      <point x="87" y="369" type="line" name="hr00"/>
+      <point x="162" y="369" type="line"/>
+      <point x="240" y="565" type="line"/>
+      <point x="178" y="565" type="line"/>
+      <point x="130" y="429" type="line"/>
+      <point x="129" y="429" type="line"/>
+      <point x="79" y="565" type="line"/>
+      <point x="10" y="565" type="line"/>
+    </contour>
+    <contour>
+      <point x="125.0" y="289.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="125.0" y="565.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni065A</string>
+      <key>com.type-invaders.name.production</key>
+      <string>vabove-ar</string>
+    </dict>
+  </lib>
+</glyph>

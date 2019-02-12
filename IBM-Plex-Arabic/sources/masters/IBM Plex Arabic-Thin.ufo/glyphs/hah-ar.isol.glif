@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hah-ar.isol" format="1">
+  <advance width="586"/>
+  <unicode hex="FEA1"/>
+  <outline>
+    <component base="hah-ar"/>
+    <contour>
+      <point x="337.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="324.0" y="11.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="305.0" y="404.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEA1</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hah-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenFourdotsabove-ar.init" format="1">
+  <advance width="751"/>
+  <outline>
+    <component base="seen-ar.init"/>
+    <component base="fourdotsabove-ar" xOffset="291"/>
+    <contour>
+      <point x="449.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="449.0" y="283.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni075C.init</string>
+      <key>com.type-invaders.name.production</key>
+      <string>seenFourdotsabove-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

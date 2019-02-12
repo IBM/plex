@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="heh-ar.fina" format="1">
+  <advance width="476"/>
+  <unicode hex="FEEA"/>
+  <outline>
+    <contour>
+      <point x="456" y="0" type="curve"/>
+      <point x="476" y="20" type="line"/>
+      <point x="476" y="86" type="line"/>
+      <point x="441" y="86" type="line" smooth="yes"/>
+      <point x="383" y="86"/>
+      <point x="355" y="102"/>
+      <point x="355" y="156" type="curve" smooth="yes"/>
+      <point x="355" y="516" type="line"/>
+      <point x="285" y="516" type="line"/>
+      <point x="285" y="466" type="line"/>
+      <point x="184" y="408" type="line" smooth="yes"/>
+      <point x="61" y="338"/>
+      <point x="15" y="287"/>
+      <point x="15" y="211" type="curve" smooth="yes"/>
+      <point x="15" y="124"/>
+      <point x="68" y="73"/>
+      <point x="157" y="73" type="curve" smooth="yes" name="hr01"/>
+      <point x="219" y="73"/>
+      <point x="266" y="104"/>
+      <point x="285" y="163" type="curve"/>
+      <point x="290" y="163" type="line"/>
+      <point x="290" y="146" type="line" smooth="yes"/>
+      <point x="290" y="38"/>
+      <point x="334" y="0"/>
+    </contour>
+    <contour>
+      <point x="172" y="159" type="curve" smooth="yes" name="hr03"/>
+      <point x="109" y="159"/>
+      <point x="85" y="178"/>
+      <point x="85" y="221" type="curve" smooth="yes"/>
+      <point x="85" y="264"/>
+      <point x="113" y="293"/>
+      <point x="184" y="331" type="curve" smooth="yes"/>
+      <point x="285" y="385" type="line"/>
+      <point x="285" y="239" type="line" smooth="yes"/>
+      <point x="285" y="179"/>
+      <point x="253" y="159"/>
+    </contour>
+    <contour>
+      <point x="233.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="261.0" y="479.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEEA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>heh-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

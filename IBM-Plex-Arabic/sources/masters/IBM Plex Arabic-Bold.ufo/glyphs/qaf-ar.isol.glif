@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qaf-ar.isol" format="1">
+  <advance width="752"/>
+  <unicode hex="FED5"/>
+  <outline>
+    <component base="qafDotless-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="352" yOffset="140"/>
+    <contour>
+      <point x="376.0" y="-230.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFED5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>qaf-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

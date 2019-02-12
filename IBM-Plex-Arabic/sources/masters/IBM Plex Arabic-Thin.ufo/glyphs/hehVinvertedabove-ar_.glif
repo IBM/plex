@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hehVinvertedabove-ar" format="1">
+  <advance width="637"/>
+  <unicode hex="06FF"/>
+  <outline>
+    <component base="hehDoachashmee-ar"/>
+    <component base="vinvertedabove-ar" xOffset="170" yOffset="190"/>
+    <contour>
+      <point x="270.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="270.0" y="439.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06FF</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hehVinvertedabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

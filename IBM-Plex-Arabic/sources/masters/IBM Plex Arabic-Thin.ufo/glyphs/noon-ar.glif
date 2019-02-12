@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon-ar" format="1">
+  <advance width="653"/>
+  <unicode hex="0646"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="dotabove-ar" xOffset="274" yOffset="-40"/>
+    <contour>
+      <point x="317.0" y="-160.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="337.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0646</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noon-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dad_zain-ar.fina" format="1">
+  <advance width="1202"/>
+  <outline>
+    <component base="sad_reh-ar.fina"/>
+    <component base="dotabove-ar" xOffset="85" yOffset="40"/>
+    <component base="dotabove-ar" xOffset="785" yOffset="180"/>
+    <contour>
+      <point x="740.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="40.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="864.0" y="463.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="164.0" y="323.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06360632.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dad_zain-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamDotabove-ar.init" format="1">
+  <advance width="287"/>
+  <outline>
+    <component base="lam-ar.init"/>
+    <component base="dotabove-ar" xOffset="86" yOffset="457"/>
+    <contour>
+      <point x="167.0" y="424.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="165.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="165.0" y="740.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06B6.init</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lamDotabove-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

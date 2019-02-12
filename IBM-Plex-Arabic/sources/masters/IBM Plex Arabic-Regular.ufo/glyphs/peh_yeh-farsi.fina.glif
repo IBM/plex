@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peh_yeh-farsi.fina" format="1">
+  <advance width="890"/>
+  <outline>
+    <component base="comp.behDotless_alefMaksura-ar.fina"/>
+    <component base="threedotsdownbelow-ar" xOffset="505" yOffset="-847"/>
+    <contour>
+      <point x="637.0" y="-160.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="553.0" y="419.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="118.0" y="191.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>peh_yehfarsi.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>peh_yeh-farsi.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

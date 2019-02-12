@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotabove-ar" format="1">
+  <advance width="752"/>
+  <unicode hex="06A7"/>
+  <outline>
+    <component base="qafDotless-ar"/>
+    <component base="dotabove-ar" xOffset="431" yOffset="140"/>
+    <contour>
+      <point x="376.0" y="-230.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="510.0" y="423.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06A7</string>
+      <key>com.type-invaders.name.production</key>
+      <string>qafDotabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

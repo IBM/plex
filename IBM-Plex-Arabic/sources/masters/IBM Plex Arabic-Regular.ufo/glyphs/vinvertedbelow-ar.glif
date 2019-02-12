@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vinvertedbelow-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="163" y="565" type="line" name="hr00"/>
+      <point x="88" y="565" type="line"/>
+      <point x="10" y="369" type="line"/>
+      <point x="72" y="369" type="line"/>
+      <point x="120" y="505" type="line"/>
+      <point x="121" y="505" type="line"/>
+      <point x="171" y="369" type="line"/>
+      <point x="240" y="369" type="line"/>
+    </contour>
+    <contour>
+      <point x="125.0" y="636.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="125.0" y="369.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>vinvertedbelowar</string>
+      <key>com.type-invaders.name.production</key>
+      <string>vinvertedbelow-ar</string>
+    </dict>
+  </lib>
+</glyph>

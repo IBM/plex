@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="keheh-ar.fina" format="1">
+  <advance width="970"/>
+  <unicode hex="FB8F"/>
+  <outline>
+    <contour>
+      <point x="348" y="0" type="curve" smooth="yes" name="hr00"/>
+      <point x="610" y="0" type="line" smooth="yes"/>
+      <point x="683" y="0"/>
+      <point x="730" y="43"/>
+      <point x="730" y="113" type="curve" smooth="yes"/>
+      <point x="730" y="121"/>
+      <point x="729" y="130"/>
+      <point x="728" y="139" type="curve"/>
+      <point x="732" y="141" type="line"/>
+      <point x="749" y="117" type="line" smooth="yes"/>
+      <point x="815" y="23"/>
+      <point x="855" y="0"/>
+      <point x="950" y="0" type="curve"/>
+      <point x="970" y="20" type="line"/>
+      <point x="970" y="86" type="line"/>
+      <point x="892" y="86"/>
+      <point x="855" y="108"/>
+      <point x="785" y="195" type="curve" smooth="yes"/>
+      <point x="563" y="471" type="line"/>
+      <point x="563" y="476" type="line"/>
+      <point x="960" y="660" type="line"/>
+      <point x="960" y="751" type="line"/>
+      <point x="528" y="552" type="line"/>
+      <point x="528" y="378" type="line"/>
+      <point x="649" y="227" type="line" smooth="yes"/>
+      <point x="691" y="174"/>
+      <point x="702" y="155"/>
+      <point x="702" y="133" type="curve" smooth="yes"/>
+      <point x="702" y="98"/>
+      <point x="678" y="86"/>
+      <point x="610" y="86" type="curve" smooth="yes"/>
+      <point x="348" y="86" type="line" smooth="yes"/>
+      <point x="183" y="86"/>
+      <point x="107" y="123"/>
+      <point x="107" y="204" type="curve" smooth="yes"/>
+      <point x="107" y="246"/>
+      <point x="120" y="292"/>
+      <point x="148" y="350" type="curve"/>
+      <point x="86" y="369" type="line"/>
+      <point x="57" y="302"/>
+      <point x="43" y="247"/>
+      <point x="43" y="194" type="curve" smooth="yes"/>
+      <point x="43" y="61"/>
+      <point x="139" y="0"/>
+    </contour>
+    <contour>
+      <point x="418.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="528.0" y="552.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="785.0" y="571.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="654.0" y="668.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFB8F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>keheh-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

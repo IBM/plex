@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonRing-ar.fina" format="1">
+  <advance width="747"/>
+  <outline>
+    <contour>
+      <point x="317" y="-392" type="curve" smooth="yes" name="hr00"/>
+      <point x="364" y="-392"/>
+      <point x="399" y="-355"/>
+      <point x="399" y="-306" type="curve" smooth="yes"/>
+      <point x="399" y="-277"/>
+      <point x="387" y="-253"/>
+      <point x="367" y="-237" type="curve"/>
+      <point x="507" y="-221"/>
+      <point x="592" y="-135"/>
+      <point x="602" y="0" type="curve"/>
+      <point x="737" y="0" type="line"/>
+      <point x="747" y="10" type="line"/>
+      <point x="747" y="23" type="line"/>
+      <point x="603" y="23" type="line"/>
+      <point x="603" y="26" type="line" smooth="yes"/>
+      <point x="603" y="70"/>
+      <point x="598" y="116"/>
+      <point x="585" y="205" type="curve" smooth="yes"/>
+      <point x="573" y="288" type="line"/>
+      <point x="553" y="285" type="line"/>
+      <point x="565" y="202" type="line" smooth="yes"/>
+      <point x="578" y="111"/>
+      <point x="584" y="68"/>
+      <point x="584" y="26" type="curve" smooth="yes"/>
+      <point x="584" y="-127"/>
+      <point x="488" y="-217"/>
+      <point x="325" y="-217" type="curve" smooth="yes"/>
+      <point x="309" y="-217" type="line" smooth="yes"/>
+      <point x="158" y="-217"/>
+      <point x="69" y="-133"/>
+      <point x="69" y="10" type="curve" smooth="yes"/>
+      <point x="69" y="66"/>
+      <point x="85" y="133"/>
+      <point x="115" y="202" type="curve"/>
+      <point x="97" y="210" type="line"/>
+      <point x="68" y="143"/>
+      <point x="50" y="72"/>
+      <point x="50" y="10" type="curve" smooth="yes"/>
+      <point x="50" y="-130"/>
+      <point x="130" y="-220"/>
+      <point x="267" y="-237" type="curve"/>
+      <point x="246" y="-253"/>
+      <point x="234" y="-277"/>
+      <point x="234" y="-306" type="curve" smooth="yes"/>
+      <point x="234" y="-355"/>
+      <point x="270" y="-392"/>
+    </contour>
+    <contour>
+      <point x="317" y="-372" type="curve" smooth="yes"/>
+      <point x="280" y="-372"/>
+      <point x="252" y="-344"/>
+      <point x="252" y="-306" type="curve" smooth="yes"/>
+      <point x="252" y="-267"/>
+      <point x="280" y="-240"/>
+      <point x="317" y="-240" type="curve" smooth="yes"/>
+      <point x="354" y="-240"/>
+      <point x="381" y="-268"/>
+      <point x="381" y="-306" type="curve" smooth="yes"/>
+      <point x="381" y="-344"/>
+      <point x="354" y="-372"/>
+    </contour>
+    <contour>
+      <point x="335" y="296" type="curve"/>
+      <point x="339" y="296" type="line" smooth="yes"/>
+      <point x="351" y="296"/>
+      <point x="360" y="303"/>
+      <point x="360" y="318" type="curve" smooth="yes"/>
+      <point x="360" y="333"/>
+      <point x="351" y="340"/>
+      <point x="339" y="340" type="curve" smooth="yes"/>
+      <point x="335" y="340" type="line" smooth="yes"/>
+      <point x="323" y="340"/>
+      <point x="314" y="333"/>
+      <point x="314" y="318" type="curve" smooth="yes"/>
+      <point x="314" y="303"/>
+      <point x="323" y="296"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06BC.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noonRing-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

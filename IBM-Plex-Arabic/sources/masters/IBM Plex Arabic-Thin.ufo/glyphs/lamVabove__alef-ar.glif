@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamVabove_alef-ar" format="1">
+  <advance width="450"/>
+  <outline>
+    <component base="lam_alef-ar"/>
+    <component base="vabove-ar" xOffset="249" yOffset="451"/>
+    <contour>
+      <point x="350.0" y="568.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="325.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="123.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="349.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="98.0" y="596.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06B50627</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lamVabove_alef-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
