@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainTwodotsverticalabove-ar.medi" format="1">
+  <advance width="508"/>
+  <outline>
+    <component base="ain-ar.medi"/>
+    <component base="twodotsverticalabove-ar" xOffset="12" yOffset="194"/>
+    <contour>
+      <point x="256.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="249.0" y="477.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni075F.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ainTwodotsverticalabove-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

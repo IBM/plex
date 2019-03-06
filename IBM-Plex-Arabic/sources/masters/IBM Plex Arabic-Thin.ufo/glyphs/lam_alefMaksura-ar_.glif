@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefMaksura-ar" format="1">
+  <advance width="716"/>
+  <unicode hex="FC43"/>
+  <outline>
+    <contour>
+      <point x="357" y="-240" type="curve" smooth="yes" name="hr00"/>
+      <point x="551" y="-240"/>
+      <point x="666" y="-149"/>
+      <point x="666" y="5" type="curve" smooth="yes"/>
+      <point x="666" y="26"/>
+      <point x="660" y="34"/>
+      <point x="642" y="39" type="curve" smooth="yes"/>
+      <point x="497" y="77" type="line"/>
+      <point x="497" y="80" type="line"/>
+      <point x="572" y="96"/>
+      <point x="607" y="142"/>
+      <point x="607" y="225" type="curve" smooth="yes"/>
+      <point x="607" y="740" type="line"/>
+      <point x="588" y="740" type="line"/>
+      <point x="588" y="223" type="line" smooth="yes"/>
+      <point x="588" y="137"/>
+      <point x="540" y="97"/>
+      <point x="434" y="97" type="curve" smooth="yes"/>
+      <point x="420" y="97" type="line"/>
+      <point x="420" y="74" type="line"/>
+      <point x="646" y="15" type="line"/>
+      <point x="646" y="5" type="line" smooth="yes"/>
+      <point x="646" y="-135"/>
+      <point x="542" y="-217"/>
+      <point x="365" y="-217" type="curve" smooth="yes"/>
+      <point x="349" y="-217" type="line" smooth="yes"/>
+      <point x="173" y="-217"/>
+      <point x="69" y="-133"/>
+      <point x="69" y="10" type="curve" smooth="yes"/>
+      <point x="69" y="66"/>
+      <point x="85" y="133"/>
+      <point x="115" y="202" type="curve"/>
+      <point x="97" y="210" type="line"/>
+      <point x="68" y="143"/>
+      <point x="50" y="72"/>
+      <point x="50" y="10" type="curve" smooth="yes"/>
+      <point x="50" y="-147"/>
+      <point x="164" y="-240"/>
+    </contour>
+    <contour>
+      <point x="573.0" y="-240.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="332.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="598.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="202.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFC43</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lam_alefMaksura-ar</string>
+    </dict>
+  </lib>
+</glyph>

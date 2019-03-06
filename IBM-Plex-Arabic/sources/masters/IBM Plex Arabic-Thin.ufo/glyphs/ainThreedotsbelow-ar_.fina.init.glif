@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedotsbelow-ar.fina.init" format="1">
+  <advance width="427"/>
+  <outline>
+    <component base="ain-ar.init"/>
+    <component base="threedotsdownbelow-ar" xOffset="98" yOffset="-737"/>
+    <contour>
+      <point x="224.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="212.0" y="388.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08B3.fina.init</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ainThreedotsbelow-ar.fina.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatan-ar.medi" format="1">
+  <advance width="97"/>
+  <unicode hex="FE71"/>
+  <outline>
+    <component base="kashida-ar"/>
+    <component base="fathatan-ar" xOffset="-58" yOffset="-40"/>
+    <contour>
+      <point x="49.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="49.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFE71</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fathatan-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kafRing-ar.medi" format="1">
+  <advance width="452"/>
+  <outline>
+    <contour>
+      <point x="267" y="429" type="curve" smooth="yes"/>
+      <point x="322" y="429"/>
+      <point x="363" y="472"/>
+      <point x="363" y="529" type="curve" smooth="yes"/>
+      <point x="363" y="561"/>
+      <point x="350" y="589"/>
+      <point x="328" y="607" type="curve"/>
+      <point x="442" y="660" type="line"/>
+      <point x="442" y="751" type="line"/>
+      <point x="10" y="552" type="line"/>
+      <point x="10" y="378" type="line"/>
+      <point x="131" y="227" type="line" smooth="yes"/>
+      <point x="173" y="174"/>
+      <point x="184" y="155"/>
+      <point x="184" y="133" type="curve" smooth="yes"/>
+      <point x="184" y="98"/>
+      <point x="160" y="86"/>
+      <point x="92" y="86" type="curve" smooth="yes"/>
+      <point x="0" y="86" type="line"/>
+      <point x="-20" y="66" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="92" y="0" type="line" smooth="yes"/>
+      <point x="165" y="0"/>
+      <point x="212" y="43"/>
+      <point x="212" y="113" type="curve" smooth="yes"/>
+      <point x="212" y="121"/>
+      <point x="211" y="130"/>
+      <point x="210" y="139" type="curve"/>
+      <point x="214" y="141" type="line"/>
+      <point x="231" y="117" type="line" smooth="yes"/>
+      <point x="297" y="23"/>
+      <point x="337" y="0"/>
+      <point x="432" y="0" type="curve"/>
+      <point x="452" y="20" type="line"/>
+      <point x="452" y="86" type="line"/>
+      <point x="374" y="86"/>
+      <point x="337" y="108"/>
+      <point x="267" y="195" type="curve" smooth="yes"/>
+      <point x="45" y="471" type="line"/>
+      <point x="45" y="476" type="line"/>
+      <point x="170" y="534" type="line" name="hr01"/>
+      <point x="170" y="529" type="line" smooth="yes"/>
+      <point x="170" y="472"/>
+      <point x="212" y="429"/>
+    </contour>
+    <contour>
+      <point x="267" y="487" type="curve" smooth="yes"/>
+      <point x="240" y="487"/>
+      <point x="220" y="505"/>
+      <point x="220" y="529" type="curve" smooth="yes"/>
+      <point x="220" y="553"/>
+      <point x="240" y="571"/>
+      <point x="267" y="571" type="curve" smooth="yes"/>
+      <point x="293" y="571"/>
+      <point x="313" y="553"/>
+      <point x="313" y="529" type="curve" smooth="yes"/>
+      <point x="313" y="505"/>
+      <point x="293" y="487"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06AB.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kafRing-ar.medi</string>
+    </dict>
+  </lib>
+</glyph>

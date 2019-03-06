@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="highhamza-ar" format="1">
+  <advance width="297"/>
+  <unicode hex="0674"/>
+  <outline>
+    <component base="comp.hamza-ar" xOffset="20" yOffset="153"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0674</string>
+      <key>com.type-invaders.name.production</key>
+      <string>highhamza-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="percent-ar" format="1">
+  <advance width="531"/>
+  <unicode hex="066A"/>
+  <outline>
+    <contour>
+      <point x="60" y="0" type="line" name="hr00"/>
+      <point x="83" y="0" type="line"/>
+      <point x="471" y="618" type="line"/>
+      <point x="448" y="618" type="line"/>
+    </contour>
+    <contour>
+      <point x="393" y="27" type="curve" smooth="yes"/>
+      <point x="393" y="9"/>
+      <point x="402" y="0"/>
+      <point x="418" y="0" type="curve" smooth="yes"/>
+      <point x="426" y="0" type="line" smooth="yes"/>
+      <point x="442" y="0"/>
+      <point x="451" y="9"/>
+      <point x="451" y="27" type="curve" smooth="yes"/>
+      <point x="451" y="45"/>
+      <point x="442" y="54"/>
+      <point x="426" y="54" type="curve" smooth="yes"/>
+      <point x="418" y="54" type="line" smooth="yes"/>
+      <point x="402" y="54"/>
+      <point x="393" y="45"/>
+    </contour>
+    <contour>
+      <point x="89" y="591" type="curve" smooth="yes"/>
+      <point x="89" y="573"/>
+      <point x="98" y="564"/>
+      <point x="114" y="564" type="curve" smooth="yes"/>
+      <point x="122" y="564" type="line" smooth="yes"/>
+      <point x="138" y="564"/>
+      <point x="147" y="573"/>
+      <point x="147" y="591" type="curve" smooth="yes"/>
+      <point x="147" y="609"/>
+      <point x="138" y="618"/>
+      <point x="122" y="618" type="curve" smooth="yes"/>
+      <point x="114" y="618" type="line" smooth="yes"/>
+      <point x="98" y="618"/>
+      <point x="89" y="609"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni066A</string>
+      <key>com.type-invaders.name.production</key>
+      <string>percent-ar</string>
+    </dict>
+  </lib>
+</glyph>

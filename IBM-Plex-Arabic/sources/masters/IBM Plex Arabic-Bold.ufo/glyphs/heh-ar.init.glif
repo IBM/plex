@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="heh-ar.init" format="1">
+  <advance width="666"/>
+  <unicode hex="FEEB"/>
+  <outline>
+    <contour>
+      <point x="-30" y="0" type="line" name="hr00"/>
+      <point x="38" y="0" type="line" smooth="yes"/>
+      <point x="109" y="0"/>
+      <point x="179" y="16"/>
+      <point x="240" y="54" type="curve"/>
+      <point x="301" y="16"/>
+      <point x="371" y="0"/>
+      <point x="442" y="0" type="curve" smooth="yes"/>
+      <point x="551" y="0" type="line"/>
+      <point x="641" y="136" type="line"/>
+      <point x="641" y="156" type="line" smooth="yes"/>
+      <point x="641" y="310"/>
+      <point x="570" y="415"/>
+      <point x="414" y="490" type="curve" smooth="yes"/>
+      <point x="255" y="566" type="line"/>
+      <point x="225" y="504" type="line"/>
+      <point x="126" y="496"/>
+      <point x="53" y="404"/>
+      <point x="53" y="292" type="curve" smooth="yes"/>
+      <point x="53" y="239"/>
+      <point x="71" y="196"/>
+      <point x="110" y="155" type="curve"/>
+      <point x="108" y="150" type="line"/>
+      <point x="0" y="150" type="line"/>
+      <point x="-30" y="120" type="line"/>
+    </contour>
+    <contour>
+      <point x="240" y="163" type="curve"/>
+      <point x="178" y="199"/>
+      <point x="145" y="237"/>
+      <point x="145" y="287" type="curve" smooth="yes"/>
+      <point x="145" y="347"/>
+      <point x="180" y="385"/>
+      <point x="234" y="385" type="curve" smooth="yes"/>
+      <point x="246" y="385" type="line" smooth="yes"/>
+      <point x="300" y="385"/>
+      <point x="335" y="347"/>
+      <point x="335" y="287" type="curve" smooth="yes"/>
+      <point x="335" y="237"/>
+      <point x="302" y="199"/>
+    </contour>
+    <contour>
+      <point x="426" y="335" type="line"/>
+      <point x="505" y="292"/>
+      <point x="541" y="236"/>
+      <point x="541" y="156" type="curve" smooth="yes"/>
+      <point x="541" y="150" type="line"/>
+      <point x="372" y="150" type="line"/>
+      <point x="370" y="155" type="line"/>
+      <point x="409" y="196"/>
+      <point x="427" y="239"/>
+      <point x="427" y="292" type="curve" smooth="yes"/>
+      <point x="427" y="306"/>
+      <point x="426" y="319"/>
+      <point x="424" y="332" type="curve"/>
+    </contour>
+    <contour>
+      <point x="240.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="240.0" y="505.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEEB</string>
+      <key>com.type-invaders.name.production</key>
+      <string>heh-ar.init</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefHamzabelow-ar.isol" format="1">
+  <advance width="240"/>
+  <unicode hex="FE87"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="hamzabelow-ar" xOffset="3" yOffset="-630"/>
+    <contour>
+      <point x="344.0" y="489.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="120.0" y="740.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFE87</string>
+      <key>com.type-invaders.name.production</key>
+      <string>alefHamzabelow-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

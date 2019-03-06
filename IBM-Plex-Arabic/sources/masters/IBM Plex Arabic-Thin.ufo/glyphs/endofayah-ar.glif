@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endofayah-ar" format="1">
+  <advance width="1160"/>
+  <unicode hex="06DD"/>
+  <outline>
+    <contour>
+      <point x="580" y="-240" type="curve" smooth="yes" name="hr00"/>
+      <point x="871" y="-240"/>
+      <point x="1090" y="-21"/>
+      <point x="1090" y="270" type="curve" smooth="yes"/>
+      <point x="1090" y="561"/>
+      <point x="871" y="780"/>
+      <point x="580" y="780" type="curve" smooth="yes"/>
+      <point x="289" y="780"/>
+      <point x="70" y="561"/>
+      <point x="70" y="270" type="curve" smooth="yes"/>
+      <point x="70" y="-21"/>
+      <point x="289" y="-240"/>
+    </contour>
+    <contour>
+      <point x="577" y="-190" type="curve" smooth="yes"/>
+      <point x="583" y="-190" type="line" smooth="yes"/>
+      <point x="599" y="-190"/>
+      <point x="611" y="-180"/>
+      <point x="611" y="-160" type="curve" smooth="yes"/>
+      <point x="611" y="-140"/>
+      <point x="599" y="-130"/>
+      <point x="583" y="-130" type="curve" smooth="yes"/>
+      <point x="577" y="-130" type="line" smooth="yes"/>
+      <point x="561" y="-130"/>
+      <point x="549" y="-140"/>
+      <point x="549" y="-160" type="curve" smooth="yes"/>
+      <point x="549" y="-180"/>
+      <point x="561" y="-190"/>
+    </contour>
+    <contour>
+      <point x="570" y="-218" type="line" smooth="yes"/>
+      <point x="295" y="-218"/>
+      <point x="88" y="-9"/>
+      <point x="88" y="270" type="curve" smooth="yes"/>
+      <point x="88" y="549"/>
+      <point x="295" y="758"/>
+      <point x="570" y="758" type="curve" smooth="yes"/>
+      <point x="590" y="758" type="line" smooth="yes"/>
+      <point x="865" y="758"/>
+      <point x="1072" y="549"/>
+      <point x="1072" y="270" type="curve" smooth="yes"/>
+      <point x="1072" y="-9"/>
+      <point x="865" y="-218"/>
+      <point x="590" y="-218" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="577" y="670" type="curve" smooth="yes"/>
+      <point x="583" y="670" type="line" smooth="yes"/>
+      <point x="599" y="670"/>
+      <point x="611" y="680"/>
+      <point x="611" y="700" type="curve" smooth="yes"/>
+      <point x="611" y="720"/>
+      <point x="599" y="730"/>
+      <point x="583" y="730" type="curve" smooth="yes"/>
+      <point x="577" y="730" type="line" smooth="yes"/>
+      <point x="561" y="730"/>
+      <point x="549" y="720"/>
+      <point x="549" y="700" type="curve" smooth="yes"/>
+      <point x="549" y="680"/>
+      <point x="561" y="670"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06DD</string>
+      <key>com.type-invaders.name.production</key>
+      <string>endofayah-ar</string>
+    </dict>
+  </lib>
+</glyph>

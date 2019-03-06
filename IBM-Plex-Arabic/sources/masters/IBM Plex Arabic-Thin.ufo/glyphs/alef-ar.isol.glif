@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar.isol" format="1">
+  <advance width="200"/>
+  <unicode hex="FE8D"/>
+  <outline>
+    <component base="alef-ar"/>
+    <contour>
+      <point x="100.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="253.0" y="529.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="100.0" y="740.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFE8D</string>
+      <key>com.type-invaders.name.production</key>
+      <string>alef-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

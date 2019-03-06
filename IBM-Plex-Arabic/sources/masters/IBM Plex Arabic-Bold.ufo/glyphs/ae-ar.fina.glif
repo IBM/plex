@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ae-ar.fina" format="1">
+  <advance width="530"/>
+  <outline>
+    <component base="heh-ar.fina"/>
+    <contour>
+      <point x="230.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="302.0" y="525.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06D5.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ae-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

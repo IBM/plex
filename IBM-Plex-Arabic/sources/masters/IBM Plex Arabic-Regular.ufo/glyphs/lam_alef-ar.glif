@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alef-ar" format="1">
+  <advance width="518"/>
+  <unicode hex="FEFB"/>
+  <outline>
+    <contour>
+      <point x="67" y="0" type="line"/>
+      <point x="378" y="0" type="line" smooth="yes"/>
+      <point x="442" y="0"/>
+      <point x="473" y="42"/>
+      <point x="473" y="86" type="curve" smooth="yes"/>
+      <point x="473" y="117"/>
+      <point x="458" y="145"/>
+      <point x="414" y="195" type="curve" smooth="yes"/>
+      <point x="353" y="264" type="line"/>
+      <point x="363" y="274" type="line" smooth="yes"/>
+      <point x="436" y="347"/>
+      <point x="453" y="385"/>
+      <point x="453" y="482" type="curve" smooth="yes" name="hr01"/>
+      <point x="453" y="740" type="line"/>
+      <point x="379" y="740" type="line"/>
+      <point x="379" y="482" type="line" smooth="yes"/>
+      <point x="379" y="405"/>
+      <point x="366" y="372"/>
+      <point x="312" y="320" type="curve" smooth="yes"/>
+      <point x="307" y="315" type="line"/>
+      <point x="52" y="604" type="line"/>
+      <point x="-2" y="557" type="line"/>
+      <point x="255" y="265" type="line"/>
+      <point x="67" y="82" type="line"/>
+    </contour>
+    <contour>
+      <point x="414" y="86" type="line" name="hr02"/>
+      <point x="171" y="86" type="line"/>
+      <point x="170" y="90" type="line"/>
+      <point x="300" y="214" type="line"/>
+    </contour>
+    <contour>
+      <point x="416.0" y="568.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="378.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="179.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="416.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="152.0" y="574.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEFB</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lam_alef-ar</string>
+    </dict>
+  </lib>
+</glyph>

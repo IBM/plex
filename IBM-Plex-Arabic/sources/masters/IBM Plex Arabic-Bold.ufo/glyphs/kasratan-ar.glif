@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasratan-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="064D"/>
+  <outline>
+    <component base="comp.fatha-ar"/>
+    <component base="comp.fatha-ar" yOffset="-153"/>
+    <contour>
+      <point x="129.0" y="604.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="129.0" y="245.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni064D</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kasratan-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

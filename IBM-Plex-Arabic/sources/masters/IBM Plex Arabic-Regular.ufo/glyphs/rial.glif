@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rial" format="1">
+  <advance width="1094"/>
+  <unicode hex="FDFC"/>
+  <outline>
+    <contour>
+      <point x="268" y="-12" type="curve" smooth="yes"/>
+      <point x="439" y="-12"/>
+      <point x="496" y="75"/>
+      <point x="496" y="214" type="curve" smooth="yes"/>
+      <point x="496" y="674" type="line"/>
+      <point x="423" y="674" type="line"/>
+      <point x="423" y="214" type="line" smooth="yes"/>
+      <point x="423" y="106"/>
+      <point x="380" y="80"/>
+      <point x="295" y="80" type="curve" smooth="yes"/>
+      <point x="241" y="80" type="line" smooth="yes"/>
+      <point x="162" y="80"/>
+      <point x="114" y="122"/>
+      <point x="114" y="189" type="curve" smooth="yes"/>
+      <point x="114" y="223"/>
+      <point x="127" y="259"/>
+      <point x="145" y="292" type="curve"/>
+      <point x="85" y="309" type="line"/>
+      <point x="64" y="267"/>
+      <point x="51" y="219"/>
+      <point x="51" y="179" type="curve" smooth="yes"/>
+      <point x="51" y="60"/>
+      <point x="130" y="-12"/>
+    </contour>
+    <contour>
+      <point x="551" y="-8" type="curve" smooth="yes" name="hr01"/>
+      <point x="562" y="-8" type="line" smooth="yes"/>
+      <point x="585" y="-8"/>
+      <point x="602" y="4"/>
+      <point x="602" y="33" type="curve" smooth="yes"/>
+      <point x="602" y="62"/>
+      <point x="585" y="75"/>
+      <point x="562" y="75" type="curve" smooth="yes"/>
+      <point x="551" y="75" type="line" smooth="yes"/>
+      <point x="527" y="75"/>
+      <point x="511" y="62"/>
+      <point x="511" y="33" type="curve" smooth="yes"/>
+      <point x="511" y="5"/>
+      <point x="527" y="-8"/>
+    </contour>
+    <contour>
+      <point x="679" y="-8" type="curve" smooth="yes"/>
+      <point x="690" y="-8" type="line" smooth="yes"/>
+      <point x="713" y="-8"/>
+      <point x="730" y="4"/>
+      <point x="730" y="33" type="curve" smooth="yes"/>
+      <point x="730" y="62"/>
+      <point x="713" y="75"/>
+      <point x="690" y="75" type="curve" smooth="yes"/>
+      <point x="679" y="75" type="line" smooth="yes"/>
+      <point x="655" y="75"/>
+      <point x="639" y="62"/>
+      <point x="639" y="33" type="curve" smooth="yes"/>
+      <point x="639" y="5"/>
+      <point x="655" y="-8"/>
+    </contour>
+    <contour>
+      <point x="788" y="-9" type="line" name="hr02"/>
+      <point x="824" y="-9" type="line" smooth="yes"/>
+      <point x="984" y="-9"/>
+      <point x="1043" y="79"/>
+      <point x="1043" y="198" type="curve" smooth="yes"/>
+      <point x="1043" y="228"/>
+      <point x="1038" y="268"/>
+      <point x="1030" y="312" type="curve" smooth="yes"/>
+      <point x="1013" y="404" type="line"/>
+      <point x="945" y="392" type="line"/>
+      <point x="968" y="274" type="line" smooth="yes"/>
+      <point x="973" y="249"/>
+      <point x="977" y="220"/>
+      <point x="977" y="196" type="curve" smooth="yes"/>
+      <point x="977" y="111"/>
+      <point x="929" y="77"/>
+      <point x="824" y="77" type="curve" smooth="yes"/>
+      <point x="788" y="77" type="line"/>
+    </contour>
+    <contour>
+      <point x="723" y="156" type="curve" smooth="yes"/>
+      <point x="830" y="156"/>
+      <point x="880" y="197"/>
+      <point x="880" y="290" type="curve" smooth="yes"/>
+      <point x="880" y="312"/>
+      <point x="877" y="343"/>
+      <point x="871" y="377" type="curve" smooth="yes"/>
+      <point x="859" y="440" type="line"/>
+      <point x="793" y="426" type="line"/>
+      <point x="805" y="366" type="line" smooth="yes"/>
+      <point x="812" y="333"/>
+      <point x="815" y="309"/>
+      <point x="815" y="294" type="curve" smooth="yes"/>
+      <point x="815" y="255"/>
+      <point x="789" y="242"/>
+      <point x="749" y="242" type="curve" smooth="yes"/>
+      <point x="717" y="242" type="line" smooth="yes"/>
+      <point x="666" y="242"/>
+      <point x="651" y="263"/>
+      <point x="651" y="294" type="curve" smooth="yes"/>
+      <point x="651" y="674" type="line"/>
+      <point x="578" y="674" type="line"/>
+      <point x="578" y="287" type="line" smooth="yes"/>
+      <point x="578" y="208"/>
+      <point x="611" y="156"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFDFC</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rial</string>
+    </dict>
+  </lib>
+</glyph>

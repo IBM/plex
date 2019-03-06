@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonDotbelow-ar" format="1">
+  <advance width="692"/>
+  <unicode hex="06B9"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="dotabove-ar" xOffset="267" yOffset="12"/>
+    <component base="dotbelow-ar" xOffset="267" yOffset="-741"/>
+    <contour>
+      <point x="346.0" y="-162.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="346.0" y="295.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06B9</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noonDotbelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

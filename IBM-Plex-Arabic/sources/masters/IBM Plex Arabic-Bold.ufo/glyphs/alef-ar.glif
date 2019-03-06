@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar" format="1">
+  <advance width="240"/>
+  <unicode hex="0627"/>
+  <outline>
+    <contour>
+      <point x="60" y="0" type="line" name="hr00"/>
+      <point x="180" y="0" type="line"/>
+      <point x="180" y="740" type="line"/>
+      <point x="60" y="740" type="line"/>
+    </contour>
+    <contour>
+      <point x="120.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="344.0" y="489.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="120.0" y="740.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0627</string>
+      <key>com.type-invaders.name.production</key>
+      <string>alef-ar</string>
+    </dict>
+  </lib>
+</glyph>

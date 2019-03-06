@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ae-ar" format="1">
+  <advance width="462"/>
+  <unicode hex="06D5"/>
+  <outline>
+    <component base="heh-ar"/>
+    <contour>
+      <point x="219.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="234.0" y="454.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06D5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ae-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

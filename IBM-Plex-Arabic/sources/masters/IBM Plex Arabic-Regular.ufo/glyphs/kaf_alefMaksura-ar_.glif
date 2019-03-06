@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaf_alefMaksura-ar" format="1">
+  <advance width="770"/>
+  <unicode hex="FC3D"/>
+  <outline>
+    <contour>
+      <point x="579" y="89" type="line"/>
+      <point x="613" y="117"/>
+      <point x="633" y="162"/>
+      <point x="633" y="209" type="curve" smooth="yes"/>
+      <point x="633" y="275"/>
+      <point x="604" y="313"/>
+      <point x="521" y="394" type="curve" smooth="yes"/>
+      <point x="403" y="509" type="line"/>
+      <point x="403" y="514" type="line"/>
+      <point x="800" y="698" type="line"/>
+      <point x="800" y="789" type="line"/>
+      <point x="368" y="590" type="line"/>
+      <point x="368" y="420" type="line"/>
+      <point x="517" y="278" type="line" smooth="yes"/>
+      <point x="550" y="246"/>
+      <point x="563" y="222"/>
+      <point x="563" y="196" type="curve" smooth="yes"/>
+      <point x="563" y="151"/>
+      <point x="536" y="124"/>
+      <point x="491" y="124" type="curve" smooth="yes"/>
+      <point x="414" y="124" type="line"/>
+      <point x="414" y="42" type="line"/>
+      <point x="630" y="-6" type="line" name="hr01"/>
+      <point x="630" y="-8" type="line" smooth="yes"/>
+      <point x="630" y="-76"/>
+      <point x="536" y="-150"/>
+      <point x="377" y="-150" type="curve" smooth="yes"/>
+      <point x="317" y="-150" type="line" smooth="yes"/>
+      <point x="185" y="-150"/>
+      <point x="106" y="-84"/>
+      <point x="106" y="29" type="curve" smooth="yes"/>
+      <point x="106" y="79"/>
+      <point x="124" y="139"/>
+      <point x="149" y="191" type="curve"/>
+      <point x="87" y="210" type="line"/>
+      <point x="58" y="142"/>
+      <point x="40" y="71"/>
+      <point x="40" y="10" type="curve" smooth="yes"/>
+      <point x="40" y="-147"/>
+      <point x="154" y="-240"/>
+      <point x="347" y="-240" type="curve" smooth="yes"/>
+      <point x="566" y="-240"/>
+      <point x="696" y="-133"/>
+      <point x="696" y="-8" type="curve" smooth="yes"/>
+      <point x="696" y="34"/>
+      <point x="677" y="59"/>
+      <point x="635" y="70" type="curve" smooth="yes"/>
+      <point x="579" y="85" type="line"/>
+    </contour>
+    <contour>
+      <point x="627.0" y="-240.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="368.0" y="590.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="371.0" y="674.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="118.0" y="191.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFC3D</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kaf_alefMaksura-ar</string>
+    </dict>
+  </lib>
+</glyph>

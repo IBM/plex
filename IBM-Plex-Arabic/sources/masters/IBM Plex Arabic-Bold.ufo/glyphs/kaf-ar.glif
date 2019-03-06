@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaf-ar" format="1">
+  <advance width="796"/>
+  <unicode hex="0643"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line" name="hr00"/>
+      <point x="556" y="0" type="line" smooth="yes"/>
+      <point x="679" y="0"/>
+      <point x="736" y="67"/>
+      <point x="736" y="210" type="curve" smooth="yes"/>
+      <point x="736" y="741" type="line"/>
+      <point x="616" y="741" type="line"/>
+      <point x="616" y="210" type="line" smooth="yes"/>
+      <point x="616" y="169"/>
+      <point x="597" y="150"/>
+      <point x="556" y="150" type="curve" smooth="yes"/>
+      <point x="40" y="150" type="line"/>
+    </contour>
+    <contour>
+      <point x="287" y="247" type="line"/>
+      <point x="396" y="302" type="line" smooth="yes"/>
+      <point x="452" y="330"/>
+      <point x="479" y="357"/>
+      <point x="479" y="405" type="curve" smooth="yes"/>
+      <point x="479" y="448"/>
+      <point x="455" y="467"/>
+      <point x="402" y="467" type="curve" smooth="yes"/>
+      <point x="324" y="467" type="line"/>
+      <point x="322" y="475" type="line"/>
+      <point x="445" y="544" type="line"/>
+      <point x="409" y="604" type="line"/>
+      <point x="343" y="566" type="line" smooth="yes"/>
+      <point x="286" y="533"/>
+      <point x="254" y="508"/>
+      <point x="254" y="462" type="curve" smooth="yes"/>
+      <point x="254" y="414"/>
+      <point x="278" y="392"/>
+      <point x="329" y="392" type="curve" smooth="yes"/>
+      <point x="409" y="392" type="line"/>
+      <point x="411" y="385" type="line"/>
+      <point x="254" y="311" type="line"/>
+    </contour>
+    <contour>
+      <point x="358.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="364.0" y="566.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0643</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kaf-ar</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comp.bar-ar" format="1">
+  <advance width="240"/>
+  <outline>
+    <contour>
+      <point x="20" y="369" type="line" name="hr00"/>
+      <point x="220" y="369" type="line"/>
+      <point x="220" y="389" type="line"/>
+      <point x="20" y="389" type="line"/>
+    </contour>
+    <contour>
+      <point x="120.0" y="379.0" type="move" name="_bar"/>
+    </contour>
+    <contour>
+      <point x="220.0" y="369.0" type="move" name="_tail"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>comp.barar</string>
+      <key>com.type-invaders.name.production</key>
+      <string>comp.bar-ar</string>
+    </dict>
+  </lib>
+</glyph>

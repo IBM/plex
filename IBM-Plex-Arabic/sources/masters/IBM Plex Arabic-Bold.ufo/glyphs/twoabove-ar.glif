@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twoabove-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="87" y="640" type="line" name="hr00"/>
+      <point x="20" y="640" type="line"/>
+      <point x="40" y="363" type="line"/>
+      <point x="107" y="363" type="line"/>
+      <point x="99" y="474" type="line"/>
+      <point x="125" y="474" type="line" smooth="yes"/>
+      <point x="195" y="474"/>
+      <point x="232" y="508"/>
+      <point x="232" y="577" type="curve" smooth="yes"/>
+      <point x="232" y="599"/>
+      <point x="228" y="621"/>
+      <point x="221" y="649" type="curve"/>
+      <point x="158" y="635" type="line"/>
+      <point x="169" y="602"/>
+      <point x="171" y="589"/>
+      <point x="171" y="581" type="curve" smooth="yes"/>
+      <point x="171" y="559"/>
+      <point x="156" y="555"/>
+      <point x="125" y="555" type="curve" smooth="yes"/>
+      <point x="93" y="555" type="line"/>
+    </contour>
+    <contour>
+      <point x="116.0" y="283.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="126.0" y="643.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>twoabovear</string>
+      <key>com.type-invaders.name.production</key>
+      <string>twoabove-ar</string>
+    </dict>
+  </lib>
+</glyph>

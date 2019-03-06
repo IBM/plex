@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefWasla-ar.fina" format="1">
+  <advance width="527"/>
+  <outline>
+    <component base="lam_alef-ar.fina"/>
+    <component base="wasla-ar" xOffset="-20" yOffset="275"/>
+    <contour>
+      <point x="377.0" y="424.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="388.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="211.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="375.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="116.0" y="564.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06440671.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lam_alefWasla-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one-ar" format="1">
+  <advance width="281"/>
+  <unicode hex="0661"/>
+  <outline>
+    <contour>
+      <point x="182" y="610" type="line" name="hr00"/>
+      <point x="60" y="610" type="line"/>
+      <point x="99" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0661</string>
+      <key>com.type-invaders.name.production</key>
+      <string>one-ar</string>
+    </dict>
+  </lib>
+</glyph>

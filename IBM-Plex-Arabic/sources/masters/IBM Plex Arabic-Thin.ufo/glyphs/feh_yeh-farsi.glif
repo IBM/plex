@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="feh_yeh-farsi" format="1">
+  <advance width="716"/>
+  <outline>
+    <component base="fehDotless_alefMaksura-ar"/>
+    <component base="dotabove-ar" xOffset="420" yOffset="327"/>
+    <contour>
+      <point x="573.0" y="-240.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="332.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="483.0" y="616.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="202.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>feh_yehfarsi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>feh_yeh-farsi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

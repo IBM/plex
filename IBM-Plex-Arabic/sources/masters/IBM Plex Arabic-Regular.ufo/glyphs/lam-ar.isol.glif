@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam-ar.isol" format="1">
+  <advance width="655"/>
+  <unicode hex="FEDD"/>
+  <outline>
+    <component base="lam-ar"/>
+    <contour>
+      <point x="543.0" y="424.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="306.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="279.0" y="516.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEDD</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lam-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

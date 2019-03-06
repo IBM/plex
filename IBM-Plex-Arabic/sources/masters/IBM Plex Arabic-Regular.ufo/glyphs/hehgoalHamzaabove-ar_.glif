@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hehgoalHamzaabove-ar" format="1">
+  <advance width="448"/>
+  <unicode hex="06C2"/>
+  <outline>
+    <component base="heh-ar"/>
+    <component base="hamzaabove-ar" xOffset="116" yOffset="122"/>
+    <contour>
+      <point x="224.0" y="-9.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="229.0" y="411.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06C2</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hehgoalHamzaabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

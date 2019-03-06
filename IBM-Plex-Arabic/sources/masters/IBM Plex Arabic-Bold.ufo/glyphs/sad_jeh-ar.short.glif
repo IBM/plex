@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad_jeh-ar.short" format="1">
+  <advance width="1195"/>
+  <outline>
+    <component base="sad_reh-ar.short"/>
+    <component base="threedotsupabove-ar" xOffset="36" yOffset="40"/>
+    <contour>
+      <point x="770.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="70.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="894.0" y="463.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="194.0" y="323.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06350698.short</string>
+      <key>com.type-invaders.name.production</key>
+      <string>sad_jeh-ar.short</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

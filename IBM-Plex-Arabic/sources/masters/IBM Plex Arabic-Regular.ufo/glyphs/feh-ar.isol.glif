@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="feh-ar.isol" format="1">
+  <advance width="901"/>
+  <unicode hex="FED1"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="dotabove-ar" xOffset="607" yOffset="303"/>
+    <contour>
+      <point x="418.0" y="-12.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFED1</string>
+      <key>com.type-invaders.name.production</key>
+      <string>feh-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hehDoachashmee-ar.fina" format="1">
+  <advance width="572"/>
+  <unicode hex="FBAB"/>
+  <outline>
+    <contour>
+      <point x="336" y="-243" type="curve" smooth="yes"/>
+      <point x="453" y="-243"/>
+      <point x="522" y="-163"/>
+      <point x="522" y="-19" type="curve" smooth="yes"/>
+      <point x="522" y="0" type="line"/>
+      <point x="542" y="0" type="line"/>
+      <point x="572" y="30" type="line"/>
+      <point x="572" y="150" type="line"/>
+      <point x="508" y="150" type="line"/>
+      <point x="518" y="183"/>
+      <point x="523" y="222"/>
+      <point x="523" y="267" type="curve" smooth="yes" name="hr01"/>
+      <point x="523" y="383"/>
+      <point x="462" y="452"/>
+      <point x="359" y="452" type="curve" smooth="yes"/>
+      <point x="259" y="452"/>
+      <point x="197" y="380"/>
+      <point x="117" y="173" type="curve" smooth="yes"/>
+      <point x="108" y="150" type="line"/>
+      <point x="20" y="150" type="line"/>
+      <point x="20" y="0" type="line"/>
+      <point x="108" y="0" type="line"/>
+      <point x="118" y="-24" type="line" smooth="yes"/>
+      <point x="183" y="-187"/>
+      <point x="239" y="-243"/>
+    </contour>
+    <contour>
+      <point x="221" y="167" type="line" smooth="yes"/>
+      <point x="253" y="257"/>
+      <point x="291" y="302"/>
+      <point x="355" y="302" type="curve" smooth="yes"/>
+      <point x="398" y="302"/>
+      <point x="423" y="278"/>
+      <point x="423" y="237" type="curve" smooth="yes"/>
+      <point x="423" y="177"/>
+      <point x="377" y="150"/>
+      <point x="256" y="150" type="curve" smooth="yes"/>
+      <point x="215" y="150" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="-93" type="curve" smooth="yes"/>
+      <point x="280" y="-93"/>
+      <point x="246" y="-67"/>
+      <point x="223" y="-14" type="curve" smooth="yes"/>
+      <point x="217" y="0" type="line"/>
+      <point x="256" y="0" type="line" smooth="yes"/>
+      <point x="326" y="0"/>
+      <point x="381" y="11"/>
+      <point x="422" y="35" type="curve" name="hr02"/>
+      <point x="422" y="-19" type="line" smooth="yes"/>
+      <point x="422" y="-69"/>
+      <point x="390" y="-93"/>
+    </contour>
+    <contour>
+      <point x="336.0" y="-243.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="359.0" y="452.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFBAB</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hehDoachashmee-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

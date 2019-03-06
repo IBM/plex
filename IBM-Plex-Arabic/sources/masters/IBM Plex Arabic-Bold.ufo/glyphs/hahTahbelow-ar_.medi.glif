@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hahTahbelow-ar.medi" format="1">
+  <advance width="672"/>
+  <outline>
+    <component base="hah-ar.medi"/>
+    <component base="tahbelow-ar" xOffset="160" yOffset="-667"/>
+    <contour>
+      <point x="325.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="274.0" y="443.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni076E.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hahTahbelow-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamBar_alef-ar" format="1">
+  <advance width="524"/>
+  <outline>
+    <contour>
+      <point x="269" y="524" type="line"/>
+      <point x="339" y="524" type="line"/>
+      <point x="339" y="492" type="line" smooth="yes"/>
+      <point x="339" y="443"/>
+      <point x="330" y="416"/>
+      <point x="307" y="391" type="curve"/>
+      <point x="67" y="617" type="line"/>
+      <point x="-20" y="523" type="line"/>
+      <point x="212" y="305" type="line"/>
+      <point x="40" y="150" type="line"/>
+      <point x="40" y="0" type="line"/>
+      <point x="351" y="0" type="line" smooth="yes"/>
+      <point x="430" y="0"/>
+      <point x="489" y="60"/>
+      <point x="489" y="140" type="curve" smooth="yes" name="hr01"/>
+      <point x="489" y="200"/>
+      <point x="469" y="239"/>
+      <point x="412" y="293" type="curve" smooth="yes"/>
+      <point x="377" y="325" type="line"/>
+      <point x="437" y="378"/>
+      <point x="459" y="422"/>
+      <point x="459" y="492" type="curve" smooth="yes" name="hr02"/>
+      <point x="459" y="524" type="line"/>
+      <point x="529" y="524" type="line"/>
+      <point x="529" y="612" type="line"/>
+      <point x="459" y="612" type="line"/>
+      <point x="459" y="740" type="line"/>
+      <point x="339" y="740" type="line"/>
+      <point x="339" y="612" type="line"/>
+      <point x="269" y="612" type="line"/>
+    </contour>
+    <contour>
+      <point x="379" y="150" type="line" name="hr03"/>
+      <point x="174" y="150" type="line"/>
+      <point x="173" y="154" type="line"/>
+      <point x="279" y="243" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni076A0627</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lamBar_alef-ar</string>
+    </dict>
+  </lib>
+</glyph>

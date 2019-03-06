@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gafRing-ar.fina" format="1">
+  <advance width="970"/>
+  <outline>
+    <component base="kafRing-ar.fina"/>
+    <component base="comp.kafbar-ar" xOffset="508" yOffset="22"/>
+    <contour>
+      <point x="528.0" y="552.0" type="move" name="_kafbar"/>
+    </contour>
+    <contour>
+      <point x="528.0" y="720.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06B0.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>gafRing-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

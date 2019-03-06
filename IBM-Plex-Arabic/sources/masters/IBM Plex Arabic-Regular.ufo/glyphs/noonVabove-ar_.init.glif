@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonVabove-ar.init" format="1">
+  <advance width="253"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="dotabove-ar" xOffset="72" yOffset="131"/>
+    <component base="vabove-ar" xOffset="12" yOffset="309"/>
+    <contour>
+      <point x="138.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="314.0" y="329.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="127.0" y="14.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="137.0" y="380.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0769.init</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noonVabove-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

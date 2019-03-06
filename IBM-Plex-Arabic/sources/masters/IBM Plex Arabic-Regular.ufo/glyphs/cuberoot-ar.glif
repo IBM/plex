@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cuberoot-ar" format="1">
+  <advance width="600"/>
+  <unicode hex="0606"/>
+  <outline>
+    <component base="comp.cuberoot-ar"/>
+    <component base="threeabove-ar" xOffset="249" yOffset="227"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0606</string>
+      <key>com.type-invaders.name.production</key>
+      <string>cuberoot-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

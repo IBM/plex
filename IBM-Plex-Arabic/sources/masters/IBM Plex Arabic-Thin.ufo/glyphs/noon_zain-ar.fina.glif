@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon_zain-ar.fina" format="1">
+  <advance width="590"/>
+  <unicode hex="FC8B"/>
+  <outline>
+    <component base="alefMaksura_reh-ar.fina"/>
+    <component base="dotabove-ar" xOffset="90" yOffset="-3"/>
+    <component base="dotabove-ar" xOffset="367" yOffset="40"/>
+    <contour>
+      <point x="430.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="14.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="430.0" y="329.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="153.0" y="286.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFC8B</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noon_zain-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

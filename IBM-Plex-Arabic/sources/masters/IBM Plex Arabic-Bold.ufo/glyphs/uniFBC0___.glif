@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFBC0" format="1">
+  <advance width="327"/>
+  <unicode hex="FBC0"/>
+  <outline>
+    <component base="comp.tahmini-ar"/>
+    <contour>
+      <point x="165.0" y="283.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="160.0" y="649.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

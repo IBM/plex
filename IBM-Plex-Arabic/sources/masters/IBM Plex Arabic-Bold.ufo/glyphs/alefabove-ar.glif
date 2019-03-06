@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefabove-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="0670"/>
+  <outline>
+    <contour>
+      <point x="25" y="363" type="line" name="hr00"/>
+      <point x="95" y="363" type="line"/>
+      <point x="95" y="544" type="line"/>
+      <point x="25" y="544" type="line"/>
+    </contour>
+    <contour>
+      <point x="60.0" y="283.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="60.0" y="544.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0670</string>
+      <key>com.type-invaders.name.production</key>
+      <string>alefabove-ar</string>
+    </dict>
+  </lib>
+</glyph>

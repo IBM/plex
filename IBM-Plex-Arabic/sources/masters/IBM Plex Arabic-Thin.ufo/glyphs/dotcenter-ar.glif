@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotcenter-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="61" y="416" type="curve" smooth="yes" name="hr00"/>
+      <point x="65" y="416" type="line" smooth="yes"/>
+      <point x="77" y="416"/>
+      <point x="86" y="423"/>
+      <point x="86" y="438" type="curve" smooth="yes"/>
+      <point x="86" y="453"/>
+      <point x="77" y="460"/>
+      <point x="65" y="460" type="curve" smooth="yes"/>
+      <point x="61" y="460" type="line" smooth="yes"/>
+      <point x="49" y="460"/>
+      <point x="40" y="453"/>
+      <point x="40" y="438" type="curve" smooth="yes"/>
+      <point x="40" y="423"/>
+      <point x="49" y="416"/>
+    </contour>
+    <contour>
+      <point x="63.0" y="438.0" type="move" name="_center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>dotcenterar</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dotcenter-ar</string>
+    </dict>
+  </lib>
+</glyph>

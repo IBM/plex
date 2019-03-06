@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ng-ar.fina" format="1">
+  <advance width="966"/>
+  <unicode hex="FBD4"/>
+  <outline>
+    <component base="kaf-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="296" yOffset="283"/>
+    <contour>
+      <point x="443.0" y="1.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="454.0" y="566.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFBD4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ng-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

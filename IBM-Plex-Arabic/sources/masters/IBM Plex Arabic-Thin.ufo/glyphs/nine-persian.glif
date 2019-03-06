@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nine-persian" format="1">
+  <advance width="495"/>
+  <unicode hex="06F9"/>
+  <outline>
+    <component base="nine-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06F9</string>
+      <key>com.type-invaders.name.production</key>
+      <string>nine-persian</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

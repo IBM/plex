@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcheh-ar.init" format="1">
+  <advance width="662"/>
+  <unicode hex="FB7C"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="threedotsdownbelow-ar" xOffset="167" yOffset="-725"/>
+    <contour>
+      <point x="325.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="274.0" y="443.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFB7C</string>
+      <key>com.type-invaders.name.production</key>
+      <string>tcheh-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

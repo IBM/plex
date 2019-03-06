@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehDotbelowThreedotsabove-ar.medi" format="1">
+  <advance width="769"/>
+  <outline>
+    <component base="tah-ar.medi"/>
+    <component base="dotbelow-ar" xOffset="322" yOffset="-617"/>
+    <component base="twodotshorizontalabove-ar" xOffset="313" yOffset="86"/>
+    <contour>
+      <point x="385.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="439.0" y="375.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08A4.medi</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fehDotbelowThreedotsabove-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

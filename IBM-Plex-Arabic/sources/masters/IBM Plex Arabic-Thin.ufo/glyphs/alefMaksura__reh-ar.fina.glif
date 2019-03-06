@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefMaksura_reh-ar.fina" format="1">
+  <advance width="590"/>
+  <outline>
+    <contour>
+      <point x="-70" y="-240" type="line" name="hr00"/>
+      <point x="-46" y="-240" type="line" smooth="yes"/>
+      <point x="139" y="-240"/>
+      <point x="211" y="-138"/>
+      <point x="211" y="31" type="curve" smooth="yes"/>
+      <point x="211" y="66"/>
+      <point x="207" y="119"/>
+      <point x="202" y="154" type="curve" smooth="yes"/>
+      <point x="197" y="191" type="line"/>
+      <point x="420" y="226" type="line"/>
+      <point x="420" y="156" type="line" smooth="yes"/>
+      <point x="420" y="40"/>
+      <point x="461" y="0"/>
+      <point x="579" y="0" type="curve"/>
+      <point x="580" y="0" type="line"/>
+      <point x="590" y="10" type="line"/>
+      <point x="590" y="23" type="line"/>
+      <point x="570" y="23" type="line" smooth="yes"/>
+      <point x="474" y="23"/>
+      <point x="440" y="57"/>
+      <point x="440" y="156" type="curve" smooth="yes"/>
+      <point x="440" y="329" type="line"/>
+      <point x="420" y="329" type="line"/>
+      <point x="420" y="248" type="line"/>
+      <point x="194" y="212" type="line"/>
+      <point x="183" y="289" type="line"/>
+      <point x="163" y="286" type="line"/>
+      <point x="183" y="151" type="line" smooth="yes"/>
+      <point x="188" y="117"/>
+      <point x="192" y="65"/>
+      <point x="192" y="30" type="curve" smooth="yes"/>
+      <point x="192" y="-123"/>
+      <point x="126" y="-217"/>
+      <point x="-46" y="-217" type="curve" smooth="yes"/>
+      <point x="-70" y="-217" type="line"/>
+    </contour>
+    <contour>
+      <point x="430.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="14.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="430.0" y="329.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="153.0" y="286.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>alefMaksura_rehar.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>alefMaksura_reh-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

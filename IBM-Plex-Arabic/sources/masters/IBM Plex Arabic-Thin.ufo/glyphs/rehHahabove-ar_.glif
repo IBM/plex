@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rehHahabove-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="0612"/>
+  <outline>
+    <contour>
+      <point x="12" y="289" type="curve"/>
+      <point x="32" y="289" type="line"/>
+      <point x="32" y="299" type="line" smooth="yes"/>
+      <point x="32" y="346"/>
+      <point x="55" y="363"/>
+      <point x="99" y="381" type="curve" smooth="yes"/>
+      <point x="176" y="412" type="line"/>
+      <point x="176" y="440" type="line"/>
+      <point x="44" y="458" type="line" smooth="yes"/>
+      <point x="27" y="460"/>
+      <point x="19" y="451"/>
+      <point x="19" y="437" type="curve" smooth="yes" name="hr01"/>
+      <point x="19" y="414" type="line"/>
+      <point x="35" y="414" type="line"/>
+      <point x="35" y="438" type="line"/>
+      <point x="163" y="423" type="line"/>
+      <point x="163" y="421" type="line"/>
+      <point x="93" y="395" type="line" smooth="yes"/>
+      <point x="34" y="373"/>
+      <point x="12" y="345"/>
+    </contour>
+    <contour>
+      <point x="134" y="289" type="line"/>
+      <point x="143" y="289" type="line" smooth="yes"/>
+      <point x="201" y="289"/>
+      <point x="225" y="330"/>
+      <point x="225" y="388" type="curve" smooth="yes"/>
+      <point x="225" y="401"/>
+      <point x="224" y="411"/>
+      <point x="217" y="446" type="curve" smooth="yes"/>
+      <point x="215" y="455" type="line"/>
+      <point x="198" y="452" type="line"/>
+      <point x="202" y="433" type="line" smooth="yes"/>
+      <point x="207" y="408"/>
+      <point x="208" y="400"/>
+      <point x="208" y="385" type="curve" smooth="yes"/>
+      <point x="208" y="338"/>
+      <point x="189" y="310"/>
+      <point x="143" y="310" type="curve" smooth="yes"/>
+      <point x="134" y="310" type="line"/>
+    </contour>
+    <contour>
+      <point x="119.0" y="289.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="119.0" y="458.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0612</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rehHahabove-ar</string>
+    </dict>
+  </lib>
+</glyph>

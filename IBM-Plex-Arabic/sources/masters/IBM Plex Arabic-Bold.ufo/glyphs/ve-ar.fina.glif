@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ve-ar.fina" format="1">
+  <advance width="498"/>
+  <unicode hex="FBDF"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="87" yOffset="140"/>
+    <contour>
+      <point x="359.0" y="-44.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="194.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="-3.0" y="0.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="356.0" y="423.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="157.0" y="-5.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="245.0" y="423.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFBDF</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ve-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

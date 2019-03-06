@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ng-ar" format="1">
+  <advance width="796"/>
+  <unicode hex="06AD"/>
+  <outline>
+    <component base="kaf-ar"/>
+    <component base="threedotsupabove-ar" xOffset="206" yOffset="283"/>
+    <contour>
+      <point x="358.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="364.0" y="566.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06AD</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ng-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

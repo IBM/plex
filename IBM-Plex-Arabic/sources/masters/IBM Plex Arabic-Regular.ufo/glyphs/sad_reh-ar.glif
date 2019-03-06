@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad_reh-ar" format="1">
+  <advance width="1094"/>
+  <unicode hex="FD0F"/>
+  <outline>
+    <contour>
+      <point x="-60" y="-240" type="line" name="hr00"/>
+      <point x="-23" y="-240" type="line" smooth="yes"/>
+      <point x="168" y="-240"/>
+      <point x="225" y="-107"/>
+      <point x="225" y="39" type="curve" smooth="yes"/>
+      <point x="225" y="78"/>
+      <point x="221" y="127"/>
+      <point x="214" y="178" type="curve"/>
+      <point x="359" y="197" type="line"/>
+      <point x="359" y="171" type="line" smooth="yes"/>
+      <point x="359" y="54"/>
+      <point x="408" y="0"/>
+      <point x="514" y="0" type="curve" smooth="yes"/>
+      <point x="825" y="0" type="line" smooth="yes"/>
+      <point x="973" y="0"/>
+      <point x="1050" y="58"/>
+      <point x="1050" y="209" type="curve" smooth="yes"/>
+      <point x="1050" y="334"/>
+      <point x="974" y="410"/>
+      <point x="845" y="410" type="curve" smooth="yes"/>
+      <point x="726" y="410"/>
+      <point x="623" y="358"/>
+      <point x="521" y="183" type="curve" smooth="yes"/>
+      <point x="468" y="94" type="line"/>
+      <point x="441" y="106"/>
+      <point x="429" y="131"/>
+      <point x="429" y="171" type="curve" smooth="yes"/>
+      <point x="429" y="289" type="line"/>
+      <point x="131" y="249" type="line"/>
+      <point x="147" y="162" type="line" smooth="yes"/>
+      <point x="154" y="124"/>
+      <point x="158" y="80"/>
+      <point x="158" y="41" type="curve" smooth="yes"/>
+      <point x="158" y="-63"/>
+      <point x="123" y="-154"/>
+      <point x="-23" y="-154" type="curve" smooth="yes"/>
+      <point x="-60" y="-154" type="line"/>
+    </contour>
+    <contour>
+      <point x="577" y="158" type="line" smooth="yes"/>
+      <point x="662" y="290"/>
+      <point x="724" y="324"/>
+      <point x="830" y="324" type="curve" smooth="yes"/>
+      <point x="860" y="324" type="line" smooth="yes"/>
+      <point x="936" y="324"/>
+      <point x="980" y="281"/>
+      <point x="980" y="199" type="curve" smooth="yes"/>
+      <point x="980" y="116"/>
+      <point x="924" y="86"/>
+      <point x="825" y="86" type="curve" smooth="yes"/>
+      <point x="537" y="86" type="line"/>
+      <point x="534" y="91" type="line"/>
+    </contour>
+    <contour>
+      <point x="670.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="32.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="815.0" y="410.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="145.0" y="289.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFD0F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>sad_reh-ar</string>
+    </dict>
+  </lib>
+</glyph>

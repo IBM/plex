@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaf_yehHamzaabove-ar" format="1">
+  <advance width="770"/>
+  <outline>
+    <component base="kaf_alefMaksura-ar"/>
+    <component base="hamzaabove-ar" xOffset="5" yOffset="-98"/>
+    <contour>
+      <point x="627.0" y="-240.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="368.0" y="590.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="371.0" y="674.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="118.0" y="191.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06430626</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kaf_yehHamzaabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

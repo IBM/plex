@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hah-ar.medi" format="1">
+  <advance width="672"/>
+  <unicode hex="FEA4"/>
+  <outline>
+    <contour>
+      <point x="-30" y="0" type="line"/>
+      <point x="69" y="0" type="line" smooth="yes"/>
+      <point x="197" y="0"/>
+      <point x="295" y="17"/>
+      <point x="470" y="136" type="curve" smooth="yes"/>
+      <point x="474" y="139" type="line"/>
+      <point x="487" y="45"/>
+      <point x="543" y="1"/>
+      <point x="642" y="0" type="curve"/>
+      <point x="672" y="30" type="line"/>
+      <point x="672" y="150" type="line"/>
+      <point x="642" y="150" type="line" smooth="yes"/>
+      <point x="592" y="150"/>
+      <point x="573" y="163"/>
+      <point x="572" y="200" type="curve"/>
+      <point x="642" y="200" type="line"/>
+      <point x="642" y="350" type="line"/>
+      <point x="622" y="350" type="line" smooth="yes"/>
+      <point x="563" y="350"/>
+      <point x="498" y="359"/>
+      <point x="445" y="373" type="curve" smooth="yes"/>
+      <point x="252" y="423" type="line" smooth="yes"/>
+      <point x="189" y="439"/>
+      <point x="169" y="443"/>
+      <point x="148" y="443" type="curve" smooth="yes" name="hr01"/>
+      <point x="65" y="443"/>
+      <point x="24" y="400"/>
+      <point x="24" y="306" type="curve" smooth="yes"/>
+      <point x="24" y="229" type="line"/>
+      <point x="139" y="229" type="line"/>
+      <point x="139" y="304" type="line"/>
+      <point x="290" y="267" type="line"/>
+      <point x="450" y="233" type="line"/>
+      <point x="450" y="228" type="line"/>
+      <point x="413" y="210" type="line" smooth="yes"/>
+      <point x="298" y="154"/>
+      <point x="219" y="150"/>
+      <point x="69" y="150" type="curve" smooth="yes"/>
+      <point x="0" y="150" type="line"/>
+      <point x="-30" y="120" type="line"/>
+    </contour>
+    <contour>
+      <point x="325.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="274.0" y="443.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEA4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hah-ar.medi</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="meemThreedotsabove-ar.fina" format="1">
+  <advance width="629"/>
+  <outline>
+    <component base="meem-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="179" yOffset="80"/>
+    <contour>
+      <point x="305.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="305.0" y="369.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08A7.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>meemThreedotsabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

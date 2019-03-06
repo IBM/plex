@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qaf-ar.medi" format="1">
+  <advance width="482"/>
+  <unicode hex="FED8"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="twodotshorizontalabove-ar" xOffset="81" yOffset="252"/>
+    <contour>
+      <point x="241.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="239.0" y="535.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFED8</string>
+      <key>com.type-invaders.name.production</key>
+      <string>qaf-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

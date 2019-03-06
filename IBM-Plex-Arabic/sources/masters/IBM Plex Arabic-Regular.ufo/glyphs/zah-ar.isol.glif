@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zah-ar.isol" format="1">
+  <advance width="780"/>
+  <unicode hex="FEC5"/>
+  <outline>
+    <component base="tah-ar"/>
+    <component base="dotabove-ar" xOffset="436" yOffset="161"/>
+    <contour>
+      <point x="390.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEC5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>zah-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

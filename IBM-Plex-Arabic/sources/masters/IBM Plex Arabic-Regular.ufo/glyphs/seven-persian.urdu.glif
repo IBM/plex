@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven-persian.urdu" format="1">
+  <advance width="467"/>
+  <outline>
+    <contour>
+      <point x="50" y="0" type="line" name="hr00"/>
+      <point x="447" y="0" type="line"/>
+      <point x="447" y="85" type="line"/>
+      <point x="130" y="85" type="line"/>
+      <point x="302" y="606" type="line"/>
+      <point x="218" y="606" type="line"/>
+      <point x="50" y="85" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06F7.urdu</string>
+      <key>com.type-invaders.name.production</key>
+      <string>seven-persian.urdu</string>
+    </dict>
+  </lib>
+</glyph>

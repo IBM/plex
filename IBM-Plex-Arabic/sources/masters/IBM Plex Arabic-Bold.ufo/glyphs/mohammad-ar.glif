@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mohammad-ar" format="1">
+  <advance width="1143"/>
+  <unicode hex="FDF4"/>
+  <outline>
+    <contour>
+      <point x="646" y="-143" type="curve"/>
+      <point x="846" y="-143" type="line"/>
+      <point x="845" y="7" type="line"/>
+      <point x="647" y="7" type="line"/>
+      <point x="647" y="13" type="line"/>
+      <point x="1123" y="163" type="line"/>
+      <point x="1123" y="409" type="line"/>
+      <point x="647" y="409" type="line"/>
+      <point x="647" y="415" type="line"/>
+      <point x="1066" y="547" type="line"/>
+      <point x="1066" y="707" type="line"/>
+      <point x="937" y="737" type="line" smooth="yes"/>
+      <point x="882" y="750"/>
+      <point x="840" y="720"/>
+      <point x="840" y="659" type="curve" smooth="yes"/>
+      <point x="840" y="607" type="line"/>
+      <point x="701" y="564" type="line" smooth="yes"/>
+      <point x="594" y="530"/>
+      <point x="567" y="497"/>
+      <point x="567" y="369" type="curve" smooth="yes"/>
+      <point x="567" y="267" type="line"/>
+      <point x="1017" y="267" type="line"/>
+      <point x="1017" y="261" type="line"/>
+      <point x="758" y="180" type="line" smooth="yes"/>
+      <point x="630" y="140"/>
+      <point x="583" y="110"/>
+      <point x="571" y="26" type="curve"/>
+      <point x="552" y="41"/>
+      <point x="539" y="66"/>
+      <point x="526" y="106" type="curve"/>
+      <point x="372" y="547" type="line"/>
+      <point x="244" y="502" type="line"/>
+      <point x="332" y="249" type="line" smooth="yes"/>
+      <point x="339" y="229"/>
+      <point x="346" y="207"/>
+      <point x="346" y="193" type="curve" smooth="yes"/>
+      <point x="346" y="162"/>
+      <point x="326" y="150"/>
+      <point x="282" y="150" type="curve" smooth="yes" name="hr01"/>
+      <point x="145" y="150" type="line"/>
+      <point x="145" y="214" type="line"/>
+      <point x="30" y="214" type="line"/>
+      <point x="30" y="147" type="line" smooth="yes"/>
+      <point x="30" y="45"/>
+      <point x="81" y="0"/>
+      <point x="174" y="0" type="curve" smooth="yes"/>
+      <point x="229" y="0" type="line" smooth="yes"/>
+      <point x="315" y="0"/>
+      <point x="349" y="38"/>
+      <point x="366" y="135" type="curve"/>
+      <point x="370" y="137" type="line"/>
+      <point x="396" y="67" type="line" smooth="yes"/>
+      <point x="457" y="-101"/>
+      <point x="507" y="-143"/>
+    </contour>
+    <contour>
+      <point x="937.0" y="737.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="607.0" y="879.0" type="move" name="top_2"/>
+    </contour>
+    <contour>
+      <point x="526.0" y="525.0" type="move" name="top_3"/>
+    </contour>
+    <contour>
+      <point x="173.0" y="525.0" type="move" name="top_4"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFDF4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>mohammad-ar</string>
+    </dict>
+  </lib>
+</glyph>

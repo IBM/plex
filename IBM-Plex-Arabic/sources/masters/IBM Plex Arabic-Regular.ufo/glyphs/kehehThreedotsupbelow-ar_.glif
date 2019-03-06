@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehThreedotsupbelow-ar" format="1">
+  <advance width="851"/>
+  <unicode hex="0764"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="threedotsupbelow-ar" xOffset="286" yOffset="-687"/>
+    <contour>
+      <point x="418.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="529.0" y="552.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="785.0" y="571.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="654.0" y="668.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0764</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kehehThreedotsupbelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

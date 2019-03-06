@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbarreeHamzaabove-ar.fina.short" format="1">
+  <advance width="360"/>
+  <outline>
+    <component base="yehbarree-ar.fina.short"/>
+    <component base="hamzaabove-ar" xOffset="117" yOffset="-133"/>
+    <contour>
+      <point x="246.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="246.0" y="150.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFBB1.short</string>
+      <key>com.type-invaders.name.production</key>
+      <string>yehbarreeHamzaabove-ar.fina.short</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

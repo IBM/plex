@@ -2,19 +2,18 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p style={{ fontFamily: 'IBM Plex Mono' }}>Hello world</p>
+    <p style={{ fontFamily: 'IBM Plex Sans' }}>Hello world</p>
+    <p style={{ fontFamily: 'IBM Plex Serif' }}>Hello world</p>
+    <p style={{ fontFamily: 'IBM Plex Sans Condensed' }}>Hello world</p>
+    <p style={{ fontFamily: 'IBM Plex Sans Hebrew' }}>שלום עולם</p>
+    <p style={{ fontFamily: 'IBM Plex Arabic' }}>مرحبا بالعالم</p>
+    <p style={{ fontFamily: 'IBM Plex Thai' }}>สวัสดีชาวโลก</p>
+    <p style={{ fontFamily: 'IBM Plex Devanagari' }}>नमस्ते दुनिया</p>
   </Layout>
 )
 

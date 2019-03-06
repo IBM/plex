@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rehLoop-ar.fina" format="1">
+  <advance width="626"/>
+  <outline>
+    <contour>
+      <point x="206" y="-304" type="curve" smooth="yes"/>
+      <point x="278" y="-304"/>
+      <point x="343" y="-281"/>
+      <point x="397" y="-241" type="curve"/>
+      <point x="447" y="-304" type="line"/>
+      <point x="541" y="-228" type="line"/>
+      <point x="480" y="-151" type="line"/>
+      <point x="507" y="-108"/>
+      <point x="526" y="-56"/>
+      <point x="535" y="0" type="curve"/>
+      <point x="596" y="0" type="line"/>
+      <point x="626" y="30" type="line"/>
+      <point x="626" y="150" type="line"/>
+      <point x="537" y="150" type="line"/>
+      <point x="534" y="173"/>
+      <point x="531" y="200"/>
+      <point x="526" y="230" type="curve" smooth="yes"/>
+      <point x="511" y="323" type="line"/>
+      <point x="402" y="306" type="line"/>
+      <point x="421" y="183" type="line" smooth="yes"/>
+      <point x="430" y="123"/>
+      <point x="432" y="95"/>
+      <point x="432" y="49" type="curve" smooth="yes"/>
+      <point x="432" y="7"/>
+      <point x="422" y="-30"/>
+      <point x="406" y="-60" type="curve"/>
+      <point x="340" y="15"/>
+      <point x="287" y="48"/>
+      <point x="196" y="48" type="curve" smooth="yes" name="hr01"/>
+      <point x="84" y="48"/>
+      <point x="20" y="-11"/>
+      <point x="20" y="-128" type="curve" smooth="yes"/>
+      <point x="20" y="-243"/>
+      <point x="87" y="-304"/>
+    </contour>
+    <contour>
+      <point x="216" y="-164" type="curve"/>
+      <point x="186" y="-164" type="line" smooth="yes"/>
+      <point x="148" y="-164"/>
+      <point x="130" y="-153"/>
+      <point x="130" y="-128" type="curve" smooth="yes"/>
+      <point x="130" y="-103"/>
+      <point x="144" y="-92"/>
+      <point x="176" y="-92" type="curve" smooth="yes"/>
+      <point x="206" y="-92" type="line" smooth="yes"/>
+      <point x="253" y="-92"/>
+      <point x="286" y="-110"/>
+      <point x="317" y="-143" type="curve"/>
+      <point x="287" y="-156"/>
+      <point x="253" y="-164"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08AA.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rehLoop-ar.fina</string>
+    </dict>
+  </lib>
+</glyph>

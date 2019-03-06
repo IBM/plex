@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight-ar" format="1">
+  <advance width="546"/>
+  <unicode hex="0668"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line" name="hr00"/>
+      <point x="143" y="0" type="line"/>
+      <point x="263" y="466" type="line"/>
+      <point x="266" y="466" type="line"/>
+      <point x="388" y="0" type="line"/>
+      <point x="546" y="0" type="line"/>
+      <point x="359" y="610" type="line"/>
+      <point x="189" y="610" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0668</string>
+      <key>com.type-invaders.name.production</key>
+      <string>eight-ar</string>
+    </dict>
+  </lib>
+</glyph>

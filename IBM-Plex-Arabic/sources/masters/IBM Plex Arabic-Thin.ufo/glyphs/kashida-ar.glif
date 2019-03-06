@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kashida-ar" format="1">
+  <advance width="97"/>
+  <unicode hex="0640"/>
+  <outline>
+    <contour>
+      <point x="-10" y="0" type="line" name="hr00"/>
+      <point x="87" y="0" type="line"/>
+      <point x="97" y="10" type="line"/>
+      <point x="97" y="23" type="line"/>
+      <point x="0" y="23" type="line"/>
+      <point x="-10" y="13" type="line"/>
+    </contour>
+    <contour>
+      <point x="49.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="49.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0640</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kashida-ar</string>
+    </dict>
+  </lib>
+</glyph>

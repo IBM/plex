@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourdotsbelow-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="FBBB"/>
+  <outline>
+    <contour>
+      <point x="188" y="369" type="curve" smooth="yes" name="hr00"/>
+      <point x="199" y="369" type="line" smooth="yes"/>
+      <point x="225" y="369"/>
+      <point x="243" y="384"/>
+      <point x="243" y="418" type="curve" smooth="yes"/>
+      <point x="243" y="452"/>
+      <point x="225" y="467"/>
+      <point x="199" y="467" type="curve" smooth="yes"/>
+      <point x="188" y="467" type="line" smooth="yes"/>
+      <point x="161" y="467"/>
+      <point x="144" y="452"/>
+      <point x="144" y="418" type="curve" smooth="yes"/>
+      <point x="144" y="384"/>
+      <point x="161" y="369"/>
+    </contour>
+    <contour>
+      <point x="188" y="497" type="curve" smooth="yes"/>
+      <point x="199" y="497" type="line" smooth="yes"/>
+      <point x="225" y="497"/>
+      <point x="243" y="512"/>
+      <point x="243" y="546" type="curve" smooth="yes"/>
+      <point x="243" y="580"/>
+      <point x="225" y="595"/>
+      <point x="199" y="595" type="curve" smooth="yes"/>
+      <point x="188" y="595" type="line" smooth="yes"/>
+      <point x="161" y="595"/>
+      <point x="144" y="580"/>
+      <point x="144" y="546" type="curve" smooth="yes"/>
+      <point x="144" y="512"/>
+      <point x="161" y="497"/>
+    </contour>
+    <contour>
+      <point x="59" y="369" type="curve" smooth="yes"/>
+      <point x="70" y="369" type="line" smooth="yes"/>
+      <point x="96" y="369"/>
+      <point x="114" y="384"/>
+      <point x="114" y="418" type="curve" smooth="yes"/>
+      <point x="114" y="452"/>
+      <point x="96" y="467"/>
+      <point x="70" y="467" type="curve" smooth="yes"/>
+      <point x="59" y="467" type="line" smooth="yes"/>
+      <point x="32" y="467"/>
+      <point x="15" y="452"/>
+      <point x="15" y="418" type="curve" smooth="yes"/>
+      <point x="15" y="384"/>
+      <point x="32" y="369"/>
+    </contour>
+    <contour>
+      <point x="59" y="497" type="curve" smooth="yes"/>
+      <point x="70" y="497" type="line" smooth="yes"/>
+      <point x="96" y="497"/>
+      <point x="114" y="512"/>
+      <point x="114" y="546" type="curve" smooth="yes"/>
+      <point x="114" y="580"/>
+      <point x="96" y="595"/>
+      <point x="70" y="595" type="curve" smooth="yes"/>
+      <point x="59" y="595" type="line" smooth="yes"/>
+      <point x="32" y="595"/>
+      <point x="15" y="580"/>
+      <point x="15" y="546" type="curve" smooth="yes"/>
+      <point x="15" y="512"/>
+      <point x="32" y="497"/>
+    </contour>
+    <contour>
+      <point x="129.0" y="648.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="129.0" y="369.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFBBB</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fourdotsbelow-ar</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehTwodotshorizontalabove-ar.init" format="1">
+  <advance width="332"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="twodotshorizontalabove-ar" xOffset="3" yOffset="419"/>
+    <contour>
+      <point x="199.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="10.0" y="552.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="267.0" y="571.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="135.0" y="668.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni063B.init</string>
+      <key>com.type-invaders.name.production</key>
+      <string>kehehTwodotshorizontalabove-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

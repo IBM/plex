@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="theh_rreh-ar.fina" format="1">
+  <advance width="628"/>
+  <outline>
+    <component base="alefMaksura_reh-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="304" yOffset="80"/>
+    <component base="tahabove-ar" xOffset="-1" yOffset="40"/>
+    <contour>
+      <point x="462.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="40.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="462.0" y="363.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="164.0" y="323.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni062B0691.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>theh_rreh-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbarreeHamzaabove-ar" format="1">
+  <advance width="850"/>
+  <unicode hex="06D3"/>
+  <outline>
+    <component base="yehbarree-ar"/>
+    <component base="hamzaabove-ar" xOffset="269" yOffset="222"/>
+    <contour>
+      <point x="497.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="398.0" y="505.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06D3</string>
+      <key>com.type-invaders.name.production</key>
+      <string>yehbarreeHamzaabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

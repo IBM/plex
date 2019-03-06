@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peh_noon-ar.fina" format="1">
+  <advance width="970"/>
+  <outline>
+    <component base="alefMaksura_noonghunna-ar"/>
+    <component base="dotabove-ar" xOffset="273" yOffset="-58"/>
+    <component base="threedotsdownbelow-ar" xOffset="682" yOffset="-687"/>
+    <contour>
+      <point x="814.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="318.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="317.0" y="-240.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="814.0" y="329.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="338.0" y="191.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni067E0646.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>peh_noon-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twodotshorizontalbelow-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="FBB5"/>
+  <outline>
+    <contour>
+      <point x="227" y="363" type="curve" smooth="yes" name="hr00"/>
+      <point x="247" y="363" type="line" smooth="yes"/>
+      <point x="281" y="363"/>
+      <point x="306" y="383"/>
+      <point x="306" y="430" type="curve" smooth="yes"/>
+      <point x="306" y="477"/>
+      <point x="281" y="497"/>
+      <point x="247" y="497" type="curve" smooth="yes"/>
+      <point x="227" y="497" type="line" smooth="yes"/>
+      <point x="193" y="497"/>
+      <point x="168" y="477"/>
+      <point x="168" y="430" type="curve" smooth="yes"/>
+      <point x="168" y="383"/>
+      <point x="193" y="363"/>
+    </contour>
+    <contour>
+      <point x="69" y="363" type="curve" smooth="yes"/>
+      <point x="89" y="363" type="line" smooth="yes"/>
+      <point x="123" y="363"/>
+      <point x="148" y="383"/>
+      <point x="148" y="430" type="curve" smooth="yes"/>
+      <point x="148" y="477"/>
+      <point x="123" y="497"/>
+      <point x="89" y="497" type="curve" smooth="yes"/>
+      <point x="69" y="497" type="line" smooth="yes"/>
+      <point x="35" y="497"/>
+      <point x="10" y="477"/>
+      <point x="10" y="430" type="curve" smooth="yes"/>
+      <point x="10" y="383"/>
+      <point x="35" y="363"/>
+    </contour>
+    <contour>
+      <point x="158.0" y="579.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="158.0" y="363.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFBB5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>twodotshorizontalbelow-ar</string>
+    </dict>
+  </lib>
+</glyph>

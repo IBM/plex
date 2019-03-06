@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatan-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="064B"/>
+  <outline>
+    <contour>
+      <point x="248" y="534" type="line"/>
+      <point x="0" y="419" type="line"/>
+      <point x="29" y="355" type="line"/>
+      <point x="277" y="469" type="line"/>
+    </contour>
+    <contour>
+      <point x="248" y="686" type="line" name="hr01"/>
+      <point x="0" y="571" type="line"/>
+      <point x="29" y="507" type="line"/>
+      <point x="277" y="621" type="line"/>
+    </contour>
+    <contour>
+      <point x="139.0" y="283.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="139.0" y="586.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni064B</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fathatan-ar</string>
+    </dict>
+  </lib>
+</glyph>

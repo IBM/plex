@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonVabove-ar.fina" format="1">
+  <advance width="743"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="dotabove-ar" xOffset="267" yOffset="-66"/>
+    <component base="vabove-ar" xOffset="197" yOffset="148"/>
+    <contour>
+      <point x="346.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="346.0" y="217.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0769.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noonVabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

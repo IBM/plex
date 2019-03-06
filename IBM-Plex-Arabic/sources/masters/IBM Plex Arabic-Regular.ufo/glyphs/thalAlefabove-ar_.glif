@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thalAlefabove-ar" format="1">
+  <advance width="468"/>
+  <unicode hex="FC5B"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="dotabove-ar" xOffset="145" yOffset="240"/>
+    <component base="alefabove-ar" xOffset="165" yOffset="418"/>
+    <contour>
+      <point x="230.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="240.0" y="0.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="210.0" y="489.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFC5B</string>
+      <key>com.type-invaders.name.production</key>
+      <string>thalAlefabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

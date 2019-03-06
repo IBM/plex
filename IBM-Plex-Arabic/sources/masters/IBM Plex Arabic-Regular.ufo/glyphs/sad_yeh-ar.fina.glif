@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad_yeh-ar.fina" format="1">
+  <advance width="1426"/>
+  <unicode hex="FD22"/>
+  <outline>
+    <component base="sad_alefMaksura-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="218" yOffset="-876"/>
+    <contour>
+      <point x="995.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="347.0" y="-306.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="1140.0" y="410.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="123.0" y="125.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFD22</string>
+      <key>com.type-invaders.name.production</key>
+      <string>sad_yeh-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

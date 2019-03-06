@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dad-ar" format="1">
+  <advance width="1233"/>
+  <unicode hex="0636"/>
+  <outline>
+    <component base="sad-ar"/>
+    <component base="dotabove-ar" xOffset="896" yOffset="86"/>
+    <contour>
+      <point x="317.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="959.0" y="375.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0636</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dad-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

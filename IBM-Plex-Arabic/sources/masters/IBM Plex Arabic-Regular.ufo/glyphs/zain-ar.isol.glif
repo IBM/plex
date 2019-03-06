@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zain-ar.isol" format="1">
+  <advance width="265"/>
+  <unicode hex="FEAF"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="dotabove-ar" xOffset="80" yOffset="40"/>
+    <contour>
+      <point x="191.0" y="-58.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="32.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="84.0" y="-227.0" type="move" name="ring"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEAF</string>
+      <key>com.type-invaders.name.production</key>
+      <string>zain-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

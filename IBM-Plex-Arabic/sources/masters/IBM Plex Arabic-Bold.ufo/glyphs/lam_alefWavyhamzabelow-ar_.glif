@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefWavyhamzabelow-ar" format="1">
+  <advance width="524"/>
+  <outline>
+    <component base="lam_alef-ar"/>
+    <component base="wavyhamzabelow-ar" xOffset="-11" yOffset="-630"/>
+    <contour>
+      <point x="399.0" y="568.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="371.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="152.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="399.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="146.0" y="578.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06440673</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lam_alefWavyhamzabelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

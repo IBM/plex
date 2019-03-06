@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatanCurly-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08E7"/>
+  <outline>
+    <component base="comp.fathacurly-ar"/>
+    <component base="comp.fathacurly-ar" yOffset="152"/>
+    <contour>
+      <point x="139.0" y="283.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="139.0" y="586.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08E7</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fathatanCurly-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

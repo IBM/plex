@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semicolon-ar" format="1">
+  <advance width="272"/>
+  <unicode hex="061B"/>
+  <outline>
+    <component base="period"/>
+    <component base="comma-ar" yOffset="215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni061B</string>
+      <key>com.type-invaders.name.production</key>
+      <string>semicolon-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tteheh-ar.fina" format="1">
+  <advance width="966"/>
+  <unicode hex="FB5F"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="twodotsverticalabove-ar" xOffset="203"/>
+    <contour>
+      <point x="440.0" y="1.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="463.0" y="-12.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="440.0" y="283.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFB5F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>tteheh-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

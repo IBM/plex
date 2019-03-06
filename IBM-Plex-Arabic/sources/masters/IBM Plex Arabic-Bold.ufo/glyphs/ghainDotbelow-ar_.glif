@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghainDotbelow-ar" format="1">
+  <advance width="651"/>
+  <unicode hex="06FC"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="dotabove-ar" xOffset="256" yOffset="361"/>
+    <component base="dotcenter-ar" xOffset="272" yOffset="-430"/>
+    <contour>
+      <point x="341.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="351.0" y="0.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="335.0" y="644.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06FC</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ghainDotbelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

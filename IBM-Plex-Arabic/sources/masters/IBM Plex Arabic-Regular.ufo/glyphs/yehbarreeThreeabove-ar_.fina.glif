@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbarreeThreeabove-ar.fina" format="1">
+  <advance width="293"/>
+  <outline>
+    <component base="yehbarree-ar.fina"/>
+    <component base="threeabove-ar" xOffset="92" yOffset="-203"/>
+    <contour>
+      <point x="213.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni077B.fina</string>
+      <key>com.type-invaders.name.production</key>
+      <string>yehbarreeThreeabove-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

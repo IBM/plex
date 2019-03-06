@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shaddaAlefabove-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="shadda-ar"/>
+    <component base="comp.alefmini-ar" xOffset="92" yOffset="189"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni06510670</string>
+      <key>com.type-invaders.name.production</key>
+      <string>shaddaAlefabove-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

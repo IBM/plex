@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ddahal-ar" format="1">
+  <advance width="510"/>
+  <unicode hex="068D"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="95" yOffset="-579"/>
+    <contour>
+      <point x="253.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="263.0" y="0.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="249.0" y="525.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni068D</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ddahal-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

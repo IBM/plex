@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatan-ar.isol" format="1">
+  <advance width="262"/>
+  <unicode hex="FE70"/>
+  <outline>
+    <component base="comp.fatha-ar"/>
+    <component base="comp.fatha-ar" yOffset="130"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFE70</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fathatan-ar.isol</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

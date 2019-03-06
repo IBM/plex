@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathaRing-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08F4"/>
+  <outline>
+    <contour>
+      <point x="113" y="361" type="curve" smooth="yes" name="hr00"/>
+      <point x="168" y="361"/>
+      <point x="209" y="404"/>
+      <point x="209" y="461" type="curve" smooth="yes"/>
+      <point x="209" y="472"/>
+      <point x="207" y="483"/>
+      <point x="204" y="493" type="curve"/>
+      <point x="233" y="506" type="line"/>
+      <point x="225" y="524" type="line"/>
+      <point x="197" y="511" type="line"/>
+      <point x="181" y="541"/>
+      <point x="150" y="561"/>
+      <point x="113" y="561" type="curve" smooth="yes"/>
+      <point x="58" y="561"/>
+      <point x="16" y="518"/>
+      <point x="16" y="461" type="curve" smooth="yes"/>
+      <point x="16" y="450"/>
+      <point x="17" y="439"/>
+      <point x="20" y="430" type="curve"/>
+      <point x="-8" y="417" type="line"/>
+      <point x="0" y="399" type="line"/>
+      <point x="28" y="412" type="line"/>
+      <point x="44" y="381"/>
+      <point x="75" y="361"/>
+    </contour>
+    <contour>
+      <point x="113" y="419" type="curve" smooth="yes"/>
+      <point x="98" y="419"/>
+      <point x="85" y="424"/>
+      <point x="76" y="434" type="curve"/>
+      <point x="157" y="471" type="line"/>
+      <point x="158" y="468"/>
+      <point x="159" y="464"/>
+      <point x="159" y="461" type="curve" smooth="yes"/>
+      <point x="159" y="437"/>
+      <point x="139" y="419"/>
+    </contour>
+    <contour>
+      <point x="66" y="461" type="curve" smooth="yes"/>
+      <point x="66" y="485"/>
+      <point x="86" y="503"/>
+      <point x="113" y="503" type="curve" smooth="yes"/>
+      <point x="127" y="503"/>
+      <point x="139" y="497"/>
+      <point x="148" y="488" type="curve"/>
+      <point x="67" y="451" type="line"/>
+      <point x="66" y="454"/>
+      <point x="66" y="458"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni08F4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fathaRing-ar</string>
+    </dict>
+  </lib>
+</glyph>

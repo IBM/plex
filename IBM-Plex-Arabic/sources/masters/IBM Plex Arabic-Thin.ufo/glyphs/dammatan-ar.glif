@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dammatan-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="064C"/>
+  <outline>
+    <contour>
+      <point x="48" y="361" type="line" name="hr00"/>
+      <point x="180" y="422" type="line" smooth="yes"/>
+      <point x="230" y="445"/>
+      <point x="253" y="473"/>
+      <point x="253" y="511" type="curve" smooth="yes"/>
+      <point x="253" y="552"/>
+      <point x="223" y="582"/>
+      <point x="184" y="582" type="curve" smooth="yes"/>
+      <point x="145" y="582"/>
+      <point x="115" y="551"/>
+      <point x="115" y="508" type="curve" smooth="yes"/>
+      <point x="115" y="478"/>
+      <point x="133" y="452"/>
+      <point x="163" y="438" type="curve"/>
+      <point x="163" y="436" type="line"/>
+      <point x="64" y="390" type="line"/>
+      <point x="63" y="392" type="line"/>
+      <point x="75" y="413"/>
+      <point x="84" y="439"/>
+      <point x="84" y="461" type="curve" smooth="yes"/>
+      <point x="84" y="491"/>
+      <point x="68" y="509"/>
+      <point x="40" y="509" type="curve" smooth="yes"/>
+      <point x="27" y="509"/>
+      <point x="9" y="502"/>
+      <point x="-2" y="492" type="curve"/>
+      <point x="6" y="475" type="line"/>
+      <point x="17" y="484"/>
+      <point x="29" y="489"/>
+      <point x="39" y="489" type="curve" smooth="yes"/>
+      <point x="56" y="489"/>
+      <point x="66" y="476"/>
+      <point x="66" y="454" type="curve" smooth="yes"/>
+      <point x="66" y="431"/>
+      <point x="56" y="403"/>
+      <point x="40" y="379" type="curve"/>
+    </contour>
+    <contour>
+      <point x="133" y="508" type="curve" smooth="yes"/>
+      <point x="133" y="539"/>
+      <point x="155" y="562"/>
+      <point x="184" y="562" type="curve" smooth="yes"/>
+      <point x="213" y="562"/>
+      <point x="235" y="540"/>
+      <point x="235" y="511" type="curve" smooth="yes"/>
+      <point x="235" y="482"/>
+      <point x="218" y="462"/>
+      <point x="183" y="445" type="curve"/>
+      <point x="173" y="450" type="line" smooth="yes"/>
+      <point x="148" y="463"/>
+      <point x="133" y="485"/>
+    </contour>
+    <contour>
+      <point x="157.0" y="289.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="127.0" y="582.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni064C</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dammatan-ar</string>
+    </dict>
+  </lib>
+</glyph>

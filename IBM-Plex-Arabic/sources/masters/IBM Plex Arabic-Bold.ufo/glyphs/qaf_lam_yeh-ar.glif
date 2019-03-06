@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qaf_lam_yeh-ar" format="1">
+  <advance width="1172"/>
+  <unicode hex="FDF1"/>
+  <outline>
+    <contour>
+      <point x="141" y="-240" type="curve"/>
+      <point x="725" y="-240" type="line"/>
+      <point x="725" y="-90" type="line"/>
+      <point x="145" y="-90" type="line"/>
+      <point x="145" y="-57" type="line" smooth="yes"/>
+      <point x="145" y="-17"/>
+      <point x="172" y="0"/>
+      <point x="216" y="0" type="curve" smooth="yes"/>
+      <point x="330" y="0" type="line" smooth="yes"/>
+      <point x="413" y="0"/>
+      <point x="455" y="42"/>
+      <point x="472" y="135" type="curve"/>
+      <point x="478" y="135" type="line"/>
+      <point x="497" y="42"/>
+      <point x="551" y="0"/>
+      <point x="660" y="0" type="curve" smooth="yes"/>
+      <point x="884" y="0" type="line" smooth="yes"/>
+      <point x="1053" y="0"/>
+      <point x="1137" y="56"/>
+      <point x="1137" y="298" type="curve" smooth="yes"/>
+      <point x="1137" y="492"/>
+      <point x="1060" y="608"/>
+      <point x="930" y="608" type="curve" smooth="yes"/>
+      <point x="813" y="608"/>
+      <point x="725" y="504"/>
+      <point x="725" y="365" type="curve" smooth="yes"/>
+      <point x="725" y="265"/>
+      <point x="789" y="205"/>
+      <point x="897" y="205" type="curve" smooth="yes"/>
+      <point x="965" y="205"/>
+      <point x="1010" y="230"/>
+      <point x="1030" y="284" type="curve"/>
+      <point x="1036" y="284" type="line"/>
+      <point x="1036" y="238" type="line" smooth="yes"/>
+      <point x="1036" y="168"/>
+      <point x="976" y="150"/>
+      <point x="884" y="150" type="curve" smooth="yes"/>
+      <point x="655" y="150" type="line" smooth="yes"/>
+      <point x="607" y="150"/>
+      <point x="585" y="172"/>
+      <point x="585" y="220" type="curve" smooth="yes"/>
+      <point x="585" y="740" type="line"/>
+      <point x="465" y="740" type="line"/>
+      <point x="465" y="220" type="line" smooth="yes"/>
+      <point x="465" y="172"/>
+      <point x="440" y="150"/>
+      <point x="385" y="150" type="curve" smooth="yes"/>
+      <point x="217" y="150" type="line" smooth="yes"/>
+      <point x="102" y="150"/>
+      <point x="35" y="72"/>
+      <point x="35" y="-60" type="curve" smooth="yes"/>
+      <point x="35" y="-126" type="line" smooth="yes"/>
+      <point x="35" y="-195"/>
+      <point x="80" y="-240"/>
+    </contour>
+    <contour>
+      <point x="928" y="335" type="curve"/>
+      <point x="907" y="335" type="line" smooth="yes"/>
+      <point x="857" y="335"/>
+      <point x="825" y="349"/>
+      <point x="825" y="385" type="curve" smooth="yes"/>
+      <point x="825" y="427"/>
+      <point x="865" y="458"/>
+      <point x="917" y="458" type="curve" smooth="yes"/>
+      <point x="978" y="458"/>
+      <point x="1026" y="415"/>
+      <point x="1034" y="350" type="curve"/>
+      <point x="1013" y="339"/>
+      <point x="979" y="335"/>
+    </contour>
+    <contour>
+      <point x="841" y="688" type="curve" name="hr01"/>
+      <point x="861" y="688" type="line" smooth="yes"/>
+      <point x="895" y="688"/>
+      <point x="920" y="708"/>
+      <point x="920" y="755" type="curve" smooth="yes"/>
+      <point x="920" y="802"/>
+      <point x="895" y="822"/>
+      <point x="861" y="822" type="curve" smooth="yes"/>
+      <point x="841" y="822" type="line" smooth="yes"/>
+      <point x="807" y="822"/>
+      <point x="782" y="802"/>
+      <point x="782" y="755" type="curve" smooth="yes"/>
+      <point x="782" y="708"/>
+      <point x="807" y="688"/>
+    </contour>
+    <contour>
+      <point x="999" y="688" type="curve"/>
+      <point x="1019" y="688" type="line" smooth="yes"/>
+      <point x="1053" y="688"/>
+      <point x="1078" y="708"/>
+      <point x="1078" y="755" type="curve" smooth="yes"/>
+      <point x="1078" y="802"/>
+      <point x="1053" y="822"/>
+      <point x="1019" y="822" type="curve" smooth="yes"/>
+      <point x="999" y="822" type="line" smooth="yes"/>
+      <point x="965" y="822"/>
+      <point x="940" y="802"/>
+      <point x="940" y="755" type="curve" smooth="yes"/>
+      <point x="940" y="708"/>
+      <point x="965" y="688"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFDF1</string>
+      <key>com.type-invaders.name.production</key>
+      <string>qaf_lam_yeh-ar</string>
+    </dict>
+  </lib>
+</glyph>

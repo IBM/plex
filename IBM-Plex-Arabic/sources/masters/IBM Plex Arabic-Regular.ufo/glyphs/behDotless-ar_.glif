@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behDotless-ar" format="1">
+  <advance width="839"/>
+  <unicode hex="066E"/>
+  <outline>
+    <contour>
+      <point x="418" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="697" y="-12"/>
+      <point x="794" y="37"/>
+      <point x="794" y="176" type="curve" smooth="yes"/>
+      <point x="794" y="201"/>
+      <point x="791" y="237"/>
+      <point x="782" y="297" type="curve" smooth="yes"/>
+      <point x="769" y="380" type="line"/>
+      <point x="699" y="369" type="line"/>
+      <point x="714" y="286" type="line" smooth="yes"/>
+      <point x="724" y="230"/>
+      <point x="726" y="198"/>
+      <point x="726" y="176" type="curve" smooth="yes"/>
+      <point x="726" y="104"/>
+      <point x="678" y="86"/>
+      <point x="488" y="86" type="curve" smooth="yes"/>
+      <point x="348" y="86" type="line" smooth="yes"/>
+      <point x="183" y="86"/>
+      <point x="107" y="123"/>
+      <point x="107" y="204" type="curve" smooth="yes"/>
+      <point x="107" y="246"/>
+      <point x="120" y="292"/>
+      <point x="148" y="350" type="curve"/>
+      <point x="86" y="369" type="line"/>
+      <point x="57" y="302"/>
+      <point x="43" y="247"/>
+      <point x="43" y="194" type="curve" smooth="yes"/>
+      <point x="43" y="42"/>
+      <point x="139" y="-12"/>
+    </contour>
+    <contour>
+      <point x="418.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="418.0" y="-12.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="418.0" y="249.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni066E</string>
+      <key>com.type-invaders.name.production</key>
+      <string>behDotless-ar</string>
+    </dict>
+  </lib>
+</glyph>

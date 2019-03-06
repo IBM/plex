@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noon-ar.medi" format="1">
+  <advance width="310"/>
+  <unicode hex="FEE8"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="dotabove-ar" xOffset="90" yOffset="80"/>
+    <contour>
+      <point x="155.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="289.0" y="329.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="198.0" y="7.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="155.0" y="329.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEE8</string>
+      <key>com.type-invaders.name.production</key>
+      <string>noon-ar.medi</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

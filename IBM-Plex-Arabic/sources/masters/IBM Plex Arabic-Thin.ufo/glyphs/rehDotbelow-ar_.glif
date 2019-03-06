@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rehDotbelow-ar" format="1">
+  <advance width="256"/>
+  <unicode hex="0694"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="dotbelow-ar" xOffset="-49" yOffset="-857"/>
+    <contour>
+      <point x="202.0" y="-118.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="14.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="71.0" y="-226.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="153.0" y="286.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0694</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rehDotbelow-ar</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefHamzabelow-ar.fina" format="1">
+  <advance width="641"/>
+  <unicode hex="FEFA"/>
+  <outline>
+    <component base="lam_alef-ar.fina"/>
+    <component base="hamzabelow-ar" xOffset="154" yOffset="-630"/>
+    <contour>
+      <point x="471.0" y="424.0" type="move" name="bar"/>
+    </contour>
+    <contour>
+      <point x="471.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="271.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="471.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="154.0" y="578.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFEFA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lam_alefHamzabelow-ar.fina</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

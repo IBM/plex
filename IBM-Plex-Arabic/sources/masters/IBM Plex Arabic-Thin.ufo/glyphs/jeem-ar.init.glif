@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeem-ar.init" format="1">
+  <advance width="591"/>
+  <unicode hex="FE9F"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="dotbelow-ar" xOffset="209" yOffset="-617"/>
+    <contour>
+      <point x="272.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="221.0" y="369.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFE9F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>jeem-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

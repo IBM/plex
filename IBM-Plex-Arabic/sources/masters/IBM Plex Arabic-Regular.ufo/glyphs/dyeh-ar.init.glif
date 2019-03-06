@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dyeh-ar.init" format="1">
+  <advance width="634"/>
+  <unicode hex="FB74"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="twodotsverticalbelow-ar" xOffset="111" yOffset="-648"/>
+    <contour>
+      <point x="305.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="254.0" y="369.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniFB74</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dyeh-ar.init</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

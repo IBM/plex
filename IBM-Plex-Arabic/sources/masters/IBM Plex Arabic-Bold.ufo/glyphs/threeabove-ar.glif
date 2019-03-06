@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threeabove-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="87" y="640" type="line"/>
+      <point x="20" y="640" type="line"/>
+      <point x="40" y="363" type="line"/>
+      <point x="107" y="363" type="line"/>
+      <point x="98" y="479" type="line"/>
+      <point x="126" y="483"/>
+      <point x="138" y="508"/>
+      <point x="141" y="539" type="curve"/>
+      <point x="145" y="539" type="line"/>
+      <point x="152" y="494"/>
+      <point x="174" y="472"/>
+      <point x="219" y="472" type="curve" smooth="yes" name="hr01"/>
+      <point x="272" y="472"/>
+      <point x="298" y="506"/>
+      <point x="298" y="575" type="curve" smooth="yes"/>
+      <point x="298" y="602"/>
+      <point x="294" y="624"/>
+      <point x="285" y="654" type="curve"/>
+      <point x="222" y="640" type="line"/>
+      <point x="231" y="614"/>
+      <point x="237" y="594"/>
+      <point x="237" y="579" type="curve" smooth="yes"/>
+      <point x="237" y="561"/>
+      <point x="234" y="554"/>
+      <point x="219" y="554" type="curve" smooth="yes"/>
+      <point x="201" y="554"/>
+      <point x="200" y="567"/>
+      <point x="200" y="590" type="curve" smooth="yes"/>
+      <point x="200" y="614" type="line"/>
+      <point x="139" y="614" type="line"/>
+      <point x="139" y="590" type="line" smooth="yes"/>
+      <point x="139" y="569"/>
+      <point x="129" y="560"/>
+      <point x="108" y="560" type="curve" smooth="yes" name="hr02"/>
+      <point x="93" y="560" type="line"/>
+    </contour>
+    <contour>
+      <point x="129.0" y="283.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="159.0" y="643.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>threeabovear</string>
+      <key>com.type-invaders.name.production</key>
+      <string>threeabove-ar</string>
+    </dict>
+  </lib>
+</glyph>
