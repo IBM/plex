@@ -5,8 +5,12 @@
   "repository": "https://github.com/ibm/plex.git",
   "license": "OFL-1.1",
   "keywords": [
-    "eyeglass-module"
+    "IBM",
+    "Plex"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/ibm/plex/issues"
   },
@@ -16,15 +20,12 @@
     "build:css": "node-sass scss/ibm-plex.scss --output css && node-sass scss/ibm-plex.scss > css/ibm-plex.min.css --output-style compressed",
     "build:scss": "node scripts/export-scss.js",
     "precommit": "lint-staged",
-    "prettier": "prettier --write \"**/*.{scss}\"",
-    "prepare": "yarn build"
-  },
-  "dependencies": {
-    "archiver": "^3.0.0",
-    "git-branch": "^2.0.1"
+    "prettier": "prettier --write \"**/*.{scss}\""
   },
   "devDependencies": {
+    "archiver": "^3.0.0",
     "fs-extra": "^7.0.0",
+    "git-branch": "^2.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
     "node-sass": "^4.7.2",

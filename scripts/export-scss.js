@@ -3,8 +3,6 @@
  * need for each font family, supported weight, and unicode range.
  */
 
-'use strict';
-
 const fs = require('fs-extra');
 const path = require('path');
 const rimraf = require('rimraf');
@@ -101,10 +99,10 @@ const filesToWrite = families
 
     // Here we'll generate a `_index.scss` partial for a specific font family
     // that includes all the various weight files generated for the font-family.
-    const filename = `${OUTPUT_DIRECTORY}/${family.type.replace(
-      ' ',
-      '-'
-    )}/_index.scss`;
+    const filename = `${OUTPUT_DIRECTORY}/${family.type
+      .toLowerCase()
+      .replace(' ', '-')}/_index.scss`;
+
     const content = files
       .filter(file => file.weight)
       .filter(file => {
