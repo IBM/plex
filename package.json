@@ -19,12 +19,10 @@
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "yarn build"
   },
-  "dependencies": {
-    "archiver": "^3.0.0",
-    "git-branch": "^2.0.1"
-  },
   "devDependencies": {
+    "archiver": "^3.0.0",
     "fs-extra": "^7.0.0",
+    "git-branch": "^2.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
     "node-sass": "^4.7.2",
