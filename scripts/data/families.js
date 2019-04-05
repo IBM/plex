@@ -1,5 +1,3 @@
-'use strict';
-
 const families = [
   {
     type: 'Mono',
@@ -35,6 +33,12 @@ const families = [
     unicodes: [],
   },
   {
+    type: 'Thai Looped',
+    name: 'IBM Plex Thai Looped',
+    hasItalic: false,
+    unicodes: [],
+  },
+  {
     type: 'Serif',
     name: 'IBM Plex Serif',
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
@@ -43,8 +47,8 @@ const families = [
     type: 'Arabic',
     name: 'IBM Plex Arabic',
     hasItalic: false,
-    unicodes: []
-  }
+    unicodes: [],
+  },
 ];
 
 module.exports = families;

@@ -1,5 +1,3 @@
-"use strict";
-
 /**
  * Often times, we generate a filename by creating an array of each part of the
  * path for the filename and then we need to clean it up using this function.
@@ -8,7 +6,10 @@
  * of the path before joining them with the '/' separator.
  */
 const formatFilename = array =>
-  array.filter(Boolean).map(string => string.toLowerCase()).join("/");
+  array
+    .filter(Boolean)
+    .map(string => string.toLowerCase())
+    .join('/');
 
 exports.formatFilename = formatFilename;
 
@@ -18,41 +19,52 @@ exports.formatFilename = formatFilename;
  */
 const createFontFace = (filename, family, weight, unicode = {}) => {
   const fontFileName = [
-    `IBMPlex${family.type.replace(" ", "")}`,
+    `IBMPlex${family.type.replace(' ', '')}`,
     weight.variant ? weight.type + weight.variant : weight.type,
-    unicode.type
+    unicode.type,
   ]
     .filter(Boolean)
-    .join("-");
+    .join('-');
   const localFileName = [
     `IBM Plex ${family.type}`,
-    weight.type !== "Regular" &&
-      (weight.variant ? weight.type + " " + weight.variant : weight.type)
+    weight.type !== 'Regular' &&
+      (weight.variant ? `${weight.type} ${weight.variant}` : weight.type),
   ]
     .filter(Boolean)
-    .join(" ");
+    .join(' ');
   const localPostscriptName = [
-    `IBMPlex${family.type.replace(" ", "")}`,
-    weight.type !== "Regular" &&
-      (weight.variant ? "-" + weight.type + weight.variant : "-" + weight.type)
+    `IBMPlex${family.type.replace(' ', '')}`,
+    weight.type !== 'Regular' &&
+      (weight.variant ? `-${weight.type}${weight.variant}` : `-${weight.type}`),
   ]
     .filter(Boolean)
-    .join("");
+    .join('');
 
   const local = `local('${localFileName}'),
     local('${localPostscriptName}')`;
 
   const urls = {
-    woff: `#{$font-prefix}/IBM-Plex-${family.type.replace(" ", "-")}/fonts/complete/woff/${fontFileName}.woff`,
-    woff2: `#{$font-prefix}/IBM-Plex-${family.type.replace(" ", "-")}/fonts/split/woff2/${fontFileName}.woff2`
+    woff: `#{$font-prefix}/IBM-Plex-${family.type.replace(
+      ' ',
+      '-'
+    )}/fonts/complete/woff/${fontFileName}.woff`,
+    woff2Split: `#{$font-prefix}/IBM-Plex-${family.type.replace(
+      ' ',
+      '-'
+    )}/fonts/split/woff2/${fontFileName}.woff2`,
+    woff2Complete: `#{$font-prefix}/IBM-Plex-${family.type.replace(
+      ' ',
+      '-'
+    )}/fonts/complete/woff2/${fontFileName}.woff2`,
   };
 
   const src = unicode.characters
     ? `src: ${local},
-    url('${urls.woff2}') format('woff2');
-    unicode-range: ${unicode.characters.join(", ")};` 
+    url('${urls.woff2Split}') format('woff2');
+    unicode-range: ${unicode.characters.join(', ')};`
     : `src: ${local},
-    url('${urls.woff}') format('woff');`
+    url('${urls.woff2Complete}') format('woff2'),
+    url('${urls.woff}') format('woff');`;
 
   return `@font-face {
   font-family: '${family.name}';
