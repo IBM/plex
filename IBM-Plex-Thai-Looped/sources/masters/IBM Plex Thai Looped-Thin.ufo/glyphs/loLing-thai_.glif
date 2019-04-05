@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="loLing-thai" format="1">
+  <advance width="579"/>
+  <unicode hex="0E25"/>
+  <outline>
+    <contour>
+      <point x="203" y="-12" type="curve" smooth="yes"/>
+      <point x="246" y="-12"/>
+      <point x="278" y="17"/>
+      <point x="278" y="62" type="curve" smooth="yes"/>
+      <point x="278" y="107"/>
+      <point x="246" y="136"/>
+      <point x="203" y="136" type="curve" smooth="yes"/>
+      <point x="160" y="136"/>
+      <point x="128" y="107"/>
+      <point x="128" y="62" type="curve" smooth="yes"/>
+      <point x="128" y="56" type="line"/>
+      <point x="120" y="74"/>
+      <point x="116" y="97"/>
+      <point x="116" y="127" type="curve" smooth="yes"/>
+      <point x="116" y="157" type="line" smooth="yes"/>
+      <point x="116" y="240"/>
+      <point x="169" y="280"/>
+      <point x="272" y="280" type="curve" smooth="yes"/>
+      <point x="445" y="280" type="line"/>
+      <point x="445" y="0" type="line" name="hr01"/>
+      <point x="466" y="0" type="line"/>
+      <point x="466" y="357" type="line" smooth="yes"/>
+      <point x="466" y="480"/>
+      <point x="400" y="548"/>
+      <point x="268" y="548" type="curve" smooth="yes"/>
+      <point x="157" y="548"/>
+      <point x="98" y="501"/>
+      <point x="65" y="426" type="curve"/>
+      <point x="83" y="418" type="line"/>
+      <point x="117" y="495"/>
+      <point x="176" y="530"/>
+      <point x="269" y="530" type="curve" smooth="yes"/>
+      <point x="384" y="530"/>
+      <point x="445" y="476"/>
+      <point x="445" y="354" type="curve" smooth="yes"/>
+      <point x="445" y="298" type="line"/>
+      <point x="268" y="298" type="line" smooth="yes"/>
+      <point x="144" y="298"/>
+      <point x="93" y="238"/>
+      <point x="93" y="142" type="curve" smooth="yes"/>
+      <point x="93" y="52"/>
+      <point x="130" y="-12"/>
+    </contour>
+    <contour>
+      <point x="203" y="3" type="curve" smooth="yes"/>
+      <point x="166" y="3"/>
+      <point x="147" y="28"/>
+      <point x="147" y="62" type="curve" smooth="yes"/>
+      <point x="147" y="96"/>
+      <point x="166" y="121"/>
+      <point x="203" y="121" type="curve" smooth="yes"/>
+      <point x="240" y="121"/>
+      <point x="259" y="96"/>
+      <point x="259" y="62" type="curve" smooth="yes"/>
+      <point x="259" y="28"/>
+      <point x="240" y="3"/>
+    </contour>
+    <contour>
+      <point x="466.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="269.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="466.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E25</string>
+      <key>com.type-invaders.name.production</key>
+      <string>loLing-thai</string>
+    </dict>
+  </lib>
+</glyph>

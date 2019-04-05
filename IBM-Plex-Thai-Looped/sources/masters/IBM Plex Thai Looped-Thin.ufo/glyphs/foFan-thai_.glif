@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="foFan-thai" format="1">
+  <advance width="702"/>
+  <unicode hex="0E1F"/>
+  <outline>
+    <contour>
+      <point x="168" y="0" type="line"/>
+      <point x="184" y="0" type="line"/>
+      <point x="375" y="500" type="line"/>
+      <point x="377" y="500" type="line"/>
+      <point x="568" y="0" type="line"/>
+      <point x="577" y="0" type="line" smooth="yes"/>
+      <point x="581" y="0"/>
+      <point x="584" y="4"/>
+      <point x="584" y="9" type="curve" smooth="yes"/>
+      <point x="584" y="698" type="line"/>
+      <point x="563" y="698" type="line"/>
+      <point x="563" y="249" type="line"/>
+      <point x="568" y="58" type="line"/>
+      <point x="564" y="58" type="line"/>
+      <point x="388" y="519" type="line"/>
+      <point x="364" y="519" type="line"/>
+      <point x="188" y="58" type="line"/>
+      <point x="184" y="58" type="line"/>
+      <point x="189" y="249" type="line"/>
+      <point x="189" y="474" type="line" smooth="yes"/>
+      <point x="189" y="519"/>
+      <point x="157" y="548"/>
+      <point x="114" y="548" type="curve" smooth="yes"/>
+      <point x="71" y="548"/>
+      <point x="39" y="519"/>
+      <point x="39" y="474" type="curve" smooth="yes"/>
+      <point x="39" y="429"/>
+      <point x="71" y="400"/>
+      <point x="114" y="400" type="curve" smooth="yes"/>
+      <point x="137" y="400"/>
+      <point x="155" y="408"/>
+      <point x="168" y="423" type="curve"/>
+    </contour>
+    <contour>
+      <point x="114" y="415" type="curve" smooth="yes"/>
+      <point x="77" y="415"/>
+      <point x="58" y="440"/>
+      <point x="58" y="474" type="curve" smooth="yes"/>
+      <point x="58" y="508"/>
+      <point x="77" y="533"/>
+      <point x="114" y="533" type="curve" smooth="yes"/>
+      <point x="151" y="533"/>
+      <point x="170" y="508"/>
+      <point x="170" y="474" type="curve" smooth="yes" name="hr01"/>
+      <point x="170" y="440"/>
+      <point x="151" y="415"/>
+    </contour>
+    <contour>
+      <point x="585.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="372.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="564.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E1F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>foFan-thai</string>
+    </dict>
+  </lib>
+</glyph>

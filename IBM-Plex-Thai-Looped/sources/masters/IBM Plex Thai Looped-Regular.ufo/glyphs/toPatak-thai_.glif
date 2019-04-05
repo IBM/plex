@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="toPatak-thai" format="1">
+  <advance width="697"/>
+  <unicode hex="0E0F"/>
+  <outline>
+    <contour>
+      <point x="209" y="-295" type="curve" smooth="yes"/>
+      <point x="262" y="-295"/>
+      <point x="282" y="-268"/>
+      <point x="300" y="-245" type="curve" smooth="yes"/>
+      <point x="310" y="-233" type="line"/>
+      <point x="312" y="-233" type="line"/>
+      <point x="371" y="-301" type="line"/>
+      <point x="438" y="-244" type="line"/>
+      <point x="495" y="-290" type="line"/>
+      <point x="548" y="-290" type="line" smooth="yes"/>
+      <point x="575" y="-290"/>
+      <point x="597" y="-269"/>
+      <point x="597" y="-242" type="curve" smooth="yes"/>
+      <point x="597" y="341" type="line" smooth="yes"/>
+      <point x="597" y="474"/>
+      <point x="500" y="558"/>
+      <point x="352" y="558" type="curve" smooth="yes"/>
+      <point x="203" y="558"/>
+      <point x="103" y="470"/>
+      <point x="94" y="348" type="curve"/>
+      <point x="183" y="311" type="line"/>
+      <point x="183" y="180" type="line"/>
+      <point x="174" y="181"/>
+      <point x="166" y="182"/>
+      <point x="157" y="182" type="curve" smooth="yes"/>
+      <point x="94" y="182"/>
+      <point x="51" y="144"/>
+      <point x="51" y="85" type="curve" smooth="yes"/>
+      <point x="51" y="26"/>
+      <point x="94" y="-12"/>
+      <point x="157" y="-12" type="curve" smooth="yes"/>
+      <point x="220" y="-12"/>
+      <point x="263" y="26"/>
+      <point x="263" y="85" type="curve" smooth="yes"/>
+      <point x="263" y="309" type="line" smooth="yes"/>
+      <point x="263" y="344"/>
+      <point x="245" y="355"/>
+      <point x="222" y="364" type="curve" smooth="yes"/>
+      <point x="169" y="384" type="line"/>
+      <point x="188" y="455"/>
+      <point x="261" y="498"/>
+      <point x="349" y="498" type="curve" smooth="yes"/>
+      <point x="451" y="498"/>
+      <point x="517" y="440"/>
+      <point x="517" y="331" type="curve" smooth="yes"/>
+      <point x="517" y="-113" type="line"/>
+      <point x="519" y="-242" type="line"/>
+      <point x="510" y="-242" type="line"/>
+      <point x="438" y="-184" type="line"/>
+      <point x="379" y="-233" type="line"/>
+      <point x="347" y="-200" type="line"/>
+      <point x="417" y="-113" type="line"/>
+      <point x="356" y="-113" type="line"/>
+      <point x="312" y="-168" type="line"/>
+      <point x="310" y="-168" type="line"/>
+      <point x="300" y="-155" type="line" smooth="yes"/>
+      <point x="282" y="-132"/>
+      <point x="262" y="-105"/>
+      <point x="209" y="-105" type="curve" smooth="yes"/>
+      <point x="155" y="-105"/>
+      <point x="116" y="-142"/>
+      <point x="116" y="-200" type="curve" smooth="yes"/>
+      <point x="116" y="-258"/>
+      <point x="155" y="-295"/>
+    </contour>
+    <contour>
+      <point x="154" y="32" type="curve" smooth="yes"/>
+      <point x="124" y="32"/>
+      <point x="105" y="53"/>
+      <point x="105" y="85" type="curve" smooth="yes"/>
+      <point x="105" y="117"/>
+      <point x="124" y="138"/>
+      <point x="154" y="138" type="curve" smooth="yes"/>
+      <point x="184" y="138"/>
+      <point x="203" y="117"/>
+      <point x="203" y="85" type="curve" smooth="yes" name="hr01"/>
+      <point x="203" y="53"/>
+      <point x="184" y="32"/>
+    </contour>
+    <contour>
+      <point x="210" y="-251" type="curve" smooth="yes"/>
+      <point x="190" y="-251"/>
+      <point x="171" y="-238"/>
+      <point x="171" y="-214" type="curve" smooth="yes"/>
+      <point x="171" y="-186" type="line" smooth="yes"/>
+      <point x="171" y="-162"/>
+      <point x="190" y="-149"/>
+      <point x="210" y="-149" type="curve" smooth="yes"/>
+      <point x="237" y="-149"/>
+      <point x="252" y="-168"/>
+      <point x="268" y="-187" type="curve" smooth="yes"/>
+      <point x="279" y="-200" type="line"/>
+      <point x="268" y="-213" type="line" smooth="yes"/>
+      <point x="252" y="-232"/>
+      <point x="237" y="-251"/>
+    </contour>
+    <contour>
+      <point x="350.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="597.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E0F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>toPatak-thai</string>
+    </dict>
+  </lib>
+</glyph>

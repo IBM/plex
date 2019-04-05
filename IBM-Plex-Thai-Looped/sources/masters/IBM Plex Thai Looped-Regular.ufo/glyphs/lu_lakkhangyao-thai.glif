@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lu_lakkhangyao-thai" format="1">
+  <advance width="1023"/>
+  <outline>
+    <contour>
+      <point x="923" y="-180" type="line"/>
+      <point x="923" y="382" type="line" smooth="yes"/>
+      <point x="923" y="493"/>
+      <point x="855" y="558"/>
+      <point x="731" y="558" type="curve" smooth="yes"/>
+      <point x="642" y="558"/>
+      <point x="584" y="525"/>
+      <point x="549" y="480" type="curve"/>
+      <point x="507" y="530"/>
+      <point x="438" y="558"/>
+      <point x="352" y="558" type="curve" smooth="yes"/>
+      <point x="203" y="558"/>
+      <point x="103" y="470"/>
+      <point x="94" y="348" type="curve"/>
+      <point x="183" y="311" type="line"/>
+      <point x="183" y="180" type="line"/>
+      <point x="174" y="181"/>
+      <point x="166" y="182"/>
+      <point x="157" y="182" type="curve" smooth="yes"/>
+      <point x="94" y="182"/>
+      <point x="51" y="144"/>
+      <point x="51" y="85" type="curve" smooth="yes"/>
+      <point x="51" y="26"/>
+      <point x="94" y="-12"/>
+      <point x="157" y="-12" type="curve" smooth="yes"/>
+      <point x="220" y="-12"/>
+      <point x="263" y="26"/>
+      <point x="263" y="85" type="curve" smooth="yes"/>
+      <point x="263" y="309" type="line" smooth="yes"/>
+      <point x="263" y="344"/>
+      <point x="245" y="355"/>
+      <point x="222" y="364" type="curve" smooth="yes"/>
+      <point x="169" y="384" type="line"/>
+      <point x="188" y="455"/>
+      <point x="261" y="498"/>
+      <point x="349" y="498" type="curve" smooth="yes"/>
+      <point x="451" y="498"/>
+      <point x="517" y="440"/>
+      <point x="517" y="331" type="curve" smooth="yes"/>
+      <point x="517" y="-180" type="line"/>
+      <point x="597" y="-180" type="line"/>
+      <point x="597" y="341" type="line" smooth="yes"/>
+      <point x="597" y="368"/>
+      <point x="593" y="394"/>
+      <point x="585" y="417" type="curve"/>
+      <point x="613" y="466"/>
+      <point x="654" y="498"/>
+      <point x="721" y="498" type="curve" smooth="yes"/>
+      <point x="802" y="498"/>
+      <point x="843" y="455"/>
+      <point x="843" y="375" type="curve" smooth="yes"/>
+      <point x="843" y="-180" type="line"/>
+    </contour>
+    <contour>
+      <point x="154" y="32" type="curve" smooth="yes"/>
+      <point x="124" y="32"/>
+      <point x="105" y="53"/>
+      <point x="105" y="85" type="curve" smooth="yes"/>
+      <point x="105" y="117"/>
+      <point x="124" y="138"/>
+      <point x="154" y="138" type="curve" smooth="yes"/>
+      <point x="184" y="138"/>
+      <point x="203" y="117"/>
+      <point x="203" y="85" type="curve" smooth="yes" name="hr01"/>
+      <point x="203" y="53"/>
+      <point x="184" y="32"/>
+    </contour>
+    <contour>
+      <point x="557.0" y="558.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E260E45</string>
+      <key>com.type-invaders.name.production</key>
+      <string>lu_lakkhangyao-thai</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hoNokhuk-thai" format="1">
+  <advance width="649"/>
+  <unicode hex="0E2E"/>
+  <outline>
+    <contour>
+      <point x="580" y="621" type="line"/>
+      <point x="433" y="621" type="line"/>
+      <point x="433" y="547" type="line"/>
+      <point x="398" y="559"/>
+      <point x="357" y="566"/>
+      <point x="310" y="566" type="curve" smooth="yes"/>
+      <point x="166" y="566"/>
+      <point x="83" y="515"/>
+      <point x="40" y="455" type="curve"/>
+      <point x="128" y="374" type="line"/>
+      <point x="157" y="412"/>
+      <point x="201" y="453"/>
+      <point x="291" y="453" type="curve" smooth="yes"/>
+      <point x="376" y="453"/>
+      <point x="429" y="406"/>
+      <point x="429" y="329" type="curve" smooth="yes" name="hr01"/>
+      <point x="429" y="157" type="line" smooth="yes"/>
+      <point x="429" y="122"/>
+      <point x="407" y="101"/>
+      <point x="365" y="101" type="curve" smooth="yes"/>
+      <point x="303" y="101" type="line" smooth="yes"/>
+      <point x="266" y="101"/>
+      <point x="245" y="116"/>
+      <point x="240" y="143" type="curve"/>
+      <point x="308" y="148"/>
+      <point x="357" y="193"/>
+      <point x="357" y="263" type="curve" smooth="yes"/>
+      <point x="357" y="337"/>
+      <point x="302" y="383"/>
+      <point x="228" y="383" type="curve" smooth="yes"/>
+      <point x="144" y="383"/>
+      <point x="91" y="325"/>
+      <point x="91" y="240" type="curve" smooth="yes"/>
+      <point x="91" y="167" type="line" smooth="yes"/>
+      <point x="91" y="47"/>
+      <point x="178" y="-12"/>
+      <point x="334" y="-12" type="curve" smooth="yes"/>
+      <point x="490" y="-12"/>
+      <point x="577" y="47"/>
+      <point x="577" y="167" type="curve" smooth="yes"/>
+      <point x="577" y="333" type="line" smooth="yes"/>
+      <point x="577" y="393"/>
+      <point x="561" y="444"/>
+      <point x="530" y="482" type="curve"/>
+      <point x="562" y="504"/>
+      <point x="580" y="540"/>
+      <point x="580" y="586" type="curve" smooth="yes" name="hr02"/>
+    </contour>
+    <contour>
+      <point x="230" y="214" type="curve" smooth="yes"/>
+      <point x="203" y="214"/>
+      <point x="183" y="233"/>
+      <point x="183" y="263" type="curve" smooth="yes"/>
+      <point x="183" y="293"/>
+      <point x="203" y="312"/>
+      <point x="230" y="312" type="curve" smooth="yes"/>
+      <point x="257" y="312"/>
+      <point x="277" y="293"/>
+      <point x="277" y="263" type="curve" smooth="yes"/>
+      <point x="277" y="233"/>
+      <point x="257" y="214"/>
+    </contour>
+    <contour>
+      <point x="550.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="263.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="550.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E2E</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hoNokhuk-thai</string>
+    </dict>
+  </lib>
+</glyph>
