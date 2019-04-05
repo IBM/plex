@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="three-thai" format="1">
+  <advance width="774"/>
+  <unicode hex="0E53"/>
+  <outline>
+    <contour>
+      <point x="219" y="-12" type="curve" smooth="yes"/>
+      <point x="282" y="-12"/>
+      <point x="325" y="26"/>
+      <point x="325" y="85" type="curve" smooth="yes"/>
+      <point x="325" y="144"/>
+      <point x="285" y="182"/>
+      <point x="228" y="182" type="curve" smooth="yes"/>
+      <point x="201" y="182"/>
+      <point x="178" y="175"/>
+      <point x="161" y="160" type="curve"/>
+      <point x="161" y="296" type="line" smooth="yes"/>
+      <point x="161" y="398"/>
+      <point x="192" y="449"/>
+      <point x="260" y="449" type="curve" smooth="yes"/>
+      <point x="325" y="449"/>
+      <point x="349" y="402"/>
+      <point x="349" y="353" type="curve" smooth="yes"/>
+      <point x="349" y="174" type="line"/>
+      <point x="422" y="174" type="line"/>
+      <point x="422" y="353" type="line" smooth="yes"/>
+      <point x="422" y="403"/>
+      <point x="449" y="449"/>
+      <point x="511" y="449" type="curve" smooth="yes"/>
+      <point x="571" y="449"/>
+      <point x="600" y="407"/>
+      <point x="600" y="346" type="curve" smooth="yes"/>
+      <point x="600" y="0" type="line" name="hr01"/>
+      <point x="680" y="0" type="line"/>
+      <point x="680" y="355" type="line" smooth="yes"/>
+      <point x="680" y="449"/>
+      <point x="627" y="509"/>
+      <point x="530" y="509" type="curve" smooth="yes"/>
+      <point x="444" y="509"/>
+      <point x="404" y="458"/>
+      <point x="392" y="412" type="curve"/>
+      <point x="387" y="412" type="line"/>
+      <point x="376" y="458"/>
+      <point x="338" y="509"/>
+      <point x="248" y="509" type="curve" smooth="yes"/>
+      <point x="142" y="509"/>
+      <point x="81" y="437"/>
+      <point x="81" y="305" type="curve" smooth="yes"/>
+      <point x="81" y="189" type="line" smooth="yes"/>
+      <point x="81" y="41"/>
+      <point x="145" y="-12"/>
+    </contour>
+    <contour>
+      <point x="222" y="32" type="curve" smooth="yes"/>
+      <point x="192" y="32"/>
+      <point x="173" y="53"/>
+      <point x="173" y="85" type="curve" smooth="yes"/>
+      <point x="173" y="117"/>
+      <point x="192" y="138"/>
+      <point x="222" y="138" type="curve" smooth="yes"/>
+      <point x="252" y="138"/>
+      <point x="271" y="117"/>
+      <point x="271" y="85" type="curve" smooth="yes"/>
+      <point x="271" y="53"/>
+      <point x="252" y="32"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E53</string>
+      <key>com.type-invaders.name.production</key>
+      <string>three-thai</string>
+    </dict>
+  </lib>
+</glyph>

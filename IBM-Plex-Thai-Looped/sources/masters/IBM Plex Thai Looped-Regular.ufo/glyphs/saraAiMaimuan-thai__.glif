@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="saraAiMaimuan-thai" format="1">
+  <advance width="378"/>
+  <unicode hex="0E43"/>
+  <outline>
+    <contour>
+      <point x="246" y="-12" type="curve" smooth="yes"/>
+      <point x="309" y="-12"/>
+      <point x="352" y="26"/>
+      <point x="352" y="85" type="curve" smooth="yes"/>
+      <point x="352" y="144"/>
+      <point x="309" y="182"/>
+      <point x="246" y="182" type="curve" smooth="yes"/>
+      <point x="237" y="182"/>
+      <point x="228" y="181"/>
+      <point x="220" y="180" type="curve"/>
+      <point x="220" y="568" type="line"/>
+      <point x="264" y="601" type="line" smooth="yes"/>
+      <point x="314" y="639"/>
+      <point x="339" y="683"/>
+      <point x="339" y="740" type="curve" smooth="yes" name="hr01"/>
+      <point x="339" y="815"/>
+      <point x="276" y="873"/>
+      <point x="162" y="873" type="curve" smooth="yes"/>
+      <point x="71" y="873"/>
+      <point x="12" y="827"/>
+      <point x="-14" y="748" type="curve"/>
+      <point x="50" y="719" type="line"/>
+      <point x="69" y="782"/>
+      <point x="105" y="813"/>
+      <point x="162" y="813" type="curve" smooth="yes"/>
+      <point x="216" y="813"/>
+      <point x="260" y="786"/>
+      <point x="260" y="731" type="curve" smooth="yes"/>
+      <point x="260" y="692"/>
+      <point x="245" y="662"/>
+      <point x="209" y="637" type="curve" smooth="yes"/>
+      <point x="170" y="610" type="line" smooth="yes"/>
+      <point x="140" y="589"/>
+      <point x="140" y="575"/>
+      <point x="140" y="538" type="curve" smooth="yes"/>
+      <point x="140" y="85" type="line" smooth="yes"/>
+      <point x="140" y="26"/>
+      <point x="183" y="-12"/>
+    </contour>
+    <contour>
+      <point x="249" y="32" type="curve" smooth="yes"/>
+      <point x="219" y="32"/>
+      <point x="200" y="53"/>
+      <point x="200" y="85" type="curve" smooth="yes"/>
+      <point x="200" y="117"/>
+      <point x="219" y="138"/>
+      <point x="249" y="138" type="curve" smooth="yes"/>
+      <point x="279" y="138"/>
+      <point x="298" y="117"/>
+      <point x="298" y="85" type="curve" smooth="yes" name="hr02"/>
+      <point x="298" y="53"/>
+      <point x="279" y="32"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E43</string>
+      <key>com.type-invaders.name.production</key>
+      <string>saraAiMaimuan-thai</string>
+    </dict>
+  </lib>
+</glyph>

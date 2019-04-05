@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six-thai" format="1">
+  <advance width="650"/>
+  <unicode hex="0E56"/>
+  <outline>
+    <contour>
+      <point x="307" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="483" y="-12"/>
+      <point x="597" y="90"/>
+      <point x="597" y="255" type="curve" smooth="yes"/>
+      <point x="597" y="420"/>
+      <point x="508" y="518"/>
+      <point x="366" y="518" type="curve" smooth="yes"/>
+      <point x="271" y="518"/>
+      <point x="210" y="471"/>
+      <point x="192" y="401" type="curve"/>
+      <point x="184" y="401" type="line"/>
+      <point x="156" y="606" type="line"/>
+      <point x="19" y="606" type="line"/>
+      <point x="70" y="324" type="line"/>
+      <point x="192" y="324" type="line"/>
+      <point x="209" y="377"/>
+      <point x="254" y="413"/>
+      <point x="330" y="413" type="curve" smooth="yes"/>
+      <point x="396" y="413"/>
+      <point x="443" y="373"/>
+      <point x="443" y="305" type="curve" smooth="yes"/>
+      <point x="443" y="206" type="line" smooth="yes"/>
+      <point x="443" y="138"/>
+      <point x="396" y="94"/>
+      <point x="306" y="94" type="curve" smooth="yes"/>
+      <point x="265" y="94"/>
+      <point x="231" y="99"/>
+      <point x="205" y="107" type="curve"/>
+      <point x="205" y="111" type="line"/>
+      <point x="261" y="111"/>
+      <point x="302" y="151"/>
+      <point x="302" y="205" type="curve" smooth="yes"/>
+      <point x="302" y="260"/>
+      <point x="257" y="302"/>
+      <point x="193" y="302" type="curve" smooth="yes"/>
+      <point x="120" y="302"/>
+      <point x="71" y="254"/>
+      <point x="71" y="169" type="curve" smooth="yes"/>
+      <point x="71" y="47"/>
+      <point x="191" y="-12"/>
+    </contour>
+    <contour>
+      <point x="194" y="156" type="curve" smooth="yes"/>
+      <point x="170" y="156"/>
+      <point x="153" y="172"/>
+      <point x="153" y="198" type="curve" smooth="yes"/>
+      <point x="153" y="224"/>
+      <point x="170" y="240"/>
+      <point x="194" y="240" type="curve" smooth="yes"/>
+      <point x="218" y="240"/>
+      <point x="235" y="224"/>
+      <point x="235" y="198" type="curve" smooth="yes"/>
+      <point x="235" y="172"/>
+      <point x="218" y="156"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E56</string>
+      <key>com.type-invaders.name.production</key>
+      <string>six-thai</string>
+    </dict>
+  </lib>
+</glyph>

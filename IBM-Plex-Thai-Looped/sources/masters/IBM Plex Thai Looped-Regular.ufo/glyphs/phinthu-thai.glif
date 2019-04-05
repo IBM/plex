@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="phinthu-thai" format="1">
+  <advance width="0"/>
+  <unicode hex="0E3A"/>
+  <outline>
+    <contour>
+      <point x="-42" y="-207" type="curve" name="hr00"/>
+      <point x="-6" y="-207"/>
+      <point x="10" y="-188"/>
+      <point x="10" y="-162" type="curve"/>
+      <point x="10" y="-149" type="line" smooth="yes"/>
+      <point x="10" y="-122"/>
+      <point x="-6" y="-103"/>
+      <point x="-42" y="-103" type="curve"/>
+      <point x="-78" y="-103"/>
+      <point x="-94" y="-122"/>
+      <point x="-94" y="-149" type="curve"/>
+      <point x="-94" y="-162" type="line"/>
+      <point x="-94" y="-188"/>
+      <point x="-78" y="-207"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="0.0" type="move" name="_bottomright"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="-208.0" type="move" name="bottomright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E3A</string>
+      <key>com.type-invaders.name.production</key>
+      <string>phinthu-thai</string>
+    </dict>
+  </lib>
+</glyph>

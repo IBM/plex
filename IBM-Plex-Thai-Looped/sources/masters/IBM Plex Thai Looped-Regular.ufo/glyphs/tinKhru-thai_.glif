@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tinKhru-thai" format="1">
+  <advance width="1671"/>
+  <unicode hex="EC06"/>
+  <outline>
+    <contour>
+      <point x="35" y="236" type="line" name="hr00"/>
+      <point x="795" y="236" type="line"/>
+      <point x="795" y="-533" type="line"/>
+      <point x="876" y="-533" type="line"/>
+      <point x="876" y="236" type="line"/>
+      <point x="1635" y="236" type="line"/>
+      <point x="1635" y="296" type="line"/>
+      <point x="876" y="296" type="line"/>
+      <point x="876" y="1067" type="line"/>
+      <point x="795" y="1067" type="line"/>
+      <point x="795" y="296" type="line"/>
+      <point x="35" y="296" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniEC06</string>
+      <key>com.type-invaders.name.production</key>
+      <string>tinKhru-thai</string>
+    </dict>
+  </lib>
+</glyph>

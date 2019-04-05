@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="maiyamok-thai" format="1">
+  <advance width="632"/>
+  <unicode hex="0E46"/>
+  <outline>
+    <contour>
+      <point x="156" y="219" type="curve" smooth="yes"/>
+      <point x="211" y="219"/>
+      <point x="247" y="254"/>
+      <point x="247" y="306" type="curve" smooth="yes"/>
+      <point x="247" y="358"/>
+      <point x="211" y="393"/>
+      <point x="156" y="393" type="curve" smooth="yes"/>
+      <point x="147" y="393"/>
+      <point x="139" y="392"/>
+      <point x="132" y="390" type="curve"/>
+      <point x="132" y="427" type="line" smooth="yes"/>
+      <point x="132" y="475"/>
+      <point x="158" y="498"/>
+      <point x="197" y="498" type="curve" smooth="yes"/>
+      <point x="242" y="498"/>
+      <point x="260" y="466"/>
+      <point x="265" y="409" type="curve"/>
+      <point x="317" y="409" type="line"/>
+      <point x="322" y="466"/>
+      <point x="340" y="498"/>
+      <point x="385" y="498" type="curve" smooth="yes"/>
+      <point x="424" y="498"/>
+      <point x="450" y="475"/>
+      <point x="450" y="427" type="curve" smooth="yes"/>
+      <point x="450" y="-180" type="line"/>
+      <point x="530" y="-180" type="line"/>
+      <point x="530" y="438" type="line" smooth="yes"/>
+      <point x="530" y="509"/>
+      <point x="480" y="558"/>
+      <point x="402" y="558" type="curve" smooth="yes"/>
+      <point x="342" y="558"/>
+      <point x="305" y="529"/>
+      <point x="294" y="481" type="curve"/>
+      <point x="288" y="481" type="line"/>
+      <point x="277" y="529"/>
+      <point x="240" y="558"/>
+      <point x="180" y="558" type="curve" smooth="yes"/>
+      <point x="102" y="558"/>
+      <point x="52" y="509"/>
+      <point x="52" y="438" type="curve" smooth="yes"/>
+      <point x="52" y="347" type="line" smooth="yes"/>
+      <point x="52" y="267"/>
+      <point x="91" y="219"/>
+    </contour>
+    <contour>
+      <point x="156" y="259" type="curve" smooth="yes"/>
+      <point x="130" y="259"/>
+      <point x="113" y="278"/>
+      <point x="113" y="306" type="curve" smooth="yes" name="hr01"/>
+      <point x="113" y="334"/>
+      <point x="130" y="353"/>
+      <point x="156" y="353" type="curve" smooth="yes"/>
+      <point x="182" y="353"/>
+      <point x="199" y="334"/>
+      <point x="199" y="306" type="curve" smooth="yes"/>
+      <point x="199" y="278"/>
+      <point x="182" y="259"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E46</string>
+      <key>com.type-invaders.name.production</key>
+      <string>maiyamok-thai</string>
+    </dict>
+  </lib>
+</glyph>

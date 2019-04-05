@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="loChula-thai.short" format="1">
+  <advance width="716"/>
+  <outline>
+    <contour>
+      <point x="168" y="0" type="line"/>
+      <point x="180" y="0" type="line"/>
+      <point x="382" y="236" type="line"/>
+      <point x="384" y="236" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="592" y="0" type="line" smooth="yes"/>
+      <point x="596" y="0"/>
+      <point x="598" y="2"/>
+      <point x="598" y="7" type="curve" smooth="yes"/>
+      <point x="598" y="298" type="line" smooth="yes"/>
+      <point x="598" y="384"/>
+      <point x="568" y="429"/>
+      <point x="507" y="440" type="curve"/>
+      <point x="507" y="442" type="line"/>
+      <point x="571" y="448"/>
+      <point x="603" y="481"/>
+      <point x="603" y="565" type="curve" smooth="yes" name="hr01"/>
+      <point x="603" y="618" type="line"/>
+      <point x="582" y="618" type="line"/>
+      <point x="582" y="567" type="line" smooth="yes"/>
+      <point x="582" y="481"/>
+      <point x="551" y="449"/>
+      <point x="476" y="449" type="curve" smooth="yes"/>
+      <point x="427" y="449" type="line"/>
+      <point x="427" y="431" type="line"/>
+      <point x="476" y="431" type="line" smooth="yes"/>
+      <point x="546" y="431"/>
+      <point x="577" y="384"/>
+      <point x="577" y="302" type="curve" smooth="yes" name="hr02"/>
+      <point x="577" y="248" type="line"/>
+      <point x="580" y="37" type="line"/>
+      <point x="576" y="37" type="line"/>
+      <point x="394" y="249" type="line"/>
+      <point x="372" y="249" type="line"/>
+      <point x="190" y="37" type="line"/>
+      <point x="186" y="37" type="line"/>
+      <point x="189" y="248" type="line"/>
+      <point x="189" y="474" type="line" smooth="yes"/>
+      <point x="189" y="519"/>
+      <point x="157" y="548"/>
+      <point x="114" y="548" type="curve" smooth="yes"/>
+      <point x="71" y="548"/>
+      <point x="39" y="519"/>
+      <point x="39" y="474" type="curve" smooth="yes"/>
+      <point x="39" y="429"/>
+      <point x="71" y="400"/>
+      <point x="114" y="400" type="curve" smooth="yes"/>
+      <point x="137" y="400"/>
+      <point x="155" y="408"/>
+      <point x="168" y="423" type="curve" name="hr03"/>
+    </contour>
+    <contour>
+      <point x="114" y="415" type="curve" smooth="yes"/>
+      <point x="77" y="415"/>
+      <point x="58" y="440"/>
+      <point x="58" y="474" type="curve" smooth="yes"/>
+      <point x="58" y="508"/>
+      <point x="77" y="533"/>
+      <point x="114" y="533" type="curve" smooth="yes"/>
+      <point x="151" y="533"/>
+      <point x="170" y="508"/>
+      <point x="170" y="474" type="curve" smooth="yes" name="hr04"/>
+      <point x="170" y="440"/>
+      <point x="151" y="415"/>
+    </contour>
+    <contour>
+      <point x="598.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="383.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="598.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E2C.short</string>
+      <key>com.type-invaders.name.production</key>
+      <string>loChula-thai.short</string>
+    </dict>
+  </lib>
+</glyph>

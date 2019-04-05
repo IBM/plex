@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="woWaen-thai" format="1">
+  <advance width="504"/>
+  <unicode hex="0E27"/>
+  <outline>
+    <contour>
+      <point x="298" y="-12" type="curve" smooth="yes"/>
+      <point x="361" y="-12"/>
+      <point x="404" y="26"/>
+      <point x="404" y="85" type="curve" smooth="yes"/>
+      <point x="404" y="380" type="line" smooth="yes"/>
+      <point x="404" y="491"/>
+      <point x="335" y="558"/>
+      <point x="211" y="558" type="curve" smooth="yes"/>
+      <point x="107" y="558"/>
+      <point x="44" y="514"/>
+      <point x="13" y="456" type="curve"/>
+      <point x="62" y="413" type="line"/>
+      <point x="90" y="464"/>
+      <point x="133" y="498"/>
+      <point x="201" y="498" type="curve" smooth="yes"/>
+      <point x="282" y="498"/>
+      <point x="324" y="454"/>
+      <point x="324" y="374" type="curve" smooth="yes" name="hr01"/>
+      <point x="324" y="180" type="line"/>
+      <point x="315" y="181"/>
+      <point x="307" y="182"/>
+      <point x="298" y="182" type="curve" smooth="yes"/>
+      <point x="235" y="182"/>
+      <point x="192" y="144"/>
+      <point x="192" y="85" type="curve" smooth="yes"/>
+      <point x="192" y="26"/>
+      <point x="235" y="-12"/>
+    </contour>
+    <contour>
+      <point x="295" y="32" type="curve" smooth="yes"/>
+      <point x="265" y="32"/>
+      <point x="246" y="53"/>
+      <point x="246" y="85" type="curve" smooth="yes"/>
+      <point x="246" y="117"/>
+      <point x="265" y="138"/>
+      <point x="295" y="138" type="curve" smooth="yes"/>
+      <point x="325" y="138"/>
+      <point x="344" y="117"/>
+      <point x="344" y="85" type="curve" smooth="yes" name="hr02"/>
+      <point x="344" y="53"/>
+      <point x="325" y="32"/>
+    </contour>
+    <contour>
+      <point x="404.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="229.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="404.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E27</string>
+      <key>com.type-invaders.name.production</key>
+      <string>woWaen-thai</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="saraAiMaimalai-thai" format="1">
+  <advance width="411"/>
+  <unicode hex="0E44"/>
+  <outline>
+    <contour>
+      <point x="252" y="-12" type="curve" smooth="yes"/>
+      <point x="328" y="-12"/>
+      <point x="384" y="34"/>
+      <point x="384" y="108" type="curve" smooth="yes"/>
+      <point x="384" y="176"/>
+      <point x="335" y="221"/>
+      <point x="268" y="227" type="curve"/>
+      <point x="268" y="905" type="line"/>
+      <point x="119" y="905" type="line"/>
+      <point x="88" y="822" type="line"/>
+      <point x="69" y="749" type="line"/>
+      <point x="64" y="749" type="line"/>
+      <point x="49" y="822" type="line"/>
+      <point x="24" y="905" type="line"/>
+      <point x="-91" y="905" type="line"/>
+      <point x="2" y="630" type="line"/>
+      <point x="85" y="630" type="line"/>
+      <point x="145" y="792" type="line"/>
+      <point x="155" y="792" type="line"/>
+      <point x="120" y="573" type="line"/>
+      <point x="120" y="114" type="line" smooth="yes"/>
+      <point x="120" y="36"/>
+      <point x="176" y="-12"/>
+    </contour>
+    <contour>
+      <point x="256" y="59" type="curve" smooth="yes"/>
+      <point x="229" y="59"/>
+      <point x="210" y="78"/>
+      <point x="210" y="108" type="curve" smooth="yes" name="hr01"/>
+      <point x="210" y="138"/>
+      <point x="229" y="157"/>
+      <point x="256" y="157" type="curve" smooth="yes"/>
+      <point x="283" y="157"/>
+      <point x="302" y="138"/>
+      <point x="302" y="108" type="curve" smooth="yes"/>
+      <point x="302" y="78"/>
+      <point x="283" y="59"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E44</string>
+      <key>com.type-invaders.name.production</key>
+      <string>saraAiMaimalai-thai</string>
+    </dict>
+  </lib>
+</glyph>

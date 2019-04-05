@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowrightdowncorner" format="1">
+  <advance width="820"/>
+  <unicode hex="2B0E"/>
+  <outline>
+    <contour>
+      <point x="558" y="101" type="line" name="hr00"/>
+      <point x="765" y="308" type="line"/>
+      <point x="717" y="356" type="line"/>
+      <point x="631" y="270" type="line"/>
+      <point x="589" y="220" type="line"/>
+      <point x="586" y="221" type="line"/>
+      <point x="592" y="317" type="line"/>
+      <point x="592" y="598" type="line"/>
+      <point x="55" y="598" type="line"/>
+      <point x="55" y="530" type="line"/>
+      <point x="524" y="530" type="line"/>
+      <point x="524" y="317" type="line"/>
+      <point x="530" y="221" type="line"/>
+      <point x="527" y="220" type="line"/>
+      <point x="485" y="270" type="line"/>
+      <point x="399" y="356" type="line"/>
+      <point x="351" y="308" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2B0E</string>
+      <key>com.type-invaders.name.production</key>
+      <string>arrowrightdowncorner</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thoNangmontho-thai" format="1">
+  <advance width="645"/>
+  <unicode hex="0E11"/>
+  <outline>
+    <contour>
+      <point x="151" y="0" type="line"/>
+      <point x="172" y="0" type="line"/>
+      <point x="172" y="135" type="line" smooth="yes"/>
+      <point x="172" y="260"/>
+      <point x="196" y="308"/>
+      <point x="249" y="356" type="curve" smooth="yes"/>
+      <point x="348" y="445" type="line" smooth="yes"/>
+      <point x="417" y="507"/>
+      <point x="440" y="528"/>
+      <point x="470" y="528" type="curve" smooth="yes"/>
+      <point x="488" y="528"/>
+      <point x="506" y="517"/>
+      <point x="506" y="479" type="curve" smooth="yes"/>
+      <point x="506" y="0" type="line"/>
+      <point x="527" y="0" type="line"/>
+      <point x="527" y="479" type="line" smooth="yes"/>
+      <point x="527" y="526"/>
+      <point x="511" y="548"/>
+      <point x="472" y="548" type="curve" smooth="yes"/>
+      <point x="432" y="548"/>
+      <point x="402" y="520"/>
+      <point x="334" y="457" type="curve" smooth="yes"/>
+      <point x="229" y="359" type="line"/>
+      <point x="227" y="361" type="line"/>
+      <point x="263" y="416"/>
+      <point x="298" y="468"/>
+      <point x="298" y="522" type="curve" smooth="yes"/>
+      <point x="298" y="536" type="line" name="hr01"/>
+      <point x="277" y="536" type="line"/>
+      <point x="277" y="528" type="line" smooth="yes" name="hr02"/>
+      <point x="277" y="452"/>
+      <point x="197" y="406"/>
+      <point x="122" y="404" type="curve"/>
+      <point x="122" y="405" type="line"/>
+      <point x="150" y="413"/>
+      <point x="174" y="434"/>
+      <point x="174" y="473" type="curve" smooth="yes"/>
+      <point x="174" y="517"/>
+      <point x="142" y="548"/>
+      <point x="97" y="548" type="curve" smooth="yes"/>
+      <point x="52" y="548"/>
+      <point x="20" y="517"/>
+      <point x="20" y="473" type="curve" smooth="yes"/>
+      <point x="20" y="421"/>
+      <point x="60" y="390"/>
+      <point x="124" y="390" type="curve" smooth="yes"/>
+      <point x="195" y="390"/>
+      <point x="246" y="426"/>
+      <point x="267" y="464" type="curve"/>
+      <point x="269" y="463" type="line"/>
+      <point x="252" y="430"/>
+      <point x="235" y="404"/>
+      <point x="220" y="380" type="curve" smooth="yes"/>
+      <point x="180" y="317"/>
+      <point x="151" y="270"/>
+      <point x="151" y="159" type="curve" smooth="yes" name="hr03"/>
+    </contour>
+    <contour>
+      <point x="97" y="413" type="curve" smooth="yes"/>
+      <point x="62" y="413"/>
+      <point x="40" y="436"/>
+      <point x="40" y="473" type="curve" smooth="yes"/>
+      <point x="40" y="510"/>
+      <point x="62" y="533"/>
+      <point x="97" y="533" type="curve" smooth="yes"/>
+      <point x="132" y="533"/>
+      <point x="154" y="510"/>
+      <point x="154" y="473" type="curve" smooth="yes" name="hr04"/>
+      <point x="154" y="436"/>
+      <point x="132" y="413"/>
+    </contour>
+    <contour>
+      <point x="527.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="351.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="527.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E11</string>
+      <key>com.type-invaders.name.production</key>
+      <string>thoNangmontho-thai</string>
+    </dict>
+  </lib>
+</glyph>
