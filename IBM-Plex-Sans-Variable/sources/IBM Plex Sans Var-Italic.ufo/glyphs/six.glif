@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six" format="1">
+  <advance width="600"/>
+  <unicode hex="0036"/>
+  <outline>
+    <contour>
+      <point x="268" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="394" y="-12"/>
+      <point x="490" y="71"/>
+      <point x="513" y="190" type="curve" smooth="yes"/>
+      <point x="516" y="208"/>
+      <point x="518" y="226"/>
+      <point x="518" y="245" type="curve" smooth="yes"/>
+      <point x="518" y="362"/>
+      <point x="444" y="434"/>
+      <point x="335" y="434" type="curve" smooth="yes"/>
+      <point x="271" y="434"/>
+      <point x="221" y="406"/>
+      <point x="178" y="335" type="curve"/>
+      <point x="174" y="337" type="line"/>
+      <point x="214" y="470"/>
+      <point x="344" y="595"/>
+      <point x="512" y="698" type="curve"/>
+      <point x="398" y="698" type="line"/>
+      <point x="251" y="617"/>
+      <point x="112" y="452"/>
+      <point x="78" y="281" type="curve" smooth="yes"/>
+      <point x="73" y="255"/>
+      <point x="70" y="228"/>
+      <point x="70" y="202" type="curve" smooth="yes"/>
+      <point x="70" y="66"/>
+      <point x="141" y="-12"/>
+    </contour>
+    <contour>
+      <point x="271" y="60" type="curve" smooth="yes"/>
+      <point x="193" y="60"/>
+      <point x="148" y="106"/>
+      <point x="148" y="185" type="curve" smooth="yes"/>
+      <point x="148" y="197"/>
+      <point x="150" y="211"/>
+      <point x="152" y="221" type="curve" smooth="yes"/>
+      <point x="169" y="306"/>
+      <point x="225" y="363"/>
+      <point x="312" y="363" type="curve" smooth="yes"/>
+      <point x="390" y="363"/>
+      <point x="435" y="317"/>
+      <point x="435" y="238" type="curve" smooth="yes"/>
+      <point x="435" y="226"/>
+      <point x="433" y="212"/>
+      <point x="431" y="202" type="curve" smooth="yes"/>
+      <point x="414" y="117"/>
+      <point x="358" y="60"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjcyIiAvPgogICAgICA8aHN0ZW0gcG9zPSIz
+      NjMiIHdpZHRoPSI3MSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjk4IiB3aWR0aD0iLTIx
+      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI3MCIgd2lkdGg9Ijc4IiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSI0MzUiIHdpZHRoPSI4MyIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
+      ZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0,13)
+ResYDist(0,30)
+ResYAnchor(10,4)
+YIPAnchor(10,20,0)
+ResYDist(20,40)
+/* X direction */
+Smooth()
+</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>78</integer>
+          <key>y</key>
+          <integer>281</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>513</integer>
+          <key>y</key>
+          <integer>190</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

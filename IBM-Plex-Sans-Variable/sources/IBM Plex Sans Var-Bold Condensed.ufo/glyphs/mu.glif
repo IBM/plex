@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mu" format="1">
+  <advance width="545"/>
+  <unicode hex="00B5"/>
+  <outline>
+    <contour>
+      <point x="193" y="-200" type="line"/>
+      <point x="193" y="-100" type="line"/>
+      <point x="152" y="29" type="line"/>
+      <point x="170" y="29" type="line"/>
+      <point x="178" y="1"/>
+      <point x="202" y="-12"/>
+      <point x="236" y="-12" type="curve" smooth="yes"/>
+      <point x="286" y="-12"/>
+      <point x="316" y="25"/>
+      <point x="323" y="89" type="curve"/>
+      <point x="339" y="89" type="line"/>
+      <point x="339" y="0" type="line" name="hr01"/>
+      <point x="479" y="0" type="line"/>
+      <point x="479" y="525" type="line"/>
+      <point x="339" y="525" type="line"/>
+      <point x="339" y="176" type="line" smooth="yes"/>
+      <point x="339" y="129"/>
+      <point x="303" y="102"/>
+      <point x="260" y="102" type="curve" smooth="yes" name="hr02"/>
+      <point x="215" y="102"/>
+      <point x="195" y="132"/>
+      <point x="195" y="195" type="curve"/>
+      <point x="195" y="525" type="line"/>
+      <point x="55" y="525" type="line"/>
+      <point x="55" y="-200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0yMDAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+      IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjUyNSIgd2lkdGg9Ii0y
+      MSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTUiIHdpZHRoPSIxNDAiIC8+CiAgICAgIDx2
+      c3RlbSBwb3M9IjMzOSIgd2lkdGg9IjE0MCIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
+      aW50c2V0IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iLTIwMCIgd2lk
+      dGg9Ii0yMSIgLz4KICAgICAgPGhzdGVtIHBvcz0iLTEyIiB3aWR0aD0iMTE0IiAvPgog
+      ICAgICA8aHN0ZW0gcG9zPSI1MjUiIHdpZHRoPSItMjEiIC8+CiAgICAgIDx2c3RlbSBw
+      b3M9IjU1IiB3aWR0aD0iMTQwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzMzkiIHdpZHRo
+      PSIxNDAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+    </dict>
+  </lib>
+</glyph>

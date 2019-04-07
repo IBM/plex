@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira.alt01" format="1">
+  <advance width="602"/>
+  <outline>
+    <contour>
+      <point x="99" y="698" type="line"/>
+      <point x="99" y="0" type="line" name="hr00"/>
+      <point x="121" y="0" type="line"/>
+      <point x="121" y="508" type="line"/>
+      <point x="121" y="678" type="line"/>
+      <point x="125" y="678" type="line"/>
+      <point x="210" y="508" type="line"/>
+      <point x="463" y="0" type="line"/>
+      <point x="501" y="0" type="line"/>
+      <point x="501" y="698" type="line"/>
+      <point x="479" y="698" type="line"/>
+      <point x="479" y="190" type="line"/>
+      <point x="479" y="20" type="line"/>
+      <point x="475" y="20" type="line"/>
+      <point x="390" y="190" type="line"/>
+      <point x="137" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="14" y="261" type="line"/>
+      <point x="106" y="261" type="line"/>
+      <point x="114" y="261" type="line"/>
+      <point x="486" y="261" type="line"/>
+      <point x="494" y="261" type="line"/>
+      <point x="586" y="261" type="line"/>
+      <point x="586" y="279" type="line"/>
+      <point x="494" y="279" type="line"/>
+      <point x="486" y="279" type="line"/>
+      <point x="114" y="279" type="line"/>
+      <point x="106" y="279" type="line"/>
+      <point x="14" y="279" type="line"/>
+    </contour>
+    <contour>
+      <point x="14" y="419" type="line"/>
+      <point x="106" y="419" type="line"/>
+      <point x="114" y="419" type="line"/>
+      <point x="486" y="419" type="line"/>
+      <point x="494" y="419" type="line"/>
+      <point x="586" y="419" type="line"/>
+      <point x="586" y="437" type="line"/>
+      <point x="494" y="437" type="line"/>
+      <point x="486" y="437" type="line"/>
+      <point x="114" y="437" type="line"/>
+      <point x="106" y="437" type="line"/>
+      <point x="14" y="437" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjI2
+      MSIgd2lkdGg9IjE4IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0MTkiIHdpZHRoPSIxOCIg
+      Lz4KICAgICAgPGhzdGVtIHBvcz0iNjk4IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSI5OSIgd2lkdGg9IjIyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI0NzkiIHdp
+      ZHRoPSIyMiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>121</integer>
+          <key>y</key>
+          <integer>508</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>479</integer>
+          <key>y</key>
+          <integer>190</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

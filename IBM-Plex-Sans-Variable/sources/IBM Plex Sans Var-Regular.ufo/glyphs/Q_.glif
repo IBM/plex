@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Q" format="1">
+  <advance width="708"/>
+  <unicode hex="0051"/>
+  <outline>
+    <contour>
+      <point x="508" y="-94" type="line" name="hr00"/>
+      <point x="401" y="-94" type="line"/>
+      <point x="401" y="-9" type="line"/>
+      <point x="554" y="12"/>
+      <point x="650" y="136"/>
+      <point x="650" y="349" type="curve" smooth="yes"/>
+      <point x="650" y="583"/>
+      <point x="534" y="710"/>
+      <point x="354" y="710" type="curve" smooth="yes"/>
+      <point x="174" y="710"/>
+      <point x="58" y="583"/>
+      <point x="58" y="349" type="curve" smooth="yes"/>
+      <point x="58" y="130"/>
+      <point x="160" y="4"/>
+      <point x="321" y="-11" type="curve"/>
+      <point x="321" y="-82" type="line" smooth="yes"/>
+      <point x="321" y="-129"/>
+      <point x="350" y="-164"/>
+      <point x="405" y="-164" type="curve" smooth="yes"/>
+      <point x="508" y="-164" type="line"/>
+    </contour>
+    <contour>
+      <point x="354" y="63" type="curve" smooth="yes"/>
+      <point x="233" y="63"/>
+      <point x="148" y="153"/>
+      <point x="148" y="291" type="curve" smooth="yes"/>
+      <point x="148" y="407" type="line" smooth="yes"/>
+      <point x="148" y="545"/>
+      <point x="233" y="635"/>
+      <point x="354" y="635" type="curve" smooth="yes"/>
+      <point x="475" y="635"/>
+      <point x="560" y="545"/>
+      <point x="560" y="407" type="curve" smooth="yes"/>
+      <point x="560" y="291" type="line" smooth="yes"/>
+      <point x="560" y="153"/>
+      <point x="475" y="63"/>
+    </contour>
+    <contour>
+      <point x="354.0" y="698.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xNjQiIHdpZHRoPSI3MCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+      LTExIiB3aWR0aD0iNzQiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjYzNSIgd2lkdGg9Ijc1
+      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1OCIgd2lkdGg9IjkwIiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSIzMjEiIHdpZHRoPSI4MCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTYwIiB3
+      aWR0aD0iOTAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(6,9)
+YShift(6,22)
+ResYDist(6,24)
+ResYDist(6,23)
+ResYDist (23,2)
+ResYAnchor(14,3)
+ResYDist(14,33)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

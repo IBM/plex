@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="g.alt01" format="1">
+  <advance width="561"/>
+  <outline>
+    <contour>
+      <point x="223" y="-12" type="curve" smooth="yes"/>
+      <point x="308" y="-12"/>
+      <point x="362" y="37"/>
+      <point x="404" y="111" type="curve"/>
+      <point x="407" y="111" type="line"/>
+      <point x="383" y="-13" type="line" smooth="yes"/>
+      <point x="358" y="-140"/>
+      <point x="284" y="-193"/>
+      <point x="174" y="-193" type="curve" smooth="yes"/>
+      <point x="104" y="-193"/>
+      <point x="62" y="-169"/>
+      <point x="34" y="-131" type="curve"/>
+      <point x="18" y="-145" type="line"/>
+      <point x="50" y="-186"/>
+      <point x="99" y="-212"/>
+      <point x="174" y="-212" type="curve" smooth="yes"/>
+      <point x="297" y="-212"/>
+      <point x="377" y="-150"/>
+      <point x="403" y="-18" type="curve" smooth="yes"/>
+      <point x="508" y="506" type="line"/>
+      <point x="487" y="506" type="line"/>
+      <point x="468" y="413" type="line"/>
+      <point x="465" y="413" type="line"/>
+      <point x="447" y="475"/>
+      <point x="394" y="518"/>
+      <point x="309" y="518" type="curve" smooth="yes" name="hr01"/>
+      <point x="180" y="518"/>
+      <point x="98" y="416"/>
+      <point x="70" y="280" type="curve" smooth="yes"/>
+      <point x="63" y="247"/>
+      <point x="60" y="212"/>
+      <point x="60" y="176" type="curve" smooth="yes"/>
+      <point x="60" y="69"/>
+      <point x="118" y="-12"/>
+    </contour>
+    <contour>
+      <point x="223" y="7" type="curve" smooth="yes"/>
+      <point x="125" y="7"/>
+      <point x="81" y="83"/>
+      <point x="81" y="176" type="curve" smooth="yes"/>
+      <point x="81" y="204"/>
+      <point x="83" y="225"/>
+      <point x="87" y="247" type="curve" smooth="yes"/>
+      <point x="94" y="282" type="line" smooth="yes"/>
+      <point x="120" y="414"/>
+      <point x="194" y="499"/>
+      <point x="309" y="499" type="curve" smooth="yes"/>
+      <point x="428" y="499"/>
+      <point x="467" y="413"/>
+      <point x="454" y="346" type="curve" smooth="yes"/>
+      <point x="426" y="204" type="line" smooth="yes"/>
+      <point x="412" y="134"/>
+      <point x="372" y="79"/>
+      <point x="333" y="47" type="curve" smooth="yes"/>
+      <point x="298" y="18"/>
+      <point x="265" y="7"/>
+    </contour>
+    <contour>
+      <point x="331" y="540" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+      LTEyIiB3aWR0aD0iMTkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ5OSIgd2lkdGg9IjE5
+      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI2MCIgd2lkdGg9IjIxIiAvPgogICAgPC9oaW50
+      c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>70</integer>
+          <key>y</key>
+          <integer>280</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

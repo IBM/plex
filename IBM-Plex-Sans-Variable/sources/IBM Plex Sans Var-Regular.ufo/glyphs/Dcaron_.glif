@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcaron" format="1">
+  <advance width="671"/>
+  <unicode hex="010E"/>
+  <outline>
+    <component base="D"/>
+    <component base="caron.case" xOffset="7"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $D$, 0, 0
+OFFSET[R], $caron.case$, 7, 0
+SVTCA[Y]
+CALL[], 24, 1, 1, 1, 71, 86
+SHC[2], 2
+SVTCA[X]
+CALL[], 25, 29, 0, 26, 6, 87
+SHC[2], 2
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="won" format="1">
+  <advance width="872"/>
+  <unicode hex="20A9"/>
+  <outline>
+    <contour>
+      <point x="534" y="0" type="line" name="hr00"/>
+      <point x="622" y="0" type="line"/>
+      <point x="726" y="233" type="line"/>
+      <point x="836" y="233" type="line"/>
+      <point x="849" y="299" type="line"/>
+      <point x="756" y="299" type="line"/>
+      <point x="801" y="399" type="line"/>
+      <point x="883" y="399" type="line"/>
+      <point x="896" y="465" type="line"/>
+      <point x="831" y="465" type="line"/>
+      <point x="935" y="698" type="line"/>
+      <point x="854" y="698" type="line"/>
+      <point x="753" y="463" type="line"/>
+      <point x="577" y="463" type="line"/>
+      <point x="565" y="698" type="line"/>
+      <point x="473" y="698" type="line"/>
+      <point x="368" y="463" type="line"/>
+      <point x="197" y="463" type="line"/>
+      <point x="191" y="698" type="line"/>
+      <point x="113" y="698" type="line"/>
+      <point x="123" y="465" type="line"/>
+      <point x="54" y="465" type="line"/>
+      <point x="41" y="399" type="line"/>
+      <point x="125" y="399" type="line"/>
+      <point x="130" y="299" type="line"/>
+      <point x="36" y="299" type="line"/>
+      <point x="23" y="233" type="line"/>
+      <point x="133" y="233" type="line"/>
+      <point x="142" y="0" type="line"/>
+      <point x="231" y="0" type="line"/>
+      <point x="335" y="233" type="line"/>
+      <point x="523" y="233" type="line"/>
+    </contour>
+    <contour>
+      <point x="199" y="402" type="line"/>
+      <point x="341" y="402" type="line"/>
+      <point x="284" y="271" type="line"/>
+      <point x="210" y="101" type="line"/>
+      <point x="206" y="101" type="line"/>
+      <point x="202" y="271" type="line"/>
+    </contour>
+    <contour>
+      <point x="580" y="402" type="line"/>
+      <point x="727" y="402" type="line"/>
+      <point x="671" y="271" type="line"/>
+      <point x="598" y="102" type="line"/>
+      <point x="594" y="102" type="line"/>
+      <point x="586" y="271" type="line"/>
+    </contour>
+    <contour>
+      <point x="364" y="299" type="line"/>
+      <point x="425" y="436" type="line"/>
+      <point x="501" y="606" type="line"/>
+      <point x="506" y="606" type="line"/>
+      <point x="513" y="436" type="line"/>
+      <point x="519" y="299" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjIz
+      MyIgd2lkdGg9IjY2IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzOTkiIHdpZHRoPSI2NiIg
+      Lz4KICAgICAgPGhzdGVtIHBvcz0iNjk4IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSIyMyIgd2lkdGg9IjkxMiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
+      ZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(3,18)
+YShift(3,35)
+YShift(3,31)
+YShift(31,40)
+ResYAnchor(13,16)
+YShift(13,22)
+YIPAnchor(3,6,13)
+YShift(6,2)
+YShift(2,30)
+ResYDist(6,7)
+ResYDist(7,10)
+ResYDist(10,11)
+YShift(11,15)
+YShift(15,19)
+YShift(19,23)
+YShift(10,32)
+YShift(32,38)
+YShift(38,26)
+YShift(7,44)
+YShift(44,27)
+YShift(13,18)
+YShift(18,47)
+/* X direction */
+Smooth()
+</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>202</integer>
+          <key>y</key>
+          <integer>271</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

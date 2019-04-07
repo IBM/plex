@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="O" format="1">
+  <advance width="638"/>
+  <unicode hex="004F"/>
+  <outline>
+    <contour>
+      <point x="319" y="-12" type="curve" name="hr00"/>
+      <point x="488" y="-12"/>
+      <point x="586" y="100"/>
+      <point x="586" y="349" type="curve" smooth="yes"/>
+      <point x="586" y="598"/>
+      <point x="488" y="710"/>
+      <point x="319" y="710" type="curve"/>
+      <point x="150" y="710"/>
+      <point x="52" y="598"/>
+      <point x="52" y="349" type="curve" smooth="yes"/>
+      <point x="52" y="100"/>
+      <point x="150" y="-12"/>
+    </contour>
+    <contour>
+      <point x="319" y="59" type="curve" smooth="yes"/>
+      <point x="204" y="59"/>
+      <point x="138" y="142"/>
+      <point x="138" y="271" type="curve" smooth="yes"/>
+      <point x="138" y="427" type="line" smooth="yes"/>
+      <point x="138" y="556"/>
+      <point x="204" y="639"/>
+      <point x="319" y="639" type="curve" smooth="yes"/>
+      <point x="434" y="639"/>
+      <point x="500" y="556"/>
+      <point x="500" y="427" type="curve" smooth="yes"/>
+      <point x="500" y="271" type="line" smooth="yes"/>
+      <point x="500" y="142"/>
+      <point x="434" y="59"/>
+    </contour>
+    <contour>
+      <point x="319.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="319.0" y="698.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjcxIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2
+      MzkiIHdpZHRoPSI3MSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTIiIHdpZHRoPSI4NiIg
+      Lz4KICAgICAgPHZzdGVtIHBvcz0iNTAwIiB3aWR0aD0iODYiIC8+CiAgICA8L2hpbnRz
+      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+    </dict>
+  </lib>
+</glyph>

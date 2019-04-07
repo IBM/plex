@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dollar" format="1">
+  <advance width="579"/>
+  <unicode hex="0024"/>
+  <outline>
+    <contour>
+      <point x="242" y="-82" type="line"/>
+      <point x="266" y="34" type="line"/>
+      <point x="269" y="54" type="line"/>
+      <point x="389" y="654" type="line"/>
+      <point x="392" y="664" type="line"/>
+      <point x="416" y="780" type="line"/>
+      <point x="356" y="780" type="line"/>
+      <point x="332" y="664" type="line"/>
+      <point x="331" y="654" type="line"/>
+      <point x="211" y="54" type="line"/>
+      <point x="206" y="34" type="line"/>
+      <point x="182" y="-82" type="line"/>
+    </contour>
+    <contour>
+      <point x="510" y="219" type="curve" smooth="yes"/>
+      <point x="510" y="311"/>
+      <point x="462" y="362"/>
+      <point x="332" y="390" type="curve" smooth="yes"/>
+      <point x="286" y="400" type="line" smooth="yes"/>
+      <point x="213" y="416"/>
+      <point x="184" y="451"/>
+      <point x="184" y="506" type="curve" smooth="yes"/>
+      <point x="184" y="579"/>
+      <point x="242" y="631"/>
+      <point x="342" y="629" type="curve" smooth="yes"/>
+      <point x="433" y="627"/>
+      <point x="480" y="578"/>
+      <point x="500" y="539" type="curve"/>
+      <point x="563" y="587" type="line"/>
+      <point x="532" y="651"/>
+      <point x="459" y="697"/>
+      <point x="353" y="700" type="curve" smooth="yes"/>
+      <point x="219" y="704"/>
+      <point x="103" y="628"/>
+      <point x="103" y="499" type="curve" smooth="yes"/>
+      <point x="103" y="408"/>
+      <point x="153" y="354"/>
+      <point x="270" y="331" type="curve" smooth="yes"/>
+      <point x="315" y="322" type="line" smooth="yes"/>
+      <point x="400" y="305"/>
+      <point x="429" y="268"/>
+      <point x="429" y="211" type="curve" smooth="yes"/>
+      <point x="429" y="138"/>
+      <point x="372" y="68"/>
+      <point x="252" y="68" type="curve" smooth="yes"/>
+      <point x="154" y="68"/>
+      <point x="102" y="112"/>
+      <point x="70" y="169" type="curve"/>
+      <point x="11" y="120" type="line"/>
+      <point x="47" y="52"/>
+      <point x="126" y="-2"/>
+      <point x="233" y="-2" type="curve" smooth="yes"/>
+      <point x="412" y="-2"/>
+      <point x="510" y="93"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xIiB3aWR0aD0iNzAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjYy
+      OSIgd2lkdGg9IjcxIiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMDMiIHdpZHRoPSI4MSIg
+      Lz4KICAgICAgPHZzdGVtIHBvcz0iNDI5IiB3aWR0aD0iODEiIC8+CiAgICA8L2hpbnRz
+      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(16)
+ResYDist(16,0)
+ResYDist(16,25)
+ResYAnchor(40)
+ResYDist(40,6)
+ResYDist(40,49)
+YInterpolate(49,33,16)
+YInterpolate(25,56,40)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

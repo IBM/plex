@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ecircumflexhook" format="1">
+  <advance width="511"/>
+  <unicode hex="1EC3"/>
+  <outline>
+    <component base="e"/>
+    <component base="circumflexhook" xOffset="321"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $e$, 0, 0
+OFFSET[R], $circumflexhook$, 321, 0
+CALL[], 23, 24, 88
+SVTCA[Y]
+CALL[], 62, 10, 1, 1, 53, 86
+SHC[2], 2
+SHC[2], 3
+CALL[], 9
+CALL[], 65, 61, 3, 33, 15, 87
+SVTCA[X]
+SHC[2], 2
+SHC[2], 3
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

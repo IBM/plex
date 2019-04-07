@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radical" format="1">
+  <advance width="601"/>
+  <unicode hex="221A"/>
+  <outline>
+    <contour>
+      <point x="257" y="0" type="line" name="hr00"/>
+      <point x="616" y="698" type="line"/>
+      <point x="593" y="698" type="line"/>
+      <point x="360" y="243" type="line"/>
+      <point x="250" y="27" type="line"/>
+      <point x="247" y="27" type="line"/>
+      <point x="228" y="243" type="line"/>
+      <point x="205" y="506" type="line"/>
+      <point x="69" y="506" type="line"/>
+      <point x="66" y="487" type="line"/>
+      <point x="187" y="487" type="line"/>
+      <point x="229" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyNyIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDg3
+      IiB3aWR0aD0iMTkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjY5OCIgd2lkdGg9Ii0yMSIg
+      Lz4KICAgICAgPHZzdGVtIHBvcz0iNjYiIHdpZHRoPSI1NTAiIC8+CiAgICA8L2hpbnRz
+      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>329</integer>
+          <key>y</key>
+          <integer>243</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

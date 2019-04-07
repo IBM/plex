@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ograve" format="1">
+  <advance width="679"/>
+  <unicode hex="00D2"/>
+  <outline>
+    <component base="O"/>
+    <component base="grave.case" xOffset="115"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $O$, 0, 0
+OFFSET[R], $grave.case$, 115, 0
+CALL[], 21, 22, 88
+SVTCA[Y]
+CALL[], 46, 12, 1, 1, 45, 86
+SHC[2], 2
+CALL[], 9
+CALL[], 47, 49, 4, 25, 16, 87
+SVTCA[X]
+SHC[2], 2
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

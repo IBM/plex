@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dagger" format="1">
+  <advance width="534"/>
+  <unicode hex="2020"/>
+  <outline>
+    <contour>
+      <point x="206" y="-200" type="line" name="hr00"/>
+      <point x="336" y="453" type="line"/>
+      <point x="521" y="453" type="line"/>
+      <point x="533" y="516" type="line"/>
+      <point x="349" y="516" type="line"/>
+      <point x="394" y="740" type="line"/>
+      <point x="328" y="740" type="line"/>
+      <point x="283" y="516" type="line"/>
+      <point x="100" y="516" type="line"/>
+      <point x="88" y="454" type="line"/>
+      <point x="271" y="454" type="line"/>
+      <point x="140" y="-200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0yMDAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+      IjQ1MyIgd2lkdGg9IjYzIiAvPgogICAgICA8aHN0ZW0gcG9zPSI3NDAiIHdpZHRoPSIt
+      MjEiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijg4IiB3aWR0aD0iNDQ1IiAvPgogICAgPC9o
+      aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0,14)
+ResYAnchor(6,0)
+YIPAnchor(6,8,0)
+YShift(8,4)
+ResYDist(8,11)
+YShift(11,3)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

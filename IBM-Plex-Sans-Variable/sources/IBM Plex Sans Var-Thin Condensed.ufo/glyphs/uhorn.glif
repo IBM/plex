@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhorn" format="1">
+  <advance width="501"/>
+  <unicode hex="01B0"/>
+  <outline>
+    <contour>
+      <point x="416" y="0" type="line"/>
+      <point x="416" y="498" type="line"/>
+      <point x="406" y="488" type="line"/>
+      <point x="463" y="488" type="line" smooth="yes"/>
+      <point x="483" y="488"/>
+      <point x="487" y="492"/>
+      <point x="487" y="512" type="curve" smooth="yes"/>
+      <point x="487" y="617" type="line"/>
+      <point x="467" y="617" type="line"/>
+      <point x="467" y="506" type="line"/>
+      <point x="395" y="506" type="line"/>
+      <point x="395" y="147" type="line" smooth="yes"/>
+      <point x="395" y="59"/>
+      <point x="324" y="7"/>
+      <point x="243" y="7" type="curve" smooth="yes" name="hr01"/>
+      <point x="161" y="7"/>
+      <point x="115" y="62"/>
+      <point x="115" y="154" type="curve" smooth="yes"/>
+      <point x="115" y="506" type="line"/>
+      <point x="94" y="506" type="line"/>
+      <point x="94" y="154" type="line" smooth="yes"/>
+      <point x="94" y="47"/>
+      <point x="146" y="-12"/>
+      <point x="242" y="-12" type="curve" smooth="yes"/>
+      <point x="316" y="-12"/>
+      <point x="372" y="26"/>
+      <point x="389" y="76" type="curve"/>
+      <point x="395" y="76" type="line"/>
+      <point x="395" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="248" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="255" y="540" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI1
+      MDYiIHdpZHRoPSItMjEiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijk0IiB3aWR0aD0iMjEi
+      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjM5NSIgd2lkdGg9IjIxIiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSI0NjciIHdpZHRoPSIyMCIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
+      ZXRMaXN0Pgo=
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>617.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

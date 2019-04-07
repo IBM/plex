@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexacute.case" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="260" y="1027" type="line" name="hr00"/>
+      <point x="190" y="1061" type="line"/>
+      <point x="105" y="891" type="line"/>
+      <point x="154" y="868" type="line"/>
+    </contour>
+    <contour>
+      <point x="-50" y="915" type="line"/>
+      <point x="-160" y="781" type="line"/>
+      <point x="-119" y="751" type="line"/>
+      <point x="0" y="863" type="line"/>
+      <point x="119" y="751" type="line"/>
+      <point x="160" y="781" type="line"/>
+      <point x="50" y="915" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="698" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ijc1MSIgd2lkdGg9IjMxMCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      LTE2MCIgd2lkdGg9IjQyMCIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0
+      Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(7)
+YShift(7,9)
+ResYDist(7,8)
+ResYDist(8,4)
+YIPAnchor(7,1,4)
+ResYDist(1,3)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Acircumflexdotbelow" format="1">
+  <advance width="641"/>
+  <unicode hex="1EAC"/>
+  <outline>
+    <component base="A"/>
+    <component base="circumflex.case" xOffset="22"/>
+    <component base="dotbelowcomb" xOffset="322"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $A$, 0, 0
+OFFSET[R], $circumflex.case$, 22, 0
+OFFSET[R], $dotbelowcomb$, 322, 0
+SVTCA[Y]
+CALL[], 17, 6, 1, 1, 63, 86
+SHC[2], 2
+CALL[], 28, 1, 1, 1, -66, 86
+SHC[2], 3
+SVTCA[X]
+CALL[], 20, 16, 5, 32, 0, 87
+SHC[2], 2
+CALL[], 24, 32, 5, 32, 0, 87
+SHC[2], 3
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

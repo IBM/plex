@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="coloncurrency" format="1">
+  <advance width="628"/>
+  <unicode hex="20A1"/>
+  <outline>
+    <contour>
+      <point x="255" y="-82" type="line"/>
+      <point x="268" y="40" type="line"/>
+      <point x="267" y="50" type="line"/>
+      <point x="329" y="648" type="line"/>
+      <point x="332" y="658" type="line"/>
+      <point x="345" y="780" type="line"/>
+      <point x="277" y="780" type="line"/>
+      <point x="264" y="658" type="line"/>
+      <point x="265" y="648" type="line"/>
+      <point x="203" y="50" type="line"/>
+      <point x="200" y="40" type="line"/>
+      <point x="187" y="-82" type="line"/>
+    </contour>
+    <contour>
+      <point x="375" y="-82" type="line"/>
+      <point x="388" y="40" type="line"/>
+      <point x="387" y="50" type="line"/>
+      <point x="449" y="648" type="line"/>
+      <point x="452" y="658" type="line"/>
+      <point x="465" y="780" type="line"/>
+      <point x="397" y="780" type="line"/>
+      <point x="384" y="658" type="line"/>
+      <point x="385" y="648" type="line"/>
+      <point x="323" y="50" type="line"/>
+      <point x="320" y="40" type="line"/>
+      <point x="307" y="-82" type="line"/>
+    </contour>
+    <contour>
+      <point x="58" y="349" type="curve" smooth="yes"/>
+      <point x="58" y="88"/>
+      <point x="180" y="-2"/>
+      <point x="337" y="-2" type="curve" smooth="yes"/>
+      <point x="473" y="-2"/>
+      <point x="541" y="66"/>
+      <point x="584" y="157" type="curve"/>
+      <point x="517" y="199" type="line"/>
+      <point x="489" y="124"/>
+      <point x="433" y="73"/>
+      <point x="337" y="73" type="curve" smooth="yes"/>
+      <point x="210" y="73"/>
+      <point x="148" y="164"/>
+      <point x="148" y="293" type="curve" smooth="yes"/>
+      <point x="148" y="406" type="line" smooth="yes"/>
+      <point x="148" y="538"/>
+      <point x="214" y="626"/>
+      <point x="337" y="626" type="curve" smooth="yes"/>
+      <point x="435" y="626"/>
+      <point x="487" y="573"/>
+      <point x="511" y="508" type="curve"/>
+      <point x="579" y="549" type="line"/>
+      <point x="539" y="640"/>
+      <point x="464" y="700"/>
+      <point x="337" y="700" type="curve" smooth="yes"/>
+      <point x="159" y="700"/>
+      <point x="58" y="582"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xIiB3aWR0aD0iNzQiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjYy
+      NSIgd2lkdGg9Ijc1IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1OCIgd2lkdGg9IjkwIiAv
+      PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(28)
+ResYDist(28,37)
+ResYDist(28,6)
+YShift(6,18)
+ResYAnchor(55)
+ResYDist(55,47)
+ResYDist(55,0)
+YShift(0,13)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

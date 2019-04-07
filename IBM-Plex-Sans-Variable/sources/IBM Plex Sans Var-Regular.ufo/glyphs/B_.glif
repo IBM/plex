@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="B" format="1">
+  <advance width="653"/>
+  <unicode hex="0042"/>
+  <outline>
+    <contour>
+      <point x="93" y="0" type="line"/>
+      <point x="410" y="0" type="line"/>
+      <point x="513" y="0"/>
+      <point x="590" y="87"/>
+      <point x="590" y="202" type="curve" smooth="yes"/>
+      <point x="590" y="318"/>
+      <point x="503" y="361"/>
+      <point x="453" y="364" type="curve"/>
+      <point x="453" y="370" type="line"/>
+      <point x="499" y="377"/>
+      <point x="566" y="414"/>
+      <point x="566" y="518" type="curve" smooth="yes" name="hr01"/>
+      <point x="566" y="627"/>
+      <point x="495" y="698"/>
+      <point x="380" y="698" type="curve" smooth="yes"/>
+      <point x="93" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="177" y="324" type="line"/>
+      <point x="384" y="324" type="line" smooth="yes"/>
+      <point x="456" y="324"/>
+      <point x="500" y="286"/>
+      <point x="500" y="216" type="curve" smooth="yes" name="hr02"/>
+      <point x="500" y="182" type="line" smooth="yes"/>
+      <point x="500" y="112"/>
+      <point x="456" y="74"/>
+      <point x="384" y="74" type="curve" smooth="yes"/>
+      <point x="177" y="74" type="line"/>
+    </contour>
+    <contour>
+      <point x="177" y="624" type="line"/>
+      <point x="370" y="624" type="line" smooth="yes"/>
+      <point x="436" y="624"/>
+      <point x="476" y="589"/>
+      <point x="476" y="527" type="curve" smooth="yes" name="hr03"/>
+      <point x="476" y="493" type="line" smooth="yes"/>
+      <point x="476" y="431"/>
+      <point x="436" y="396"/>
+      <point x="370" y="396" type="curve" smooth="yes"/>
+      <point x="177" y="396" type="line"/>
+    </contour>
+    <contour>
+      <point x="307.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="307.0" y="698.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSI3NCIgLz4KICAgICAgPGhzdGVtIHBvcz0iMzI0
+      IiB3aWR0aD0iNzIiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjYyNCIgd2lkdGg9Ijc0IiAv
+      PgogICAgICA8dnN0ZW0gcG9zPSI5MyIgd2lkdGg9Ijg0IiAvPgogICAgICA8dnN0ZW0g
+      cG9zPSI1MDAiIHdpZHRoPSI5MCIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+      IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9Ijc0IiAv
+      PgogICAgICA8aHN0ZW0gcG9zPSIzMjQiIHdpZHRoPSI3MiIgLz4KICAgICAgPGhzdGVt
+      IHBvcz0iNjI0IiB3aWR0aD0iNzQiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjkzIiB3aWR0
+      aD0iODQiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ3NiIgd2lkdGg9IjkwIiAvPgogICAg
+      PC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDMiPgogICAgICA8aHN0
+      ZW0gcG9zPSIwIiB3aWR0aD0iNzQiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjMyNCIgd2lk
+      dGg9IjcyIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MjQiIHdpZHRoPSI3NCIgLz4KICAg
+      ICAgPHZzdGVtIHBvcz0iOTMiIHdpZHRoPSI4NCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      NTAwIiB3aWR0aD0iOTAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0,8)
+ResYDist(0,21)
+ResYAnchor(1,2)
+ResYDist(1,32)
+YIPAnchor(1,20,0)
+ResYDist(20,33)
+YInterpolate(20,9,33)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

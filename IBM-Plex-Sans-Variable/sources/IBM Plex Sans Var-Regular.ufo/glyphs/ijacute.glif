@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ijacute" format="1">
+  <advance width="496"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="acute" xOffset="-177"/>
+    <component base="dotlessj" xOffset="246"/>
+    <component base="acute" xOffset="67"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+OFFSET[R], $dotlessi$, 0, 0
+OFFSET[R], $acute$, -177, 0
+OFFSET[R], $dotlessj$, 246, 0
+OFFSET[R], $acute$, 67, 0
+SVTCA[Y]
+CALL[], 5, 2, 1, 1, 69, 86
+SHC[2], 1
+CALL[], 18, 11, 1, 1, 69, 86
+SHC[2], 3
+SVTCA[X]
+CALL[], 6, 4, 1, 58, 0, 87
+SHC[2], 1
+CALL[], 19, 17, 8, 60, 13, 87
+SHC[2], 3
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

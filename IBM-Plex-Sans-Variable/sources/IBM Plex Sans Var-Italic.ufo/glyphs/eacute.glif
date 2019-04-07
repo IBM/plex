@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eacute" format="1">
+  <advance width="511"/>
+  <unicode hex="00E9"/>
+  <outline>
+    <component base="e"/>
+    <component base="acute" xOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $e$, 0, 0
+OFFSET[R], $acute$, 31, 0
+CALL[], 23, 24, 88
+SVTCA[Y]
+CALL[], 48, 10, 1, 1, 57, 86
+SHC[2], 2
+CALL[], 9
+CALL[], 49, 47, 3, 39, 15, 87
+SVTCA[X]
+SHC[2], 2
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

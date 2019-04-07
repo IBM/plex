@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute" format="1">
+  <advance width="540"/>
+  <unicode hex="00B4"/>
+  <outline>
+    <contour>
+      <point x="403" y="742" type="line" name="hr00"/>
+      <point x="342" y="779" type="line"/>
+      <point x="244" y="611" type="line"/>
+      <point x="289" y="585" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="540" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjU4NSIgd2lkdGg9IjE5NCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      MjQ0IiB3aWR0aD0iMTU5IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
+      Cg==
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>161.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

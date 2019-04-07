@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edieresis" format="1">
+  <advance width="565"/>
+  <unicode hex="00CB"/>
+  <outline>
+    <component base="E"/>
+    <component base="dieresis.case" xOffset="86"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $E$, 0, 0
+OFFSET[R], $dieresis.case$, 86, 0
+CALL[], 21, 22, 88
+SVTCA[Y]
+CALL[], 12, 2, 1, 1, 89, 86
+SHC[2], 1
+SHC[2], 2
+CALL[], 9
+CALL[], 15, 42, 1, 29, 11, 87
+SVTCA[X]
+SHC[2], 1
+SHC[2], 2
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

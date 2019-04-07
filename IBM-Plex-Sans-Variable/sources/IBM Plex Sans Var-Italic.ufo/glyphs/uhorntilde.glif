@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhorntilde" format="1">
+  <advance width="565"/>
+  <unicode hex="1EEF"/>
+  <outline>
+    <component base="uhorn"/>
+    <component base="tilde.alt01" xOffset="35"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $uhorn$, 0, 0
+OFFSET[R], $tilde.alt01$, 35, 0
+CALL[], 23, 24, 88
+SVTCA[Y]
+CALL[], 45, 36, 1, 0, -13, 86
+SHC[2], 1
+CALL[], 9
+CALL[], 55, 68, 15, 26, 44, 87
+SVTCA[X]
+SHC[2], 1
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

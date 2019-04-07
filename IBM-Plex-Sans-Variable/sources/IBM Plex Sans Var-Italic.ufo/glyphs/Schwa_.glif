@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Schwa" format="1">
+  <advance width="679"/>
+  <unicode hex="018F"/>
+  <outline>
+    <contour>
+      <point x="295" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="487" y="-12"/>
+      <point x="606" y="142"/>
+      <point x="641" y="323" type="curve" smooth="yes"/>
+      <point x="648" y="361"/>
+      <point x="652" y="399"/>
+      <point x="652" y="438" type="curve" smooth="yes"/>
+      <point x="652" y="598"/>
+      <point x="564" y="710"/>
+      <point x="405" y="710" type="curve" smooth="yes"/>
+      <point x="279" y="710"/>
+      <point x="173" y="641"/>
+      <point x="120" y="532" type="curve"/>
+      <point x="181" y="498" type="line"/>
+      <point x="241" y="607"/>
+      <point x="322" y="637"/>
+      <point x="398" y="637" type="curve" smooth="yes"/>
+      <point x="509" y="637"/>
+      <point x="570" y="565"/>
+      <point x="570" y="459" type="curve" smooth="yes"/>
+      <point x="570" y="439"/>
+      <point x="569" y="410"/>
+      <point x="560" y="371" type="curve"/>
+      <point x="69" y="371" type="line"/>
+      <point x="59" y="318"/>
+      <point x="55" y="284"/>
+      <point x="55" y="255" type="curve" smooth="yes"/>
+      <point x="55" y="92"/>
+      <point x="154" y="-12"/>
+    </contour>
+    <contour>
+      <point x="301" y="61" type="curve" smooth="yes"/>
+      <point x="195" y="61"/>
+      <point x="136" y="130"/>
+      <point x="136" y="235" type="curve" smooth="yes"/>
+      <point x="136" y="255"/>
+      <point x="139" y="284"/>
+      <point x="143" y="303" type="curve"/>
+      <point x="545" y="303" type="line"/>
+      <point x="514" y="149"/>
+      <point x="430" y="61"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjczIiAvPgogICAgICA8aHN0ZW0gcG9zPSIz
+      MDMiIHdpZHRoPSI2OCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjM3IiB3aWR0aD0iNzMi
+      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjU1IiB3aWR0aD0iODEiIC8+CiAgICAgIDx2c3Rl
+      bSBwb3M9IjU3MCIgd2lkdGg9IjgyIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
+      dExpc3Q+Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0,9)
+ResYDist(0,35)
+ResYAnchor(23,3)
+ResYDist(23,14)
+YInterpolate(35,7,18,14)
+ResYDist(7,40)
+/* X direction */
+Smooth()
+</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>641</integer>
+          <key>y</key>
+          <integer>323</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign" format="1">
+  <advance width="681"/>
+  <unicode hex="0023"/>
+  <outline>
+    <contour>
+      <point x="298" y="0" type="line" name="hr01"/>
+      <point x="365" y="0" type="line"/>
+      <point x="441" y="205" type="line"/>
+      <point x="577" y="205" type="line"/>
+      <point x="588" y="263" type="line"/>
+      <point x="462" y="263" type="line"/>
+      <point x="524" y="435" type="line"/>
+      <point x="661" y="435" type="line"/>
+      <point x="672" y="493" type="line"/>
+      <point x="546" y="493" type="line"/>
+      <point x="621" y="698" type="line"/>
+      <point x="554" y="698" type="line"/>
+      <point x="479" y="493" type="line"/>
+      <point x="346" y="493" type="line"/>
+      <point x="421" y="698" type="line"/>
+      <point x="354" y="698" type="line"/>
+      <point x="279" y="493" type="line"/>
+      <point x="142" y="493" type="line"/>
+      <point x="131" y="435" type="line"/>
+      <point x="257" y="435" type="line"/>
+      <point x="195" y="263" type="line"/>
+      <point x="58" y="263" type="line"/>
+      <point x="47" y="205" type="line"/>
+      <point x="174" y="205" type="line"/>
+      <point x="98" y="0" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="241" y="205" type="line"/>
+      <point x="374" y="205" type="line"/>
+    </contour>
+    <contour>
+      <point x="262" y="263" type="line"/>
+      <point x="324" y="435" type="line"/>
+      <point x="457" y="435" type="line"/>
+      <point x="395" y="263" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjIw
+      NSIgd2lkdGg9IjU4IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0MzUiIHdpZHRoPSI1OCIg
+      Lz4KICAgICAgPGhzdGVtIHBvcz0iNjk4IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSI0NyIgd2lkdGg9IjYyNSIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
+      ZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(4,18)
+YShift(4,27)
+ResYAnchor(14,16)
+YShift(14,18)
+YIPAnchor(14,19,26,4)
+YShift(19,11)
+YShift(19,15)
+ResYDist(19,22)
+YShift(22,10)
+YShift(22,31)
+YShift(26,2)
+YShift(26,6)
+ResYDist(26,23)
+YShift(23,7)
+YShift(23,28)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

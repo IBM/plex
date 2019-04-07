@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abrevehook" format="1">
+  <advance width="641"/>
+  <unicode hex="1EB2"/>
+  <outline>
+    <component base="A"/>
+    <component base="brevehook.case" xOffset="322"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $A$, 0, 0
+OFFSET[R], $brevehook.case$, 322, 0
+SVTCA[Y]
+CALL[], 26, 6, 1, 1, 58, 86
+SHC[2], 2
+SHC[2], 3
+SVTCA[X]
+CALL[], 30, 40, 5, 32, 0, 87
+SHC[2], 2
+SHC[2], 3
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

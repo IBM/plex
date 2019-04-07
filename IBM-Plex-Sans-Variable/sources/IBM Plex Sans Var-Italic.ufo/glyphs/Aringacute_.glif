@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aringacute" format="1">
+  <advance width="623"/>
+  <unicode hex="01FA"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringacute.case" xOffset="105"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $A$, 0, 0
+OFFSET[R], $ringacute.case$, 105, 0
+CALL[], 21, 22, 88
+SVTCA[Y]
+CALL[], 18, 6, 1, 1, 38, 86
+SHC[2], 2
+SHC[2], 3
+SHC[2], 4
+CALL[], 9
+CALL[], 21, 28, 5, 31, 0, 87
+SVTCA[X]
+SHC[2], 2
+SHC[2], 3
+SHC[2], 4
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

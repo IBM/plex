@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oe" format="1">
+  <advance width="931"/>
+  <unicode hex="0153"/>
+  <outline>
+    <contour>
+      <point x="280" y="59" type="curve" smooth="yes" name="hr00"/>
+      <point x="194" y="59"/>
+      <point x="133" y="112"/>
+      <point x="133" y="221" type="curve" smooth="yes"/>
+      <point x="133" y="295" type="line" smooth="yes"/>
+      <point x="133" y="404"/>
+      <point x="194" y="457"/>
+      <point x="280" y="457" type="curve" smooth="yes"/>
+      <point x="366" y="457"/>
+      <point x="427" y="404"/>
+      <point x="427" y="295" type="curve" smooth="yes"/>
+      <point x="427" y="221" type="line" smooth="yes"/>
+      <point x="427" y="112"/>
+      <point x="366" y="59"/>
+    </contour>
+    <contour>
+      <point x="513" y="298" type="line"/>
+      <point x="513" y="305" type="line" smooth="yes"/>
+      <point x="513" y="395"/>
+      <point x="574" y="461"/>
+      <point x="661" y="461" type="curve" smooth="yes"/>
+      <point x="743" y="461"/>
+      <point x="798" y="400"/>
+      <point x="798" y="309" type="curve" smooth="yes"/>
+      <point x="798" y="298" type="line"/>
+    </contour>
+    <contour>
+      <point x="667" y="-12" type="curve" smooth="yes"/>
+      <point x="762" y="-12"/>
+      <point x="832" y="36"/>
+      <point x="865" y="106" type="curve"/>
+      <point x="809" y="147" type="line"/>
+      <point x="781" y="90"/>
+      <point x="732" y="58"/>
+      <point x="666" y="58" type="curve" smooth="yes"/>
+      <point x="570" y="58"/>
+      <point x="513" y="125"/>
+      <point x="513" y="214" type="curve" smooth="yes"/>
+      <point x="513" y="238" type="line"/>
+      <point x="884" y="238" type="line"/>
+      <point x="884" y="276" type="line" smooth="yes"/>
+      <point x="884" y="423"/>
+      <point x="797" y="528"/>
+      <point x="661" y="528" type="curve" smooth="yes"/>
+      <point x="570" y="528"/>
+      <point x="503" y="483"/>
+      <point x="474" y="413" type="curve"/>
+      <point x="468" y="413" type="line"/>
+      <point x="436" y="487"/>
+      <point x="368" y="528"/>
+      <point x="280" y="528" type="curve" smooth="yes"/>
+      <point x="142" y="528"/>
+      <point x="47" y="422"/>
+      <point x="47" y="258" type="curve" smooth="yes"/>
+      <point x="47" y="94"/>
+      <point x="142" y="-12"/>
+      <point x="280" y="-12" type="curve" smooth="yes"/>
+      <point x="366" y="-12"/>
+      <point x="438" y="37"/>
+      <point x="468" y="103" type="curve"/>
+      <point x="473" y="103" type="line"/>
+      <point x="503" y="41"/>
+      <point x="567" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjcwIiAvPgogICAgICA8aHN0ZW0gcG9zPSIy
+      MzgiIHdpZHRoPSI2MCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDU3IiB3aWR0aD0iNzEi
+      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ3IiB3aWR0aD0iODYiIC8+CiAgICAgIDx2c3Rl
+      bSBwb3M9IjQyNyIgd2lkdGg9Ijg2IiAvPgogICAgICA8dnN0ZW0gcG9zPSI3OTgiIHdp
+      ZHRoPSI4NiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(33,11)
+ResYDist(33,0)
+YShift(33,25)
+ResYDist(25,58)
+ResYAnchor(41,7)
+ResYDist(41,7)
+YShift(41,48)
+ResYDist(48,20)
+YIPAnchor(58,54,20)
+YInterpolate(58,61,54)
+ResYDist(54,14)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

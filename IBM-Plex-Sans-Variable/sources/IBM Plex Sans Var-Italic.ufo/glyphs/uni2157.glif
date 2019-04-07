@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2157" format="1">
+  <advance width="835"/>
+  <unicode hex="2157"/>
+  <outline>
+    <component base="threesuperior"/>
+    <component base="fraction" xOffset="344"/>
+    <component base="fiveinferior" xOffset="492"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+OFFSET[R], $threesuperior$, 0, 0
+OFFSET[R], $fraction$, 344, 0
+OFFSET[R], $fiveinferior$, 492, 0
+CALL[], 27, 28, 88
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

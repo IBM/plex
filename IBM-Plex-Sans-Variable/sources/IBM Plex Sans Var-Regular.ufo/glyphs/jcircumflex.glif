@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jcircumflex" format="1">
+  <advance width="250"/>
+  <unicode hex="0135"/>
+  <outline>
+    <component base="dotlessj"/>
+    <component base="circumflex.alt01" xOffset="-175"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $dotlessj$, 0, 0
+OFFSET[R], $circumflex.alt01$, -175, 0
+SVTCA[Y]
+CALL[], 12, 3, 1, 1, 75, 86
+SHC[2], 1
+SVTCA[X]
+CALL[], 15, 11, 0, 48, 5, 87
+SHC[2], 1
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="400" maximum="700" minimum="100" name="weight" tag="wght">
+            <map input="100" output="-925" />
+            <map input="200" output="-706" />
+            <map input="300" output="-360" />
+            <map input="400" output="0" />
+            <map input="450" output="191" />
+            <map input="500" output="427" />
+            <map input="600" output="705" />
+            <map input="700" output="1000" />
+        </axis>
+        <axis default="100" maximum="100" minimum="85" name="width" tag="wdth">
+            <map input="85" output="-250" />
+            <map input="100" output="0" />
+        </axis>
+    </axes>
+    <sources>
+        <source familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Thin.ufo" stylename="Thin">
+            <location>
+                <dimension name="weight" xvalue="-925" />
+                <dimension name="width" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Regular.ufo" stylename="Regular">
+            <lib copy="1" />
+            <groups copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="width" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Bold.ufo" stylename="Bold">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="width" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Thin Condensed.ufo" stylename="Thin Condensed">
+            <location>
+                <dimension name="weight" xvalue="-925" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Condensed.ufo" stylename="Condensed">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Bold Condensed.ufo" stylename="Bold Condensed">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+    	<instance familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Thin.ufo" postscriptfontname="IBMPlexSansVar-Thin" stylename="Thin">
+            <location>
+                <dimension name="weight" xvalue="-925" />
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-ExtraLight.ufo" postscriptfontname="IBMPlexSansVar-ExtraLight" stylename="ExtraLight">
+            <location>
+                <dimension name="weight" xvalue="-706" />
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-Light.ufo" postscriptfontname="IBMPlexSansVar-Light" stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="-360" />
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    	<instance familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Regular.ufo" postscriptfontname="IBMPlexSansVar-Regular" stylename="Regular">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-Text.ufo" postscriptfontname="IBMPlexSansVar-Text" stylename="Text">
+            <location>
+                <dimension name="weight" xvalue="191" />
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-Medium.ufo" postscriptfontname="IBMPlexSansVar-Medium" stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="427" />
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-SemiBold.ufo" postscriptfontname="IBMPlexSansVar-SemiBold" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="705" />
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    	<instance familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Bold.ufo" postscriptfontname="IBMPlexSansVar-Bold" stylename="Bold">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="width" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Thin Condensed.ufo" postscriptfontname="IBMPlexSansVar-ThinCondensed" stylename="Thin Condensed">
+            <location>
+                <dimension name="weight" xvalue="-925" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-ExtraLight Condensed.ufo" postscriptfontname="IBMPlexSansVar-ExtraLightCondensed" stylename="ExtraLight Condensed">
+            <location>
+                <dimension name="weight" xvalue="-706" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-Light Condensed.ufo" postscriptfontname="IBMPlexSansVar-LightCondensed" stylename="Light Condensed">
+            <location>
+                <dimension name="weight" xvalue="-360" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Condensed.ufo" postscriptfontname="IBMPlexSansVar-Condensed" stylename="Condensed">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-Text Condensed.ufo" postscriptfontname="IBMPlexSansVar-TextCondensed" stylename="Text Condensed">
+            <location>
+                <dimension name="weight" xvalue="191" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-Medium Condensed.ufo" postscriptfontname="IBMPlexSansVar-MediumCondensed" stylename="Medium Condensed">
+            <location>
+                <dimension name="weight" xvalue="427" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="instances/IBM Plex Sans Var-SemiBold Condensed.ufo" postscriptfontname="IBMPlexSansVar-SemiBoldCondensed" stylename="SemiBold Condensed">
+            <location>
+                <dimension name="weight" xvalue="705" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Var" filename="IBM Plex Sans Var-Bold Condensed.ufo" postscriptfontname="IBMPlexSansVar-BoldCondensed" stylename="Bold Condensed">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="width" xvalue="-250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

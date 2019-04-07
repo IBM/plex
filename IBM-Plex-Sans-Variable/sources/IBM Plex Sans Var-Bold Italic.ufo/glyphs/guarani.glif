@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guarani" format="1">
+  <advance width="663"/>
+  <unicode hex="20B2"/>
+  <outline>
+    <contour>
+      <point x="57" y="284" type="curve" smooth="yes"/>
+      <point x="57" y="140"/>
+      <point x="130" y="7"/>
+      <point x="284" y="7" type="curve" smooth="yes"/>
+      <point x="405" y="7"/>
+      <point x="556" y="71"/>
+      <point x="592" y="250" type="curve" smooth="yes"/>
+      <point x="619" y="386" type="line"/>
+      <point x="331" y="386" type="line"/>
+      <point x="331" y="273" type="line"/>
+      <point x="462" y="273" type="line"/>
+      <point x="456" y="243" type="line" smooth="yes"/>
+      <point x="439" y="159"/>
+      <point x="376" y="120"/>
+      <point x="305" y="120" type="curve" smooth="yes"/>
+      <point x="202" y="120"/>
+      <point x="194" y="207"/>
+      <point x="194" y="248" type="curve" smooth="yes"/>
+      <point x="194" y="263"/>
+      <point x="196" y="280"/>
+      <point x="200" y="298" type="curve" smooth="yes"/>
+      <point x="221" y="403" type="line" smooth="yes"/>
+      <point x="241" y="502"/>
+      <point x="294" y="577"/>
+      <point x="394" y="577" type="curve" smooth="yes"/>
+      <point x="491" y="577"/>
+      <point x="514" y="521"/>
+      <point x="521" y="487" type="curve"/>
+      <point x="638" y="538" type="line"/>
+      <point x="621" y="604"/>
+      <point x="550" y="691"/>
+      <point x="404" y="691" type="curve" smooth="yes"/>
+      <point x="228" y="691"/>
+      <point x="102" y="563"/>
+      <point x="67" y="387" type="curve" smooth="yes"/>
+      <point x="60" y="354"/>
+      <point x="57" y="320"/>
+    </contour>
+    <contour>
+      <point x="233" y="-82" type="line"/>
+      <point x="285" y="63" type="line"/>
+      <point x="282" y="83" type="line"/>
+      <point x="477" y="615" type="line"/>
+      <point x="496" y="635" type="line"/>
+      <point x="550" y="780" type="line"/>
+      <point x="440" y="780" type="line"/>
+      <point x="386" y="635" type="line"/>
+      <point x="387" y="615" type="line"/>
+      <point x="192" y="83" type="line"/>
+      <point x="175" y="63" type="line"/>
+      <point x="123" y="-82" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjciIHdpZHRoPSIxMTMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjI3
+      MyIgd2lkdGg9IjExMyIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTc2IiB3aWR0aD0iMTE1
+      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1NyIgd2lkdGg9IjEzNyIgLz4KICAgIDwvaGlu
+      dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>67</integer>
+          <key>y</key>
+          <integer>387</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

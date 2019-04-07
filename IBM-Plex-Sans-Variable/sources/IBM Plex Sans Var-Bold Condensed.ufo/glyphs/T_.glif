@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="T" format="1">
+  <advance width="527"/>
+  <unicode hex="0054"/>
+  <outline>
+    <contour>
+      <point x="502" y="573" type="line" name="hr00"/>
+      <point x="502" y="698" type="line"/>
+      <point x="25" y="698" type="line"/>
+      <point x="25" y="573" type="line"/>
+      <point x="192" y="573" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="335" y="0" type="line"/>
+      <point x="335" y="573" type="line"/>
+    </contour>
+    <contour>
+      <point x="264.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="264.0" y="698.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjU3
+      MyIgd2lkdGg9IjEyNSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTkyIiB3aWR0aD0iMTQz
+      IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+    </dict>
+  </lib>
+</glyph>

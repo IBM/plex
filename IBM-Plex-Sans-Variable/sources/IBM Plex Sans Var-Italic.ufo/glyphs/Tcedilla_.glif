@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcedilla" format="1">
+  <advance width="557"/>
+  <unicode hex="021A"/>
+  <outline>
+    <component base="T"/>
+    <component base="commabelowcomb" xOffset="227"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $T$, 0, 0
+OFFSET[R], $commabelowcomb$, 227, 0
+CALL[], 21, 22, 88
+SVTCA[Y]
+CALL[], 8, 3, 1, 1, -66, 86
+SHC[2], 1
+CALL[], 9
+CALL[], 18, 11, 5, 32, 7, 87
+SVTCA[X]
+SHC[2], 1
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

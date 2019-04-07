@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udotbelow" format="1">
+  <advance width="656"/>
+  <unicode hex="1EE4"/>
+  <outline>
+    <component base="U"/>
+    <component base="dotbelowcomb" xOffset="278"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $U$, 0, 0
+OFFSET[R], $dotbelowcomb$, 278, 0
+CALL[], 21, 22, 88
+SVTCA[Y]
+CALL[], 36, 19, 1, 1, -54, 86
+SHC[2], 1
+CALL[], 9
+CALL[], 30, 39, 23, 32, 14, 87
+SVTCA[X]
+SHC[2], 1
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

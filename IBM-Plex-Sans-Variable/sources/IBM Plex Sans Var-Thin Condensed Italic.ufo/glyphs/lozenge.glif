@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lozenge" format="1">
+  <advance width="540"/>
+  <unicode hex="25CA"/>
+  <outline>
+    <contour>
+      <point x="233" y="0" type="line" name="hr00"/>
+      <point x="508" y="349" type="line"/>
+      <point x="369" y="698" type="line"/>
+      <point x="346" y="698" type="line"/>
+      <point x="71" y="349" type="line"/>
+      <point x="210" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="222" y="20" type="line"/>
+      <point x="93" y="347" type="line"/>
+      <point x="353" y="678" type="line"/>
+      <point x="357" y="678" type="line"/>
+      <point x="486" y="351" type="line"/>
+      <point x="226" y="20" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjY5
+      OCIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNzEiIHdpZHRoPSI0Mzci
+      IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+    </dict>
+  </lib>
+</glyph>

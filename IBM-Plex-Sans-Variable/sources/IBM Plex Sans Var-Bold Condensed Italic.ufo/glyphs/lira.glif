@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lira" format="1">
+  <advance width="552"/>
+  <unicode hex="20A4"/>
+  <outline>
+    <contour>
+      <point x="492" y="118" type="line"/>
+      <point x="159" y="118" type="line"/>
+      <point x="161" y="130" type="line"/>
+      <point x="237" y="138"/>
+      <point x="289" y="214"/>
+      <point x="289" y="291" type="curve" smooth="yes"/>
+      <point x="289" y="358"/>
+      <point x="273.0" y="390.4594594594595"/>
+      <point x="273" y="451" type="curve" smooth="yes"/>
+      <point x="273" y="547"/>
+      <point x="306" y="590"/>
+      <point x="380" y="590" type="curve" smooth="yes"/>
+      <point x="431" y="590"/>
+      <point x="460" y="570"/>
+      <point x="480" y="519" type="curve"/>
+      <point x="589" y="591" type="line"/>
+      <point x="550" y="673"/>
+      <point x="489" y="710"/>
+      <point x="391" y="710" type="curve" smooth="yes"/>
+      <point x="232" y="710"/>
+      <point x="138" y="612"/>
+      <point x="138" y="447" type="curve" smooth="yes"/>
+      <point x="138" y="380"/>
+      <point x="153" y="346"/>
+      <point x="153" y="297" type="curve" smooth="yes"/>
+      <point x="153" y="227"/>
+      <point x="116" y="162"/>
+      <point x="55" y="130" type="curve"/>
+      <point x="29" y="0" type="line"/>
+      <point x="468" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="77" y="389" type="line"/>
+      <point x="429" y="389" type="line"/>
+      <point x="445" y="470" type="line"/>
+      <point x="93" y="470" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="228" type="line"/>
+      <point x="397" y="228" type="line"/>
+      <point x="413" y="309" type="line"/>
+      <point x="61" y="309" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIxMTgiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjIy
+      OCIgd2lkdGg9IjgxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIzODkiIHdpZHRoPSI4MSIg
+      Lz4KICAgICAgPGhzdGVtIHBvcz0iNTkwIiB3aWR0aD0iMTIwIiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSIxMzgiIHdpZHRoPSIxMzYiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
+      dHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIx
+      MTgiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjIyOCIgd2lkdGg9IjgxIiAvPgogICAgICA8
+      aHN0ZW0gcG9zPSIzODkiIHdpZHRoPSI4MSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTkw
+      IiB3aWR0aD0iMTIwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIxNTMiIHdpZHRoPSIxMzYi
+      IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>341.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

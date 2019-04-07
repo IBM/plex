@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="coloncurrency" format="1">
+  <advance width="613"/>
+  <unicode hex="20A1"/>
+  <outline>
+    <contour>
+      <point x="56" y="290" type="curve" smooth="yes"/>
+      <point x="56" y="128"/>
+      <point x="130" y="7"/>
+      <point x="278" y="7" type="curve" smooth="yes"/>
+      <point x="400" y="7"/>
+      <point x="479" y="50"/>
+      <point x="539" y="129" type="curve"/>
+      <point x="454" y="202" type="line"/>
+      <point x="417" y="146"/>
+      <point x="355" y="120"/>
+      <point x="301" y="120" type="curve" smooth="yes"/>
+      <point x="224" y="120"/>
+      <point x="193" y="185"/>
+      <point x="193" y="244" type="curve" smooth="yes"/>
+      <point x="193" y="263"/>
+      <point x="196" y="279"/>
+      <point x="199" y="294" type="curve" smooth="yes"/>
+      <point x="222" y="409" type="line" smooth="yes"/>
+      <point x="244" y="520"/>
+      <point x="302" y="581"/>
+      <point x="394" y="578" type="curve" smooth="yes"/>
+      <point x="470" y="576"/>
+      <point x="511" y="544"/>
+      <point x="522" y="508" type="curve"/>
+      <point x="629" y="574" type="line"/>
+      <point x="601" y="630"/>
+      <point x="531" y="691"/>
+      <point x="418" y="691" type="curve" smooth="yes"/>
+      <point x="232" y="691"/>
+      <point x="104" y="561"/>
+      <point x="67" y="393" type="curve" smooth="yes"/>
+      <point x="60" y="360"/>
+      <point x="56" y="325"/>
+    </contour>
+    <contour>
+      <point x="196" y="-82" type="line"/>
+      <point x="238" y="63" type="line"/>
+      <point x="245" y="83" type="line"/>
+      <point x="401" y="615" type="line"/>
+      <point x="410" y="635" type="line"/>
+      <point x="453" y="780" type="line"/>
+      <point x="386" y="780" type="line"/>
+      <point x="343" y="635" type="line"/>
+      <point x="338" y="615" type="line"/>
+      <point x="178" y="83" type="line"/>
+      <point x="171" y="63" type="line"/>
+      <point x="129" y="-82" type="line"/>
+    </contour>
+    <contour>
+      <point x="306" y="-82" type="line"/>
+      <point x="348" y="63" type="line"/>
+      <point x="355" y="83" type="line"/>
+      <point x="511" y="615" type="line"/>
+      <point x="520" y="635" type="line"/>
+      <point x="563" y="780" type="line"/>
+      <point x="496" y="780" type="line"/>
+      <point x="453" y="635" type="line"/>
+      <point x="448" y="615" type="line"/>
+      <point x="288" y="83" type="line"/>
+      <point x="281" y="63" type="line"/>
+      <point x="239" y="-82" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjciIHdpZHRoPSIxMTMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjU3
+      OCIgd2lkdGg9IjExMyIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTYiIHdpZHRoPSIxMzYi
+      IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>67</integer>
+          <key>y</key>
+          <integer>393</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seveninferior" format="1">
+  <advance width="335"/>
+  <unicode hex="2087"/>
+  <outline>
+    <contour>
+      <point x="159" y="0" type="line" name="hr00"/>
+      <point x="303" y="317" type="line"/>
+      <point x="303" y="369" type="line"/>
+      <point x="31" y="369" type="line"/>
+      <point x="31" y="252" type="line"/>
+      <point x="85" y="252" type="line"/>
+      <point x="85" y="319" type="line"/>
+      <point x="240" y="319" type="line"/>
+      <point x="92" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjMx
+      OSIgd2lkdGg9IjUwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzMSIgd2lkdGg9IjU0IiAv
+      PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(1,137)
+ResYAnchor(6,135)
+YDelta(6,-1@15)
+YDelta(6,1@20)
+YDelta(6,1@23)
+YDelta(6,1@31)
+YDelta(6,1@38)
+YDelta(6,-1@42)
+YDelta(6,1@44)
+ResYDist(6,3)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

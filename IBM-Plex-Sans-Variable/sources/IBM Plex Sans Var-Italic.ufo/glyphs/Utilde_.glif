@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Utilde" format="1">
+  <advance width="656"/>
+  <unicode hex="0168"/>
+  <outline>
+    <component base="U"/>
+    <component base="tilde.case" xOffset="118"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $U$, 0, 0
+OFFSET[R], $tilde.case$, 118, 0
+CALL[], 21, 22, 88
+SVTCA[Y]
+CALL[], 27, 13, 1, 1, 84, 86
+SHC[2], 1
+CALL[], 9
+CALL[], 37, 50, 23, 30, 14, 87
+SVTCA[X]
+SHC[2], 1
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

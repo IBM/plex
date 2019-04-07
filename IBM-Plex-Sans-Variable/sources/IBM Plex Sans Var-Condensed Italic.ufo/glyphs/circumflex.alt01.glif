@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflex.alt01" format="1">
+  <advance width="540"/>
+  <outline>
+    <contour>
+      <point x="197" y="591" type="line" name="hr00"/>
+      <point x="315" y="709" type="line"/>
+      <point x="387" y="591" type="line"/>
+      <point x="428" y="618" type="line"/>
+      <point x="362" y="765" type="line"/>
+      <point x="279" y="765" type="line"/>
+      <point x="158" y="621" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="540" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.guides</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <real>78.69</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>162</real>
+      <key>y</key>
+      <real>0</real>
+    </dict>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjU5MSIgd2lkdGg9IjE3NCIgLz4KICAgICAg
+PHZzdGVtIHBvcz0iMTU4IiB3aWR0aD0iMjcwIiAv
+PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExp
+c3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

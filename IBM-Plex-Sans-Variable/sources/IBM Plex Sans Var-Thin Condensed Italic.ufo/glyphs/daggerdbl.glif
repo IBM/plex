@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daggerdbl" format="1">
+  <advance width="504"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="171" y="-200" type="line"/>
+      <point x="218" y="34" type="line"/>
+      <point x="408" y="34" type="line"/>
+      <point x="412" y="53" type="line"/>
+      <point x="221" y="53" type="line"/>
+      <point x="308" y="487" type="line"/>
+      <point x="498" y="487" type="line"/>
+      <point x="502" y="506" type="line"/>
+      <point x="312" y="506" type="line"/>
+      <point x="359" y="740" type="line"/>
+      <point x="338" y="740" type="line"/>
+      <point x="291" y="506" type="line"/>
+      <point x="101" y="506" type="line"/>
+      <point x="97" y="487" type="line"/>
+      <point x="287" y="487" type="line"/>
+      <point x="200" y="53" type="line"/>
+      <point x="11" y="53" type="line"/>
+      <point x="7" y="34" type="line"/>
+      <point x="197" y="34" type="line"/>
+      <point x="150" y="-200" type="line" name="hr00"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0yMDAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9
+      IjM0IiB3aWR0aD0iMTkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ4NyIgd2lkdGg9IjE5
+      IiAvPgogICAgICA8aHN0ZW0gcG9zPSI3NDAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDx2
+      c3RlbSBwb3M9IjciIHdpZHRoPSI0OTUiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50
+      U2V0TGlzdD4K
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>0.0</real>
+          <key>y</key>
+          <real>-200.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>-1.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>399.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

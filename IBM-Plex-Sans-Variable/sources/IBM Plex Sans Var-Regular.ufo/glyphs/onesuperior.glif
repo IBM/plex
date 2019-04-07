@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onesuperior" format="1">
+  <advance width="359"/>
+  <unicode hex="00B9"/>
+  <outline>
+    <contour>
+      <point x="325" y="329" type="line" name="hr00"/>
+      <point x="325" y="379" type="line"/>
+      <point x="227" y="379" type="line"/>
+      <point x="227" y="698" type="line"/>
+      <point x="134" y="698" type="line"/>
+      <point x="32" y="595" type="line"/>
+      <point x="68" y="558" type="line"/>
+      <point x="158" y="647" type="line"/>
+      <point x="164" y="647" type="line"/>
+      <point x="164" y="379" type="line"/>
+      <point x="55" y="379" type="line"/>
+      <point x="55" y="329" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjMyOSIgd2lkdGg9IjUwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2
+      OTgiIHdpZHRoPSItMjEiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE2NCIgd2lkdGg9IjYz
+      IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(1,133)
+YDelta(1,1@17)
+YDelta(1,1@28)
+YDelta(1,1@41)
+YDelta(1,-1@45)
+ResYDist(1,2)
+YShift(2,10)
+ResYAnchor(8,131)
+YShift(8,5)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>
