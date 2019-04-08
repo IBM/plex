@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira.alt01" format="1">
+  <advance width="691"/>
+  <outline>
+    <contour>
+      <point x="118.0" y="0.0" type="line"/>
+      <point x="201.0" y="414.0" type="line"/>
+      <point x="236.0" y="591.0" type="line"/>
+      <point x="239.0" y="591.0" type="line"/>
+      <point x="298.0" y="414.0" type="line"/>
+      <point x="445.0" y="0.0" type="line" name="hr00"/>
+      <point x="541.0" y="0.0" type="line"/>
+      <point x="681.0" y="698.0" type="line"/>
+      <point x="609.0" y="698.0" type="line"/>
+      <point x="528.0" y="293.0" type="line"/>
+      <point x="488.0" y="96.0" type="line"/>
+      <point x="485.0" y="96.0" type="line"/>
+      <point x="419.0" y="293.0" type="line"/>
+      <point x="279.0" y="698.0" type="line"/>
+      <point x="186.0" y="698.0" type="line"/>
+      <point x="46.0" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="28" y="234" type="line"/>
+      <point x="129" y="234" type="line"/>
+      <point x="139" y="238" type="line"/>
+      <point x="553" y="238" type="line"/>
+      <point x="563" y="234" type="line"/>
+      <point x="649" y="234" type="line"/>
+      <point x="662" y="300" type="line"/>
+      <point x="563" y="300" type="line"/>
+      <point x="553" y="296" type="line"/>
+      <point x="139" y="296" type="line"/>
+      <point x="129" y="300" type="line"/>
+      <point x="41" y="300" type="line"/>
+    </contour>
+    <contour>
+      <point x="61" y="398" type="line"/>
+      <point x="162" y="398" type="line"/>
+      <point x="172" y="402" type="line"/>
+      <point x="586" y="402" type="line"/>
+      <point x="596" y="398" type="line"/>
+      <point x="682" y="398" type="line"/>
+      <point x="695" y="464" type="line"/>
+      <point x="596" y="464" type="line"/>
+      <point x="586" y="460" type="line"/>
+      <point x="172" y="460" type="line"/>
+      <point x="162" y="464" type="line"/>
+      <point x="74" y="464" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjIz
+      NCIgd2lkdGg9IjY2IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzOTgiIHdpZHRoPSI2NiIg
+      Lz4KICAgICAgPGhzdGVtIHBvcz0iNjk4IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSIyOCIgd2lkdGg9IjY2NyIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
+      ZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0,18)
+YShift(0,11)
+YShift(11,5)
+ResYAnchor(2,16)
+YShift(2,9)
+YShift(2,14)
+YInterpolate(0,16,2)
+ResYDist(16,17)
+YShift(17,19)
+YShift(19,21)
+ResYDist(17,28)
+ResYDist(28,29)
+YShift(29,31)
+YShift(31,33)
+YShift(28,38)
+YShift(38,36)
+YShift(16,26)
+YShift(26,24)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

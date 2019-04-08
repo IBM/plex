@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aogonek" format="1">
+  <advance width="591"/>
+  <unicode hex="0105"/>
+  <outline>
+    <contour>
+      <point x="545" y="112" type="line"/>
+      <point x="486" y="112" type="line"/>
+      <point x="569" y="525" type="line"/>
+      <point x="429" y="525" type="line"/>
+      <point x="411" y="434" type="line"/>
+      <point x="406" y="434" type="line"/>
+      <point x="399" y="491"/>
+      <point x="348" y="537"/>
+      <point x="275" y="537" type="curve" smooth="yes" name="hr01"/>
+      <point x="167" y="537"/>
+      <point x="75" y="444"/>
+      <point x="43" y="292" type="curve" smooth="yes"/>
+      <point x="35" y="255"/>
+      <point x="31" y="214"/>
+      <point x="31" y="170" type="curve" smooth="yes"/>
+      <point x="31" y="65"/>
+      <point x="73" y="-12"/>
+      <point x="171" y="-12" type="curve" smooth="yes"/>
+      <point x="253" y="-12"/>
+      <point x="301" y="37"/>
+      <point x="342" y="122" type="curve"/>
+      <point x="348" y="122" type="line"/>
+      <point x="345" y="107" type="line" smooth="yes"/>
+      <point x="344" y="102"/>
+      <point x="342" y="88"/>
+      <point x="342" y="77" type="curve" smooth="yes"/>
+      <point x="342" y="28"/>
+      <point x="380" y="0"/>
+      <point x="430" y="0" type="curve" smooth="yes" name="hr02"/>
+      <point x="469" y="0" type="line"/>
+      <point x="439" y="30" type="line"/>
+      <point x="439" y="-4" type="line"/>
+      <point x="342" y="-30"/>
+      <point x="301" y="-79"/>
+      <point x="301" y="-129" type="curve" smooth="yes"/>
+      <point x="301" y="-183"/>
+      <point x="354" y="-212"/>
+      <point x="420" y="-212" type="curve" smooth="yes"/>
+      <point x="483" y="-212"/>
+      <point x="520" y="-192"/>
+      <point x="545" y="-162" type="curve"/>
+      <point x="493" y="-113" type="line"/>
+      <point x="480" y="-134"/>
+      <point x="460" y="-140"/>
+      <point x="439" y="-140" type="curve" smooth="yes"/>
+      <point x="413" y="-140"/>
+      <point x="404" y="-127"/>
+      <point x="404" y="-111" type="curve" smooth="yes"/>
+      <point x="404" y="-91"/>
+      <point x="413" y="-66"/>
+      <point x="523" y="0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="240" y="103" type="curve" smooth="yes" name="hr03"/>
+      <point x="199" y="103"/>
+      <point x="174" y="131"/>
+      <point x="174" y="178" type="curve" smooth="yes"/>
+      <point x="174" y="194"/>
+      <point x="177" y="221"/>
+      <point x="180" y="235" type="curve" smooth="yes"/>
+      <point x="194" y="305" type="line" smooth="yes"/>
+      <point x="210" y="384"/>
+      <point x="247" y="422"/>
+      <point x="309" y="422" type="curve" smooth="yes"/>
+      <point x="367" y="422"/>
+      <point x="401" y="384"/>
+      <point x="391" y="335" type="curve" smooth="yes"/>
+      <point x="375" y="255" type="line" smooth="yes"/>
+      <point x="367" y="216"/>
+      <point x="349" y="178"/>
+      <point x="327" y="151" type="curve" smooth="yes"/>
+      <point x="306" y="125"/>
+      <point x="276" y="103"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSI3MiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+      LTEyIiB3aWR0aD0iMTE1IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0MjIiIHdpZHRoPSIx
+      MTUiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjMxIiB3aWR0aD0iMTQzIiAvPgogICAgICA8
+      dnN0ZW0gcG9zPSIzMDEiIHdpZHRoPSIxMDMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
+      aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yMTIiIHdp
+      ZHRoPSI3MiIgLz4KICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9IjExMiIgLz4KICAg
+      ICAgPGhzdGVtIHBvcz0iNTI1IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0ZW0gcG9z
+      PSIzMSIgd2lkdGg9IjE0MyIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzAxIiB3aWR0aD0i
+      MTAzIiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDMi
+      PgogICAgICA8aHN0ZW0gcG9zPSItMjEyIiB3aWR0aD0iNzIiIC8+CiAgICAgIDxoc3Rl
+      bSBwb3M9Ii0xMiIgd2lkdGg9IjExNSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDIyIiB3
+      aWR0aD0iMTE1IiAvPgogICAgICA8dnN0ZW0gcG9zPSIzMSIgd2lkdGg9IjE0MyIgLz4K
+      ICAgICAgPHZzdGVtIHBvcz0iMzAxIiB3aWR0aD0iMTAzIiAvPgogICAgPC9oaW50c2V0
+      PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>43</integer>
+          <key>y</key>
+          <integer>292</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

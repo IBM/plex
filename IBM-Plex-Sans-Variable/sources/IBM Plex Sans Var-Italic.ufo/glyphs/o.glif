@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o" format="1">
+  <advance width="550"/>
+  <unicode hex="006F"/>
+  <outline>
+    <contour>
+      <point x="235" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="366" y="-12"/>
+      <point x="463" y="95"/>
+      <point x="492" y="230" type="curve" smooth="yes"/>
+      <point x="498" y="258"/>
+      <point x="501" y="287"/>
+      <point x="501" y="316" type="curve" smooth="yes"/>
+      <point x="501" y="456"/>
+      <point x="423" y="528"/>
+      <point x="315" y="528" type="curve" smooth="yes"/>
+      <point x="184" y="528"/>
+      <point x="87" y="421"/>
+      <point x="58" y="286" type="curve" smooth="yes"/>
+      <point x="52" y="258"/>
+      <point x="49" y="229"/>
+      <point x="49" y="200" type="curve" smooth="yes"/>
+      <point x="49" y="60"/>
+      <point x="127" y="-12"/>
+    </contour>
+    <contour>
+      <point x="245" y="57" type="curve" smooth="yes"/>
+      <point x="167" y="57"/>
+      <point x="125" y="106"/>
+      <point x="125" y="178" type="curve" smooth="yes"/>
+      <point x="125" y="193"/>
+      <point x="127" y="208"/>
+      <point x="130" y="223" type="curve" smooth="yes"/>
+      <point x="145" y="298" type="line" smooth="yes"/>
+      <point x="166" y="403"/>
+      <point x="231" y="459"/>
+      <point x="305" y="459" type="curve" smooth="yes"/>
+      <point x="383" y="459"/>
+      <point x="425" y="410"/>
+      <point x="425" y="338" type="curve" smooth="yes"/>
+      <point x="425" y="323"/>
+      <point x="423" y="308"/>
+      <point x="420" y="293" type="curve" smooth="yes"/>
+      <point x="405" y="218" type="line" smooth="yes"/>
+      <point x="384" y="113"/>
+      <point x="319" y="57"/>
+    </contour>
+    <contour>
+      <point x="233" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="318" y="540" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjY5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
+      NTkiIHdpZHRoPSI2OSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNDkiIHdpZHRoPSI3NiIg
+      Lz4KICAgICAgPHZzdGVtIHBvcz0iNDI1IiB3aWR0aD0iNzYiIC8+CiAgICA8L2hpbnRz
+      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0,11)
+ResYDist(0,22)
+ResYAnchor(11,7)
+ResYDist(11,33)
+/* X direction */
+Smooth()
+</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>58</integer>
+          <key>y</key>
+          <integer>286</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

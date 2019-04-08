@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright" format="1">
+  <advance width="317"/>
+  <unicode hex="005D"/>
+  <outline>
+    <contour>
+      <point x="60" y="760" type="line" name="hr00"/>
+      <point x="60" y="697" type="line"/>
+      <point x="155" y="697" type="line"/>
+      <point x="155" y="-75" type="line"/>
+      <point x="60" y="-75" type="line"/>
+      <point x="60" y="-138" type="line"/>
+      <point x="224" y="-138" type="line"/>
+      <point x="224" y="760" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xMzgiIHdpZHRoPSI2MyIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+      Njk3IiB3aWR0aD0iNjMiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE1NSIgd2lkdGg9IjY5
+      IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0)
+ResYDist(0,7)
+ResYAnchor(3)
+ResYDist(3,4)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

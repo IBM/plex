@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="1">
+  <advance width="600"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="319" y="587" type="line" name="hr00"/>
+      <point x="335" y="596" type="line"/>
+      <point x="254" y="751" type="line"/>
+      <point x="235" y="740" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="540" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjU4NyIgd2lkdGg9IjE2NCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      MjM1IiB3aWR0aD0iMTAwIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
+      Cg==
+      </data>
+    </dict>
+  </lib>
+</glyph>

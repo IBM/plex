@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j" format="1">
+  <advance width="253"/>
+  <unicode hex="006A"/>
+  <outline>
+    <contour>
+      <point x="10" y="-132" type="line" name="hr01"/>
+      <point x="-73" y="-132" type="line"/>
+      <point x="-87" y="-200" type="line"/>
+      <point x="-20" y="-200" type="line" smooth="yes"/>
+      <point x="50" y="-200"/>
+      <point x="80" y="-168"/>
+      <point x="94" y="-98" type="curve" smooth="yes"/>
+      <point x="217" y="516" type="line"/>
+      <point x="140" y="516" type="line"/>
+    </contour>
+    <contour>
+      <point x="206" y="637" type="curve" smooth="yes"/>
+      <point x="239" y="637"/>
+      <point x="255" y="652"/>
+      <point x="260" y="677" type="curve" smooth="yes"/>
+      <point x="264" y="696"/>
+      <point x="264" y="701"/>
+      <point x="264" y="705" type="curve" smooth="yes"/>
+      <point x="264" y="724"/>
+      <point x="253" y="740"/>
+      <point x="222" y="740" type="curve" smooth="yes"/>
+      <point x="189" y="740"/>
+      <point x="173" y="725"/>
+      <point x="168" y="700" type="curve" smooth="yes"/>
+      <point x="164" y="681"/>
+      <point x="164" y="676"/>
+      <point x="164" y="672" type="curve" smooth="yes"/>
+      <point x="164" y="653"/>
+      <point x="175" y="637"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0yMDAiIHdpZHRoPSI2OCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+      NTE2IiB3aWR0aD0iLTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MzciIHdpZHRoPSIx
+      MDMiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE2NCIgd2lkdGg9IjEwMCIgLz4KICAgIDwv
+      aGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(2,6)
+ResYDist(2,9)
+ResYDist(9,18)
+ResYAnchor(7,14)
+ResYDist(7,8)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

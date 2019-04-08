@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron" format="1">
+  <advance width="585"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="364" y="588" type="line" name="hr00"/>
+      <point x="519" y="746" type="line"/>
+      <point x="447" y="803" type="line"/>
+      <point x="310" y="688" type="line"/>
+      <point x="214" y="803" type="line"/>
+      <point x="140" y="746" type="line"/>
+      <point x="241" y="588" type="line"/>
+    </contour>
+    <contour>
+      <point x="293" y="540" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjU4OCIgd2lkdGg9IjIxNSIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      MTQwIiB3aWR0aD0iMzc5IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
+      Cg==
+      </data>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesingle" format="1">
+  <advance width="242"/>
+  <unicode hex="0027"/>
+  <outline>
+    <contour>
+      <point x="157" y="460" type="line" name="hr00"/>
+      <point x="157" y="740" type="line"/>
+      <point x="85" y="740" type="line"/>
+      <point x="85" y="460" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ijc0MCIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      ODUiIHdpZHRoPSI3MiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(2,0)
+ResYDist(2,0)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

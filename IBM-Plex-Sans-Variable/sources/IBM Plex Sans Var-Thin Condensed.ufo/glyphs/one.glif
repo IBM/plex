@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one" format="1">
+  <advance width="540"/>
+  <unicode hex="0031"/>
+  <outline>
+    <contour>
+      <point x="490" y="0" type="line" name="hr00"/>
+      <point x="490" y="20" type="line"/>
+      <point x="302" y="20" type="line"/>
+      <point x="302" y="698" type="line"/>
+      <point x="265" y="698" type="line"/>
+      <point x="71" y="535" type="line"/>
+      <point x="84" y="520" type="line"/>
+      <point x="277" y="682" type="line"/>
+      <point x="280" y="682" type="line"/>
+      <point x="280" y="20" type="line"/>
+      <point x="84" y="20" type="line"/>
+      <point x="84" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyMCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjk4
+      IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0ZW0gcG9zPSIyODAiIHdpZHRoPSIyMiIg
+      Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>84.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

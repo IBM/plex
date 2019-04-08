@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="IJacute" format="1">
+  <advance width="643"/>
+  <outline>
+    <component base="IJ"/>
+    <component base="acute.case" xOffset="-72"/>
+    <component base="acute.case" xOffset="230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $IJ$, 0, 0
+OFFSET[R], $acute.case$, -72, 0
+OFFSET[R], $acute.case$, 230, 0
+CALL[], 27, 28, 88
+SVTCA[Y]
+CALL[], 24, 20, 1, 1, 58, 86
+SHC[2], 2
+CALL[], 28, 0, 1, 1, 58, 86
+SHC[2], 3
+CALL[], 9
+CALL[], 25, 23, 9, 9, 1, 87
+SVTCA[X]
+SHC[2], 2
+CALL[], 9
+CALL[], 29, 27, 9, 52, 1, 87
+SVTCA[X]
+SHC[2], 3
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

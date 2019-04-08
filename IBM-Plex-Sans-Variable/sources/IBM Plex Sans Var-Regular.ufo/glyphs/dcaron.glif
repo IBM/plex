@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="1">
+  <advance width="603"/>
+  <unicode hex="010F"/>
+  <outline>
+    <component base="d"/>
+    <component base="caronslovak" xOffset="251"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+OFFSET[R], $d$, 0, 0
+OFFSET[R], $caronslovak$, 251, 0
+SVTCA[Y]
+CALL[], 40, 18, 0, 0, 0, 86
+SHC[2], 2
+SVTCA[X]
+CALL[], 40, 20, 1, 1, 68, 86
+SHC[2], 2
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

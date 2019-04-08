@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcommaaccent" format="1">
+  <advance width="351"/>
+  <unicode hex="0163"/>
+  <outline>
+    <component base="t"/>
+    <component base="commabelowcomb" xOffset="213"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $t$, 0, 0
+OFFSET[R], $commabelowcomb$, 213, 0
+SVTCA[Y]
+CALL[], 20, 1, 1, 1, -66, 86
+SHC[2], 1
+SVTCA[X]
+CALL[], 34, 24, 6, 42, 16, 87
+SHC[2], 1
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

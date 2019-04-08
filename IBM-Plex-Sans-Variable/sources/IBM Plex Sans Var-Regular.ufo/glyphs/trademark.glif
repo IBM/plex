@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="1">
+  <advance width="658"/>
+  <unicode hex="2122"/>
+  <outline>
+    <contour>
+      <point x="172" y="419" type="line" name="hr00"/>
+      <point x="172" y="653" type="line"/>
+      <point x="261" y="653" type="line"/>
+      <point x="261" y="698" type="line"/>
+      <point x="32" y="698" type="line"/>
+      <point x="32" y="653" type="line"/>
+      <point x="122" y="653" type="line"/>
+      <point x="122" y="419" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="419" type="line"/>
+      <point x="360" y="545" type="line"/>
+      <point x="358" y="628" type="line"/>
+      <point x="362" y="628" type="line"/>
+      <point x="445" y="473" type="line"/>
+      <point x="528" y="628" type="line"/>
+      <point x="532" y="628" type="line"/>
+      <point x="530" y="545" type="line"/>
+      <point x="530" y="419" type="line"/>
+      <point x="576" y="419" type="line"/>
+      <point x="576" y="698" type="line"/>
+      <point x="516" y="698" type="line"/>
+      <point x="448" y="565" type="line"/>
+      <point x="445" y="565" type="line"/>
+      <point x="376" y="698" type="line"/>
+      <point x="313" y="698" type="line"/>
+      <point x="313" y="419" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjY1MyIgd2lkdGg9IjQ1IiAvPgogICAgICA8dnN0ZW0gcG9zPSIx
+      MjIiIHdpZHRoPSI1MCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzEzIiB3aWR0aD0iNDci
+      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjUzMCIgd2lkdGg9IjQ2IiAvPgogICAgPC9oaW50
+      c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0)
+YShift(0,17)
+YShift(0,8)
+ResYAnchor(4,16)
+ResYDist(4,3)
+YShift(3,7)
+YShift(4,10)
+YShift(10,22)
+YIPAnchor(8,21,10)
+YShift(21,13)
+YShift(4,15)
+YShift(15,19)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron" format="1">
+  <advance width="600"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="350" y="599" type="line" name="hr00"/>
+      <point x="461" y="742" type="line"/>
+      <point x="417" y="773" type="line"/>
+      <point x="300" y="656" type="line"/>
+      <point x="183" y="773" type="line"/>
+      <point x="139" y="742" type="line"/>
+      <point x="250" y="599" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="540" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjU5OSIgd2lkdGg9IjE3NCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      MTM5IiB3aWR0aD0iMzIyIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
+      Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0)
+ResYDist(0,4)
+ResYDist(4,3)
+YShift(3,5)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

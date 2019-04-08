@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="v" format="1">
+  <advance width="452"/>
+  <unicode hex="0076"/>
+  <outline>
+    <contour>
+      <point x="239" y="0" type="line"/>
+      <point x="427" y="506" type="line"/>
+      <point x="406" y="506" type="line"/>
+      <point x="289" y="189" type="line"/>
+      <point x="228" y="24" type="line"/>
+      <point x="225" y="24" type="line"/>
+      <point x="164" y="189" type="line"/>
+      <point x="47" y="506" type="line"/>
+      <point x="25" y="506" type="line"/>
+      <point x="213" y="0" type="line" name="hr00"/>
+    </contour>
+    <contour>
+      <point x="226.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="226.0" y="540.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyNCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTA2
+      IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0ZW0gcG9zPSIyNSIgd2lkdGg9IjQwMiIg
+      Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>266</integer>
+          <key>y</key>
+          <integer>189</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

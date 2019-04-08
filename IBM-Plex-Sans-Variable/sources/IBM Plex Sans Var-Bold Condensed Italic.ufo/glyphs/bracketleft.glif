@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft" format="1">
+  <advance width="308"/>
+  <unicode hex="005B"/>
+  <outline>
+    <contour>
+      <point x="197" y="-138" type="line" name="hr00"/>
+      <point x="216" y="-46" type="line"/>
+      <point x="136" y="-46" type="line"/>
+      <point x="279" y="668" type="line"/>
+      <point x="359" y="668" type="line"/>
+      <point x="377" y="760" type="line"/>
+      <point x="176" y="760" type="line"/>
+      <point x="-4" y="-138" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0xMzgiIHdpZHRoPSI5MiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+      NjY4IiB3aWR0aD0iOTIiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ii00IiB3aWR0aD0iMzgx
+      IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>223.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

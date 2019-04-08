@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlaut.case" format="1">
+  <advance width="593"/>
+  <outline>
+    <contour>
+      <point x="335" y="914" type="line" name="hr00"/>
+      <point x="271" y="948" type="line"/>
+      <point x="167" y="779" type="line"/>
+      <point x="212" y="756" type="line"/>
+    </contour>
+    <contour>
+      <point x="491" y="914" type="line"/>
+      <point x="428" y="948" type="line"/>
+      <point x="324" y="779" type="line"/>
+      <point x="369" y="756" type="line"/>
+    </contour>
+    <contour>
+      <point x="290" y="698" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ijc1NiIgd2lkdGg9IjE5MiIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      MTY3IiB3aWR0aD0iMzI0IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
+      Cg==
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(1)
+YShift(1,5)
+ResYDist(1,3)
+YShift(3,7)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

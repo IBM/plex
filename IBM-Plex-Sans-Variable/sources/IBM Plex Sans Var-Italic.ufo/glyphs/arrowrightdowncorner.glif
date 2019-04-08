@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowrightdowncorner" format="1">
+  <advance width="820"/>
+  <unicode hex="2B0E"/>
+  <outline>
+    <contour>
+      <point x="552" y="101" type="line" name="hr00"/>
+      <point x="759" y="308" type="line"/>
+      <point x="711" y="356" type="line"/>
+      <point x="625" y="270" type="line"/>
+      <point x="583" y="220" type="line"/>
+      <point x="580" y="221" type="line"/>
+      <point x="586" y="317" type="line"/>
+      <point x="586" y="598" type="line"/>
+      <point x="61" y="598" type="line"/>
+      <point x="61" y="530" type="line"/>
+      <point x="518" y="530" type="line"/>
+      <point x="518" y="317" type="line"/>
+      <point x="524" y="221" type="line"/>
+      <point x="521" y="220" type="line"/>
+      <point x="479" y="270" type="line"/>
+      <point x="393" y="356" type="line"/>
+      <point x="345" y="308" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjUzMCIgd2lkdGg9IjY4IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1
+      MTgiIHdpZHRoPSI2OCIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(0)
+ResYAnchor(9)
+ResYDist(9,8)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

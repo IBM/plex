@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevedotbelow" format="1">
+  <advance width="534"/>
+  <unicode hex="1EB7"/>
+  <outline>
+    <component base="a"/>
+    <component base="breve" xOffset="-48"/>
+    <component base="dotbelowcomb" xOffset="245"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $a$, 0, 0
+OFFSET[R], $breve$, -48, 0
+OFFSET[R], $dotbelowcomb$, 245, 0
+SVTCA[Y]
+CALL[], 49, 30, 1, 1, 68, 86
+SHC[2], 2
+CALL[], 76, 11, 1, 1, -54, 86
+SHC[2], 3
+SVTCA[X]
+CALL[], 54, 64, 14, 29, 0, 87
+SHC[2], 2
+CALL[], 72, 80, 14, 28, 0, 87
+SHC[2], 3
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

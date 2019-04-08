@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tenge" format="1">
+  <advance width="543"/>
+  <unicode hex="20B8"/>
+  <outline>
+    <contour>
+      <point x="510" y="598" type="line" name="hr00"/>
+      <point x="510" y="698" type="line"/>
+      <point x="33" y="698" type="line"/>
+      <point x="33" y="598" type="line"/>
+    </contour>
+    <contour>
+      <point x="510" y="420" type="line"/>
+      <point x="510" y="520" type="line"/>
+      <point x="33" y="520" type="line"/>
+      <point x="33" y="420" type="line"/>
+      <point x="200" y="420" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="343" y="0" type="line"/>
+      <point x="343" y="420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQy
+      MCIgd2lkdGg9IjEwMCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTk4IiB3aWR0aD0iMTAw
+      IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyMDAiIHdpZHRoPSIxNDMiIC8+CiAgICA8L2hp
+      bnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+      </data>
+    </dict>
+  </lib>
+</glyph>

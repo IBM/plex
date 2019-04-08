@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l" format="1">
+  <advance width="227"/>
+  <unicode hex="006C"/>
+  <outline>
+    <contour>
+      <point x="191" y="0" type="line" name="hr00"/>
+      <point x="191" y="19" type="line"/>
+      <point x="115" y="19" type="line"/>
+      <point x="115" y="740" type="line"/>
+      <point x="94" y="740" type="line"/>
+      <point x="94" y="27" type="line" smooth="yes"/>
+      <point x="94" y="7"/>
+      <point x="101" y="0"/>
+      <point x="121" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="146.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="104.0" y="740.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="193.0" y="740.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNzQw
+      IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0ZW0gcG9zPSI5NCIgd2lkdGg9IjIxIiAv
+      PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+      </data>
+    </dict>
+  </lib>
+</glyph>

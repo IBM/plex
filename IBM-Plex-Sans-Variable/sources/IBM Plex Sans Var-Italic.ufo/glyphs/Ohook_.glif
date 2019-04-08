@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohook" format="1">
+  <advance width="679"/>
+  <unicode hex="1ECE"/>
+  <outline>
+    <component base="O"/>
+    <component base="hookcomb.case" xOffset="405"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.vtt.assembly</key>
+      <string>
+
+USEMYMETRICS[]
+OFFSET[R], $O$, 0, 0
+OFFSET[R], $hookcomb.case$, 405, 0
+CALL[], 21, 22, 88
+SVTCA[Y]
+CALL[], 55, 12, 1, 1, 37, 86
+SHC[2], 2
+CALL[], 9
+CALL[], 46, 51, 4, 29, 16, 87
+SVTCA[X]
+SHC[2], 2
+</string>
+      <key>com.type-invaders.vtt.talk</key>
+      <string></string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eogonek" format="1">
+  <advance width="515"/>
+  <unicode hex="0119"/>
+  <outline>
+    <contour>
+      <point x="234" y="-212" type="curve" smooth="yes"/>
+      <point x="297" y="-212"/>
+      <point x="334" y="-192"/>
+      <point x="359" y="-162" type="curve"/>
+      <point x="307" y="-113" type="line"/>
+      <point x="294" y="-134"/>
+      <point x="274" y="-140"/>
+      <point x="253" y="-140" type="curve" smooth="yes"/>
+      <point x="227" y="-140"/>
+      <point x="218" y="-127"/>
+      <point x="218" y="-111" type="curve" smooth="yes"/>
+      <point x="218" y="-94"/>
+      <point x="227" y="-62"/>
+      <point x="335" y="-4" type="curve" smooth="yes"/>
+      <point x="380" y="20"/>
+      <point x="423" y="34"/>
+      <point x="477" y="106" type="curve"/>
+      <point x="391" y="174" type="line"/>
+      <point x="344" y="115"/>
+      <point x="309" y="101"/>
+      <point x="263" y="101" type="curve" smooth="yes"/>
+      <point x="194" y="101"/>
+      <point x="170" y="135"/>
+      <point x="170" y="185" type="curve" smooth="yes" name="hr01"/>
+      <point x="170" y="190"/>
+      <point x="170" y="196"/>
+      <point x="172" y="208" type="curve"/>
+      <point x="407" y="215"/>
+      <point x="504" y="283"/>
+      <point x="504" y="391" type="curve" smooth="yes"/>
+      <point x="504" y="505"/>
+      <point x="395" y="537"/>
+      <point x="316" y="537" type="curve" smooth="yes"/>
+      <point x="169" y="537"/>
+      <point x="68" y="427"/>
+      <point x="39" y="292" type="curve" smooth="yes"/>
+      <point x="34" y="267"/>
+      <point x="31" y="240"/>
+      <point x="31" y="214" type="curve" smooth="yes"/>
+      <point x="31" y="36"/>
+      <point x="152" y="-11"/>
+      <point x="235" y="-11" type="curve" smooth="yes"/>
+      <point x="236" y="-11"/>
+      <point x="237" y="-11"/>
+      <point x="238" y="-11" type="curve"/>
+      <point x="234" y="-15" type="line"/>
+      <point x="155" y="-38"/>
+      <point x="115" y="-83"/>
+      <point x="115" y="-129" type="curve" smooth="yes" name="hr02"/>
+      <point x="115" y="-183"/>
+      <point x="168" y="-212"/>
+    </contour>
+    <contour>
+      <point x="308" y="430" type="curve" smooth="yes"/>
+      <point x="333" y="430"/>
+      <point x="368" y="422"/>
+      <point x="368" y="377" type="curve" smooth="yes"/>
+      <point x="368" y="335"/>
+      <point x="337" y="306"/>
+      <point x="187" y="297" type="curve"/>
+      <point x="191" y="320" type="line" smooth="yes"/>
+      <point x="203" y="388"/>
+      <point x="249" y="430"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSI3MiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+      LTExIiB3aWR0aD0iMTEyIiAvPgogICAgICA8aHN0ZW0gcG9zPSIyMDgiIHdpZHRoPSI4
+      OSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDMwIiB3aWR0aD0iMTA3IiAvPgogICAgICA8
+      dnN0ZW0gcG9zPSIzMSIgd2lkdGg9IjEzOSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzY4
+      IiB3aWR0aD0iMTM2IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRU
+      YWc9ImhyMDIiPgogICAgICA8aHN0ZW0gcG9zPSItMjEyIiB3aWR0aD0iNzIiIC8+CiAg
+      ICAgIDxoc3RlbSBwb3M9Ii0xMSIgd2lkdGg9IjExMiIgLz4KICAgICAgPGhzdGVtIHBv
+      cz0iMjA4IiB3aWR0aD0iODkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQzMCIgd2lkdGg9
+      IjEwNyIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTE1IiB3aWR0aD0iMTAzIiAvPgogICAg
+      ICA8dnN0ZW0gcG9zPSIzNjgiIHdpZHRoPSIxMzYiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+      PC9oaW50U2V0TGlzdD4K
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>39</integer>
+          <key>y</key>
+          <integer>292</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

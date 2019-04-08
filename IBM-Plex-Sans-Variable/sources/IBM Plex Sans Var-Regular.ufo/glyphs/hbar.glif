@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbar" format="1">
+  <advance width="568"/>
+  <unicode hex="0127"/>
+  <outline>
+    <contour>
+      <point x="165" y="0" type="line" name="hr00"/>
+      <point x="165" y="358" type="line"/>
+      <point x="165" y="424"/>
+      <point x="227" y="456"/>
+      <point x="291" y="456" type="curve" smooth="yes"/>
+      <point x="368" y="456"/>
+      <point x="408" y="409"/>
+      <point x="408" y="317" type="curve" smooth="yes"/>
+      <point x="408" y="0" type="line"/>
+      <point x="488" y="0" type="line"/>
+      <point x="488" y="331" type="line" smooth="yes"/>
+      <point x="488" y="456"/>
+      <point x="421" y="528"/>
+      <point x="315" y="528" type="curve" smooth="yes"/>
+      <point x="238" y="528"/>
+      <point x="194" y="490"/>
+      <point x="169" y="432" type="curve"/>
+      <point x="165" y="432" type="line"/>
+      <point x="165" y="608" type="line"/>
+      <point x="315" y="608" type="line"/>
+      <point x="315" y="670" type="line"/>
+      <point x="165" y="670" type="line"/>
+      <point x="165" y="740" type="line"/>
+      <point x="85" y="740" type="line"/>
+      <point x="85" y="670" type="line"/>
+      <point x="21" y="670" type="line"/>
+      <point x="21" y="608" type="line"/>
+      <point x="85" y="608" type="line"/>
+      <point x="85" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ1
+      NiIgd2lkdGg9IjcyIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MDgiIHdpZHRoPSI2MiIg
+      Lz4KICAgICAgPGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
+      ZW0gcG9zPSI4NSIgd2lkdGg9IjgwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI0MDgiIHdp
+      ZHRoPSI4MCIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(1,10)
+YShift(1,21)
+ResYAnchor(6,0)
+ResYAnchor(16,7)
+ResYDist(16,25)
+ResYDist(16,11)
+YShift(11,3)
+ResYDist(11,8)
+YShift(8,4)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

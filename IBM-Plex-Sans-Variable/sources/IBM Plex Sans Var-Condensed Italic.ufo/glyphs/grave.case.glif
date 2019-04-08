@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave.case" format="1">
+  <advance width="540"/>
+  <outline>
+    <contour>
+      <point x="272" y="755" type="line" name="hr00"/>
+      <point x="316" y="775" type="line"/>
+      <point x="263" y="949" type="line"/>
+      <point x="195" y="920" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="698" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9Ijc1NSIgd2lkdGg9IjE5NCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+      MTk1IiB3aWR0aD0iMTIxIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
+      Cg==
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>78.69</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>130.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

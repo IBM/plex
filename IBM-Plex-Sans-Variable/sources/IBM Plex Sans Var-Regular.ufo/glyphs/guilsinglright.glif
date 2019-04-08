@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglright" format="1">
+  <advance width="304"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="52" y="134" type="line" name="hr00"/>
+      <point x="76" y="80" type="line"/>
+      <point x="268" y="246" type="line"/>
+      <point x="268" y="322" type="line"/>
+      <point x="76" y="488" type="line"/>
+      <point x="52" y="434" type="line"/>
+      <point x="188" y="285" type="line"/>
+      <point x="188" y="283" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjgwIiB3aWR0aD0iNDA4IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1
+      MiIgd2lkdGg9IjIxNiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.type-invaders.vtt.talk</key>
+      <string>
+
+/* Y direction */
+ResYAnchor(4)
+ResYAnchor(7)
+/* X direction */
+Smooth()
+</string>
+    </dict>
+  </lib>
+</glyph>

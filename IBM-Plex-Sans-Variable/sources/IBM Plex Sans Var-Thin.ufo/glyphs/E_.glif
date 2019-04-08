@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E" format="1">
+  <advance width="561"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="489" y="0" type="line" name="hr00"/>
+      <point x="489" y="20" type="line"/>
+      <point x="130" y="20" type="line"/>
+      <point x="130" y="344" type="line"/>
+      <point x="477" y="344" type="line"/>
+      <point x="477" y="364" type="line"/>
+      <point x="130" y="364" type="line"/>
+      <point x="130" y="678" type="line"/>
+      <point x="489" y="678" type="line"/>
+      <point x="489" y="698" type="line"/>
+      <point x="108" y="698" type="line"/>
+      <point x="108" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="299.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="487.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="299.0" y="698.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
+      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyMCIgLz4KICAgICAgPGhzdGVtIHBvcz0iMzQ0
+      IiB3aWR0aD0iMjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjY3OCIgd2lkdGg9IjIwIiAv
+      PgogICAgICA8dnN0ZW0gcG9zPSIxMDgiIHdpZHRoPSIyMiIgLz4KICAgIDwvaGludHNl
+      dD4KICA8L2hpbnRTZXRMaXN0Pgo=
+      </data>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string>mid</string>
+          <key>x</key>
+          <real>299.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
