@@ -1,15 +1,71 @@
 # Changelog for IBM Plex
 All notable changes to the IBM Plex typeface family will be documented in this file.
 
+
+
 ## [Unreleased]
-- IBM Plex Sans Thai
-- IBM Plex Sans Devanagari
-- IBM Plex Sans Arabic
 - IBM Plex CJK
 - [IBM Plex Mono] Addition of glyphs /currency /prime /primedbl
 - [IBM Plex Sans Condensed] Bug that prevents OTF versions of certain members to be installed on Windows
   Referenced in [issue 161](https://github.com/IBM/plex/issues/161)
 - [IBM Plex Sans Condensed] Addition of glyphs /currency /prime /primedbl
+
+
+
+## [IBM PLEX SANS THAI LOOPED V1.1] - 2019-05-21
+### Changed
+- Added "Sans" to font family name: "IBM Plex Sans Thai Looped"
+
+### Fixed
+- Metrics errors in combining marks
+
+
+
+## [IBM PLEX THAI LOOPED V1.0] - 2019-03-29
+### Added
+- Support for Thai (158 glyphs per font)
+
+
+
+## [IBM PLEX SANS VAR V1.0] - 2019-03-14
+### Added
+- IBM Plex Sans in variable font format containing a weight and width axis
+  Contains predefined instances for Thin, ExtraLight, Light, Regular, Text, Medium, SemiBold and Bold weights in both normal and Condensed widths.
+  Weight axis ranges from 100 (Thin) to 700 (Bold) and width axis ranges from 85 (Condensed) to 100 (Normal)
+  Alternate shapes for glyphs /naira (0x20A6) /won (0x20A9) and /fraction (0x2044) are automatically applied in certain weight ranges
+
+
+
+## [IBM PLEX ARABIC V1.0] - 2019-02-06
+### Added
+- Support for Arabic (1312 glyphs per font)
+
+
+
+## [IBM PLEX DEVANAGARI V1.0] - 2018-12-05
+### Added
+- Support for Devanagari (727 glyphs per font)
+
+
+
+## [IBM PLEX SANS V3.1] - 2018-11-21
+### Added
+- OpenType layout feature "subs"
+- meta table to all generated otf and ttf font files
+
+### Removed
+- Glyph /ibmlogo07 (0xEBE7)
+
+### Changed
+- OpenType layout feature "mark" includes support for combining mark positioning on accented glyphs
+  Referenced in [issue 152](https://github.com/IBM/plex/issues/152)
+- Synchronised vertical metrics settings between hhea and OS/2 table
+
+### Fixed
+- Errors in PS hint replacement in all files containing PostScript outlines
+
+
+
 
 
 ## [IBM PLEX THAI V1.0] - 2018-09-06
