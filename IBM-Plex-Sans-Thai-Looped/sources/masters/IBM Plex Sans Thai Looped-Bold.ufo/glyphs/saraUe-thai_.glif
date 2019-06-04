@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="saraUe-thai" format="1">
+  <advance width="0"/>
+  <unicode hex="0E36"/>
+  <outline>
+    <contour>
+      <point x="-157" y="680" type="curve" smooth="yes"/>
+      <point x="-84" y="680"/>
+      <point x="-30" y="724"/>
+      <point x="-30" y="795" type="curve" smooth="yes"/>
+      <point x="-30" y="866"/>
+      <point x="-84" y="910"/>
+      <point x="-157" y="910" type="curve" smooth="yes"/>
+      <point x="-209" y="910"/>
+      <point x="-251" y="887"/>
+      <point x="-271" y="849" type="curve"/>
+      <point x="-307" y="884"/>
+      <point x="-360" y="904"/>
+      <point x="-425" y="904" type="curve" smooth="yes" name="hr01"/>
+      <point x="-558" y="904"/>
+      <point x="-646" y="819"/>
+      <point x="-646" y="689" type="curve" smooth="yes"/>
+      <point x="-646" y="649" type="line"/>
+      <point x="-184" y="649" type="line"/>
+      <point x="-184" y="682" type="line"/>
+      <point x="-175" y="680"/>
+      <point x="-166" y="680"/>
+    </contour>
+    <contour>
+      <point x="-385" y="810" type="curve" smooth="yes"/>
+      <point x="-345" y="810"/>
+      <point x="-309" y="801"/>
+      <point x="-283" y="785" type="curve"/>
+      <point x="-282" y="761"/>
+      <point x="-274" y="741"/>
+      <point x="-261" y="725" type="curve" name="hr03"/>
+      <point x="-532" y="725" type="line"/>
+      <point x="-522" y="775"/>
+      <point x="-463" y="810"/>
+    </contour>
+    <contour>
+      <point x="-157" y="746" type="curve" smooth="yes" name="hr04"/>
+      <point x="-184" y="746"/>
+      <point x="-203" y="765"/>
+      <point x="-203" y="795" type="curve" smooth="yes"/>
+      <point x="-203" y="825"/>
+      <point x="-184" y="844"/>
+      <point x="-157" y="844" type="curve" smooth="yes"/>
+      <point x="-130" y="844"/>
+      <point x="-111" y="825"/>
+      <point x="-111" y="795" type="curve" smooth="yes"/>
+      <point x="-111" y="765"/>
+      <point x="-130" y="746"/>
+    </contour>
+    <contour>
+      <point x="-118.0" y="600.0" type="move" name="_topright"/>
+    </contour>
+    <contour>
+      <point x="-118.0" y="880.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E36</string>
+      <key>com.type-invaders.name.production</key>
+      <string>saraUe-thai</string>
+    </dict>
+  </lib>
+</glyph>

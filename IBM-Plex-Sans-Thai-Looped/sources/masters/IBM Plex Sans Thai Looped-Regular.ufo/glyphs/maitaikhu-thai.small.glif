@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="maitaikhu-thai.small" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-325" y="860" type="curve" smooth="yes"/>
+      <point x="-276" y="860"/>
+      <point x="-253" y="888"/>
+      <point x="-245" y="928" type="curve"/>
+      <point x="-241" y="928" type="line"/>
+      <point x="-223" y="882"/>
+      <point x="-180" y="860"/>
+      <point x="-127" y="860" type="curve" smooth="yes"/>
+      <point x="-65" y="860"/>
+      <point x="-30" y="894"/>
+      <point x="-30" y="943" type="curve" smooth="yes"/>
+      <point x="-30" y="978"/>
+      <point x="-55" y="1005"/>
+      <point x="-96" y="1005" type="curve" smooth="yes"/>
+      <point x="-133" y="1005"/>
+      <point x="-157" y="985"/>
+      <point x="-157" y="953" type="curve" smooth="yes"/>
+      <point x="-157" y="936"/>
+      <point x="-150" y="923"/>
+      <point x="-138" y="914" type="curve"/>
+      <point x="-139" y="913" type="line"/>
+      <point x="-175" y="917"/>
+      <point x="-196" y="940"/>
+      <point x="-203" y="979" type="curve"/>
+      <point x="-258" y="979" type="line"/>
+      <point x="-259" y="939"/>
+      <point x="-275" y="918"/>
+      <point x="-302" y="918" type="curve" smooth="yes" name="hr01"/>
+      <point x="-329" y="918"/>
+      <point x="-346" y="935"/>
+      <point x="-346" y="966" type="curve" smooth="yes"/>
+      <point x="-346" y="1004"/>
+      <point x="-321" y="1024"/>
+      <point x="-278" y="1024" type="curve" smooth="yes"/>
+      <point x="-112" y="1024" type="line" smooth="yes"/>
+      <point x="-70" y="1024"/>
+      <point x="-55" y="1042"/>
+      <point x="-47" y="1075" type="curve" smooth="yes"/>
+      <point x="-34" y="1127" type="line"/>
+      <point x="-109" y="1140" type="line"/>
+      <point x="-124" y="1078" type="line"/>
+      <point x="-289" y="1078" type="line" smooth="yes"/>
+      <point x="-366" y="1078"/>
+      <point x="-413" y="1032"/>
+      <point x="-413" y="961" type="curve" smooth="yes"/>
+      <point x="-413" y="898"/>
+      <point x="-375" y="860"/>
+    </contour>
+    <contour>
+      <point x="-95" y="916" type="curve" smooth="yes"/>
+      <point x="-114" y="916"/>
+      <point x="-126" y="927"/>
+      <point x="-126" y="946" type="curve" smooth="yes"/>
+      <point x="-126" y="965"/>
+      <point x="-114" y="976"/>
+      <point x="-95" y="976" type="curve" smooth="yes"/>
+      <point x="-76" y="976"/>
+      <point x="-64" y="965"/>
+      <point x="-64" y="946" type="curve" smooth="yes"/>
+      <point x="-64" y="927"/>
+      <point x="-76" y="916"/>
+    </contour>
+    <contour>
+      <point x="-17.0" y="800.0" type="move" name="_topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E47.small</string>
+      <key>com.type-invaders.name.production</key>
+      <string>maitaikhu-thai.small</string>
+    </dict>
+  </lib>
+</glyph>

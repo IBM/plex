@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macronbelowcomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0331"/>
+  <outline>
+    <contour>
+      <point x="-288" y="-139" type="line" name="hr00"/>
+      <point x="-30" y="-139" type="line"/>
+      <point x="-30" y="-121" type="line"/>
+      <point x="-288" y="-121" type="line"/>
+    </contour>
+    <contour>
+      <point x="-10.0" y="0.0" type="move" name="_bottomright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0331</string>
+      <key>com.type-invaders.name.production</key>
+      <string>macronbelowcomb</string>
+    </dict>
+  </lib>
+</glyph>
