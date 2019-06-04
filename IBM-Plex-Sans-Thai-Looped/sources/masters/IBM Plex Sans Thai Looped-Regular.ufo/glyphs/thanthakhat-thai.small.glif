@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thanthakhat-thai.small" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-282" y="860" type="curve" smooth="yes"/>
+      <point x="-224" y="860"/>
+      <point x="-185" y="897"/>
+      <point x="-185" y="946" type="curve" smooth="yes"/>
+      <point x="-185" y="967"/>
+      <point x="-194" y="986"/>
+      <point x="-217" y="999" type="curve"/>
+      <point x="-216" y="1002" type="line"/>
+      <point x="-206" y="1001"/>
+      <point x="-197" y="1001"/>
+      <point x="-187" y="1001" type="curve" smooth="yes" name="hr01"/>
+      <point x="-108" y="1001" type="line" smooth="yes"/>
+      <point x="-66" y="1001"/>
+      <point x="-51" y="1019"/>
+      <point x="-43" y="1052" type="curve" smooth="yes"/>
+      <point x="-30" y="1104" type="line"/>
+      <point x="-105" y="1117" type="line"/>
+      <point x="-120" y="1057" type="line"/>
+      <point x="-255" y="1057" type="line" smooth="yes"/>
+      <point x="-341" y="1057"/>
+      <point x="-384" y="1021"/>
+      <point x="-384" y="954" type="curve" smooth="yes"/>
+      <point x="-384" y="897"/>
+      <point x="-344" y="860"/>
+    </contour>
+    <contour>
+      <point x="-282" y="1002" type="curve" smooth="yes" name="hr02"/>
+      <point x="-252" y="1002"/>
+      <point x="-235" y="983"/>
+      <point x="-235" y="953" type="curve" smooth="yes"/>
+      <point x="-235" y="923"/>
+      <point x="-252" y="904"/>
+      <point x="-282" y="904" type="curve" smooth="yes"/>
+      <point x="-312" y="904"/>
+      <point x="-329" y="923"/>
+      <point x="-329" y="953" type="curve" smooth="yes"/>
+      <point x="-329" y="983"/>
+      <point x="-312" y="1002"/>
+    </contour>
+    <contour>
+      <point x="-197.0" y="800.0" type="move" name="_topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E4C.small</string>
+      <key>com.type-invaders.name.production</key>
+      <string>thanthakhat-thai.small</string>
+    </dict>
+  </lib>
+</glyph>

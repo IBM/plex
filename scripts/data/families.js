@@ -33,8 +33,8 @@ const families = [
     unicodes: [],
   },
   {
-    type: 'Thai Looped',
-    name: 'IBM Plex Thai Looped',
+    type: 'Sans Thai Looped',
+    name: 'IBM Plex Sans Thai Looped',
     hasItalic: false,
     unicodes: [],
   },

@@ -19,7 +19,7 @@ exports.formatFilename = formatFilename;
  */
 const createFontFace = (filename, family, weight, unicode = {}) => {
   const fontFileName = [
-    `IBMPlex${family.type.replace(' ', '')}`,
+    `IBMPlex${family.type.split(' ').join('')}`,
     weight.variant ? weight.type + weight.variant : weight.type,
     unicode.type,
   ]
@@ -33,7 +33,7 @@ const createFontFace = (filename, family, weight, unicode = {}) => {
     .filter(Boolean)
     .join(' ');
   const localPostscriptName = [
-    `IBMPlex${family.type.replace(' ', '')}`,
+    `IBMPlex${family.type.split(' ').join('')}`,
     weight.type !== 'Regular' &&
       (weight.variant ? `-${weight.type}${weight.variant}` : `-${weight.type}`),
   ]
@@ -44,18 +44,15 @@ const createFontFace = (filename, family, weight, unicode = {}) => {
     local('${localPostscriptName}')`;
 
   const urls = {
-    woff: `#{$font-prefix}/IBM-Plex-${family.type.replace(
-      ' ',
-      '-'
-    )}/fonts/complete/woff/${fontFileName}.woff`,
-    woff2Split: `#{$font-prefix}/IBM-Plex-${family.type.replace(
-      ' ',
-      '-'
-    )}/fonts/split/woff2/${fontFileName}.woff2`,
-    woff2Complete: `#{$font-prefix}/IBM-Plex-${family.type.replace(
-      ' ',
-      '-'
-    )}/fonts/complete/woff2/${fontFileName}.woff2`,
+    woff: `#{$font-prefix}/IBM-Plex-${family.type
+      .split(' ')
+      .join('-')}/fonts/complete/woff/${fontFileName}.woff`,
+    woff2Split: `#{$font-prefix}/IBM-Plex-${family.type
+      .split(' ')
+      .join('-')}/fonts/split/woff2/${fontFileName}.woff2`,
+    woff2Complete: `#{$font-prefix}/IBM-Plex-${family.type
+      .split(' ')
+      .join('-')}/fonts/complete/woff2/${fontFileName}.woff2`,
   };
 
   const src = unicode.characters

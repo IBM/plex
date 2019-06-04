@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0303"/>
+  <outline>
+    <contour>
+      <point x="-144" y="619" type="curve" smooth="yes"/>
+      <point x="-91" y="619"/>
+      <point x="-54" y="647"/>
+      <point x="-30" y="683" type="curve"/>
+      <point x="-82" y="751" type="line"/>
+      <point x="-103" y="734"/>
+      <point x="-118" y="726"/>
+      <point x="-141" y="726" type="curve" smooth="yes"/>
+      <point x="-167" y="726"/>
+      <point x="-190" y="736"/>
+      <point x="-219" y="748" type="curve" smooth="yes"/>
+      <point x="-244" y="759"/>
+      <point x="-266" y="768"/>
+      <point x="-296" y="768" type="curve" smooth="yes" name="hr01"/>
+      <point x="-349" y="768"/>
+      <point x="-386" y="740"/>
+      <point x="-410" y="704" type="curve"/>
+      <point x="-358" y="636" type="line"/>
+      <point x="-337" y="653"/>
+      <point x="-322" y="661"/>
+      <point x="-299" y="661" type="curve" smooth="yes"/>
+      <point x="-273" y="661"/>
+      <point x="-250" y="651"/>
+      <point x="-221" y="639" type="curve" smooth="yes"/>
+      <point x="-196" y="628"/>
+      <point x="-174" y="619"/>
+    </contour>
+    <contour>
+      <point x="-220.0" y="558.0" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0303</string>
+      <key>com.type-invaders.name.production</key>
+      <string>tildecomb</string>
+    </dict>
+  </lib>
+</glyph>

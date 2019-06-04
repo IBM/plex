@@ -1,127 +1,125 @@
-"use strict";
-
 const weights = [
   {
-    type: "Bold",
+    type: 'Bold',
     properties: {
-      fontStyle: "normal",
-      fontWeight: 700
-    }
+      fontStyle: 'normal',
+      fontWeight: 700,
+    },
   },
   {
-    type: "Bold",
-    variant: "Italic",
+    type: 'Bold',
+    variant: 'Italic',
     properties: {
-      fontStyle: "italic",
-      fontWeight: 700
-    }
+      fontStyle: 'italic',
+      fontWeight: 700,
+    },
   },
   {
-    type: "ExtraLight",
+    type: 'ExtraLight',
     properties: {
-      fontStyle: "normal",
-      fontWeight: 200
-    }
+      fontStyle: 'normal',
+      fontWeight: 200,
+    },
   },
   {
-    type: "ExtraLight",
-    variant: "Italic",
+    type: 'ExtraLight',
+    variant: 'Italic',
     properties: {
-      fontStyle: "italic",
-      fontWeight: 200
-    }
+      fontStyle: 'italic',
+      fontWeight: 200,
+    },
   },
   {
-    type: "Italic",
+    type: 'Italic',
     mono: true,
     properties: {
-      fontStyle: "italic",
-      fontWeight: 400
-    }
+      fontStyle: 'italic',
+      fontWeight: 400,
+    },
   },
   {
-    type: "Light",
+    type: 'Light',
     properties: {
-      fontStyle: "normal",
-      fontWeight: 300
-    }
+      fontStyle: 'normal',
+      fontWeight: 300,
+    },
   },
   {
-    type: "Light",
-    variant: "Italic",
+    type: 'Light',
+    variant: 'Italic',
     properties: {
-      fontStyle: "italic",
-      fontWeight: 300
-    }
+      fontStyle: 'italic',
+      fontWeight: 300,
+    },
   },
   {
-    type: "Medium",
+    type: 'Medium',
     properties: {
-      fontStyle: "normal",
-      fontWeight: 500
-    }
+      fontStyle: 'normal',
+      fontWeight: 500,
+    },
   },
   {
-    type: "Medium",
-    variant: "Italic",
+    type: 'Medium',
+    variant: 'Italic',
     properties: {
-      fontStyle: "italic",
-      fontWeight: 500
-    }
+      fontStyle: 'italic',
+      fontWeight: 500,
+    },
   },
   {
-    type: "Regular",
+    type: 'Regular',
     mono: true,
     properties: {
-      fontStyle: "normal",
-      fontWeight: 400
-    }
+      fontStyle: 'normal',
+      fontWeight: 400,
+    },
   },
   {
-    type: "SemiBold",
+    type: 'SemiBold',
     properties: {
-      fontStyle: "normal",
-      fontWeight: 600
-    }
+      fontStyle: 'normal',
+      fontWeight: 600,
+    },
   },
   {
-    type: "SemiBold",
-    variant: "Italic",
+    type: 'SemiBold',
+    variant: 'Italic',
     properties: {
-      fontStyle: "italic",
-      fontWeight: 600
-    }
+      fontStyle: 'italic',
+      fontWeight: 600,
+    },
   },
   {
-    type: "Text",
+    type: 'Text',
     properties: {
-      fontStyle: "normal",
-      fontWeight: 450
-    }
+      fontStyle: 'normal',
+      fontWeight: 450,
+    },
   },
   {
-    type: "Text",
-    variant: "Italic",
+    type: 'Text',
+    variant: 'Italic',
     properties: {
-      fontStyle: "italic",
-      fontWeight: 450
-    }
+      fontStyle: 'italic',
+      fontWeight: 450,
+    },
   },
   {
-    type: "Thin",
+    type: 'Thin',
     properties: {
-      fontStyle: "normal",
-      fontWeight: 100
-    }
+      fontStyle: 'normal',
+      fontWeight: 100,
+    },
   },
   {
-    type: "Thin",
-    variant: "Italic",
+    type: 'Thin',
+    variant: 'Italic',
     properties: {
-      fontStyle: "italic",
-      fontWeight: 100
-    }
-  }
+      fontStyle: 'italic',
+      fontWeight: 100,
+    },
+  },
 ];
 
 module.exports = weights;

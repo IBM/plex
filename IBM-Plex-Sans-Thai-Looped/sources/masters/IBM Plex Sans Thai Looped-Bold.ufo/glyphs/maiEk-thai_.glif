@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="maiEk-thai" format="1">
+  <advance width="0"/>
+  <unicode hex="0E48"/>
+  <outline>
+    <contour>
+      <point x="-164" y="885" type="line" name="hr00"/>
+      <point x="-149" y="649" type="line"/>
+      <point x="-45" y="649" type="line"/>
+      <point x="-30" y="885" type="line"/>
+    </contour>
+    <contour>
+      <point x="-24.0" y="600.0" type="move" name="_topright"/>
+    </contour>
+    <contour>
+      <point x="-24.0" y="853.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E48</string>
+      <key>com.type-invaders.name.production</key>
+      <string>maiEk-thai</string>
+    </dict>
+  </lib>
+</glyph>

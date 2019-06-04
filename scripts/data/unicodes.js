@@ -1,5 +1,3 @@
-'use strict';
-
 const unicodes = [
   {
     type: 'Latin1',

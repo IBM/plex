@@ -3,8 +3,6 @@
  * need for each font family, supported weight, and unicode range.
  */
 
-'use strict';
-
 const fs = require('fs-extra');
 const path = require('path');
 const rimraf = require('rimraf');
@@ -43,7 +41,7 @@ const filesToWrite = families
             if (family.hasItalic === false && weight.variant === 'Italic')
               return null;
             return {
-              filename: `${OUTPUT_DIRECTORY}/${filename.replace(' ', '-')}`,
+              filename: `${OUTPUT_DIRECTORY}/${filename.split(' ').join('-')}`,
               content: createFontFace(filename, family, weight, unicode),
               unicode,
             };
@@ -90,7 +88,7 @@ const filesToWrite = families
           ...innerFiles,
           {
             hasItalic: family.hasItalic,
-            filename: `${OUTPUT_DIRECTORY}/${filename.replace(' ', '-')}`,
+            filename: `${OUTPUT_DIRECTORY}/${filename.split(' ').join('-')}`,
             content: `$font-prefix: '..' !default;\n${contentWhole}\n${contentSplit}`,
             weight,
           },
@@ -101,10 +99,9 @@ const filesToWrite = families
 
     // Here we'll generate a `_index.scss` partial for a specific font family
     // that includes all the various weight files generated for the font-family.
-    const filename = `${OUTPUT_DIRECTORY}/${family.type.replace(
-      ' ',
-      '-'
-    )}/_index.scss`;
+    const filename = `${OUTPUT_DIRECTORY}/${family.type
+      .split(' ')
+      .join('-')}/_index.scss`;
     const content = files
       .filter(file => file.weight)
       .filter(file => {
@@ -148,7 +145,11 @@ const rootPartial = `\n$font-prefix: '..' !default;
 
 ${families
   .map(
-    family => `@import '${family.type.replace(' ', '-').toLowerCase()}/index';`
+    family =>
+      `@import '${family.type
+        .split(' ')
+        .join('-')
+        .toLowerCase()}/index';`
   )
   .join('\n')}`;
 fs.outputFileSync(`${OUTPUT_DIRECTORY}/ibm-plex.scss`, rootPartial, 'utf8');
