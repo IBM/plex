@@ -360,7 +360,7 @@ def checkCurveType(f):
 					typeDict[pType] = True
 
 	allTypes = typeDict
-	return bool('curve' in allTypes)
+	return 'curve' in allTypes
 
 
 
