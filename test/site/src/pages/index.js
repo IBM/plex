@@ -12,9 +12,9 @@ const IndexPage = () => (
     <p style={{ fontFamily: 'IBM Plex Sans Condensed' }}>Hello world</p>
     <p style={{ fontFamily: 'IBM Plex Sans Hebrew' }}>שלום עולם</p>
     <p style={{ fontFamily: 'IBM Plex Arabic' }}>مرحبا بالعالم</p>
-    <p style={{ fontFamily: 'IBM Plex Thai' }}>สวัสดีชาวโลก</p>
+    <p style={{ fontFamily: 'IBM Plex Sans Thai' }}>สวัสดีชาวโลก</p>
     <p style={{ fontFamily: 'IBM Plex Sans Thai Looped' }}>สวัสดีชาวโลก</p>
-    <p style={{ fontFamily: 'IBM Plex Devanagari' }}>नमस्ते दुनिया</p>
+    <p style={{ fontFamily: 'IBM Plex Sans Devanagari' }}>नमस्ते दुनिया</p>
   </Layout>
 )
 
