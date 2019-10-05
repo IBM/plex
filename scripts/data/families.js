@@ -21,14 +21,14 @@ const families = [
     unicodes: [],
   },
   {
-    type: 'Devanagari',
-    name: 'IBM Plex Devanagari',
+    type: 'Sans Devanagari',
+    name: 'IBM Plex Sans Devanagari',
     hasItalic: false,
     unicodes: [],
   },
   {
-    type: 'Thai',
-    name: 'IBM Plex Thai',
+    type: 'Sans Thai',
+    name: 'IBM Plex Sans Thai',
     hasItalic: false,
     unicodes: [],
   },
