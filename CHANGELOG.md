@@ -6,7 +6,7 @@
   Referenced in [issue 161](https://github.com/IBM/plex/issues/161)
 - [IBM Plex Sans Condensed] Addition of glyphs /currency /prime /primedbl
 
-# Plex v4.0
+# Plex v4.0.1
 
 ## Breaking
 
@@ -15,6 +15,7 @@
 ## Fixed
 
 - Set bit 67 (Arabic Presentation Forms B) of UnicodeRanges in OS/2 table
+- removed deprecated `arabic` directory from sass distribution
 
 # Plex v3.0
 
