@@ -44,8 +44,8 @@ const families = [
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
   },
   {
-    type: 'Arabic',
-    name: 'IBM Plex Arabic',
+    type: 'Sans Arabic',
+    name: 'IBM Plex Sans Arabic',
     hasItalic: false,
     unicodes: [],
   },

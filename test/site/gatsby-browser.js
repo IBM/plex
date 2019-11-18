@@ -5,5 +5,5 @@
  */
 
 // Test each one here
-import './../../scss/ibm-plex.scss'
-// import './../../css/ibm-plex.css'
+// import './../../scss/ibm-plex.scss'
+import './../../css/ibm-plex.css'
