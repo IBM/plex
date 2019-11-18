@@ -6,6 +6,16 @@
   Referenced in [issue 161](https://github.com/IBM/plex/issues/161)
 - [IBM Plex Sans Condensed] Addition of glyphs /currency /prime /primedbl
 
+# Plex v4.0
+
+## Breaking
+
+- Added “Sans” to font family name: “IBM Plex Sans Arabic”
+
+## Fixed
+
+- Set bit 67 (Arabic Presentation Forms B) of UnicodeRanges in OS/2 table
+
 # Plex v3.0
 
 ## Breaking
