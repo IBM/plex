@@ -1,4 +1,4 @@
-# IBM Plex™
+# IBM Plex®
 
 Meet IBM Plex, our new corporate typeface. It’s global, it’s versatile and it’s distinctly IBM.
 
