@@ -1,4 +1,10 @@
-# IBM Plex®
+# IBM Plex® 
+
+<p align="center">
+  <a href="https://www.ibm.com/plex/">
+    <img alt="Plex" src="https://i.imgur.com/yB9xz60.jpg" />
+  </a>
+</p>
 
 Meet IBM Plex, our new corporate typeface. It’s global, it’s versatile and it’s distinctly IBM.
 
