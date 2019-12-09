@@ -2,11 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>@MMK_L_greek_uc_Alpha</key>
+	<key>@MMK_L_grek_uc_Alpha</key>
 	<array>
 		<string>Delta</string>
 	</array>
-	<key>@MMK_L_greek_uc_Omega</key>
+	<key>@MMK_L_grek_uc_Omega</key>
 	<array>
 		<string>Omega</string>
 	</array>
@@ -60,9 +60,14 @@
 	</array>
 	<key>@MMK_L_hebr_lamed</key>
 	<array>
-		<string>aleflamed-hb</string>
 		<string>lamed-hb</string>
 		<string>lameddagesh-hb</string>
+		<string>aleflamed-hb</string>
+	</array>
+	<key>@MMK_L_hebr_lamed_holam</key>
+	<array>
+		<string>lamed_holam-hb</string>
+		<string>lamed_dagesh_holam-hb</string>
 	</array>
 	<key>@MMK_L_hebr_maqaf</key>
 	<array>
@@ -114,8 +119,11 @@
 		<string>finalnun-hb</string>
 		<string>vavvav-hb</string>
 		<string>vavholam-hb</string>
-		<string>vavdagesh-hb</string>
 		<string>memdagesh-hb</string>
+	</array>
+	<key>@MMK_L_hebr_vavdagesh</key>
+	<array>
+		<string>vavdagesh-hb</string>
 	</array>
 	<key>@MMK_L_hebr_yod</key>
 	<array>
@@ -123,11 +131,17 @@
 		<string>vavyod-hb</string>
 		<string>yodyod-hb</string>
 		<string>yodyodpatah-hb</string>
+	</array>
+	<key>@MMK_L_hebr_yoddagesh</key>
+	<array>
 		<string>yoddagesh-hb</string>
 	</array>
 	<key>@MMK_L_hebr_zayin</key>
 	<array>
 		<string>zayin-hb</string>
+	</array>
+	<key>@MMK_L_hebr_zayindagesh</key>
+	<array>
 		<string>zayindagesh-hb</string>
 	</array>
 	<key>@MMK_L_inp_colon</key>
@@ -140,6 +154,11 @@
 		<string>quotesingle</string>
 		<string>quotedbl</string>
 		<string>asterisk</string>
+	</array>
+	<key>@MMK_L_inp_fraction</key>
+	<array>
+		<string>fraction</string>
+		<string>divisionslash</string>
 	</array>
 	<key>@MMK_L_inp_guill</key>
 	<array>
@@ -416,25 +435,25 @@
 		<string>Z</string>
 		<string>Zcaron</string>
 	</array>
-	<key>@MMK_R_greek_lc_kappa</key>
+	<key>@MMK_R_grek_lc_kappa</key>
 	<array>
 		<string>mu</string>
 	</array>
-	<key>@MMK_R_greek_uc_Alpha</key>
+	<key>@MMK_R_grek_uc_Alpha</key>
 	<array>
 		<string>Delta</string>
 	</array>
-	<key>@MMK_R_greek_uc_Omega</key>
+	<key>@MMK_R_grek_uc_Omega</key>
 	<array>
 		<string>Omega</string>
 	</array>
 	<key>@MMK_R_hebr_alef</key>
 	<array>
-		<string>aleflamed-hb</string>
 		<string>alef-hb</string>
 		<string>alefpatah-hb</string>
 		<string>alefqamats-hb</string>
 		<string>alefdagesh-hb</string>
+		<string>aleflamed-hb</string>
 	</array>
 	<key>@MMK_R_hebr_bet</key>
 	<array>
@@ -518,6 +537,15 @@
 		<string>shindageshshindot-hb</string>
 		<string>shindageshsindot-hb</string>
 	</array>
+	<key>@MMK_R_hebr_vav</key>
+	<array>
+		<string>vav-hb</string>
+		<string>finalnun-hb</string>
+		<string>vavvav-hb</string>
+		<string>vavyod-hb</string>
+		<string>vavholam-hb</string>
+		<string>vavdagesh-hb</string>
+	</array>
 	<key>@MMK_R_hebr_yod</key>
 	<array>
 		<string>yod-hb</string>
@@ -540,6 +568,11 @@
 		<string>quotesingle</string>
 		<string>quotedbl</string>
 		<string>asterisk</string>
+	</array>
+	<key>@MMK_R_inp_fraction</key>
+	<array>
+		<string>fraction</string>
+		<string>divisionslash</string>
 	</array>
 	<key>@MMK_R_inp_guill</key>
 	<array>

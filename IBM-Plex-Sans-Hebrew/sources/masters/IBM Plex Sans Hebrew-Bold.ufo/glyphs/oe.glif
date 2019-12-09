@@ -68,21 +68,11 @@
       <point x="475" y="18"/>
       <point x="541" y="-12"/>
     </contour>
+    <contour>
+      <point x="462.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="462.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii0xMiIgd2lkdGg9IjExNiIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iMjI1IiB3aWR0aD0iODciIC8+
-CiAgICAgIDxoc3RlbSBwb3M9IjQyMCIgd2lkdGg9
-IjExNyIgLz4KICAgICAgPHZzdGVtMyBzdGVtM0xp
-c3Q9IjM2LDE1NCwzNzQsMTUzLDcxMSwxNTQiIC8+
-CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlz
-dD4K
-  </data>
-  </dict>
-  </lib>
 </glyph>
