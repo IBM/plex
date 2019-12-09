@@ -6,6 +6,23 @@
   Referenced in [issue 161](https://github.com/IBM/plex/issues/161)
 - [IBM Plex Sans Condensed] Addition of glyphs /currency /prime /primedbl
 
+# Plex v4.0.2
+
+## Added
+
+- OpenType layout feature “subs”
+- meta table to all generated otf and ttf font files
+
+## Removed
+
+- Glyph /ibmlogo07 (0xEBE7)
+
+## Fixed
+
+- [IBM Plex Sans Hebrew-Text] /samekh (0x05E1) wrong right sidebearing
+- Wrong kerning between /vav (0x05D5) /dagesh (0xFB35)
+- Small metrics errors in Latin glyphs
+- Errors in PS hint replacement in all files containing PostScript outlines
 
 # Plex v4.0.1
 

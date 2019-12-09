@@ -4,6 +4,9 @@
   <outline>
     <component base="finalkaf-hb"/>
     <component base="qamats-hb" xOffset="190" yOffset="399"/>
+    <contour>
+      <point x="189.0" y="305.0" type="move" name="center_hebr"/>
+    </contour>
   </outline>
   <lib>
     <dict>

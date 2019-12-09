@@ -5,6 +5,9 @@
   <outline>
     <component base="dotlessi"/>
     <component base="grave" xOffset="-157"/>
+    <contour>
+      <point x="143.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

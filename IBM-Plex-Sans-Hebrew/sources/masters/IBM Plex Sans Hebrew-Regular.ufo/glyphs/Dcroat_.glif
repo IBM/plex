@@ -34,21 +34,11 @@
       <point x="445" y="74"/>
       <point x="330" y="74" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="310.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="310.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjAiIHdpZHRoPSI3NCIgLz4KICAgICAgPGhz
-dGVtIHBvcz0iMzM3IiB3aWR0aD0iNjQiIC8+CiAg
-ICAgIDxoc3RlbSBwb3M9IjYyNCIgd2lkdGg9Ijc0
-IiAvPgogICAgICA8dnN0ZW0gcG9zPSI5NiIgd2lk
-dGg9Ijg0IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1
-MjYiIHdpZHRoPSI5MCIgLz4KICAgIDwvaGludHNl
-dD4KICA8L2hpbnRTZXRMaXN0Pgo=
-  </data>
-  </dict>
-  </lib>
 </glyph>

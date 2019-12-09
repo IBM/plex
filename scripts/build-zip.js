@@ -3,13 +3,11 @@
  * need for each font family, supported weight, and unicode range.
  */
 
-'use strict';
-
 const fs = require('fs-extra');
 const path = require('path');
 const branch = require('git-branch');
-const execFile = require('child_process').execFile;
-const exec = require('child_process').exec;
+const { execFile } = require('child_process');
+const { exec } = require('child_process');
 const archiver = require('archiver');
 
 const DBUG = false;
@@ -17,10 +15,11 @@ const OUTPUT_DIRECTORY = path.resolve(__dirname, '../zip');
 
 const getFontDirectories = () => {
   const files = fs.readdirSync(path.resolve('.'));
-  return files.filter(name => {
-    const r = new RegExp(/IBM\-Plex/);
-    return r.test(name);
-  });
+
+  // Don't build Variable fonts for now
+  return files.filter(
+    name => name.includes('IBM-Plex') && !name.includes('Variable')
+  );
 };
 
 const globDirectory = type => {
@@ -46,7 +45,7 @@ const globDirectory = type => {
     );
 
     folders.push({
-      name: name,
+      name,
       files: list,
     });
   });

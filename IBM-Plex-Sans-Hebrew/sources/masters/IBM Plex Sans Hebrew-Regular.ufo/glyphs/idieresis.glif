@@ -5,6 +5,9 @@
   <outline>
     <component base="dotlessi"/>
     <component base="dieresis" xOffset="-175"/>
+    <contour>
+      <point x="125.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
