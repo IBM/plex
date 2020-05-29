@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflextilde" format="1">
-  <advance width="591"/>
+  <advance width="590"/>
   <unicode hex="1EAA"/>
   <outline>
     <component base="A"/>
-    <component base="circumflextilde.case" xOffset="386"/>
+    <component base="circumflextilde.case" xOffset="385"/>
+    <contour>
+      <point x="256.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="526.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

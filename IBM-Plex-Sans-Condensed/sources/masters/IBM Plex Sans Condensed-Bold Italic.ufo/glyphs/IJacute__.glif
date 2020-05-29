@@ -2,9 +2,9 @@
 <glyph name="IJacute" format="1">
   <advance width="569"/>
   <outline>
-    <component base="IJ"/>
     <component base="acute.case" xOffset="-45"/>
     <component base="acute.case" xOffset="226"/>
+    <component base="IJ"/>
   </outline>
   <lib>
     <dict>

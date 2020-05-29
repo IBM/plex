@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ijacute" format="1">
-  <advance width="209"/>
+  <advance width="418"/>
   <outline>
     <component base="dotlessi"/>
+    <component base="acute" xOffset="-166"/>
     <component base="dotlessj" xOffset="209"/>
     <component base="acute" xOffset="43"/>
-    <component base="acute" xOffset="-166"/>
+    <contour>
+      <point x="104.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="115.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

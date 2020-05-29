@@ -5,6 +5,9 @@
   <outline>
     <component base="Uhorn"/>
     <component base="hookcomb.case" xOffset="293"/>
+    <contour>
+      <point x="296.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

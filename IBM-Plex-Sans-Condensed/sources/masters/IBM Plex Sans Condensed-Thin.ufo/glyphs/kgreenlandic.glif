@@ -19,5 +19,11 @@
       <point x="115" y="190" type="line"/>
       <point x="194" y="277" type="line"/>
     </contour>
+    <contour>
+      <point x="244.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="226.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
 </glyph>

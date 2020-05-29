@@ -5,6 +5,12 @@
   <outline>
     <component base="a"/>
     <component base="circumflextilde" xOffset="289"/>
+    <contour>
+      <point x="214.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="447.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

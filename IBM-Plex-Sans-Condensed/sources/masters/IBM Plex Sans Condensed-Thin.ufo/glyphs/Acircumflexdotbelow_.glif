@@ -6,6 +6,9 @@
     <component base="A"/>
     <component base="circumflex.case" xOffset="1"/>
     <component base="dotbelowcomb" xOffset="271"/>
+    <contour>
+      <point x="515.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

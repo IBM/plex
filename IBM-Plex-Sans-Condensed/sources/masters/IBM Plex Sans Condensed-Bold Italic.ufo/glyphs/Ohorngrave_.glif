@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohorngrave" format="1">
-  <advance width="620"/>
+  <advance width="621"/>
   <unicode hex="1EDC"/>
   <outline>
     <component base="Ohorn"/>
     <component base="grave.case" xOffset="101"/>
+    <contour>
+      <point x="272.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

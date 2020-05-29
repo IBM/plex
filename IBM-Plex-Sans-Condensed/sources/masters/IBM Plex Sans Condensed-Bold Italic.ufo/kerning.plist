@@ -4,11 +4,11 @@
 <dict>
 	<key>@MMK_L_inp_colon</key>
 	<dict>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-40</integer>
 		<key>V</key>
 		<integer>-20</integer>
@@ -19,29 +19,27 @@
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-90</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_t</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>25</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>5</integer>
 		<key>V</key>
 		<integer>10</integer>
@@ -52,23 +50,44 @@
 		<key>x</key>
 		<integer>10</integer>
 	</dict>
+	<key>@MMK_L_inp_fraction</key>
+	<dict>
+		<key>eightinferior</key>
+		<integer>20</integer>
+		<key>fiveinferior</key>
+		<integer>25</integer>
+		<key>fourinferior</key>
+		<integer>-20</integer>
+		<key>nineinferior</key>
+		<integer>25</integer>
+		<key>oneinferior</key>
+		<integer>10</integer>
+		<key>seveninferior</key>
+		<integer>60</integer>
+		<key>sixinferior</key>
+		<integer>-20</integer>
+		<key>threeinferior</key>
+		<integer>30</integer>
+		<key>twoinferior</key>
+		<integer>25</integer>
+	</dict>
 	<key>@MMK_L_inp_guill</key>
 	<dict>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-60</integer>
 		<key>V</key>
 		<integer>-40</integer>
@@ -77,25 +96,25 @@
 	</dict>
 	<key>@MMK_L_inp_guilr</key>
 	<dict>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-20</integer>
 		<key>V</key>
 		<integer>-40</integer>
@@ -106,39 +125,39 @@
 	</dict>
 	<key>@MMK_L_inp_hyph</key>
 	<dict>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-40</integer>
 		<key>V</key>
 		<integer>-25</integer>
@@ -151,9 +170,9 @@
 	</dict>
 	<key>@MMK_L_inp_parenth</key>
 	<dict>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>25</integer>
 	</dict>
 	<key>@MMK_L_inp_period</key>
@@ -164,39 +183,39 @@
 		<integer>-100</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-90</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-45</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-44</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-80</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-80</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>30</integer>
 		<key>V</key>
 		<integer>-90</integer>
@@ -243,52 +262,42 @@
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-80</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_n</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-24</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>9</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>25</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_z</key>
-		<integer>0</integer>
 		<key>AE</key>
 		<integer>-100</integer>
 		<key>AEacute</key>
 		<integer>-100</integer>
 		<key>V</key>
 		<integer>5</integer>
-		<key>X</key>
-		<integer>0</integer>
-		<key>germandbls.alt01</key>
-		<integer>0</integer>
 		<key>ibreve</key>
 		<integer>60</integer>
 		<key>icircumflex</key>
@@ -312,45 +321,41 @@
 		<integer>-50</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-80</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-45</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-55</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-60</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-45</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-55</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-80</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-5</integer>
 		<key>AE</key>
 		<integer>-105</integer>
@@ -360,8 +365,6 @@
 		<integer>5</integer>
 		<key>X</key>
 		<integer>-5</integer>
-		<key>germandbls.alt01</key>
-		<integer>0</integer>
 		<key>ibreve</key>
 		<integer>30</integer>
 		<key>icircumflex</key>
@@ -381,7 +384,7 @@
 		<key>x</key>
 		<integer>-15</integer>
 	</dict>
-	<key>@MMK_L_lc_a</key>
+	<key>@MMK_L_latn_lc_a</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-15</integer>
@@ -393,29 +396,25 @@
 		<integer>-30</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_h</key>
+		<key>@MMK_R_latn_lc_h</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_y</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>4</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-65</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-55</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>11</integer>
 		<key>V</key>
 		<integer>-30</integer>
@@ -451,12 +450,10 @@
 		<integer>30</integer>
 		<key>underscore</key>
 		<integer>35</integer>
-		<key>v</key>
-		<integer>0</integer>
 		<key>zeroinferior</key>
 		<integer>20</integer>
 	</dict>
-	<key>@MMK_L_lc_b</key>
+	<key>@MMK_L_latn_lc_b</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-30</integer>
@@ -472,29 +469,27 @@
 		<integer>-60</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-7</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-7</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-7</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_s</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-75</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>-50</integer>
@@ -543,7 +538,7 @@
 		<key>zerosuperior</key>
 		<integer>-20</integer>
 	</dict>
-	<key>@MMK_L_lc_c</key>
+	<key>@MMK_L_latn_lc_c</key>
 	<dict>
 		<key>@MMK_R_inp_guill</key>
 		<integer>5</integer>
@@ -553,31 +548,29 @@
 		<integer>-20</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-4</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-6</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-4</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_o</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>3</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-62</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>6</integer>
 		<key>V</key>
 		<integer>-30</integer>
@@ -630,50 +623,48 @@
 		<key>zerosuperior</key>
 		<integer>15</integer>
 	</dict>
-	<key>@MMK_L_lc_dcaron</key>
+	<key>@MMK_L_latn_lc_dcaron</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
-		<integer>120</integer>
+		<integer>90</integer>
 		<key>@MMK_R_inp_hyph</key>
-		<integer>-10</integer>
+		<integer>-25</integer>
 		<key>@MMK_R_inp_parenth</key>
-		<integer>130</integer>
+		<integer>95</integer>
 		<key>@MMK_R_inp_period</key>
-		<integer>20</integer>
+		<integer>-20</integer>
 		<key>@MMK_R_inp_quotel</key>
-		<integer>85</integer>
+		<integer>55</integer>
 		<key>@MMK_R_inp_quoter</key>
-		<integer>100</integer>
-		<key>@MMK_R_lc_a</key>
-		<integer>15</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<integer>60</integer>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_c</key>
-		<integer>15</integer>
-		<key>@MMK_R_lc_f</key>
-		<integer>80</integer>
-		<key>@MMK_R_lc_g</key>
-		<integer>15</integer>
-		<key>@MMK_R_lc_h</key>
-		<integer>105</integer>
-		<key>@MMK_R_lc_i</key>
-		<integer>110</integer>
-		<key>@MMK_R_lc_j</key>
-		<integer>100</integer>
-		<key>@MMK_R_lc_l</key>
-		<integer>105</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
+		<integer>-5</integer>
+		<key>@MMK_R_latn_lc_c</key>
+		<integer>-5</integer>
+		<key>@MMK_R_latn_lc_f</key>
+		<integer>40</integer>
+		<key>@MMK_R_latn_lc_g</key>
+		<integer>-5</integer>
+		<key>@MMK_R_latn_lc_h</key>
+		<integer>65</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>65</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>60</integer>
+		<key>@MMK_R_latn_lc_l</key>
+		<integer>65</integer>
+		<key>@MMK_R_latn_lc_s</key>
+		<integer>-5</integer>
+		<key>@MMK_R_latn_lc_t</key>
+		<integer>65</integer>
+		<key>@MMK_R_latn_lc_w</key>
+		<integer>55</integer>
+		<key>@MMK_R_latn_lc_y</key>
+		<integer>60</integer>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_t</key>
-		<integer>110</integer>
-		<key>@MMK_R_lc_u</key>
-		<integer>70</integer>
-		<key>@MMK_R_lc_w</key>
-		<integer>120</integer>
-		<key>@MMK_R_lc_y</key>
-		<integer>110</integer>
-		<key>@MMK_R_lc_z</key>
-		<integer>80</integer>
 		<key>ampersand</key>
 		<integer>65</integer>
 		<key>eightinferior</key>
@@ -681,7 +672,7 @@
 		<key>eightsuperior</key>
 		<integer>120</integer>
 		<key>exclam</key>
-		<integer>90</integer>
+		<integer>50</integer>
 		<key>fiveinferior</key>
 		<integer>10</integer>
 		<key>fivesuperior</key>
@@ -696,14 +687,12 @@
 		<integer>130</integer>
 		<key>onesuperior</key>
 		<integer>130</integer>
-		<key>p</key>
-		<integer>50</integer>
 		<key>parenright</key>
-		<integer>190</integer>
+		<integer>130</integer>
 		<key>question</key>
-		<integer>130</integer>
+		<integer>95</integer>
 		<key>registered</key>
-		<integer>130</integer>
+		<integer>90</integer>
 		<key>seveninferior</key>
 		<integer>10</integer>
 		<key>sevensuperior</key>
@@ -717,7 +706,7 @@
 		<key>threesuperior</key>
 		<integer>140</integer>
 		<key>trademark</key>
-		<integer>160</integer>
+		<integer>115</integer>
 		<key>twoinferior</key>
 		<integer>30</integer>
 		<key>twosuperior</key>
@@ -725,13 +714,13 @@
 		<key>underscore</key>
 		<integer>-10</integer>
 		<key>v</key>
-		<integer>120</integer>
+		<integer>60</integer>
 		<key>zeroinferior</key>
 		<integer>20</integer>
 		<key>zerosuperior</key>
 		<integer>125</integer>
 	</dict>
-	<key>@MMK_L_lc_e</key>
+	<key>@MMK_L_latn_lc_e</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-20</integer>
@@ -741,31 +730,25 @@
 		<integer>-5</integer>
 		<key>@MMK_R_inp_hyph</key>
 		<integer>10</integer>
-		<key>@MMK_R_inp_period</key>
-		<integer>0</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-50</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-2</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-2</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_i</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_o</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-66</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-5</integer>
 		<key>V</key>
 		<integer>-40</integer>
@@ -809,12 +792,10 @@
 		<integer>-40</integer>
 		<key>v</key>
 		<integer>-2</integer>
-		<key>x</key>
-		<integer>0</integer>
 		<key>zeroinferior</key>
 		<integer>30</integer>
 	</dict>
-	<key>@MMK_L_lc_f</key>
+	<key>@MMK_L_latn_lc_f</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>30</integer>
@@ -828,37 +809,35 @@
 		<integer>15</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>25</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-8</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-3</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-8</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-6</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_s</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>2</integer>
 		<key>V</key>
 		<integer>15</integer>
@@ -870,8 +849,6 @@
 		<integer>-15</integer>
 		<key>eightsuperior</key>
 		<integer>45</integer>
-		<key>exclam</key>
-		<integer>0</integer>
 		<key>fiveinferior</key>
 		<integer>-5</integer>
 		<key>fivesuperior</key>
@@ -898,8 +875,6 @@
 		<integer>-5</integer>
 		<key>ninesuperior</key>
 		<integer>40</integer>
-		<key>oneinferior</key>
-		<integer>0</integer>
 		<key>onesuperior</key>
 		<integer>30</integer>
 		<key>parenright</key>
@@ -908,8 +883,6 @@
 		<integer>25</integer>
 		<key>registered</key>
 		<integer>30</integer>
-		<key>seveninferior</key>
-		<integer>0</integer>
 		<key>sevensuperior</key>
 		<integer>40</integer>
 		<key>sixinferior</key>
@@ -918,14 +891,10 @@
 		<integer>50</integer>
 		<key>slash</key>
 		<integer>-20</integer>
-		<key>threeinferior</key>
-		<integer>0</integer>
 		<key>threesuperior</key>
 		<integer>40</integer>
 		<key>trademark</key>
 		<integer>30</integer>
-		<key>twoinferior</key>
-		<integer>0</integer>
 		<key>twosuperior</key>
 		<integer>50</integer>
 		<key>underscore</key>
@@ -937,10 +906,8 @@
 		<key>zerosuperior</key>
 		<integer>40</integer>
 	</dict>
-	<key>@MMK_L_lc_g</key>
+	<key>@MMK_L_latn_lc_g</key>
 	<dict>
-		<key>@MMK_R_inp_colon</key>
-		<integer>0</integer>
 		<key>@MMK_R_inp_foot</key>
 		<integer>5</integer>
 		<key>@MMK_R_inp_guilr</key>
@@ -951,41 +918,39 @@
 		<integer>0</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-5</integer>
-		<key>@MMK_R_inp_quoter</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-6</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>50</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-4</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>4</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>4</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-25</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>10</integer>
 		<key>V</key>
 		<integer>-10</integer>
@@ -1019,8 +984,6 @@
 		<integer>10</integer>
 		<key>sevensuperior</key>
 		<integer>20</integer>
-		<key>sixinferior</key>
-		<integer>0</integer>
 		<key>sixsuperior</key>
 		<integer>20</integer>
 		<key>slash</key>
@@ -1044,7 +1007,7 @@
 		<key>zerosuperior</key>
 		<integer>20</integer>
 	</dict>
-	<key>@MMK_L_lc_i</key>
+	<key>@MMK_L_latn_lc_i</key>
 	<dict>
 		<key>@MMK_R_inp_hyph</key>
 		<integer>-10</integer>
@@ -1054,20 +1017,14 @@
 		<integer>-15</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>4</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_j</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_o</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_z</key>
-		<integer>0</integer>
 		<key>V</key>
 		<integer>-15</integer>
 		<key>X</key>
@@ -1115,21 +1072,21 @@
 		<key>zerosuperior</key>
 		<integer>10</integer>
 	</dict>
-	<key>@MMK_L_lc_j</key>
+	<key>@MMK_L_latn_lc_j</key>
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-10</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_h</key>
+		<key>@MMK_R_latn_lc_h</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>-25</integer>
@@ -1142,7 +1099,7 @@
 		<key>sevensuperior</key>
 		<integer>-10</integer>
 	</dict>
-	<key>@MMK_L_lc_k</key>
+	<key>@MMK_L_latn_lc_k</key>
 	<dict>
 		<key>@MMK_R_inp_guill</key>
 		<integer>-20</integer>
@@ -1156,36 +1113,34 @@
 		<integer>-10</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-17</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-17</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-8</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-2</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-11</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-48</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>13</integer>
 		<key>V</key>
 		<integer>-28</integer>
-		<key>X</key>
-		<integer>0</integer>
 		<key>ampersand</key>
 		<integer>-20</integer>
 		<key>at</key>
@@ -1210,10 +1165,6 @@
 		<integer>-10</integer>
 		<key>sevensuperior</key>
 		<integer>-20</integer>
-		<key>sixinferior</key>
-		<integer>0</integer>
-		<key>sixsuperior</key>
-		<integer>0</integer>
 		<key>threeinferior</key>
 		<integer>20</integer>
 		<key>threesuperior</key>
@@ -1229,7 +1180,7 @@
 		<key>zerosuperior</key>
 		<integer>10</integer>
 	</dict>
-	<key>@MMK_L_lc_l</key>
+	<key>@MMK_L_latn_lc_l</key>
 	<dict>
 		<key>@MMK_R_inp_hyph</key>
 		<integer>-10</integer>
@@ -1239,25 +1190,23 @@
 		<integer>-20</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_l</key>
+		<key>@MMK_R_latn_lc_l</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_o</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-25</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>16</integer>
 		<key>V</key>
 		<integer>-10</integer>
@@ -1304,7 +1253,7 @@
 		<key>zerosuperior</key>
 		<integer>-10</integer>
 	</dict>
-	<key>@MMK_L_lc_n</key>
+	<key>@MMK_L_latn_lc_n</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-45</integer>
@@ -1314,19 +1263,17 @@
 		<integer>-50</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_z</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-55</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-55</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>15</integer>
 		<key>V</key>
 		<integer>-30</integer>
@@ -1377,7 +1324,7 @@
 		<key>zerosuperior</key>
 		<integer>-25</integer>
 	</dict>
-	<key>@MMK_L_lc_o</key>
+	<key>@MMK_L_latn_lc_o</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-20</integer>
@@ -1393,29 +1340,27 @@
 		<integer>-70</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-7</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-8</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_s</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-76</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-5</integer>
 		<key>V</key>
 		<integer>-50</integer>
@@ -1468,7 +1413,7 @@
 		<key>zerosuperior</key>
 		<integer>-30</integer>
 	</dict>
-	<key>@MMK_L_lc_ohorn</key>
+	<key>@MMK_L_latn_lc_ohorn</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>20</integer>
@@ -1482,20 +1427,12 @@
 		<integer>20</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>25</integer>
-		<key>@MMK_R_uc_a</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
-		<integer>0</integer>
-		<key>V</key>
-		<integer>0</integer>
-		<key>X</key>
-		<integer>0</integer>
 		<key>eightinferior</key>
 		<integer>20</integer>
 		<key>eightsuperior</key>
@@ -1547,7 +1484,7 @@
 		<key>zerosuperior</key>
 		<integer>35</integer>
 	</dict>
-	<key>@MMK_L_lc_r</key>
+	<key>@MMK_L_latn_lc_r</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>30</integer>
@@ -1561,42 +1498,38 @@
 		<integer>10</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-6</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>18</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-4</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>7</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-21</integer>
-		<key>V</key>
-		<integer>0</integer>
 		<key>X</key>
 		<integer>-20</integer>
 		<key>ampersand</key>
@@ -1637,8 +1570,6 @@
 		<integer>-10</integer>
 		<key>threesuperior</key>
 		<integer>30</integer>
-		<key>trademark</key>
-		<integer>0</integer>
 		<key>twoinferior</key>
 		<integer>-10</integer>
 		<key>twosuperior</key>
@@ -1652,7 +1583,7 @@
 		<key>zerosuperior</key>
 		<integer>40</integer>
 	</dict>
-	<key>@MMK_L_lc_s</key>
+	<key>@MMK_L_latn_lc_s</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-30</integer>
@@ -1666,29 +1597,29 @@
 		<integer>-55</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-6</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-4</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-12</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-65</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-25</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-80</integer>
 		<key>V</key>
 		<integer>-40</integer>
@@ -1739,7 +1670,7 @@
 		<key>zerosuperior</key>
 		<integer>-10</integer>
 	</dict>
-	<key>@MMK_L_lc_t</key>
+	<key>@MMK_L_latn_lc_t</key>
 	<dict>
 		<key>@MMK_R_inp_guill</key>
 		<integer>-20</integer>
@@ -1749,32 +1680,30 @@
 		<integer>1</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-4</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-4</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-4</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>6</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-24</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_z</key>
-		<integer>0</integer>
 		<key>V</key>
 		<integer>-5</integer>
 		<key>ampersand</key>
@@ -1793,8 +1722,6 @@
 		<integer>20</integer>
 		<key>registered</key>
 		<integer>25</integer>
-		<key>seveninferior</key>
-		<integer>0</integer>
 		<key>sixsuperior</key>
 		<integer>20</integer>
 		<key>threeinferior</key>
@@ -1814,25 +1741,23 @@
 		<key>zerosuperior</key>
 		<integer>20</integer>
 	</dict>
-	<key>@MMK_L_lc_uhorn</key>
+	<key>@MMK_L_latn_lc_uhorn</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>55</integer>
-		<key>@MMK_R_inp_parenth</key>
-		<integer>0</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>55</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>45</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>20</integer>
 		<key>eightinferior</key>
 		<integer>20</integer>
@@ -1856,8 +1781,6 @@
 		<integer>10</integer>
 		<key>onesuperior</key>
 		<integer>50</integer>
-		<key>parenright</key>
-		<integer>0</integer>
 		<key>question</key>
 		<integer>30</integer>
 		<key>registered</key>
@@ -1891,7 +1814,7 @@
 		<key>zerosuperior</key>
 		<integer>60</integer>
 	</dict>
-	<key>@MMK_L_lc_w</key>
+	<key>@MMK_L_latn_lc_w</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>20</integer>
@@ -1905,33 +1828,33 @@
 		<integer>-5</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-2</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-5</integer>
 		<key>V</key>
 		<integer>-10</integer>
@@ -1982,7 +1905,7 @@
 		<key>zerosuperior</key>
 		<integer>20</integer>
 	</dict>
-	<key>@MMK_L_lc_y</key>
+	<key>@MMK_L_latn_lc_y</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>20</integer>
@@ -1996,33 +1919,33 @@
 		<integer>5</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-6</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-6</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>3</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>25</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-20</integer>
 		<key>V</key>
 		<integer>-10</integer>
@@ -2050,8 +1973,6 @@
 		<integer>-20</integer>
 		<key>registered</key>
 		<integer>40</integer>
-		<key>seveninferior</key>
-		<integer>0</integer>
 		<key>sevensuperior</key>
 		<integer>10</integer>
 		<key>sixinferior</key>
@@ -2079,7 +2000,7 @@
 		<key>zerosuperior</key>
 		<integer>35</integer>
 	</dict>
-	<key>@MMK_L_lc_z</key>
+	<key>@MMK_L_latn_lc_z</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>10</integer>
@@ -2093,19 +2014,19 @@
 		<integer>-5</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-7</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-30</integer>
 		<key>V</key>
 		<integer>-20</integer>
@@ -2158,7 +2079,7 @@
 		<key>zerosuperior</key>
 		<integer>30</integer>
 	</dict>
-	<key>@MMK_L_uc_a</key>
+	<key>@MMK_L_latn_uc_a</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-85</integer>
@@ -2174,41 +2095,41 @@
 		<integer>-90</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-80</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_l</key>
+		<key>@MMK_R_latn_lc_l</key>
 		<integer>-14</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-4</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-55</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-25</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-44</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-70</integer>
 		<key>V</key>
 		<integer>-66</integer>
@@ -2262,33 +2183,25 @@
 		<integer>15</integer>
 		<key>v</key>
 		<integer>-24</integer>
-		<key>zeroinferior</key>
-		<integer>0</integer>
 		<key>zerosuperior</key>
 		<integer>-90</integer>
 	</dict>
-	<key>@MMK_L_uc_c</key>
+	<key>@MMK_L_latn_uc_c</key>
 	<dict>
-		<key>@MMK_R_inp_foot</key>
-		<integer>0</integer>
 		<key>@MMK_R_inp_guill</key>
 		<integer>-10</integer>
 		<key>@MMK_R_inp_hyph</key>
 		<integer>-20</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-6</integer>
-		<key>@MMK_R_uc_t</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-20</integer>
-		<key>V</key>
-		<integer>0</integer>
 		<key>X</key>
 		<integer>-10</integer>
 		<key>ampersand</key>
@@ -2303,8 +2216,6 @@
 		<integer>15</integer>
 		<key>fourinferior</key>
 		<integer>25</integer>
-		<key>germandbls</key>
-		<integer>0</integer>
 		<key>nineinferior</key>
 		<integer>10</integer>
 		<key>onesuperior</key>
@@ -2326,7 +2237,7 @@
 		<key>zerosuperior</key>
 		<integer>10</integer>
 	</dict>
-	<key>@MMK_L_uc_d</key>
+	<key>@MMK_L_latn_uc_d</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-20</integer>
@@ -2340,17 +2251,17 @@
 		<integer>-30</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-16</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-6</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-46</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-10</integer>
 		<key>AE</key>
 		<integer>-25</integer>
@@ -2370,8 +2281,6 @@
 		<integer>-10</integer>
 		<key>fourinferior</key>
 		<integer>-10</integer>
-		<key>germandbls</key>
-		<integer>0</integer>
 		<key>nineinferior</key>
 		<integer>10</integer>
 		<key>ninesuperior</key>
@@ -2384,8 +2293,6 @@
 		<integer>10</integer>
 		<key>sevensuperior</key>
 		<integer>-30</integer>
-		<key>sixinferior</key>
-		<integer>0</integer>
 		<key>sixsuperior</key>
 		<integer>-10</integer>
 		<key>slash</key>
@@ -2403,22 +2310,20 @@
 		<key>zerosuperior</key>
 		<integer>-10</integer>
 	</dict>
-	<key>@MMK_L_uc_e</key>
+	<key>@MMK_L_latn_uc_e</key>
 	<dict>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>V</key>
-		<integer>0</integer>
 		<key>ampersand</key>
 		<integer>-15</integer>
 		<key>at</key>
@@ -2446,7 +2351,7 @@
 		<key>underscore</key>
 		<integer>15</integer>
 	</dict>
-	<key>@MMK_L_uc_g</key>
+	<key>@MMK_L_latn_uc_g</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-20</integer>
@@ -2456,13 +2361,13 @@
 		<integer>-10</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-28</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-38</integer>
 		<key>V</key>
 		<integer>-30</integer>
@@ -2494,26 +2399,24 @@
 		<integer>-5</integer>
 		<key>underscore</key>
 		<integer>15</integer>
-		<key>zeroinferior</key>
-		<integer>0</integer>
 		<key>zerosuperior</key>
 		<integer>-20</integer>
 	</dict>
-	<key>@MMK_L_uc_i</key>
+	<key>@MMK_L_latn_uc_i</key>
 	<dict>
 		<key>@MMK_R_inp_hyph</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-7</integer>
 		<key>ampersand</key>
 		<integer>-10</integer>
@@ -2556,30 +2459,22 @@
 		<key>zerosuperior</key>
 		<integer>10</integer>
 	</dict>
-	<key>@MMK_L_uc_j</key>
+	<key>@MMK_L_latn_uc_j</key>
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-4</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-6</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-5</integer>
-		<key>AE</key>
-		<integer>-6</integer>
 		<key>AEacute</key>
 		<integer>-26</integer>
 		<key>X</key>
 		<integer>-15</integer>
-		<key>eightinferior</key>
-		<integer>0</integer>
 		<key>fourinferior</key>
 		<integer>5</integer>
-		<key>nineinferior</key>
-		<integer>0</integer>
-		<key>seveninferior</key>
-		<integer>0</integer>
 		<key>sixinferior</key>
 		<integer>-5</integer>
 		<key>slash</key>
@@ -2587,7 +2482,7 @@
 		<key>underscore</key>
 		<integer>-60</integer>
 	</dict>
-	<key>@MMK_L_uc_k</key>
+	<key>@MMK_L_latn_uc_k</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-15</integer>
@@ -2603,39 +2498,39 @@
 		<integer>-13</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-16</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-32</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-15</integer>
 		<key>V</key>
 		<integer>-15</integer>
@@ -2677,12 +2572,8 @@
 		<integer>-30</integer>
 		<key>threeinferior</key>
 		<integer>5</integer>
-		<key>threesuperior</key>
-		<integer>0</integer>
 		<key>twoinferior</key>
 		<integer>10</integer>
-		<key>twosuperior</key>
-		<integer>0</integer>
 		<key>underscore</key>
 		<integer>20</integer>
 		<key>v</key>
@@ -2694,7 +2585,7 @@
 		<key>zerosuperior</key>
 		<integer>-10</integer>
 	</dict>
-	<key>@MMK_L_uc_l</key>
+	<key>@MMK_L_latn_uc_l</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-100</integer>
@@ -2708,33 +2599,33 @@
 		<integer>-100</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-90</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-9</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>16</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-85</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-32</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-61</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-90</integer>
 		<key>V</key>
 		<integer>-72</integer>
@@ -2758,8 +2649,6 @@
 		<integer>-15</integer>
 		<key>ninesuperior</key>
 		<integer>-85</integer>
-		<key>oneinferior</key>
-		<integer>0</integer>
 		<key>onesuperior</key>
 		<integer>-90</integer>
 		<key>question</key>
@@ -2797,7 +2686,7 @@
 		<key>zerosuperior</key>
 		<integer>-90</integer>
 	</dict>
-	<key>@MMK_L_uc_o</key>
+	<key>@MMK_L_latn_uc_o</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-25</integer>
@@ -2811,19 +2700,19 @@
 		<integer>-30</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-12</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-6</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-8</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-32</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-26</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-10</integer>
 		<key>AE</key>
 		<integer>-10</integer>
@@ -2870,28 +2759,20 @@
 		<key>zerosuperior</key>
 		<integer>-10</integer>
 	</dict>
-	<key>@MMK_L_uc_ohorn</key>
+	<key>@MMK_L_latn_uc_ohorn</key>
 	<dict>
-		<key>@MMK_R_inp_guill</key>
-		<integer>0</integer>
 		<key>@MMK_R_inp_hyph</key>
 		<integer>15</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-6</integer>
-		<key>@MMK_R_uc_t</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-4</integer>
-		<key>X</key>
-		<integer>0</integer>
 		<key>fiveinferior</key>
 		<integer>5</integer>
 		<key>ninesuperior</key>
@@ -2919,7 +2800,7 @@
 		<key>zeroinferior</key>
 		<integer>10</integer>
 	</dict>
-	<key>@MMK_L_uc_r</key>
+	<key>@MMK_L_latn_uc_r</key>
 	<dict>
 		<key>@MMK_R_inp_guill</key>
 		<integer>-20</integer>
@@ -2927,33 +2808,29 @@
 		<integer>-15</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-20</integer>
-		<key>@MMK_R_inp_quotel</key>
-		<integer>0</integer>
-		<key>@MMK_R_inp_quoter</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-6</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-27</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-6</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-25</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-12</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-35</integer>
 		<key>V</key>
 		<integer>-25</integer>
@@ -2991,8 +2868,6 @@
 		<integer>-5</integer>
 		<key>trademark</key>
 		<integer>-10</integer>
-		<key>underscore</key>
-		<integer>0</integer>
 		<key>v</key>
 		<integer>10</integer>
 		<key>zeroinferior</key>
@@ -3000,7 +2875,7 @@
 		<key>zerosuperior</key>
 		<integer>-10</integer>
 	</dict>
-	<key>@MMK_L_uc_s</key>
+	<key>@MMK_L_latn_uc_s</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-10</integer>
@@ -3012,13 +2887,13 @@
 		<integer>-10</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-4</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-27</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-31</integer>
 		<key>V</key>
 		<integer>-30</integer>
@@ -3059,7 +2934,7 @@
 		<key>zeroinferior</key>
 		<integer>10</integer>
 	</dict>
-	<key>@MMK_L_uc_t</key>
+	<key>@MMK_L_latn_uc_t</key>
 	<dict>
 		<key>@MMK_R_inp_colon</key>
 		<integer>-40</integer>
@@ -3077,45 +2952,43 @@
 		<integer>15</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-55</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-65</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-55</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-70</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>-7</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-45</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-45</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-7</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-45</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>13</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>5</integer>
 		<key>AE</key>
 		<integer>-65</integer>
@@ -3202,15 +3075,15 @@
 		<key>zerosuperior</key>
 		<integer>30</integer>
 	</dict>
-	<key>@MMK_L_uc_u</key>
+	<key>@MMK_L_latn_uc_u</key>
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-20</integer>
 		<key>AE</key>
 		<integer>-23</integer>
@@ -3221,7 +3094,7 @@
 		<key>underscore</key>
 		<integer>-80</integer>
 	</dict>
-	<key>@MMK_L_uc_uhorn</key>
+	<key>@MMK_L_latn_uc_uhorn</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>10</integer>
@@ -3233,17 +3106,15 @@
 		<integer>15</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>19</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>15</integer>
 		<key>AE</key>
 		<integer>-23</integer>
@@ -3298,7 +3169,7 @@
 		<key>zerosuperior</key>
 		<integer>20</integer>
 	</dict>
-	<key>@MMK_L_uc_w</key>
+	<key>@MMK_L_latn_uc_w</key>
 	<dict>
 		<key>@MMK_R_inp_colon</key>
 		<integer>-20</integer>
@@ -3314,50 +3185,40 @@
 		<integer>-60</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>5</integer>
-		<key>@MMK_R_inp_quoter</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>-7</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-34</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_t</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
-		<integer>0</integer>
 		<key>AE</key>
 		<integer>-35</integer>
 		<key>AEacute</key>
 		<integer>-35</integer>
-		<key>V</key>
-		<integer>0</integer>
 		<key>ampersand</key>
 		<integer>-10</integer>
 		<key>at</key>
@@ -3376,8 +3237,6 @@
 		<integer>-55</integer>
 		<key>foursuperior</key>
 		<integer>5</integer>
-		<key>germandbls</key>
-		<integer>0</integer>
 		<key>ibreve</key>
 		<integer>40</integer>
 		<key>icircumflex</key>
@@ -3431,7 +3290,7 @@
 		<key>zerosuperior</key>
 		<integer>5</integer>
 	</dict>
-	<key>@MMK_L_uc_y</key>
+	<key>@MMK_L_latn_uc_y</key>
 	<dict>
 		<key>@MMK_R_inp_colon</key>
 		<integer>-40</integer>
@@ -3449,50 +3308,48 @@
 		<integer>5</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-60</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-60</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-65</integer>
-		<key>@MMK_R_lc_h</key>
+		<key>@MMK_R_latn_lc_h</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>-17</integer>
-		<key>@MMK_R_lc_l</key>
+		<key>@MMK_R_latn_lc_l</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-45</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-55</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-25</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
 		<key>AE</key>
 		<integer>-80</integer>
 		<key>AEacute</key>
@@ -3505,8 +3362,6 @@
 		<integer>-40</integer>
 		<key>eightinferior</key>
 		<integer>-100</integer>
-		<key>eightsuperior</key>
-		<integer>0</integer>
 		<key>exclamdown</key>
 		<integer>-30</integer>
 		<key>fiveinferior</key>
@@ -3580,7 +3435,7 @@
 		<key>zerosuperior</key>
 		<integer>10</integer>
 	</dict>
-	<key>@MMK_L_uc_z</key>
+	<key>@MMK_L_latn_uc_z</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>5</integer>
@@ -3596,24 +3451,22 @@
 		<integer>20</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_z</key>
-		<integer>0</integer>
 		<key>ampersand</key>
 		<integer>-10</integer>
 		<key>at</key>
@@ -3686,29 +3539,19 @@
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-10</integer>
-		<key>@MMK_R_inp_period</key>
-		<integer>0</integer>
-		<key>@MMK_R_inp_quotel</key>
-		<integer>0</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_a</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_c</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-28</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-40</integer>
 		<key>V</key>
 		<integer>-20</integer>
@@ -3776,37 +3619,37 @@
 		<integer>5</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-24</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-26</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-22</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-66</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-47</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-5</integer>
 		<key>ampersand</key>
 		<integer>-40</integer>
@@ -3842,8 +3685,6 @@
 		<integer>-20</integer>
 		<key>parenright</key>
 		<integer>15</integer>
-		<key>question</key>
-		<integer>0</integer>
 		<key>registered</key>
 		<integer>10</integer>
 		<key>seveninferior</key>
@@ -3852,8 +3693,6 @@
 		<integer>10</integer>
 		<key>sixinferior</key>
 		<integer>-55</integer>
-		<key>sixsuperior</key>
-		<integer>0</integer>
 		<key>slash</key>
 		<integer>-60</integer>
 		<key>threeinferior</key>
@@ -3881,37 +3720,29 @@
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-20</integer>
-		<key>@MMK_R_inp_guill</key>
-		<integer>0</integer>
-		<key>@MMK_R_inp_period</key>
-		<integer>0</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-25</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_o</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_s</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>-20</integer>
@@ -3929,8 +3760,6 @@
 		<integer>20</integer>
 		<key>foursuperior</key>
 		<integer>-20</integer>
-		<key>germandbls</key>
-		<integer>0</integer>
 		<key>nineinferior</key>
 		<integer>20</integer>
 		<key>ninesuperior</key>
@@ -3987,37 +3816,31 @@
 		<integer>-10</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-120</integer>
-		<key>@MMK_R_inp_quotel</key>
-		<integer>0</integer>
-		<key>@MMK_R_inp_quoter</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-61</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_o</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-30</integer>
 		<key>AE</key>
 		<integer>-62</integer>
@@ -4051,16 +3874,12 @@
 		<integer>10</integer>
 		<key>oneinferior</key>
 		<integer>-20</integer>
-		<key>onesuperior</key>
-		<integer>0</integer>
 		<key>p</key>
 		<integer>-10</integer>
 		<key>parenright</key>
 		<integer>-10</integer>
 		<key>registered</key>
 		<integer>10</integer>
-		<key>seveninferior</key>
-		<integer>0</integer>
 		<key>sevensuperior</key>
 		<integer>-5</integer>
 		<key>sixinferior</key>
@@ -4073,8 +3892,6 @@
 		<integer>-10</integer>
 		<key>threesuperior</key>
 		<integer>10</integer>
-		<key>trademark</key>
-		<integer>0</integer>
 		<key>twoinferior</key>
 		<integer>-20</integer>
 		<key>twosuperior</key>
@@ -4083,8 +3900,6 @@
 		<integer>-140</integer>
 		<key>v</key>
 		<integer>20</integer>
-		<key>x</key>
-		<integer>0</integer>
 		<key>zeroinferior</key>
 		<integer>-30</integer>
 		<key>zerosuperior</key>
@@ -4106,27 +3921,25 @@
 		<integer>-30</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-26</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_o</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-25</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-60</integer>
 		<key>AE</key>
 		<integer>-30</integer>
@@ -4160,8 +3973,6 @@
 		<integer>30</integer>
 		<key>sevensuperior</key>
 		<integer>-20</integer>
-		<key>sixinferior</key>
-		<integer>0</integer>
 		<key>slash</key>
 		<integer>-50</integer>
 		<key>threeinferior</key>
@@ -4201,41 +4012,37 @@
 		<integer>5</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>-7</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-56</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_s</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>5</integer>
 		<key>AE</key>
 		<integer>-65</integer>
@@ -4336,33 +4143,27 @@
 		<integer>-60</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>10</integer>
-		<key>@MMK_R_inp_quotel</key>
-		<integer>0</integer>
-		<key>@MMK_R_inp_quoter</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_g</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-39</integer>
 		<key>ampersand</key>
 		<integer>-15</integer>
@@ -4370,8 +4171,6 @@
 		<integer>-30</integer>
 		<key>eightinferior</key>
 		<integer>-20</integer>
-		<key>eightsuperior</key>
-		<integer>0</integer>
 		<key>fiveinferior</key>
 		<integer>-10</integer>
 		<key>fivesuperior</key>
@@ -4386,8 +4185,6 @@
 		<integer>-20</integer>
 		<key>onesuperior</key>
 		<integer>10</integer>
-		<key>question</key>
-		<integer>0</integer>
 		<key>seveninferior</key>
 		<integer>-30</integer>
 		<key>sevensuperior</key>
@@ -4413,25 +4210,25 @@
 	</dict>
 	<key>ampersand</key>
 	<dict>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-80</integer>
 		<key>V</key>
 		<integer>-45</integer>
@@ -4440,34 +4237,32 @@
 	</dict>
 	<key>aogonek</key>
 	<dict>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>50</integer>
 		<key>parenright</key>
 		<integer>70</integer>
 	</dict>
 	<key>at</key>
 	<dict>
-		<key>@MMK_R_lc_g</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-45</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-25</integer>
 		<key>V</key>
 		<integer>-40</integer>
@@ -4485,39 +4280,37 @@
 	</dict>
 	<key>eightinferior</key>
 	<dict>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_c</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-65</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-100</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>25</integer>
 		<key>V</key>
 		<integer>-85</integer>
@@ -4536,39 +4329,37 @@
 	</dict>
 	<key>eightsuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>5</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_c</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>25</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>5</integer>
@@ -4576,53 +4367,47 @@
 		<integer>-10</integer>
 		<key>eightsuperior</key>
 		<integer>-10</integer>
-		<key>fraction</key>
-		<integer>5</integer>
 		<key>jcircumflex</key>
 		<integer>50</integer>
 		<key>ninesuperior</key>
 		<integer>-5</integer>
 		<key>onesuperior</key>
 		<integer>-15</integer>
-		<key>sevensuperior</key>
-		<integer>0</integer>
 		<key>sixsuperior</key>
 		<integer>-5</integer>
-		<key>threesuperior</key>
-		<integer>0</integer>
 		<key>v</key>
 		<integer>20</integer>
 	</dict>
 	<key>eth</key>
 	<dict>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-50</integer>
 	</dict>
 	<key>exclamdown</key>
 	<dict>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-50</integer>
 		<key>V</key>
 		<integer>-20</integer>
@@ -4633,33 +4418,33 @@
 	</dict>
 	<key>fiveinferior</key>
 	<dict>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-90</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>30</integer>
 		<key>V</key>
 		<integer>-75</integer>
@@ -4672,84 +4457,72 @@
 	</dict>
 	<key>fivesuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>15</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>5</integer>
 		<key>V</key>
 		<integer>10</integer>
 		<key>X</key>
 		<integer>-5</integer>
-		<key>eightsuperior</key>
-		<integer>0</integer>
-		<key>fivesuperior</key>
-		<integer>0</integer>
 		<key>foursuperior</key>
 		<integer>10</integer>
-		<key>fraction</key>
-		<integer>15</integer>
 		<key>jcircumflex</key>
 		<integer>40</integer>
-		<key>ninesuperior</key>
-		<integer>0</integer>
-		<key>onesuperior</key>
-		<integer>0</integer>
-		<key>sevensuperior</key>
-		<integer>0</integer>
 		<key>v</key>
 		<integer>30</integer>
 	</dict>
 	<key>fourinferior</key>
 	<dict>
-		<key>@MMK_R_lc_f</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>30</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-45</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-90</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>30</integer>
 		<key>V</key>
 		<integer>-80</integer>
@@ -4768,39 +4541,41 @@
 	</dict>
 	<key>foursuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>30</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-60</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>25</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-45</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>15</integer>
@@ -4808,76 +4583,43 @@
 		<integer>-5</integer>
 		<key>foursuperior</key>
 		<integer>10</integer>
-		<key>fraction</key>
-		<integer>30</integer>
 		<key>jcircumflex</key>
 		<integer>30</integer>
-		<key>ninesuperior</key>
-		<integer>0</integer>
 		<key>onesuperior</key>
 		<integer>-10</integer>
-		<key>sevensuperior</key>
-		<integer>0</integer>
 		<key>v</key>
 		<integer>35</integer>
 		<key>x</key>
 		<integer>10</integer>
 	</dict>
-	<key>fraction</key>
-	<dict>
-		<key>eightinferior</key>
-		<integer>20</integer>
-		<key>fiveinferior</key>
-		<integer>25</integer>
-		<key>fourinferior</key>
-		<integer>-20</integer>
-		<key>nineinferior</key>
-		<integer>25</integer>
-		<key>oneinferior</key>
-		<integer>10</integer>
-		<key>seveninferior</key>
-		<integer>60</integer>
-		<key>sixinferior</key>
-		<integer>-20</integer>
-		<key>threeinferior</key>
-		<integer>30</integer>
-		<key>twoinferior</key>
-		<integer>25</integer>
-	</dict>
 	<key>germandbls</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>-20</integer>
-		<key>@MMK_R_inp_guill</key>
-		<integer>0</integer>
-		<key>@MMK_R_inp_hyph</key>
-		<integer>0</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>10</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-20</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_z</key>
-		<integer>0</integer>
 		<key>V</key>
 		<integer>-30</integer>
 		<key>copyright</key>
@@ -4920,8 +4662,6 @@
 		<integer>20</integer>
 		<key>sixsuperior</key>
 		<integer>-20</integer>
-		<key>slash</key>
-		<integer>0</integer>
 		<key>threeinferior</key>
 		<integer>20</integer>
 		<key>threesuperior</key>
@@ -4953,33 +4693,31 @@
 		<integer>10</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>2</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>3</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_s</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>10</integer>
 		<key>V</key>
 		<integer>-10</integer>
@@ -5003,30 +4741,22 @@
 		<integer>30</integer>
 		<key>sevensuperior</key>
 		<integer>-20</integer>
-		<key>sixinferior</key>
-		<integer>0</integer>
 		<key>sixsuperior</key>
 		<integer>-10</integer>
 		<key>slash</key>
 		<integer>20</integer>
 		<key>threeinferior</key>
 		<integer>20</integer>
-		<key>threesuperior</key>
-		<integer>0</integer>
 		<key>trademark</key>
 		<integer>-20</integer>
 		<key>twoinferior</key>
 		<integer>25</integer>
-		<key>twosuperior</key>
-		<integer>0</integer>
 		<key>underscore</key>
 		<integer>45</integer>
 		<key>v</key>
 		<integer>-5</integer>
 		<key>x</key>
 		<integer>10</integer>
-		<key>zeroinferior</key>
-		<integer>0</integer>
 	</dict>
 	<key>ibreve</key>
 	<dict>
@@ -5034,7 +4764,7 @@
 		<integer>0</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>10</integer>
 		<key>V</key>
 		<integer>15</integer>
@@ -5045,7 +4775,7 @@
 		<integer>25</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>20</integer>
 		<key>V</key>
 		<integer>15</integer>
@@ -5072,21 +4802,21 @@
 		<integer>25</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>30</integer>
 		<key>V</key>
 		<integer>35</integer>
 	</dict>
 	<key>ij</key>
 	<dict>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-20</integer>
 		<key>V</key>
 		<integer>-5</integer>
 	</dict>
 	<key>ijacute</key>
 	<dict>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>-5</integer>
@@ -5095,14 +4825,14 @@
 	<dict>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>0</integer>
 		<key>V</key>
 		<integer>5</integer>
 	</dict>
 	<key>iogonek</key>
 	<dict>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>40</integer>
 		<key>parenright</key>
 		<integer>70</integer>
@@ -5113,32 +4843,32 @@
 		<integer>20</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>0</integer>
 		<key>V</key>
 		<integer>-5</integer>
 	</dict>
 	<key>j</key>
 	<dict>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>-5</integer>
 	</dict>
 	<key>jacute</key>
 	<dict>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-5</integer>
 		<key>V</key>
 		<integer>5</integer>
 	</dict>
 	<key>jcircumflex</key>
 	<dict>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>0</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>30</integer>
 		<key>V</key>
 		<integer>35</integer>
@@ -5164,6 +4894,11 @@
 		<integer>60</integer>
 		<key>zerosuperior</key>
 		<integer>50</integer>
+	</dict>
+	<key>lcaron</key>
+	<dict>
+		<key>@MMK_R_inp_period</key>
+		<integer>-10</integer>
 	</dict>
 	<key>lslash</key>
 	<dict>
@@ -5198,42 +4933,36 @@
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_c</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_a</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-100</integer>
-		<key>@MMK_R_uc_z</key>
-		<integer>0</integer>
 		<key>V</key>
 		<integer>-90</integer>
 		<key>X</key>
@@ -5249,50 +4978,48 @@
 	</dict>
 	<key>ninesuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>-30</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-70</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>25</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>25</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>35</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-90</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_w</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-10</integer>
-		<key>V</key>
-		<integer>0</integer>
 		<key>X</key>
 		<integer>-20</integer>
 		<key>eightsuperior</key>
@@ -5301,8 +5028,6 @@
 		<integer>-5</integer>
 		<key>foursuperior</key>
 		<integer>-5</integer>
-		<key>fraction</key>
-		<integer>-30</integer>
 		<key>jcircumflex</key>
 		<integer>50</integer>
 		<key>onesuperior</key>
@@ -5320,37 +5045,37 @@
 	</dict>
 	<key>oneinferior</key>
 	<dict>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>25</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-80</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-110</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>25</integer>
 		<key>V</key>
 		<integer>-110</integer>
@@ -5379,37 +5104,39 @@
 	</dict>
 	<key>onesuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>25</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-30</integer>
 		<key>V</key>
 		<integer>-20</integer>
@@ -5421,8 +5148,6 @@
 		<integer>-20</integer>
 		<key>foursuperior</key>
 		<integer>-10</integer>
-		<key>fraction</key>
-		<integer>25</integer>
 		<key>ninesuperior</key>
 		<integer>-15</integer>
 		<key>onesuperior</key>
@@ -5440,21 +5165,21 @@
 	</dict>
 	<key>parenleft</key>
 	<dict>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>75</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>80</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>20</integer>
 		<key>V</key>
 		<integer>20</integer>
@@ -5487,9 +5212,9 @@
 		<integer>-115</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>15</integer>
 		<key>V</key>
 		<integer>10</integer>
@@ -5498,39 +5223,35 @@
 	<dict>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_l</key>
+		<key>@MMK_R_latn_lc_l</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_o</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-90</integer>
-		<key>@MMK_R_uc_u</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-85</integer>
 		<key>V</key>
 		<integer>-70</integer>
@@ -5539,15 +5260,15 @@
 	</dict>
 	<key>registered</key>
 	<dict>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-5</integer>
 		<key>V</key>
 		<integer>10</integer>
@@ -5558,41 +5279,37 @@
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_t</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-80</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>5</integer>
 		<key>V</key>
 		<integer>-50</integer>
@@ -5608,67 +5325,57 @@
 		<integer>-10</integer>
 		<key>threeinferior</key>
 		<integer>10</integer>
-		<key>v</key>
-		<integer>0</integer>
 		<key>x</key>
 		<integer>-10</integer>
 	</dict>
 	<key>sevensuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>-25</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-70</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_z</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-90</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-35</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_s</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>30</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>30</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>15</integer>
 		<key>V</key>
 		<integer>20</integer>
 		<key>X</key>
 		<integer>10</integer>
-		<key>eightsuperior</key>
-		<integer>0</integer>
-		<key>fivesuperior</key>
-		<integer>0</integer>
 		<key>foursuperior</key>
 		<integer>-10</integer>
-		<key>fraction</key>
-		<integer>-25</integer>
 		<key>jcircumflex</key>
 		<integer>60</integer>
 		<key>ninesuperior</key>
@@ -5687,44 +5394,40 @@
 		<integer>-5</integer>
 		<key>v</key>
 		<integer>15</integer>
-		<key>x</key>
-		<integer>0</integer>
-		<key>zerosuperior</key>
-		<integer>0</integer>
 	</dict>
 	<key>sixinferior</key>
 	<dict>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>5</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-7</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-90</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>35</integer>
 		<key>V</key>
 		<integer>-80</integer>
@@ -5745,50 +5448,48 @@
 	</dict>
 	<key>sixsuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>20</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-45</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>-20</integer>
 		<key>X</key>
 		<integer>-30</integer>
 		<key>eightsuperior</key>
 		<integer>5</integer>
-		<key>fivesuperior</key>
-		<integer>0</integer>
 		<key>foursuperior</key>
 		<integer>10</integer>
-		<key>fraction</key>
-		<integer>20</integer>
 		<key>jcircumflex</key>
 		<integer>30</integer>
 		<key>ninesuperior</key>
@@ -5797,8 +5498,6 @@
 		<integer>-15</integer>
 		<key>sevensuperior</key>
 		<integer>-10</integer>
-		<key>threesuperior</key>
-		<integer>0</integer>
 		<key>v</key>
 		<integer>30</integer>
 		<key>x</key>
@@ -5806,37 +5505,35 @@
 	</dict>
 	<key>slash</key>
 	<dict>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-16</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_n</key>
+		<key>@MMK_R_latn_lc_n</key>
 		<integer>-30</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-45</integer>
-		<key>@MMK_R_uc_i</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>10</integer>
 		<key>V</key>
 		<integer>20</integer>
@@ -5862,59 +5559,59 @@
 	<key>tcaron</key>
 	<dict>
 		<key>@MMK_R_inp_foot</key>
-		<integer>50</integer>
+		<integer>65</integer>
 		<key>@MMK_R_inp_parenth</key>
 		<integer>75</integer>
 		<key>@MMK_R_inp_quotel</key>
-		<integer>51</integer>
+		<integer>35</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>50</integer>
-		<key>@MMK_R_lc_h</key>
-		<integer>50</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_h</key>
 		<integer>45</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>45</integer>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>38</integer>
-		<key>@MMK_R_lc_l</key>
-		<integer>50</integer>
+		<key>@MMK_R_latn_lc_l</key>
+		<integer>45</integer>
 		<key>exclam</key>
 		<integer>35</integer>
 		<key>parenright</key>
-		<integer>150</integer>
+		<integer>135</integer>
 		<key>question</key>
-		<integer>65</integer>
+		<integer>70</integer>
 		<key>registered</key>
 		<integer>65</integer>
 		<key>trademark</key>
-		<integer>100</integer>
+		<integer>90</integer>
 	</dict>
 	<key>threeinferior</key>
 	<dict>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-75</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-100</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>10</integer>
 		<key>V</key>
 		<integer>-90</integer>
@@ -5935,44 +5632,42 @@
 	</dict>
 	<key>threesuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>15</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>10</integer>
 		<key>X</key>
 		<integer>-30</integer>
-		<key>eightsuperior</key>
-		<integer>0</integer>
 		<key>fivesuperior</key>
 		<integer>-5</integer>
-		<key>fraction</key>
-		<integer>15</integer>
 		<key>onesuperior</key>
 		<integer>-15</integer>
 		<key>sevensuperior</key>
@@ -5986,14 +5681,12 @@
 	</dict>
 	<key>trademark</key>
 	<dict>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>50</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-55</integer>
-		<key>V</key>
-		<integer>0</integer>
 		<key>v</key>
 		<integer>50</integer>
 		<key>x</key>
@@ -6003,31 +5696,29 @@
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_c</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-65</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-90</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>20</integer>
 		<key>V</key>
 		<integer>-90</integer>
@@ -6035,45 +5726,43 @@
 		<integer>10</integer>
 		<key>v</key>
 		<integer>-25</integer>
-		<key>x</key>
-		<integer>0</integer>
 	</dict>
 	<key>twosuperior</key>
 	<dict>
+		<key>@MMK_R_inp_fraction</key>
+		<integer>40</integer>
 		<key>@MMK_R_inp_period</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>25</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>10</integer>
 		<key>X</key>
 		<integer>-20</integer>
-		<key>fraction</key>
-		<integer>40</integer>
 		<key>jcircumflex</key>
 		<integer>40</integer>
 		<key>v</key>
@@ -6085,47 +5774,45 @@
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-45</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-50</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-95</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>45</integer>
-		<key>@MMK_R_lc_l</key>
+		<key>@MMK_R_latn_lc_l</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-35</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-65</integer>
-		<key>@MMK_R_lc_u</key>
+		<key>@MMK_R_latn_lc_u</key>
 		<integer>-55</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-40</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-15</integer>
-		<key>@MMK_R_lc_z</key>
-		<integer>0</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-80</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-130</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-75</integer>
-		<key>@MMK_R_uc_u</key>
+		<key>@MMK_R_latn_uc_u</key>
 		<integer>-100</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>10</integer>
 		<key>V</key>
 		<integer>-80</integer>
@@ -6142,7 +5829,7 @@
 	</dict>
 	<key>uogonek</key>
 	<dict>
-		<key>@MMK_R_lc_j</key>
+		<key>@MMK_R_latn_lc_j</key>
 		<integer>35</integer>
 		<key>parenright</key>
 		<integer>60</integer>
@@ -6161,25 +5848,25 @@
 		<integer>5</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-8</integer>
-		<key>@MMK_R_lc_g</key>
+		<key>@MMK_R_latn_lc_g</key>
 		<integer>-14</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-40</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-15</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-35</integer>
 		<key>V</key>
 		<integer>-10</integer>
@@ -6209,8 +5896,6 @@
 		<integer>10</integer>
 		<key>registered</key>
 		<integer>30</integer>
-		<key>seveninferior</key>
-		<integer>0</integer>
 		<key>sevensuperior</key>
 		<integer>5</integer>
 		<key>sixinferior</key>
@@ -6246,21 +5931,21 @@
 		<integer>-5</integer>
 		<key>@MMK_R_inp_quoter</key>
 		<integer>15</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>-12</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>-12</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>-4</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-20</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-30</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-30</integer>
 		<key>V</key>
 		<integer>-10</integer>
@@ -6294,8 +5979,6 @@
 		<integer>-20</integer>
 		<key>sixsuperior</key>
 		<integer>20</integer>
-		<key>threeinferior</key>
-		<integer>0</integer>
 		<key>threesuperior</key>
 		<integer>10</integer>
 		<key>trademark</key>
@@ -6313,41 +5996,39 @@
 	</dict>
 	<key>zeroinferior</key>
 	<dict>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_a_alt</key>
+		<key>@MMK_R_latn_lc_a_alt</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_g</key>
-		<integer>0</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>-10</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>-20</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>-25</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>15</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_s</key>
+		<key>@MMK_R_latn_uc_s</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>-60</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-70</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-100</integer>
-		<key>@MMK_R_uc_z</key>
+		<key>@MMK_R_latn_uc_z</key>
 		<integer>30</integer>
 		<key>V</key>
 		<integer>-90</integer>
@@ -6360,37 +6041,37 @@
 	<dict>
 		<key>@MMK_R_inp_period</key>
 		<integer>-60</integer>
-		<key>@MMK_R_lc_a</key>
+		<key>@MMK_R_latn_lc_a</key>
 		<integer>10</integer>
-		<key>@MMK_R_lc_c</key>
+		<key>@MMK_R_latn_lc_c</key>
 		<integer>5</integer>
-		<key>@MMK_R_lc_f</key>
+		<key>@MMK_R_latn_lc_f</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_i</key>
+		<key>@MMK_R_latn_lc_i</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_s</key>
+		<key>@MMK_R_latn_lc_s</key>
 		<integer>20</integer>
-		<key>@MMK_R_lc_t</key>
+		<key>@MMK_R_latn_lc_t</key>
 		<integer>40</integer>
-		<key>@MMK_R_lc_w</key>
+		<key>@MMK_R_latn_lc_w</key>
 		<integer>30</integer>
-		<key>@MMK_R_lc_y</key>
+		<key>@MMK_R_latn_lc_y</key>
 		<integer>35</integer>
-		<key>@MMK_R_lc_z</key>
+		<key>@MMK_R_latn_lc_z</key>
 		<integer>25</integer>
-		<key>@MMK_R_uc_a</key>
+		<key>@MMK_R_latn_uc_a</key>
 		<integer>-90</integer>
-		<key>@MMK_R_uc_i</key>
+		<key>@MMK_R_latn_uc_i</key>
 		<integer>-10</integer>
-		<key>@MMK_R_uc_j</key>
+		<key>@MMK_R_latn_uc_j</key>
 		<integer>-50</integer>
-		<key>@MMK_R_uc_o</key>
+		<key>@MMK_R_latn_uc_o</key>
 		<integer>10</integer>
-		<key>@MMK_R_uc_t</key>
+		<key>@MMK_R_latn_uc_t</key>
 		<integer>20</integer>
-		<key>@MMK_R_uc_w</key>
+		<key>@MMK_R_latn_uc_w</key>
 		<integer>-5</integer>
-		<key>@MMK_R_uc_y</key>
+		<key>@MMK_R_latn_uc_y</key>
 		<integer>-10</integer>
 		<key>V</key>
 		<integer>10</integer>
@@ -6400,10 +6081,6 @@
 		<integer>40</integer>
 		<key>onesuperior</key>
 		<integer>-10</integer>
-		<key>sevensuperior</key>
-		<integer>0</integer>
-		<key>threesuperior</key>
-		<integer>0</integer>
 		<key>v</key>
 		<integer>35</integer>
 		<key>x</key>
