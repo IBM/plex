@@ -42,5 +42,26 @@
       <point x="347" y="114"/>
       <point x="281" y="54"/>
     </contour>
+    <contour>
+      <point x="197.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="270.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0259</string>
+      <key>com.type-invaders.name.production</key>
+      <string>schwa</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

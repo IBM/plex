@@ -38,5 +38,26 @@
       <point x="561" y="156"/>
       <point x="469" y="63"/>
     </contour>
+    <contour>
+      <point x="353.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="353.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni018F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Schwa</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
