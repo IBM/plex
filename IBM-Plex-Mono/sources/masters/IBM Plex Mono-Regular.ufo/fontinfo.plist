@@ -18,11 +18,10 @@
 	<integer>1974</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexMono</string>
+	<key>note</key>
+	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeHeadCreated</key>
 	<string>2017/10/18 07:02:16</string>
-	<key>openTypeHeadFlags</key>
-	<array>
-	</array>
 	<key>openTypeHheaAscender</key>
 	<integer>1025</integer>
 	<key>openTypeHheaDescender</key>
@@ -41,12 +40,14 @@
 	<string>Bold Monday</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.boldmonday.com</string>
-	<key>openTypeNameSampleText</key>
-	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>IBM Plex Mono</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexMono;2.000;2017</string>
+	<string>IBM;IBMPlexMono;2.001;2020</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.000 2017</string>
+	<string>Version 2.001 2020</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -74,9 +75,6 @@
 		<integer>0</integer>
 		<integer>2</integer>
 		<integer>3</integer>
-	</array>
-	<key>openTypeOS2Selection</key>
-	<array>
 	</array>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>304</integer>
@@ -187,7 +185,7 @@
 		<integer>363</integer>
 	</array>
 	<key>postscriptSlantAngle</key>
-	<integer>0</integer>
+	<real>0.0</real>
 	<key>postscriptStemSnapH</key>
 	<array>
 		<integer>68</integer>
@@ -203,7 +201,7 @@
 		<integer>114</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-140</integer>
+	<integer>-170</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>60</integer>
 	<key>postscriptUniqueID</key>
@@ -219,16 +217,16 @@
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>trademark</key>
-	<string>IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide.</string>
+	<string>IBM Plex® is a trademark of IBM Corp, registered in many jurisdictions worldwide.</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>xHeight</key>
 	<integer>516</integer>
 	<key>year</key>
-	<integer>2017</integer>
+	<integer>2020</integer>
 </dict>
 </plist>
