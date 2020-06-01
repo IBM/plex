@@ -13,12 +13,14 @@ const archiver = require('archiver');
 const DBUG = false;
 const OUTPUT_DIRECTORY = path.resolve(__dirname, '../zip');
 
+const excludedDirectories = ['IBM-Plex-Sans-Variable', 'IBM-Plex-Sans-KR'];
+
 const getFontDirectories = () => {
   const files = fs.readdirSync(path.resolve('.'));
 
   // Don't build Variable fonts for now
   return files.filter(
-    name => name.includes('IBM-Plex') && !name.includes('Variable')
+    name => name.includes('IBM-Plex') && !excludedDirectories.includes(name)
   );
 };
 
