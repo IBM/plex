@@ -122,4 +122,4 @@ const weights = [
   },
 ];
 
-module.exports = weights;
+export default weights;

@@ -5,19 +5,17 @@
  * Here, `formatFilename` gets rid of false-y values and normalizes each part
  * of the path before joining them with the '/' separator.
  */
-const formatFilename = array =>
+export const formatFilename = array =>
   array
     .filter(Boolean)
     .map(string => string.toLowerCase())
     .join('/');
 
-exports.formatFilename = formatFilename;
-
 /**
  * `createFontFace` is used to generate the actual `@font-face` declarations
  * that get written to the appropriate files.
  */
-const createFontFace = (filename, family, weight, unicode = {}) => {
+export const createFontFace = (filename, family, weight, unicode = {}) => {
   const fontFileName = [
     `IBMPlex${family.type.split(' ').join('')}`,
     weight.variant ? weight.type + weight.variant : weight.type,
@@ -71,5 +69,3 @@ const createFontFace = (filename, family, weight, unicode = {}) => {
 }
 `;
 };
-
-exports.createFontFace = createFontFace;

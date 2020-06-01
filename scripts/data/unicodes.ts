@@ -1,4 +1,4 @@
-const unicodes = [
+const unicodeGroups = [
   {
     type: 'Latin1',
     characters: [
@@ -114,4 +114,4 @@ const unicodes = [
   },
 ];
 
-module.exports = unicodes;
+export default unicodeGroups;

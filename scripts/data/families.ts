@@ -1,4 +1,4 @@
-const families = [
+const fonts = [
   {
     type: 'Mono',
     name: 'IBM Plex Mono',
@@ -51,4 +51,4 @@ const families = [
   },
 ];
 
-module.exports = families;
+export default fonts;

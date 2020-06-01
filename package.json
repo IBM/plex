@@ -13,22 +13,25 @@
   "scripts": {
     "clean": "rimraf css scss",
     "build": "npm run clean && npm run build:scss && npm run build:css",
-    "build:zip": "node scripts/build-zip.js",
+    "build:zip": "ts-node scripts/build-zip.ts",
     "build:css": "node-sass scss/ibm-plex.scss --output css && node-sass scss/ibm-plex.scss > css/ibm-plex.min.css --output-style compressed",
-    "build:scss": "node scripts/export-scss.js",
+    "build:scss": "ts-node scripts/export-scss.ts",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "yarn build"
   },
   "devDependencies": {
-    "archiver": "^3.0.0",
-    "fs-extra": "^7.0.0",
+    "@types/node": "^14.0.6",
+    "archiver": "^4.0.1",
+    "fs-extra": "^9.0.0",
     "git-branch": "^2.0.1",
-    "husky": "^0.14.3",
-    "lint-staged": "^4.3.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
     "node-sass": "^4.7.2",
-    "prettier": "^1.7.4",
-    "rimraf": "^2.6.2"
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
   },
   "prettier": {
     "printWidth": 80,
@@ -52,5 +55,8 @@
     "name": "ibm-plex",
     "sassDir": "scss",
     "needs": "*"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^9.0.1"
   }
 }

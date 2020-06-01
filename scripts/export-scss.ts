@@ -3,14 +3,14 @@
  * need for each font family, supported weight, and unicode range.
  */
 
-const fs = require('fs-extra');
-const path = require('path');
-const rimraf = require('rimraf');
+import fs from 'fs-extra';
+import path from 'path';
+import rimraf from 'rimraf';
 
-const families = require('./data/families');
-const { formatFilename, createFontFace } = require('./tools');
-const unicodes = require('./data/unicodes');
-const weights = require('./data/weights');
+import families from './data/families';
+import { formatFilename, createFontFace } from './tools';
+import unicodes from './data/unicodes';
+import weights from './data/weights';
 
 const OUTPUT_DIRECTORY = path.resolve(__dirname, '../scss');
 
