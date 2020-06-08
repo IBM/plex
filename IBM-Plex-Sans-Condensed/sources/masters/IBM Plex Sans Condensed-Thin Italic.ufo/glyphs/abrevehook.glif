@@ -5,6 +5,12 @@
   <outline>
     <component base="a"/>
     <component base="brevehook" xOffset="296"/>
+    <contour>
+      <point x="188.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="437.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

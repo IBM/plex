@@ -24,6 +24,8 @@
 	<string>Abrevehook_.glif</string>
 	<key>Abrevetilde</key>
 	<string>Abrevetilde_.glif</string>
+	<key>Acaron</key>
+	<string>Acaron_.glif</string>
 	<key>Acircumflex</key>
 	<string>Acircumflex_.glif</string>
 	<key>Acircumflexacute</key>
@@ -148,6 +150,8 @@
 	<string>Iacute_.glif</string>
 	<key>Ibreve</key>
 	<string>Ibreve_.glif</string>
+	<key>Icaron</key>
+	<string>Icaron_.glif</string>
 	<key>Icircumflex</key>
 	<string>Icircumflex_.glif</string>
 	<key>Idieresis</key>
@@ -208,6 +212,8 @@
 	<string>Oacute_.glif</string>
 	<key>Obreve</key>
 	<string>Obreve_.glif</string>
+	<key>Ocaron</key>
+	<string>Ocaron_.glif</string>
 	<key>Ocircumflex</key>
 	<string>Ocircumflex_.glif</string>
 	<key>Ocircumflexacute</key>
@@ -296,10 +302,20 @@
 	<string>Uacute_.glif</string>
 	<key>Ubreve</key>
 	<string>Ubreve_.glif</string>
+	<key>Ucaron</key>
+	<string>Ucaron_.glif</string>
 	<key>Ucircumflex</key>
 	<string>Ucircumflex_.glif</string>
 	<key>Udieresis</key>
 	<string>Udieresis_.glif</string>
+	<key>Udieresisacute</key>
+	<string>Udieresisacute_.glif</string>
+	<key>Udieresiscaron</key>
+	<string>Udieresiscaron_.glif</string>
+	<key>Udieresisgrave</key>
+	<string>Udieresisgrave_.glif</string>
+	<key>Udieresismacron</key>
+	<string>Udieresismacron_.glif</string>
 	<key>Udotbelow</key>
 	<string>Udotbelow_.glif</string>
 	<key>Ugrave</key>
@@ -398,6 +414,10 @@
 	<string>abrevetilde.glif</string>
 	<key>abrevetilde.alt01</key>
 	<string>abrevetilde.alt01.glif</string>
+	<key>acaron</key>
+	<string>acaron.glif</string>
+	<key>acaron.alt01</key>
+	<string>acaron.alt01.glif</string>
 	<key>acircumflex</key>
 	<string>acircumflex.glif</string>
 	<key>acircumflex.alt01</key>
@@ -656,6 +676,8 @@
 	<string>copyright.glif</string>
 	<key>crossmark</key>
 	<string>crossmark.glif</string>
+	<key>currency</key>
+	<string>currency.glif</string>
 	<key>d</key>
 	<string>d.glif</string>
 	<key>dagger</key>
@@ -694,6 +716,8 @@
 	<string>dieresismacron.case.glif</string>
 	<key>divide</key>
 	<string>divide.glif</string>
+	<key>divisionslash</key>
+	<string>divisionslash.glif</string>
 	<key>dollar</key>
 	<string>dollar.glif</string>
 	<key>dong</key>
@@ -866,10 +890,10 @@
 	<string>i.glif</string>
 	<key>iacute</key>
 	<string>iacute.glif</string>
-	<key>ibmlogo07</key>
-	<string>ibmlogo07.glif</string>
 	<key>ibreve</key>
 	<string>ibreve.glif</string>
+	<key>icaron</key>
+	<string>icaron.glif</string>
 	<key>icircumflex</key>
 	<string>icircumflex.glif</string>
 	<key>idieresis</key>
@@ -930,6 +954,8 @@
 	<string>litre.glif</string>
 	<key>logicalnot</key>
 	<string>logicalnot.glif</string>
+	<key>longs</key>
+	<string>longs.glif</string>
 	<key>lozenge</key>
 	<string>lozenge.glif</string>
 	<key>lslash</key>
@@ -984,6 +1010,8 @@
 	<string>oacute.glif</string>
 	<key>obreve</key>
 	<string>obreve.glif</string>
+	<key>ocaron</key>
+	<string>ocaron.glif</string>
 	<key>ocircumflex</key>
 	<string>ocircumflex.glif</string>
 	<key>ocircumflexacute</key>
@@ -1072,6 +1100,10 @@
 	<string>plus.glif</string>
 	<key>plusminus</key>
 	<string>plusminus.glif</string>
+	<key>prime</key>
+	<string>prime.glif</string>
+	<key>primedbl</key>
+	<string>primedbl.glif</string>
 	<key>product</key>
 	<string>product.glif</string>
 	<key>q</key>
@@ -1214,10 +1246,20 @@
 	<string>uacute.glif</string>
 	<key>ubreve</key>
 	<string>ubreve.glif</string>
+	<key>ucaron</key>
+	<string>ucaron.glif</string>
 	<key>ucircumflex</key>
 	<string>ucircumflex.glif</string>
 	<key>udieresis</key>
 	<string>udieresis.glif</string>
+	<key>udieresisacute</key>
+	<string>udieresisacute.glif</string>
+	<key>udieresiscaron</key>
+	<string>udieresiscaron.glif</string>
+	<key>udieresisgrave</key>
+	<string>udieresisgrave.glif</string>
+	<key>udieresismacron</key>
+	<string>udieresismacron.glif</string>
 	<key>udotbelow</key>
 	<string>udotbelow.glif</string>
 	<key>ugrave</key>

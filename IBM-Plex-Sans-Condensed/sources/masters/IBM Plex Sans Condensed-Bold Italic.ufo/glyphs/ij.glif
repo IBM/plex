@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ij" format="1">
-  <advance width="533"/>
+  <advance width="532"/>
   <unicode hex="0133"/>
   <outline>
     <component base="i"/>
-    <component base="j" xOffset="267"/>
+    <component base="j" xOffset="266"/>
+    <contour>
+      <point x="114.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="196.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

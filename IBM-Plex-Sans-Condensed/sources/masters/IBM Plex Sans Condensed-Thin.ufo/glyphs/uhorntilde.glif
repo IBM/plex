@@ -5,6 +5,9 @@
   <outline>
     <component base="uhorn"/>
     <component base="tilde.alt01" xOffset="-15"/>
+    <contour>
+      <point x="248.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

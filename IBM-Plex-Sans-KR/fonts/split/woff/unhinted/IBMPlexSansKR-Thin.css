@@ -1,0 +1,744 @@
+/* Subset: 00 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-00.woff) format('woff');
+	unicode-range: U+2023, U+2044, U+2047-2049, U+2070, U+2075-2079, U+2080, U+2085-2089, U+2212, U+2329-232A, U+2488-249B, U+24EA, U+24FF, U+274C, U+2E3A-2E3B, U+301A-301B, U+321D-321E, U+325B-325F, U+327C-327D, U+32B1-32BF, U+FE10-FE19, U+FE30-FE33, U+FE35-FE44, U+FE47-FE48, U+1F100, U+1F110-1F129
+}
+/* Subset: 01 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-01.woff) format('woff');
+	unicode-range: U+FF03-FF05, U+FF07, U+FF0A-FF0B, U+FF0D-FF19, U+FF1B, U+FF1D, U+FF20-FF5B, U+FF5D, U+FFE0-FFE3, U+FFE5-FFE6
+}
+/* Subset: 02 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-02.woff) format('woff');
+	unicode-range: U+D723-D728, U+D72A-D733, U+D735-D748, U+D74A-D74F, U+D752-D753, U+D755-D757, U+D75A-D75F, U+D762-D764, U+D766-D768, U+D76A-D76B, U+D76D-D76F, U+D771-D787, U+D789-D78B, U+D78D-D78F, U+D791-D797, U+D79A, U+D79C, U+D79E-D7A3
+}
+/* Subset: 03 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-03.woff) format('woff');
+	unicode-range: U+D105-D12F, U+D132-D133, U+D135-D137, U+D139-D13F, U+D141-D142, U+D144, U+D146-D14B, U+D14E-D14F, U+D151-D153, U+D155-D15B, U+D15E-D187, U+D189-D19F, U+D1A2-D1A3, U+D1A5-D1A7, U+D1A9-D1AF, U+D1B2-D1B3
+}
+/* Subset: 04 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-04.woff) format('woff');
+	unicode-range: U+D04B-D04F, U+D051-D057, U+D059-D06B, U+D06D-D06F, U+D071-D073, U+D075-D07B, U+D07E-D0A3, U+D0A6-D0A7, U+D0A9-D0AB, U+D0AD-D0B3, U+D0B6, U+D0B8, U+D0BA-D0BF, U+D0C2-D0C3, U+D0C5-D0C7, U+D0C9-D0CF, U+D0D2, U+D0D6-D0DB, U+D0DE-D0DF, U+D0E1-D0E3, U+D0E5-D0EB, U+D0EE-D0F0, U+D0F2-D104
+}
+/* Subset: 05 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-05.woff) format('woff');
+	unicode-range: U+CFA2-CFC3, U+CFC5-CFDF, U+CFE2-CFE3, U+CFE5-CFE7, U+CFE9-CFF4, U+CFF6-CFFB, U+CFFD-CFFF, U+D001-D003, U+D005-D017, U+D019-D033, U+D036-D037, U+D039-D03B, U+D03D-D04A
+}
+/* Subset: 06 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-06.woff) format('woff');
+	unicode-range: U+CEF0-CEF3, U+CEF6, U+CEF9-CEFF, U+CF01-CF03, U+CF05-CF07, U+CF09-CF0F, U+CF11-CF12, U+CF14-CF1B, U+CF1D-CF1F, U+CF21-CF2F, U+CF31-CF53, U+CF56-CF57, U+CF59-CF5B, U+CF5D-CF63, U+CF66, U+CF68, U+CF6A-CF6F, U+CF71-CF84, U+CF86-CF8B, U+CF8D-CFA1
+}
+/* Subset: 07 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-07.woff) format('woff');
+	unicode-range: U+CE3C-CE57, U+CE5A-CE5B, U+CE5D-CE5F, U+CE61-CE67, U+CE6A, U+CE6C, U+CE6E-CE73, U+CE76-CE77, U+CE79-CE7B, U+CE7D-CE83, U+CE85-CE88, U+CE8A-CE8F, U+CE91-CE93, U+CE95-CE97, U+CE99-CE9F, U+CEA2, U+CEA4-CEAB, U+CEAD-CEE3, U+CEE6-CEE7, U+CEE9-CEEB, U+CEED-CEEF
+}
+/* Subset: 08 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-08.woff) format('woff');
+	unicode-range: U+CD92-CD93, U+CD96-CD97, U+CD99-CD9B, U+CD9D-CDA3, U+CDA6-CDA8, U+CDAA-CDAF, U+CDB1-CDC3, U+CDC5-CDCB, U+CDCD-CDE7, U+CDE9-CE03, U+CE05-CE1F, U+CE22-CE34, U+CE36-CE3B
+}
+/* Subset: 09 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-09.woff) format('woff');
+	unicode-range: U+CCEF-CD07, U+CD0A-CD0B, U+CD0D-CD1A, U+CD1C, U+CD1E-CD2B, U+CD2D-CD5B, U+CD5D-CD77, U+CD79-CD91
+}
+/* Subset: 10 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-10.woff) format('woff');
+	unicode-range: U+CC3F-CC43, U+CC46-CC47, U+CC49-CC4B, U+CC4D-CC53, U+CC55-CC58, U+CC5A-CC5F, U+CC61-CC97, U+CC9A-CC9B, U+CC9D-CC9F, U+CCA1-CCA7, U+CCAA, U+CCAC, U+CCAE-CCB3, U+CCB6-CCB7, U+CCB9-CCBB, U+CCBD-CCCF, U+CCD1-CCE3, U+CCE5-CCEE
+}
+/* Subset: 11 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-11.woff) format('woff');
+	unicode-range: U+CB91-CBD3, U+CBD5-CBE3, U+CBE5-CC0B, U+CC0E-CC0F, U+CC11-CC13, U+CC15-CC1B, U+CC1D-CC20, U+CC23-CC27, U+CC2A-CC2B, U+CC2D, U+CC2F, U+CC31-CC37, U+CC3A, U+CC3C
+}
+/* Subset: 12 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-12.woff) format('woff');
+	unicode-range: U+CAF4-CB47, U+CB4A-CB90
+}
+/* Subset: 13 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-13.woff) format('woff');
+	unicode-range: U+D679-D68B, U+D68E-D69E, U+D6A0, U+D6A2-D6A7, U+D6A9-D6C3, U+D6C6-D6C7, U+D6C9-D6CB, U+D6CD-D6D3, U+D6D5-D6D6, U+D6D8-D6E3, U+D6E5-D6E7, U+D6E9-D6FB, U+D6FD-D717, U+D719-D71F, U+D721-D722
+}
+/* Subset: 14 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-14.woff) format('woff');
+	unicode-range: U+CA4A-CA4B, U+CA4E-CA4F, U+CA51-CA53, U+CA55-CA5B, U+CA5D-CA60, U+CA62-CA83, U+CA85-CABB, U+CABE-CABF, U+CAC1-CAC3, U+CAC5-CACB, U+CACD-CAD0, U+CAD2, U+CAD4-CAD8, U+CADA-CAF3
+}
+/* Subset: 15 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-15.woff) format('woff');
+	unicode-range: U+C996-C997, U+C99A-C99C, U+C99E-C9BF, U+C9C2-C9C3, U+C9C5-C9C7, U+C9C9-C9CF, U+C9D2, U+C9D4, U+C9D7-C9D8, U+C9DB, U+C9DE-C9DF, U+C9E1-C9E3, U+C9E5-C9E6, U+C9E8-C9EB, U+C9EE-C9F0, U+C9F2-C9F7, U+C9F9-CA0B, U+CA0D-CA28, U+CA2A-CA49
+}
+/* Subset: 16 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-16.woff) format('woff');
+	unicode-range: U+C8E9-C8F4, U+C8F6-C8FB, U+C8FE-C8FF, U+C901-C903, U+C905-C90B, U+C90E-C910, U+C912-C917, U+C919-C92B, U+C92D-C94F, U+C951-C953, U+C955-C96B, U+C96D-C973, U+C975-C987, U+C98A-C98B, U+C98D-C98F, U+C991-C995
+}
+/* Subset: 17 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-17.woff) format('woff');
+	unicode-range: U+C841-C84B, U+C84D-C86F, U+C872-C873, U+C875-C877, U+C879-C87F, U+C882-C884, U+C887-C88A, U+C88D-C8C3, U+C8C5-C8DF, U+C8E1-C8E8
+}
+/* Subset: 18 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-18.woff) format('woff');
+	unicode-range: U+C779-C77B, U+C77E-C782, U+C786, U+C78B, U+C78D, U+C78F, U+C792-C793, U+C795, U+C797, U+C799-C79F, U+C7A2, U+C7A7-C7AB, U+C7AE-C7BB, U+C7BD-C7C0, U+C7C2-C7C7, U+C7C9-C7DC, U+C7DE-C7FF, U+C802-C803, U+C805-C807, U+C809, U+C80B-C80F, U+C812, U+C814, U+C817-C81B, U+C81E-C81F, U+C821-C823, U+C825-C82E, U+C830-C837, U+C839-C83B, U+C83D-C840
+}
+/* Subset: 19 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-19.woff) format('woff');
+	unicode-range: U+C6BB-C6BF, U+C6C2, U+C6C4, U+C6C6-C6CB, U+C6CE-C6CF, U+C6D1-C6D3, U+C6D5-C6DB, U+C6DD-C6DF, U+C6E1-C6E7, U+C6E9-C6EB, U+C6ED-C6EF, U+C6F1-C6F8, U+C6FA-C703, U+C705-C707, U+C709-C70B, U+C70D-C716, U+C718, U+C71A-C71F, U+C722-C723, U+C725-C727, U+C729-C734, U+C736-C73B, U+C73E-C73F, U+C741-C743, U+C745-C74B, U+C74E-C750, U+C752-C757, U+C759-C773, U+C776-C777
+}
+/* Subset: 20 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-20.woff) format('woff');
+	unicode-range: U+C5F5-C5FB, U+C5FE, U+C602-C605, U+C607, U+C609-C60F, U+C611-C61A, U+C61C-C623, U+C626-C627, U+C629-C62B, U+C62D, U+C62F-C632, U+C636, U+C638, U+C63A-C63F, U+C642-C643, U+C645-C647, U+C649-C652, U+C656-C65B, U+C65D-C65F, U+C661-C663, U+C665-C677, U+C679-C67B, U+C67D-C693, U+C696-C697, U+C699-C69B, U+C69D-C6A3, U+C6A6, U+C6A8, U+C6AA-C6AF, U+C6B2-C6B3, U+C6B5-C6B7, U+C6B9-C6BA
+}
+/* Subset: 21 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-21.woff) format('woff');
+	unicode-range: U+C517-C527, U+C52A-C52B, U+C52D-C52F, U+C531-C538, U+C53A, U+C53C, U+C53E-C543, U+C546-C547, U+C54B, U+C54D-C552, U+C556, U+C55A-C55B, U+C55D, U+C55F, U+C562-C563, U+C565-C567, U+C569-C56F, U+C572, U+C574, U+C576-C57B, U+C57E-C57F, U+C581-C583, U+C585-C586, U+C588-C58B, U+C58E, U+C590, U+C592-C596, U+C599-C5B3, U+C5B6-C5B7, U+C5BA, U+C5BE-C5C3, U+C5CA-C5CB, U+C5CD, U+C5CF, U+C5D2-C5D3, U+C5D5-C5D7, U+C5D9-C5DF, U+C5E1-C5E2, U+C5E4, U+C5E6-C5EB, U+C5EF, U+C5F1-C5F3
+}
+/* Subset: 22 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-22.woff) format('woff');
+	unicode-range: U+C475-C4EF, U+C4F2-C4F3, U+C4F5-C4F7, U+C4F9-C4FF, U+C502-C50B, U+C50D-C516
+}
+/* Subset: 23 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-23.woff) format('woff');
+	unicode-range: U+C3D0-C3D7, U+C3DA-C3DB, U+C3DD-C3DE, U+C3E1-C3EC, U+C3EE-C3F3, U+C3F5-C42B, U+C42D-C463, U+C466-C474
+}
+/* Subset: 24 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-24.woff) format('woff');
+	unicode-range: U+D5BC-D5C7, U+D5CA-D5CB, U+D5CD-D5CF, U+D5D1-D5D7, U+D5D9-D5DA, U+D5DC, U+D5DE-D5E3, U+D5E6-D5E7, U+D5E9-D5EB, U+D5ED-D5F6, U+D5F8, U+D5FA-D5FF, U+D602-D603, U+D605-D607, U+D609-D60F, U+D612-D613, U+D616-D61B, U+D61D-D637, U+D63A-D63B, U+D63D-D63F, U+D641-D647, U+D64A-D64C, U+D64E-D653, U+D656-D657, U+D659-D65B, U+D65D-D666, U+D668, U+D66A-D678
+}
+/* Subset: 25 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-25.woff) format('woff');
+	unicode-range: U+C32B-C367, U+C36A-C36B, U+C36D-C36F, U+C371-C377, U+C37A-C37B, U+C37E-C383, U+C385-C387, U+C389-C3CF
+}
+/* Subset: 26 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-26.woff) format('woff');
+	unicode-range: U+C26A-C26B, U+C26D-C26F, U+C271-C273, U+C275-C27B, U+C27E-C287, U+C289-C28F, U+C291-C297, U+C299-C29A, U+C29C-C2A3, U+C2A5-C2A7, U+C2A9-C2AB, U+C2AD-C2B3, U+C2B6, U+C2B8, U+C2BA-C2BB, U+C2BD-C2DB, U+C2DE-C2DF, U+C2E1-C2E2, U+C2E5-C2EA, U+C2EE, U+C2F0, U+C2F2-C2F5, U+C2F7, U+C2FA-C2FB, U+C2FD-C2FF, U+C301-C307, U+C309-C30C, U+C30E-C312, U+C315-C323, U+C325-C328, U+C32A
+}
+/* Subset: 27 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-27.woff) format('woff');
+	unicode-range: U+C1BC-C1C3, U+C1C5-C1DF, U+C1E1-C1FB, U+C1FD-C203, U+C205-C20C, U+C20E, U+C210-C217, U+C21A-C21B, U+C21D-C21E, U+C221-C227, U+C229-C22A, U+C22C, U+C22E, U+C230, U+C233-C24F, U+C251-C257, U+C259-C269
+}
+/* Subset: 28 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-28.woff) format('woff');
+	unicode-range: U+C101-C11B, U+C11F, U+C121-C123, U+C125-C12B, U+C12E, U+C132-C137, U+C13A-C13B, U+C13D-C13F, U+C141-C147, U+C14A, U+C14C-C153, U+C155-C157, U+C159-C15B, U+C15D-C166, U+C169-C16F, U+C171-C177, U+C179-C18B, U+C18E-C18F, U+C191-C193, U+C195-C19B, U+C19D-C19E, U+C1A0, U+C1A2-C1A4, U+C1A6-C1BB
+}
+/* Subset: 29 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-29.woff) format('woff');
+	unicode-range: U+C049-C057, U+C059-C05B, U+C05D-C05F, U+C061-C067, U+C069-C08F, U+C091-C0AB, U+C0AE-C0AF, U+C0B1-C0B3, U+C0B5, U+C0B7-C0BB, U+C0BE, U+C0C2-C0C7, U+C0CA-C0CB, U+C0CD-C0CF, U+C0D1-C0D7, U+C0D9-C0DA, U+C0DC, U+C0DE-C0E3, U+C0E5-C0EB, U+C0ED-C0F3, U+C0F6, U+C0F8, U+C0FA-C0FF
+}
+/* Subset: 30 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-30.woff) format('woff');
+	unicode-range: U+BFA7-BFAF, U+BFB1-BFC4, U+BFC6-BFCB, U+BFCE-BFCF, U+BFD1-BFD3, U+BFD5-BFDB, U+BFDD-C048
+}
+/* Subset: 31 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-31.woff) format('woff');
+	unicode-range: U+BF07, U+BF09-BF3F, U+BF41-BF4F, U+BF52-BF54, U+BF56-BFA6
+}
+/* Subset: 32 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-32.woff) format('woff');
+	unicode-range: U+BE56, U+BE58, U+BE5C-BE5F, U+BE62-BE63, U+BE65-BE67, U+BE69-BE74, U+BE76-BE7B, U+BE7E-BE7F, U+BE81-BE8E, U+BE90, U+BE92-BEA7, U+BEA9-BECF, U+BED2-BED3, U+BED5-BED6, U+BED9-BEE3, U+BEE6-BF06
+}
+/* Subset: 33 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-33.woff) format('woff');
+	unicode-range: U+BDB0-BDD3, U+BDD5-BDEF, U+BDF1-BE0B, U+BE0D-BE0F, U+BE11-BE13, U+BE15-BE43, U+BE46-BE47, U+BE49-BE4B, U+BE4D-BE53
+}
+/* Subset: 34 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-34.woff) format('woff');
+	unicode-range: U+BD03, U+BD06, U+BD08, U+BD0A-BD0F, U+BD11-BD22, U+BD25-BD47, U+BD49-BD58, U+BD5A-BD7F, U+BD82-BD83, U+BD85-BD87, U+BD8A-BD8F, U+BD91-BD92, U+BD94, U+BD96-BD98, U+BD9A-BDAF
+}
+/* Subset: 35 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-35.woff) format('woff');
+	unicode-range: U+D507, U+D509-D50B, U+D50D-D513, U+D515-D53B, U+D53E-D53F, U+D541-D543, U+D545-D54C, U+D54E, U+D550, U+D552-D557, U+D55A-D55B, U+D55D-D55F, U+D561-D564, U+D566-D567, U+D56A, U+D56C, U+D56E-D573, U+D576-D577, U+D579-D583, U+D585-D586, U+D58A-D5A4, U+D5A6-D5BB
+}
+/* Subset: 36 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-36.woff) format('woff');
+	unicode-range: U+BC4E-BC83, U+BC86-BC87, U+BC89-BC8B, U+BC8D-BC93, U+BC96, U+BC98, U+BC9B-BC9F, U+BCA2-BCA3, U+BCA5-BCA7, U+BCA9-BCB2, U+BCB4-BCBB, U+BCBE-BCBF, U+BCC1-BCC3, U+BCC5-BCCC, U+BCCE-BCD0, U+BCD2-BCD4, U+BCD6-BCF3, U+BCF7, U+BCF9-BCFB, U+BCFD-BD02
+}
+/* Subset: 37 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-37.woff) format('woff');
+	unicode-range: U+BB90-BBA3, U+BBA5-BBAB, U+BBAD-BBBF, U+BBC1-BBF7, U+BBFA-BBFB, U+BBFD-BBFE, U+BC01-BC07, U+BC09-BC0A, U+BC0E, U+BC10, U+BC12-BC13, U+BC17, U+BC19-BC1A, U+BC1E, U+BC20-BC23, U+BC26, U+BC28, U+BC2A-BC2C, U+BC2E-BC2F, U+BC32-BC33, U+BC35-BC37, U+BC39-BC3F, U+BC41-BC42, U+BC44, U+BC46-BC48, U+BC4A-BC4D
+}
+/* Subset: 38 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-38.woff) format('woff');
+	unicode-range: U+BAE6-BAFB, U+BAFD-BB17, U+BB19-BB33, U+BB37, U+BB39-BB3A, U+BB3D-BB43, U+BB45-BB46, U+BB48, U+BB4A-BB4F, U+BB51-BB53, U+BB55-BB57, U+BB59-BB62, U+BB64-BB8F
+}
+/* Subset: 39 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-39.woff) format('woff');
+	unicode-range: U+BA30-BA37, U+BA3A-BA3B, U+BA3D-BA3F, U+BA41-BA47, U+BA49-BA4A, U+BA4C, U+BA4E-BA53, U+BA56-BA57, U+BA59-BA5B, U+BA5D-BA63, U+BA65-BA66, U+BA68-BA6F, U+BA71-BA73, U+BA75-BA77, U+BA79-BA84, U+BA86, U+BA88-BAA7, U+BAAA, U+BAAD-BAAF, U+BAB1-BAB7, U+BABA, U+BABC, U+BABE-BAE5
+}
+/* Subset: 40 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-40.woff) format('woff');
+	unicode-range: U+B96E-B973, U+B976-B977, U+B979-B97B, U+B97D-B983, U+B986, U+B988, U+B98A-B98D, U+B98F-B9AB, U+B9AE-B9AF, U+B9B1-B9B3, U+B9B5-B9BB, U+B9BE, U+B9C0, U+B9C2-B9C7, U+B9CA-B9CB, U+B9CD, U+B9D2-B9D7, U+B9DA, U+B9DC, U+B9DF-B9E0, U+B9E2, U+B9E6-B9E7, U+B9E9-B9F3, U+B9F6, U+B9F8, U+B9FB-BA2F
+}
+/* Subset: 41 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-41.woff) format('woff');
+	unicode-range: U+B8BF-B8CB, U+B8CD-B8E0, U+B8E2-B8E7, U+B8EA-B8EB, U+B8ED-B8EF, U+B8F1-B8F7, U+B8FA, U+B8FC, U+B8FE-B903, U+B905-B917, U+B919-B91F, U+B921-B93B, U+B93D-B957, U+B95A-B95B, U+B95D-B95F, U+B961-B967, U+B969-B96C
+}
+/* Subset: 42 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-42.woff) format('woff');
+	unicode-range: U+B80D-B80F, U+B811-B817, U+B81A, U+B81C-B823, U+B826-B827, U+B829-B82B, U+B82D-B833, U+B836, U+B83A-B83F, U+B841-B85B, U+B85E-B85F, U+B861-B863, U+B865-B86B, U+B86E, U+B870, U+B872-B8AF, U+B8B1-B8BE
+}
+/* Subset: 43 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-43.woff) format('woff');
+	unicode-range: U+B74D-B75F, U+B761-B763, U+B765-B774, U+B776-B77B, U+B77E-B77F, U+B781-B783, U+B785-B78B, U+B78E, U+B792-B796, U+B79A-B79B, U+B79D-B7A7, U+B7AA, U+B7AE-B7B3, U+B7B6-B7C8, U+B7CA-B7EB, U+B7EE-B7EF, U+B7F1-B7F3, U+B7F5-B7FB, U+B7FE, U+B802-B806, U+B80A-B80B
+}
+/* Subset: 44 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-44.woff) format('woff');
+	unicode-range: U+B6A7-B6AA, U+B6AC-B6B0, U+B6B2-B6EF, U+B6F1-B727, U+B72A-B72B, U+B72D-B72E, U+B731-B737, U+B739-B73A, U+B73C-B743, U+B745-B74C
+}
+/* Subset: 45 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-45.woff) format('woff');
+	unicode-range: U+B605-B60F, U+B612-B617, U+B619-B624, U+B626-B69B, U+B69E-B6A3, U+B6A5-B6A6
+}
+/* Subset: 46 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-46.woff) format('woff');
+	unicode-range: U+D464-D477, U+D47A-D47B, U+D47D-D47F, U+D481-D487, U+D489-D48A, U+D48C, U+D48E-D4E7, U+D4E9-D503, U+D505-D506
+}
+/* Subset: 47 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-47.woff) format('woff');
+	unicode-range: U+B55F, U+B562-B583, U+B585-B59F, U+B5A2-B5A3, U+B5A5-B5A7, U+B5A9-B5B2, U+B5B5-B5BA, U+B5BD-B604
+}
+/* Subset: 48 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-48.woff) format('woff');
+	unicode-range: U+B4A5-B4B6, U+B4B8-B4BF, U+B4C1-B4C7, U+B4C9-B4DB, U+B4DE-B4DF, U+B4E1-B4E2, U+B4E5-B4EB, U+B4EE, U+B4F0, U+B4F2-B513, U+B516-B517, U+B519-B51A, U+B51D-B523, U+B526, U+B528, U+B52B-B52F, U+B532-B533, U+B535-B537, U+B539-B53F, U+B541-B544, U+B546-B54B, U+B54D-B54F, U+B551-B55B, U+B55D-B55E
+}
+/* Subset: 49 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-49.woff) format('woff');
+	unicode-range: U+B3F8-B3FB, U+B3FD-B40F, U+B411-B417, U+B419-B41B, U+B41D-B41F, U+B421-B427, U+B42A-B42B, U+B42D-B44F, U+B452-B453, U+B455-B457, U+B459-B45F, U+B462-B464, U+B466-B46B, U+B46D-B47F, U+B481-B4A3
+}
+/* Subset: 50 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-50.woff) format('woff');
+	unicode-range: U+B342-B353, U+B356-B357, U+B359-B35B, U+B35D-B35E, U+B360-B363, U+B366, U+B368, U+B36A-B36D, U+B36F, U+B372-B373, U+B375-B377, U+B379-B37F, U+B381-B382, U+B384, U+B386-B38B, U+B38D-B3C3, U+B3C6-B3C7, U+B3C9-B3CA, U+B3CD-B3D3, U+B3D6, U+B3D8, U+B3DA-B3F7
+}
+/* Subset: 51 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-51.woff) format('woff');
+	unicode-range: U+B27C-B283, U+B285-B28F, U+B292-B293, U+B295-B297, U+B29A-B29F, U+B2A1-B2A4, U+B2A7-B2A9, U+B2AB, U+B2AD-B2C7, U+B2CA-B2CB, U+B2CD-B2CF, U+B2D1-B2D7, U+B2DA, U+B2DC, U+B2DE-B2E3, U+B2E7, U+B2E9-B2EA, U+B2EF-B2F3, U+B2F6, U+B2F8, U+B2FA-B2FB, U+B2FD-B2FE, U+B302-B303, U+B305-B307, U+B309-B30F, U+B312, U+B316-B31B, U+B31D-B341
+}
+/* Subset: 52 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-52.woff) format('woff');
+	unicode-range: U+B1D6-B1E7, U+B1E9-B1FC, U+B1FE-B203, U+B206-B207, U+B209-B20B, U+B20D-B213, U+B216-B21F, U+B221-B257, U+B259-B273, U+B275-B27B
+}
+/* Subset: 53 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-53.woff) format('woff');
+	unicode-range: U+B120-B122, U+B126-B127, U+B129-B12B, U+B12D-B133, U+B136, U+B138, U+B13A-B13F, U+B142-B143, U+B145-B14F, U+B151-B153, U+B156-B157, U+B159-B177, U+B17A-B17B, U+B17D-B17F, U+B181-B187, U+B189-B18C, U+B18E-B191, U+B195-B1A7, U+B1A9-B1CB, U+B1CD-B1D5
+}
+/* Subset: 54 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-54.woff) format('woff');
+	unicode-range: U+B05F-B07B, U+B07E-B07F, U+B081-B083, U+B085-B08B, U+B08D-B097, U+B09B, U+B09D-B09F, U+B0A2-B0A7, U+B0AA, U+B0B0, U+B0B2, U+B0B6-B0B7, U+B0B9-B0BB, U+B0BD-B0C3, U+B0C6-B0C7, U+B0CA-B0CF, U+B0D1-B0DF, U+B0E1-B0E4, U+B0E6-B107, U+B10A-B10B, U+B10D-B10F, U+B111-B112, U+B114-B117, U+B119-B11A, U+B11C-B11F
+}
+/* Subset: 55 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-55.woff) format('woff');
+	unicode-range: U+AFAC-AFB7, U+AFBA-AFBB, U+AFBD-AFBF, U+AFC1-AFC6, U+AFCA-AFCC, U+AFCE-AFD3, U+AFD5-AFE7, U+AFE9-AFEF, U+AFF1-B00B, U+B00D-B00F, U+B011-B013, U+B015-B01B, U+B01D-B027, U+B029-B043, U+B045-B047, U+B049, U+B04B, U+B04D-B052, U+B055-B056, U+B058-B05C, U+B05E
+}
+/* Subset: 56 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-56.woff) format('woff');
+	unicode-range: U+AF03-AF07, U+AF09-AF2B, U+AF2E-AF33, U+AF35-AF3B, U+AF3E-AF40, U+AF44-AF47, U+AF4A-AF5C, U+AF5E-AF63, U+AF65-AF7F, U+AF81-AFAB
+}
+/* Subset: 57 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-57.woff) format('woff');
+	unicode-range: U+D3BF-D3C7, U+D3CA-D3CF, U+D3D1-D3EB, U+D3EE-D3EF, U+D3F1-D3F3, U+D3F5-D3FB, U+D3FD-D400, U+D402-D45B, U+D45D-D463
+}
+/* Subset: 58 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-58.woff) format('woff');
+	unicode-range: U+AE56-AE5B, U+AE5E-AE60, U+AE62-AE64, U+AE66-AE67, U+AE69-AE6B, U+AE6D-AE83, U+AE85-AEBB, U+AEBF, U+AEC1-AEC3, U+AEC5-AECB, U+AECE, U+AED0, U+AED2-AED7, U+AED9-AEF3, U+AEF5-AF02
+}
+/* Subset: 59 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-59.woff) format('woff');
+	unicode-range: U+AD9C-ADA3, U+ADA5-ADBF, U+ADC1-ADC3, U+ADC5-ADC7, U+ADC9-ADD2, U+ADD4-ADDB, U+ADDD-ADDF, U+ADE1-ADE3, U+ADE5-ADF7, U+ADFA-ADFB, U+ADFD-ADFF, U+AE02-AE07, U+AE0A, U+AE0C, U+AE0E-AE13, U+AE15-AE2F, U+AE31-AE33, U+AE35-AE37, U+AE39-AE3F, U+AE42, U+AE44, U+AE46-AE49, U+AE4B, U+AE4F, U+AE51-AE53, U+AE55
+}
+/* Subset: 60 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-60.woff) format('woff');
+	unicode-range: U+ACE2-ACE3, U+ACE5-ACE6, U+ACE9-ACEF, U+ACF2, U+ACF4, U+ACF7-ACFB, U+ACFE-ACFF, U+AD01-AD03, U+AD05-AD0B, U+AD0D-AD10, U+AD12-AD1B, U+AD1D-AD33, U+AD35-AD48, U+AD4A-AD4F, U+AD51-AD6B, U+AD6E-AD6F, U+AD71-AD72, U+AD77-AD7C, U+AD7E, U+AD80, U+AD82-AD87, U+AD89-AD8B, U+AD8D-AD8F, U+AD91-AD9B
+}
+/* Subset: 61 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-61.woff) format('woff');
+	unicode-range: U+AC25-AC2C, U+AC2E, U+AC30, U+AC32-AC37, U+AC39-AC3F, U+AC41-AC4C, U+AC4E-AC6F, U+AC72-AC73, U+AC75-AC76, U+AC79-AC7F, U+AC82, U+AC84-AC88, U+AC8A-AC8B, U+AC8D-AC8F, U+AC91-AC93, U+AC95-AC9B, U+AC9D-AC9E, U+ACA1-ACA7, U+ACAB, U+ACAD-ACAF, U+ACB1-ACB7, U+ACBA-ACBB, U+ACBE-ACC0, U+ACC2-ACC3, U+ACC5-ACDF
+}
+/* Subset: 62 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-62.woff) format('woff');
+	unicode-range: U+AC02-AC03, U+AC05-AC06, U+AC09-AC0F, U+AC17-AC18, U+AC1B, U+AC1E-AC1F, U+AC21-AC23
+}
+/* Subset: 63 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-63.woff) format('woff');
+	unicode-range: U+338C-339C, U+339F-33A0, U+33A2-33CA, U+33CF-33D0, U+33D3, U+33D6, U+33D8, U+33DB-33DD
+}
+/* Subset: 64 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-64.woff) format('woff');
+	unicode-range: U+3136, U+3138, U+313A-3140, U+3143-3144, U+3150, U+3152, U+3154-3156, U+3158-315B, U+315D-315F, U+3162, U+3164-318C, U+318E, U+3200-321B, U+3251-325A, U+3260-327B, U+327E-327F, U+3380-3384, U+3388-338B
+}
+/* Subset: 65 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-65.woff) format('woff');
+	unicode-range: U+3003, U+3013-3019, U+301C, U+3133, U+3135
+}
+/* Subset: 66 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-66.woff) format('woff');
+	unicode-range: U+2541-254B, U+25A4-25A9, U+25C1, U+25C9, U+25CE, U+25D0-25D1, U+25E6, U+260F, U+2660, U+2664, U+2667-2669, U+266D, U+2776-277F
+}
+/* Subset: 67 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-67.woff) format('woff');
+	unicode-range: U+2479-2487, U+249C-24D1, U+24D3-24D7, U+24D9-24E9, U+24EB-24F4, U+2500-2501, U+2503, U+250C-2513, U+2515-2516, U+2518-2540
+}
+/* Subset: 68 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-68.woff) format('woff');
+	unicode-range: U+D2FF, U+D302-D304, U+D306-D30B, U+D30F, U+D311-D313, U+D315-D31B, U+D31E, U+D322-D324, U+D326-D327, U+D32A-D32B, U+D32D-D32F, U+D331-D337, U+D339-D33C, U+D33E-D37B, U+D37E-D37F, U+D381-D383, U+D385-D38B, U+D38E-D390, U+D392-D397, U+D39A-D39B, U+D39D-D39F, U+D3A1-D3A7, U+D3A9-D3AA, U+D3AC, U+D3AE-D3B3, U+D3B5-D3B7, U+D3B9-D3BB, U+D3BD-D3BE
+}
+/* Subset: 69 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-69.woff) format('woff');
+	unicode-range: U+215B-215E, U+2162-2169, U+2170-2179, U+2195-2199, U+21D2, U+21D4, U+2200, U+2202-2203, U+2207-2208, U+220B, U+220F, U+2211, U+221A, U+221D-221E, U+2220, U+2225, U+2227, U+2229-222C, U+222E, U+2234-2236, U+223D, U+2252, U+2260-2261, U+2264-2267, U+226A-226B, U+2282-2283, U+2286-2287, U+22A5, U+22EF, U+2312, U+2467-2478
+}
+/* Subset: 70 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-70.woff) format('woff');
+	unicode-range: U+00A2-00A5, U+00AC, U+00B1-00B3, U+00B6, U+00B9, U+00BC-00BE, U+00F7, U+02C7, U+02D0, U+02D8-02D9, U+02DB-02DD, U+2015-2016, U+2018-2019, U+2020-2021, U+2025, U+2030, U+2033, U+203C, U+203E, U+2074, U+207F, U+2081-2084, U+2109, U+2113, U+2116, U+2121, U+2126, U+212B, U+2153-2154
+}
+/* Subset: 71 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-71.woff) format('woff');
+	unicode-range: U+02DA, U+2160, U+2194, U+3132, U+3146, U+3149, U+339D, U+AC2D, U+ADC8, U+ADD3, U+AF48, U+B014, U+B134-B135, U+B158, U+B2AA, U+B35F, U+B6A4, U+B9CF, U+BB63, U+BD23, U+BE91, U+C29B, U+C3F4, U+C42C, U+C55C, U+C573, U+C58F, U+C78C, U+C7DD, U+C8F5, U+CAD1, U+CC48, U+CF10, U+CF20, U+D03C, U+D07D, U+D2A0, U+D30E, U+D38D, U+D3A8, U+D3C8, U+D5E5, U+D5F9, U+D6E4, U+FF02, U+FF1C
+}
+/* Subset: 72 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-72.woff) format('woff');
+	unicode-range: U+2466, U+25A1, U+25A3, U+261C, U+3151, U+3157, U+AE14, U+AE6C, U+AEC0, U+AFC7, U+AFC9, U+B01C, U+B028, U+B308, U+B311, U+B314, U+B31C, U+B524, U+B560, U+B764, U+B920, U+B9E3, U+BD48, U+BE7D, U+C0DB, U+C231, U+C270, U+C2E3, U+C37D, U+C3ED, U+C530, U+C6A5, U+C6DC, U+C7A4, U+C954, U+C974, U+D000, U+D565, U+D667, U+D6C5, U+D79D, U+FF1E
+}
+/* Subset: 73 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-73.woff) format('woff');
+	unicode-range: U+2032, U+2465, U+2642, U+3153, U+AC20, U+ACF6, U+AD90, U+AF5D, U+AF80, U+AFCD, U+AFF0, U+B0A1, U+B0B5, U+B1FD, U+B2FC, U+B380, U+B51B, U+B584, U+B5B3, U+B8FD, U+B93C, U+B9F4, U+BB44, U+BC08, U+BC27, U+BC49, U+BE55, U+BE64, U+BFB0, U+BFC5, U+C178, U+C21F, U+C314, U+C4F1, U+C58D, U+C664, U+C698, U+C6A7, U+C6C1, U+C9ED, U+CAC0, U+CACC, U+CAD9, U+CCB5, U+CDCC, U+D0E4, U+D143, U+D320, U+D330, U+D54D, U+FF06, U+FF1F
+}
+/* Subset: 74 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-74.woff) format('woff');
+	unicode-range: U+20A9, U+20AC, U+2190, U+24D8, U+2502, U+2514, U+2592, U+25C7-25C8, U+2663, U+339E, U+AC38, U+AD76, U+AE84, U+AECC, U+B07D, U+B0B1, U+B215, U+B2A0, U+B310, U+B3D7, U+B52A, U+B618, U+B775, U+B797, U+BCD5, U+BD59, U+BE80, U+BEA8, U+BED1, U+BEE4-BEE5, U+C060, U+C2EF, U+C329, U+C3DC, U+C597, U+C5BD, U+C5E5, U+C69C, U+C9D6, U+CA29, U+CA5C, U+CA84, U+CC39, U+CC3B, U+CE89, U+CEE5, U+CF65, U+CF85, U+D058, U+D145, U+D22D, U+D325, U+D37D, U+D3AD, U+D769, U+FF0C
+}
+/* Subset: 75 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-75.woff) format('woff');
+	unicode-range: U+2161, U+2228, U+2299, U+2464, U+2517, U+2640, U+AC07, U+AC1A, U+AC40, U+AD0C, U+AD88, U+ADA4, U+AE01, U+AE65, U+AEBD, U+AEC4, U+AFE8, U+B139, U+B205, U+B383, U+B38C, U+B42C, U+B461, U+B55C, U+B78F, U+B8FB, U+B9F7, U+BAFC, U+BC99, U+BED8, U+BFCD, U+C0BF, U+C0F9, U+C167, U+C204, U+C20F, U+C22F, U+C258, U+C298, U+C2BC, U+C388, U+C501, U+C50C, U+C5B9, U+C5CE, U+C641, U+C648, U+C73D, U+CA50, U+CA61, U+CC4C, U+CEAC, U+D0D4, U+D5F7, U+D6D7, U+FF1A
+}
+/* Subset: 76 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-76.woff) format('woff');
+	unicode-range: U+2103, U+2463, U+25C6, U+25CB, U+266C, U+3001, U+300A, U+314F, U+AC2F, U+AC4D, U+ADC4, U+ADE4, U+AE41, U+AE4D-AE4E, U+AED1, U+AFB9, U+B0E0, U+B299, U+B365, U+B46C, U+B480, U+B4C8, U+B7B4, U+B819, U+B918, U+BAAB, U+BAB9, U+BE8F, U+BED7, U+C0EC, U+C19F, U+C1A5, U+C3D9, U+C464, U+C53D, U+C553, U+C570, U+C5CC, U+C633, U+C6A4, U+C7A3, U+C7A6, U+C886, U+C9D9-C9DA, U+C9EC, U+CA0C, U+CC21, U+CD1B, U+CD78, U+CDC4, U+CEF8, U+CFE4, U+D0A5, U+D0B5, U+D0EC, U+D15D, U+D188, U+D23C, U+D2AC, U+D729, U+D79B, U+FF01, U+FF08-FF09, U+FF5C
+}
+/* Subset: 77 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-77.woff) format('woff');
+	unicode-range: U+223C, U+25B3, U+25B7, U+25BD, U+25CF, U+266A, U+3002, U+300B, U+33A1, U+AC94, U+AEBE, U+AECD, U+AF08, U+AF41, U+AF49, U+B010, U+B053, U+B109, U+B11B, U+B128, U+B154, U+B291, U+B2E6, U+B301, U+B385, U+B525, U+B5B4, U+B729, U+B72F, U+B738, U+B7FF, U+B837, U+B975, U+BA67, U+BB47, U+BC1F, U+BD90, U+BFD4, U+C27C, U+C324, U+C379, U+C3E0, U+C465, U+C53B, U+C58C, U+C610, U+C653, U+C6CD, U+C813, U+C82F, U+C999, U+C9E0, U+CAC4, U+CAD3, U+CBD4, U+CC10, U+CC22, U+CCB8, U+CCBC, U+CDA5, U+CE84, U+CEA3, U+CF67, U+CFE1, U+D241, U+D30D, U+D31C, U+D391, U+D401, U+D479, U+D5C9, U+D5DB, U+D649, U+D6D4
+}
+/* Subset: 78 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-78.woff) format('woff');
+	unicode-range: U+00B0, U+2193, U+2462, U+260E, U+261E, U+300E-300F, U+314D, U+AC89, U+AC9C, U+ACC1, U+AD04, U+AD75, U+AD7D, U+AE45, U+AE61, U+AF42, U+B0AB, U+B0AF, U+B0B3, U+B12C, U+B194, U+B1A8, U+B220, U+B258, U+B284, U+B2FF, U+B315, U+B371, U+B3D4-B3D5, U+B460, U+B527, U+B534, U+B810, U+B818, U+B98E, U+BA55, U+BBAC, U+BC0B, U+BC40, U+BCA1, U+BCCD, U+BD93, U+BE54, U+BE5A, U+BF08, U+BF50, U+BF55, U+BFDC, U+C0C0, U+C0D0, U+C0F4, U+C100, U+C11E, U+C170, U+C20D, U+C274, U+C290, U+C308, U+C369, U+C539, U+C587, U+C5FF, U+C6EC, U+C70C, U+C7AD, U+C7C8, U+C83C, U+C881, U+CB48, U+CC60, U+CE69, U+CE6B, U+CE75, U+CF04, U+CF08, U+CF55, U+CF70, U+CFFC, U+D0B7, U+D1A8, U+D2C8, U+D384, U+D47C, U+D48B, U+D5DD, U+D5E8, U+D720, U+D759
+}
+/* Subset: 79 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-79.woff) format('woff');
+	unicode-range: U+D257-D27F, U+D281-D29B, U+D29D-D29F, U+D2A1-D2AB, U+D2AD-D2B7, U+D2BA-D2BB, U+D2BD-D2BF, U+D2C1-D2C7, U+D2C9-D2EF, U+D2F2-D2F3, U+D2F5-D2F7, U+D2F9-D2FE
+}
+/* Subset: 80 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-80.woff) format('woff');
+	unicode-range: U+2460-2461, U+25A0, U+3010-3011, U+314A, U+314C, U+AD49, U+AE0B, U+AE0D, U+AE43, U+AE5D, U+AECF, U+AF3C, U+AF64, U+AFD4, U+B080, U+B084, U+B0C5, U+B10C, U+B1E8, U+B2AC, U+B36E, U+B451, U+B515, U+B540, U+B561, U+B6AB, U+B6B1, U+B72C, U+B730, U+B744, U+B800, U+B8EC, U+B8F0, U+B904, U+B968, U+B96D, U+B987, U+B9D9, U+BB36, U+BB49, U+BC2D, U+BC43, U+BCF6, U+BD89, U+BE57, U+BE61, U+BED4, U+C090, U+C130, U+C148, U+C19C, U+C2F9, U+C36C, U+C37C, U+C384, U+C3DF, U+C575, U+C584, U+C660, U+C719, U+C816, U+CA4D, U+CA54, U+CABC, U+CB49, U+CC14, U+CFF5, U+D004, U+D038, U+D0B4, U+D0D3, U+D0E0, U+D0ED, U+D131, U+D1B0, U+D31F, U+D33D, U+D3A0, U+D3AB, U+D514, U+D584, U+D6A1, U+D6CC, U+D749, U+D760, U+D799
+}
+/* Subset: 81 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-81.woff) format('woff');
+	unicode-range: U+0024, U+0060, U+2191, U+2606, U+300C-300D, U+3131, U+3134, U+3139, U+3141-3142, U+3148, U+3161, U+3163, U+321C, U+AC31, U+AC77, U+AC9F, U+ACB9, U+ACF0-ACF1, U+ACFD, U+AD73, U+AF3D, U+B00C, U+B04A, U+B057, U+B0C4, U+B188, U+B1CC, U+B214, U+B2DB, U+B2EE, U+B304, U+B4ED, U+B518, U+B5BC, U+B625, U+B69C-B69D, U+B7AC, U+B801, U+B86C, U+B959, U+B95C, U+B985, U+BA48, U+BB58, U+BC0C, U+BC38, U+BC85, U+BC9A, U+BF40, U+C068, U+C0BD, U+C0CC, U+C12F, U+C149, U+C1E0, U+C22B, U+C22D, U+C250, U+C2FC, U+C300, U+C313, U+C370, U+C3D8, U+C557, U+C580, U+C5E3, U+C62E, U+C634, U+C6F0, U+C74D, U+C783, U+C78E, U+C796, U+C7BC, U+C92C, U+CA4C, U+CC1C, U+CC54, U+CC59, U+CE04, U+CF30, U+CFC4, U+D140, U+D321, U+D38C, U+D399, U+D54F, U+D587, U+D5D0, U+D6E8, U+D770
+}
+/* Subset: 82 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-82.woff) format('woff');
+	unicode-range: U+00D7, U+2192, U+25BC, U+3000, U+3137, U+3145, U+315C, U+AC13, U+AC71, U+AC90, U+ACB8, U+ACE7, U+AD7F, U+AE50, U+AEF4, U+AF34, U+AFBC, U+B048, U+B09A, U+B0AD, U+B0BC, U+B113, U+B125, U+B141, U+B20C, U+B2D9, U+B2ED, U+B367, U+B369, U+B374, U+B3CB, U+B4EC, U+B611, U+B760, U+B81B, U+B834, U+B8B0, U+B8E1, U+B989, U+B9D1, U+B9E1, U+B9FA, U+BA4D, U+BA78, U+BB35, U+BB54, U+BBF9, U+BC11, U+BCB3, U+BD05, U+BD95, U+BDD4, U+BE10, U+BED0, U+BF51, U+C0D8, U+C232, U+C2B7, U+C2EB, U+C378, U+C500, U+C52C, U+C549, U+C568, U+C598, U+C5C9, U+C61B, U+C639, U+C67C, U+C717, U+C78A, U+C80A, U+C90C-C90D, U+C950, U+C9E7, U+CBE4, U+CCA9, U+CCE4, U+CDB0, U+CE78, U+CE94, U+CE98, U+CF8C, U+D018, U+D034, U+D0F1, U+D1B1, U+D280, U+D2F8, U+D338, U+D380, U+D3B4, U+D610, U+D69F, U+D6FC, U+D758
+}
+/* Subset: 83 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-83.woff) format('woff');
+	unicode-range: U+2022, U+203B, U+25C0, U+2605, U+2661, U+3147, U+318D, U+ACAA, U+ACBC, U+AD1C, U+AE4A, U+AE5C, U+B044, U+B054, U+B0C8-B0C9, U+B2A6, U+B2D0, U+B35C, U+B364, U+B428, U+B454, U+B465, U+B4B7, U+B4E3, U+B51C, U+B5A1, U+B784, U+B790, U+B7AB, U+B7F4, U+B82C, U+B835, U+B8E9, U+B8F8, U+B9D8, U+B9F9, U+BA5C, U+BA64, U+BABD, U+BB18, U+BB3B, U+BBFF, U+BC0D, U+BC45, U+BC97, U+BCBC, U+BE45, U+BE75, U+BE7C, U+BFCC, U+C0B6, U+C0F7, U+C14B, U+C2B4, U+C30D, U+C4F8, U+C5BB, U+C5D1, U+C5E0, U+C5EE, U+C5FD, U+C606, U+C6C5, U+C6E0, U+C708, U+C81D, U+C820, U+C824, U+C878, U+C918, U+C96C, U+C9E4, U+C9F1, U+CC2E, U+CD09, U+CEA1, U+CEF5, U+CEF7, U+CF64, U+CF69, U+CFE8, U+D035, U+D0AC, U+D230, U+D234, U+D2F4, U+D31D, U+D575, U+D578, U+D608, U+D614, U+D718, U+D751, U+D761, U+D78C, U+D790
+}
+/* Subset: 84 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-84.woff) format('woff');
+	unicode-range: U+2665, U+3160, U+AC12, U+AC14, U+AC16, U+AC81, U+AD34, U+ADE0, U+AE54, U+AEBC, U+AF2C, U+AFC0, U+AFC8, U+B04C, U+B08C, U+B099, U+B0A9, U+B0AC, U+B0AE, U+B0B8, U+B123, U+B179, U+B2E5, U+B2F7, U+B4C0, U+B531, U+B538, U+B545, U+B550, U+B5A8, U+B6F0, U+B728, U+B73B, U+B7AD, U+B7ED, U+B809, U+B864, U+B86D, U+B871, U+B9BF, U+B9F5, U+BA40, U+BA4B, U+BA58, U+BA87, U+BAAC, U+BBC0, U+BC16, U+BC34, U+BD07, U+BD99, U+BE59, U+BFD0, U+C058, U+C0E4, U+C0F5, U+C12D, U+C139, U+C228, U+C529, U+C5C7, U+C635, U+C637, U+C735, U+C77D, U+C787, U+C789, U+C8C4, U+C989, U+C98C, U+C9D0, U+C9D3, U+CC0C, U+CC99, U+CD0C, U+CD2C, U+CD98, U+CDA4, U+CE59, U+CE60, U+CE6D, U+CEA0, U+D0D0-D0D1, U+D0D5, U+D14D, U+D1A4, U+D29C, U+D2F1, U+D301, U+D39C, U+D3BC, U+D4E8, U+D540, U+D5EC, U+D640, U+D750
+}
+/* Subset: 85 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-85.woff) format('woff');
+	unicode-range: U+005E, U+25B2, U+25B6, U+314E, U+AC24, U+ACE1, U+ACE4, U+AE68, U+AF2D, U+B0D0, U+B0E5, U+B150, U+B155, U+B193, U+B2C9, U+B2DD, U+B3C8, U+B3FC, U+B410, U+B458, U+B4DD, U+B5A0, U+B5A4, U+B5BB, U+B7B5, U+B838, U+B840, U+B86F, U+B8F9, U+B960, U+B9E5, U+BAB8, U+BB50, U+BC1D, U+BC24-BC25, U+BCA8, U+BCBD, U+BD04, U+BD10, U+BD24, U+BE48, U+BE5B, U+BE68, U+C05C, U+C12C, U+C140, U+C15C, U+C168, U+C194, U+C219, U+C27D, U+C2A8, U+C2F1, U+C2F8, U+C368, U+C554-C555, U+C559, U+C564, U+C5D8, U+C5FC, U+C625, U+C65C, U+C6B1, U+C728, U+C794, U+C84C, U+C88C, U+C8E0, U+C8FD, U+C998, U+C9DD, U+CC0D, U+CC30, U+CEEC, U+CF13, U+CF1C, U+CF5C, U+D050, U+D07C, U+D0A8, U+D134, U+D138, U+D154, U+D1F4, U+D2BC, U+D329, U+D32C, U+D3D0, U+D3F4, U+D3FC, U+D56B, U+D5CC, U+D600-D601, U+D639, U+D6C8, U+D754, U+D765
+}
+/* Subset: 86 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-86.woff) format('woff');
+	unicode-range: U+003C-003D, U+2026, U+24D2, U+314B, U+AC11, U+ACF3, U+AD74, U+AD81, U+ADF9, U+AE34, U+AF43, U+AFB8, U+B05D, U+B07C, U+B110, U+B118, U+B17C, U+B180, U+B18D, U+B192, U+B2CC, U+B355, U+B378, U+B4A4, U+B4EF, U+B78D, U+B799, U+B7A9, U+B7FD, U+B807, U+B80C, U+B839, U+B9B4, U+B9DB, U+BA3C, U+BAB0, U+BBA4, U+BC94, U+BE4C, U+C154, U+C1C4, U+C26C, U+C2AC, U+C2ED, U+C4F4, U+C55E, U+C561, U+C571, U+C5B5, U+C5C4, U+C654-C655, U+C695, U+C6E8, U+C6F9, U+C724, U+C751, U+C775, U+C7A0, U+C7C1, U+C874, U+C880, U+C9D5, U+C9F8, U+CABD, U+CC29, U+CC2C, U+CCA8, U+CCAB, U+CCD0, U+CE21, U+CE35, U+CE7C, U+CE90, U+CEE8, U+CEF4, U+CFE0, U+D070, U+D0B9, U+D0C1, U+D0C4, U+D0C8, U+D15C, U+D1A1, U+D2C0, U+D300, U+D314, U+D3ED, U+D478, U+D480, U+D48D, U+D508, U+D53D, U+D5E4, U+D611, U+D61C, U+D68D, U+D6A8, U+D798
+}
+/* Subset: 87 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-87.woff) format('woff');
+	unicode-range: U+0023, U+0025, U+005F, U+00A9, U+AC08, U+AC78, U+ACA8, U+ACAC, U+ACE8, U+AD70, U+ADC0, U+ADDC, U+B137, U+B140, U+B208, U+B290, U+B2F5, U+B3C5, U+B3CC, U+B420, U+B429, U+B529, U+B530, U+B77D, U+B79C, U+B7A8, U+B7C9, U+B7F0, U+B7FC, U+B828, U+B860, U+B9AD, U+B9C1, U+B9C9, U+B9DD-B9DE, U+B9E8, U+BA38-BA39, U+BABB, U+BC00, U+BC8C, U+BCA0, U+BCA4, U+BCD1, U+BCFC, U+BD09, U+BDF0, U+BE60, U+C0AD, U+C0B4, U+C0BC, U+C190, U+C1FC, U+C220, U+C288, U+C2B9, U+C2F6, U+C528, U+C545, U+C558, U+C5BC, U+C5D4, U+C600, U+C644, U+C6C0, U+C6C3, U+C721, U+C798, U+C7A1, U+C811, U+C838, U+C871, U+C904, U+C990, U+C9DC, U+CC38, U+CC44, U+CCA0, U+CD1D, U+CD95, U+CDA9, U+CE5C, U+CF00, U+CF58, U+D150, U+D22C, U+D305, U+D328, U+D37C, U+D3F0, U+D551, U+D5A5, U+D5C8, U+D5D8, U+D63C, U+D64D, U+D669, U+D734, U+D76C
+}
+/* Subset: 88 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-88.woff) format('woff');
+	unicode-range: U+0026, U+002B, U+003E, U+0040, U+007E, U+AC01, U+AC19, U+AC1D, U+ACA0, U+ACA9, U+ACB0, U+AD8C, U+AE09, U+AE38, U+AE40, U+AED8, U+B09C, U+B0A0, U+B108, U+B204, U+B298, U+B2D8, U+B2EB-B2EC, U+B2F4, U+B313, U+B358, U+B450, U+B4E0, U+B54C, U+B610, U+B780, U+B78C, U+B791, U+B8E8, U+B958, U+B974, U+B984, U+B9B0, U+B9BC-B9BD, U+B9CE, U+BA70, U+BBFC, U+BC0F, U+BC15, U+BC1B, U+BC31, U+BC95, U+BCC0, U+BCC4, U+BD81, U+BD88, U+C0C8, U+C11D, U+C13C, U+C158, U+C18D, U+C1A1, U+C21C, U+C4F0, U+C54A, U+C560, U+C5B8, U+C5C8, U+C5F4, U+C628, U+C62C, U+C678, U+C6CC, U+C808, U+C810, U+C885, U+C88B, U+C900, U+C988, U+C99D, U+C9C8, U+CC3D-CC3E, U+CC45, U+CD08, U+CE20, U+CEE4, U+D074, U+D0A4, U+D0DD, U+D2B9, U+D3B8, U+D3C9, U+D488, U+D544, U+D559, U+D56D, U+D588, U+D615, U+D648, U+D655, U+D658, U+D65C
+}
+/* Subset: 89 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-89.woff) format('woff');
+	unicode-range: U+0048, U+007C, U+AC10, U+AC15, U+AC74, U+AC80, U+AC83, U+ACC4, U+AD11, U+AD50, U+AD6D, U+ADFC, U+AE00, U+AE08, U+AE4C, U+B0A8, U+B124, U+B144, U+B178, U+B274, U+B2A5, U+B2E8, U+B2F9, U+B354, U+B370, U+B418, U+B41C, U+B4F1, U+B514, U+B798, U+B808, U+B824-B825, U+B8CC, U+B978, U+B9D0, U+B9E4, U+BAA9, U+BB3C, U+BC18, U+BC1C, U+BC30, U+BC84, U+BCF5, U+BCF8, U+BD84, U+BE0C, U+BE14, U+C0B0, U+C0C9, U+C0DD, U+C124, U+C2DD, U+C2E4, U+C2EC, U+C54C, U+C57C-C57D, U+C591, U+C5C5-C5C6, U+C5ED, U+C608, U+C640, U+C6B8, U+C6D4, U+C784, U+C7AC, U+C800-C801, U+C9C1, U+C9D1, U+CC28, U+CC98, U+CC9C, U+CCAD, U+CD5C, U+CD94, U+CD9C, U+CDE8, U+CE68, U+CF54, U+D0DC, U+D14C, U+D1A0, U+D1B5, U+D2F0, U+D30C, U+D310, U+D398, U+D45C, U+D50C, U+D53C, U+D560, U+D568, U+D589, U+D604, U+D6C4, U+D788
+}
+/* Subset: 90 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-90.woff) format('woff');
+	unicode-range: U+D1B4, U+D1B6-D1F3, U+D1F5-D22B, U+D22E-D22F, U+D231-D233, U+D235-D23B, U+D23D-D240, U+D242-D256
+}
+/* Subset: 91 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-91.woff) format('woff');
+	unicode-range: U+0039, U+0049, U+004D-004E, U+AC04, U+AC1C, U+AC70, U+AC8C, U+ACBD, U+ACF5, U+ACFC, U+AD00, U+AD6C, U+ADF8, U+B098, U+B0B4, U+B294, U+B2C8, U+B300, U+B3C4, U+B3D9, U+B4DC, U+B4E4, U+B77C, U+B7EC, U+B85D, U+B97C, U+B9C8, U+B9CC, U+BA54, U+BA74, U+BA85, U+BAA8, U+BB34, U+BB38, U+BBF8, U+BC14, U+BC29, U+BC88, U+BCF4, U+BD80, U+BE44, U+C0C1, U+C11C, U+C120, U+C131, U+C138, U+C18C, U+C218, U+C2B5, U+C2E0, U+C544, U+C548, U+C5B4, U+C5D0, U+C5EC, U+C5F0, U+C601, U+C624, U+C694, U+C6A9, U+C6B0, U+C6B4, U+C6D0, U+C704, U+C720, U+C73C, U+C740, U+C744, U+C74C, U+C758, U+C77C, U+C785, U+C788, U+C790-C791, U+C7A5, U+C804, U+C815, U+C81C, U+C870, U+C8FC, U+C911, U+C9C4, U+CCB4, U+CE58, U+CE74, U+D06C, U+D0C0, U+D130, U+D2B8, U+D3EC, U+D504, U+D55C, U+D569, U+D574, U+D638, U+D654, U+D68C
+}
+/* Subset: 92 */
+@font-face {
+	font-family: 'IBM Plex Sans KR';
+	font-style: normal;
+	font-weight: 100;
+	src: url(IBMPlexSansKR-Thin-92.woff) format('woff');
+	unicode-range: U+0020-0022, U+0027-002A, U+002C-0038, U+003A-003B, U+003F, U+0041-0047, U+004A-004C, U+004F-005D, U+0061-007B, U+007D, U+00AB, U+00AE, U+00B7, U+00BB, U+2013-2014, U+201C-201D, U+2122, U+AC00, U+ACE0, U+AE30, U+B2E4, U+B85C, U+B9AC, U+C0AC, U+C2A4, U+C2DC, U+C774, U+C778, U+C9C0, U+D558
+}

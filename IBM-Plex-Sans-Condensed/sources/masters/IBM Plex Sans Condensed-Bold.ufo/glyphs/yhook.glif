@@ -5,6 +5,9 @@
   <outline>
     <component base="y"/>
     <component base="hookcomb" xOffset="248"/>
+    <contour>
+      <point x="395.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

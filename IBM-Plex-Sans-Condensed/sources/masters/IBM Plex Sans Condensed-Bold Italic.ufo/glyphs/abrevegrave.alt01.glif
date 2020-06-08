@@ -4,6 +4,12 @@
   <outline>
     <component base="a.alt01"/>
     <component base="brevegrave" xOffset="293"/>
+    <contour>
+      <point x="218.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="450.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

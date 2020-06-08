@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Abreveacute" format="1">
-  <advance width="591"/>
+  <advance width="590"/>
   <unicode hex="1EAE"/>
   <outline>
     <component base="A"/>
-    <component base="breveacute.case" xOffset="386"/>
+    <component base="breveacute.case" xOffset="385"/>
+    <contour>
+      <point x="256.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="526.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

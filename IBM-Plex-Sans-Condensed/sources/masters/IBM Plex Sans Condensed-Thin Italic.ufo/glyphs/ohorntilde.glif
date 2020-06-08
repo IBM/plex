@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorntilde" format="1">
-  <advance width="482"/>
+  <advance width="484"/>
   <unicode hex="1EE1"/>
   <outline>
     <component base="ohorn"/>
     <component base="tilde.alt01" xOffset="20"/>
+    <contour>
+      <point x="192.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

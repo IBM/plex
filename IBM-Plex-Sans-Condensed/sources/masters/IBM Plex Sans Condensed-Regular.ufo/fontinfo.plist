@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>698</integer>
 	<key>copyright</key>
-	<string>Copyright 2018 IBM Corp. All rights reserved.</string>
+	<string>Copyright 2019 IBM Corp. All rights reserved.</string>
 	<key>descender</key>
 	<integer>-220</integer>
 	<key>familyName</key>
@@ -18,11 +18,10 @@
 	<integer>1974</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSansCond</string>
+	<key>note</key>
+	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeHeadCreated</key>
-	<string>2018/10/26 14:28:22</string>
-	<key>openTypeHeadFlags</key>
-	<array>
-	</array>
+	<string>2019/10/26 14:28:22</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1025</integer>
 	<key>openTypeHheaDescender</key>
@@ -41,12 +40,16 @@
 	<string>Bold Monday</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.boldmonday.com</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>IBM Plex Sans Condensed</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
 	<key>openTypeNameSampleText</key>
 	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSansCondensed;1.001;2018</string>
+	<string>IBM;IBMPlexSansCondensed;1.002;2020</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.001 2018</string>
+	<string>Version 1.002 2020</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -73,9 +76,6 @@
 		<integer>0</integer>
 		<integer>2</integer>
 		<integer>3</integer>
-	</array>
-	<key>openTypeOS2Selection</key>
-	<array>
 	</array>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>304</integer>
@@ -121,7 +121,6 @@
 		<integer>35</integer>
 		<integer>36</integer>
 		<integer>37</integer>
-		<integer>38</integer>
 		<integer>45</integer>
 		<integer>60</integer>
 		<integer>62</integer>
@@ -166,7 +165,7 @@
 	<array>
 	</array>
 	<key>postscriptFontName</key>
-	<string>IBMPlexSansCond</string>
+	<string>IBMPlexSans-Cond</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
@@ -189,7 +188,7 @@
 	<array>
 	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-95</integer>
+	<integer>-125</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>60</integer>
 	<key>postscriptUniqueID</key>
@@ -199,22 +198,22 @@
 	<key>postscriptWindowsCharacterSet</key>
 	<integer>1</integer>
 	<key>styleMapFamilyName</key>
-	<string>IBM Plex Sans Condensed</string>
+	<string>IBM Plex Sans Cond</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>trademark</key>
-	<string>IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide.</string>
+	<string>IBM Plex® is a trademark of IBM Corp, registered in many jurisdictions worldwide.</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>xHeight</key>
 	<integer>516</integer>
 	<key>year</key>
-	<integer>2018</integer>
+	<integer>2020</integer>
 </dict>
 </plist>

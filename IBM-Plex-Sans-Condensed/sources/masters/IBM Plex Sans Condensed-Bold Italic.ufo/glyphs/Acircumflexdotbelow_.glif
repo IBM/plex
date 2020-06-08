@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflexdotbelow" format="1">
-  <advance width="591"/>
+  <advance width="590"/>
   <unicode hex="1EAC"/>
   <outline>
     <component base="A"/>
-    <component base="circumflex.case" xOffset="114"/>
-    <component base="dotbelowcomb" xOffset="257"/>
+    <component base="circumflex.case" xOffset="113"/>
+    <component base="dotbelowcomb" xOffset="256"/>
+    <contour>
+      <point x="526.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

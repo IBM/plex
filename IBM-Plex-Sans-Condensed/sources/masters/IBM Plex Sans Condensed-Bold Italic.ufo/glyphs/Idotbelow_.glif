@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idotbelow" format="1">
-  <advance width="386"/>
+  <advance width="387"/>
   <unicode hex="1ECA"/>
   <outline>
     <component base="I"/>
     <component base="dotbelowcomb" xOffset="142"/>
+    <contour>
+      <point x="287.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="283.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

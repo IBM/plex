@@ -3,9 +3,15 @@
   <advance width="491"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="dotlessj" xOffset="248"/>
     <component base="acute" xOffset="-97"/>
+    <component base="dotlessj" xOffset="248"/>
     <component base="acute" xOffset="156"/>
+    <contour>
+      <point x="103.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="167.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

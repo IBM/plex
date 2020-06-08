@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>698</integer>
 	<key>copyright</key>
-	<string>Copyright 2018 IBM Corp. All rights reserved.</string>
+	<string>Copyright 2020 IBM Corp. All rights reserved.</string>
 	<key>descender</key>
 	<integer>-220</integer>
 	<key>familyName</key>
@@ -44,12 +44,10 @@
 	<string>IBM Plex Serif</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Bold</string>
-	<key>openTypeNameSampleText</key>
-	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSerif-Bold;2.005;2018</string>
+	<string>IBM;IBMPlexSerif-Bold;2.006;2020</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.005 2018</string>
+	<string>Version 2.006 2020</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -102,11 +100,11 @@
 	<array>
 	</array>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>1025</integer>
+	<integer>780</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-275</integer>
+	<integer>-220</integer>
 	<key>openTypeOS2TypoLineGap</key>
-	<integer>0</integer>
+	<integer>300</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
 		<integer>0</integer>
@@ -134,9 +132,9 @@
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>1150</integer>
+	<integer>1025</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>286</integer>
+	<integer>275</integer>
 	<key>postscriptBlueFuzz</key>
 	<integer>0</integer>
 	<key>postscriptBlueScale</key>
@@ -213,16 +211,16 @@
 	<key>styleName</key>
 	<string>Bold</string>
 	<key>trademark</key>
-	<string>IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide.</string>
+	<string>IBM Plex® is a trademark of IBM Corp, registered in many jurisdictions worldwide.</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
 	<integer>2</integer>
 	<key>versionMinor</key>
-	<integer>5</integer>
+	<integer>6</integer>
 	<key>xHeight</key>
 	<integer>524</integer>
 	<key>year</key>
-	<integer>2018</integer>
+	<integer>2020</integer>
 </dict>
 </plist>
