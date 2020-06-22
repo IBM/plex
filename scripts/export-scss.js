@@ -32,8 +32,9 @@ const filesToWrite = families
         const innerFiles = unicodes
           .filter(unicode => family.unicodes.includes(unicode.type))
           .map(unicode => {
+            const fileNameRoot = family.preferredName || family.type;
             const filename = formatFilename([
-              family.type,
+              fileNameRoot,
               weight.type,
               weight.variant,
               `_${unicode.type}.scss`,
@@ -42,7 +43,7 @@ const filesToWrite = families
               return null;
             return {
               filename: `${OUTPUT_DIRECTORY}/${filename.split(' ').join('-')}`,
-              content: createFontFace(filename, family, weight, unicode),
+              content: createFontFace(family, weight, unicode),
               unicode,
             };
           })
@@ -54,9 +55,11 @@ const filesToWrite = families
         // Ignore italic fonts if flag present
         if (family.hasItalic === false && weight.variant === 'Italic')
           return null;
+        
+        const fileNameRoot = family.preferredName || family.type;
 
         const filename = formatFilename([
-          family.type,
+          fileNameRoot,
           weight.type,
           weight.variant,
           '_index.scss',
@@ -77,7 +80,7 @@ const filesToWrite = families
             return `@import '${importPath}';`;
           })
           .join('\n');
-        const contentWhole = createFontFace(filename, family, weight);
+        const contentWhole = createFontFace(family, weight);
 
         // We spread all the inner files, since they are valid files that we'll
         // want to create in the future, and then reduce over the whole
@@ -99,7 +102,10 @@ const filesToWrite = families
 
     // Here we'll generate a `_index.scss` partial for a specific font family
     // that includes all the various weight files generated for the font-family.
-    const filename = `${OUTPUT_DIRECTORY}/${family.type
+
+    const fontFileRoot = family.preferredName || family.type;
+    
+    const filename = `${OUTPUT_DIRECTORY}/${fontFileRoot
       .split(' ')
       .join('-')}/_index.scss`;
     const content = files
@@ -128,9 +134,10 @@ const filesToWrite = families
 
 // Remove each generated font family directory (if it exists)
 families.forEach(family => {
+  const fontFileRoot = family.preferredName || family.type;
   const familyDirectory = path.resolve(
     OUTPUT_DIRECTORY,
-    family.type.toLowerCase()
+    fontFileRoot.toLowerCase()
   );
   rimraf.sync(familyDirectory);
 });
@@ -140,16 +147,14 @@ filesToWrite.forEach(({ filename, content }) => {
   fs.outputFileSync(filename, content, 'utf8');
 });
 
+const familyStrings = families.map(family => {
+  const fontFileRoot = family.preferredName || family.type;
+  return `@import '${fontFileRoot.split(' ').join('-').toLowerCase()}/index';`
+});
+
 // Create partial for all families
 const rootPartial = `\n$font-prefix: '..' !default;
 
-${families
-  .map(
-    family =>
-      `@import '${family.type
-        .split(' ')
-        .join('-')
-        .toLowerCase()}/index';`
-  )
-  .join('\n')}`;
+${familyStrings.join('\n')}`;
+
 fs.outputFileSync(`${OUTPUT_DIRECTORY}/ibm-plex.scss`, rootPartial, 'utf8');

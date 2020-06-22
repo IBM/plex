@@ -10,7 +10,8 @@ const families = [
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic', 'Greek'],
   },
   {
-    type: 'Sans Condensed',
+    type: 'Sans Cond',
+    preferredName: 'Sans Condensed',
     name: 'IBM Plex Sans Condensed',
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi'],
   },

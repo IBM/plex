@@ -17,14 +17,19 @@ exports.formatFilename = formatFilename;
  * `createFontFace` is used to generate the actual `@font-face` declarations
  * that get written to the appropriate files.
  */
-const createFontFace = (filename, family, weight, unicode = {}) => {
+const createFontFace = (family, weight, unicode = {}) => {
+  
+  // Allows families to define their own preferred file names (IBMPlexCondensed instead of IBMPlexCond)
+  const fontFileRoot = family.preferredName || family.type;
+
   const fontFileName = [
-    `IBMPlex${family.type.split(' ').join('')}`,
+    `IBMPlex${fontFileRoot.split(' ').join('')}`,
     weight.variant ? weight.type + weight.variant : weight.type,
     unicode.type,
   ]
-    .filter(Boolean)
-    .join('-');
+  .filter(Boolean)
+  .join('-');
+
   const localFileName = [
     `IBM Plex ${family.type}`,
     weight.type !== 'Regular' &&
@@ -44,13 +49,13 @@ const createFontFace = (filename, family, weight, unicode = {}) => {
     local('${localPostscriptName}')`;
 
   const urls = {
-    woff: `#{$font-prefix}/IBM-Plex-${family.type
+    woff: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
       .join('-')}/fonts/complete/woff/${fontFileName}.woff`,
-    woff2Split: `#{$font-prefix}/IBM-Plex-${family.type
+    woff2Split: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
       .join('-')}/fonts/split/woff2/${fontFileName}.woff2`,
-    woff2Complete: `#{$font-prefix}/IBM-Plex-${family.type
+    woff2Complete: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
       .join('-')}/fonts/complete/woff2/${fontFileName}.woff2`,
   };
