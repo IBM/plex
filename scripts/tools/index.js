@@ -5,10 +5,10 @@
  * Here, `formatFilename` gets rid of false-y values and normalizes each part
  * of the path before joining them with the '/' separator.
  */
-const formatFilename = array =>
+const formatFilename = (array) =>
   array
     .filter(Boolean)
-    .map(string => string.toLowerCase())
+    .map((string) => string.toLowerCase())
     .join('/');
 
 exports.formatFilename = formatFilename;
@@ -18,7 +18,6 @@ exports.formatFilename = formatFilename;
  * that get written to the appropriate files.
  */
 const createFontFace = (family, weight, unicode = {}) => {
-  
   // Allows families to define their own preferred file names (IBMPlexCondensed instead of IBMPlexCond)
   const fontFileRoot = family.preferredName || family.type;
 
@@ -27,20 +26,26 @@ const createFontFace = (family, weight, unicode = {}) => {
     weight.variant ? weight.type + weight.variant : weight.type,
     unicode.type,
   ]
-  .filter(Boolean)
-  .join('-');
+    .filter(Boolean)
+    .join('-');
+
+  // If the family is using truncated types, overried the default weight type
+  let weightType = weight.type;
+  if (family.truncatedType && weight.properties.truncatedType) {
+    weightType = weight.properties.truncatedType;
+  }
 
   const localFileName = [
     `IBM Plex ${family.type}`,
-    weight.type !== 'Regular' &&
-      (weight.variant ? `${weight.type} ${weight.variant}` : weight.type),
+    weightType !== 'Regular' &&
+      (weight.variant ? `${weightType} ${weight.variant}` : weightType),
   ]
     .filter(Boolean)
     .join(' ');
   const localPostscriptName = [
     `IBMPlex${family.type.split(' ').join('')}`,
-    weight.type !== 'Regular' &&
-      (weight.variant ? `-${weight.type}${weight.variant}` : `-${weight.type}`),
+    weightType !== 'Regular' &&
+      (weight.variant ? `-${weightType}${weight.variant}` : `-${weightType}`),
   ]
     .filter(Boolean)
     .join('');
