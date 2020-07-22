@@ -18,7 +18,7 @@ const weights = [
     type: 'ExtraLight',
     properties: {
       fontStyle: 'normal',
-      truncatedType: 'Extlt',
+      truncatedType: 'ExtLt',
       fontWeight: 200,
     },
   },
@@ -26,7 +26,7 @@ const weights = [
     type: 'ExtraLight',
     variant: 'Italic',
     properties: {
-      truncatedType: 'Extlt',
+      truncatedType: 'ExtLt',
       fontStyle: 'italic',
       fontWeight: 200,
     },
