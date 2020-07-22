@@ -18,6 +18,7 @@ const weights = [
     type: 'ExtraLight',
     properties: {
       fontStyle: 'normal',
+      truncatedType: 'ExtLt',
       fontWeight: 200,
     },
   },
@@ -25,6 +26,7 @@ const weights = [
     type: 'ExtraLight',
     variant: 'Italic',
     properties: {
+      truncatedType: 'ExtLt',
       fontStyle: 'italic',
       fontWeight: 200,
     },
@@ -56,6 +58,7 @@ const weights = [
     type: 'Medium',
     properties: {
       fontStyle: 'normal',
+      truncatedType: 'Medm',
       fontWeight: 500,
     },
   },
@@ -63,6 +66,7 @@ const weights = [
     type: 'Medium',
     variant: 'Italic',
     properties: {
+      truncatedType: 'Medm',
       fontStyle: 'italic',
       fontWeight: 500,
     },
@@ -79,6 +83,7 @@ const weights = [
     type: 'SemiBold',
     properties: {
       fontStyle: 'normal',
+      truncatedType: 'SmBld',
       fontWeight: 600,
     },
   },
@@ -86,6 +91,7 @@ const weights = [
     type: 'SemiBold',
     variant: 'Italic',
     properties: {
+      truncatedType: 'SmBld',
       fontStyle: 'italic',
       fontWeight: 600,
     },

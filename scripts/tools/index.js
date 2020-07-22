@@ -5,10 +5,10 @@
  * Here, `formatFilename` gets rid of false-y values and normalizes each part
  * of the path before joining them with the '/' separator.
  */
-const formatFilename = array =>
+const formatFilename = (array) =>
   array
     .filter(Boolean)
-    .map(string => string.toLowerCase())
+    .map((string) => string.toLowerCase())
     .join('/');
 
 exports.formatFilename = formatFilename;
@@ -17,25 +17,35 @@ exports.formatFilename = formatFilename;
  * `createFontFace` is used to generate the actual `@font-face` declarations
  * that get written to the appropriate files.
  */
-const createFontFace = (filename, family, weight, unicode = {}) => {
+const createFontFace = (family, weight, unicode = {}) => {
+  // Allows families to define their own preferred file names (IBMPlexCondensed instead of IBMPlexCond)
+  const fontFileRoot = family.preferredName || family.type;
+
   const fontFileName = [
-    `IBMPlex${family.type.split(' ').join('')}`,
+    `IBMPlex${fontFileRoot.split(' ').join('')}`,
     weight.variant ? weight.type + weight.variant : weight.type,
     unicode.type,
   ]
     .filter(Boolean)
     .join('-');
+
+  // If the family is using truncated types, overried the default weight type
+  let weightType = weight.type;
+  if (family.truncatedType && weight.properties.truncatedType) {
+    weightType = weight.properties.truncatedType;
+  }
+
   const localFileName = [
     `IBM Plex ${family.type}`,
-    weight.type !== 'Regular' &&
-      (weight.variant ? `${weight.type} ${weight.variant}` : weight.type),
+    weightType !== 'Regular' &&
+      (weight.variant ? `${weightType} ${weight.variant}` : weightType),
   ]
     .filter(Boolean)
     .join(' ');
   const localPostscriptName = [
     `IBMPlex${family.type.split(' ').join('')}`,
-    weight.type !== 'Regular' &&
-      (weight.variant ? `-${weight.type}${weight.variant}` : `-${weight.type}`),
+    weightType !== 'Regular' &&
+      (weight.variant ? `-${weightType}${weight.variant}` : `-${weightType}`),
   ]
     .filter(Boolean)
     .join('');
@@ -44,13 +54,13 @@ const createFontFace = (filename, family, weight, unicode = {}) => {
     local('${localPostscriptName}')`;
 
   const urls = {
-    woff: `#{$font-prefix}/IBM-Plex-${family.type
+    woff: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
       .join('-')}/fonts/complete/woff/${fontFileName}.woff`,
-    woff2Split: `#{$font-prefix}/IBM-Plex-${family.type
+    woff2Split: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
       .join('-')}/fonts/split/woff2/${fontFileName}.woff2`,
-    woff2Complete: `#{$font-prefix}/IBM-Plex-${family.type
+    woff2Complete: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
       .join('-')}/fonts/complete/woff2/${fontFileName}.woff2`,
   };
