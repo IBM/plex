@@ -122,7 +122,7 @@ const filesToWrite = families
 
     const filename = `${OUTPUT_DIRECTORY}/${fontFileRoot
       .split(' ')
-      .join('-')}/${family.split ? 'index.scss' : '_index.scss'}`;
+      .join('-')}/${family.ownStyleSheet ? 'index.scss' : '_index.scss'}`;
 
     const content = files
       .filter(file => file.weight)
@@ -158,7 +158,7 @@ filesToWrite.forEach(({ filename, content }) => {
 });
 
 const familyStrings = families.map(family => {
-  if (family.split) {
+  if (family.ownStyleSheet) {
     return;
   }
   const fontFileRoot = family.preferredName || family.type;

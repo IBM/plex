@@ -61,7 +61,7 @@ const families = [
     type: 'Sans KR',
     name: 'IBM Plex Sans KR',
     excludedWeights: ['Thin'],
-    split: 'true', // creates it's own css stylesheet
+    ownStyleSheet: true,
     hinted: true,
     hasItalic: false,
     unicodes: koreanUnicodeRanges.map(({ type }) => type),
