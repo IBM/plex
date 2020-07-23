@@ -5,10 +5,10 @@
  * Here, `formatFilename` gets rid of false-y values and normalizes each part
  * of the path before joining them with the '/' separator.
  */
-const formatFilename = (array) =>
+const formatFilename = array =>
   array
     .filter(Boolean)
-    .map((string) => string.toLowerCase())
+    .map(string => string.toLowerCase())
     .join('/');
 
 exports.formatFilename = formatFilename;
@@ -53,16 +53,25 @@ const createFontFace = (family, weight, unicode = {}) => {
   const local = `local('${localFileName}'),
     local('${localPostscriptName}')`;
 
+  // Korean, Japanese and Chinese fonts can be 'unhinted' to save space at the cost of rendering fidelity
+  // If we're splitting based on unicode, then we can  use the higher quality, hinted, files
+  // If we can't split, we can use the unhinted version for our fallback font
   const urls = {
     woff: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
-      .join('-')}/fonts/complete/woff/${fontFileName}.woff`,
+      .join('-')}/fonts/complete/woff/${
+      family.hinted ? 'hinted/' : ''
+    }${fontFileName}.woff`,
     woff2Split: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
-      .join('-')}/fonts/split/woff2/${fontFileName}.woff2`,
+      .join('-')}/fonts/split/woff2/${
+      family.hinted ? 'hinted/' : ''
+    }${fontFileName}.woff2`,
     woff2Complete: `#{$font-prefix}/IBM-Plex-${fontFileRoot
       .split(' ')
-      .join('-')}/fonts/complete/woff2/${fontFileName}.woff2`,
+      .join('-')}/fonts/complete/woff2/${
+      family.hinted ? 'unhinted/' : '' // use unhinted for fallback (complete) fonts
+    }${fontFileName}.woff2`,
   };
 
   const src = unicode.characters
