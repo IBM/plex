@@ -2,12 +2,6 @@ const koreanUnicodeRanges = require('./unicodes/korean');
 
 const families = [
   {
-    type: 'Serif',
-    name: 'IBM Plex Serif',
-    hasItalic: true,
-    unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
-  },
-  {
     type: 'Mono',
     name: 'IBM Plex Mono',
     hasItalic: true,
@@ -52,6 +46,12 @@ const families = [
     unicodes: [],
   },
   {
+    type: 'Serif',
+    name: 'IBM Plex Serif',
+    hasItalic: true,
+    unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
+  },
+  {
     type: 'Sans Arabic',
     name: 'IBM Plex Sans Arabic',
     hasItalic: false,
@@ -60,7 +60,6 @@ const families = [
   {
     type: 'Sans KR',
     name: 'IBM Plex Sans KR',
-    excludedWeights: ['Thin'],
     ownStyleSheet: true,
     hinted: true,
     hasItalic: false,

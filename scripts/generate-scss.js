@@ -32,15 +32,6 @@ const filesToWrite = families
       if (italicWeight && !family.hasItalic) {
         return false;
       }
-
-      // Korean has no `Thin` weight
-      if (
-        family.excludedWeights &&
-        family.excludedWeights.includes(weight.type)
-      ) {
-        return false;
-      }
-      return true;
     });
 
     const files = filteredWeights
