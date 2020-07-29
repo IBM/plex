@@ -1,10 +1,66 @@
 ## [Unreleased]
 
-- IBM Plex CJK
+- IBM Plex Sans JP
+- IBM Plex Sans CN
 - [IBM Plex Mono] Addition of glyphs /currency /prime /primedbl
-- [IBM Plex Sans Condensed] Bug that prevents OTF versions of certain members to be installed on Windows
-  Referenced in [issue 161](https://github.com/IBM/plex/issues/161)
-- [IBM Plex Sans Condensed] Addition of glyphs /currency /prime /primedbl
+- Allow more granular selection of font-families and weights [#329](https://github.com/IBM/plex/issues/329)
+
+# Plex v5.1.0
+
+## IBM Plex Sans KR Styles
+
+### Added
+
+- CSS stylesheets: `css/ibm-plex-sans-kr.css` and `css/ibm-plex-sans-kr.min.css`
+- Sass entrypoint: `scss/sans-kr/index.scss`
+
+Rendering CJK fonts performantly on the web requires many more subsets than western languages. These additional subsets result in many more `font-family` declarations. Adding these declarations to the currently generated stylesheet would cause it to double in size.
+
+For this reason, we've split `IBM Plex Sans KR` off into it's own style sheet. In the future, we'll be exporting similar stylesheets per-language so developers can chose inidividual languages to suit their users.
+
+# Plex v5.0.0
+
+## IBM Plex Sans KR
+
+### Added
+
+- Korean font files
+
+## IBM Plex Sans Condensed
+
+### Added
+
+- glyphs /acaron /acaron.alt01 /icaron /ocaron /ucaron /udieresismacron /udieresisacute /udieresisgrave /udieresiscaron /Acaron /Icaron /Ocaron /Ucaron /Udieresismacron /Udieresisacute /Udieresisgrave /Udieresiscaron to support pinyin
+  referenced in issue 84
+- glyph /longs
+  referenced in issue 158
+- glyphs /prime /primedbl
+  referenced in issue 145
+- glyphs /currency /divisionslash
+- OpenType layout feature “subs”
+- meta table to all generated otf and ttf font files
+
+### Fixed
+
+- Condensed: correction to PS Font Name fields (name ID 6)
+  referenced in #316
+- issue that prevented certain OTF fonts to install on Windows
+  referenced in issue 161 and issue 268
+- certain font names being trimmed in MS Office font menus
+  referenced in issue 302
+- difference in vertical metrics between certain web browsers
+  referenced in issue 254
+- errors in PS hint replacement in all files containing PostScript outlines
+- various small bugs in contours, spacing and features
+
+### Changed
+
+- abbreviated font names used for style mapping (name ID1 + ID2) to improve interoperability
+- replaced commaaccent with cedilla in glyphs /Tcedilla /tcedilla
+  referenced in issue 251
+- disabled bit 38 (Mathematical Operators) from OS/2 UnicodeRanges
+- OpenType layout feature “mark” includes support for combining mark positioning on accented glyphs
+  referenced in issue 152
 
 # Plex v4.0.2
 
