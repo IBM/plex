@@ -1,8 +1,10 @@
-examples
 zip
 test
 scripts
 
 # Ignore font source folders
 **/sources/**
-.DS_Store
+
+.editorconfig
+TODO.md
+.vercel
