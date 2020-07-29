@@ -29,9 +29,11 @@ const filesToWrite = families
       const italicWeight =
         weight.variant === 'Italic' || weight.type === 'Italic';
 
-      if (italicWeight && !family.hasItalic) {
-        return false;
+      if (italicWeight) {
+        return family.hasItalic;
       }
+
+      return true;
     });
 
     const files = filteredWeights
