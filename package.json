@@ -13,7 +13,7 @@
   },
   "scripts": {
     "clean": "rimraf css scss",
-    "build": "npm run clean && npm run build:scss && npm run build:css",
+    "build": "yarn run clean && yarn run build:scss && yarn run build:css",
     "build:zip": "node ./scripts/build-zip.js",
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
