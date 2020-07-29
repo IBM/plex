@@ -14,7 +14,7 @@
   "scripts": {
     "clean": "rimraf css scss",
     "build": "yarn run clean && yarn run build:scss && yarn run build:css",
-    "build:zip": "node ./scripts/build-zip.js",
+    "build:zip": "yarn build && node ./scripts/prepare-zip.js && sh scripts/zip.sh",
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
     "test": "parcel serve ./test/index.html",

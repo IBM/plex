@@ -13,7 +13,7 @@ const getFontDirectories = () => {
 
   // Don't build Variable fonts for now
   return files.filter(
-    name => name.includes('IBM-Plex') 
+    name => name.includes('IBM-Plex') && !name.includes('Variable')
   );
 };
 
@@ -35,8 +35,6 @@ const globDirectory = type => {
     }
 
     const fonts = fs.readdirSync(path.resolve(p));
-
-
 
     fonts.forEach(f =>
       list.push({
@@ -62,9 +60,9 @@ const writeZip = (typeName, folders) => {
   folders.forEach(folder => {
     fs.ensureDirSync(`${OUTPUT_DIRECTORY}/${typeName}/${folder.name}`);
     folder.files.forEach(f => {
-      const source = f.path
+      const source = f.path;
       const dest = `${OUTPUT_DIRECTORY}/${typeName}/${folder.name}/${f.name}`;
-      fs.copySync(source, dest)
+      fs.copySync(source, dest);
     });
   });
 };
@@ -89,12 +87,10 @@ const zip = target => {
 };
 
 const compressAll = () => {
-
   let s = '';
   s += zip('OpenType');
   s += zip('TrueType');
   s += zip('Web');
-
 
   console.log('Run this to generate zip files for git release \n');
   console.log('cd zip');
