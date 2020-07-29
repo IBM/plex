@@ -5,10 +5,10 @@
  * Here, `formatFilename` gets rid of false-y values and normalizes each part
  * of the path before joining them with the '/' separator.
  */
-const formatFilename = (array) =>
+const formatFilename = array =>
   array
     .filter(Boolean)
-    .map((string) => string.toLowerCase())
+    .map(string => string.toLowerCase())
     .join('/');
 
 exports.formatFilename = formatFilename;
@@ -19,12 +19,16 @@ exports.formatFilename = formatFilename;
  */
 const createFontFace = (family, weight, unicode = {}) => {
   // Allows families to define their own preferred file names (IBMPlexCondensed instead of IBMPlexCond)
-  const fontFileRoot = family.preferredName || family.type;
+  const root = family.preferredName || family.type;
+
+  // Handles CJK Unicodes i.e. KR-00, KR-01
+  const unicodeSegment =
+    unicode.type && unicode.type.substring(unicode.type.indexOf('-') + 1);
 
   const fontFileName = [
-    `IBMPlex${fontFileRoot.split(' ').join('')}`,
+    `IBMPlex${root.split(' ').join('')}`,
     weight.variant ? weight.type + weight.variant : weight.type,
-    unicode.type,
+    unicodeSegment,
   ]
     .filter(Boolean)
     .join('-');
@@ -53,16 +57,17 @@ const createFontFace = (family, weight, unicode = {}) => {
   const local = `local('${localFileName}'),
     local('${localPostscriptName}')`;
 
+  const fontFileRoot = root.split(' ').join('-');
   const urls = {
-    woff: `#{$font-prefix}/IBM-Plex-${fontFileRoot
-      .split(' ')
-      .join('-')}/fonts/complete/woff/${fontFileName}.woff`,
-    woff2Split: `#{$font-prefix}/IBM-Plex-${fontFileRoot
-      .split(' ')
-      .join('-')}/fonts/split/woff2/${fontFileName}.woff2`,
-    woff2Complete: `#{$font-prefix}/IBM-Plex-${fontFileRoot
-      .split(' ')
-      .join('-')}/fonts/complete/woff2/${fontFileName}.woff2`,
+    woff: `#{$font-prefix}/IBM-Plex-${fontFileRoot}/fonts/complete/woff/${
+      family.hinted ? 'hinted/' : ''
+    }${fontFileName}.woff`,
+    woff2Split: `#{$font-prefix}/IBM-Plex-${fontFileRoot}/fonts/split/woff2/${
+      family.hinted ? 'hinted/' : ''
+    }${fontFileName}.woff2`,
+    woff2Complete: `#{$font-prefix}/IBM-Plex-${fontFileRoot}/fonts/complete/woff2/${
+      family.hinted ? 'hinted/' : ''
+    }${fontFileName}.woff2`,
   };
 
   const src = unicode.characters

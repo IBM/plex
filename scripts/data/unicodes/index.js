@@ -1,4 +1,5 @@
-import korean from './korean';
+const korean = require('./korean');
+
 const unicodes = [
   {
     type: 'Latin1',

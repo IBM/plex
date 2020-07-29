@@ -1,18 +1,23 @@
+const koreanUnicodeRanges = require('./unicodes/korean');
+
 const families = [
   {
     type: 'Mono',
     name: 'IBM Plex Mono',
+    hasItalic: true,
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
   },
   {
     type: 'Sans',
     name: 'IBM Plex Sans',
+    hasItalic: true,
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic', 'Greek'],
   },
   {
     type: 'Sans Cond',
     preferredName: 'Sans Condensed',
     truncatedType: true,
+    hasItalic: true,
     name: 'IBM Plex Sans Condensed',
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi'],
   },
@@ -43,6 +48,7 @@ const families = [
   {
     type: 'Serif',
     name: 'IBM Plex Serif',
+    hasItalic: true,
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
   },
   {
@@ -50,6 +56,14 @@ const families = [
     name: 'IBM Plex Sans Arabic',
     hasItalic: false,
     unicodes: [],
+  },
+  {
+    type: 'Sans KR',
+    name: 'IBM Plex Sans KR',
+    ownStyleSheet: true,
+    hinted: true,
+    hasItalic: false,
+    unicodes: koreanUnicodeRanges.map(({ type }) => type),
   },
 ];
 

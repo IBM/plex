@@ -1,6 +1,6 @@
 module.exports = [
   {
-    type: 'Korean00',
+    type: 'KR-00',
     characters: [
       'U+2023',
       'U+2044',
@@ -30,7 +30,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean01',
+    type: 'KR-01',
     characters: [
       'U+FF03-FF05',
       'U+FF07',
@@ -45,7 +45,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean02',
+    type: 'KR-02',
     characters: [
       'U+D723-D728',
       'U+D72A-D733',
@@ -68,7 +68,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean03',
+    type: 'KR-03',
     characters: [
       'U+D105-D12F',
       'U+D132-D133',
@@ -89,7 +89,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean04',
+    type: 'KR-04',
     characters: [
       'U+D04B-D04F',
       'U+D051-D057',
@@ -117,7 +117,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean05',
+    type: 'KR-05',
     characters: [
       'U+CFA2-CFC3',
       'U+CFC5-CFDF',
@@ -135,7 +135,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean06',
+    type: 'KR-06',
     characters: [
       'U+CEF0-CEF3',
       'U+CEF6',
@@ -160,7 +160,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean07',
+    type: 'KR-07',
     characters: [
       'U+CE3C-CE57',
       'U+CE5A-CE5B',
@@ -186,7 +186,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean08',
+    type: 'KR-08',
     characters: [
       'U+CD92-CD93',
       'U+CD96-CD97',
@@ -204,7 +204,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean09',
+    type: 'KR-09',
     characters: [
       'U+CCEF-CD07',
       'U+CD0A-CD0B',
@@ -217,7 +217,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean10',
+    type: 'KR-10',
     characters: [
       'U+CC3F-CC43',
       'U+CC46-CC47',
@@ -240,7 +240,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean11',
+    type: 'KR-11',
     characters: [
       'U+CB91-CBD3',
       'U+CBD5-CBE3',
@@ -258,9 +258,12 @@ module.exports = [
       'U+CC3C',
     ],
   },
-  { type: 'Korean12', characters: ['U+CAF4-CB47', 'U+CB4A-CB90'] },
   {
-    type: 'Korean13',
+    type: 'KR-12',
+    characters: ['U+CAF4-CB47', 'U+CB4A-CB90'],
+  },
+  {
+    type: 'KR-13',
     characters: [
       'U+D679-D68B',
       'U+D68E-D69E',
@@ -280,7 +283,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean14',
+    type: 'KR-14',
     characters: [
       'U+CA4A-CA4B',
       'U+CA4E-CA4F',
@@ -299,7 +302,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean15',
+    type: 'KR-15',
     characters: [
       'U+C996-C997',
       'U+C99A-C99C',
@@ -323,7 +326,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean16',
+    type: 'KR-16',
     characters: [
       'U+C8E9-C8F4',
       'U+C8F6-C8FB',
@@ -344,7 +347,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean17',
+    type: 'KR-17',
     characters: [
       'U+C841-C84B',
       'U+C84D-C86F',
@@ -359,7 +362,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean18',
+    type: 'KR-18',
     characters: [
       'U+C779-C77B',
       'U+C77E-C782',
@@ -394,7 +397,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean19',
+    type: 'KR-19',
     characters: [
       'U+C6BB-C6BF',
       'U+C6C2',
@@ -428,7 +431,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean20',
+    type: 'KR-20',
     characters: [
       'U+C5F5-C5FB',
       'U+C5FE',
@@ -465,7 +468,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean21',
+    type: 'KR-21',
     characters: [
       'U+C517-C527',
       'U+C52A-C52B',
@@ -512,7 +515,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean22',
+    type: 'KR-22',
     characters: [
       'U+C475-C4EF',
       'U+C4F2-C4F3',
@@ -523,7 +526,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean23',
+    type: 'KR-23',
     characters: [
       'U+C3D0-C3D7',
       'U+C3DA-C3DB',
@@ -536,7 +539,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean24',
+    type: 'KR-24',
     characters: [
       'U+D5BC-D5C7',
       'U+D5CA-D5CB',
@@ -569,7 +572,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean25',
+    type: 'KR-25',
     characters: [
       'U+C32B-C367',
       'U+C36A-C36B',
@@ -582,7 +585,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean26',
+    type: 'KR-26',
     characters: [
       'U+C26A-C26B',
       'U+C26D-C26F',
@@ -618,7 +621,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean27',
+    type: 'KR-27',
     characters: [
       'U+C1BC-C1C3',
       'U+C1C5-C1DF',
@@ -640,7 +643,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean28',
+    type: 'KR-28',
     characters: [
       'U+C101-C11B',
       'U+C11F',
@@ -669,7 +672,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean29',
+    type: 'KR-29',
     characters: [
       'U+C049-C057',
       'U+C059-C05B',
@@ -697,7 +700,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean30',
+    type: 'KR-30',
     characters: [
       'U+BFA7-BFAF',
       'U+BFB1-BFC4',
@@ -709,7 +712,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean31',
+    type: 'KR-31',
     characters: [
       'U+BF07',
       'U+BF09-BF3F',
@@ -719,7 +722,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean32',
+    type: 'KR-32',
     characters: [
       'U+BE56',
       'U+BE58',
@@ -740,7 +743,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean33',
+    type: 'KR-33',
     characters: [
       'U+BDB0-BDD3',
       'U+BDD5-BDEF',
@@ -754,7 +757,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean34',
+    type: 'KR-34',
     characters: [
       'U+BD03',
       'U+BD06',
@@ -774,7 +777,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean35',
+    type: 'KR-35',
     characters: [
       'U+D507',
       'U+D509-D50B',
@@ -801,7 +804,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean36',
+    type: 'KR-36',
     characters: [
       'U+BC4E-BC83',
       'U+BC86-BC87',
@@ -826,7 +829,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean37',
+    type: 'KR-37',
     characters: [
       'U+BB90-BBA3',
       'U+BBA5-BBAB',
@@ -857,7 +860,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean38',
+    type: 'KR-38',
     characters: [
       'U+BAE6-BAFB',
       'U+BAFD-BB17',
@@ -875,7 +878,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean39',
+    type: 'KR-39',
     characters: [
       'U+BA30-BA37',
       'U+BA3A-BA3B',
@@ -903,7 +906,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean40',
+    type: 'KR-40',
     characters: [
       'U+B96E-B973',
       'U+B976-B977',
@@ -934,7 +937,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean41',
+    type: 'KR-41',
     characters: [
       'U+B8BF-B8CB',
       'U+B8CD-B8E0',
@@ -956,7 +959,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean42',
+    type: 'KR-42',
     characters: [
       'U+B80D-B80F',
       'U+B811-B817',
@@ -978,7 +981,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean43',
+    type: 'KR-43',
     characters: [
       'U+B74D-B75F',
       'U+B761-B763',
@@ -1004,7 +1007,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean44',
+    type: 'KR-44',
     characters: [
       'U+B6A7-B6AA',
       'U+B6AC-B6B0',
@@ -1019,7 +1022,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean45',
+    type: 'KR-45',
     characters: [
       'U+B605-B60F',
       'U+B612-B617',
@@ -1030,7 +1033,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean46',
+    type: 'KR-46',
     characters: [
       'U+D464-D477',
       'U+D47A-D47B',
@@ -1044,7 +1047,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean47',
+    type: 'KR-47',
     characters: [
       'U+B55F',
       'U+B562-B583',
@@ -1057,7 +1060,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean48',
+    type: 'KR-48',
     characters: [
       'U+B4A5-B4B6',
       'U+B4B8-B4BF',
@@ -1086,7 +1089,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean49',
+    type: 'KR-49',
     characters: [
       'U+B3F8-B3FB',
       'U+B3FD-B40F',
@@ -1106,7 +1109,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean50',
+    type: 'KR-50',
     characters: [
       'U+B342-B353',
       'U+B356-B357',
@@ -1133,7 +1136,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean51',
+    type: 'KR-51',
     characters: [
       'U+B27C-B283',
       'U+B285-B28F',
@@ -1166,7 +1169,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean52',
+    type: 'KR-52',
     characters: [
       'U+B1D6-B1E7',
       'U+B1E9-B1FC',
@@ -1181,7 +1184,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean53',
+    type: 'KR-53',
     characters: [
       'U+B120-B122',
       'U+B126-B127',
@@ -1206,7 +1209,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean54',
+    type: 'KR-54',
     characters: [
       'U+B05F-B07B',
       'U+B07E-B07F',
@@ -1236,7 +1239,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean55',
+    type: 'KR-55',
     characters: [
       'U+AFAC-AFB7',
       'U+AFBA-AFBB',
@@ -1262,7 +1265,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean56',
+    type: 'KR-56',
     characters: [
       'U+AF03-AF07',
       'U+AF09-AF2B',
@@ -1277,7 +1280,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean57',
+    type: 'KR-57',
     characters: [
       'U+D3BF-D3C7',
       'U+D3CA-D3CF',
@@ -1291,7 +1294,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean58',
+    type: 'KR-58',
     characters: [
       'U+AE56-AE5B',
       'U+AE5E-AE60',
@@ -1311,7 +1314,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean59',
+    type: 'KR-59',
     characters: [
       'U+AD9C-ADA3',
       'U+ADA5-ADBF',
@@ -1342,7 +1345,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean60',
+    type: 'KR-60',
     characters: [
       'U+ACE2-ACE3',
       'U+ACE5-ACE6',
@@ -1371,7 +1374,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean61',
+    type: 'KR-61',
     characters: [
       'U+AC25-AC2C',
       'U+AC2E',
@@ -1401,7 +1404,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean62',
+    type: 'KR-62',
     characters: [
       'U+AC02-AC03',
       'U+AC05-AC06',
@@ -1413,7 +1416,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean63',
+    type: 'KR-63',
     characters: [
       'U+338C-339C',
       'U+339F-33A0',
@@ -1426,7 +1429,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean64',
+    type: 'KR-64',
     characters: [
       'U+3136',
       'U+3138',
@@ -1449,11 +1452,11 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean65',
+    type: 'KR-65',
     characters: ['U+3003', 'U+3013-3019', 'U+301C', 'U+3133', 'U+3135'],
   },
   {
-    type: 'Korean66',
+    type: 'KR-66',
     characters: [
       'U+2541-254B',
       'U+25A4-25A9',
@@ -1471,7 +1474,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean67',
+    type: 'KR-67',
     characters: [
       'U+2479-2487',
       'U+249C-24D1',
@@ -1486,7 +1489,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean68',
+    type: 'KR-68',
     characters: [
       'U+D2FF',
       'U+D302-D304',
@@ -1519,7 +1522,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean69',
+    type: 'KR-69',
     characters: [
       'U+215B-215E',
       'U+2162-2169',
@@ -1555,7 +1558,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean70',
+    type: 'KR-70',
     characters: [
       'U+00A2-00A5',
       'U+00AC',
@@ -1589,7 +1592,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean71',
+    type: 'KR-71',
     characters: [
       'U+02DA',
       'U+2160',
@@ -1640,7 +1643,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean72',
+    type: 'KR-72',
     characters: [
       'U+2466',
       'U+25A1',
@@ -1687,7 +1690,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean73',
+    type: 'KR-73',
     characters: [
       'U+2032',
       'U+2465',
@@ -1744,7 +1747,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean74',
+    type: 'KR-74',
     characters: [
       'U+20A9',
       'U+20AC',
@@ -1805,7 +1808,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean75',
+    type: 'KR-75',
     characters: [
       'U+2161',
       'U+2228',
@@ -1866,7 +1869,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean76',
+    type: 'KR-76',
     characters: [
       'U+2103',
       'U+2463',
@@ -1935,7 +1938,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean77',
+    type: 'KR-77',
     characters: [
       'U+223C',
       'U+25B3',
@@ -2014,7 +2017,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean78',
+    type: 'KR-78',
     characters: [
       'U+00B0',
       'U+2193',
@@ -2107,7 +2110,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean79',
+    type: 'KR-79',
     characters: [
       'U+D257-D27F',
       'U+D281-D29B',
@@ -2124,7 +2127,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean80',
+    type: 'KR-80',
     characters: [
       'U+2460-2461',
       'U+25A0',
@@ -2215,7 +2218,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean81',
+    type: 'KR-81',
     characters: [
       'U+0024',
       'U+0060',
@@ -2311,7 +2314,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean82',
+    type: 'KR-82',
     characters: [
       'U+00D7',
       'U+2192',
@@ -2412,7 +2415,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean83',
+    type: 'KR-83',
     characters: [
       'U+2022',
       'U+203B',
@@ -2513,7 +2516,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean84',
+    type: 'KR-84',
     characters: [
       'U+2665',
       'U+3160',
@@ -2614,7 +2617,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean85',
+    type: 'KR-85',
     characters: [
       'U+005E',
       'U+25B2',
@@ -2716,7 +2719,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean86',
+    type: 'KR-86',
     characters: [
       'U+003C-003D',
       'U+2026',
@@ -2819,7 +2822,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean87',
+    type: 'KR-87',
     characters: [
       'U+0023',
       'U+0025',
@@ -2922,7 +2925,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean88',
+    type: 'KR-88',
     characters: [
       'U+0026',
       'U+002B',
@@ -3024,7 +3027,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean89',
+    type: 'KR-89',
     characters: [
       'U+0048',
       'U+007C',
@@ -3124,7 +3127,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean90',
+    type: 'KR-90',
     characters: [
       'U+D1B4',
       'U+D1B6-D1F3',
@@ -3137,7 +3140,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean91',
+    type: 'KR-91',
     characters: [
       'U+0039',
       'U+0049',
@@ -3239,7 +3242,7 @@ module.exports = [
     ],
   },
   {
-    type: 'Korean92',
+    type: 'KR-92',
     characters: [
       'U+0020-0022',
       'U+0027-002A',
