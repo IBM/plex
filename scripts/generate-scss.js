@@ -135,16 +135,6 @@ const filesToWrite = families
   })
   .reduce((acc, array) => acc.concat(array));
 
-// Remove each generated font family directory (if it exists)
-families.forEach(family => {
-  const fontFileRoot = family.preferredName || family.type;
-  const familyDirectory = path.resolve(
-    OUTPUT_DIRECTORY,
-    fontFileRoot.toLowerCase()
-  );
-  rimraf.sync(familyDirectory);
-});
-
 // Write all the files that we created above
 filesToWrite.forEach(({ filename, content }) => {
   fs.outputFileSync(filename, content, 'utf8');
