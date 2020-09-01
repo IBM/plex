@@ -86,21 +86,8 @@ const zip = target => {
   return `zip -qr ${f}.zip ${f}\n`;
 };
 
-const compressAll = () => {
-  let s = '';
-  s += zip('OpenType');
-  s += zip('TrueType');
-  s += zip('Web');
-
-  console.log('Run this to generate zip files for git release \n');
-  console.log('cd zip');
-  console.log(s);
-};
-
 writeZip('OpenType', globDirectory('otf'));
 
 writeZip('TrueType', globDirectory('ttf'));
 
 writeWebFiles();
-
-compressAll();
