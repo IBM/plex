@@ -23,6 +23,14 @@
     "prepare": "yarn build"
   },
   "devDependencies": {
+    "@parcel/optimizer-cssnano": "2.0.0-nightly.611",
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.611",
+    "@parcel/packager-css": "2.0.0-nightly.611",
+    "@parcel/packager-html": "2.0.0-nightly.611",
+    "@parcel/transformer-css": "2.0.0-nightly.611",
+    "@parcel/transformer-html": "2.0.0-nightly.611",
+    "@parcel/transformer-postcss": "2.0.0-nightly.611",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.611",
     "archiver": "^3.0.0",
     "fs-extra": "^7.0.0",
     "git-branch": "^2.0.1",
@@ -30,6 +38,7 @@
     "lint-staged": "^4.3.0",
     "node-sass": "^4.7.2",
     "parcel": "^2.0.0-beta.1",
+    "postcss": "^8.2.1",
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2",
     "sass": "^1.26.10"
