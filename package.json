@@ -9,7 +9,7 @@
     "url": "https://github.com/ibm/plex/issues"
   },
   "engines": {
-    "node": ">=14 >=16"
+    "node": ">=14"
   },
   "scripts": {
     "test": "sass --no-source-map test:test",
