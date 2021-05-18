@@ -21,7 +21,7 @@
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prerelease": "npm run build",
-    "release": "release-it"
+    "release": "release-it --preRelease=next"
   },
   "devDependencies": {
     "archiver": "^3.0.0",
