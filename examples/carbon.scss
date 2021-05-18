@@ -1,0 +1,10 @@
+@use "~@ibm/plex/default" as sans;
+@use "~@ibm/plex/mono";
+
+@include sans.light;
+@include sans.regular;
+@include sans.semibold;
+
+@include mono.light;
+@include mono.regular;
+@include mono.semibold;

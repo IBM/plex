@@ -1,11 +1,79 @@
+# IBM Plex 6.0 Breaking Changes
+
+This release will include an overhaul to the IBM Plex Sass build pipeline. It will leverage Sass modules to allow for totally customized font-face declarations depending on the application's supported languages and font distribution preferences.
+
+1. If your application is using the generated, all-language, all-weight css/sass currently shipped with Plex, there will be guidance on how to refine those styles.
+
+2. If your project is using node-sass, it won't be able to utilize this new tooling. You'll likely want to migrate from node-sass to [Dart Sass](https://sass-lang.com/dart-sass), as node-sass and the library it's based on [are deprecated](https://sass-lang.com/blog/libsass-is-deprecated).
+
+See https://github.com/IBM/plex/issues/370 for 6.0 goals and progress.
+
+## Unreleased
+
+IBM Plex Sans JP
+IBM Plex Sans CN
+IBM Plex Mono - Addition of glyphs /currency /prime /primedbl
+
+## IBM PLEX SANS ARABIC V1.2 - 2021-02-14
+
+### Added
+
+Glyphs /alefMaksura_zain-ar.fina.rlig /alefMaksura_zain-ar.fina.rlig.short /alefMaksura_jeh-ar.fina.rlig /alefMaksura_jeh-ar.fina.rlig.short /alefMaksura_noon-ar.fina.rlig
+
+### Fixed
+
+Mark placement on alternative form of /kaf
+referenced in issue 284
+Multiple spacing issues including /lam_meem ligatures
+PostScript BlueScale values
+FamilyClass value in OS/2 table
+
+### Changed
+
+included logographs are not used by default anymore but can be activated through OpenType layout feature “dlig”
+referenced in issue 336
+abbreviated font names used for style mapping (name ID1 + ID2) to improve interoperability
+Removed
+Glyphs /tteh_reh-ar.fina.short /tteh_zain-ar.fina.short /tteh_rreh-ar.fina.short /tteh_jeh-ar.fina.short
+
+## IBM PLEX SANS HEBREW V1.3 - 2020-12-04
+
+### Fixed
+
+placement of dot in glyph /lamed_holam-hb
+placement of dot in glyph /lamed_dagesh_holam-hb
+metrics of /resh-hb
+referenced in issue 343
+metrics of /tav-hb
+PostScript BlueScale values
+FamilyClass value in OS/2 table
+
+### Changed
+
+abbreviated font names used for style mapping (name ID1 + ID2) to improve interoperability
+
+## Generated changelog
+
+- breaking: don't include styles in GH release (99fd503b)
+- breaking: update Arabic, changes font name (65703ead)
+- breaking: update Hebrew, changes font name (2fd23f1a)
+- breaking: begin sass module based build pipeline restructure (2383e47a)
+
+- chore: update release asset generation (1bf46cbe)
+- chore: update Arabic source files (1494f456)
+- chore: remove unused dep, resolve sec issue (270ee7ad)
+- chore: update deps and resolve security warning (2b46ba78)
+- chore(deps): bump bl from 4.0.2 to 4.0.3 (4cc1e509)
+- chore: remove zip log (eff77345)
+
+# IBM Plex v5.1.0
+
 ## [Unreleased]
 
 - IBM Plex Sans JP
 - IBM Plex Sans CN
 - [IBM Plex Mono] Addition of glyphs /currency /prime /primedbl
 - Allow more granular selection of font-families and weights [#329](https://github.com/IBM/plex/issues/329)
-
-# Plex v5.1.0
 
 ## IBM Plex Sans KR Styles
 

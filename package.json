@@ -12,7 +12,8 @@
     "node": ">=14"
   },
   "scripts": {
-    "test": "sass --no-source-map --watch test/carbon.scss test/carbon.css",
+    "test": "sass --no-source-map test:test",
+    "test:watch": "sass --no-source-map --watch test:test",
     "build": "npm run clean && run-p sass zip",
     "clean": "rimraf dist css",
     "sass": "sass --no-source-map variants:css",
