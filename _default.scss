@@ -113,9 +113,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-style: italic;
     font-weight: 400;
     font-display: $plex-font-display;
-    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-RegularItalic.woff2')
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Italic.woff2')
         format(woff2),
-      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-RegularItalic.woff')
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Italic.woff')
         format(woff);
   }
 }

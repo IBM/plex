@@ -113,9 +113,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Mono' !default;
     font-style: normal;
     font-weight: 400;
     font-display: $plex-font-display;
-    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexMono-RegularItalic.woff2')
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexMono-Italic.woff2')
         format(woff2),
-      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexMono-RegularItalic.woff')
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexMono-Italic.woff')
         format(woff);
   }
 }
