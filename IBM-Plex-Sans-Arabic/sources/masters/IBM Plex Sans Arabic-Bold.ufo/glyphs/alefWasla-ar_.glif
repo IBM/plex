@@ -3,18 +3,17 @@
   <advance width="260"/>
   <unicode hex="0671"/>
   <outline>
-    <component base="alef-ar.short"/>
     <component base="wasla-ar" xOffset="-40" yOffset="335"/>
+    <component base="alef-ar.short"/>
     <contour>
       <point x="130.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="132.0" y="939.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0671</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefWasla-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

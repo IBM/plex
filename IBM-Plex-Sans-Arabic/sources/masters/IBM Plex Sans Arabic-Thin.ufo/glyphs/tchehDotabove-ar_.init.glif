@@ -6,18 +6,14 @@
     <component base="threedotsdownbelow-ar" xOffset="146" yOffset="-737"/>
     <component base="dotabove-ar" xOffset="158" yOffset="80"/>
     <contour>
-      <point x="272.0" y="0.0" type="move" name="bottom"/>
+      <point x="272.0" y="-321.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="221.0" y="369.0" type="move" name="top"/>
+      <point x="221.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06BF.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tchehDotabove-ar.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -6,7 +6,7 @@
     <component base="comp.alef-ar.fina"/>
     <component base="hamzabelow-ar" xOffset="19" yOffset="-629"/>
     <contour>
-      <point x="130.0" y="0.0" type="move" name="bottom"/>
+      <point x="130.0" y="-230.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="273.0" y="529.0" type="move" name="high"/>
@@ -17,10 +17,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFE88</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefHamzabelow-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

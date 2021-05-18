@@ -3,21 +3,20 @@
   <advance width="694"/>
   <outline>
     <component base="tah-ar.init"/>
-    <component base="dotbelow-ar" xOffset="268" yOffset="-579"/>
     <component base="twodotshorizontalabove-ar" xOffset="235" yOffset="180"/>
+    <component base="dotbelow-ar" xOffset="268" yOffset="-579"/>
     <contour>
-      <point x="347.0" y="0.0" type="move" name="bottom"/>
+      <point x="347.0" y="-216.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="393.0" y="463.0" type="move" name="top"/>
+      <point x="393.0" y="677.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="70.0" y="150.0" type="move" name="verticalbar"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08A4.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>fehDotbelowThreedotsabove-ar.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

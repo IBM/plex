@@ -101,13 +101,14 @@
       <point x="258" y="600"/>
       <point x="283" y="580"/>
     </contour>
+    <contour>
+      <point x="339.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="334.0" y="9.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="327.0" y="714.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06BF</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tchehDotabove-ar</string>
-    </dict>
-  </lib>
 </glyph>

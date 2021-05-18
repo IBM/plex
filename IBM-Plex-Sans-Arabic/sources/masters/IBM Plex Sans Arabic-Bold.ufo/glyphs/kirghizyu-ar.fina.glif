@@ -6,9 +6,6 @@
     <component base="waw-ar.fina"/>
     <component base="vinvertedabove-ar" xOffset="96" yOffset="140"/>
     <contour>
-      <point x="359.0" y="-44.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="194.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -21,15 +18,11 @@
       <point x="157.0" y="-5.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="245.0" y="423.0" type="move" name="top"/>
+      <point x="245.0" y="727.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFBE3</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kirghizyu-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -68,13 +68,8 @@
     <contour>
       <point x="576.0" y="410.0" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="262.0" y="134.0" type="move" name="verticalbar"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEBC</string>
-      <key>com.type-invaders.name.production</key>
-      <string>sad-ar.medi</string>
-    </dict>
-  </lib>
 </glyph>

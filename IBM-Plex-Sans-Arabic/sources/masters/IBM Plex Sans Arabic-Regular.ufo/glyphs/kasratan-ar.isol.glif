@@ -3,15 +3,11 @@
   <advance width="262"/>
   <unicode hex="FE74"/>
   <outline>
-    <component base="comp.fatha-ar"/>
     <component base="comp.fatha-ar" yOffset="-135"/>
+    <component base="comp.fatha-ar"/>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFE74</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kasratan-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

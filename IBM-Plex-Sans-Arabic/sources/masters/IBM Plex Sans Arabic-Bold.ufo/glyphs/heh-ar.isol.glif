@@ -4,19 +4,9 @@
   <unicode hex="FEE9"/>
   <outline>
     <component base="heh-ar"/>
-    <contour>
-      <point x="219.0" y="0.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="234.0" y="454.0" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEE9</string>
-      <key>com.type-invaders.name.production</key>
-      <string>heh-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

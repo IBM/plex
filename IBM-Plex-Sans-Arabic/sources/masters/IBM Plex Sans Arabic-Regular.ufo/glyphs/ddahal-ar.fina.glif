@@ -6,7 +6,7 @@
     <component base="dal-ar.fina"/>
     <component base="twodotshorizontalbelow-ar" xOffset="106" yOffset="-570"/>
     <contour>
-      <point x="235.0" y="0.0" type="move" name="bottom"/>
+      <point x="235.0" y="-198.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="215.0" y="0.0" type="move" name="ring"/>
@@ -17,10 +17,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB83</string>
-      <key>com.type-invaders.name.production</key>
-      <string>ddahal-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

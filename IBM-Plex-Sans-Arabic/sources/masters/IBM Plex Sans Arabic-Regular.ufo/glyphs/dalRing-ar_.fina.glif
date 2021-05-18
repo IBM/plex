@@ -60,13 +60,14 @@
       <point x="261" y="-66"/>
       <point x="241" y="-84"/>
     </contour>
+    <contour>
+      <point x="235.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="215.0" y="0.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="253.0" y="486.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0689.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>dalRing-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

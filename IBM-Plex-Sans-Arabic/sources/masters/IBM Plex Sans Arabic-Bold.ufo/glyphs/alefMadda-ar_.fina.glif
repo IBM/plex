@@ -3,18 +3,17 @@
   <advance width="280"/>
   <unicode hex="FE82"/>
   <outline>
-    <component base="alef-ar.fina.short"/>
     <component base="madda-ar" xOffset="-40" yOffset="335"/>
+    <component base="alef-ar.fina.short"/>
     <contour>
       <point x="130.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="130.0" y="832.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFE82</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefMadda-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

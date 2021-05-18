@@ -18,8 +18,6 @@
 	<integer>1974</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSansArabic</string>
-	<key>note</key>
-	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeHeadCreated</key>
 	<string>2019/11/01 08:48:46</string>
 	<key>openTypeHheaAscender</key>
@@ -40,16 +38,12 @@
 	<string>Bold Monday</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.boldmonday.com</string>
-	<key>openTypeNamePreferredFamilyName</key>
-	<string>IBM Plex Sans Arabic</string>
-	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Regular</string>
 	<key>openTypeNameSampleText</key>
 	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSansArabic;1.001;2019</string>
+	<string>IBM;IBMPlexSansArabic;1.002;2021</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.001 2019</string>
+	<string>Version 1.002 2021</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -58,8 +52,8 @@
 	</array>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
-		<integer>0</integer>
-		<integer>0</integer>
+		<integer>8</integer>
+		<integer>1</integer>
 	</array>
 	<key>openTypeOS2Panose</key>
 	<array>
@@ -116,7 +110,6 @@
 		<integer>35</integer>
 		<integer>36</integer>
 		<integer>37</integer>
-		<integer>38</integer>
 		<integer>60</integer>
 		<integer>62</integer>
 		<integer>63</integer>
@@ -135,7 +128,7 @@
 	<key>postscriptBlueFuzz</key>
 	<integer>0</integer>
 	<key>postscriptBlueScale</key>
-	<real>0.039625</real>
+	<real>0.0625</real>
 	<key>postscriptBlueShift</key>
 	<integer>7</integer>
 	<key>postscriptBlueValues</key>
@@ -214,10 +207,10 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>xHeight</key>
 	<integer>516</integer>
 	<key>year</key>
-	<integer>2019</integer>
+	<integer>2021</integer>
 </dict>
 </plist>

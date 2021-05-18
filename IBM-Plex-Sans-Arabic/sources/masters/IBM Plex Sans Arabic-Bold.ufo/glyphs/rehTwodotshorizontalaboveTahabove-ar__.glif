@@ -3,12 +3,9 @@
   <advance width="299"/>
   <unicode hex="0771"/>
   <outline>
+    <component base="tahabove-ar" xOffset="-1" yOffset="254"/>
     <component base="reh-ar"/>
     <component base="twodotshorizontalabove-ar" xOffset="6" yOffset="40"/>
-    <component base="tahabove-ar" xOffset="-1" yOffset="254"/>
-    <contour>
-      <point x="210.0" y="-8.0" type="move" name="bar"/>
-    </contour>
     <contour>
       <point x="40.0" y="-240.0" type="move" name="bottom"/>
     </contour>
@@ -16,15 +13,11 @@
       <point x="102.0" y="-224.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="164.0" y="323.0" type="move" name="top"/>
+      <point x="159.0" y="903.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0771</string>
-      <key>com.type-invaders.name.production</key>
-      <string>rehTwodotshorizontalaboveTahabove-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

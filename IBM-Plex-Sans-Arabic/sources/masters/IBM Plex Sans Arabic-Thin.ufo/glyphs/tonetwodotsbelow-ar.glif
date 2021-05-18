@@ -3,15 +3,11 @@
   <advance width="0"/>
   <unicode hex="08EE"/>
   <outline>
-    <component base="comp.dot" xOffset="126"/>
     <component base="comp.dot"/>
+    <component base="comp.dot" xOffset="126"/>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08EE</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tonetwodotsbelow-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

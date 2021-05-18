@@ -6,9 +6,6 @@
     <component base="waw-ar"/>
     <component base="dotabove-ar" xOffset="162" yOffset="140"/>
     <contour>
-      <point x="359.0" y="-44.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="190.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -21,15 +18,11 @@
       <point x="157.0" y="-5.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="241.0" y="423.0" type="move" name="top"/>
+      <point x="241.0" y="637.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06CF</string>
-      <key>com.type-invaders.name.production</key>
-      <string>wawDotabove-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

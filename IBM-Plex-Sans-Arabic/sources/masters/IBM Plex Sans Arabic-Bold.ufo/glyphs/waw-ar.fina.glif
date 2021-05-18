@@ -42,9 +42,6 @@
       <point x="140" y="164"/>
     </contour>
     <contour>
-      <point x="359.0" y="-44.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="194.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -60,12 +57,4 @@
       <point x="245.0" y="423.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEEE</string>
-      <key>com.type-invaders.name.production</key>
-      <string>waw-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

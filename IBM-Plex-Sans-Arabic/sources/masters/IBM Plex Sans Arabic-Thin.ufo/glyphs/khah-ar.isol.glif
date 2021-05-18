@@ -5,19 +5,9 @@
   <outline>
     <component base="hah-ar"/>
     <component base="dotabove-ar" xOffset="242" yOffset="115"/>
-    <contour>
-      <point x="337.0" y="-304.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="324.0" y="11.0" type="move" name="center"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEA5</string>
-      <key>com.type-invaders.name.production</key>
-      <string>khah-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

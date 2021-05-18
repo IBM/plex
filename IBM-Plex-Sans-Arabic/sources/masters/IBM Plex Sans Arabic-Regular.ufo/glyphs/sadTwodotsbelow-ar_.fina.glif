@@ -5,18 +5,20 @@
     <component base="sad-ar.fina"/>
     <component base="twodotshorizontalbelow-ar" xOffset="188" yOffset="-810"/>
     <contour>
-      <point x="317.0" y="-240.0" type="move" name="bottom"/>
+      <point x="317.0" y="-438.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="317.0" y="-240.0" type="move" name="ring"/>
     </contour>
     <contour>
       <point x="969.0" y="410.0" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="655.0" y="134.0" type="move" name="verticalbar"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni069D.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>sadTwodotsbelow-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

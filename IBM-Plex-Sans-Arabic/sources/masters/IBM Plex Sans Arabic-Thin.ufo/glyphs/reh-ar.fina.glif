@@ -29,9 +29,6 @@
       <point x="-70" y="-217" type="line"/>
     </contour>
     <contour>
-      <point x="202.0" y="-118.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="14.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -41,12 +38,4 @@
       <point x="153.0" y="286.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEAE</string>
-      <key>com.type-invaders.name.production</key>
-      <string>reh-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

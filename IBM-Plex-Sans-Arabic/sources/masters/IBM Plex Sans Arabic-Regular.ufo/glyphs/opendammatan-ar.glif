@@ -3,21 +3,17 @@
   <advance width="0"/>
   <unicode hex="08F1"/>
   <outline>
-    <component base="comp.damma-ar" xOffset="262"/>
     <component base="comp.damma-ar"/>
+    <component base="comp.damma-ar" xOffset="262"/>
     <contour>
-      <point x="262.0" y="289.0" type="move" name="_top"/>
+      <point x="262" y="289" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="262.0" y="624.0" type="move" name="top"/>
+      <point x="262" y="624" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08F1</string>
-      <key>com.type-invaders.name.production</key>
-      <string>opendammatan-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

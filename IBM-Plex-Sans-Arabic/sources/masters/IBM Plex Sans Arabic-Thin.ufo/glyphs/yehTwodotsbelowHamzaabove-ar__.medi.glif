@@ -6,7 +6,7 @@
     <component base="twodotshorizontalbelow-ar" xOffset="24" yOffset="-617"/>
     <component base="hamzaabove-ar" xOffset="39" yOffset="40"/>
     <contour>
-      <point x="150.0" y="0.0" type="move" name="bottom"/>
+      <point x="150.0" y="-201.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="271.0" y="329.0" type="move" name="high"/>
@@ -15,15 +15,11 @@
       <point x="196.0" y="14.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="150.0" y="329.0" type="move" name="top"/>
+      <point x="150.0" y="539.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08A8.medi</string>
-      <key>com.type-invaders.name.production</key>
-      <string>yehTwodotsbelowHamzaabove-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -5,19 +5,9 @@
   <outline>
     <component base="behDotless-ar"/>
     <component base="twodotshorizontalabove-ar" xOffset="282"/>
-    <contour>
-      <point x="440.0" y="1.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="463.0" y="-12.0" type="move" name="ring"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFE95</string>
-      <key>com.type-invaders.name.production</key>
-      <string>teh-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -4,24 +4,20 @@
   <unicode hex="0759"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="tahabove-ar" xOffset="79" yOffset="200"/>
     <component base="twodotsverticalbelow-ar" xOffset="36" yOffset="-648"/>
+    <component base="tahabove-ar" xOffset="79" yOffset="200"/>
     <contour>
-      <point x="230.0" y="0.0" type="move" name="bottom"/>
+      <point x="230.0" y="-279.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="240.0" y="0.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="210.0" y="489.0" type="move" name="top"/>
+      <point x="220.0" y="819.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0759</string>
-      <key>com.type-invaders.name.production</key>
-      <string>dalTwodotsverticalbelowTah-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

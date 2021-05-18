@@ -25,13 +25,11 @@
       <point x="120" y="457" type="line"/>
       <point x="37" y="457" type="line"/>
     </contour>
+    <contour>
+      <point x="95.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="160.0" y="740.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni076A.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>lamBar-ar.init</string>
-    </dict>
-  </lib>
 </glyph>

@@ -3,21 +3,17 @@
   <advance width="0"/>
   <unicode hex="08E9"/>
   <outline>
-    <component base="comp.fathacurly-ar"/>
     <component base="comp.fathacurly-ar" yOffset="-116"/>
+    <component base="comp.fathacurly-ar"/>
     <contour>
-      <point x="107.0" y="543.0" type="move" name="_bottom"/>
+      <point x="107" y="543" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="107.0" y="265.0" type="move" name="bottom"/>
+      <point x="107" y="265" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08E9</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kasratanCurly-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

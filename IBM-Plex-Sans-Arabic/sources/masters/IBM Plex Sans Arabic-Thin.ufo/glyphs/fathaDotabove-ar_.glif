@@ -3,21 +3,17 @@
   <advance width="0"/>
   <unicode hex="08F5"/>
   <outline>
-    <component base="comp.fatha-ar"/>
     <component base="comp.dot" xOffset="-10" yOffset="51"/>
+    <component base="comp.fatha-ar"/>
     <contour>
-      <point x="113.0" y="289.0" type="move" name="_top"/>
+      <point x="113" y="289" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="113.0" y="407.0" type="move" name="top"/>
+      <point x="113" y="407" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08F5</string>
-      <key>com.type-invaders.name.production</key>
-      <string>fathaDotabove-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

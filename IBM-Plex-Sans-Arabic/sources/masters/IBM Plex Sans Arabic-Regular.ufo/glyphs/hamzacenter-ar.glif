@@ -4,15 +4,11 @@
   <outline>
     <component base="comp.hamza-ar"/>
     <contour>
-      <point x="113.0" y="472.0" type="move" name="_center"/>
+      <point x="113" y="472" type="move" name="_center"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>hamzacenterar</string>
-      <key>com.type-invaders.name.production</key>
-      <string>hamzacenter-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

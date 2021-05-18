@@ -13,13 +13,12 @@
     <contour>
       <point x="127.0" y="14.0" type="move" name="ring"/>
     </contour>
+    <contour>
+      <point x="157.0" y="709.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0776.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>yehThreeabove-farsi.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

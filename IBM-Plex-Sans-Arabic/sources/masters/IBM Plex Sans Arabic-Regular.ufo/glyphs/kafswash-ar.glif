@@ -24,13 +24,11 @@
       <point x="826" y="86" type="line"/>
       <point x="40" y="86" type="line"/>
     </contour>
+    <contour>
+      <point x="504.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="135.0" y="668.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06AA</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kafswash-ar</string>
-    </dict>
-  </lib>
 </glyph>

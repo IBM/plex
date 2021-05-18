@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad_rreh-ar.rlig.short" format="1">
+  <advance width="1114"/>
+  <outline>
+    <component base="sad_reh-ar.rlig.short"/>
+    <component base="tahabove-ar" xOffset="34"/>
+    <contour>
+      <point x="449" y="0" type="move" name="*exit_1"/>
+    </contour>
+    <contour>
+      <point x="211" y="0" type="move" name="*exit_2"/>
+    </contour>
+    <contour>
+      <point x="690" y="0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="52" y="-240" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="104" y="-227" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="835" y="410" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="175" y="619" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

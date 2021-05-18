@@ -2,9 +2,9 @@
 <glyph name="noonTahabove-ar.init" format="1">
   <advance width="288"/>
   <outline>
+    <component base="tahabove-ar" xOffset="-3" yOffset="353"/>
     <component base="behDotless-ar.init"/>
     <component base="dotabove-ar" xOffset="83" yOffset="139"/>
-    <component base="tahabove-ar" xOffset="-3" yOffset="353"/>
     <contour>
       <point x="155.0" y="0.0" type="move" name="bottom"/>
     </contour>
@@ -15,15 +15,11 @@
       <point x="155.0" y="15.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="162.0" y="422.0" type="move" name="top"/>
+      <point x="157.0" y="1002.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0768.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>noonTahabove-ar.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

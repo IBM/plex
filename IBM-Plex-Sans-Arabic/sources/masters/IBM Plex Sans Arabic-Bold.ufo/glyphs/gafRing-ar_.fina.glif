@@ -5,18 +5,20 @@
     <component base="kafRing-ar.fina"/>
     <component base="comp.kafbar-ar" xOffset="511" yOffset="70"/>
     <contour>
-      <point x="531.0" y="600.0" type="move" name="_kafbar"/>
+      <point x="431.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="531.0" y="768.0" type="move" name="top"/>
+      <point x="531.0" y="600.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="826.0" y="558.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="680.0" y="698.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06B0.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>gafRing-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

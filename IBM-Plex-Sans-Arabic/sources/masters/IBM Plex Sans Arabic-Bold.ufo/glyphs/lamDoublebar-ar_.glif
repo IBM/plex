@@ -44,13 +44,11 @@
       <point x="497" y="546" type="line"/>
       <point x="427" y="546" type="line"/>
     </contour>
+    <contour>
+      <point x="316.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="276.0" y="525.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08A6</string>
-      <key>com.type-invaders.name.production</key>
-      <string>lamDoublebar-ar</string>
-    </dict>
-  </lib>
 </glyph>

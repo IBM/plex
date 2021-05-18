@@ -37,18 +37,10 @@
       <point x="57" y="390" type="line"/>
     </contour>
     <contour>
-      <point x="119.0" y="610.0" type="move" name="_bottom"/>
+      <point x="119" y="610" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="119.0" y="370.0" type="move" name="bottom"/>
+      <point x="119" y="370" type="move" name="bottom"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFBC1</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tahbelow-ar</string>
-    </dict>
-  </lib>
 </glyph>

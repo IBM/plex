@@ -5,18 +5,14 @@
   <outline>
     <component base="leftarrowheadabove-ar"/>
     <contour>
-      <point x="118.0" y="607.0" type="move" name="_bottom"/>
+      <point x="118" y="607" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="118.0" y="357.0" type="move" name="bottom"/>
+      <point x="118" y="357" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08F9</string>
-      <key>com.type-invaders.name.production</key>
-      <string>leftarrowheadbelow-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

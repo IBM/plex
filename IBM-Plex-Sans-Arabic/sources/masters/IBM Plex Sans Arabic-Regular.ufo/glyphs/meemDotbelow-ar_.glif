@@ -6,7 +6,7 @@
     <component base="meem-ar"/>
     <component base="dotbelow-ar" xOffset="251" yOffset="-570"/>
     <contour>
-      <point x="316.0" y="0.0" type="move" name="bottom"/>
+      <point x="316.0" y="-201.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="316.0" y="409.0" type="move" name="top"/>
@@ -14,10 +14,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0766</string>
-      <key>com.type-invaders.name.production</key>
-      <string>meemDotbelow-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

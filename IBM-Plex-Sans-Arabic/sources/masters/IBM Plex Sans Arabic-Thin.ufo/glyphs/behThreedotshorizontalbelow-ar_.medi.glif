@@ -76,13 +76,29 @@
       <point x="98" y="-193"/>
       <point x="107" y="-200"/>
     </contour>
+    <contour>
+      <point x="446.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="247.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="49.0" y="0.0" type="move" name="bottom_3"/>
+    </contour>
+    <contour>
+      <point x="368.0" y="329.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="293.0" y="14.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="446.0" y="249.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="247.0" y="329.0" type="move" name="top_2"/>
+    </contour>
+    <contour>
+      <point x="49.0" y="249.0" type="move" name="top_3"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0750.medi</string>
-      <key>com.type-invaders.name.production</key>
-      <string>behThreedotshorizontalbelow-ar.medi</string>
-    </dict>
-  </lib>
 </glyph>

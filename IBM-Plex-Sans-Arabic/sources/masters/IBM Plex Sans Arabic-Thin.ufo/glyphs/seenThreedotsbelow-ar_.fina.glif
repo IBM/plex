@@ -5,7 +5,7 @@
     <component base="seen-ar.fina"/>
     <component base="threedotsdownbelow-ar" xOffset="191" yOffset="-977"/>
     <contour>
-      <point x="317.0" y="-240.0" type="move" name="bottom"/>
+      <point x="317.0" y="-561.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="845.0" y="-165.0" type="move" name="center"/>
@@ -16,10 +16,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni069B.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>seenThreedotsbelow-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

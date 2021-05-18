@@ -5,18 +5,14 @@
   <outline>
     <component base="comp.seenSmall-ar"/>
     <contour>
-      <point x="189.0" y="249.0" type="move" name="_top"/>
+      <point x="189" y="249" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="189.0" y="472.0" type="move" name="top"/>
+      <point x="189" y="472" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06DC</string>
-      <key>com.type-invaders.name.production</key>
-      <string>seenabove-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

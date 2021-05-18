@@ -65,13 +65,17 @@
       <point x="882" y="477"/>
       <point x="858" y="456"/>
     </contour>
+    <contour>
+      <point x="431.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="531.0" y="600.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="826.0" y="558.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="680.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06AB</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kafRing-ar</string>
-    </dict>
-  </lib>
 </glyph>

@@ -92,13 +92,14 @@
       <point x="330" y="383"/>
       <point x="339" y="376"/>
     </contour>
+    <contour>
+      <point x="415.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="416.0" y="-12.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="416.0" y="420.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni067C</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tehRing-ar</string>
-    </dict>
-  </lib>
 </glyph>

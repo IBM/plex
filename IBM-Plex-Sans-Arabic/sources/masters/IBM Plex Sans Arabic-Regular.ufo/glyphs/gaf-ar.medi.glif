@@ -3,10 +3,13 @@
   <advance width="452"/>
   <unicode hex="FB95"/>
   <outline>
-    <component base="kaf-ar.medi"/>
     <component base="comp.kafbar-ar" xOffset="-10" yOffset="22"/>
+    <component base="kaf-ar.medi"/>
     <contour>
       <point x="154.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="10.0" y="552.0" type="move" name="kafbar"/>
     </contour>
     <contour>
       <point x="267.0" y="571.0" type="move" name="ring"/>
@@ -17,10 +20,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB95</string>
-      <key>com.type-invaders.name.production</key>
-      <string>gaf-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

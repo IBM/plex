@@ -5,7 +5,7 @@
     <component base="dal-ar.fina"/>
     <component base="vinvertedbelow-ar" xOffset="156" yOffset="-670"/>
     <contour>
-      <point x="305.0" y="0.0" type="move" name="bottom"/>
+      <point x="305.0" y="-307.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="202.0" y="0.0" type="move" name="ring"/>
@@ -16,10 +16,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni075A.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>dalVinvertedbelow-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

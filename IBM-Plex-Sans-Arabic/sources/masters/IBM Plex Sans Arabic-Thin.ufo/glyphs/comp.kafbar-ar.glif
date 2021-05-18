@@ -9,18 +9,10 @@
       <point x="18" y="550" type="line"/>
     </contour>
     <contour>
-      <point x="18.0" y="535.0" type="move" name="_kafbar"/>
+      <point x="20" y="698" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="20.0" y="698.0" type="move" name="top"/>
+      <point x="18" y="535" type="move" name="_kafbar"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>comp.kafbarar</string>
-      <key>com.type-invaders.name.production</key>
-      <string>comp.kafbar-ar</string>
-    </dict>
-  </lib>
 </glyph>

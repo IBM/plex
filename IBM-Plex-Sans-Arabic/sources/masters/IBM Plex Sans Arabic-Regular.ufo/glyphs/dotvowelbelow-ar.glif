@@ -5,18 +5,14 @@
   <outline>
     <component base="comp.dot"/>
     <contour>
-      <point x="65.0" y="570.0" type="move" name="_bottom"/>
+      <point x="65" y="570" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="65.0" y="369.0" type="move" name="bottom"/>
+      <point x="65" y="369" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni065C</string>
-      <key>com.type-invaders.name.production</key>
-      <string>dotvowelbelow-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

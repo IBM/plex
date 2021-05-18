@@ -106,13 +106,23 @@
       <point x="841" y="687"/>
       <point x="858" y="672"/>
     </contour>
+    <contour>
+      <point x="829.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="450.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="213.0" y="-240.0" type="move" name="bottom_3"/>
+    </contour>
+    <contour>
+      <point x="826.0" y="773.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="450.0" y="740.0" type="move" name="top_2"/>
+    </contour>
+    <contour>
+      <point x="213.0" y="86.0" type="move" name="top_3"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFDF1</string>
-      <key>com.type-invaders.name.production</key>
-      <string>qaf_lam_yeh-ar</string>
-    </dict>
-  </lib>
 </glyph>
