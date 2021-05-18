@@ -5,13 +5,12 @@
   "version": "5.1.3",
   "repository": "https://github.com/ibm/plex.git",
   "license": "OFL-1.1",
-  "keywords": [
-    "eyeglass-module"
-  ],
   "bugs": {
     "url": "https://github.com/ibm/plex/issues"
   },
   "scripts": {
+    "sass": "sass --no-source-map variants:css",
+    "sass:carbon": "sass --no-source-map --watch test/carbon.scss test/carbon.css",
     "clean": "rimraf css scss",
     "build": "yarn run clean && yarn run build:scss && yarn run build:css",
     "build:zip": "yarn build && node ./scripts/prepare-zip.js && sh scripts/zip.sh",
@@ -20,27 +19,19 @@
     "test": "parcel serve ./test/index.html",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
-    "prepare": "yarn build"
+    "prepare-TODO": "echo 'TODO: replace prepare script'",
+    "release": "release-it"
   },
   "devDependencies": {
-    "@parcel/optimizer-cssnano": "2.0.0-nightly.611",
-    "@parcel/optimizer-htmlnano": "2.0.0-nightly.611",
-    "@parcel/packager-css": "2.0.0-nightly.611",
-    "@parcel/packager-html": "2.0.0-nightly.611",
-    "@parcel/transformer-css": "2.0.0-nightly.611",
-    "@parcel/transformer-html": "2.0.0-nightly.611",
-    "@parcel/transformer-postcss": "2.0.0-nightly.611",
-    "@parcel/transformer-posthtml": "2.0.0-nightly.611",
     "archiver": "^3.0.0",
     "fs-extra": "^7.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
-    "node-sass": "^4.7.2",
-    "parcel": "^2.0.0-beta.1",
-    "postcss": "^8.2.1",
+    "postcss": "^8.2.15",
     "prettier": "^1.7.4",
+    "release-it": "^14.6.2",
     "rimraf": "^2.6.2",
-    "sass": "^1.26.10"
+    "sass": "^1.32.13"
   },
   "prettier": {
     "printWidth": 80,
@@ -59,10 +50,9 @@
       "git add"
     ]
   },
-  "eyeglass": {
-    "exports": false,
-    "name": "ibm-plex",
-    "sassDir": "scss",
-    "needs": "*"
+  "release-it": {
+    "github": {
+      "release": true
+    }
   }
 }

@@ -1,0 +1,261 @@
+$plex-font-display: swap !default;
+$plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
+
+@mixin thin-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Thin.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Thin.woff')
+        format(woff);
+  }
+}
+
+@mixin thin-italic {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 100;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-ThinItalic.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-ThinItalic.woff')
+        format(woff);
+  }
+}
+
+@mixin thin {
+  @include thin-normal;
+  @include thin-italic;
+}
+
+@mixin extralight-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-ExtraLight.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-ExtraLight.woff')
+        format(woff);
+  }
+}
+
+@mixin extralight-italic {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 200;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-ExtraLightItalic.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-ExtraLightItalic.woff')
+        format(woff);
+  }
+}
+
+@mixin extralight {
+  @include extralight-normal;
+  @include extralight-italic;
+}
+
+@mixin light-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Light.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Light.woff')
+        format(woff);
+  }
+}
+
+@mixin light-italic {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-LightItalic.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-LightItalic.woff')
+        format(woff);
+  }
+}
+
+@mixin light {
+  @include light-normal;
+  @include light-italic;
+}
+
+@mixin regular-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Regular.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Regular.woff')
+        format(woff);
+  }
+}
+
+@mixin regular-italic {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-RegularItalic.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-RegularItalic.woff')
+        format(woff);
+  }
+}
+
+@mixin regular {
+  @include regular-normal;
+  @include regular-italic;
+}
+
+@mixin text-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 450;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Text.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Text.woff')
+        format(woff);
+  }
+}
+
+@mixin text-italic {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 450;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-TextItalic.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-TextItalic.woff')
+        format(woff);
+  }
+}
+
+@mixin text {
+  @include text-normal;
+  @include text-italic;
+}
+
+@mixin medium-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Medium.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Medium.woff')
+        format(woff);
+  }
+}
+
+@mixin medium-italic {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 500;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-MediumItalic.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-MediumItalic.woff')
+        format(woff);
+  }
+}
+
+@mixin medium {
+  @include medium-normal;
+  @include medium-italic;
+}
+
+@mixin semibold-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-SemiBold.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-SemiBold.woff')
+        format(woff);
+  }
+}
+
+@mixin semibold-italic {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-SemiBoldItalic.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-SemiBoldItalic.woff')
+        format(woff);
+  }
+}
+
+@mixin semibold {
+  @include semibold-normal;
+  @include semibold-italic;
+}
+
+@mixin bold-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Bold.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Bold.woff')
+        format(woff);
+  }
+}
+
+@mixin bold-italic {
+  @font-face {
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-BoldItalic.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-BoldItalic.woff')
+        format(woff);
+  }
+}
+
+@mixin bold {
+  @include bold-normal;
+  @include bold-italic;
+}
+
+@mixin all {
+  @include thin; // 100
+  @include extralight; // 200
+  @include light; // 300
+  @include regular; // 400
+  @include text; // 450
+  @include medium; // 500
+  @include semibold; // 600
+  @include bold; // 700
+}

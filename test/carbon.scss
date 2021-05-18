@@ -1,0 +1,10 @@
+@use "../default" as sans;
+@use "../mono";
+
+@include sans.light;
+@include sans.regular;
+@include sans.semibold;
+
+@include mono.light;
+@include mono.regular;
+@include mono.semibold;

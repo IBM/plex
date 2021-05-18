@@ -1,0 +1,149 @@
+$plex-font-display: swap !default;
+$plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
+
+@mixin thin-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
+    font-weight: 100;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Thin.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Thin.woff')
+        format(woff);
+  }
+}
+
+@mixin thin {
+  @include thin-normal;
+}
+
+@mixin extralight-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
+    font-weight: 200;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-ExtraLight.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-ExtraLight.woff')
+        format(woff);
+  }
+}
+
+@mixin extralight {
+  @include extralight-normal;
+}
+
+@mixin light-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Light.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Light.woff')
+        format(woff);
+  }
+}
+
+@mixin light {
+  @include light-normal;
+}
+
+@mixin regular-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Regular.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Regular.woff')
+        format(woff);
+  }
+}
+
+@mixin regular {
+  @include regular-normal;
+}
+
+@mixin text-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
+    font-weight: 450;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Text.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Text.woff')
+        format(woff);
+  }
+}
+
+@mixin text {
+  @include text-normal;
+}
+
+@mixin medium-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
+    font-weight: 500;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Medium.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Medium.woff')
+        format(woff);
+  }
+}
+
+@mixin medium {
+  @include medium-normal;
+}
+
+@mixin semibold-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
+    font-weight: 600;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-SemiBold.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-SemiBold.woff')
+        format(woff);
+  }
+}
+
+@mixin semibold {
+  @include semibold-normal;
+}
+
+@mixin bold-normal {
+  @font-face {
+    font-family: 'IBM Plex Sans Arabic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: $plex-font-display;
+    src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Bold.woff2')
+        format(woff2),
+      url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Bold.woff')
+        format(woff);
+  }
+}
+
+@mixin bold {
+  @include bold-normal;
+}
+
+@mixin all {
+  @include thin; // 100
+  @include extralight; // 200
+  @include light; // 300
+  @include regular; // 400
+  @include text; // 450
+  @include medium; // 500
+  @include semibold; // 600
+  @include bold; // 700
+}

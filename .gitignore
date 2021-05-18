@@ -2,10 +2,11 @@ node_modules
 scss
 css
 *.log
-package-lock.json
 .DS_Store
 zip
 **/.DS_Store
 .vercel
 .parcel-cache
 dist
+
+test/*.css
