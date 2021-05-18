@@ -6,7 +6,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const OUTPUT_DIRECTORY = path.resolve(__dirname, '../zip');
+const OUTPUT_DIRECTORY = path.resolve(__dirname, '../dist');
 
 const getFontDirectories = () => {
   const files = fs.readdirSync(path.resolve('.'));
@@ -75,8 +75,6 @@ const writeWebFiles = () => {
     fs.copySync(`${name}/fonts`, `${OUTPUT_DIRECTORY}/Web/${name}/fonts`);
   });
 
-  fs.copySync('css', `${OUTPUT_DIRECTORY}/Web/css`);
-  fs.copySync('scss', `${OUTPUT_DIRECTORY}/Web/scss`);
   fs.copySync('LICENSE.txt', `${OUTPUT_DIRECTORY}/Web/LICENSE.txt`);
   fs.copySync('CHANGELOG.md', `${OUTPUT_DIRECTORY}/Web/CHANGELOG.md`);
 };
