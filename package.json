@@ -8,17 +8,18 @@
   "bugs": {
     "url": "https://github.com/ibm/plex/issues"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
-    "sass": "sass --no-source-map variants:css",
-    "sass:carbon": "sass --no-source-map --watch test/carbon.scss test/carbon.css",
+    "test": "sass --no-source-map --watch test/carbon.scss test/carbon.css",
+    "build": "npm run clean && run-p sass zip",
     "clean": "rimraf dist css",
-    "build": "npm run clean && npm run sass && npm run build:zip",
-    "build:zip": "node ./scripts/prepare-zip.js && sh scripts/zip.sh",
-    "build:css": "node ./scripts/compile-css.js",
-    "build:scss": "node ./scripts/generate-scss.js",
+    "sass": "sass --no-source-map variants:css",
+    "zip": "node ./scripts/prepare-zip.js && sh scripts/zip.sh",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
-    "prepare-TODO": "echo 'TODO: replace prepare script'",
+    "prerelease": "npm run build",
     "release": "release-it"
   },
   "devDependencies": {
@@ -26,7 +27,7 @@
     "fs-extra": "^7.0.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.3.0",
-    "postcss": "^8.2.15",
+    "npm-run-all": "^4.1.5",
     "prettier": "^1.7.4",
     "release-it": "^14.6.2",
     "rimraf": "^2.6.2",

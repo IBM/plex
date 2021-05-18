@@ -79,11 +79,6 @@ const writeWebFiles = () => {
   fs.copySync('CHANGELOG.md', `${OUTPUT_DIRECTORY}/Web/CHANGELOG.md`);
 };
 
-const zip = target => {
-  const f = target;
-  return `zip -qr ${f}.zip ${f}\n`;
-};
-
 writeZip('OpenType', globDirectory('otf'));
 
 writeZip('TrueType', globDirectory('ttf'));
