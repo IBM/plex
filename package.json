@@ -11,6 +11,16 @@
   "engines": {
     "node": ">=14"
   },
+  "files": [
+    "css",
+    "variants",
+    "examples",
+    "/*.scss",
+    "IBM-Plex-*/**/woff2",
+    "IBM-Plex-*/**/woff",
+    "!IBM-Plex-Sans-KR/fonts/hinted/**/woff2",
+    "!IBM-Plex-Sans-KR/fonts/hinted/**/woff"
+  ],
   "scripts": {
     "test": "sass --no-source-map test:test",
     "test:watch": "sass --no-source-map --watch test:test",
