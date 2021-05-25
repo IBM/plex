@@ -8,9 +8,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
     font-weight: 100;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Thin.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Thin.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -25,9 +25,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
     font-weight: 200;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-ExtraLight.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-ExtraLight.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -42,9 +42,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
     font-weight: 300;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Light.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Light.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -59,9 +59,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
     font-weight: 400;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Regular.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Regular.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -76,9 +76,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
     font-weight: 450;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Text.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Text.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -93,9 +93,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
     font-weight: 500;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Medium.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Medium.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -110,9 +110,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
     font-weight: 600;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-SemiBold.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-SemiBold.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -127,9 +127,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans-Arabic' !default;
     font-weight: 700;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSansArabic-Bold.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSansArabic-Bold.woff')
-        format(woff);
+        format('woff');
   }
 }
 

@@ -8,9 +8,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 100;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Thin.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Thin.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -21,9 +21,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 100;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-ThinItalic.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-ThinItalic.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -39,9 +39,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 200;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-ExtraLight.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-ExtraLight.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -52,9 +52,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 200;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-ExtraLightItalic.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-ExtraLightItalic.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -70,9 +70,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 300;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Light.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Light.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -83,9 +83,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 300;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-LightItalic.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-LightItalic.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -101,9 +101,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 400;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Regular.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Regular.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -114,9 +114,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 400;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Italic.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Italic.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -132,9 +132,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 450;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Text.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Text.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -145,9 +145,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 450;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-TextItalic.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-TextItalic.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -163,9 +163,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 500;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Medium.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Medium.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -176,9 +176,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 500;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-MediumItalic.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-MediumItalic.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -194,9 +194,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 600;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-SemiBold.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-SemiBold.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -207,9 +207,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 600;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-SemiBoldItalic.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-SemiBoldItalic.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -225,9 +225,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 700;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-Bold.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-Bold.woff')
-        format(woff);
+        format('woff');
   }
 }
 
@@ -238,9 +238,9 @@ $plex-font-path: '~@ibm/plex/IBM-Plex-Sans' !default;
     font-weight: 700;
     font-display: $plex-font-display;
     src: url('#{$plex-font-path}/fonts/complete/woff2/IBMPlexSans-BoldItalic.woff2')
-        format(woff2),
+        format('woff2'),
       url('#{$plex-font-path}/fonts/complete/woff/IBMPlexSans-BoldItalic.woff')
-        format(woff);
+        format('woff');
   }
 }
 
