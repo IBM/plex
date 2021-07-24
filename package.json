@@ -11,6 +11,18 @@
   "bugs": {
     "url": "https://github.com/ibm/plex/issues"
   },
+  "files": [
+    "css",
+    "variants",
+    "examples",
+    "/*.scss",
+    "IBM-Plex-*/**/woff2",
+    "IBM-Plex-*/**/woff",
+    "!IBM-Plex-Sans-KR/fonts/hinted/**/woff2",
+    "!IBM-Plex-Sans-KR/fonts/hinted/**/woff",
+    "!IBM-Plex-Sans-JP/fonts/hinted/**/woff2",
+    "!IBM-Plex-Sans-JP/fonts/hinted/**/woff"
+  ],
   "scripts": {
     "clean": "rimraf css scss",
     "build": "yarn run clean && yarn run build:scss && yarn run build:css",
