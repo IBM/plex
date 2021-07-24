@@ -1,9 +1,19 @@
 ## [Unreleased]
 
-- IBM Plex Sans JP
 - IBM Plex Sans CN
 - [IBM Plex Mono] Addition of glyphs /currency /prime /primedbl
 - Allow more granular selection of font-families and weights [#329](https://github.com/IBM/plex/issues/329)
+
+# Plex v5.2.0
+
+## IBM Plex Sans JP
+
+### Added
+
+- CSS stylesheets: `css/ibm-plex-sans-jp.css` and `css/ibm-plex-sans-jp.min.css`
+- Sass entrypoint: `scss/sans-jp/index.scss`
+
+The upcoming major release will make chosing specific font-weights and languages easier for developers. Until then, enjoy IBM Plex Sans JP!
 
 # Plex v5.1.0
 
