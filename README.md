@@ -10,7 +10,7 @@ Meet the IBM Plex® typeface, our new corporate typeface family. It’s global, 
 
 We designed the IBM Plex typeface carefully to both meet our needs as a global tech company and express who we are as IBMers. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Discover more about our development of the [IBM Plex typeface](https://www.ibm.com/plex/).
 
-The IBM Plex typeface is an open-source project and available for download and use following the Open Font License (OFL). The IBM Plex family comes in Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have been designed to work well in user interface (UI) environments, as well as other mediums. This project provides all source files and file formats to support most typographical situations. Currently, IBM Plex Sans supports Extended Latin, Arabic, Cyrillic, Devanagari, Greek, Hebrew, Korean and Thai. Japanese and Chinese will follow in 2021 and 2022.
+The IBM Plex typeface is an open-source project and available for download and use following the Open Font License (OFL). The IBM Plex family comes in Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have been designed to work well in user interface (UI) environments, as well as other mediums. This project provides all source files and file formats to support most typographical situations. Currently, IBM Plex Sans supports Extended Latin, Arabic, Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean and Thai. Chinese will follow in 2022.
 
 Thanks for trying the IBM Plex typeface! We hope you like it.
 
