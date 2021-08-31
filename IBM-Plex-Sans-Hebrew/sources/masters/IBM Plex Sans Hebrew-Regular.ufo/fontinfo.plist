@@ -40,14 +40,10 @@
 	<string>Bold Monday</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.boldmonday.com</string>
-	<key>openTypeNamePreferredFamilyName</key>
-	<string>IBM Plex Sans Hebrew</string>
-	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Regular</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSansHebrew;1.002;2019</string>
+	<string>IBM;IBMPlexSansHebrew-Regular;1.003;2020</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.002 2019</string>
+	<string>Version 1.003 2020</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -56,8 +52,8 @@
 	</array>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
-		<integer>0</integer>
-		<integer>0</integer>
+		<integer>8</integer>
+		<integer>1</integer>
 	</array>
 	<key>openTypeOS2Panose</key>
 	<array>
@@ -130,7 +126,7 @@
 	<key>postscriptBlueFuzz</key>
 	<integer>0</integer>
 	<key>postscriptBlueScale</key>
-	<real>0.039625</real>
+	<real>0.0625</real>
 	<key>postscriptBlueShift</key>
 	<integer>7</integer>
 	<key>postscriptBlueValues</key>
@@ -154,9 +150,25 @@
 	<integer>0</integer>
 	<key>postscriptFamilyBlues</key>
 	<array>
+		<integer>-12</integer>
+		<integer>0</integer>
+		<integer>369</integer>
+		<integer>375</integer>
+		<integer>516</integer>
+		<integer>528</integer>
+		<integer>606</integer>
+		<integer>618</integer>
+		<integer>698</integer>
+		<integer>710</integer>
+		<integer>740</integer>
+		<integer>752</integer>
 	</array>
 	<key>postscriptFamilyOtherBlues</key>
 	<array>
+		<integer>-212</integer>
+		<integer>-200</integer>
+		<integer>323</integer>
+		<integer>329</integer>
 	</array>
 	<key>postscriptFontName</key>
 	<string>IBMPlexSansHebrew</string>
@@ -209,10 +221,10 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>xHeight</key>
 	<integer>516</integer>
 	<key>year</key>
-	<integer>2019</integer>
+	<integer>2020</integer>
 </dict>
 </plist>
