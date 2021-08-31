@@ -29,6 +29,33 @@ languagesystem cyrl dflt;   # Cyrillic default
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 feature aalt {
 	sub a from [a.alt01]; # 1 glyph(s)
 	sub g from [g.alt01 g.alt02]; # 2 glyph(s)
@@ -351,6 +378,33 @@ feature mark {
 
 
 } mark;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

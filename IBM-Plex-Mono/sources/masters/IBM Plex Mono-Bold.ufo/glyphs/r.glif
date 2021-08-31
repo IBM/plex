@@ -5,8 +5,8 @@
   <outline>
     <contour>
       <point x="74" y="0" type="line"/>
-      <point x="511" y="0" type="line"/>
-      <point x="511" y="115" type="line"/>
+      <point x="470" y="0" type="line"/>
+      <point x="470" y="115" type="line"/>
       <point x="341" y="115" type="line"/>
       <point x="341" y="268" type="line" smooth="yes"/>
       <point x="341" y="330"/>
@@ -27,10 +27,10 @@
       <point x="74" y="115" type="line"/>
     </contour>
     <contour>
-      <point x="267" y="0" type="move" name="bottom"/>
+      <point x="267.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="325" y="516" type="move" name="top"/>
+      <point x="325.0" y="516.0" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>
