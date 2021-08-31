@@ -5,19 +5,9 @@
   <outline>
     <component base="alef-ar"/>
     <component base="hamzabelow-ar" xOffset="1" yOffset="-629"/>
-    <contour>
-      <point x="299.0" y="507.0" type="move" name="high"/>
-    </contour>
-    <contour>
-      <point x="112.0" y="740.0" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFE87</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefHamzabelow-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

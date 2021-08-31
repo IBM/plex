@@ -3,21 +3,17 @@
   <advance width="965"/>
   <outline>
     <component base="fehDotless-ar.fina"/>
-    <component base="dotabove-ar" xOffset="679" yOffset="230"/>
     <component base="dotbelow-ar" xOffset="353" yOffset="-582"/>
+    <component base="dotabove-ar" xOffset="679" yOffset="230"/>
     <contour>
-      <point x="418.0" y="-12.0" type="move" name="bottom"/>
+      <point x="418.0" y="-213.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="744.0" y="479.0" type="move" name="top"/>
+      <point x="744.0" y="697.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06A3.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>fehDotbelow-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

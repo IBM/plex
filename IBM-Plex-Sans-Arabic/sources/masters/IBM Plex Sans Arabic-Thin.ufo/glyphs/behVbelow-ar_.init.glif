@@ -5,7 +5,7 @@
     <component base="behDotless-ar.init"/>
     <component base="vbelow-ar" xOffset="38" yOffset="-599"/>
     <contour>
-      <point x="138.0" y="0.0" type="move" name="bottom"/>
+      <point x="138.0" y="-230.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="322.0" y="329.0" type="move" name="high"/>
@@ -19,10 +19,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08A0.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>behVbelow-ar.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

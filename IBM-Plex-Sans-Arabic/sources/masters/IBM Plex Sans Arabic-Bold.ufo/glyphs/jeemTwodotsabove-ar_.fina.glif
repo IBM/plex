@@ -3,8 +3,8 @@
   <advance width="659"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="dotcenter-ar" xOffset="255" yOffset="-421"/>
     <component base="twodotshorizontalabove-ar" xOffset="169" yOffset="217"/>
+    <component base="dotcenter-ar" xOffset="255" yOffset="-421"/>
     <contour>
       <point x="339.0" y="-304.0" type="move" name="bottom"/>
     </contour>
@@ -12,15 +12,11 @@
       <point x="334.0" y="9.0" type="move" name="center"/>
     </contour>
     <contour>
-      <point x="327.0" y="500.0" type="move" name="top"/>
+      <point x="327.0" y="714.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08A2.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>jeemTwodotsabove-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

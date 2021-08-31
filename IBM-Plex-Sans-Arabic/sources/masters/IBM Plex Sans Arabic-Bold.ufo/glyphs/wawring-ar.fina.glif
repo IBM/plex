@@ -68,13 +68,20 @@
       <point x="246" y="-13"/>
       <point x="240" y="0" type="curve"/>
     </contour>
+    <contour>
+      <point x="194.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="-3.0" y="0.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="356.0" y="423.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="157.0" y="-5.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="245.0" y="423.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06C4.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>wawring-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

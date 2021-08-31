@@ -79,13 +79,14 @@
       <point x="290" y="-261"/>
       <point x="314" y="-240"/>
     </contour>
+    <contour>
+      <point x="346.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="346.0" y="-240.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="346.0" y="431.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06BC.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>noonRing-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

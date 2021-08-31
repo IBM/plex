@@ -5,15 +5,11 @@
   <outline>
     <component base="ogonek" xOffset="-300"/>
     <contour>
-      <point x="0.0" y="0.0" type="move" name="_bottomright"/>
+      <point x="0" y="0" type="move" name="_bottomright"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0328</string>
-      <key>com.type-invaders.name.production</key>
-      <string>ogonekcomb</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -274,12 +274,22 @@
 	<string>alefMaksuraAlefabove-ar__.glif</string>
 	<key>alefMaksuraAlefabove-ar.fina</key>
 	<string>alefMaksuraAlefabove-ar__.fina.glif</string>
-	<key>alefMaksura_noonghunna-ar</key>
-	<string>alefMaksura__noonghunna-ar.glif</string>
-	<key>alefMaksura_reh-ar.fina</key>
-	<string>alefMaksura__reh-ar.fina.glif</string>
-	<key>alefMaksura_reh-ar.fina.short</key>
-	<string>alefMaksura__reh-ar.fina.short.glif</string>
+	<key>alefMaksura_jeh-ar.fina.rlig</key>
+	<string>alefMaksura__jeh-ar.fina.rlig.glif</string>
+	<key>alefMaksura_jeh-ar.fina.rlig.short</key>
+	<string>alefMaksura__jeh-ar.fina.rlig.short.glif</string>
+	<key>alefMaksura_noon-ar.fina.rlig</key>
+	<string>alefMaksura__noon-ar.fina.rlig.glif</string>
+	<key>alefMaksura_noonghunna-ar.rlig</key>
+	<string>alefMaksura__noonghunna-ar.rlig.glif</string>
+	<key>alefMaksura_reh-ar.fina.rlig</key>
+	<string>alefMaksura__reh-ar.fina.rlig.glif</string>
+	<key>alefMaksura_reh-ar.fina.rlig.short</key>
+	<string>alefMaksura__reh-ar.fina.rlig.short.glif</string>
+	<key>alefMaksura_zain-ar.fina.rlig</key>
+	<string>alefMaksura__zain-ar.fina.rlig.glif</string>
+	<key>alefMaksura_zain-ar.fina.rlig.short</key>
+	<string>alefMaksura__zain-ar.fina.rlig.short.glif</string>
 	<key>alefThreeabove-ar</key>
 	<string>alefThreeabove-ar_.glif</string>
 	<key>alefThreeabove-ar.fina</key>
@@ -418,6 +428,10 @@
 	<string>behDotless-ar_.init.glif</string>
 	<key>behDotless-ar.medi</key>
 	<string>behDotless-ar_.medi.glif</string>
+	<key>behDotless_alefMaksura-ar.fina.rlig</key>
+	<string>behDotless__alefMaksura-ar_.fina.rlig.glif</string>
+	<key>behDotless_alefMaksura-ar.rlig</key>
+	<string>behDotless__alefMaksura-ar_.rlig.glif</string>
 	<key>behThreedotshorizontalbelow-ar</key>
 	<string>behThreedotshorizontalbelow-ar_.glif</string>
 	<key>behThreedotshorizontalbelow-ar.fina</key>
@@ -474,40 +488,40 @@
 	<string>behVinvertedbelow-ar_.init.glif</string>
 	<key>behVinvertedbelow-ar.medi</key>
 	<string>behVinvertedbelow-ar_.medi.glif</string>
-	<key>beh_alefMaksura-ar</key>
-	<string>beh_alefMaksura-ar_.glif</string>
-	<key>beh_alefMaksura-ar.fina</key>
-	<string>beh_alefMaksura-ar_.fina.glif</string>
-	<key>beh_jeh-ar.fina</key>
-	<string>beh_jeh-ar.fina.glif</string>
-	<key>beh_jeh-ar.fina.short</key>
-	<string>beh_jeh-ar.fina.short.glif</string>
-	<key>beh_noon-ar.fina</key>
-	<string>beh_noon-ar.fina.glif</string>
-	<key>beh_reh-ar.fina</key>
-	<string>beh_reh-ar.fina.glif</string>
-	<key>beh_reh-ar.fina.short</key>
-	<string>beh_reh-ar.fina.short.glif</string>
-	<key>beh_rreh-ar.fina</key>
-	<string>beh_rreh-ar.fina.glif</string>
-	<key>beh_rreh-ar.fina.short</key>
-	<string>beh_rreh-ar.fina.short.glif</string>
-	<key>beh_yeh-ar</key>
-	<string>beh_yeh-ar.glif</string>
-	<key>beh_yeh-ar.fina</key>
-	<string>beh_yeh-ar.fina.glif</string>
-	<key>beh_yeh-farsi</key>
-	<string>beh_yeh-farsi.glif</string>
-	<key>beh_yeh-farsi.fina</key>
-	<string>beh_yeh-farsi.fina.glif</string>
-	<key>beh_yehHamzaabove-ar</key>
-	<string>beh_yehHamzaabove-ar_.glif</string>
-	<key>beh_yehHamzaabove-ar.fina</key>
-	<string>beh_yehHamzaabove-ar_.fina.glif</string>
-	<key>beh_zain-ar.fina</key>
-	<string>beh_zain-ar.fina.glif</string>
-	<key>beh_zain-ar.fina.short</key>
-	<string>beh_zain-ar.fina.short.glif</string>
+	<key>beh_alefMaksura-ar.fina.rlig</key>
+	<string>beh_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>beh_alefMaksura-ar.rlig</key>
+	<string>beh_alefMaksura-ar_.rlig.glif</string>
+	<key>beh_jeh-ar.fina.rlig</key>
+	<string>beh_jeh-ar.fina.rlig.glif</string>
+	<key>beh_jeh-ar.fina.rlig.short</key>
+	<string>beh_jeh-ar.fina.rlig.short.glif</string>
+	<key>beh_noon-ar.fina.rlig</key>
+	<string>beh_noon-ar.fina.rlig.glif</string>
+	<key>beh_reh-ar.fina.rlig</key>
+	<string>beh_reh-ar.fina.rlig.glif</string>
+	<key>beh_reh-ar.fina.rlig.short</key>
+	<string>beh_reh-ar.fina.rlig.short.glif</string>
+	<key>beh_rreh-ar.fina.rlig</key>
+	<string>beh_rreh-ar.fina.rlig.glif</string>
+	<key>beh_rreh-ar.fina.rlig.short</key>
+	<string>beh_rreh-ar.fina.rlig.short.glif</string>
+	<key>beh_yeh-ar.fina.rlig</key>
+	<string>beh_yeh-ar.fina.rlig.glif</string>
+	<key>beh_yeh-ar.rlig</key>
+	<string>beh_yeh-ar.rlig.glif</string>
+	<key>beh_yeh-farsi.fina.rlig</key>
+	<string>beh_yeh-farsi.fina.rlig.glif</string>
+	<key>beh_yeh-farsi.rlig</key>
+	<string>beh_yeh-farsi.rlig.glif</string>
+	<key>beh_yehHamzaabove-ar.fina.rlig</key>
+	<string>beh_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>beh_yehHamzaabove-ar.rlig</key>
+	<string>beh_yehHamzaabove-ar_.rlig.glif</string>
+	<key>beh_zain-ar.fina.rlig</key>
+	<string>beh_zain-ar.fina.rlig.glif</string>
+	<key>beh_zain-ar.fina.rlig.short</key>
+	<string>beh_zain-ar.fina.rlig.short.glif</string>
 	<key>beheh-ar</key>
 	<string>beheh-ar.glif</string>
 	<key>beheh-ar.fina</key>
@@ -584,10 +598,6 @@
 	<string>comp.alefmini-ar.glif</string>
 	<key>comp.bar-ar</key>
 	<string>comp.bar-ar.glif</string>
-	<key>comp.behDotless_alefMaksura-ar</key>
-	<string>comp.behDotless__alefMaksura-ar_.glif</string>
-	<key>comp.behDotless_alefMaksura-ar.fina</key>
-	<string>comp.behDotless__alefMaksura-ar_.fina.glif</string>
 	<key>comp.cuberoot-ar</key>
 	<string>comp.cuberoot-ar.glif</string>
 	<key>comp.damma-ar</key>
@@ -654,54 +664,54 @@
 	<string>dadDotbelow-ar_.init.glif</string>
 	<key>dadDotbelow-ar.medi</key>
 	<string>dadDotbelow-ar_.medi.glif</string>
-	<key>dad_alefMaksura-ar</key>
-	<string>dad_alefMaksura-ar_.glif</string>
-	<key>dad_alefMaksura-ar.fina</key>
-	<string>dad_alefMaksura-ar_.fina.glif</string>
-	<key>dad_jeh-ar</key>
-	<string>dad_jeh-ar.glif</string>
-	<key>dad_jeh-ar.fina</key>
-	<string>dad_jeh-ar.fina.glif</string>
-	<key>dad_jeh-ar.fina.short</key>
-	<string>dad_jeh-ar.fina.short.glif</string>
-	<key>dad_jeh-ar.short</key>
-	<string>dad_jeh-ar.short.glif</string>
-	<key>dad_reh-ar</key>
-	<string>dad_reh-ar.glif</string>
-	<key>dad_reh-ar.fina</key>
-	<string>dad_reh-ar.fina.glif</string>
-	<key>dad_reh-ar.fina.short</key>
-	<string>dad_reh-ar.fina.short.glif</string>
-	<key>dad_reh-ar.short</key>
-	<string>dad_reh-ar.short.glif</string>
-	<key>dad_rreh-ar</key>
-	<string>dad_rreh-ar.glif</string>
-	<key>dad_rreh-ar.fina</key>
-	<string>dad_rreh-ar.fina.glif</string>
-	<key>dad_rreh-ar.fina.short</key>
-	<string>dad_rreh-ar.fina.short.glif</string>
-	<key>dad_rreh-ar.short</key>
-	<string>dad_rreh-ar.short.glif</string>
-	<key>dad_yeh-ar</key>
-	<string>dad_yeh-ar.glif</string>
-	<key>dad_yeh-ar.fina</key>
-	<string>dad_yeh-ar.fina.glif</string>
-	<key>dad_yeh-farsi</key>
-	<string>dad_yeh-farsi.glif</string>
-	<key>dad_yeh-farsi.fina</key>
-	<string>dad_yeh-farsi.fina.glif</string>
-	<key>dad_yehHamzaabove-ar</key>
-	<string>dad_yehHamzaabove-ar_.glif</string>
-	<key>dad_yehHamzaabove-ar.fina</key>
-	<string>dad_yehHamzaabove-ar_.fina.glif</string>
-	<key>dad_zain-ar</key>
-	<string>dad_zain-ar.glif</string>
-	<key>dad_zain-ar.fina</key>
-	<string>dad_zain-ar.fina.glif</string>
-	<key>dad_zain-ar.fina.short</key>
-	<string>dad_zain-ar.fina.short.glif</string>
-	<key>dad_zain-ar.short</key>
-	<string>dad_zain-ar.short.glif</string>
+	<key>dad_alefMaksura-ar.fina.rlig</key>
+	<string>dad_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>dad_alefMaksura-ar.rlig</key>
+	<string>dad_alefMaksura-ar_.rlig.glif</string>
+	<key>dad_jeh-ar.fina.rlig</key>
+	<string>dad_jeh-ar.fina.rlig.glif</string>
+	<key>dad_jeh-ar.fina.rlig.short</key>
+	<string>dad_jeh-ar.fina.rlig.short.glif</string>
+	<key>dad_jeh-ar.rlig</key>
+	<string>dad_jeh-ar.rlig.glif</string>
+	<key>dad_jeh-ar.rlig.short</key>
+	<string>dad_jeh-ar.rlig.short.glif</string>
+	<key>dad_reh-ar.fina.rlig</key>
+	<string>dad_reh-ar.fina.rlig.glif</string>
+	<key>dad_reh-ar.fina.rlig.short</key>
+	<string>dad_reh-ar.fina.rlig.short.glif</string>
+	<key>dad_reh-ar.rlig</key>
+	<string>dad_reh-ar.rlig.glif</string>
+	<key>dad_reh-ar.rlig.short</key>
+	<string>dad_reh-ar.rlig.short.glif</string>
+	<key>dad_rreh-ar.fina.rlig</key>
+	<string>dad_rreh-ar.fina.rlig.glif</string>
+	<key>dad_rreh-ar.fina.rlig.short</key>
+	<string>dad_rreh-ar.fina.rlig.short.glif</string>
+	<key>dad_rreh-ar.rlig</key>
+	<string>dad_rreh-ar.rlig.glif</string>
+	<key>dad_rreh-ar.rlig.short</key>
+	<string>dad_rreh-ar.rlig.short.glif</string>
+	<key>dad_yeh-ar.fina.rlig</key>
+	<string>dad_yeh-ar.fina.rlig.glif</string>
+	<key>dad_yeh-ar.rlig</key>
+	<string>dad_yeh-ar.rlig.glif</string>
+	<key>dad_yeh-farsi.fina.rlig</key>
+	<string>dad_yeh-farsi.fina.rlig.glif</string>
+	<key>dad_yeh-farsi.rlig</key>
+	<string>dad_yeh-farsi.rlig.glif</string>
+	<key>dad_yehHamzaabove-ar.fina.rlig</key>
+	<string>dad_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>dad_yehHamzaabove-ar.rlig</key>
+	<string>dad_yehHamzaabove-ar_.rlig.glif</string>
+	<key>dad_zain-ar.fina.rlig</key>
+	<string>dad_zain-ar.fina.rlig.glif</string>
+	<key>dad_zain-ar.fina.rlig.short</key>
+	<string>dad_zain-ar.fina.rlig.short.glif</string>
+	<key>dad_zain-ar.rlig</key>
+	<string>dad_zain-ar.rlig.glif</string>
+	<key>dad_zain-ar.rlig.short</key>
+	<string>dad_zain-ar.rlig.short.glif</string>
 	<key>dagger</key>
 	<string>dagger.glif</string>
 	<key>daggerdbl</key>
@@ -950,8 +960,8 @@
 	<string>fehDotless-ar_.init.glif</string>
 	<key>fehDotless-ar.medi</key>
 	<string>fehDotless-ar_.medi.glif</string>
-	<key>fehDotless_alefMaksura-ar</key>
-	<string>fehDotless__alefMaksura-ar_.glif</string>
+	<key>fehDotless_alefMaksura-ar.rlig</key>
+	<string>fehDotless__alefMaksura-ar_.rlig.glif</string>
 	<key>fehThreedotsbelow-ar</key>
 	<string>fehThreedotsbelow-ar_.glif</string>
 	<key>fehThreedotsbelow-ar.fina</key>
@@ -976,14 +986,14 @@
 	<string>fehTwodotsbelow-ar_.init.glif</string>
 	<key>fehTwodotsbelow-ar.medi</key>
 	<string>fehTwodotsbelow-ar_.medi.glif</string>
-	<key>feh_alefMaksura-ar</key>
-	<string>feh_alefMaksura-ar_.glif</string>
-	<key>feh_yeh-ar</key>
-	<string>feh_yeh-ar.glif</string>
-	<key>feh_yeh-farsi</key>
-	<string>feh_yeh-farsi.glif</string>
-	<key>feh_yehHamzaabove-ar</key>
-	<string>feh_yehHamzaabove-ar_.glif</string>
+	<key>feh_alefMaksura-ar.rlig</key>
+	<string>feh_alefMaksura-ar_.rlig.glif</string>
+	<key>feh_yeh-ar.rlig</key>
+	<string>feh_yeh-ar.rlig.glif</string>
+	<key>feh_yeh-farsi.rlig</key>
+	<string>feh_yeh-farsi.rlig.glif</string>
+	<key>feh_yehHamzaabove-ar.rlig</key>
+	<string>feh_yehHamzaabove-ar_.rlig.glif</string>
 	<key>fi</key>
 	<string>fi.glif</string>
 	<key>five</key>
@@ -1076,22 +1086,22 @@
 	<string>gafTwodotsbelow-ar_.init.glif</string>
 	<key>gafTwodotsbelow-ar.medi</key>
 	<string>gafTwodotsbelow-ar_.medi.glif</string>
-	<key>gaf_alefMaksura-ar</key>
-	<string>gaf_alefMaksura-ar_.glif</string>
-	<key>gaf_alefMaksura-ar.fina</key>
-	<string>gaf_alefMaksura-ar_.fina.glif</string>
-	<key>gaf_yeh-ar</key>
-	<string>gaf_yeh-ar.glif</string>
-	<key>gaf_yeh-ar.fina</key>
-	<string>gaf_yeh-ar.fina.glif</string>
-	<key>gaf_yeh-farsi</key>
-	<string>gaf_yeh-farsi.glif</string>
-	<key>gaf_yeh-farsi.fina</key>
-	<string>gaf_yeh-farsi.fina.glif</string>
-	<key>gaf_yehHamzaabove-ar</key>
-	<string>gaf_yehHamzaabove-ar_.glif</string>
-	<key>gaf_yehHamzaabove-ar.fina</key>
-	<string>gaf_yehHamzaabove-ar_.fina.glif</string>
+	<key>gaf_alefMaksura-ar.fina.rlig</key>
+	<string>gaf_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>gaf_alefMaksura-ar.rlig</key>
+	<string>gaf_alefMaksura-ar_.rlig.glif</string>
+	<key>gaf_yeh-ar.fina.rlig</key>
+	<string>gaf_yeh-ar.fina.rlig.glif</string>
+	<key>gaf_yeh-ar.rlig</key>
+	<string>gaf_yeh-ar.rlig.glif</string>
+	<key>gaf_yeh-farsi.fina.rlig</key>
+	<string>gaf_yeh-farsi.fina.rlig.glif</string>
+	<key>gaf_yeh-farsi.rlig</key>
+	<string>gaf_yeh-farsi.rlig.glif</string>
+	<key>gaf_yehHamzaabove-ar.fina.rlig</key>
+	<string>gaf_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>gaf_yehHamzaabove-ar.rlig</key>
+	<string>gaf_yehHamzaabove-ar_.rlig.glif</string>
 	<key>germandbls</key>
 	<string>germandbls.glif</string>
 	<key>germandbls.alt01</key>
@@ -1442,22 +1452,22 @@
 	<string>kafTwodotshorizontalabove-ar_.init.glif</string>
 	<key>kafTwodotshorizontalabove-ar.medi</key>
 	<string>kafTwodotshorizontalabove-ar_.medi.glif</string>
-	<key>kaf_alefMaksura-ar</key>
-	<string>kaf_alefMaksura-ar_.glif</string>
-	<key>kaf_alefMaksura-ar.fina</key>
-	<string>kaf_alefMaksura-ar_.fina.glif</string>
-	<key>kaf_yeh-ar</key>
-	<string>kaf_yeh-ar.glif</string>
-	<key>kaf_yeh-ar.fina</key>
-	<string>kaf_yeh-ar.fina.glif</string>
-	<key>kaf_yeh-farsi</key>
-	<string>kaf_yeh-farsi.glif</string>
-	<key>kaf_yeh-farsi.fina</key>
-	<string>kaf_yeh-farsi.fina.glif</string>
-	<key>kaf_yehHamzaabove-ar</key>
-	<string>kaf_yehHamzaabove-ar_.glif</string>
-	<key>kaf_yehHamzaabove-ar.fina</key>
-	<string>kaf_yehHamzaabove-ar_.fina.glif</string>
+	<key>kaf_alefMaksura-ar.fina.rlig</key>
+	<string>kaf_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>kaf_alefMaksura-ar.rlig</key>
+	<string>kaf_alefMaksura-ar_.rlig.glif</string>
+	<key>kaf_yeh-ar.fina.rlig</key>
+	<string>kaf_yeh-ar.fina.rlig.glif</string>
+	<key>kaf_yeh-ar.rlig</key>
+	<string>kaf_yeh-ar.rlig.glif</string>
+	<key>kaf_yeh-farsi.fina.rlig</key>
+	<string>kaf_yeh-farsi.fina.rlig.glif</string>
+	<key>kaf_yeh-farsi.rlig</key>
+	<string>kaf_yeh-farsi.rlig.glif</string>
+	<key>kaf_yehHamzaabove-ar.fina.rlig</key>
+	<string>kaf_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>kaf_yehHamzaabove-ar.rlig</key>
+	<string>kaf_yehHamzaabove-ar_.rlig.glif</string>
 	<key>kafswash-ar</key>
 	<string>kafswash-ar.glif</string>
 	<key>kashida-ar</key>
@@ -1534,14 +1544,14 @@
 	<string>kehehTwodotshorizontalabove-ar_.init.glif</string>
 	<key>kehehTwodotshorizontalabove-ar.medi</key>
 	<string>kehehTwodotshorizontalabove-ar_.medi.glif</string>
-	<key>keheh_yeh-ar</key>
-	<string>keheh_yeh-ar.glif</string>
-	<key>keheh_yeh-ar.fina</key>
-	<string>keheh_yeh-ar.fina.glif</string>
-	<key>keheh_yeh-farsi</key>
-	<string>keheh_yeh-farsi.glif</string>
-	<key>keheh_yeh-farsi.fina</key>
-	<string>keheh_yeh-farsi.fina.glif</string>
+	<key>keheh_yeh-ar.fina.rlig</key>
+	<string>keheh_yeh-ar.fina.rlig.glif</string>
+	<key>keheh_yeh-ar.rlig</key>
+	<string>keheh_yeh-ar.rlig.glif</string>
+	<key>keheh_yeh-farsi.fina.rlig</key>
+	<string>keheh_yeh-farsi.fina.rlig.glif</string>
+	<key>keheh_yeh-farsi.rlig</key>
+	<string>keheh_yeh-farsi.rlig.glif</string>
 	<key>khah-ar</key>
 	<string>khah-ar.glif</string>
 	<key>khah-ar.fina</key>
@@ -1586,10 +1596,10 @@
 	<string>lamBar-ar_.init.glif</string>
 	<key>lamBar-ar.medi</key>
 	<string>lamBar-ar_.medi.glif</string>
-	<key>lamBar_alef-ar</key>
-	<string>lamBar__alef-ar.glif</string>
-	<key>lamBar_alef-ar.fina</key>
-	<string>lamBar__alef-ar.fina.glif</string>
+	<key>lamBar_alef-ar.fina.rlig</key>
+	<string>lamBar__alef-ar.fina.rlig.glif</string>
+	<key>lamBar_alef-ar.rlig</key>
+	<string>lamBar__alef-ar.rlig.glif</string>
 	<key>lamDotabove-ar</key>
 	<string>lamDotabove-ar_.glif</string>
 	<key>lamDotabove-ar.fina</key>
@@ -1598,10 +1608,10 @@
 	<string>lamDotabove-ar_.init.glif</string>
 	<key>lamDotabove-ar.medi</key>
 	<string>lamDotabove-ar_.medi.glif</string>
-	<key>lamDotabove_alef-ar</key>
-	<string>lamDotabove__alef-ar.glif</string>
-	<key>lamDotabove_alef-ar.fina</key>
-	<string>lamDotabove__alef-ar.fina.glif</string>
+	<key>lamDotabove_alef-ar.fina.rlig</key>
+	<string>lamDotabove__alef-ar.fina.rlig.glif</string>
+	<key>lamDotabove_alef-ar.rlig</key>
+	<string>lamDotabove__alef-ar.rlig.glif</string>
 	<key>lamDoublebar-ar</key>
 	<string>lamDoublebar-ar_.glif</string>
 	<key>lamDoublebar-ar.fina</key>
@@ -1618,10 +1628,10 @@
 	<string>lamThreedotsabove-ar_.init.glif</string>
 	<key>lamThreedotsabove-ar.medi</key>
 	<string>lamThreedotsabove-ar_.medi.glif</string>
-	<key>lamThreedotsabove_alef-ar</key>
-	<string>lamThreedotsabove__alef-ar.glif</string>
-	<key>lamThreedotsabove_alef-ar.fina</key>
-	<string>lamThreedotsabove__alef-ar.fina.glif</string>
+	<key>lamThreedotsabove_alef-ar.fina.rlig</key>
+	<string>lamThreedotsabove__alef-ar.fina.rlig.glif</string>
+	<key>lamThreedotsabove_alef-ar.rlig</key>
+	<string>lamThreedotsabove__alef-ar.rlig.glif</string>
 	<key>lamThreedotsbelow-ar</key>
 	<string>lamThreedotsbelow-ar_.glif</string>
 	<key>lamThreedotsbelow-ar.fina</key>
@@ -1630,10 +1640,10 @@
 	<string>lamThreedotsbelow-ar_.init.glif</string>
 	<key>lamThreedotsbelow-ar.medi</key>
 	<string>lamThreedotsbelow-ar_.medi.glif</string>
-	<key>lamThreedotsbelow_alef-ar</key>
-	<string>lamThreedotsbelow__alef-ar.glif</string>
-	<key>lamThreedotsbelow_alef-ar.fina</key>
-	<string>lamThreedotsbelow__alef-ar.fina.glif</string>
+	<key>lamThreedotsbelow_alef-ar.fina.rlig</key>
+	<string>lamThreedotsbelow__alef-ar.fina.rlig.glif</string>
+	<key>lamThreedotsbelow_alef-ar.rlig</key>
+	<string>lamThreedotsbelow__alef-ar.rlig.glif</string>
 	<key>lamVabove-ar</key>
 	<string>lamVabove-ar_.glif</string>
 	<key>lamVabove-ar.fina</key>
@@ -1642,50 +1652,50 @@
 	<string>lamVabove-ar_.init.glif</string>
 	<key>lamVabove-ar.medi</key>
 	<string>lamVabove-ar_.medi.glif</string>
-	<key>lamVabove_alef-ar</key>
-	<string>lamVabove__alef-ar.glif</string>
-	<key>lamVabove_alef-ar.fina</key>
-	<string>lamVabove__alef-ar.fina.glif</string>
-	<key>lam_alef-ar</key>
-	<string>lam_alef-ar.glif</string>
-	<key>lam_alef-ar.fina</key>
-	<string>lam_alef-ar.fina.glif</string>
-	<key>lam_alefHamzaabove-ar</key>
-	<string>lam_alefHamzaabove-ar_.glif</string>
-	<key>lam_alefHamzaabove-ar.fina</key>
-	<string>lam_alefHamzaabove-ar_.fina.glif</string>
-	<key>lam_alefHamzabelow-ar</key>
-	<string>lam_alefHamzabelow-ar_.glif</string>
-	<key>lam_alefHamzabelow-ar.fina</key>
-	<string>lam_alefHamzabelow-ar_.fina.glif</string>
-	<key>lam_alefMadda-ar</key>
-	<string>lam_alefMadda-ar_.glif</string>
-	<key>lam_alefMadda-ar.fina</key>
-	<string>lam_alefMadda-ar_.fina.glif</string>
-	<key>lam_alefMaksura-ar</key>
-	<string>lam_alefMaksura-ar_.glif</string>
-	<key>lam_alefWasla-ar</key>
-	<string>lam_alefWasla-ar_.glif</string>
-	<key>lam_alefWasla-ar.fina</key>
-	<string>lam_alefWasla-ar_.fina.glif</string>
-	<key>lam_alefWavyhamzaabove-ar</key>
-	<string>lam_alefWavyhamzaabove-ar_.glif</string>
-	<key>lam_alefWavyhamzaabove-ar.fina</key>
-	<string>lam_alefWavyhamzaabove-ar_.fina.glif</string>
-	<key>lam_alefWavyhamzabelow-ar</key>
-	<string>lam_alefWavyhamzabelow-ar_.glif</string>
-	<key>lam_alefWavyhamzabelow-ar.fina</key>
-	<string>lam_alefWavyhamzabelow-ar_.fina.glif</string>
+	<key>lamVabove_alef-ar.fina.rlig</key>
+	<string>lamVabove__alef-ar.fina.rlig.glif</string>
+	<key>lamVabove_alef-ar.rlig</key>
+	<string>lamVabove__alef-ar.rlig.glif</string>
+	<key>lam_alef-ar.fina.rlig</key>
+	<string>lam_alef-ar.fina.rlig.glif</string>
+	<key>lam_alef-ar.rlig</key>
+	<string>lam_alef-ar.rlig.glif</string>
+	<key>lam_alefHamzaabove-ar.fina.rlig</key>
+	<string>lam_alefHamzaabove-ar_.fina.rlig.glif</string>
+	<key>lam_alefHamzaabove-ar.rlig</key>
+	<string>lam_alefHamzaabove-ar_.rlig.glif</string>
+	<key>lam_alefHamzabelow-ar.fina.rlig</key>
+	<string>lam_alefHamzabelow-ar_.fina.rlig.glif</string>
+	<key>lam_alefHamzabelow-ar.rlig</key>
+	<string>lam_alefHamzabelow-ar_.rlig.glif</string>
+	<key>lam_alefMadda-ar.fina.rlig</key>
+	<string>lam_alefMadda-ar_.fina.rlig.glif</string>
+	<key>lam_alefMadda-ar.rlig</key>
+	<string>lam_alefMadda-ar_.rlig.glif</string>
+	<key>lam_alefMaksura-ar.rlig</key>
+	<string>lam_alefMaksura-ar_.rlig.glif</string>
+	<key>lam_alefWasla-ar.fina.rlig</key>
+	<string>lam_alefWasla-ar_.fina.rlig.glif</string>
+	<key>lam_alefWasla-ar.rlig</key>
+	<string>lam_alefWasla-ar_.rlig.glif</string>
+	<key>lam_alefWavyhamzaabove-ar.fina.rlig</key>
+	<string>lam_alefWavyhamzaabove-ar_.fina.rlig.glif</string>
+	<key>lam_alefWavyhamzaabove-ar.rlig</key>
+	<string>lam_alefWavyhamzaabove-ar_.rlig.glif</string>
+	<key>lam_alefWavyhamzabelow-ar.fina.rlig</key>
+	<string>lam_alefWavyhamzabelow-ar_.fina.rlig.glif</string>
+	<key>lam_alefWavyhamzabelow-ar.rlig</key>
+	<string>lam_alefWavyhamzabelow-ar_.rlig.glif</string>
 	<key>lam_meem-ar</key>
 	<string>lam_meem-ar.glif</string>
 	<key>lam_meem-ar.init</key>
 	<string>lam_meem-ar.init.glif</string>
-	<key>lam_yeh-ar</key>
-	<string>lam_yeh-ar.glif</string>
-	<key>lam_yeh-farsi</key>
-	<string>lam_yeh-farsi.glif</string>
-	<key>lam_yehHamzaabove-ar</key>
-	<string>lam_yehHamzaabove-ar_.glif</string>
+	<key>lam_yeh-ar.rlig</key>
+	<string>lam_yeh-ar.rlig.glif</string>
+	<key>lam_yeh-farsi.rlig</key>
+	<string>lam_yeh-farsi.rlig.glif</string>
+	<key>lam_yehHamzaabove-ar.rlig</key>
+	<string>lam_yehHamzaabove-ar_.rlig.glif</string>
 	<key>ldot</key>
 	<string>ldot.glif</string>
 	<key>leftarrowheadabove-ar</key>
@@ -1858,40 +1868,40 @@
 	<string>noonVabove-ar_.init.glif</string>
 	<key>noonVabove-ar.medi</key>
 	<string>noonVabove-ar_.medi.glif</string>
-	<key>noon_alefMaksura-ar</key>
-	<string>noon_alefMaksura-ar_.glif</string>
-	<key>noon_alefMaksura-ar.fina</key>
-	<string>noon_alefMaksura-ar_.fina.glif</string>
-	<key>noon_jeh-ar.fina</key>
-	<string>noon_jeh-ar.fina.glif</string>
-	<key>noon_jeh-ar.fina.short</key>
-	<string>noon_jeh-ar.fina.short.glif</string>
-	<key>noon_noon-ar.fina</key>
-	<string>noon_noon-ar.fina.glif</string>
-	<key>noon_reh-ar.fina</key>
-	<string>noon_reh-ar.fina.glif</string>
-	<key>noon_reh-ar.fina.short</key>
-	<string>noon_reh-ar.fina.short.glif</string>
-	<key>noon_rreh-ar.fina</key>
-	<string>noon_rreh-ar.fina.glif</string>
-	<key>noon_rreh-ar.fina.short</key>
-	<string>noon_rreh-ar.fina.short.glif</string>
-	<key>noon_yeh-ar</key>
-	<string>noon_yeh-ar.glif</string>
-	<key>noon_yeh-ar.fina</key>
-	<string>noon_yeh-ar.fina.glif</string>
-	<key>noon_yeh-farsi</key>
-	<string>noon_yeh-farsi.glif</string>
-	<key>noon_yeh-farsi.fina</key>
-	<string>noon_yeh-farsi.fina.glif</string>
-	<key>noon_yehHamzaabove-ar</key>
-	<string>noon_yehHamzaabove-ar_.glif</string>
-	<key>noon_yehHamzaabove-ar.fina</key>
-	<string>noon_yehHamzaabove-ar_.fina.glif</string>
-	<key>noon_zain-ar.fina</key>
-	<string>noon_zain-ar.fina.glif</string>
-	<key>noon_zain-ar.fina.short</key>
-	<string>noon_zain-ar.fina.short.glif</string>
+	<key>noon_alefMaksura-ar.fina.rlig</key>
+	<string>noon_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>noon_alefMaksura-ar.rlig</key>
+	<string>noon_alefMaksura-ar_.rlig.glif</string>
+	<key>noon_jeh-ar.fina.rlig</key>
+	<string>noon_jeh-ar.fina.rlig.glif</string>
+	<key>noon_jeh-ar.fina.rlig.short</key>
+	<string>noon_jeh-ar.fina.rlig.short.glif</string>
+	<key>noon_noon-ar.fina.rlig</key>
+	<string>noon_noon-ar.fina.rlig.glif</string>
+	<key>noon_reh-ar.fina.rlig</key>
+	<string>noon_reh-ar.fina.rlig.glif</string>
+	<key>noon_reh-ar.fina.rlig.short</key>
+	<string>noon_reh-ar.fina.rlig.short.glif</string>
+	<key>noon_rreh-ar.fina.rlig</key>
+	<string>noon_rreh-ar.fina.rlig.glif</string>
+	<key>noon_rreh-ar.fina.rlig.short</key>
+	<string>noon_rreh-ar.fina.rlig.short.glif</string>
+	<key>noon_yeh-ar.fina.rlig</key>
+	<string>noon_yeh-ar.fina.rlig.glif</string>
+	<key>noon_yeh-ar.rlig</key>
+	<string>noon_yeh-ar.rlig.glif</string>
+	<key>noon_yeh-farsi.fina.rlig</key>
+	<string>noon_yeh-farsi.fina.rlig.glif</string>
+	<key>noon_yeh-farsi.rlig</key>
+	<string>noon_yeh-farsi.rlig.glif</string>
+	<key>noon_yehHamzaabove-ar.fina.rlig</key>
+	<string>noon_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>noon_yehHamzaabove-ar.rlig</key>
+	<string>noon_yehHamzaabove-ar_.rlig.glif</string>
+	<key>noon_zain-ar.fina.rlig</key>
+	<string>noon_zain-ar.fina.rlig.glif</string>
+	<key>noon_zain-ar.fina.rlig.short</key>
+	<string>noon_zain-ar.fina.rlig.short.glif</string>
 	<key>noonabove-ar</key>
 	<string>noonabove-ar.glif</string>
 	<key>noonghunna-ar</key>
@@ -1992,40 +2002,40 @@
 	<string>peh-ar.init.glif</string>
 	<key>peh-ar.medi</key>
 	<string>peh-ar.medi.glif</string>
-	<key>peh_alefMaksura-ar</key>
-	<string>peh_alefMaksura-ar_.glif</string>
-	<key>peh_alefMaksura-ar.fina</key>
-	<string>peh_alefMaksura-ar_.fina.glif</string>
-	<key>peh_jeh-ar.fina</key>
-	<string>peh_jeh-ar.fina.glif</string>
-	<key>peh_jeh-ar.fina.short</key>
-	<string>peh_jeh-ar.fina.short.glif</string>
-	<key>peh_noon-ar.fina</key>
-	<string>peh_noon-ar.fina.glif</string>
-	<key>peh_reh-ar.fina</key>
-	<string>peh_reh-ar.fina.glif</string>
-	<key>peh_reh-ar.fina.short</key>
-	<string>peh_reh-ar.fina.short.glif</string>
-	<key>peh_rreh-ar.fina</key>
-	<string>peh_rreh-ar.fina.glif</string>
-	<key>peh_rreh-ar.fina.short</key>
-	<string>peh_rreh-ar.fina.short.glif</string>
-	<key>peh_yeh-ar</key>
-	<string>peh_yeh-ar.glif</string>
-	<key>peh_yeh-ar.fina</key>
-	<string>peh_yeh-ar.fina.glif</string>
-	<key>peh_yeh-farsi</key>
-	<string>peh_yeh-farsi.glif</string>
-	<key>peh_yeh-farsi.fina</key>
-	<string>peh_yeh-farsi.fina.glif</string>
-	<key>peh_yehHamzaabove-ar</key>
-	<string>peh_yehHamzaabove-ar_.glif</string>
-	<key>peh_yehHamzaabove-ar.fina</key>
-	<string>peh_yehHamzaabove-ar_.fina.glif</string>
-	<key>peh_zain-ar.fina</key>
-	<string>peh_zain-ar.fina.glif</string>
-	<key>peh_zain-ar.fina.short</key>
-	<string>peh_zain-ar.fina.short.glif</string>
+	<key>peh_alefMaksura-ar.fina.rlig</key>
+	<string>peh_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>peh_alefMaksura-ar.rlig</key>
+	<string>peh_alefMaksura-ar_.rlig.glif</string>
+	<key>peh_jeh-ar.fina.rlig</key>
+	<string>peh_jeh-ar.fina.rlig.glif</string>
+	<key>peh_jeh-ar.fina.rlig.short</key>
+	<string>peh_jeh-ar.fina.rlig.short.glif</string>
+	<key>peh_noon-ar.fina.rlig</key>
+	<string>peh_noon-ar.fina.rlig.glif</string>
+	<key>peh_reh-ar.fina.rlig</key>
+	<string>peh_reh-ar.fina.rlig.glif</string>
+	<key>peh_reh-ar.fina.rlig.short</key>
+	<string>peh_reh-ar.fina.rlig.short.glif</string>
+	<key>peh_rreh-ar.fina.rlig</key>
+	<string>peh_rreh-ar.fina.rlig.glif</string>
+	<key>peh_rreh-ar.fina.rlig.short</key>
+	<string>peh_rreh-ar.fina.rlig.short.glif</string>
+	<key>peh_yeh-ar.fina.rlig</key>
+	<string>peh_yeh-ar.fina.rlig.glif</string>
+	<key>peh_yeh-ar.rlig</key>
+	<string>peh_yeh-ar.rlig.glif</string>
+	<key>peh_yeh-farsi.fina.rlig</key>
+	<string>peh_yeh-farsi.fina.rlig.glif</string>
+	<key>peh_yeh-farsi.rlig</key>
+	<string>peh_yeh-farsi.rlig.glif</string>
+	<key>peh_yehHamzaabove-ar.fina.rlig</key>
+	<string>peh_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>peh_yehHamzaabove-ar.rlig</key>
+	<string>peh_yehHamzaabove-ar_.rlig.glif</string>
+	<key>peh_zain-ar.fina.rlig</key>
+	<string>peh_zain-ar.fina.rlig.glif</string>
+	<key>peh_zain-ar.fina.rlig.short</key>
+	<string>peh_zain-ar.fina.rlig.short.glif</string>
 	<key>peheh-ar</key>
 	<string>peheh-ar.glif</string>
 	<key>peheh-ar.fina</key>
@@ -2096,16 +2106,16 @@
 	<string>qafThreedotsabove-ar_.init.glif</string>
 	<key>qafThreedotsabove-ar.medi</key>
 	<string>qafThreedotsabove-ar_.medi.glif</string>
-	<key>qaf_alefMaksura-ar</key>
-	<string>qaf_alefMaksura-ar_.glif</string>
+	<key>qaf_alefMaksura-ar.rlig</key>
+	<string>qaf_alefMaksura-ar_.rlig.glif</string>
 	<key>qaf_lam_yeh-ar</key>
 	<string>qaf_lam_yeh-ar.glif</string>
-	<key>qaf_yeh-ar</key>
-	<string>qaf_yeh-ar.glif</string>
-	<key>qaf_yeh-farsi</key>
-	<string>qaf_yeh-farsi.glif</string>
-	<key>qaf_yehHamzaabove-ar</key>
-	<string>qaf_yehHamzaabove-ar_.glif</string>
+	<key>qaf_yeh-ar.rlig</key>
+	<string>qaf_yeh-ar.rlig.glif</string>
+	<key>qaf_yeh-farsi.rlig</key>
+	<string>qaf_yeh-farsi.rlig.glif</string>
+	<key>qaf_yehHamzaabove-ar.rlig</key>
+	<string>qaf_yehHamzaabove-ar_.rlig.glif</string>
 	<key>question</key>
 	<string>question.glif</string>
 	<key>question-ar</key>
@@ -2272,54 +2282,54 @@
 	<string>sadTwodotsbelow-ar_.init.glif</string>
 	<key>sadTwodotsbelow-ar.medi</key>
 	<string>sadTwodotsbelow-ar_.medi.glif</string>
-	<key>sad_alefMaksura-ar</key>
-	<string>sad_alefMaksura-ar_.glif</string>
-	<key>sad_alefMaksura-ar.fina</key>
-	<string>sad_alefMaksura-ar_.fina.glif</string>
-	<key>sad_jeh-ar</key>
-	<string>sad_jeh-ar.glif</string>
-	<key>sad_jeh-ar.fina</key>
-	<string>sad_jeh-ar.fina.glif</string>
-	<key>sad_jeh-ar.fina.short</key>
-	<string>sad_jeh-ar.fina.short.glif</string>
-	<key>sad_jeh-ar.short</key>
-	<string>sad_jeh-ar.short.glif</string>
-	<key>sad_reh-ar</key>
-	<string>sad_reh-ar.glif</string>
-	<key>sad_reh-ar.fina</key>
-	<string>sad_reh-ar.fina.glif</string>
-	<key>sad_reh-ar.fina.short</key>
-	<string>sad_reh-ar.fina.short.glif</string>
-	<key>sad_reh-ar.short</key>
-	<string>sad_reh-ar.short.glif</string>
-	<key>sad_rreh-ar</key>
-	<string>sad_rreh-ar.glif</string>
-	<key>sad_rreh-ar.fina</key>
-	<string>sad_rreh-ar.fina.glif</string>
-	<key>sad_rreh-ar.fina.short</key>
-	<string>sad_rreh-ar.fina.short.glif</string>
-	<key>sad_rreh-ar.short</key>
-	<string>sad_rreh-ar.short.glif</string>
-	<key>sad_yeh-ar</key>
-	<string>sad_yeh-ar.glif</string>
-	<key>sad_yeh-ar.fina</key>
-	<string>sad_yeh-ar.fina.glif</string>
-	<key>sad_yeh-farsi</key>
-	<string>sad_yeh-farsi.glif</string>
-	<key>sad_yeh-farsi.fina</key>
-	<string>sad_yeh-farsi.fina.glif</string>
-	<key>sad_yehHamzaabove-ar</key>
-	<string>sad_yehHamzaabove-ar_.glif</string>
-	<key>sad_yehHamzaabove-ar.fina</key>
-	<string>sad_yehHamzaabove-ar_.fina.glif</string>
-	<key>sad_zain-ar</key>
-	<string>sad_zain-ar.glif</string>
-	<key>sad_zain-ar.fina</key>
-	<string>sad_zain-ar.fina.glif</string>
-	<key>sad_zain-ar.fina.short</key>
-	<string>sad_zain-ar.fina.short.glif</string>
-	<key>sad_zain-ar.short</key>
-	<string>sad_zain-ar.short.glif</string>
+	<key>sad_alefMaksura-ar.fina.rlig</key>
+	<string>sad_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>sad_alefMaksura-ar.rlig</key>
+	<string>sad_alefMaksura-ar_.rlig.glif</string>
+	<key>sad_jeh-ar.fina.rlig</key>
+	<string>sad_jeh-ar.fina.rlig.glif</string>
+	<key>sad_jeh-ar.fina.rlig.short</key>
+	<string>sad_jeh-ar.fina.rlig.short.glif</string>
+	<key>sad_jeh-ar.rlig</key>
+	<string>sad_jeh-ar.rlig.glif</string>
+	<key>sad_jeh-ar.rlig.short</key>
+	<string>sad_jeh-ar.rlig.short.glif</string>
+	<key>sad_reh-ar.fina.rlig</key>
+	<string>sad_reh-ar.fina.rlig.glif</string>
+	<key>sad_reh-ar.fina.rlig.short</key>
+	<string>sad_reh-ar.fina.rlig.short.glif</string>
+	<key>sad_reh-ar.rlig</key>
+	<string>sad_reh-ar.rlig.glif</string>
+	<key>sad_reh-ar.rlig.short</key>
+	<string>sad_reh-ar.rlig.short.glif</string>
+	<key>sad_rreh-ar.fina.rlig</key>
+	<string>sad_rreh-ar.fina.rlig.glif</string>
+	<key>sad_rreh-ar.fina.rlig.short</key>
+	<string>sad_rreh-ar.fina.rlig.short.glif</string>
+	<key>sad_rreh-ar.rlig</key>
+	<string>sad_rreh-ar.rlig.glif</string>
+	<key>sad_rreh-ar.rlig.short</key>
+	<string>sad_rreh-ar.rlig.short.glif</string>
+	<key>sad_yeh-ar.fina.rlig</key>
+	<string>sad_yeh-ar.fina.rlig.glif</string>
+	<key>sad_yeh-ar.rlig</key>
+	<string>sad_yeh-ar.rlig.glif</string>
+	<key>sad_yeh-farsi.fina.rlig</key>
+	<string>sad_yeh-farsi.fina.rlig.glif</string>
+	<key>sad_yeh-farsi.rlig</key>
+	<string>sad_yeh-farsi.rlig.glif</string>
+	<key>sad_yehHamzaabove-ar.fina.rlig</key>
+	<string>sad_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>sad_yehHamzaabove-ar.rlig</key>
+	<string>sad_yehHamzaabove-ar_.rlig.glif</string>
+	<key>sad_zain-ar.fina.rlig</key>
+	<string>sad_zain-ar.fina.rlig.glif</string>
+	<key>sad_zain-ar.fina.rlig.short</key>
+	<string>sad_zain-ar.fina.rlig.short.glif</string>
+	<key>sad_zain-ar.rlig</key>
+	<string>sad_zain-ar.rlig.glif</string>
+	<key>sad_zain-ar.rlig.short</key>
+	<string>sad_zain-ar.rlig.short.glif</string>
 	<key>sadabove-ar</key>
 	<string>sadabove-ar.glif</string>
 	<key>sajdah-ar</key>
@@ -2396,54 +2406,54 @@
 	<string>seenVinvertedabove-ar_.init.glif</string>
 	<key>seenVinvertedabove-ar.medi</key>
 	<string>seenVinvertedabove-ar_.medi.glif</string>
-	<key>seen_alefMaksura-ar</key>
-	<string>seen_alefMaksura-ar_.glif</string>
-	<key>seen_alefMaksura-ar.fina</key>
-	<string>seen_alefMaksura-ar_.fina.glif</string>
-	<key>seen_jeh-ar</key>
-	<string>seen_jeh-ar.glif</string>
-	<key>seen_jeh-ar.fina</key>
-	<string>seen_jeh-ar.fina.glif</string>
-	<key>seen_jeh-ar.fina.short</key>
-	<string>seen_jeh-ar.fina.short.glif</string>
-	<key>seen_jeh-ar.short</key>
-	<string>seen_jeh-ar.short.glif</string>
-	<key>seen_reh-ar</key>
-	<string>seen_reh-ar.glif</string>
-	<key>seen_reh-ar.fina</key>
-	<string>seen_reh-ar.fina.glif</string>
-	<key>seen_reh-ar.fina.short</key>
-	<string>seen_reh-ar.fina.short.glif</string>
-	<key>seen_reh-ar.short</key>
-	<string>seen_reh-ar.short.glif</string>
-	<key>seen_rreh-ar</key>
-	<string>seen_rreh-ar.glif</string>
-	<key>seen_rreh-ar.fina</key>
-	<string>seen_rreh-ar.fina.glif</string>
-	<key>seen_rreh-ar.fina.short</key>
-	<string>seen_rreh-ar.fina.short.glif</string>
-	<key>seen_rreh-ar.short</key>
-	<string>seen_rreh-ar.short.glif</string>
-	<key>seen_yeh-ar</key>
-	<string>seen_yeh-ar.glif</string>
-	<key>seen_yeh-ar.fina</key>
-	<string>seen_yeh-ar.fina.glif</string>
-	<key>seen_yeh-farsi</key>
-	<string>seen_yeh-farsi.glif</string>
-	<key>seen_yeh-farsi.fina</key>
-	<string>seen_yeh-farsi.fina.glif</string>
-	<key>seen_yehHamzaabove-ar</key>
-	<string>seen_yehHamzaabove-ar_.glif</string>
-	<key>seen_yehHamzaabove-ar.fina</key>
-	<string>seen_yehHamzaabove-ar_.fina.glif</string>
-	<key>seen_zain-ar</key>
-	<string>seen_zain-ar.glif</string>
-	<key>seen_zain-ar.fina</key>
-	<string>seen_zain-ar.fina.glif</string>
-	<key>seen_zain-ar.fina.short</key>
-	<string>seen_zain-ar.fina.short.glif</string>
-	<key>seen_zain-ar.short</key>
-	<string>seen_zain-ar.short.glif</string>
+	<key>seen_alefMaksura-ar.fina.rlig</key>
+	<string>seen_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>seen_alefMaksura-ar.rlig</key>
+	<string>seen_alefMaksura-ar_.rlig.glif</string>
+	<key>seen_jeh-ar.fina.rlig</key>
+	<string>seen_jeh-ar.fina.rlig.glif</string>
+	<key>seen_jeh-ar.fina.rlig.short</key>
+	<string>seen_jeh-ar.fina.rlig.short.glif</string>
+	<key>seen_jeh-ar.rlig</key>
+	<string>seen_jeh-ar.rlig.glif</string>
+	<key>seen_jeh-ar.rlig.short</key>
+	<string>seen_jeh-ar.rlig.short.glif</string>
+	<key>seen_reh-ar.fina.rlig</key>
+	<string>seen_reh-ar.fina.rlig.glif</string>
+	<key>seen_reh-ar.fina.rlig.short</key>
+	<string>seen_reh-ar.fina.rlig.short.glif</string>
+	<key>seen_reh-ar.rlig</key>
+	<string>seen_reh-ar.rlig.glif</string>
+	<key>seen_reh-ar.rlig.short</key>
+	<string>seen_reh-ar.rlig.short.glif</string>
+	<key>seen_rreh-ar.fina.rlig</key>
+	<string>seen_rreh-ar.fina.rlig.glif</string>
+	<key>seen_rreh-ar.fina.rlig.short</key>
+	<string>seen_rreh-ar.fina.rlig.short.glif</string>
+	<key>seen_rreh-ar.rlig</key>
+	<string>seen_rreh-ar.rlig.glif</string>
+	<key>seen_rreh-ar.rlig.short</key>
+	<string>seen_rreh-ar.rlig.short.glif</string>
+	<key>seen_yeh-ar.fina.rlig</key>
+	<string>seen_yeh-ar.fina.rlig.glif</string>
+	<key>seen_yeh-ar.rlig</key>
+	<string>seen_yeh-ar.rlig.glif</string>
+	<key>seen_yeh-farsi.fina.rlig</key>
+	<string>seen_yeh-farsi.fina.rlig.glif</string>
+	<key>seen_yeh-farsi.rlig</key>
+	<string>seen_yeh-farsi.rlig.glif</string>
+	<key>seen_yehHamzaabove-ar.fina.rlig</key>
+	<string>seen_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>seen_yehHamzaabove-ar.rlig</key>
+	<string>seen_yehHamzaabove-ar_.rlig.glif</string>
+	<key>seen_zain-ar.fina.rlig</key>
+	<string>seen_zain-ar.fina.rlig.glif</string>
+	<key>seen_zain-ar.fina.rlig.short</key>
+	<string>seen_zain-ar.fina.rlig.short.glif</string>
+	<key>seen_zain-ar.rlig</key>
+	<string>seen_zain-ar.rlig.glif</string>
+	<key>seen_zain-ar.rlig.short</key>
+	<string>seen_zain-ar.rlig.short.glif</string>
 	<key>seenabove-ar</key>
 	<string>seenabove-ar.glif</string>
 	<key>seenbelow-ar</key>
@@ -2518,54 +2528,54 @@
 	<string>sheenThreedotsbelow-ar_.init.glif</string>
 	<key>sheenThreedotsbelow-ar.medi</key>
 	<string>sheenThreedotsbelow-ar_.medi.glif</string>
-	<key>sheen_alefMaksura-ar</key>
-	<string>sheen_alefMaksura-ar_.glif</string>
-	<key>sheen_alefMaksura-ar.fina</key>
-	<string>sheen_alefMaksura-ar_.fina.glif</string>
-	<key>sheen_jeh-ar</key>
-	<string>sheen_jeh-ar.glif</string>
-	<key>sheen_jeh-ar.fina</key>
-	<string>sheen_jeh-ar.fina.glif</string>
-	<key>sheen_jeh-ar.fina.short</key>
-	<string>sheen_jeh-ar.fina.short.glif</string>
-	<key>sheen_jeh-ar.short</key>
-	<string>sheen_jeh-ar.short.glif</string>
-	<key>sheen_reh-ar</key>
-	<string>sheen_reh-ar.glif</string>
-	<key>sheen_reh-ar.fina</key>
-	<string>sheen_reh-ar.fina.glif</string>
-	<key>sheen_reh-ar.fina.short</key>
-	<string>sheen_reh-ar.fina.short.glif</string>
-	<key>sheen_reh-ar.short</key>
-	<string>sheen_reh-ar.short.glif</string>
-	<key>sheen_rreh-ar</key>
-	<string>sheen_rreh-ar.glif</string>
-	<key>sheen_rreh-ar.fina</key>
-	<string>sheen_rreh-ar.fina.glif</string>
-	<key>sheen_rreh-ar.fina.short</key>
-	<string>sheen_rreh-ar.fina.short.glif</string>
-	<key>sheen_rreh-ar.short</key>
-	<string>sheen_rreh-ar.short.glif</string>
-	<key>sheen_yeh-ar</key>
-	<string>sheen_yeh-ar.glif</string>
-	<key>sheen_yeh-ar.fina</key>
-	<string>sheen_yeh-ar.fina.glif</string>
-	<key>sheen_yeh-farsi</key>
-	<string>sheen_yeh-farsi.glif</string>
-	<key>sheen_yeh-farsi.fina</key>
-	<string>sheen_yeh-farsi.fina.glif</string>
-	<key>sheen_yehHamzaabove-ar</key>
-	<string>sheen_yehHamzaabove-ar_.glif</string>
-	<key>sheen_yehHamzaabove-ar.fina</key>
-	<string>sheen_yehHamzaabove-ar_.fina.glif</string>
-	<key>sheen_zain-ar</key>
-	<string>sheen_zain-ar.glif</string>
-	<key>sheen_zain-ar.fina</key>
-	<string>sheen_zain-ar.fina.glif</string>
-	<key>sheen_zain-ar.fina.short</key>
-	<string>sheen_zain-ar.fina.short.glif</string>
-	<key>sheen_zain-ar.short</key>
-	<string>sheen_zain-ar.short.glif</string>
+	<key>sheen_alefMaksura-ar.fina.rlig</key>
+	<string>sheen_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>sheen_alefMaksura-ar.rlig</key>
+	<string>sheen_alefMaksura-ar_.rlig.glif</string>
+	<key>sheen_jeh-ar.fina.rlig</key>
+	<string>sheen_jeh-ar.fina.rlig.glif</string>
+	<key>sheen_jeh-ar.fina.rlig.short</key>
+	<string>sheen_jeh-ar.fina.rlig.short.glif</string>
+	<key>sheen_jeh-ar.rlig</key>
+	<string>sheen_jeh-ar.rlig.glif</string>
+	<key>sheen_jeh-ar.rlig.short</key>
+	<string>sheen_jeh-ar.rlig.short.glif</string>
+	<key>sheen_reh-ar.fina.rlig</key>
+	<string>sheen_reh-ar.fina.rlig.glif</string>
+	<key>sheen_reh-ar.fina.rlig.short</key>
+	<string>sheen_reh-ar.fina.rlig.short.glif</string>
+	<key>sheen_reh-ar.rlig</key>
+	<string>sheen_reh-ar.rlig.glif</string>
+	<key>sheen_reh-ar.rlig.short</key>
+	<string>sheen_reh-ar.rlig.short.glif</string>
+	<key>sheen_rreh-ar.fina.rlig</key>
+	<string>sheen_rreh-ar.fina.rlig.glif</string>
+	<key>sheen_rreh-ar.fina.rlig.short</key>
+	<string>sheen_rreh-ar.fina.rlig.short.glif</string>
+	<key>sheen_rreh-ar.rlig</key>
+	<string>sheen_rreh-ar.rlig.glif</string>
+	<key>sheen_rreh-ar.rlig.short</key>
+	<string>sheen_rreh-ar.rlig.short.glif</string>
+	<key>sheen_yeh-ar.fina.rlig</key>
+	<string>sheen_yeh-ar.fina.rlig.glif</string>
+	<key>sheen_yeh-ar.rlig</key>
+	<string>sheen_yeh-ar.rlig.glif</string>
+	<key>sheen_yeh-farsi.fina.rlig</key>
+	<string>sheen_yeh-farsi.fina.rlig.glif</string>
+	<key>sheen_yeh-farsi.rlig</key>
+	<string>sheen_yeh-farsi.rlig.glif</string>
+	<key>sheen_yehHamzaabove-ar.fina.rlig</key>
+	<string>sheen_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>sheen_yehHamzaabove-ar.rlig</key>
+	<string>sheen_yehHamzaabove-ar_.rlig.glif</string>
+	<key>sheen_zain-ar.fina.rlig</key>
+	<string>sheen_zain-ar.fina.rlig.glif</string>
+	<key>sheen_zain-ar.fina.rlig.short</key>
+	<string>sheen_zain-ar.fina.rlig.short.glif</string>
+	<key>sheen_zain-ar.rlig</key>
+	<string>sheen_zain-ar.rlig.glif</string>
+	<key>sheen_zain-ar.rlig.short</key>
+	<string>sheen_zain-ar.rlig.short.glif</string>
 	<key>sheqel</key>
 	<string>sheqel.glif</string>
 	<key>sindhiampersand-ar</key>
@@ -2710,40 +2720,40 @@
 	<string>tehThreedotsupbelow-ar_.init.glif</string>
 	<key>tehThreedotsupbelow-ar.medi</key>
 	<string>tehThreedotsupbelow-ar_.medi.glif</string>
-	<key>teh_alefMaksura-ar</key>
-	<string>teh_alefMaksura-ar_.glif</string>
-	<key>teh_alefMaksura-ar.fina</key>
-	<string>teh_alefMaksura-ar_.fina.glif</string>
-	<key>teh_jeh-ar.fina</key>
-	<string>teh_jeh-ar.fina.glif</string>
-	<key>teh_jeh-ar.fina.short</key>
-	<string>teh_jeh-ar.fina.short.glif</string>
-	<key>teh_noon-ar.fina</key>
-	<string>teh_noon-ar.fina.glif</string>
-	<key>teh_reh-ar.fina</key>
-	<string>teh_reh-ar.fina.glif</string>
-	<key>teh_reh-ar.fina.short</key>
-	<string>teh_reh-ar.fina.short.glif</string>
-	<key>teh_rreh-ar.fina</key>
-	<string>teh_rreh-ar.fina.glif</string>
-	<key>teh_rreh-ar.fina.short</key>
-	<string>teh_rreh-ar.fina.short.glif</string>
-	<key>teh_yeh-ar</key>
-	<string>teh_yeh-ar.glif</string>
-	<key>teh_yeh-ar.fina</key>
-	<string>teh_yeh-ar.fina.glif</string>
-	<key>teh_yeh-farsi</key>
-	<string>teh_yeh-farsi.glif</string>
-	<key>teh_yeh-farsi.fina</key>
-	<string>teh_yeh-farsi.fina.glif</string>
-	<key>teh_yehHamzaabove-ar</key>
-	<string>teh_yehHamzaabove-ar_.glif</string>
-	<key>teh_yehHamzaabove-ar.fina</key>
-	<string>teh_yehHamzaabove-ar_.fina.glif</string>
-	<key>teh_zain-ar.fina</key>
-	<string>teh_zain-ar.fina.glif</string>
-	<key>teh_zain-ar.fina.short</key>
-	<string>teh_zain-ar.fina.short.glif</string>
+	<key>teh_alefMaksura-ar.fina.rlig</key>
+	<string>teh_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>teh_alefMaksura-ar.rlig</key>
+	<string>teh_alefMaksura-ar_.rlig.glif</string>
+	<key>teh_jeh-ar.fina.rlig</key>
+	<string>teh_jeh-ar.fina.rlig.glif</string>
+	<key>teh_jeh-ar.fina.rlig.short</key>
+	<string>teh_jeh-ar.fina.rlig.short.glif</string>
+	<key>teh_noon-ar.fina.rlig</key>
+	<string>teh_noon-ar.fina.rlig.glif</string>
+	<key>teh_reh-ar.fina.rlig</key>
+	<string>teh_reh-ar.fina.rlig.glif</string>
+	<key>teh_reh-ar.fina.rlig.short</key>
+	<string>teh_reh-ar.fina.rlig.short.glif</string>
+	<key>teh_rreh-ar.fina.rlig</key>
+	<string>teh_rreh-ar.fina.rlig.glif</string>
+	<key>teh_rreh-ar.fina.rlig.short</key>
+	<string>teh_rreh-ar.fina.rlig.short.glif</string>
+	<key>teh_yeh-ar.fina.rlig</key>
+	<string>teh_yeh-ar.fina.rlig.glif</string>
+	<key>teh_yeh-ar.rlig</key>
+	<string>teh_yeh-ar.rlig.glif</string>
+	<key>teh_yeh-farsi.fina.rlig</key>
+	<string>teh_yeh-farsi.fina.rlig.glif</string>
+	<key>teh_yeh-farsi.rlig</key>
+	<string>teh_yeh-farsi.rlig.glif</string>
+	<key>teh_yehHamzaabove-ar.fina.rlig</key>
+	<string>teh_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>teh_yehHamzaabove-ar.rlig</key>
+	<string>teh_yehHamzaabove-ar_.rlig.glif</string>
+	<key>teh_zain-ar.fina.rlig</key>
+	<string>teh_zain-ar.fina.rlig.glif</string>
+	<key>teh_zain-ar.fina.rlig.short</key>
+	<string>teh_zain-ar.fina.rlig.short.glif</string>
 	<key>teheh-ar</key>
 	<string>teheh-ar.glif</string>
 	<key>teheh-ar.fina</key>
@@ -2774,40 +2784,40 @@
 	<string>theh-ar.isol.glif</string>
 	<key>theh-ar.medi</key>
 	<string>theh-ar.medi.glif</string>
-	<key>theh_alefMaksura-ar</key>
-	<string>theh_alefMaksura-ar_.glif</string>
-	<key>theh_alefMaksura-ar.fina</key>
-	<string>theh_alefMaksura-ar_.fina.glif</string>
-	<key>theh_jeh-ar.fina</key>
-	<string>theh_jeh-ar.fina.glif</string>
-	<key>theh_jeh-ar.fina.short</key>
-	<string>theh_jeh-ar.fina.short.glif</string>
-	<key>theh_noon-ar.fina</key>
-	<string>theh_noon-ar.fina.glif</string>
-	<key>theh_reh-ar.fina</key>
-	<string>theh_reh-ar.fina.glif</string>
-	<key>theh_reh-ar.fina.short</key>
-	<string>theh_reh-ar.fina.short.glif</string>
-	<key>theh_rreh-ar.fina</key>
-	<string>theh_rreh-ar.fina.glif</string>
-	<key>theh_rreh-ar.fina.short</key>
-	<string>theh_rreh-ar.fina.short.glif</string>
-	<key>theh_yeh-ar</key>
-	<string>theh_yeh-ar.glif</string>
-	<key>theh_yeh-ar.fina</key>
-	<string>theh_yeh-ar.fina.glif</string>
-	<key>theh_yeh-farsi</key>
-	<string>theh_yeh-farsi.glif</string>
-	<key>theh_yeh-farsi.fina</key>
-	<string>theh_yeh-farsi.fina.glif</string>
-	<key>theh_yehHamzaabove-ar</key>
-	<string>theh_yehHamzaabove-ar_.glif</string>
-	<key>theh_yehHamzaabove-ar.fina</key>
-	<string>theh_yehHamzaabove-ar_.fina.glif</string>
-	<key>theh_zain-ar.fina</key>
-	<string>theh_zain-ar.fina.glif</string>
-	<key>theh_zain-ar.fina.short</key>
-	<string>theh_zain-ar.fina.short.glif</string>
+	<key>theh_alefMaksura-ar.fina.rlig</key>
+	<string>theh_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>theh_alefMaksura-ar.rlig</key>
+	<string>theh_alefMaksura-ar_.rlig.glif</string>
+	<key>theh_jeh-ar.fina.rlig</key>
+	<string>theh_jeh-ar.fina.rlig.glif</string>
+	<key>theh_jeh-ar.fina.rlig.short</key>
+	<string>theh_jeh-ar.fina.rlig.short.glif</string>
+	<key>theh_noon-ar.fina.rlig</key>
+	<string>theh_noon-ar.fina.rlig.glif</string>
+	<key>theh_reh-ar.fina.rlig</key>
+	<string>theh_reh-ar.fina.rlig.glif</string>
+	<key>theh_reh-ar.fina.rlig.short</key>
+	<string>theh_reh-ar.fina.rlig.short.glif</string>
+	<key>theh_rreh-ar.fina.rlig</key>
+	<string>theh_rreh-ar.fina.rlig.glif</string>
+	<key>theh_rreh-ar.fina.rlig.short</key>
+	<string>theh_rreh-ar.fina.rlig.short.glif</string>
+	<key>theh_yeh-ar.fina.rlig</key>
+	<string>theh_yeh-ar.fina.rlig.glif</string>
+	<key>theh_yeh-ar.rlig</key>
+	<string>theh_yeh-ar.rlig.glif</string>
+	<key>theh_yeh-farsi.fina.rlig</key>
+	<string>theh_yeh-farsi.fina.rlig.glif</string>
+	<key>theh_yeh-farsi.rlig</key>
+	<string>theh_yeh-farsi.rlig.glif</string>
+	<key>theh_yehHamzaabove-ar.fina.rlig</key>
+	<string>theh_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>theh_yehHamzaabove-ar.rlig</key>
+	<string>theh_yehHamzaabove-ar_.rlig.glif</string>
+	<key>theh_zain-ar.fina.rlig</key>
+	<string>theh_zain-ar.fina.rlig.glif</string>
+	<key>theh_zain-ar.fina.rlig.short</key>
+	<string>theh_zain-ar.fina.rlig.short.glif</string>
 	<key>thorn</key>
 	<string>thorn.glif</string>
 	<key>thousandseparator-ar</key>
@@ -2878,40 +2888,32 @@
 	<string>tteh-ar.init.glif</string>
 	<key>tteh-ar.medi</key>
 	<string>tteh-ar.medi.glif</string>
-	<key>tteh_alefMaksura-ar</key>
-	<string>tteh_alefMaksura-ar_.glif</string>
-	<key>tteh_alefMaksura-ar.fina</key>
-	<string>tteh_alefMaksura-ar_.fina.glif</string>
-	<key>tteh_jeh-ar.fina</key>
-	<string>tteh_jeh-ar.fina.glif</string>
-	<key>tteh_jeh-ar.fina.short</key>
-	<string>tteh_jeh-ar.fina.short.glif</string>
-	<key>tteh_noon-ar.fina</key>
-	<string>tteh_noon-ar.fina.glif</string>
-	<key>tteh_reh-ar.fina</key>
-	<string>tteh_reh-ar.fina.glif</string>
-	<key>tteh_reh-ar.fina.short</key>
-	<string>tteh_reh-ar.fina.short.glif</string>
-	<key>tteh_rreh-ar.fina</key>
-	<string>tteh_rreh-ar.fina.glif</string>
-	<key>tteh_rreh-ar.fina.short</key>
-	<string>tteh_rreh-ar.fina.short.glif</string>
-	<key>tteh_yeh-ar</key>
-	<string>tteh_yeh-ar.glif</string>
-	<key>tteh_yeh-ar.fina</key>
-	<string>tteh_yeh-ar.fina.glif</string>
-	<key>tteh_yeh-farsi</key>
-	<string>tteh_yeh-farsi.glif</string>
-	<key>tteh_yeh-farsi.fina</key>
-	<string>tteh_yeh-farsi.fina.glif</string>
-	<key>tteh_yehHamzaabove-ar</key>
-	<string>tteh_yehHamzaabove-ar_.glif</string>
-	<key>tteh_yehHamzaabove-ar.fina</key>
-	<string>tteh_yehHamzaabove-ar_.fina.glif</string>
-	<key>tteh_zain-ar.fina</key>
-	<string>tteh_zain-ar.fina.glif</string>
-	<key>tteh_zain-ar.fina.short</key>
-	<string>tteh_zain-ar.fina.short.glif</string>
+	<key>tteh_alefMaksura-ar.fina.rlig</key>
+	<string>tteh_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>tteh_alefMaksura-ar.rlig</key>
+	<string>tteh_alefMaksura-ar_.rlig.glif</string>
+	<key>tteh_jeh-ar.fina.rlig</key>
+	<string>tteh_jeh-ar.fina.rlig.glif</string>
+	<key>tteh_noon-ar.fina.rlig</key>
+	<string>tteh_noon-ar.fina.rlig.glif</string>
+	<key>tteh_reh-ar.fina.rlig</key>
+	<string>tteh_reh-ar.fina.rlig.glif</string>
+	<key>tteh_rreh-ar.fina.rlig</key>
+	<string>tteh_rreh-ar.fina.rlig.glif</string>
+	<key>tteh_yeh-ar.fina.rlig</key>
+	<string>tteh_yeh-ar.fina.rlig.glif</string>
+	<key>tteh_yeh-ar.rlig</key>
+	<string>tteh_yeh-ar.rlig.glif</string>
+	<key>tteh_yeh-farsi.fina.rlig</key>
+	<string>tteh_yeh-farsi.fina.rlig.glif</string>
+	<key>tteh_yeh-farsi.rlig</key>
+	<string>tteh_yeh-farsi.rlig.glif</string>
+	<key>tteh_yehHamzaabove-ar.fina.rlig</key>
+	<string>tteh_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>tteh_yehHamzaabove-ar.rlig</key>
+	<string>tteh_yehHamzaabove-ar_.rlig.glif</string>
+	<key>tteh_zain-ar.fina.rlig</key>
+	<string>tteh_zain-ar.fina.rlig.glif</string>
 	<key>tteheh-ar</key>
 	<string>tteheh-ar.glif</string>
 	<key>tteheh-ar.fina</key>
@@ -3018,14 +3020,14 @@
 	<string>veh-ar.init.glif</string>
 	<key>veh-ar.medi</key>
 	<string>veh-ar.medi.glif</string>
-	<key>veh_alefMaksura-ar</key>
-	<string>veh_alefMaksura-ar_.glif</string>
-	<key>veh_yeh-ar</key>
-	<string>veh_yeh-ar.glif</string>
-	<key>veh_yeh-farsi</key>
-	<string>veh_yeh-farsi.glif</string>
-	<key>veh_yehHamzaabove-ar</key>
-	<string>veh_yehHamzaabove-ar_.glif</string>
+	<key>veh_alefMaksura-ar.rlig</key>
+	<string>veh_alefMaksura-ar_.rlig.glif</string>
+	<key>veh_yeh-ar.rlig</key>
+	<string>veh_yeh-ar.rlig.glif</string>
+	<key>veh_yeh-farsi.rlig</key>
+	<string>veh_yeh-farsi.rlig.glif</string>
+	<key>veh_yehHamzaabove-ar.rlig</key>
+	<string>veh_yehHamzaabove-ar_.rlig.glif</string>
 	<key>verseComma-ar</key>
 	<string>verseComma-ar_.glif</string>
 	<key>vinvertedabove-ar</key>
@@ -3126,40 +3128,40 @@
 	<string>yehHamzaabove-ar_.isol.glif</string>
 	<key>yehHamzaabove-ar.medi</key>
 	<string>yehHamzaabove-ar_.medi.glif</string>
-	<key>yehHamzaabove_alefMaksura-ar</key>
-	<string>yehHamzaabove__alefMaksura-ar_.glif</string>
-	<key>yehHamzaabove_alefMaksura-ar.fina</key>
-	<string>yehHamzaabove__alefMaksura-ar_.fina.glif</string>
-	<key>yehHamzaabove_jeh-ar.fina</key>
-	<string>yehHamzaabove__jeh-ar.fina.glif</string>
-	<key>yehHamzaabove_jeh-ar.fina.short</key>
-	<string>yehHamzaabove__jeh-ar.fina.short.glif</string>
-	<key>yehHamzaabove_noon-ar.fina</key>
-	<string>yehHamzaabove__noon-ar.fina.glif</string>
-	<key>yehHamzaabove_reh-ar.fina</key>
-	<string>yehHamzaabove__reh-ar.fina.glif</string>
-	<key>yehHamzaabove_reh-ar.fina.short</key>
-	<string>yehHamzaabove__reh-ar.fina.short.glif</string>
-	<key>yehHamzaabove_rreh-ar.fina</key>
-	<string>yehHamzaabove__rreh-ar.fina.glif</string>
-	<key>yehHamzaabove_rreh-ar.fina.short</key>
-	<string>yehHamzaabove__rreh-ar.fina.short.glif</string>
-	<key>yehHamzaabove_yeh-ar</key>
-	<string>yehHamzaabove__yeh-ar.glif</string>
-	<key>yehHamzaabove_yeh-ar.fina</key>
-	<string>yehHamzaabove__yeh-ar.fina.glif</string>
-	<key>yehHamzaabove_yeh-farsi</key>
-	<string>yehHamzaabove__yeh-farsi.glif</string>
-	<key>yehHamzaabove_yeh-farsi.fina</key>
-	<string>yehHamzaabove__yeh-farsi.fina.glif</string>
-	<key>yehHamzaabove_yehHamzaabove-ar</key>
-	<string>yehHamzaabove__yehHamzaabove-ar_.glif</string>
-	<key>yehHamzaabove_yehHamzaabove-ar.fina</key>
-	<string>yehHamzaabove__yehHamzaabove-ar_.fina.glif</string>
-	<key>yehHamzaabove_zain-ar.fina</key>
-	<string>yehHamzaabove__zain-ar.fina.glif</string>
-	<key>yehHamzaabove_zain-ar.fina.short</key>
-	<string>yehHamzaabove__zain-ar.fina.short.glif</string>
+	<key>yehHamzaabove_alefMaksura-ar.fina.rlig</key>
+	<string>yehHamzaabove__alefMaksura-ar_.fina.rlig.glif</string>
+	<key>yehHamzaabove_alefMaksura-ar.rlig</key>
+	<string>yehHamzaabove__alefMaksura-ar_.rlig.glif</string>
+	<key>yehHamzaabove_jeh-ar.fina.rlig</key>
+	<string>yehHamzaabove__jeh-ar.fina.rlig.glif</string>
+	<key>yehHamzaabove_jeh-ar.fina.rlig.short</key>
+	<string>yehHamzaabove__jeh-ar.fina.rlig.short.glif</string>
+	<key>yehHamzaabove_noon-ar.fina.rlig</key>
+	<string>yehHamzaabove__noon-ar.fina.rlig.glif</string>
+	<key>yehHamzaabove_reh-ar.fina.rlig</key>
+	<string>yehHamzaabove__reh-ar.fina.rlig.glif</string>
+	<key>yehHamzaabove_reh-ar.fina.rlig.short</key>
+	<string>yehHamzaabove__reh-ar.fina.rlig.short.glif</string>
+	<key>yehHamzaabove_rreh-ar.fina.rlig</key>
+	<string>yehHamzaabove__rreh-ar.fina.rlig.glif</string>
+	<key>yehHamzaabove_rreh-ar.fina.rlig.short</key>
+	<string>yehHamzaabove__rreh-ar.fina.rlig.short.glif</string>
+	<key>yehHamzaabove_yeh-ar.fina.rlig</key>
+	<string>yehHamzaabove__yeh-ar.fina.rlig.glif</string>
+	<key>yehHamzaabove_yeh-ar.rlig</key>
+	<string>yehHamzaabove__yeh-ar.rlig.glif</string>
+	<key>yehHamzaabove_yeh-farsi.fina.rlig</key>
+	<string>yehHamzaabove__yeh-farsi.fina.rlig.glif</string>
+	<key>yehHamzaabove_yeh-farsi.rlig</key>
+	<string>yehHamzaabove__yeh-farsi.rlig.glif</string>
+	<key>yehHamzaabove_yehHamzaabove-ar.fina.rlig</key>
+	<string>yehHamzaabove__yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>yehHamzaabove_yehHamzaabove-ar.rlig</key>
+	<string>yehHamzaabove__yehHamzaabove-ar_.rlig.glif</string>
+	<key>yehHamzaabove_zain-ar.fina.rlig</key>
+	<string>yehHamzaabove__zain-ar.fina.rlig.glif</string>
+	<key>yehHamzaabove_zain-ar.fina.rlig.short</key>
+	<string>yehHamzaabove__zain-ar.fina.rlig.short.glif</string>
 	<key>yehKashmiri-ar</key>
 	<string>yehKashmiri-ar_.glif</string>
 	<key>yehKashmiri-ar.fina</key>
@@ -3242,58 +3244,58 @@
 	<string>yehVinverted-farsi_.init.glif</string>
 	<key>yehVinverted-farsi.medi</key>
 	<string>yehVinverted-farsi_.medi.glif</string>
-	<key>yeh_alefMaksura-ar</key>
-	<string>yeh_alefMaksura-ar_.glif</string>
-	<key>yeh_alefMaksura-ar.fina</key>
-	<string>yeh_alefMaksura-ar_.fina.glif</string>
-	<key>yeh_jeh-ar.fina</key>
-	<string>yeh_jeh-ar.fina.glif</string>
-	<key>yeh_jeh-ar.fina.short</key>
-	<string>yeh_jeh-ar.fina.short.glif</string>
-	<key>yeh_jeh-farsi.fina</key>
-	<string>yeh_jeh-farsi.fina.glif</string>
-	<key>yeh_jeh-farsi.fina.short</key>
-	<string>yeh_jeh-farsi.fina.short.glif</string>
-	<key>yeh_noon-ar.fina</key>
-	<string>yeh_noon-ar.fina.glif</string>
-	<key>yeh_noon-farsi.fina</key>
-	<string>yeh_noon-farsi.fina.glif</string>
-	<key>yeh_reh-ar.fina</key>
-	<string>yeh_reh-ar.fina.glif</string>
-	<key>yeh_reh-ar.fina.short</key>
-	<string>yeh_reh-ar.fina.short.glif</string>
-	<key>yeh_reh-farsi.fina</key>
-	<string>yeh_reh-farsi.fina.glif</string>
-	<key>yeh_reh-farsi.fina.short</key>
-	<string>yeh_reh-farsi.fina.short.glif</string>
-	<key>yeh_rreh-ar.fina</key>
-	<string>yeh_rreh-ar.fina.glif</string>
-	<key>yeh_rreh-ar.fina.short</key>
-	<string>yeh_rreh-ar.fina.short.glif</string>
-	<key>yeh_rreh-farsi.fina</key>
-	<string>yeh_rreh-farsi.fina.glif</string>
-	<key>yeh_rreh-farsi.fina.short</key>
-	<string>yeh_rreh-farsi.fina.short.glif</string>
-	<key>yeh_yeh-ar</key>
-	<string>yeh_yeh-ar.glif</string>
-	<key>yeh_yeh-ar.fina</key>
-	<string>yeh_yeh-ar.fina.glif</string>
-	<key>yeh_yeh-farsi</key>
-	<string>yeh_yeh-farsi.glif</string>
-	<key>yeh_yeh-farsi.fina</key>
-	<string>yeh_yeh-farsi.fina.glif</string>
-	<key>yeh_yehHamzaabove-ar</key>
-	<string>yeh_yehHamzaabove-ar_.glif</string>
-	<key>yeh_yehHamzaabove-ar.fina</key>
-	<string>yeh_yehHamzaabove-ar_.fina.glif</string>
-	<key>yeh_zain-ar.fina</key>
-	<string>yeh_zain-ar.fina.glif</string>
-	<key>yeh_zain-ar.fina.short</key>
-	<string>yeh_zain-ar.fina.short.glif</string>
-	<key>yeh_zain-farsi.fina</key>
-	<string>yeh_zain-farsi.fina.glif</string>
-	<key>yeh_zain-farsi.fina.short</key>
-	<string>yeh_zain-farsi.fina.short.glif</string>
+	<key>yeh_alefMaksura-ar.fina.rlig</key>
+	<string>yeh_alefMaksura-ar_.fina.rlig.glif</string>
+	<key>yeh_alefMaksura-ar.rlig</key>
+	<string>yeh_alefMaksura-ar_.rlig.glif</string>
+	<key>yeh_jeh-ar.fina.rlig</key>
+	<string>yeh_jeh-ar.fina.rlig.glif</string>
+	<key>yeh_jeh-ar.fina.rlig.short</key>
+	<string>yeh_jeh-ar.fina.rlig.short.glif</string>
+	<key>yeh_jeh-farsi.fina.rlig</key>
+	<string>yeh_jeh-farsi.fina.rlig.glif</string>
+	<key>yeh_jeh-farsi.fina.rlig.short</key>
+	<string>yeh_jeh-farsi.fina.rlig.short.glif</string>
+	<key>yeh_noon-ar.fina.rlig</key>
+	<string>yeh_noon-ar.fina.rlig.glif</string>
+	<key>yeh_noon-farsi.fina.rlig</key>
+	<string>yeh_noon-farsi.fina.rlig.glif</string>
+	<key>yeh_reh-ar.fina.rlig</key>
+	<string>yeh_reh-ar.fina.rlig.glif</string>
+	<key>yeh_reh-ar.fina.rlig.short</key>
+	<string>yeh_reh-ar.fina.rlig.short.glif</string>
+	<key>yeh_reh-farsi.fina.rlig</key>
+	<string>yeh_reh-farsi.fina.rlig.glif</string>
+	<key>yeh_reh-farsi.fina.rlig.short</key>
+	<string>yeh_reh-farsi.fina.rlig.short.glif</string>
+	<key>yeh_rreh-ar.fina.rlig</key>
+	<string>yeh_rreh-ar.fina.rlig.glif</string>
+	<key>yeh_rreh-ar.fina.rlig.short</key>
+	<string>yeh_rreh-ar.fina.rlig.short.glif</string>
+	<key>yeh_rreh-farsi.fina.rlig</key>
+	<string>yeh_rreh-farsi.fina.rlig.glif</string>
+	<key>yeh_rreh-farsi.fina.rlig.short</key>
+	<string>yeh_rreh-farsi.fina.rlig.short.glif</string>
+	<key>yeh_yeh-ar.fina.rlig</key>
+	<string>yeh_yeh-ar.fina.rlig.glif</string>
+	<key>yeh_yeh-ar.rlig</key>
+	<string>yeh_yeh-ar.rlig.glif</string>
+	<key>yeh_yeh-farsi.fina.rlig</key>
+	<string>yeh_yeh-farsi.fina.rlig.glif</string>
+	<key>yeh_yeh-farsi.rlig</key>
+	<string>yeh_yeh-farsi.rlig.glif</string>
+	<key>yeh_yehHamzaabove-ar.fina.rlig</key>
+	<string>yeh_yehHamzaabove-ar_.fina.rlig.glif</string>
+	<key>yeh_yehHamzaabove-ar.rlig</key>
+	<string>yeh_yehHamzaabove-ar_.rlig.glif</string>
+	<key>yeh_zain-ar.fina.rlig</key>
+	<string>yeh_zain-ar.fina.rlig.glif</string>
+	<key>yeh_zain-ar.fina.rlig.short</key>
+	<string>yeh_zain-ar.fina.rlig.short.glif</string>
+	<key>yeh_zain-farsi.fina.rlig</key>
+	<string>yeh_zain-farsi.fina.rlig.glif</string>
+	<key>yeh_zain-farsi.fina.rlig.short</key>
+	<string>yeh_zain-farsi.fina.rlig.short.glif</string>
 	<key>yehabove-ar</key>
 	<string>yehabove-ar.glif</string>
 	<key>yehbarree-ar</key>

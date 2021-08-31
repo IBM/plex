@@ -3,25 +3,24 @@
   <advance width="332"/>
   <unicode hex="FB9C"/>
   <outline>
+    <component base="twodotshorizontalabove-ar" xOffset="-105" yOffset="426"/>
     <component base="kaf-ar.init"/>
     <component base="comp.kafbar-ar" xOffset="1" yOffset="17"/>
-    <component base="twodotshorizontalabove-ar" xOffset="-105" yOffset="426"/>
     <contour>
       <point x="199.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="19.0" y="552.0" type="move" name="kafbar"/>
     </contour>
     <contour>
       <point x="281.0" y="603.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="121.0" y="626.0" type="move" name="top"/>
+      <point x="21.0" y="886.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB9C</string>
-      <key>com.type-invaders.name.production</key>
-      <string>ngoeh-ar.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

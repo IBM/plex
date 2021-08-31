@@ -51,18 +51,10 @@
       <point x="60" y="390" type="line"/>
     </contour>
     <contour>
-      <point x="120.0" y="289.0" type="move" name="_top"/>
+      <point x="120" y="289" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="120.0" y="496.0" type="move" name="top"/>
+      <point x="120" y="496" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0610</string>
-      <key>com.type-invaders.name.production</key>
-      <string>sadabove-ar</string>
-    </dict>
-  </lib>
 </glyph>

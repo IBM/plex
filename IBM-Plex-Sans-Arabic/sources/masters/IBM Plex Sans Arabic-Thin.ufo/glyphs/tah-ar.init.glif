@@ -48,13 +48,8 @@
     <contour>
       <point x="439.0" y="375.0" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="145.0" y="80.0" type="move" name="verticalbar"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEC3</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tah-ar.init</string>
-    </dict>
-  </lib>
 </glyph>

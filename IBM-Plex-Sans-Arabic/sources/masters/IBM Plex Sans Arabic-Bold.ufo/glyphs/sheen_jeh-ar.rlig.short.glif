@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sheen_jeh-ar.rlig.short" format="1">
+  <advance width="1048"/>
+  <outline>
+    <component base="seen_reh-ar.rlig.short"/>
+    <component base="threedotsupabove-ar" xOffset="36" yOffset="40"/>
+    <component base="threedotsupabove-ar" xOffset="588"/>
+    <contour>
+      <point x="746" y="0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="70" y="-240" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="132" y="-224" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="746" y="643" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="194" y="683" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

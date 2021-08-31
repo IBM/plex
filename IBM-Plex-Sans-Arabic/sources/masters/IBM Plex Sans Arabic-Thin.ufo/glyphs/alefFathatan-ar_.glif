@@ -3,21 +3,17 @@
   <advance width="200"/>
   <unicode hex="FD3D"/>
   <outline>
-    <component base="alef-ar.short"/>
     <component base="fathatan-ar" xOffset="-7" yOffset="329"/>
+    <component base="alef-ar.short"/>
     <contour>
       <point x="100.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="100.0" y="618.0" type="move" name="top"/>
+      <point x="100.0" y="860.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFD3D</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefFathatan-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

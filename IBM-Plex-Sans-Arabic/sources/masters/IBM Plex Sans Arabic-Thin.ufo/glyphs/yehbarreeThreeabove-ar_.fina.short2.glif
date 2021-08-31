@@ -7,13 +7,12 @@
     <contour>
       <point x="208.0" y="-240.0" type="move" name="bottom"/>
     </contour>
+    <contour>
+      <point x="228.0" y="401.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni077B.fina.short2</string>
-      <key>com.type-invaders.name.production</key>
-      <string>yehbarreeThreeabove-ar.fina.short2</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

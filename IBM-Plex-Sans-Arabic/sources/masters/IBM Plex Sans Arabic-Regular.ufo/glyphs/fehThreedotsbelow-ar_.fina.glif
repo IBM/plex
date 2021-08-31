@@ -5,7 +5,7 @@
     <component base="fehDotless-ar.fina"/>
     <component base="threedotsdownbelow-ar" xOffset="286" yOffset="-699"/>
     <contour>
-      <point x="418.0" y="-12.0" type="move" name="bottom"/>
+      <point x="417.0" y="-321.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="744.0" y="479.0" type="move" name="top"/>
@@ -13,10 +13,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06A5.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>fehThreedotsbelow-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

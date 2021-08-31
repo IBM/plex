@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefMadda-ar.rlig" format="1">
+  <advance width="450"/>
+  <unicode hex="FEF5"/>
+  <outline>
+    <component base="madda-ar" xOffset="-46" yOffset="307"/>
+    <component base="lam_alef-ar.rlig"/>
+    <contour>
+      <point x="325.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="123.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="349.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="98.0" y="730.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

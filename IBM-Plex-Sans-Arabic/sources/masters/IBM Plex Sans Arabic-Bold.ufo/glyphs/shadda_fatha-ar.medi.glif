@@ -8,13 +8,12 @@
     <contour>
       <point x="174.0" y="0.0" type="move" name="bottom"/>
     </contour>
+    <contour>
+      <point x="164.0" y="652.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFCF2</string>
-      <key>com.type-invaders.name.production</key>
-      <string>shadda_fatha-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

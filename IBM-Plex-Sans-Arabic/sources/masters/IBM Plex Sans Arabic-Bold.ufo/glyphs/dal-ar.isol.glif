@@ -4,22 +4,9 @@
   <unicode hex="FEA9"/>
   <outline>
     <component base="dal-ar"/>
-    <contour>
-      <point x="253.0" y="0.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="263.0" y="0.0" type="move" name="ring"/>
-    </contour>
-    <contour>
-      <point x="249.0" y="525.0" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEA9</string>
-      <key>com.type-invaders.name.production</key>
-      <string>dal-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

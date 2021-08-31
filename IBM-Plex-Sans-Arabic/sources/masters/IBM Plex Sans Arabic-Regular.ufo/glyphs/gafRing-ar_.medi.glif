@@ -2,21 +2,23 @@
 <glyph name="gafRing-ar.medi" format="1">
   <advance width="452"/>
   <outline>
-    <component base="kafRing-ar.medi"/>
     <component base="comp.kafbar-ar" xOffset="-10" yOffset="22"/>
+    <component base="kafRing-ar.medi"/>
     <contour>
-      <point x="10.0" y="552.0" type="move" name="_kafbar"/>
+      <point x="154.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="10.0" y="720.0" type="move" name="top"/>
+      <point x="10.0" y="552.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="267.0" y="571.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="135.0" y="668.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06B0.medi</string>
-      <key>com.type-invaders.name.production</key>
-      <string>gafRing-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

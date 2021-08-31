@@ -3,8 +3,8 @@
   <advance width="330"/>
   <unicode hex="FB61"/>
   <outline>
-    <component base="behDotless-ar.medi"/>
     <component base="twodotsverticalabove-ar" xOffset="-72" yOffset="80"/>
+    <component base="behDotless-ar.medi"/>
     <contour>
       <point x="165.0" y="0.0" type="move" name="bottom"/>
     </contour>
@@ -15,15 +15,11 @@
       <point x="221.0" y="5.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="165.0" y="363.0" type="move" name="top"/>
+      <point x="165.0" y="731.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB61</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tteheh-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

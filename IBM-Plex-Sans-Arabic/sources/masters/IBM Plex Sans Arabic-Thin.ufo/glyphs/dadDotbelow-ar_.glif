@@ -4,21 +4,23 @@
   <unicode hex="06FB"/>
   <outline>
     <component base="sad-ar"/>
-    <component base="dotabove-ar" xOffset="896" yOffset="86"/>
     <component base="dotbelow-ar" xOffset="254" yOffset="-857"/>
+    <component base="dotabove-ar" xOffset="896" yOffset="86"/>
     <contour>
-      <point x="317.0" y="-240.0" type="move" name="bottom"/>
+      <point x="317.0" y="-441.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="959.0" y="375.0" type="move" name="top"/>
+      <point x="317.0" y="-240.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="959.0" y="546.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="675.0" y="80.0" type="move" name="verticalbar"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06FB</string>
-      <key>com.type-invaders.name.production</key>
-      <string>dadDotbelow-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

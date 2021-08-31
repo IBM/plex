@@ -84,13 +84,17 @@
       <point x="184" y="503"/>
       <point x="193" y="496"/>
     </contour>
+    <contour>
+      <point x="138.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="322.0" y="329.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="128.0" y="13.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="144.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni067C.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tehRing-ar.init</string>
-    </dict>
-  </lib>
 </glyph>

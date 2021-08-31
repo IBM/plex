@@ -4,22 +4,9 @@
   <unicode hex="FEB1"/>
   <outline>
     <component base="seen-ar"/>
-    <contour>
-      <point x="317.0" y="-240.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="845.0" y="-165.0" type="move" name="center"/>
-    </contour>
-    <contour>
-      <point x="845.0" y="249.0" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEB1</string>
-      <key>com.type-invaders.name.production</key>
-      <string>seen-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

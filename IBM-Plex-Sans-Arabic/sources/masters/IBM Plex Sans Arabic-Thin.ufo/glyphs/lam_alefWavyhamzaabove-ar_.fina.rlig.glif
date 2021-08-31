@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefWavyhamzaabove-ar.fina.rlig" format="1">
+  <advance width="527"/>
+  <outline>
+    <component base="wavyhamza_above-ar" xOffset="-28" yOffset="275"/>
+    <component base="lam_alef-ar.fina.rlig"/>
+    <contour>
+      <point x="388.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="211.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="375.0" y="740.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="774.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

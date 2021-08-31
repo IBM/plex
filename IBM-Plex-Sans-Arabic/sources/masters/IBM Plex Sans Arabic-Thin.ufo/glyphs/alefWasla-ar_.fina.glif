@@ -3,18 +3,17 @@
   <advance width="260"/>
   <unicode hex="FB51"/>
   <outline>
-    <component base="alef-ar.fina.short"/>
     <component base="wasla-ar" xOffset="-26" yOffset="329"/>
+    <component base="alef-ar.fina.short"/>
     <contour>
       <point x="110.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="118.0" y="840.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB51</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefWasla-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

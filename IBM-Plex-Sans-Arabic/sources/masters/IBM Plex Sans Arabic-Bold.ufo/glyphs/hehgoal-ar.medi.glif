@@ -60,13 +60,17 @@
       <point x="24" y="-284"/>
       <point x="49" y="-304"/>
     </contour>
+    <contour>
+      <point x="344.0" y="-270.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="54.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="375.0" y="283.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="54.0" y="283.0" type="move" name="top_2"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFBA9</string>
-      <key>com.type-invaders.name.production</key>
-      <string>hehgoal-ar.medi</string>
-    </dict>
-  </lib>
 </glyph>

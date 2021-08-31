@@ -6,7 +6,7 @@
     <component base="hamza-ar"/>
     <component base="uniFBBC" xOffset="135" yOffset="-608"/>
     <contour>
-      <point x="195.0" y="0.0" type="move" name="bottom"/>
+      <point x="195.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="201.0" y="289.0" type="move" name="top"/>
@@ -14,10 +14,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06FD</string>
-      <key>com.type-invaders.name.production</key>
-      <string>sindhiampersand-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

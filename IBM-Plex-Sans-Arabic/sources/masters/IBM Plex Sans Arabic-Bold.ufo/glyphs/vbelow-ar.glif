@@ -13,18 +13,10 @@
       <point x="10" y="587" type="line"/>
     </contour>
     <contour>
-      <point x="149.0" y="670.0" type="move" name="_bottom"/>
+      <point x="149" y="670" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="149.0" y="363.0" type="move" name="bottom"/>
+      <point x="149" y="363" type="move" name="bottom"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>vbelowar</string>
-      <key>com.type-invaders.name.production</key>
-      <string>vbelow-ar</string>
-    </dict>
-  </lib>
 </glyph>

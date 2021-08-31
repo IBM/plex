@@ -39,9 +39,6 @@
       <point x="150" y="403"/>
     </contour>
     <contour>
-      <point x="240.0" y="-8.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="70.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -51,12 +48,4 @@
       <point x="194.0" y="537.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0632.short</string>
-      <key>com.type-invaders.name.production</key>
-      <string>zain-ar.short</string>
-    </dict>
-  </lib>
 </glyph>

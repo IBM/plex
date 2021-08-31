@@ -4,19 +4,9 @@
   <unicode hex="FEC1"/>
   <outline>
     <component base="tah-ar"/>
-    <contour>
-      <point x="382.0" y="0.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="463.0" y="463.0" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEC1</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tah-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

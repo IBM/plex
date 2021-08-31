@@ -5,13 +5,12 @@
   <outline>
     <component base="comp.cuberoot-ar"/>
     <component base="threeabove-ar" xOffset="221" yOffset="242"/>
+    <contour>
+      <point x="380.0" y="885.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0606</string>
-      <key>com.type-invaders.name.production</key>
-      <string>cuberoot-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

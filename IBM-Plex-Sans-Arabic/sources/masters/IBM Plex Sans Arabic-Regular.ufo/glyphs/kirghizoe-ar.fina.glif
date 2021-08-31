@@ -49,9 +49,6 @@
       <point x="114" y="112"/>
     </contour>
     <contour>
-      <point x="348.0" y="-78.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="173.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -67,12 +64,4 @@
       <point x="225.0" y="379.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFBE1</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kirghizoe-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

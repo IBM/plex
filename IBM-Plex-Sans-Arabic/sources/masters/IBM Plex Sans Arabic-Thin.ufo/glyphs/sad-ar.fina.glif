@@ -78,15 +78,13 @@
       <point x="317.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
+      <point x="317.0" y="-240.0" type="move" name="ring"/>
+    </contour>
+    <contour>
       <point x="959.0" y="375.0" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="675.0" y="80.0" type="move" name="verticalbar"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEBA</string>
-      <key>com.type-invaders.name.production</key>
-      <string>sad-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

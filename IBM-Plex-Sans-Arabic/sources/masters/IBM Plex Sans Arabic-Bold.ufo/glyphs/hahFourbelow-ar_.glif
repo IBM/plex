@@ -73,13 +73,14 @@
       <point x="240" y="-10"/>
       <point x="259" y="-57" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="339.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="334.0" y="9.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="327.0" y="500.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni077C</string>
-      <key>com.type-invaders.name.production</key>
-      <string>hahFourbelow-ar</string>
-    </dict>
-  </lib>
 </glyph>

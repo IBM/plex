@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sheen_alefMaksura-ar.rlig" format="1">
+  <advance width="1248"/>
+  <unicode hex="FCFD"/>
+  <outline>
+    <component base="seen_alefMaksura-ar.rlig"/>
+    <component base="threedotsupabove-ar" xOffset="843" yOffset="-40"/>
+    <contour>
+      <point x="964.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="332.0" y="-306.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="969.0" y="540.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="136.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

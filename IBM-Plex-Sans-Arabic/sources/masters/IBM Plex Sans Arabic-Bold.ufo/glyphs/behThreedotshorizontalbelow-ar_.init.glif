@@ -71,13 +71,23 @@
       <point x="351" y="-196"/>
       <point x="376" y="-216"/>
     </contour>
+    <contour>
+      <point x="262.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="54.0" y="0.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="473.0" y="363.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="262.0" y="15.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="269.0" y="422.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="54.0" y="283.0" type="move" name="top_2"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0750.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>behThreedotshorizontalbelow-ar.init</string>
-    </dict>
-  </lib>
 </glyph>

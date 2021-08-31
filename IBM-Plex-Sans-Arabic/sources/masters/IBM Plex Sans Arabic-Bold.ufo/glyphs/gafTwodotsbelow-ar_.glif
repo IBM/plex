@@ -4,10 +4,13 @@
   <unicode hex="06B2"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="comp.kafbar-ar" xOffset="511" yOffset="70"/>
     <component base="twodotshorizontalbelow-ar" xOffset="273" yOffset="-579"/>
+    <component base="comp.kafbar-ar" xOffset="511" yOffset="70"/>
     <contour>
-      <point x="431.0" y="0.0" type="move" name="bottom"/>
+      <point x="431.0" y="-216.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="531.0" y="600.0" type="move" name="kafbar"/>
     </contour>
     <contour>
       <point x="826.0" y="558.0" type="move" name="ring"/>
@@ -18,10 +21,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06B2</string>
-      <key>com.type-invaders.name.production</key>
-      <string>gafTwodotsbelow-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -4,28 +4,9 @@
   <unicode hex="FEEF"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <contour>
-      <point x="357.0" y="-240.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="515.0" y="460.0" type="move" name="high"/>
-    </contour>
-    <contour>
-      <point x="357.0" y="-240.0" type="move" name="ring"/>
-    </contour>
-    <contour>
-      <point x="115.0" y="202.0" type="move" name="tail"/>
-    </contour>
-    <contour>
-      <point x="106.0" y="202.0" type="move" name="top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEEF</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefMaksura-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>
