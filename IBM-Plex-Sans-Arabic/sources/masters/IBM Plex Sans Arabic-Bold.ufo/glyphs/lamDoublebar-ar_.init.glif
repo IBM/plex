@@ -33,13 +33,11 @@
       <point x="107" y="546" type="line"/>
       <point x="37" y="546" type="line"/>
     </contour>
+    <contour>
+      <point x="165.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="165.0" y="740.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08A6.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>lamDoublebar-ar.init</string>
-    </dict>
-  </lib>
 </glyph>

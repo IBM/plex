@@ -9,15 +9,14 @@
       <point x="462.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="586.0" y="463.0" type="move" name="top"/>
+      <point x="586.0" y="677.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="263.0" y="150.0" type="move" name="verticalbar"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEC0</string>
-      <key>com.type-invaders.name.production</key>
-      <string>dad-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

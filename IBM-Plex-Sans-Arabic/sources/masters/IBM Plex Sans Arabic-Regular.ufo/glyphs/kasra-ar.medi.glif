@@ -3,10 +3,10 @@
   <advance width="107"/>
   <unicode hex="FE7B"/>
   <outline>
-    <component base="kashida-ar"/>
     <component base="kasra-ar" xOffset="-57" yOffset="-574"/>
+    <component base="kashida-ar"/>
     <contour>
-      <point x="54.0" y="0.0" type="move" name="bottom"/>
+      <point x="54.0" y="-135.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="54.0" y="249.0" type="move" name="top"/>
@@ -14,10 +14,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFE7B</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kasra-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -6,21 +6,17 @@
     <component base="twodotshorizontalbelow-ar" xOffset="289" yOffset="-570"/>
     <component base="dotabove-ar" xOffset="353"/>
     <contour>
-      <point x="418.0" y="0.0" type="move" name="bottom"/>
+      <point x="418.0" y="-198.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="418.0" y="-12.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="418.0" y="249.0" type="move" name="top"/>
+      <point x="418.0" y="467.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0754.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>behTwodotsbelowDotabove-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

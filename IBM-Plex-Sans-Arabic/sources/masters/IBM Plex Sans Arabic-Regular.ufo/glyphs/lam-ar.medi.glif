@@ -28,21 +28,10 @@
       <point x="-20" y="66" type="line"/>
     </contour>
     <contour>
-      <point x="157.0" y="424.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="157.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="157.0" y="740.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEE0</string>
-      <key>com.type-invaders.name.production</key>
-      <string>lam-ar.medi</string>
-    </dict>
-  </lib>
 </glyph>

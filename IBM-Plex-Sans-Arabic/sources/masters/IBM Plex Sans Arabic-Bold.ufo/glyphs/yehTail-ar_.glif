@@ -53,9 +53,6 @@
       <point x="-82" y="305" type="line"/>
     </contour>
     <contour>
-      <point x="48.0" y="261.0" type="move" name="_bar"/>
-    </contour>
-    <contour>
       <point x="376.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -68,12 +65,4 @@
       <point x="130.0" y="217.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06CD</string>
-      <key>com.type-invaders.name.production</key>
-      <string>yehTail-ar</string>
-    </dict>
-  </lib>
 </glyph>

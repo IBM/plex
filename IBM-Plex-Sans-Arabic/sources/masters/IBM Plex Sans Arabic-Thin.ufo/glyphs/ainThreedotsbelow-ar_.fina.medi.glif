@@ -5,7 +5,7 @@
     <component base="ain-ar.medi"/>
     <component base="threedotsdownbelow-ar" xOffset="102" yOffset="-737"/>
     <contour>
-      <point x="228.0" y="0.0" type="move" name="bottom"/>
+      <point x="228.0" y="-321.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="233.0" y="369.0" type="move" name="top"/>
@@ -13,10 +13,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08B3.fina.medi</string>
-      <key>com.type-invaders.name.production</key>
-      <string>ainThreedotsbelow-ar.fina.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

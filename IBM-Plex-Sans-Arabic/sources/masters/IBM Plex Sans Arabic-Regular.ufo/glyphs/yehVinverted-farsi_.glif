@@ -3,8 +3,8 @@
   <advance width="726"/>
   <unicode hex="063D"/>
   <outline>
-    <component base="alefMaksura-ar"/>
     <component base="vinvertedabove-ar" xOffset="-7" yOffset="-58"/>
+    <component base="alefMaksura-ar"/>
     <contour>
       <point x="347.0" y="-240.0" type="move" name="bottom"/>
     </contour>
@@ -15,18 +15,11 @@
       <point x="347.0" y="-240.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="149.0" y="191.0" type="move" name="tail"/>
-    </contour>
-    <contour>
-      <point x="118.0" y="191.0" type="move" name="top"/>
+      <point x="118.0" y="507.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni063D</string>
-      <key>com.type-invaders.name.production</key>
-      <string>yehVinverted-farsi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

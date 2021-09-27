@@ -5,19 +5,9 @@
   <outline>
     <component base="ain-ar"/>
     <component base="dotabove-ar" xOffset="256" yOffset="361"/>
-    <contour>
-      <point x="341.0" y="-304.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="351.0" y="0.0" type="move" name="center"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFECD</string>
-      <key>com.type-invaders.name.production</key>
-      <string>ghain-ar.isol</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

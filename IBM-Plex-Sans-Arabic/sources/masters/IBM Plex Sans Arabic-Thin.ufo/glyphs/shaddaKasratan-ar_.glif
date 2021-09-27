@@ -2,16 +2,12 @@
 <glyph name="shaddaKasratan-ar" format="1">
   <advance width="0"/>
   <outline>
+    <component base="shadda-ar" xOffset="-40" yOffset="242"/>
     <component base="comp.fatha-ar"/>
     <component base="comp.fatha-ar" yOffset="118"/>
-    <component base="shadda-ar" xOffset="-40" yOffset="242"/>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0651064D</string>
-      <key>com.type-invaders.name.production</key>
-      <string>shaddaKasratan-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -42,13 +42,11 @@
       <point x="120" y="521" type="line"/>
       <point x="37" y="521" type="line"/>
     </contour>
+    <contour>
+      <point x="157.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="157.0" y="740.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08A6.medi</string>
-      <key>com.type-invaders.name.production</key>
-      <string>lamDoublebar-ar.medi</string>
-    </dict>
-  </lib>
 </glyph>

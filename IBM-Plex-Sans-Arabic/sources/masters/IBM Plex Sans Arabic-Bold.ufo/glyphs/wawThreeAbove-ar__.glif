@@ -6,9 +6,6 @@
     <component base="waw-ar"/>
     <component base="threeabove-ar" xOffset="112" yOffset="140"/>
     <contour>
-      <point x="359.0" y="-44.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="190.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -20,13 +17,12 @@
     <contour>
       <point x="157.0" y="-5.0" type="move" name="ring"/>
     </contour>
+    <contour>
+      <point x="271.0" y="783.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0779</string>
-      <key>com.type-invaders.name.production</key>
-      <string>wawThreeAbove-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

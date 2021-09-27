@@ -3,10 +3,10 @@
   <advance width="288"/>
   <unicode hex="FB58"/>
   <outline>
-    <component base="behDotless-ar.init"/>
     <component base="threedotsdownbelow-ar" xOffset="-3" yOffset="-725"/>
+    <component base="behDotless-ar.init"/>
     <contour>
-      <point x="155.0" y="0.0" type="move" name="bottom"/>
+      <point x="155.0" y="-362.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="366.0" y="363.0" type="move" name="high"/>
@@ -20,10 +20,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB58</string>
-      <key>com.type-invaders.name.production</key>
-      <string>peh-ar.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

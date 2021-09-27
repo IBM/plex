@@ -17,7 +17,6 @@ const families = [
   {
     type: 'Sans Cond',
     preferredName: 'Sans Condensed',
-    truncatedType: true,
     hasItalic: true,
     name: 'IBM Plex Sans Condensed',
     unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi'],

@@ -196,18 +196,10 @@
       <point x="409" y="22"/>
     </contour>
     <contour>
-      <point x="303.0" y="-12.0" type="move" name="bottom"/>
+      <point x="303" y="-12" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="303.0" y="571.0" type="move" name="top"/>
+      <point x="303" y="571" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni25CC</string>
-      <key>com.type-invaders.name.production</key>
-      <string>dottedCircle</string>
-    </dict>
-  </lib>
 </glyph>

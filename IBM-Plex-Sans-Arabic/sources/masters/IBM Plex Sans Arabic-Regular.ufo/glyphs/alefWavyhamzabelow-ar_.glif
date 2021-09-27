@@ -3,10 +3,10 @@
   <advance width="224"/>
   <unicode hex="0673"/>
   <outline>
-    <component base="alef-ar"/>
     <component base="wavyhamzabelow-ar" xOffset="-33" yOffset="-629"/>
+    <component base="alef-ar"/>
     <contour>
-      <point x="112.0" y="0.0" type="move" name="bottom"/>
+      <point x="112.0" y="-293.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="299.0" y="507.0" type="move" name="high"/>
@@ -17,10 +17,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0673</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefWavyhamzabelow-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

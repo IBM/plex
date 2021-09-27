@@ -6,7 +6,7 @@
     <component base="kaf-ar"/>
     <component base="threedotsdownbelow-ar" xOffset="245" yOffset="-741"/>
     <contour>
-      <point x="371.0" y="-4.0" type="move" name="bottom"/>
+      <point x="371.0" y="-325.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="369.0" y="506.0" type="move" name="top"/>
@@ -14,10 +14,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06AE</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kafThreedotsbelow-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

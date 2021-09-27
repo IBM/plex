@@ -8,15 +8,14 @@
       <point x="385.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="439.0" y="375.0" type="move" name="top"/>
+      <point x="439.0" y="666.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="145.0" y="80.0" type="move" name="verticalbar"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni069F.medi</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tahThreedots-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

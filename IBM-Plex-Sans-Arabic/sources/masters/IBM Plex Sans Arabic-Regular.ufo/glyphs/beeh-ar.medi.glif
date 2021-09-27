@@ -3,10 +3,10 @@
   <advance width="310"/>
   <unicode hex="FB55"/>
   <outline>
-    <component base="behDotless-ar.medi"/>
     <component base="twodotsverticalbelow-ar" xOffset="-39" yOffset="-648"/>
+    <component base="behDotless-ar.medi"/>
     <contour>
-      <point x="155.0" y="0.0" type="move" name="bottom"/>
+      <point x="155.0" y="-279.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="289.0" y="329.0" type="move" name="high"/>
@@ -20,10 +20,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB55</string>
-      <key>com.type-invaders.name.production</key>
-      <string>beeh-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

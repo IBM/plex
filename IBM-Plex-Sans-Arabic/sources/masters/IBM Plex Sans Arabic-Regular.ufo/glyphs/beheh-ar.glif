@@ -6,7 +6,7 @@
     <component base="behDotless-ar"/>
     <component base="fourdotsbelow-ar" xOffset="289" yOffset="-648"/>
     <contour>
-      <point x="418.0" y="0.0" type="move" name="bottom"/>
+      <point x="418.0" y="-279.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="418.0" y="-12.0" type="move" name="ring"/>
@@ -17,10 +17,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0680</string>
-      <key>com.type-invaders.name.production</key>
-      <string>beheh-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

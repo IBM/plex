@@ -70,13 +70,14 @@
       <point x="294" y="-34" type="line"/>
       <point x="293" y="-31" type="line"/>
     </contour>
+    <contour>
+      <point x="339.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="334.0" y="9.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="327.0" y="500.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni076E</string>
-      <key>com.type-invaders.name.production</key>
-      <string>hahTahbelow-ar</string>
-    </dict>
-  </lib>
 </glyph>

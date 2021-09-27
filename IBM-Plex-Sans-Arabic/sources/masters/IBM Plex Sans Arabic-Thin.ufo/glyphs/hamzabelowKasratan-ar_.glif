@@ -3,15 +3,11 @@
   <advance width="0"/>
   <outline>
     <component base="comp.hamza-ar"/>
-    <component base="comp.fatha-ar" xOffset="14" yOffset="-144"/>
     <component base="comp.fatha-ar" xOffset="14" yOffset="-260"/>
+    <component base="comp.fatha-ar" xOffset="14" yOffset="-144"/>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0655064D</string>
-      <key>com.type-invaders.name.production</key>
-      <string>hamzabelowKasratan-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

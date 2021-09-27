@@ -69,13 +69,17 @@
       <point x="244" y="-59"/>
       <point x="224" y="-77"/>
     </contour>
+    <contour>
+      <point x="155.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="289.0" y="329.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="198.0" y="7.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="155.0" y="547.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06BC.medi</string>
-      <key>com.type-invaders.name.production</key>
-      <string>noonRing-ar.medi</string>
-    </dict>
-  </lib>
 </glyph>

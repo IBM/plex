@@ -97,13 +97,14 @@
       <point x="216" y="18"/>
       <point x="236" y="2"/>
     </contour>
+    <contour>
+      <point x="339.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="334.0" y="9.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="327.0" y="500.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB7B</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tcheh-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

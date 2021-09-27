@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tteh_noon-ar.fina.rlig" format="1">
+  <advance width="970"/>
+  <outline>
+    <component base="alefMaksura_noonghunna-ar.rlig"/>
+    <component base="dotabove-ar" xOffset="273" yOffset="-58"/>
+    <component base="tahabove-ar" xOffset="683" yOffset="40"/>
+    <contour>
+      <point x="814.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="318.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="317.0" y="-240.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="824.0" y="659.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="338.0" y="409.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

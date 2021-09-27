@@ -76,13 +76,14 @@
       <point x="314" y="383"/>
       <point x="323" y="376"/>
     </contour>
+    <contour>
+      <point x="317.0" y="-160.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="317.0" y="-160.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="337.0" y="420.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06BC</string>
-      <key>com.type-invaders.name.production</key>
-      <string>noonRing-ar</string>
-    </dict>
-  </lib>
 </glyph>

@@ -90,18 +90,10 @@
       <point x="229" y="-201"/>
     </contour>
     <contour>
-      <point x="306.0" y="0.0" type="move" name="bottom"/>
+      <point x="306.0" y="-201.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="306.0" y="479.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08AC</string>
-      <key>com.type-invaders.name.production</key>
-      <string>yehRohingya</string>
-    </dict>
-  </lib>
 </glyph>

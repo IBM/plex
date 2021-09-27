@@ -56,13 +56,14 @@
       <point x="135" y="-330"/>
       <point x="108" y="-358"/>
     </contour>
+    <contour>
+      <point x="14.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="71.0" y="-226.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="153.0" y="286.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0693.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>rehRing-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

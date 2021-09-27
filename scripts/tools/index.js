@@ -35,7 +35,7 @@ const createFontFace = (family, weight, unicode = {}) => {
 
   // If the family is using truncated types, overried the default weight type
   let weightType = weight.type;
-  if (family.truncatedType && weight.properties.truncatedType) {
+  if (weight.properties.truncatedType) {
     weightType = weight.properties.truncatedType;
   }
 

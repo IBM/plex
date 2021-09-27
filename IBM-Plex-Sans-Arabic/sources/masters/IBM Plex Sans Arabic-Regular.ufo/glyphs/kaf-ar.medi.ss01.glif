@@ -33,13 +33,11 @@
       <point x="0" y="86" type="line"/>
       <point x="-20" y="66" type="line"/>
     </contour>
+    <contour>
+      <point x="400.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="31.0" y="668.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFEDC.ss01</string>
-      <key>com.type-invaders.name.production</key>
-      <string>kaf-ar.medi.ss01</string>
-    </dict>
-  </lib>
 </glyph>

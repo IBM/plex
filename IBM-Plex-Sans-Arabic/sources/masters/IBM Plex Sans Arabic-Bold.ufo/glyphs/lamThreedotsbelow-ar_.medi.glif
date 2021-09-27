@@ -5,10 +5,7 @@
     <component base="lam-ar.medi"/>
     <component base="threedotsdownbelow-ar" xOffset="7" yOffset="-725"/>
     <contour>
-      <point x="165.0" y="424.0" type="move" name="bar"/>
-    </contour>
-    <contour>
-      <point x="165.0" y="0.0" type="move" name="bottom"/>
+      <point x="165.0" y="-362.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="165.0" y="740.0" type="move" name="top"/>
@@ -16,10 +13,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06B8.medi</string>
-      <key>com.type-invaders.name.production</key>
-      <string>lamThreedotsbelow-ar.medi</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

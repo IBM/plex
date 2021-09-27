@@ -3,21 +3,17 @@
   <advance width="280"/>
   <unicode hex="FD3C"/>
   <outline>
-    <component base="alef-ar.fina.short"/>
     <component base="fathatan-ar" xOffset="-9" yOffset="335"/>
+    <component base="alef-ar.fina.short"/>
     <contour>
       <point x="130.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="130.0" y="618.0" type="move" name="top"/>
+      <point x="130.0" y="921.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFD3C</string>
-      <key>com.type-invaders.name.production</key>
-      <string>alefFathatan-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

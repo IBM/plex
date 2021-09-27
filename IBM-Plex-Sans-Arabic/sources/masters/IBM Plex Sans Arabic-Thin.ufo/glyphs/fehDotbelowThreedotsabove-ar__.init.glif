@@ -6,18 +6,17 @@
     <component base="dotbelow-ar" xOffset="289" yOffset="-617"/>
     <component base="twodotshorizontalabove-ar" xOffset="313" yOffset="86"/>
     <contour>
-      <point x="352.0" y="0.0" type="move" name="bottom"/>
+      <point x="352.0" y="-201.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="439.0" y="375.0" type="move" name="top"/>
+      <point x="439.0" y="546.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="145.0" y="80.0" type="move" name="verticalbar"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08A4.init</string>
-      <key>com.type-invaders.name.production</key>
-      <string>fehDotbelowThreedotsabove-ar.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

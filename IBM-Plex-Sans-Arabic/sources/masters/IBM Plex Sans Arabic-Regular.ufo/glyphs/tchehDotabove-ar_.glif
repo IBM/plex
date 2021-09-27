@@ -4,8 +4,8 @@
   <unicode hex="06BF"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="threedotsdowncenter-ar" xOffset="187" yOffset="-493"/>
     <component base="dotabove-ar" xOffset="235" yOffset="175"/>
+    <component base="threedotsdowncenter-ar" xOffset="187" yOffset="-493"/>
     <contour>
       <point x="332.0" y="-304.0" type="move" name="bottom"/>
     </contour>
@@ -13,15 +13,11 @@
       <point x="319.0" y="11.0" type="move" name="center"/>
     </contour>
     <contour>
-      <point x="300.0" y="424.0" type="move" name="top"/>
+      <point x="300.0" y="642.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni06BF</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tchehDotabove-ar</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

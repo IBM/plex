@@ -27,6 +27,32 @@ languagesystem cyrl dflt;   # Cyrillic default
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 feature aalt {
 	sub a from [a.alt01]; # 1 glyph(s)
 	sub g from [g.alt01 g.alt02]; # 2 glyph(s)
@@ -96,7 +122,7 @@ feature aalt {
 	sub uni0430 from [uni0430.alt01]; # 1 glyph(s)
 	sub uni04D3 from [uni04D3.alt01]; # 1 glyph(s)
 	sub uni04D1 from [uni04D1.alt01]; # 1 glyph(s)
-} aalt;
+} aalt;
 
 feature ccmp {
 	# glyph composition/decomposition
@@ -128,12 +154,12 @@ feature ccmp {
 		sub j' @acc_comb_top by dotlessj;
 		sub @uc_basic @acc_comb_dflt' by @acc_comb_case; # case accents
 	} contextSubs;
-} ccmp;
+} ccmp;
 
 feature ordn {
 	# ordinals
 	sub [a o] by [ordfeminine ordmasculine];
-} ordn;
+} ordn;
 
 feature frac {
 	# fractions
@@ -154,32 +180,32 @@ feature frac {
 	sub five [slash fraction] eight by uni215D;
 	sub seven [slash fraction] eight by uni215E;
 	sub one [slash fraction] nine by uni2151;
-} frac;
+} frac;
 
 feature numr {
 	# numerators
 	sub @numbers_dflt by @numbers_numr;
-} numr;
+} numr;
 
 feature dnom {
 	# denominators
 	sub @numbers_dflt by @numbers_dnom;
-} dnom;
+} dnom;
 
 feature sups {
 	# superiors
 	sub @numbers_dflt by @numbers_sups;
-} sups;
+} sups;
 
 feature sinf {
 	# inferiors
 	sub @numbers_dflt by @numbers_sinf;
-} sinf;
+} sinf;
 
 feature zero {
 	# slashed zero
 	sub zero by zero.alt01;
-} zero;
+} zero;
 
 feature ss01 {
 	featureNames {
@@ -189,7 +215,7 @@ feature ss01 {
 	# stylistic set 1 - single storey a
 	sub @lca_dflt by @lca_alt1;
 	sub @lca_cyrl_dflt by @lca_cyrl_alt1;
-} ss01;
+} ss01;
 
 feature ss02 {
 	featureNames {
@@ -198,7 +224,7 @@ feature ss02 {
 	};
 	# stylistic set 2 - single storey g
 	sub @lcg_dflt by @lcg_alt1;
-} ss02;
+} ss02;
 
 feature ss03 {
 	featureNames {
@@ -207,7 +233,7 @@ feature ss03 {
 	};
 	# slashed zero
 	sub zero by zero.alt01;
-} ss03;
+} ss03;
 
 feature ss04 {
 	featureNames {
@@ -216,7 +242,7 @@ feature ss04 {
 	};
 	# plain zero
 	sub zero by zero.alt02;
-} ss04;
+} ss04;
 
 feature ss05 {
 	featureNames {
@@ -225,7 +251,7 @@ feature ss05 {
 	};
 	# alternative german eszett
 	sub germandbls by germandbls.alt01;
-} ss05;
+} ss05;
 
 feature salt {
 	# stylistic alternates - all stylistic sets combined
@@ -234,7 +260,7 @@ feature salt {
 	sub @lca_cyrl_dflt by @lca_cyrl_alt1;
 	sub zero by zero.alt02;
 	sub germandbls by germandbls.alt01;
-} salt;
+} salt;
 
 feature mark {
 	# Created: Sun May 21 13:18:13 2017
@@ -368,4 +394,30 @@ feature mark {
 
 
 } mark;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

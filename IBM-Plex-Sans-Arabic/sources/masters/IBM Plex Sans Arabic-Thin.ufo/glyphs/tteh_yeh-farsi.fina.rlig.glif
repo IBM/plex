@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tteh_yeh-farsi.fina.rlig" format="1">
+  <advance width="884"/>
+  <outline>
+    <component base="behDotless_alefMaksura-ar.fina.rlig"/>
+    <component base="tahabove-ar" xOffset="422" yOffset="111"/>
+    <contour>
+      <point x="603.0" y="-160.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="332.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="543.0" y="690.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="202.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

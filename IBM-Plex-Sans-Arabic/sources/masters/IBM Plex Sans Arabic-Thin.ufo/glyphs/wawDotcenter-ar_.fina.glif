@@ -5,9 +5,6 @@
     <component base="waw-ar.fina"/>
     <component base="dotcenter-ar" xOffset="29" yOffset="-537"/>
     <contour>
-      <point x="390.0" y="-118.0" type="move" name="bar"/>
-    </contour>
-    <contour>
       <point x="186.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
@@ -25,10 +22,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni08AB.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>wawDotcenter-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

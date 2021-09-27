@@ -6,7 +6,7 @@
     <component base="hah-ar.init"/>
     <component base="threedotsdownbelow-ar" xOffset="173" yOffset="-687"/>
     <contour>
-      <point x="305.0" y="0.0" type="move" name="bottom"/>
+      <point x="304.0" y="-309.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="254.0" y="369.0" type="move" name="top"/>
@@ -14,10 +14,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB7C</string>
-      <key>com.type-invaders.name.production</key>
-      <string>tcheh-ar.init</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

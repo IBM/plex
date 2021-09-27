@@ -3,24 +3,20 @@
   <advance width="1240"/>
   <outline>
     <component base="seen-ar.fina"/>
-    <component base="threedotsupabove-ar" xOffset="684"/>
     <component base="threedotsdownbelow-ar" xOffset="185" yOffset="-965"/>
+    <component base="threedotsupabove-ar" xOffset="684"/>
     <contour>
-      <point x="343.0" y="-240.0" type="move" name="bottom"/>
+      <point x="343.0" y="-602.0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="842.0" y="-135.0" type="move" name="center"/>
     </contour>
     <contour>
-      <point x="842.0" y="283.0" type="move" name="top"/>
+      <point x="842.0" y="643.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni069C.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>sheenThreedotsbelow-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -14,18 +14,10 @@
       <point x="10" y="587" type="line"/>
     </contour>
     <contour>
-      <point x="149.0" y="283.0" type="move" name="_top"/>
+      <point x="149" y="283" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="149.0" y="587.0" type="move" name="top"/>
+      <point x="149" y="587" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni065A</string>
-      <key>com.type-invaders.name.production</key>
-      <string>vabove-ar</string>
-    </dict>
-  </lib>
 </glyph>

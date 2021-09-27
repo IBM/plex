@@ -18,21 +18,13 @@
       <point x="125" y="0"/>
     </contour>
     <contour>
-      <point x="140.0" y="0.0" type="move" name="bottom"/>
+      <point x="140" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="334.0" y="489.0" type="move" name="high"/>
+      <point x="334" y="489" type="move" name="high"/>
     </contour>
     <contour>
-      <point x="120.0" y="740.0" type="move" name="top"/>
+      <point x="120" y="740" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>comp.alefar.fina</string>
-      <key>com.type-invaders.name.production</key>
-      <string>comp.alef-ar.fina</string>
-    </dict>
-  </lib>
 </glyph>

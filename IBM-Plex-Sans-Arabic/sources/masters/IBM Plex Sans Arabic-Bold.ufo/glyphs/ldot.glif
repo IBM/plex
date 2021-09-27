@@ -6,10 +6,10 @@
     <component base="l"/>
     <component base="dotaccent" xOffset="63" yOffset="-318"/>
     <contour>
-      <point x="175.0" y="0.0" type="move" name="bottom"/>
+      <point x="175" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="280.0" y="740.0" type="move" name="topright"/>
+      <point x="280" y="740" type="move" name="topright"/>
     </contour>
   </outline>
   <lib>

@@ -4,10 +4,13 @@
   <unicode hex="FB97"/>
   <outline>
     <component base="keheh-ar.fina"/>
-    <component base="comp.kafbar-ar" xOffset="508" yOffset="22"/>
     <component base="twodotsverticalbelow-ar" xOffset="224" yOffset="-648"/>
+    <component base="comp.kafbar-ar" xOffset="508" yOffset="22"/>
     <contour>
-      <point x="418.0" y="0.0" type="move" name="bottom"/>
+      <point x="418.0" y="-279.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="528.0" y="552.0" type="move" name="kafbar"/>
     </contour>
     <contour>
       <point x="785.0" y="571.0" type="move" name="ring"/>
@@ -18,10 +21,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFB97</string>
-      <key>com.type-invaders.name.production</key>
-      <string>gueh-ar.fina</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

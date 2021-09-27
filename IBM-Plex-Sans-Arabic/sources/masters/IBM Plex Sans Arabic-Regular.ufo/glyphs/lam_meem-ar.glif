@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam_meem-ar" format="1">
-  <advance width="392"/>
+  <advance width="412"/>
   <unicode hex="FC42"/>
   <outline>
     <contour>
@@ -39,12 +39,4 @@
       <point x="27.0" y="249.0" type="move" name="top_2"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniFC42</string>
-      <key>com.type-invaders.name.production</key>
-      <string>lam_meem-ar</string>
-    </dict>
-  </lib>
 </glyph>
