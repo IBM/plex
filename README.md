@@ -82,7 +82,7 @@ Subsequently, OpenType Fonts (OTFs) or TrueType Fonts (TTFs) can be generated fr
 
 ## Language support
 
-IBM Plex covers over 100 languages with extended Latin versions. These cover the typographic needs for executing communications and other typographic situations across the international community. All four sub-families are covered in the extended Latin which includes Vietnamese. In addition Plex covers a growing set of non-Latin scripts which currently include Arabic, Cyrillic, Devanagari, Greek, Hebrew, Korean and Thai.
+IBM Plex covers over 100 languages. All four sub-families offer an extended Latin character set that supports – among others – all modern European languages, Turkish, and Vietnamese. In addition Plex covers a growing set of other scripts which currently include Arabic, Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean and Thai.
 
 |||||
 |--- |--- |--- |--- |
