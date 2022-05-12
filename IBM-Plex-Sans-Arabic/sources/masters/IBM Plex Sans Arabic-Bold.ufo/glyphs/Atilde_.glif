@@ -6,10 +6,10 @@
     <component base="A"/>
     <component base="tilde.case" xOffset="39"/>
     <contour>
-      <point x="339" y="0" type="move" name="bottom"/>
+      <point x="339.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="666" y="0" type="move" name="bottomright"/>
+      <point x="666.0" y="0.0" type="move" name="bottomright"/>
     </contour>
   </outline>
   <lib>

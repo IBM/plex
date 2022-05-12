@@ -930,10 +930,20 @@ feature fina {
 
 feature rlig {
 	# required ligatures
-	lookup rlig_arabic_0 {
-		lookupflag IgnoreMarks RightToLeft;
+	# lookup rlig_arabic_0 {
+	# lookupflag IgnoreMarks RightToLeft;
+	# sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
+	# } rlig_arabic_0;
+	lookup rlig_arabic_allah_1 {
+		# allah ligature with both marks when no marks in input
+		lookupflag RightToLeft;
 		sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
-	} rlig_arabic_0;
+	} rlig_arabic_allah_1;
+	lookup rlig_arabic_allah_2 {
+		# allah ligature without any marks when marks in input
+		lookupflag IgnoreMarks RightToLeft;
+		sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar.alt;
+	} rlig_arabic_allah_2;
 	lookup rlig_arabic_1 {
 		lookupflag IgnoreMarks RightToLeft;
 		sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina.rlig;
@@ -1178,7 +1188,9 @@ feature rlig {
 		sub lamBar-ar.medi alef-ar.fina by lamBar_alef-ar.fina.rlig;
 		sub lamBar-ar.init alef-ar.fina by lamBar_alef-ar.rlig;
 	} rlig_arabic_1;
-	lookup rlig_arabic_0;
+	# lookup rlig_arabic_0;
+	lookup rlig_arabic_allah_1;
+	lookup rlig_arabic_allah_2;
 	lookup rlig_arabic_1;
 	lookupflag 0;
 } rlig;
@@ -4463,10 +4475,14 @@ feature mark {
 		pos base [fehThreedotsbelow-ar.fina] <anchor 417 -321> mark @mark_bottom <anchor 744 479> mark @mark_top;
 		pos base [fehThreedotsbelow-ar.medi] <anchor 220 -309> mark @mark_bottom <anchor 221 479> mark @mark_top;
 		pos base [fehThreedotsbelow-ar.init] <anchor 221 -309> mark @mark_bottom <anchor 222 552> mark @mark_top;
-		pos base [fehDotbelowThreedotsabove-ar] <anchor 390 -201> mark @mark_bottom <anchor 498 631> mark @mark_top;
-		pos base [fehDotbelowThreedotsabove-ar.fina] <anchor 394 -201> mark @mark_bottom <anchor 498 631> mark @mark_top;
-		pos base [fehDotbelowThreedotsabove-ar.medi] <anchor 341 -201> mark @mark_bottom <anchor 400 631> mark @mark_top;
-		pos base [fehDotbelowThreedotsabove-ar.init] <anchor 340 -201> mark @mark_bottom <anchor 400 631> mark @mark_top;
+		# pos base [fehDotbelowThreedotsabove-ar] <anchor 390 -201> mark @mark_bottom <anchor 498 631> mark @mark_top;
+		# pos base [fehDotbelowThreedotsabove-ar.fina] <anchor 394 -201> mark @mark_bottom <anchor 498 631> mark @mark_top;
+		# pos base [fehDotbelowThreedotsabove-ar.medi] <anchor 341 -201> mark @mark_bottom <anchor 400 631> mark @mark_top;
+		# pos base [fehDotbelowThreedotsabove-ar.init] <anchor 340 -201> mark @mark_bottom <anchor 400 631> mark @mark_top;
+		pos base [fehDotbelowThreedotsabove-ar] <anchor 418 -213> mark @mark_bottom <anchor 672 887> mark @mark_top;
+		pos base [fehDotbelowThreedotsabove-ar.fina] <anchor 418 -213> mark @mark_bottom <anchor 744 814> mark @mark_top;
+		pos base [fehDotbelowThreedotsabove-ar.medi] <anchor 221 -201> mark @mark_bottom <anchor 221 814> mark @mark_top;
+		pos base [fehDotbelowThreedotsabove-ar.init] <anchor 222 -201> mark @mark_bottom <anchor 222 887> mark @mark_top;
 		pos base [peheh-ar] <anchor 418 -12> mark @mark_bottom <anchor 672 898> mark @mark_top;
 		pos base [peheh-ar.fina] <anchor 418 -12> mark @mark_bottom <anchor 744 825> mark @mark_top;
 		pos base [peheh-ar.medi] <anchor 221 0> mark @mark_bottom <anchor 221 825> mark @mark_top;
@@ -4861,6 +4877,7 @@ feature mark {
 		pos base [sindhipostpositionmen-ar] <anchor 316 -240> mark @mark_bottom <anchor 316 409> mark @mark_top;
 		pos base [cuberoot-ar] <anchor 390 845> mark @mark_top;
 		pos base [fourthroot-ar] <anchor 370 845> mark @mark_top;
+		pos base [allah-ar.alt] <anchor 620 597> mark @mark_top;
 		# pos base [_part-alef-ar.fina] <anchor 121 0> mark @mark_bottom <anchor 112 740> mark @mark_top;
 	} markarab;
 	lookup mark_arab_mark2Liga {

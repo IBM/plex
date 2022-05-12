@@ -6,19 +6,19 @@
     <component base="dotabove-ar" xOffset="115" yOffset="40"/>
     <component base="twodotshorizontalabove-ar" xOffset="334" yOffset="80"/>
     <contour>
-      <point x="492" y="0" type="move" name="bottom_1"/>
+      <point x="492.0" y="0.0" type="move" name="bottom_1"/>
     </contour>
     <contour>
-      <point x="70" y="-240" type="move" name="bottom_2"/>
+      <point x="70.0" y="-240.0" type="move" name="bottom_2"/>
     </contour>
     <contour>
-      <point x="132" y="-224" type="move" name="ring"/>
+      <point x="132.0" y="-224.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="492" y="577" type="move" name="top_1"/>
+      <point x="492.0" y="577.0" type="move" name="top_1"/>
     </contour>
     <contour>
-      <point x="194" y="537" type="move" name="top_2"/>
+      <point x="194.0" y="537.0" type="move" name="top_2"/>
     </contour>
   </outline>
   <lib>

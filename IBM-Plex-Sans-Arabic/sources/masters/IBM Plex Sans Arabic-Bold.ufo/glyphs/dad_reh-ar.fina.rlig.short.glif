@@ -5,25 +5,25 @@
     <component base="sad_reh-ar.fina.rlig.short"/>
     <component base="dotabove-ar" xOffset="815" yOffset="180"/>
     <contour>
-      <point x="528" y="0" type="move" name="*exit_1"/>
+      <point x="528.0" y="0.0" type="move" name="*exit_1"/>
     </contour>
     <contour>
-      <point x="241" y="0" type="move" name="*exit_2"/>
+      <point x="241.0" y="0.0" type="move" name="*exit_2"/>
     </contour>
     <contour>
-      <point x="770" y="0" type="move" name="bottom_1"/>
+      <point x="770.0" y="0.0" type="move" name="bottom_1"/>
     </contour>
     <contour>
-      <point x="70" y="-240" type="move" name="bottom_2"/>
+      <point x="70.0" y="-240.0" type="move" name="bottom_2"/>
     </contour>
     <contour>
-      <point x="132" y="-224" type="move" name="ring"/>
+      <point x="132.0" y="-224.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="894" y="677" type="move" name="top_1"/>
+      <point x="894.0" y="677.0" type="move" name="top_1"/>
     </contour>
     <contour>
-      <point x="194" y="323" type="move" name="top_2"/>
+      <point x="194.0" y="323.0" type="move" name="top_2"/>
     </contour>
   </outline>
   <lib>
