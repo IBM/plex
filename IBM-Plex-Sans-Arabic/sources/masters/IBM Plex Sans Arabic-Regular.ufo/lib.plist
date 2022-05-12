@@ -727,22 +727,18 @@
 		<string>zah-ar</string>
 		<string>zah-ar.isol</string>
 		<string>tahTwodotsabove-ar</string>
-		<string>fehDotbelowThreedotsabove-ar</string>
 		<string>tah-ar.fina</string>
 		<string>tahThreedots-ar.fina</string>
 		<string>zah-ar.fina</string>
 		<string>tahTwodotsabove-ar.fina</string>
-		<string>fehDotbelowThreedotsabove-ar.fina</string>
 		<string>tah-ar.medi</string>
 		<string>tahThreedots-ar.medi</string>
 		<string>zah-ar.medi</string>
 		<string>tahTwodotsabove-ar.medi</string>
-		<string>fehDotbelowThreedotsabove-ar.medi</string>
 		<string>tah-ar.init</string>
 		<string>tahThreedots-ar.init</string>
 		<string>zah-ar.init</string>
 		<string>tahTwodotsabove-ar.init</string>
-		<string>fehDotbelowThreedotsabove-ar.init</string>
 		<string>ain-ar</string>
 		<string>ain-ar.isol</string>
 		<string>ainThreedotsbelow-ar</string>
@@ -783,25 +779,28 @@
 		<string>feh-ar</string>
 		<string>feh-ar.isol</string>
 		<string>veh-ar</string>
-		<string>fehDotbelow-ar</string>
-		<string>fehThreedotsbelow-ar</string>
 		<string>peheh-ar</string>
+		<string>fehDotbelow-ar</string>
+		<string>fehDotbelowThreedotsabove-ar</string>
+		<string>fehThreedotsbelow-ar</string>
 		<string>fehTwodotsbelow-ar</string>
 		<string>fehThreedotsupbelow-ar</string>
 		<string>fehDotless-ar.fina</string>
 		<string>feh-ar.fina</string>
 		<string>veh-ar.fina</string>
-		<string>fehDotbelow-ar.fina</string>
-		<string>fehThreedotsbelow-ar.fina</string>
 		<string>peheh-ar.fina</string>
+		<string>fehDotbelow-ar.fina</string>
+		<string>fehDotbelowThreedotsabove-ar.fina</string>
+		<string>fehThreedotsbelow-ar.fina</string>
 		<string>fehTwodotsbelow-ar.fina</string>
 		<string>fehThreedotsupbelow-ar.fina</string>
 		<string>fehDotless-ar.medi</string>
 		<string>feh-ar.medi</string>
 		<string>veh-ar.medi</string>
-		<string>fehDotbelow-ar.medi</string>
-		<string>fehThreedotsbelow-ar.medi</string>
 		<string>peheh-ar.medi</string>
+		<string>fehDotbelow-ar.medi</string>
+		<string>fehDotbelowThreedotsabove-ar.medi</string>
+		<string>fehThreedotsbelow-ar.medi</string>
 		<string>qaf-ar.medi</string>
 		<string>qafThreedotsabove-ar.medi</string>
 		<string>qafDotbelow-ar.medi</string>
@@ -812,6 +811,7 @@
 		<string>feh-ar.init</string>
 		<string>veh-ar.init</string>
 		<string>fehDotbelow-ar.init</string>
+		<string>fehDotbelowThreedotsabove-ar.init</string>
 		<string>fehThreedotsbelow-ar.init</string>
 		<string>peheh-ar.init</string>
 		<string>qaf-ar.init</string>
@@ -1429,6 +1429,7 @@
 		<string>qaf_lam_yeh-ar</string>
 		<string>mohammad-ar</string>
 		<string>allah-ar</string>
+		<string>allah-ar.alt</string>
 		<string>jallajalalouhou-ar</string>
 		<string>bismillah-ar</string>
 		<string>basmalla-ar</string>
@@ -1716,8 +1717,6 @@
 	<string>IBM Plex Sans Arabic</string>
 	<key>com.type-invaders.fontnaming.winstyle</key>
 	<string>Regular</string>
-	<key>com.type-invaders.interpolation.value</key>
-	<real>100.0</real>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
 	</array>
@@ -2446,22 +2445,18 @@
 		<string>zah-ar</string>
 		<string>zah-ar.isol</string>
 		<string>tahTwodotsabove-ar</string>
-		<string>fehDotbelowThreedotsabove-ar</string>
 		<string>tah-ar.fina</string>
 		<string>tahThreedots-ar.fina</string>
 		<string>zah-ar.fina</string>
 		<string>tahTwodotsabove-ar.fina</string>
-		<string>fehDotbelowThreedotsabove-ar.fina</string>
 		<string>tah-ar.medi</string>
 		<string>tahThreedots-ar.medi</string>
 		<string>zah-ar.medi</string>
 		<string>tahTwodotsabove-ar.medi</string>
-		<string>fehDotbelowThreedotsabove-ar.medi</string>
 		<string>tah-ar.init</string>
 		<string>tahThreedots-ar.init</string>
 		<string>zah-ar.init</string>
 		<string>tahTwodotsabove-ar.init</string>
-		<string>fehDotbelowThreedotsabove-ar.init</string>
 		<string>ain-ar</string>
 		<string>ain-ar.isol</string>
 		<string>ainThreedotsbelow-ar</string>
@@ -2502,25 +2497,28 @@
 		<string>feh-ar</string>
 		<string>feh-ar.isol</string>
 		<string>veh-ar</string>
-		<string>fehDotbelow-ar</string>
-		<string>fehThreedotsbelow-ar</string>
 		<string>peheh-ar</string>
+		<string>fehDotbelow-ar</string>
+		<string>fehDotbelowThreedotsabove-ar</string>
+		<string>fehThreedotsbelow-ar</string>
 		<string>fehTwodotsbelow-ar</string>
 		<string>fehThreedotsupbelow-ar</string>
 		<string>fehDotless-ar.fina</string>
 		<string>feh-ar.fina</string>
 		<string>veh-ar.fina</string>
-		<string>fehDotbelow-ar.fina</string>
-		<string>fehThreedotsbelow-ar.fina</string>
 		<string>peheh-ar.fina</string>
+		<string>fehDotbelow-ar.fina</string>
+		<string>fehDotbelowThreedotsabove-ar.fina</string>
+		<string>fehThreedotsbelow-ar.fina</string>
 		<string>fehTwodotsbelow-ar.fina</string>
 		<string>fehThreedotsupbelow-ar.fina</string>
 		<string>fehDotless-ar.medi</string>
 		<string>feh-ar.medi</string>
 		<string>veh-ar.medi</string>
-		<string>fehDotbelow-ar.medi</string>
-		<string>fehThreedotsbelow-ar.medi</string>
 		<string>peheh-ar.medi</string>
+		<string>fehDotbelow-ar.medi</string>
+		<string>fehDotbelowThreedotsabove-ar.medi</string>
+		<string>fehThreedotsbelow-ar.medi</string>
 		<string>qaf-ar.medi</string>
 		<string>qafThreedotsabove-ar.medi</string>
 		<string>qafDotbelow-ar.medi</string>
@@ -2531,6 +2529,7 @@
 		<string>feh-ar.init</string>
 		<string>veh-ar.init</string>
 		<string>fehDotbelow-ar.init</string>
+		<string>fehDotbelowThreedotsabove-ar.init</string>
 		<string>fehThreedotsbelow-ar.init</string>
 		<string>peheh-ar.init</string>
 		<string>qaf-ar.init</string>
@@ -3148,6 +3147,7 @@
 		<string>qaf_lam_yeh-ar</string>
 		<string>mohammad-ar</string>
 		<string>allah-ar</string>
+		<string>allah-ar.alt</string>
 		<string>jallajalalouhou-ar</string>
 		<string>bismillah-ar</string>
 		<string>basmalla-ar</string>

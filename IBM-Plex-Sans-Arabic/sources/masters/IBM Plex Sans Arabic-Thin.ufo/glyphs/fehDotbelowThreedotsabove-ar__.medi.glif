@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehDotbelowThreedotsabove-ar.medi" format="1">
-  <advance width="769"/>
+  <advance width="426"/>
   <outline>
-    <component base="tah-ar.medi"/>
-    <component base="twodotshorizontalabove-ar" xOffset="313" yOffset="86"/>
-    <component base="dotbelow-ar" xOffset="322" yOffset="-617"/>
+    <component base="fehDotless-ar.medi"/>
+    <component base="dotbelow-ar" xOffset="150" yOffset="-617"/>
+    <component base="threedotsupabove-ar" xOffset="87" yOffset="190"/>
     <contour>
-      <point x="385.0" y="-201.0" type="move" name="bottom"/>
+      <point x="213.0" y="-201.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="439.0" y="546.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="145.0" y="80.0" type="move" name="verticalbar"/>
+      <point x="213.0" y="770.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <real>0.6</real>
-        <real>0.986</real>
+        <real>0.656</real>
         <real>1.0</real>
+        <real>0.6</real>
         <real>1.0</real>
       </array>
     </dict>

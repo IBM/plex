@@ -5,13 +5,13 @@
     <component base="reh-ar.short"/>
     <component base="threedotsupabove-ar" xOffset="57" yOffset="-3"/>
     <contour>
-      <point x="44" y="-240" type="move" name="bottom"/>
+      <point x="44.0" y="-240.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="101" y="-226" type="move" name="ring"/>
+      <point x="101.0" y="-226.0" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="183" y="577" type="move" name="top"/>
+      <point x="183.0" y="577.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
