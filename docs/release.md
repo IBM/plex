@@ -55,3 +55,4 @@ Once the PR has been approved and merged, you can follow these steps to release:
    1. This file contains the entire changelog since the initial release, so remove everything except the most recent change(s) included in this release.
 1. Check the box to open a discussion for this release
 1. In Finder, within the `/zip` directory, select all the `.zip` files. Drag them from Finder to the GitHub release page to upload the assets to the release. These files are large and the upload will take some time.
+1. Save/publish the GitHub release
