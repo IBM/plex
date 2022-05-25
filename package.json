@@ -32,7 +32,7 @@
     "test": "parcel serve ./deploy-preview/index.html",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
-    "prepare": "husky install"
+    "prepare": "husky install && yarn build"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
