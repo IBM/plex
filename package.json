@@ -23,8 +23,8 @@
     "!IBM-Plex-Sans-JP/fonts/hinted/**/woff"
   ],
   "scripts": {
-    "clean": "rimraf css scss",
-    "build": "yarn run clean && yarn run build:scss && yarn run build:css && yarn run build:deploy-preview",
+    "clean": "rimraf css scss deploy-preview",
+    "build": "yarn clean && yarn build:scss && yarn build:css && yarn build:deploy-preview",
     "build:zip": "yarn build && node ./scripts/prepare-zip.js && sh scripts/zip.sh",
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
@@ -32,7 +32,7 @@
     "test": "parcel serve ./deploy-preview/index.html",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
-    "prepare": "husky install && yarn build"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
