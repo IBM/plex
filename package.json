@@ -29,7 +29,7 @@
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
     "build:deploy-preview": "gulp build:deploy-preview",
-    "test": "parcel serve ./test/index.html",
+    "test": "parcel serve ./deploy-preview/index.html",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "husky install && yarn build"
