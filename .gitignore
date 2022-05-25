@@ -8,4 +8,10 @@ zip
 **/.DS_Store
 .vercel
 .parcel-cache
-dist
+.husky
+.idea
+/deploy-preview
+/docs
+/IBM-Plex-*
+/scripts
+/test
