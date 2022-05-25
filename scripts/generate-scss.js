@@ -116,7 +116,6 @@ const filesToWrite = families
     const filename = `${OUTPUT_DIRECTORY}/${fontFileRoot.toLowerCase()
       .split(' ')
       .join('-')}/${family.ownStyleSheet ? 'index.scss' : '_index.scss'}`;
-    console.log('filename', filename);
 
     const content = files
       .filter(file => file.weight)
