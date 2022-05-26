@@ -32,7 +32,9 @@
     "test": "parcel serve ./deploy-preview/index.html",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
-    "prepare": "husky install && yarn build"
+    "prepare": "husky install && yarn build",
+    "test:e2e:local": "start-server-and-test 'http-server -c-1 deploy-preview --silent' 8080 'percy exec --config cypress/.percy.json -- cypress run --config-file cypress/cypress.json'",
+    "test:e2e:local:no-percy": "start-server-and-test 'http-server -c-1 deploy-preview --silent' 8080 'cypress run --config-file cypress/cypress.json'"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
@@ -45,17 +47,22 @@
     "@parcel/transformer-html": "2.0.0-nightly.611",
     "@parcel/transformer-postcss": "2.0.0-nightly.611",
     "@parcel/transformer-posthtml": "2.0.0-nightly.611",
+    "@percy/cli": "^1.2.1",
+    "@percy/cypress": "^3.1.1",
     "archiver": "^3.0.0",
+    "cypress": "^9.7.0",
     "del": "^6.1.1",
     "fs-extra": "^7.0.0",
     "gulp": "^4.0.2",
+    "http-server": "^14.1.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.2",
     "parcel": "^2.0.0-beta.1",
     "postcss": "^8.2.1",
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2",
-    "sass": "^1.51.0"
+    "sass": "^1.51.0",
+    "start-server-and-test": "^1.14.0"
   },
   "prettier": {
     "printWidth": 80,
