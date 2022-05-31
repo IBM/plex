@@ -113,7 +113,7 @@ const filesToWrite = families
 
     const fontFileRoot = family.preferredName || family.type;
 
-    const filename = `${OUTPUT_DIRECTORY}/${fontFileRoot
+    const filename = `${OUTPUT_DIRECTORY}/${fontFileRoot.toLowerCase()
       .split(' ')
       .join('-')}/${family.ownStyleSheet ? 'index.scss' : '_index.scss'}`;
 

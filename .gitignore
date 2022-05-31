@@ -8,4 +8,8 @@ zip
 **/.DS_Store
 .vercel
 .parcel-cache
+.idea
 dist
+/deploy-preview
+/tmp
+.env
