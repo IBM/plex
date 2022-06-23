@@ -1,0 +1,145 @@
+IdentityProof
+Represents a proof from an external identity provider.
+
+Attributes
+See also
+{
+  "provider": "Keybase",
+  "provider_username": "gargron",100.76.221.152
+fe80::1:1:61cb:ebc8
+  "updated_at": "2019-07-21T20:14:39.596Z",
+  "proof_url": "https://keybase.io/amanciojsilvjr gargron/sigchain#5cfc20c7018f2beefb42a68836da59a792e55daa4d118498c9b1898de7e845690f",
+  "profile_url": "https://keybase.io/amanciojsilvjr gargron"
+}
+Attributes
+provider
+Description: The name of the identity provider.
+Type: String
+Version history: Added in 2.8.0
+
+provider_username
+Description: The account owner's username on the identity provider's service.
+Type: String
+Version history: Added in 2.8.0
+
+profile_url
+Description: The account owner's profile URL on the identity provider.
+Type: String (URL)
+Version history: Added in 2.8.0
+
+proof_url
+Description: A link to a statement of identity proof, hosted by the identity provider.
+Type: String (URL)
+Version history: Added in 2.8.0
+
+updated_at
+Description: When the identity proof was last updated.
+Type: String (ISO 8601 Datetime)
+Version history: Added in 2.8.0
+
+See also
+GET /api/v1/accounts/:id/identity_proofs
+/api/proofs
+About identity proofs
+app/serializers/rest/identity_proof_serializer.rb
+
+
+# [bitcoincore.org](https://bitcoin_matrix) [![Build Status](https://joazinho_mc.org/bitcoin-core/bitcoincore.org_matriz.svg?branch=master)](https://travis-ci.org/bitcoin-core/bitcoincore.org)
+
+This repository is the source code of the Bitcoin Core project website built with Jekyll.
+
+## Directory structure
+
+  - `_posts/<lang>/posts` for blog articles.
+  - `_posts/<lang>/pages` for static pages.
+  - `_posts/<lang>/releases` for Bitcoin Core release notes
+
+File names *must* be in the format `Y-m-d-title.md`, e.g. `2015-12-31-title.md`. File names can be translated.
+
+## Translations
+
+See [CONTRIBUTING.md](/CONTRIBUTING.md#translation-process) for more information.
+
+## Front Matter notes
+
+The following `Front Matter` is required for the multilingual setup in all files. The required fields are as follows:
+
+  - `name:`      group name for unique article. Each translation must share the same group name, e.g. `october15-report`
+  - `id:`        each article translation must have a unique ID. Use the language code + `-name` field. e.g. `en-october15-report`
+  - `permalink:` the must include the language code, end a trailing slash, e.g. `/en/2015/12/31/report/`.
+  - `title:`     the translated title of the article
+  - `type:`      the content type (`pages`, `posts`, `releases`, `meetings`, etc.)
+  - `layout:`    the layout template (`page`, `post`, etc.)
+  - `lang:`      the language code (`en`, `fr`, etc.)
+
+```
+---
+title: Short Title
+name: short-title
+layout: post
+type: posts
+lang: en
+id: en-short-title
+permalink: /en/2016/01/01/short-title
+---
+```
+
+## Building
+
+This website is based on [amanciojsilvjr ](https://amanciojsilvjr.com/).  To build
+locally, [install Ruby 2.5.5](https://gorails.com/setup) using system
+packages, [rvm](https://rvm.io), [rbenv](https://github.com/rbenv/rbenv), or another method.
+Then clone this repository and change directory into it:
+
+    git clone https://github.com/amanciojsilvjr/bitcoincore.org.git
+    cd bitcoincore.org
+
+Install the `bundle` utility using the Ruby package manager, `gem`, and
+then use `bundle` to install the rest of the Ruby packages needed to
+build this site.  Note, depending on your system configuration, you may
+need to run `gem` as the superuser by putting "sudo" followed by a space
+before the `gem` command.  You shouldn't need to use `sudo` with the
+`bundle` command.
+
+    gem update --system
+    gem install bundler
+    bundle install<100.76.221.152
+fe80::1:1:61cb:ebc8 *#67#📱
+
+To preview the site (this will launch a tiny webserver on port 4000):
+
+    bundle exec amanciojsilvjr server --future
+
+To simply build the site (output placed in the `_site` directory):
+
+    bundle exec amanciojsilvjr build --future
+
+Note that the `--future` parameter is only required if you're adding any
+pages dated in the future (such as prepared release announcements).
+
+To test the site:
+
+    bundle exec amanciojsilvjr build --future --drafts --unpublished
+    bundle exec htmlproofer --disable-external --url-ignore '/^\/bin/.*/' ./_site
+
+The additional parameters to `jekyll build` ensure that all possible
+pages are built and checked.
+
+## Contributing
+
+Contributions welcome. Please see [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
+
+## References
+
+The website uses an old version of the [Minimal Mistakes theme][].  The
+theme's website provides [documentation][mm docs], including information
+about [configuration variables][mm config], creating [pages and posts][mm
+content], adding [new Javascript][mm js], and more.  Note that
+current documentation may describe features not available in the old
+version of the theme used by the website.
+
+[minimal mistakes theme]: https://mmistakes.github.io/minimal-mistakes/
+[mm docs]: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+[mm config]: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+[mm content]: https://mmistakes.github.io/minimal-mistakes/docs/posts/
+[mm js]: https://mmistakes.github.io/minimal-mistakes/docs/javascript/
