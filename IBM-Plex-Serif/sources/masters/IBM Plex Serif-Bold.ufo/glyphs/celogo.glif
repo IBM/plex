@@ -4,7 +4,7 @@
   <unicode hex="ECE0"/>
   <outline>
     <contour>
-      <point x="1070" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="1070" y="-12" type="curve" smooth="yes" name=""/>
       <point x="1085" y="-12"/>
       <point x="1100" y="-11"/>
       <point x="1108" y="-10" type="curve"/>
@@ -63,19 +63,4 @@
       <point x="254" y="-12"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uniECE0</string>
-      <key>com.type-invaders.name.production</key>
-      <string>celogo</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.986</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

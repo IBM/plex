@@ -12,6 +12,8 @@
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -78,8 +80,10 @@
 		<integer>13</integer>
 		<key>uni0434</key>
 		<integer>40</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
+		<key>uni0474</key>
+		<integer>-25</integer>
+		<key>uni0475</key>
+		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>-45</integer>
 		<key>uni04AF</key>
@@ -88,6 +92,8 @@
 		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>30</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
 		<key>zeroinferior</key>
 		<integer>10</integer>
 		<key>zerosuperior</key>
@@ -100,6 +106,8 @@
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-20</integer>
@@ -145,8 +153,10 @@
 		<integer>-10</integer>
 		<key>uni0434</key>
 		<integer>25</integer>
-		<key>uni0442</key>
+		<key>uni0474</key>
 		<integer>-30</integer>
+		<key>uni0475</key>
+		<integer>-8</integer>
 		<key>uni04AE</key>
 		<integer>-40</integer>
 		<key>uni04AF</key>
@@ -160,6 +170,10 @@
 	</dict>
 	<key>@MMK_L_cyrl_lc_en</key>
 	<dict>
+		<key>@MMK_R_cyrl_lc_dje</key>
+		<integer>0</integer>
+		<key>@MMK_R_cyrl_lc_en</key>
+		<integer>0</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_Te</key>
@@ -171,6 +185,8 @@
 		<key>@MMK_R_inp_quotel</key>
 		<integer>0</integer>
 		<key>@MMK_R_inp_quoter</key>
+		<integer>0</integer>
+		<key>eightsuperior</key>
 		<integer>0</integer>
 		<key>fivesuperior</key>
 		<integer>0</integer>
@@ -187,6 +203,8 @@
 		<key>trademark</key>
 		<integer>0</integer>
 		<key>twosuperior</key>
+		<integer>0</integer>
+		<key>uni0431</key>
 		<integer>0</integer>
 		<key>uni04AE</key>
 		<integer>-35</integer>
@@ -275,6 +293,8 @@
 		<integer>10</integer>
 		<key>uni0444</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-30</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
@@ -287,6 +307,8 @@
 		<integer>-5</integer>
 		<key>uni04D4</key>
 		<integer>20</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 		<key>zeroinferior</key>
 		<integer>20</integer>
 		<key>zerosuperior</key>
@@ -298,6 +320,10 @@
 		<integer>-25</integer>
 		<key>@MMK_R_cyrl_lc_a.alt01</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_dje</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-35</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
@@ -382,19 +408,122 @@
 		<integer>-20</integer>
 		<key>uni0455</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
 		<key>uni0493</key>
 		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>-60</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
 		<key>zeroinferior</key>
 		<integer>-70</integer>
 	</dict>
+	<key>@MMK_L_cyrl_lc_ghehook</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_che</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_el</key>
+		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_u</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_uc_Che</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_uc_El</key>
+		<integer>20</integer>
+		<key>@MMK_R_cyrl_uc_Hardsign</key>
+		<integer>-50</integer>
+		<key>@MMK_R_cyrl_uc_O</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_uc_Te</key>
+		<integer>-60</integer>
+		<key>@MMK_R_cyrl_uc_U</key>
+		<integer>-40</integer>
+		<key>@MMK_R_inp_foot</key>
+		<integer>-20</integer>
+		<key>@MMK_R_inp_quotel</key>
+		<integer>-20</integer>
+		<key>eightinferior</key>
+		<integer>10</integer>
+		<key>eightsuperior</key>
+		<integer>-20</integer>
+		<key>fiveinferior</key>
+		<integer>10</integer>
+		<key>fivesuperior</key>
+		<integer>-30</integer>
+		<key>fourinferior</key>
+		<integer>10</integer>
+		<key>foursuperior</key>
+		<integer>-10</integer>
+		<key>nineinferior</key>
+		<integer>10</integer>
+		<key>ninesuperior</key>
+		<integer>-30</integer>
+		<key>oneinferior</key>
+		<integer>10</integer>
+		<key>onesuperior</key>
+		<integer>-30</integer>
+		<key>question</key>
+		<integer>-10</integer>
+		<key>registered</key>
+		<integer>-20</integer>
+		<key>seveninferior</key>
+		<integer>10</integer>
+		<key>sevensuperior</key>
+		<integer>-40</integer>
+		<key>sixinferior</key>
+		<integer>10</integer>
+		<key>sixsuperior</key>
+		<integer>-20</integer>
+		<key>threeinferior</key>
+		<integer>10</integer>
+		<key>threesuperior</key>
+		<integer>-40</integer>
+		<key>trademark</key>
+		<integer>-40</integer>
+		<key>twoinferior</key>
+		<integer>10</integer>
+		<key>twosuperior</key>
+		<integer>-20</integer>
+		<key>uni0408</key>
+		<integer>10</integer>
+		<key>uni0414</key>
+		<integer>30</integer>
+		<key>uni0434</key>
+		<integer>20</integer>
+		<key>uni0474</key>
+		<integer>-40</integer>
+		<key>uni0475</key>
+		<integer>-8</integer>
+		<key>uni04AE</key>
+		<integer>-30</integer>
+		<key>uni04AF</key>
+		<integer>-10</integer>
+		<key>uni04B0</key>
+		<integer>-30</integer>
+		<key>uni04B1</key>
+		<integer>-10</integer>
+		<key>uni04D4</key>
+		<integer>20</integer>
+		<key>zeroinferior</key>
+		<integer>10</integer>
+		<key>zerosuperior</key>
+		<integer>-30</integer>
+	</dict>
 	<key>@MMK_L_cyrl_lc_je</key>
 	<dict>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>5</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-5</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
@@ -463,8 +592,10 @@
 		<integer>-10</integer>
 		<key>uni0431</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
+		<key>uni0474</key>
+		<integer>-30</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
@@ -484,6 +615,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_a.alt01</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-25</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -538,9 +671,15 @@
 		<integer>-15</integer>
 		<key>uni044D</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-20</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni04AE</key>
 		<integer>-20</integer>
 		<key>uni04B0</key>
+		<integer>-20</integer>
+		<key>uni04E1</key>
 		<integer>-20</integer>
 		<key>zeroinferior</key>
 		<integer>-10</integer>
@@ -553,6 +692,8 @@
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
@@ -601,19 +742,29 @@
 		<integer>-15</integer>
 		<key>uni044D</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-20</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni04AE</key>
 		<integer>-20</integer>
 		<key>uni04B0</key>
 		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>10</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_cyrl_lc_o</key>
 	<dict>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
@@ -684,22 +835,28 @@
 		<integer>-10</integer>
 		<key>uni0431</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
 		<key>uni044D</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
 		<integer>-45</integer>
 		<key>uni04B0</key>
 		<integer>-20</integer>
+		<key>uni04E1</key>
+		<integer>-15</integer>
 		<key>zeroinferior</key>
 		<integer>15</integer>
 	</dict>
 	<key>@MMK_L_cyrl_lc_shha</key>
 	<dict>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-10</integer>
@@ -735,8 +892,10 @@
 		<integer>-10</integer>
 		<key>trademark</key>
 		<integer>-65</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
+		<key>uni0474</key>
+		<integer>-30</integer>
+		<key>uni0475</key>
+		<integer>-8</integer>
 		<key>uni04AE</key>
 		<integer>-45</integer>
 		<key>uni04AF</key>
@@ -754,6 +913,8 @@
 		<integer>-70</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-70</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-25</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
@@ -810,8 +971,10 @@
 		<integer>10</integer>
 		<key>uni042F</key>
 		<integer>-10</integer>
-		<key>uni0442</key>
-		<integer>-70</integer>
+		<key>uni0474</key>
+		<integer>-60</integer>
+		<key>uni0475</key>
+		<integer>-12</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
@@ -822,8 +985,39 @@
 		<integer>-40</integer>
 		<key>uni04B1</key>
 		<integer>-25</integer>
+		<key>uni04E1</key>
+		<integer>-20</integer>
 		<key>zerosuperior</key>
 		<integer>-40</integer>
+	</dict>
+	<key>@MMK_L_cyrl_lc_tedescend</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_a</key>
+		<integer>-15</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_el</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_o</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_zecyrilic</key>
+		<integer>-10</integer>
+		<key>@MMK_R_inp_hyph</key>
+		<integer>-50</integer>
+		<key>@MMK_R_inp_period</key>
+		<integer>-60</integer>
+		<key>parenright</key>
+		<integer>-20</integer>
+		<key>underscore</key>
+		<integer>-60</integer>
+		<key>uni0434</key>
+		<integer>-20</integer>
+		<key>uni0444</key>
+		<integer>-20</integer>
+		<key>uni0474</key>
+		<integer>-25</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_cyrl_lc_u</key>
 	<dict>
@@ -913,6 +1107,8 @@
 		<integer>-10</integer>
 		<key>uni0444</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
@@ -921,6 +1117,8 @@
 		<integer>-15</integer>
 		<key>uni04D4</key>
 		<integer>-15</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 		<key>zeroinferior</key>
 		<integer>-30</integer>
 		<key>zerosuperior</key>
@@ -937,6 +1135,8 @@
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-10</integer>
@@ -992,14 +1192,16 @@
 		<integer>-20</integer>
 		<key>uni042F</key>
 		<integer>-30</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
 		<key>uni044D</key>
 		<integer>-15</integer>
 		<key>uni044F</key>
 		<integer>-10</integer>
 		<key>uni0455</key>
 		<integer>-20</integer>
+		<key>uni0474</key>
+		<integer>-45</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni04AE</key>
 		<integer>-50</integer>
 		<key>uni04AF</key>
@@ -1008,22 +1210,30 @@
 		<integer>-30</integer>
 		<key>uni04B1</key>
 		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-15</integer>
 	</dict>
 	<key>@MMK_L_cyrl_uc_A</key>
 	<dict>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-40</integer>
+		<key>@MMK_R_cyrl_lc_dje</key>
+		<integer>-15</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>15</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>15</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
+		<integer>-35</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
 		<integer>-35</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>15</integer>
@@ -1105,8 +1315,12 @@
 		<integer>-5</integer>
 		<key>uni0434</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-40</integer>
+		<key>uni0474</key>
+		<integer>-30</integer>
+		<key>uni0475</key>
+		<integer>-10</integer>
+		<key>uni049E</key>
+		<integer>-20</integer>
 		<key>uni04AE</key>
 		<integer>-40</integer>
 		<key>uni04AF</key>
@@ -1117,10 +1331,31 @@
 		<integer>-10</integer>
 		<key>uni04D4</key>
 		<integer>15</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
 		<key>zeroinferior</key>
 		<integer>30</integer>
 		<key>zerosuperior</key>
 		<integer>-40</integer>
+	</dict>
+	<key>@MMK_L_cyrl_uc_Cheabkhaz</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>10</integer>
+		<key>@MMK_R_cyrl_uc_Kha</key>
+		<integer>-5</integer>
+		<key>@MMK_R_cyrl_uc_Te</key>
+		<integer>-15</integer>
+		<key>@MMK_R_cyrl_uc_U</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_uc_Ze</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_uc_Zhe</key>
+		<integer>-20</integer>
+		<key>underscore</key>
+		<integer>-20</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_cyrl_uc_De</key>
 	<dict>
@@ -1134,8 +1369,12 @@
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-15</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_O</key>
@@ -1204,10 +1443,14 @@
 		<integer>-10</integer>
 		<key>uni0434</key>
 		<integer>15</integer>
-		<key>uni0442</key>
-		<integer>-30</integer>
 		<key>uni0444</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
+		<key>uni0475</key>
+		<integer>-15</integer>
+		<key>uni049E</key>
+		<integer>-15</integer>
 		<key>uni04AE</key>
 		<integer>-30</integer>
 		<key>uni04AF</key>
@@ -1218,13 +1461,19 @@
 		<integer>-10</integer>
 		<key>uni04D4</key>
 		<integer>10</integer>
+		<key>uni04E0</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_cyrl_uc_Es</key>
 	<dict>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>-5</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_O</key>
@@ -1275,6 +1524,8 @@
 		<integer>-15</integer>
 		<key>uni042D</key>
 		<integer>-10</integer>
+		<key>uni0475</key>
+		<integer>-10</integer>
 		<key>uni04D4</key>
 		<integer>-5</integer>
 		<key>zerosuperior</key>
@@ -1288,6 +1539,10 @@
 		<integer>-65</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-80</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-120</integer>
+		<key>@MMK_R_cyrl_lc_dje</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-70</integer>
 		<key>@MMK_R_cyrl_lc_en</key>
@@ -1298,6 +1553,8 @@
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-100</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-70</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -1308,6 +1565,8 @@
 		<integer>-85</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>15</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-40</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -1398,8 +1657,6 @@
 		<integer>-60</integer>
 		<key>uni0440</key>
 		<integer>-70</integer>
-		<key>uni0442</key>
-		<integer>-70</integer>
 		<key>uni0444</key>
 		<integer>-90</integer>
 		<key>uni044D</key>
@@ -1414,8 +1671,12 @@
 		<integer>0</integer>
 		<key>uni0458</key>
 		<integer>-30</integer>
+		<key>uni0475</key>
+		<integer>-40</integer>
 		<key>uni0493</key>
 		<integer>-70</integer>
+		<key>uni049E</key>
+		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>25</integer>
 		<key>uni04AF</key>
@@ -1426,16 +1687,117 @@
 		<integer>-50</integer>
 		<key>uni04D4</key>
 		<integer>-65</integer>
+		<key>uni04E0</key>
+		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-100</integer>
 		<key>zeroinferior</key>
 		<integer>-80</integer>
 		<key>zerosuperior</key>
 		<integer>20</integer>
+	</dict>
+	<key>@MMK_L_cyrl_uc_Gehook</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_che</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_el</key>
+		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_uc_Che</key>
+		<integer>-35</integer>
+		<key>@MMK_R_cyrl_uc_El</key>
+		<integer>10</integer>
+		<key>@MMK_R_cyrl_uc_Hardsign</key>
+		<integer>-60</integer>
+		<key>@MMK_R_cyrl_uc_Te</key>
+		<integer>-60</integer>
+		<key>@MMK_R_cyrl_uc_U</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_uc_Ze</key>
+		<integer>-10</integer>
+		<key>@MMK_R_inp_foot</key>
+		<integer>-40</integer>
+		<key>@MMK_R_inp_quotel</key>
+		<integer>-50</integer>
+		<key>@MMK_R_inp_quoter</key>
+		<integer>-50</integer>
+		<key>copyright</key>
+		<integer>10</integer>
+		<key>eightinferior</key>
+		<integer>20</integer>
+		<key>eightsuperior</key>
+		<integer>-30</integer>
+		<key>fiveinferior</key>
+		<integer>20</integer>
+		<key>fivesuperior</key>
+		<integer>-20</integer>
+		<key>fourinferior</key>
+		<integer>20</integer>
+		<key>foursuperior</key>
+		<integer>-30</integer>
+		<key>nineinferior</key>
+		<integer>10</integer>
+		<key>ninesuperior</key>
+		<integer>-30</integer>
+		<key>oneinferior</key>
+		<integer>10</integer>
+		<key>onesuperior</key>
+		<integer>-20</integer>
+		<key>question</key>
+		<integer>-40</integer>
+		<key>registered</key>
+		<integer>-30</integer>
+		<key>seveninferior</key>
+		<integer>10</integer>
+		<key>sevensuperior</key>
+		<integer>-40</integer>
+		<key>sixinferior</key>
+		<integer>20</integer>
+		<key>sixsuperior</key>
+		<integer>-40</integer>
+		<key>threeinferior</key>
+		<integer>20</integer>
+		<key>threesuperior</key>
+		<integer>-20</integer>
+		<key>trademark</key>
+		<integer>-30</integer>
+		<key>twoinferior</key>
+		<integer>20</integer>
+		<key>twosuperior</key>
+		<integer>-20</integer>
+		<key>uni0408</key>
+		<integer>10</integer>
+		<key>uni0414</key>
+		<integer>20</integer>
+		<key>uni042D</key>
+		<integer>-10</integer>
+		<key>uni0434</key>
+		<integer>20</integer>
+		<key>uni0474</key>
+		<integer>-15</integer>
+		<key>uni0475</key>
+		<integer>-15</integer>
+		<key>uni0493</key>
+		<integer>10</integer>
+		<key>uni04AE</key>
+		<integer>-40</integer>
+		<key>uni04B0</key>
+		<integer>-20</integer>
+		<key>zeroinferior</key>
+		<integer>20</integer>
+		<key>zerosuperior</key>
+		<integer>-30</integer>
 	</dict>
 	<key>@MMK_L_cyrl_uc_Ii</key>
 	<dict>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-15</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_uc_O</key>
 		<integer>-10</integer>
@@ -1475,8 +1837,8 @@
 		<integer>20</integer>
 		<key>uni0424</key>
 		<integer>-15</integer>
-		<key>uni0442</key>
-		<integer>-15</integer>
+		<key>uni0475</key>
+		<integer>-10</integer>
 		<key>zeroinferior</key>
 		<integer>-15</integer>
 		<key>zerosuperior</key>
@@ -1491,6 +1853,8 @@
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Ze</key>
 		<integer>-20</integer>
@@ -1522,7 +1886,11 @@
 		<integer>-5</integer>
 		<key>uni042D</key>
 		<integer>-10</integer>
-		<key>uni0442</key>
+		<key>uni049E</key>
+		<integer>-10</integer>
+		<key>uni04E0</key>
+		<integer>-5</integer>
+		<key>uni04E1</key>
 		<integer>-10</integer>
 		<key>zerosuperior</key>
 		<integer>-10</integer>
@@ -1535,6 +1903,8 @@
 		<integer>-35</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-50</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-70</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_en</key>
@@ -1543,12 +1913,16 @@
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-15</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-40</integer>
 		<key>@MMK_R_cyrl_uc_O</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_Ze</key>
@@ -1595,8 +1969,6 @@
 		<integer>-15</integer>
 		<key>uni0434</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni0444</key>
 		<integer>-20</integer>
 		<key>uni044D</key>
@@ -1605,12 +1977,22 @@
 		<integer>-10</integer>
 		<key>uni0457</key>
 		<integer>10</integer>
+		<key>uni0474</key>
+		<integer>-5</integer>
+		<key>uni0475</key>
+		<integer>-20</integer>
 		<key>uni0493</key>
 		<integer>-10</integer>
+		<key>uni049E</key>
+		<integer>-15</integer>
 		<key>uni04AF</key>
 		<integer>-30</integer>
 		<key>uni04B1</key>
 		<integer>-30</integer>
+		<key>uni04E0</key>
+		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-40</integer>
 		<key>zerosuperior</key>
 		<integer>-10</integer>
 	</dict>
@@ -1622,6 +2004,8 @@
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-50</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_en</key>
@@ -1630,10 +2014,14 @@
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-15</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-40</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_uc_O</key>
@@ -1686,16 +2074,18 @@
 		<integer>-15</integer>
 		<key>uni0434</key>
 		<integer>20</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni0444</key>
 		<integer>-20</integer>
 		<key>uni044D</key>
 		<integer>-10</integer>
 		<key>uni0455</key>
 		<integer>-10</integer>
+		<key>uni0475</key>
+		<integer>-10</integer>
 		<key>uni0493</key>
 		<integer>-10</integer>
+		<key>uni049E</key>
+		<integer>-15</integer>
 		<key>uni04AE</key>
 		<integer>-10</integer>
 		<key>uni04AF</key>
@@ -1706,11 +2096,15 @@
 		<integer>-10</integer>
 		<key>uni04D4</key>
 		<integer>30</integer>
+		<key>uni04E0</key>
+		<integer>-10</integer>
 		<key>zerosuperior</key>
 		<integer>-10</integer>
 	</dict>
 	<key>@MMK_L_cyrl_uc_O</key>
 	<dict>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>13</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -1781,21 +2175,35 @@
 		<integer>-10</integer>
 		<key>uni042D</key>
 		<integer>-15</integer>
+		<key>uni0474</key>
+		<integer>-5</integer>
+		<key>uni049E</key>
+		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>-35</integer>
+		<key>uni04E0</key>
+		<integer>-15</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_cyrl_uc_Softsign</key>
 	<dict>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
 		<integer>-5</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-40</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
 		<integer>-70</integer>
 		<key>@MMK_R_cyrl_uc_Kha</key>
@@ -1854,18 +2262,91 @@
 		<integer>-10</integer>
 		<key>underscore</key>
 		<integer>-35</integer>
-		<key>uni0442</key>
-		<integer>-40</integer>
 		<key>uni044D</key>
+		<integer>-5</integer>
+		<key>uni0474</key>
+		<integer>-47</integer>
+		<key>uni0475</key>
 		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
+		<key>uni049E</key>
+		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>-35</integer>
 		<key>uni04B0</key>
 		<integer>-20</integer>
+		<key>uni04E0</key>
+		<integer>-5</integer>
+		<key>uni04E1</key>
+		<integer>-20</integer>
 		<key>zerosuperior</key>
 		<integer>-20</integer>
+	</dict>
+	<key>@MMK_L_cyrl_uc_Tedescend</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_a</key>
+		<integer>-90</integer>
+		<key>@MMK_R_cyrl_lc_che</key>
+		<integer>-80</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-120</integer>
+		<key>@MMK_R_cyrl_lc_dje</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_el</key>
+		<integer>-110</integer>
+		<key>@MMK_R_cyrl_lc_en</key>
+		<integer>-110</integer>
+		<key>@MMK_R_cyrl_lc_kha</key>
+		<integer>-80</integer>
+		<key>@MMK_R_cyrl_lc_o</key>
+		<integer>-100</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-80</integer>
+		<key>@MMK_R_cyrl_lc_u</key>
+		<integer>-60</integer>
+		<key>@MMK_R_cyrl_lc_zecyrilic</key>
+		<integer>-100</integer>
+		<key>@MMK_R_cyrl_lc_zhe</key>
+		<integer>-80</integer>
+		<key>@MMK_R_cyrl_uc_A</key>
+		<integer>-100</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-70</integer>
+		<key>@MMK_R_cyrl_uc_El</key>
+		<integer>-60</integer>
+		<key>@MMK_R_cyrl_uc_O</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_uc_Te</key>
+		<integer>10</integer>
+		<key>@MMK_R_cyrl_uc_Ze</key>
+		<integer>-10</integer>
+		<key>@MMK_R_inp_hyph</key>
+		<integer>-60</integer>
+		<key>@MMK_R_inp_period</key>
+		<integer>-60</integer>
+		<key>slash</key>
+		<integer>-60</integer>
+		<key>underscore</key>
+		<integer>-60</integer>
+		<key>uni0414</key>
+		<integer>-60</integer>
+		<key>uni0424</key>
+		<integer>-60</integer>
+		<key>uni0431</key>
+		<integer>-20</integer>
+		<key>uni0434</key>
+		<integer>-110</integer>
+		<key>uni0444</key>
+		<integer>-80</integer>
+		<key>uni0475</key>
+		<integer>-40</integer>
+		<key>uni049E</key>
+		<integer>-20</integer>
+		<key>uni04E0</key>
+		<integer>-20</integer>
+		<key>uni04E1</key>
+		<integer>-80</integer>
 	</dict>
 	<key>@MMK_L_cyrl_uc_Tshe</key>
 	<dict>
@@ -1873,6 +2354,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-35</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
@@ -1937,8 +2420,10 @@
 		<integer>10</integer>
 		<key>uni042D</key>
 		<integer>-10</integer>
-		<key>uni0442</key>
-		<integer>-30</integer>
+		<key>uni0474</key>
+		<integer>-25</integer>
+		<key>uni0475</key>
+		<integer>-7</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
@@ -1958,6 +2443,8 @@
 		<integer>-45</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_en</key>
@@ -1966,12 +2453,16 @@
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-70</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>-60</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -2056,8 +2547,6 @@
 		<integer>-40</integer>
 		<key>uni0440</key>
 		<integer>-20</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0444</key>
 		<integer>-60</integer>
 		<key>uni044D</key>
@@ -2070,6 +2559,8 @@
 		<integer>20</integer>
 		<key>uni0458</key>
 		<integer>-20</integer>
+		<key>uni0475</key>
+		<integer>-20</integer>
 		<key>uni0493</key>
 		<integer>-30</integer>
 		<key>uni04AF</key>
@@ -2078,6 +2569,8 @@
 		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>-60</integer>
+		<key>uni04E1</key>
+		<integer>-30</integer>
 		<key>zeroinferior</key>
 		<integer>-70</integer>
 		<key>zerosuperior</key>
@@ -2105,10 +2598,14 @@
 		<integer>-5</integer>
 		<key>underscore</key>
 		<integer>-55</integer>
+		<key>uni0474</key>
+		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
 		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 	</dict>
 	<key>@MMK_L_grek_lc_alpha</key>
 	<dict>
@@ -3248,6 +3745,8 @@
 	<dict>
 		<key>@MMK_R_cyrl_lc_a.alt01</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-15</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_en</key>
@@ -3258,12 +3757,16 @@
 		<integer>15</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>30</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>35</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-5</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-65</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -3372,8 +3875,6 @@
 		<integer>10</integer>
 		<key>uni0434</key>
 		<integer>-30</integer>
-		<key>uni0442</key>
-		<integer>20</integer>
 		<key>uni0444</key>
 		<integer>-10</integer>
 		<key>uni0457</key>
@@ -3388,6 +3889,8 @@
 		<integer>30</integer>
 		<key>uni04D4</key>
 		<integer>-50</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 		<key>v</key>
 		<integer>35</integer>
 		<key>x</key>
@@ -3481,6 +3984,8 @@
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-5</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
@@ -3531,8 +4036,6 @@
 		<integer>-10</integer>
 		<key>uni0431</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-30</integer>
 		<key>uni0444</key>
 		<integer>10</integer>
 		<key>uni0493</key>
@@ -3558,12 +4061,16 @@
 		<integer>-35</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-70</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
 		<integer>-60</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>-25</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -3684,12 +4191,12 @@
 		<integer>-30</integer>
 		<key>uni0434</key>
 		<integer>-40</integer>
-		<key>uni0442</key>
-		<integer>-70</integer>
 		<key>uni044D</key>
 		<integer>-20</integer>
 		<key>uni0493</key>
 		<integer>40</integer>
+		<key>uni049E</key>
+		<integer>-20</integer>
 		<key>uni04AE</key>
 		<integer>-50</integer>
 		<key>uni04AF</key>
@@ -3698,6 +4205,10 @@
 		<integer>-10</integer>
 		<key>uni04D4</key>
 		<integer>-25</integer>
+		<key>uni04E0</key>
+		<integer>-30</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
 		<key>x</key>
 		<integer>-35</integer>
 		<key>zeta</key>
@@ -3720,16 +4231,22 @@
 		<integer>-35</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-80</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-25</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-60</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-35</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-80</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-90</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>40</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -3809,7 +4326,7 @@
 		<key>@MMK_R_latn_uc_z</key>
 		<integer>20</integer>
 		<key>AE</key>
-		<integer>70</integer>
+		<integer>60</integer>
 		<key>AEacute</key>
 		<integer>60</integer>
 		<key>Alphatonos</key>
@@ -3890,12 +4407,12 @@
 		<integer>-35</integer>
 		<key>uni0434</key>
 		<integer>40</integer>
-		<key>uni0442</key>
-		<integer>-80</integer>
 		<key>uni0444</key>
 		<integer>-30</integer>
 		<key>uni0455</key>
 		<integer>-5</integer>
+		<key>uni049E</key>
+		<integer>-20</integer>
 		<key>uni04AE</key>
 		<integer>-50</integer>
 		<key>uni04AF</key>
@@ -3906,6 +4423,10 @@
 		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>70</integer>
+		<key>uni04E0</key>
+		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-20</integer>
 		<key>v</key>
 		<integer>-40</integer>
 		<key>xi</key>
@@ -3923,6 +4444,8 @@
 		<integer>-45</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-60</integer>
 		<key>@MMK_R_cyrl_lc_en</key>
@@ -3933,6 +4456,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-45</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -3941,6 +4466,8 @@
 		<integer>-70</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>20</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-65</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -4077,8 +4604,6 @@
 		<integer>-60</integer>
 		<key>uni0440</key>
 		<integer>-20</integer>
-		<key>uni0442</key>
-		<integer>10</integer>
 		<key>uni0444</key>
 		<integer>-40</integer>
 		<key>uni044D</key>
@@ -4101,6 +4626,8 @@
 		<integer>20</integer>
 		<key>uni04D4</key>
 		<integer>-100</integer>
+		<key>uni04E0</key>
+		<integer>-10</integer>
 		<key>v</key>
 		<integer>10</integer>
 		<key>x</key>
@@ -4118,6 +4645,8 @@
 		<integer>-65</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-60</integer>
 		<key>@MMK_R_cyrl_lc_en</key>
@@ -4126,6 +4655,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-75</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -4136,6 +4667,8 @@
 		<integer>-80</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>30</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-70</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -4188,6 +4721,8 @@
 		<integer>-80</integer>
 		<key>@MMK_R_latn_lc_g</key>
 		<integer>-85</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_n</key>
 		<integer>-35</integer>
 		<key>@MMK_R_latn_lc_s</key>
@@ -4298,8 +4833,6 @@
 		<integer>-60</integer>
 		<key>uni0440</key>
 		<integer>-40</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0444</key>
 		<integer>-75</integer>
 		<key>uni044D</key>
@@ -4324,6 +4857,10 @@
 		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>-120</integer>
+		<key>uni04E0</key>
+		<integer>-5</integer>
+		<key>uni04E1</key>
+		<integer>-20</integer>
 		<key>v</key>
 		<integer>-15</integer>
 		<key>x</key>
@@ -4343,6 +4880,8 @@
 		<integer>10</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-5</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_t</key>
 		<integer>5</integer>
 		<key>@MMK_R_latn_lc_w</key>
@@ -4381,6 +4920,8 @@
 		<integer>-20</integer>
 		<key>oneinferior</key>
 		<integer>10</integer>
+		<key>parenright</key>
+		<integer>0</integer>
 		<key>registered</key>
 		<integer>-10</integer>
 		<key>sevensuperior</key>
@@ -4560,6 +5101,8 @@
 	<dict>
 		<key>@MMK_R_inp_foot</key>
 		<integer>65</integer>
+		<key>@MMK_R_inp_hyph</key>
+		<integer>0</integer>
 		<key>@MMK_R_inp_parenth</key>
 		<integer>25</integer>
 		<key>@MMK_R_inp_quotel</key>
@@ -4724,6 +5267,10 @@
 		<integer>-5</integer>
 		<key>@MMK_R_latn_lc_g</key>
 		<integer>-5</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_t</key>
 		<integer>5</integer>
 		<key>@MMK_R_latn_lc_y</key>
@@ -4902,8 +5449,14 @@
 	</dict>
 	<key>@MMK_L_latn_lc_i</key>
 	<dict>
+		<key>@MMK_R_latn_uc_t</key>
+		<integer>0</integer>
+		<key>@MMK_R_latn_uc_w</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_uc_y</key>
 		<integer>-30</integer>
+		<key>V</key>
+		<integer>0</integer>
 		<key>eightsuperior</key>
 		<integer>10</integer>
 		<key>fivesuperior</key>
@@ -4935,14 +5488,30 @@
 		<integer>-40</integer>
 		<key>V</key>
 		<integer>-20</integer>
+		<key>eightsuperior</key>
+		<integer>0</integer>
+		<key>fivesuperior</key>
+		<integer>0</integer>
+		<key>foursuperior</key>
+		<integer>0</integer>
 		<key>ninesuperior</key>
 		<integer>-20</integer>
 		<key>onesuperior</key>
 		<integer>40</integer>
+		<key>parenright</key>
+		<integer>0</integer>
 		<key>sevensuperior</key>
 		<integer>-10</integer>
+		<key>sixsuperior</key>
+		<integer>0</integer>
+		<key>threesuperior</key>
+		<integer>0</integer>
 		<key>trademark</key>
 		<integer>-10</integer>
+		<key>twosuperior</key>
+		<integer>0</integer>
+		<key>zerosuperior</key>
+		<integer>0</integer>
 	</dict>
 	<key>@MMK_L_latn_lc_k</key>
 	<dict>
@@ -5475,6 +6044,8 @@
 		<integer>-30</integer>
 		<key>ninesuperior</key>
 		<integer>10</integer>
+		<key>parenright</key>
+		<integer>0</integer>
 		<key>question</key>
 		<integer>10</integer>
 		<key>registered</key>
@@ -5879,6 +6450,8 @@
 		<integer>20</integer>
 		<key>onesuperior</key>
 		<integer>-25</integer>
+		<key>parenright</key>
+		<integer>0</integer>
 		<key>question</key>
 		<integer>-30</integer>
 		<key>registered</key>
@@ -6044,6 +6617,8 @@
 		<integer>-10</integer>
 		<key>oneinferior</key>
 		<integer>-10</integer>
+		<key>parenright</key>
+		<integer>0</integer>
 		<key>seveninferior</key>
 		<integer>10</integer>
 		<key>sevensuperior</key>
@@ -6106,6 +6681,10 @@
 		<integer>-5</integer>
 		<key>@MMK_R_latn_lc_d</key>
 		<integer>-5</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>0</integer>
 		<key>ampersand</key>
 		<integer>-20</integer>
 		<key>at</key>
@@ -6132,6 +6711,8 @@
 		<integer>20</integer>
 		<key>nineinferior</key>
 		<integer>-20</integer>
+		<key>parenright</key>
+		<integer>0</integer>
 		<key>seveninferior</key>
 		<integer>-20</integer>
 		<key>sevensuperior</key>
@@ -6204,6 +6785,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_latn_lc_g</key>
 		<integer>-10</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_l</key>
 		<integer>10</integer>
 		<key>@MMK_R_latn_lc_n</key>
@@ -6648,6 +7231,10 @@
 		<integer>-10</integer>
 		<key>@MMK_R_latn_lc_g</key>
 		<integer>-80</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_n</key>
 		<integer>-45</integer>
 		<key>@MMK_R_latn_lc_s</key>
@@ -6677,7 +7264,7 @@
 		<key>AE</key>
 		<integer>-65</integer>
 		<key>AEacute</key>
-		<integer>-95</integer>
+		<integer>-65</integer>
 		<key>V</key>
 		<integer>10</integer>
 		<key>ampersand</key>
@@ -6863,6 +7450,10 @@
 		<integer>5</integer>
 		<key>@MMK_R_latn_lc_g</key>
 		<integer>-20</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_n</key>
 		<integer>-10</integer>
 		<key>@MMK_R_latn_lc_s</key>
@@ -7017,7 +7608,7 @@
 		<key>AE</key>
 		<integer>-65</integer>
 		<key>AEacute</key>
-		<integer>-75</integer>
+		<integer>-65</integer>
 		<key>V</key>
 		<integer>5</integer>
 		<key>ampersand</key>
@@ -7105,6 +7696,10 @@
 		<integer>-5</integer>
 		<key>@MMK_R_latn_lc_d</key>
 		<integer>-5</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_t</key>
 		<integer>-5</integer>
 		<key>@MMK_R_latn_lc_u</key>
@@ -7435,6 +8030,8 @@
 		<integer>-5</integer>
 		<key>@MMK_R_latn_lc_g</key>
 		<integer>-35</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_j</key>
 		<integer>-10</integer>
 		<key>@MMK_R_latn_lc_n</key>
@@ -8569,6 +9166,10 @@
 		<integer>-30</integer>
 		<key>@MMK_R_latn_lc_g</key>
 		<integer>-45</integer>
+		<key>@MMK_R_latn_lc_i</key>
+		<integer>0</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_n</key>
 		<integer>-20</integer>
 		<key>@MMK_R_latn_lc_s</key>
@@ -8694,6 +9295,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_latn_lc_d</key>
 		<integer>-10</integer>
+		<key>@MMK_R_latn_lc_j</key>
+		<integer>0</integer>
 		<key>@MMK_R_latn_lc_s</key>
 		<integer>5</integer>
 		<key>@MMK_R_latn_lc_w</key>
@@ -8866,6 +9469,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>5</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>-5</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
@@ -8948,8 +9553,6 @@
 		<integer>-10</integer>
 		<key>uni0434</key>
 		<integer>20</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
@@ -9215,6 +9818,8 @@
 	<dict>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>20</integer>
 		<key>@MMK_R_cyrl_uc_U</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Zhe</key>
@@ -9223,8 +9828,6 @@
 		<integer>-10</integer>
 		<key>uni0424</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>20</integer>
 		<key>uni04AF</key>
 		<integer>20</integer>
 		<key>uni04B1</key>
@@ -9311,6 +9914,8 @@
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -9437,8 +10042,6 @@
 		<integer>20</integer>
 		<key>uni0434</key>
 		<integer>20</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
@@ -9484,8 +10087,6 @@
 		<integer>-25</integer>
 		<key>@MMK_R_grek_lc_eta</key>
 		<integer>20</integer>
-		<key>@MMK_R_grek_lc_iota</key>
-		<integer>0</integer>
 		<key>@MMK_R_grek_lc_nu</key>
 		<integer>30</integer>
 		<key>@MMK_R_grek_uc_Alpha</key>
@@ -9548,12 +10149,6 @@
 		<integer>30</integer>
 		<key>eightsuperior</key>
 		<integer>-10</integer>
-		<key>iotadieresis</key>
-		<integer>20</integer>
-		<key>iotadieresistonos</key>
-		<integer>20</integer>
-		<key>jcircumflex</key>
-		<integer>30</integer>
 		<key>lambda</key>
 		<integer>-20</integer>
 		<key>ninesuperior</key>
@@ -9574,8 +10169,6 @@
 		<integer>-40</integer>
 		<key>uni0414</key>
 		<integer>-40</integer>
-		<key>uni0457</key>
-		<integer>40</integer>
 		<key>uni04AF</key>
 		<integer>30</integer>
 		<key>uni04B1</key>
@@ -9625,6 +10218,8 @@
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>5</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
@@ -9729,8 +10324,6 @@
 		<integer>20</integer>
 		<key>uni0434</key>
 		<integer>20</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni04AE</key>
 		<integer>-85</integer>
 		<key>uni04AF</key>
@@ -9746,14 +10339,14 @@
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-30</integer>
-		<key>@MMK_R_cyrl_lc_en</key>
-		<integer>0</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>15</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>35</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -9780,8 +10373,6 @@
 		<integer>-15</integer>
 		<key>@MMK_R_grek_lc_eta</key>
 		<integer>20</integer>
-		<key>@MMK_R_grek_lc_iota</key>
-		<integer>0</integer>
 		<key>@MMK_R_grek_lc_nu</key>
 		<integer>40</integer>
 		<key>@MMK_R_grek_lc_omega</key>
@@ -9860,12 +10451,6 @@
 		<integer>-10</integer>
 		<key>foursuperior</key>
 		<integer>5</integer>
-		<key>iotadieresis</key>
-		<integer>10</integer>
-		<key>iotadieresistonos</key>
-		<integer>10</integer>
-		<key>jcircumflex</key>
-		<integer>20</integer>
 		<key>lambda</key>
 		<integer>-15</integer>
 		<key>ninesuperior</key>
@@ -9896,10 +10481,6 @@
 		<integer>20</integer>
 		<key>uni0434</key>
 		<integer>-20</integer>
-		<key>uni0442</key>
-		<integer>20</integer>
-		<key>uni0457</key>
-		<integer>50</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
@@ -9933,6 +10514,8 @@
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>15</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
@@ -10031,8 +10614,6 @@
 		<integer>40</integer>
 		<key>uni0434</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
 		<key>uni044D</key>
 		<integer>10</integer>
 		<key>uni0455</key>
@@ -10082,8 +10663,6 @@
 		<integer>-10</integer>
 		<key>@MMK_R_grek_lc_eta</key>
 		<integer>30</integer>
-		<key>@MMK_R_grek_lc_iota</key>
-		<integer>0</integer>
 		<key>@MMK_R_grek_lc_nu</key>
 		<integer>40</integer>
 		<key>@MMK_R_grek_uc_Alpha</key>
@@ -10154,12 +10733,6 @@
 		<integer>5</integer>
 		<key>foursuperior</key>
 		<integer>20</integer>
-		<key>iotadieresis</key>
-		<integer>20</integer>
-		<key>iotadieresistonos</key>
-		<integer>20</integer>
-		<key>jcircumflex</key>
-		<integer>40</integer>
 		<key>lambda</key>
 		<integer>-20</integer>
 		<key>ninesuperior</key>
@@ -10186,8 +10759,6 @@
 		<integer>-20</integer>
 		<key>uni0455</key>
 		<integer>15</integer>
-		<key>uni0457</key>
-		<integer>40</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
@@ -10779,6 +11350,8 @@
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>15</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -10901,8 +11474,6 @@
 		<integer>-5</integer>
 		<key>uni0431</key>
 		<integer>15</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni0455</key>
 		<integer>-10</integer>
 		<key>uni0493</key>
@@ -10928,12 +11499,12 @@
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-30</integer>
-		<key>@MMK_R_cyrl_lc_en</key>
-		<integer>0</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>30</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -11052,12 +11623,6 @@
 		<integer>-20</integer>
 		<key>foursuperior</key>
 		<integer>-5</integer>
-		<key>iotadieresis</key>
-		<integer>10</integer>
-		<key>iotadieresistonos</key>
-		<integer>10</integer>
-		<key>jcircumflex</key>
-		<integer>30</integer>
 		<key>lambda</key>
 		<integer>-20</integer>
 		<key>phi</key>
@@ -11082,16 +11647,12 @@
 		<integer>-40</integer>
 		<key>uni0434</key>
 		<integer>-30</integer>
-		<key>uni0442</key>
-		<integer>10</integer>
 		<key>uni0444</key>
 		<integer>-20</integer>
 		<key>uni044F</key>
 		<integer>-10</integer>
 		<key>uni0455</key>
 		<integer>-10</integer>
-		<key>uni0457</key>
-		<integer>50</integer>
 		<key>uni04AE</key>
 		<integer>10</integer>
 		<key>uni04AF</key>
@@ -11121,6 +11682,8 @@
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-40</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -11251,8 +11814,6 @@
 		<integer>10</integer>
 		<key>uni0434</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni0455</key>
 		<integer>-5</integer>
 		<key>uni04AE</key>
@@ -11437,10 +11998,16 @@
 	<dict>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>20</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_uc_Kha</key>
@@ -11487,8 +12054,6 @@
 		<integer>20</integer>
 		<key>uni0434</key>
 		<integer>40</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0458</key>
 		<integer>30</integer>
 		<key>uni04AE</key>
@@ -11711,6 +12276,8 @@
 		<integer>40</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>40</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>40</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>40</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -11757,10 +12324,6 @@
 		<integer>-20</integer>
 		<key>uni042D</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>40</integer>
-		<key>uni0457</key>
-		<integer>50</integer>
 		<key>uni04AE</key>
 		<integer>15</integer>
 		<key>uni04AF</key>
@@ -11847,6 +12410,8 @@
 	</dict>
 	<key>registered</key>
 	<dict>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>30</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_uc_Zhe</key>
@@ -11871,8 +12436,6 @@
 		<integer>-30</integer>
 		<key>uni0434</key>
 		<integer>-30</integer>
-		<key>uni0442</key>
-		<integer>30</integer>
 		<key>uni04AE</key>
 		<integer>10</integer>
 		<key>uni04AF</key>
@@ -11969,6 +12532,8 @@
 		<integer>-5</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
@@ -12093,8 +12658,6 @@
 		<integer>30</integer>
 		<key>uni0434</key>
 		<integer>-10</integer>
-		<key>uni0442</key>
-		<integer>-30</integer>
 		<key>uni044F</key>
 		<integer>10</integer>
 		<key>uni0493</key>
@@ -12132,6 +12695,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-40</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -12194,8 +12759,6 @@
 		<integer>-40</integer>
 		<key>@MMK_R_latn_lc_g</key>
 		<integer>-60</integer>
-		<key>@MMK_R_latn_lc_i</key>
-		<integer>0</integer>
 		<key>@MMK_R_latn_lc_n</key>
 		<integer>-35</integer>
 		<key>@MMK_R_latn_lc_s</key>
@@ -12250,14 +12813,6 @@
 		<integer>-5</integer>
 		<key>foursuperior</key>
 		<integer>-30</integer>
-		<key>icircumflex</key>
-		<integer>35</integer>
-		<key>iotadieresis</key>
-		<integer>30</integer>
-		<key>iotadieresistonos</key>
-		<integer>30</integer>
-		<key>jcircumflex</key>
-		<integer>40</integer>
 		<key>lambda</key>
 		<integer>-20</integer>
 		<key>ninesuperior</key>
@@ -12296,8 +12851,6 @@
 		<integer>-30</integer>
 		<key>uni0440</key>
 		<integer>-30</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0444</key>
 		<integer>-40</integer>
 		<key>uni044D</key>
@@ -12306,10 +12859,6 @@
 		<integer>-40</integer>
 		<key>uni0455</key>
 		<integer>-40</integer>
-		<key>uni0456</key>
-		<integer>0</integer>
-		<key>uni0457</key>
-		<integer>60</integer>
 		<key>uni0493</key>
 		<integer>-30</integer>
 		<key>uni04AE</key>
@@ -12473,6 +13022,8 @@
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-50</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -12563,8 +13114,6 @@
 		<integer>10</integer>
 		<key>uni0414</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni044F</key>
 		<integer>-10</integer>
 		<key>uni0493</key>
@@ -12692,8 +13241,6 @@
 		<integer>30</integer>
 		<key>eightsuperior</key>
 		<integer>-5</integer>
-		<key>jcircumflex</key>
-		<integer>20</integer>
 		<key>lambda</key>
 		<integer>-40</integer>
 		<key>ninesuperior</key>
@@ -12736,6 +13283,8 @@
 		<key>@MMK_R_cyrl_lc_a.alt01</key>
 		<integer>-45</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-40</integer>
@@ -12917,6 +13466,8 @@
 		<integer>-10</integer>
 		<key>uni04D4</key>
 		<integer>-45</integer>
+		<key>uni04E1</key>
+		<integer>-20</integer>
 		<key>x</key>
 		<integer>-20</integer>
 		<key>xi</key>
@@ -13095,6 +13646,8 @@
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>15</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -13203,8 +13756,6 @@
 		<integer>15</integer>
 		<key>uni0414</key>
 		<integer>20</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni044D</key>
 		<integer>-5</integer>
 		<key>uni044F</key>
@@ -13230,9 +13781,9 @@
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-30</integer>
-		<key>@MMK_R_cyrl_lc_en</key>
-		<integer>0</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>25</integer>
@@ -13258,8 +13809,6 @@
 		<integer>-20</integer>
 		<key>@MMK_R_grek_lc_eta</key>
 		<integer>15</integer>
-		<key>@MMK_R_grek_lc_iota</key>
-		<integer>0</integer>
 		<key>@MMK_R_grek_lc_nu</key>
 		<integer>25</integer>
 		<key>@MMK_R_grek_uc_Alpha</key>
@@ -13280,8 +13829,6 @@
 		<integer>-20</integer>
 		<key>@MMK_R_latn_lc_i</key>
 		<integer>10</integer>
-		<key>@MMK_R_latn_lc_j</key>
-		<integer>0</integer>
 		<key>@MMK_R_latn_lc_t</key>
 		<integer>15</integer>
 		<key>@MMK_R_latn_lc_w</key>
@@ -13320,12 +13867,6 @@
 		<integer>20</integer>
 		<key>chi</key>
 		<integer>25</integer>
-		<key>iotadieresis</key>
-		<integer>20</integer>
-		<key>iotadieresistonos</key>
-		<integer>20</integer>
-		<key>jcircumflex</key>
-		<integer>40</integer>
 		<key>lambda</key>
 		<integer>-15</integer>
 		<key>onesuperior</key>
@@ -13350,10 +13891,6 @@
 		<integer>10</integer>
 		<key>uni0434</key>
 		<integer>-30</integer>
-		<key>uni0442</key>
-		<integer>10</integer>
-		<key>uni0457</key>
-		<integer>50</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
@@ -13410,6 +13947,8 @@
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>5</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -13532,8 +14071,6 @@
 		<integer>40</integer>
 		<key>uni0434</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni044D</key>
 		<integer>-5</integer>
 		<key>uni0455</key>
@@ -13561,11 +14098,11 @@
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>20</integer>
-		<key>@MMK_R_cyrl_lc_en</key>
-		<integer>0</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
+		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>30</integer>
@@ -13587,8 +14124,6 @@
 		<integer>20</integer>
 		<key>@MMK_R_grek_lc_eta</key>
 		<integer>15</integer>
-		<key>@MMK_R_grek_lc_iota</key>
-		<integer>0</integer>
 		<key>@MMK_R_grek_lc_nu</key>
 		<integer>30</integer>
 		<key>@MMK_R_grek_uc_Alpha</key>
@@ -13655,12 +14190,6 @@
 		<integer>10</integer>
 		<key>chi</key>
 		<integer>25</integer>
-		<key>iotadieresis</key>
-		<integer>20</integer>
-		<key>iotadieresistonos</key>
-		<integer>20</integer>
-		<key>jcircumflex</key>
-		<integer>25</integer>
 		<key>lambda</key>
 		<integer>-15</integer>
 		<key>onesuperior</key>
@@ -13677,12 +14206,8 @@
 		<integer>-30</integer>
 		<key>uni0431</key>
 		<integer>20</integer>
-		<key>uni0442</key>
-		<integer>10</integer>
 		<key>uni0455</key>
 		<integer>-10</integer>
-		<key>uni0457</key>
-		<integer>40</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
@@ -13708,12 +14233,16 @@
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-80</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-50</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-60</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>25</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
@@ -13722,6 +14251,8 @@
 		<integer>25</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-70</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>30</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -13868,12 +14399,12 @@
 		<integer>65</integer>
 		<key>uni0440</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>-60</integer>
 		<key>uni0455</key>
 		<integer>-10</integer>
 		<key>uni0458</key>
 		<integer>65</integer>
+		<key>uni049E</key>
+		<integer>-20</integer>
 		<key>uni04AE</key>
 		<integer>-30</integer>
 		<key>uni04AF</key>
@@ -13884,6 +14415,8 @@
 		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>25</integer>
+		<key>uni04E0</key>
+		<integer>-30</integer>
 		<key>v</key>
 		<integer>-50</integer>
 		<key>x</key>
@@ -13901,6 +14434,8 @@
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-35</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
@@ -13967,8 +14502,6 @@
 		<integer>-10</integer>
 		<key>uni0434</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-30</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
@@ -14014,6 +14547,8 @@
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
 		<integer>-15</integer>
@@ -14073,8 +14608,6 @@
 		<integer>-5</integer>
 		<key>uni0408</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>zeroinferior</key>
@@ -14119,12 +14652,16 @@
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-30</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>-15</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -14183,10 +14720,14 @@
 		<integer>-5</integer>
 		<key>uni042D</key>
 		<integer>-10</integer>
-		<key>uni0442</key>
-		<integer>-30</integer>
+		<key>uni0474</key>
+		<integer>-15</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
+		<key>uni049E</key>
+		<integer>-20</integer>
 		<key>uni04AE</key>
 		<integer>-20</integer>
 		<key>uni04AF</key>
@@ -14195,6 +14736,10 @@
 		<integer>-10</integer>
 		<key>uni04B1</key>
 		<integer>-5</integer>
+		<key>uni04E0</key>
+		<integer>-5</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
 		<key>zeroinferior</key>
 		<integer>10</integer>
 		<key>zerosuperior</key>
@@ -14212,6 +14757,8 @@
 		<integer>-5</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>-5</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-15</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -14266,8 +14813,14 @@
 		<integer>-10</integer>
 		<key>uni044F</key>
 		<integer>5</integer>
+		<key>uni0474</key>
+		<integer>-5</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>15</integer>
+		<key>uni049E</key>
+		<integer>-20</integer>
 		<key>uni04AE</key>
 		<integer>-20</integer>
 		<key>uni04AF</key>
@@ -14278,6 +14831,10 @@
 		<integer>-5</integer>
 		<key>uni04D4</key>
 		<integer>-5</integer>
+		<key>uni04E0</key>
+		<integer>-5</integer>
+		<key>uni04E1</key>
+		<integer>-15</integer>
 		<key>zeroinferior</key>
 		<integer>-5</integer>
 		<key>zerosuperior</key>
@@ -14289,6 +14846,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_o</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>30</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -14375,6 +14934,10 @@
 		<integer>10</integer>
 		<key>uni04D4</key>
 		<integer>-60</integer>
+		<key>uni04E0</key>
+		<integer>-15</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 		<key>zeroinferior</key>
 		<integer>-40</integer>
 		<key>zerosuperior</key>
@@ -14388,6 +14951,8 @@
 		<integer>-65</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-60</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-110</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_en</key>
@@ -14398,6 +14963,8 @@
 		<integer>-25</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-65</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -14408,6 +14975,8 @@
 		<integer>-45</integer>
 		<key>@MMK_R_cyrl_uc_Che</key>
 		<integer>15</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -14498,8 +15067,6 @@
 		<integer>-50</integer>
 		<key>uni0440</key>
 		<integer>-45</integer>
-		<key>uni0442</key>
-		<integer>-40</integer>
 		<key>uni0444</key>
 		<integer>-65</integer>
 		<key>uni044D</key>
@@ -14512,6 +15079,8 @@
 		<integer>0</integer>
 		<key>uni0457</key>
 		<integer>20</integer>
+		<key>uni0475</key>
+		<integer>-40</integer>
 		<key>uni0493</key>
 		<integer>-50</integer>
 		<key>uni04AE</key>
@@ -14524,6 +15093,8 @@
 		<integer>-40</integer>
 		<key>uni04D4</key>
 		<integer>-65</integer>
+		<key>uni04E1</key>
+		<integer>-90</integer>
 		<key>zeroinferior</key>
 		<integer>-60</integer>
 		<key>zerosuperior</key>
@@ -14577,12 +15148,18 @@
 		<integer>-10</integer>
 		<key>uni0492</key>
 		<integer>10</integer>
+		<key>uni049E</key>
+		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>-40</integer>
 		<key>uni04B0</key>
 		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>-20</integer>
+		<key>uni04E0</key>
+		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
 	</dict>
 	<key>uni0425</key>
 	<dict>
@@ -14592,16 +15169,22 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-5</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>10</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_uc_O</key>
@@ -14666,18 +15249,20 @@
 		<integer>-20</integer>
 		<key>uni0434</key>
 		<integer>30</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
 		<key>uni0444</key>
 		<integer>-10</integer>
 		<key>uni0455</key>
 		<integer>5</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni04AF</key>
 		<integer>-5</integer>
 		<key>uni04B1</key>
 		<integer>-5</integer>
 		<key>uni04D4</key>
 		<integer>10</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
 	</dict>
 	<key>uni0431</key>
 	<dict>
@@ -14690,10 +15275,14 @@
 	</dict>
 	<key>uni0440</key>
 	<dict>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>5</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-5</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
@@ -14760,8 +15349,10 @@
 		<integer>-10</integer>
 		<key>uni0431</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
+		<key>uni0474</key>
+		<integer>-30</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
@@ -14772,6 +15363,8 @@
 		<integer>-10</integer>
 		<key>uni04B1</key>
 		<integer>-5</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
 		<key>zeroinferior</key>
 		<integer>15</integer>
 		<key>zerosuperior</key>
@@ -14780,6 +15373,8 @@
 	<key>uni0442</key>
 	<dict>
 		<key>@MMK_R_cyrl_lc_a</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-20</integer>
@@ -14865,10 +15460,14 @@
 		<integer>-10</integer>
 		<key>uni044F</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-15</integer>
 		<key>uni04AE</key>
 		<integer>-10</integer>
 		<key>uni04B0</key>
 		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 		<key>zeroinferior</key>
 		<integer>-50</integer>
 		<key>zerosuperior</key>
@@ -14880,6 +15479,8 @@
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
@@ -14914,8 +15515,8 @@
 		<integer>-40</integer>
 		<key>uni0431</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
+		<key>uni0474</key>
+		<integer>-30</integer>
 		<key>uni0493</key>
 		<integer>20</integer>
 		<key>uni04AE</key>
@@ -14930,6 +15531,8 @@
 	<key>uni0445</key>
 	<dict>
 		<key>@MMK_R_cyrl_lc_a.alt01</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-25</integer>
@@ -14995,6 +15598,8 @@
 		<integer>-10</integer>
 		<key>uni0455</key>
 		<integer>-5</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>-10</integer>
 		<key>uni04B0</key>
@@ -15007,6 +15612,8 @@
 	<key>uni0452</key>
 	<dict>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-5</integer>
@@ -15028,8 +15635,10 @@
 		<integer>-20</integer>
 		<key>trademark</key>
 		<integer>-60</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
+		<key>uni0474</key>
+		<integer>-40</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni04AE</key>
 		<integer>-20</integer>
 		<key>uni04AF</key>
@@ -15049,6 +15658,8 @@
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-5</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -15071,11 +15682,13 @@
 		<integer>-10</integer>
 		<key>@MMK_R_inp_quotel</key>
 		<integer>-20</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
 		<key>uni044D</key>
 		<integer>-10</integer>
 		<key>uni0455</key>
+		<integer>-5</integer>
+		<key>uni0474</key>
+		<integer>-25</integer>
+		<key>uni0475</key>
 		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
@@ -15094,6 +15707,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>-15</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_uc_Hardsign</key>
@@ -15146,10 +15761,12 @@
 		<integer>-15</integer>
 		<key>uni042D</key>
 		<integer>-10</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0455</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-25</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
@@ -15215,7 +15832,7 @@
 		<key>uni0431</key>
 		<integer>20</integer>
 		<key>uni0457</key>
-		<integer>50</integer>
+		<integer>40</integer>
 		<key>uni04AE</key>
 		<integer>20</integer>
 		<key>uni04B0</key>
@@ -15237,6 +15854,126 @@
 		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>-20</integer>
+	</dict>
+	<key>uni0474</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_a</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_che</key>
+		<integer>-50</integer>
+		<key>@MMK_R_cyrl_lc_el</key>
+		<integer>-80</integer>
+		<key>@MMK_R_cyrl_lc_en</key>
+		<integer>-60</integer>
+		<key>@MMK_R_cyrl_lc_hardsign</key>
+		<integer>-40</integer>
+		<key>@MMK_R_cyrl_lc_kha</key>
+		<integer>-50</integer>
+		<key>@MMK_R_cyrl_lc_o</key>
+		<integer>-70</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
+		<key>@MMK_R_cyrl_lc_u</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_zecyrilic</key>
+		<integer>-70</integer>
+		<key>@MMK_R_cyrl_lc_zhe</key>
+		<integer>-40</integer>
+		<key>@MMK_R_cyrl_uc_A</key>
+		<integer>-50</integer>
+		<key>@MMK_R_cyrl_uc_El</key>
+		<integer>-30</integer>
+		<key>@MMK_R_cyrl_uc_O</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_uc_Ze</key>
+		<integer>-15</integer>
+		<key>uni0414</key>
+		<integer>-30</integer>
+		<key>uni0424</key>
+		<integer>-15</integer>
+		<key>uni042D</key>
+		<integer>-5</integer>
+		<key>uni042F</key>
+		<integer>-10</integer>
+		<key>uni0431</key>
+		<integer>-10</integer>
+		<key>uni0434</key>
+		<integer>-80</integer>
+		<key>uni0440</key>
+		<integer>-70</integer>
+		<key>uni0444</key>
+		<integer>-70</integer>
+		<key>uni044D</key>
+		<integer>-55</integer>
+		<key>uni044F</key>
+		<integer>-55</integer>
+		<key>uni0455</key>
+		<integer>-50</integer>
+		<key>uni0475</key>
+		<integer>-40</integer>
+		<key>uni0493</key>
+		<integer>-50</integer>
+		<key>uni04A7</key>
+		<integer>-60</integer>
+		<key>uni04AF</key>
+		<integer>-30</integer>
+		<key>uni04B1</key>
+		<integer>-30</integer>
+		<key>uni04D4</key>
+		<integer>-85</integer>
+	</dict>
+	<key>uni0475</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_a</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_el</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_o</key>
+		<integer>-5</integer>
+		<key>@MMK_R_cyrl_uc_A</key>
+		<integer>-15</integer>
+		<key>@MMK_R_cyrl_uc_El</key>
+		<integer>-25</integer>
+		<key>@MMK_R_cyrl_uc_Hardsign</key>
+		<integer>-25</integer>
+		<key>@MMK_R_cyrl_uc_Ii</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_uc_Kha</key>
+		<integer>-7</integer>
+		<key>@MMK_R_cyrl_uc_Te</key>
+		<integer>-40</integer>
+		<key>@MMK_R_cyrl_uc_U</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_uc_Ze</key>
+		<integer>-5</integer>
+		<key>@MMK_R_cyrl_uc_Zhe</key>
+		<integer>-20</integer>
+		<key>uni0414</key>
+		<integer>-25</integer>
+		<key>uni042D</key>
+		<integer>-5</integer>
+		<key>uni042F</key>
+		<integer>-5</integer>
+		<key>uni0434</key>
+		<integer>-15</integer>
+		<key>uni0444</key>
+		<integer>-5</integer>
+		<key>uni044D</key>
+		<integer>-5</integer>
+		<key>uni044F</key>
+		<integer>-5</integer>
+		<key>uni0455</key>
+		<integer>-5</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
+		<key>uni0493</key>
+		<integer>-7</integer>
+		<key>uni04AE</key>
+		<integer>-30</integer>
+		<key>uni04B0</key>
+		<integer>-30</integer>
+		<key>uni04D4</key>
+		<integer>-40</integer>
 	</dict>
 	<key>uni0491</key>
 	<dict>
@@ -15269,6 +16006,8 @@
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-80</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-60</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -15367,8 +16106,6 @@
 		<integer>-60</integer>
 		<key>uni0440</key>
 		<integer>-60</integer>
-		<key>uni0442</key>
-		<integer>-60</integer>
 		<key>uni0444</key>
 		<integer>-80</integer>
 		<key>uni044D</key>
@@ -15383,6 +16120,8 @@
 		<integer>0</integer>
 		<key>uni0458</key>
 		<integer>-20</integer>
+		<key>uni0475</key>
+		<integer>-30</integer>
 		<key>uni0493</key>
 		<integer>-60</integer>
 		<key>uni04AE</key>
@@ -15486,6 +16225,8 @@
 		<integer>-20</integer>
 		<key>uni0455</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-20</integer>
 		<key>uni0493</key>
 		<integer>-20</integer>
 		<key>uni04D4</key>
@@ -15493,187 +16234,33 @@
 		<key>zeroinferior</key>
 		<integer>-40</integer>
 	</dict>
-	<key>uni0494</key>
+	<key>uni04A8</key>
 	<dict>
-		<key>@MMK_R_cyrl_lc_che</key>
-		<integer>-10</integer>
-		<key>@MMK_R_cyrl_lc_el</key>
-		<integer>10</integer>
-		<key>@MMK_R_cyrl_lc_hardsign</key>
-		<integer>-20</integer>
-		<key>@MMK_R_cyrl_uc_Che</key>
-		<integer>-35</integer>
-		<key>@MMK_R_cyrl_uc_El</key>
-		<integer>10</integer>
-		<key>@MMK_R_cyrl_uc_Hardsign</key>
-		<integer>-60</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>5</integer>
+		<key>@MMK_R_cyrl_uc_Kha</key>
+		<integer>-5</integer>
 		<key>@MMK_R_cyrl_uc_Te</key>
-		<integer>-60</integer>
+		<integer>-15</integer>
 		<key>@MMK_R_cyrl_uc_U</key>
-		<integer>-30</integer>
-		<key>@MMK_R_cyrl_uc_Ze</key>
 		<integer>-10</integer>
-		<key>@MMK_R_inp_foot</key>
-		<integer>-40</integer>
-		<key>@MMK_R_inp_quotel</key>
-		<integer>-50</integer>
-		<key>@MMK_R_inp_quoter</key>
-		<integer>-50</integer>
-		<key>copyright</key>
-		<integer>10</integer>
-		<key>eightinferior</key>
-		<integer>20</integer>
-		<key>eightsuperior</key>
-		<integer>-30</integer>
-		<key>fiveinferior</key>
-		<integer>20</integer>
-		<key>fivesuperior</key>
-		<integer>-20</integer>
-		<key>fourinferior</key>
-		<integer>20</integer>
-		<key>foursuperior</key>
-		<integer>-30</integer>
-		<key>nineinferior</key>
-		<integer>10</integer>
-		<key>ninesuperior</key>
-		<integer>-30</integer>
-		<key>oneinferior</key>
-		<integer>10</integer>
-		<key>onesuperior</key>
-		<integer>-20</integer>
-		<key>question</key>
-		<integer>-40</integer>
-		<key>registered</key>
-		<integer>-30</integer>
-		<key>seveninferior</key>
-		<integer>10</integer>
-		<key>sevensuperior</key>
-		<integer>-40</integer>
-		<key>sixinferior</key>
-		<integer>20</integer>
-		<key>sixsuperior</key>
-		<integer>-40</integer>
-		<key>threeinferior</key>
-		<integer>20</integer>
-		<key>threesuperior</key>
-		<integer>-20</integer>
-		<key>trademark</key>
-		<integer>-30</integer>
-		<key>twoinferior</key>
-		<integer>20</integer>
-		<key>twosuperior</key>
-		<integer>-20</integer>
-		<key>uni0408</key>
-		<integer>10</integer>
-		<key>uni0414</key>
-		<integer>20</integer>
-		<key>uni042D</key>
+		<key>uni049E</key>
 		<integer>-10</integer>
-		<key>uni0434</key>
-		<integer>20</integer>
-		<key>uni0442</key>
-		<integer>-30</integer>
-		<key>uni0493</key>
-		<integer>10</integer>
-		<key>uni04AE</key>
-		<integer>-40</integer>
-		<key>uni04B0</key>
-		<integer>-20</integer>
-		<key>zeroinferior</key>
-		<integer>20</integer>
-		<key>zerosuperior</key>
-		<integer>-30</integer>
+		<key>uni04E0</key>
+		<integer>-5</integer>
 	</dict>
-	<key>uni0495</key>
+	<key>uni04A9</key>
 	<dict>
 		<key>@MMK_R_cyrl_lc_che</key>
-		<integer>-30</integer>
-		<key>@MMK_R_cyrl_lc_el</key>
-		<integer>10</integer>
-		<key>@MMK_R_cyrl_lc_hardsign</key>
-		<integer>-30</integer>
+		<integer>-5</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>5</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
+		<integer>-5</integer>
+		<key>uni0474</key>
+		<integer>-35</integer>
+		<key>uni0475</key>
 		<integer>-10</integer>
-		<key>@MMK_R_cyrl_uc_Che</key>
-		<integer>-30</integer>
-		<key>@MMK_R_cyrl_uc_El</key>
-		<integer>20</integer>
-		<key>@MMK_R_cyrl_uc_Hardsign</key>
-		<integer>-50</integer>
-		<key>@MMK_R_cyrl_uc_O</key>
-		<integer>-20</integer>
-		<key>@MMK_R_cyrl_uc_Te</key>
-		<integer>-60</integer>
-		<key>@MMK_R_cyrl_uc_U</key>
-		<integer>-40</integer>
-		<key>@MMK_R_inp_foot</key>
-		<integer>-20</integer>
-		<key>@MMK_R_inp_quotel</key>
-		<integer>-20</integer>
-		<key>eightinferior</key>
-		<integer>10</integer>
-		<key>eightsuperior</key>
-		<integer>-20</integer>
-		<key>fiveinferior</key>
-		<integer>10</integer>
-		<key>fivesuperior</key>
-		<integer>-30</integer>
-		<key>fourinferior</key>
-		<integer>10</integer>
-		<key>foursuperior</key>
-		<integer>-10</integer>
-		<key>nineinferior</key>
-		<integer>10</integer>
-		<key>ninesuperior</key>
-		<integer>-30</integer>
-		<key>oneinferior</key>
-		<integer>10</integer>
-		<key>onesuperior</key>
-		<integer>-30</integer>
-		<key>question</key>
-		<integer>-10</integer>
-		<key>registered</key>
-		<integer>-20</integer>
-		<key>seveninferior</key>
-		<integer>10</integer>
-		<key>sevensuperior</key>
-		<integer>-40</integer>
-		<key>sixinferior</key>
-		<integer>10</integer>
-		<key>sixsuperior</key>
-		<integer>-20</integer>
-		<key>threeinferior</key>
-		<integer>10</integer>
-		<key>threesuperior</key>
-		<integer>-40</integer>
-		<key>trademark</key>
-		<integer>-40</integer>
-		<key>twoinferior</key>
-		<integer>10</integer>
-		<key>twosuperior</key>
-		<integer>-20</integer>
-		<key>uni0408</key>
-		<integer>10</integer>
-		<key>uni0414</key>
-		<integer>30</integer>
-		<key>uni0434</key>
-		<integer>20</integer>
-		<key>uni0442</key>
-		<integer>-30</integer>
-		<key>uni04AE</key>
-		<integer>-30</integer>
-		<key>uni04AF</key>
-		<integer>-10</integer>
-		<key>uni04B0</key>
-		<integer>-30</integer>
-		<key>uni04B1</key>
-		<integer>-10</integer>
-		<key>uni04D4</key>
-		<integer>20</integer>
-		<key>zeroinferior</key>
-		<integer>10</integer>
-		<key>zerosuperior</key>
-		<integer>-30</integer>
 	</dict>
 	<key>uni04AE</key>
 	<dict>
@@ -15693,6 +16280,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-45</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
@@ -15785,8 +16374,6 @@
 		<integer>-30</integer>
 		<key>uni0440</key>
 		<integer>-35</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0444</key>
 		<integer>-45</integer>
 		<key>uni044D</key>
@@ -15801,6 +16388,8 @@
 		<integer>20</integer>
 		<key>uni0458</key>
 		<integer>-20</integer>
+		<key>uni0475</key>
+		<integer>-30</integer>
 		<key>uni0493</key>
 		<integer>-35</integer>
 		<key>uni04AF</key>
@@ -15908,6 +16497,8 @@
 		<integer>-5</integer>
 		<key>uni0444</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>-10</integer>
 		<key>uni04B0</key>
@@ -15933,6 +16524,8 @@
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_zecyrilic</key>
 		<integer>-10</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
@@ -15993,14 +16586,14 @@
 		<integer>-20</integer>
 		<key>uni0440</key>
 		<integer>-20</integer>
-		<key>uni0442</key>
-		<integer>-10</integer>
 		<key>uni0444</key>
 		<integer>-10</integer>
 		<key>uni0456</key>
 		<integer>0</integer>
 		<key>uni0457</key>
 		<integer>20</integer>
+		<key>uni0475</key>
+		<integer>-30</integer>
 		<key>uni04AF</key>
 		<integer>-10</integer>
 		<key>uni04D4</key>
@@ -16082,6 +16675,8 @@
 		<integer>-20</integer>
 		<key>uni0444</key>
 		<integer>-10</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
 		<key>uni04AE</key>
 		<integer>-10</integer>
 		<key>uni04B0</key>
@@ -16097,6 +16692,8 @@
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-30</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-25</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>50</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
@@ -16105,10 +16702,14 @@
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_zhe</key>
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
 		<integer>20</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-40</integer>
 		<key>@MMK_R_cyrl_uc_El</key>
 		<integer>50</integer>
 		<key>@MMK_R_cyrl_uc_Kha</key>
@@ -16167,14 +16768,20 @@
 		<integer>30</integer>
 		<key>uni0434</key>
 		<integer>50</integer>
-		<key>uni0442</key>
-		<integer>-20</integer>
 		<key>uni044F</key>
 		<integer>20</integer>
 		<key>uni0458</key>
 		<integer>20</integer>
+		<key>uni0474</key>
+		<integer>-10</integer>
+		<key>uni0475</key>
+		<integer>-30</integer>
+		<key>uni049E</key>
+		<integer>-20</integer>
 		<key>uni04D4</key>
 		<integer>50</integer>
+		<key>uni04E1</key>
+		<integer>15</integer>
 		<key>zeroinferior</key>
 		<integer>20</integer>
 	</dict>
@@ -16184,6 +16791,8 @@
 		<integer>-15</integer>
 		<key>@MMK_R_cyrl_lc_che</key>
 		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-20</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>50</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
@@ -16250,12 +16859,66 @@
 		<integer>50</integer>
 		<key>uni044F</key>
 		<integer>20</integer>
+		<key>uni0474</key>
+		<integer>-20</integer>
+		<key>uni0475</key>
+		<integer>-5</integer>
 		<key>uni04AE</key>
 		<integer>-10</integer>
 		<key>uni04B0</key>
 		<integer>-10</integer>
 		<key>uni04D4</key>
 		<integer>30</integer>
+		<key>uni04E1</key>
+		<integer>10</integer>
+	</dict>
+	<key>uni04E0</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_kha</key>
+		<integer>-5</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-20</integer>
+		<key>@MMK_R_cyrl_lc_u</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_uc_Te</key>
+		<integer>-5</integer>
+		<key>@MMK_R_cyrl_uc_U</key>
+		<integer>-5</integer>
+		<key>@MMK_R_cyrl_uc_Ze</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_uc_Zhe</key>
+		<integer>-10</integer>
+		<key>underscore</key>
+		<integer>-20</integer>
+		<key>uni049E</key>
+		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-10</integer>
+	</dict>
+	<key>uni04E1</key>
+	<dict>
+		<key>@MMK_R_cyrl_lc_a</key>
+		<integer>-5</integer>
+		<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+		<integer>-12</integer>
+		<key>@MMK_R_cyrl_lc_o</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-10</integer>
+		<key>@MMK_R_cyrl_lc_u</key>
+		<integer>-5</integer>
+		<key>@MMK_R_inp_hyph</key>
+		<integer>-30</integer>
+		<key>uni0431</key>
+		<integer>-5</integer>
+		<key>uni0434</key>
+		<integer>5</integer>
+		<key>uni0444</key>
+		<integer>-10</integer>
+		<key>uni04E1</key>
+		<integer>-5</integer>
 	</dict>
 	<key>v</key>
 	<dict>
@@ -16518,6 +17181,8 @@
 		<integer>-40</integer>
 		<key>@MMK_R_cyrl_lc_o</key>
 		<integer>15</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>-50</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>-20</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -16618,8 +17283,6 @@
 		<integer>-10</integer>
 		<key>uni0414</key>
 		<integer>10</integer>
-		<key>uni0442</key>
-		<integer>-50</integer>
 		<key>uni0493</key>
 		<integer>10</integer>
 		<key>uni04AE</key>
@@ -16645,12 +17308,12 @@
 		<integer>10</integer>
 		<key>@MMK_R_cyrl_lc_el</key>
 		<integer>-25</integer>
-		<key>@MMK_R_cyrl_lc_en</key>
-		<integer>0</integer>
 		<key>@MMK_R_cyrl_lc_hardsign</key>
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_kha</key>
 		<integer>10</integer>
+		<key>@MMK_R_cyrl_lc_te</key>
+		<integer>20</integer>
 		<key>@MMK_R_cyrl_lc_u</key>
 		<integer>20</integer>
 		<key>@MMK_R_cyrl_uc_A</key>
@@ -16673,8 +17336,6 @@
 		<integer>-30</integer>
 		<key>@MMK_R_grek_lc_eta</key>
 		<integer>10</integer>
-		<key>@MMK_R_grek_lc_iota</key>
-		<integer>0</integer>
 		<key>@MMK_R_grek_lc_nu</key>
 		<integer>30</integer>
 		<key>@MMK_R_grek_uc_Alpha</key>
@@ -16737,12 +17398,6 @@
 		<integer>30</integer>
 		<key>foursuperior</key>
 		<integer>5</integer>
-		<key>iotadieresis</key>
-		<integer>10</integer>
-		<key>iotadieresistonos</key>
-		<integer>10</integer>
-		<key>jcircumflex</key>
-		<integer>40</integer>
 		<key>lambda</key>
 		<integer>-20</integer>
 		<key>pi</key>
@@ -16761,10 +17416,6 @@
 		<integer>20</integer>
 		<key>uni0434</key>
 		<integer>-20</integer>
-		<key>uni0442</key>
-		<integer>20</integer>
-		<key>uni0457</key>
-		<integer>50</integer>
 		<key>uni04AF</key>
 		<integer>20</integer>
 		<key>uni04B1</key>

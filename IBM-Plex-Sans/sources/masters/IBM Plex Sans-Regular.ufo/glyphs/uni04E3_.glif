@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04E3" format="1">
   <advance width="588"/>
-  <unicode hex="04E3"/>
   <outline>
     <component base="uni0438"/>
     <component base="macron" xOffset="-5"/>
+    <contour>
+      <point x="295.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

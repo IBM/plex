@@ -4,7 +4,13 @@
   <unicode hex="0457"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="dieresis" xOffset="-135"/>
+    <component base="dieresis" xOffset="-134"/>
+    <contour>
+      <point x="166.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="280.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

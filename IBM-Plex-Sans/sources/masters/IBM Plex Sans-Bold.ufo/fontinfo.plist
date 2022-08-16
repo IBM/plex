@@ -18,10 +18,8 @@
 	<integer>1982</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSans Bold</string>
-	<key>note</key>
-	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeHeadCreated</key>
-	<string>2018/12/18 11:00:30</string>
+	<string>2021/12/18 11:00:30</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1025</integer>
 	<key>openTypeHheaDescender</key>
@@ -40,10 +38,12 @@
 	<string>Bold Monday</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.boldmonday.com</string>
+	<key>openTypeNameSampleText</key>
+	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSans-Bold;3.003;2021</string>
+	<string>IBM;IBMPlexSans-Bold;3.004;2022</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 3.003 2021</string>
+	<string>Version 3.004 2022</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -57,8 +57,8 @@
 	</array>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
-		<integer>0</integer>
-		<integer>0</integer>
+		<integer>8</integer>
+		<integer>1</integer>
 	</array>
 	<key>openTypeOS2Panose</key>
 	<array>
@@ -136,7 +136,7 @@
 	<key>postscriptBlueFuzz</key>
 	<integer>0</integer>
 	<key>postscriptBlueScale</key>
-	<real>0.039625</real>
+	<real>0.0625</real>
 	<key>postscriptBlueShift</key>
 	<integer>7</integer>
 	<key>postscriptBlueValues</key>
@@ -158,6 +158,16 @@
 	<integer>0</integer>
 	<key>postscriptFamilyBlues</key>
 	<array>
+		<integer>-12</integer>
+		<integer>0</integer>
+		<integer>369</integer>
+		<integer>375</integer>
+		<integer>516</integer>
+		<integer>528</integer>
+		<integer>698</integer>
+		<integer>710</integer>
+		<integer>740</integer>
+		<integer>752</integer>
 	</array>
 	<key>postscriptFamilyOtherBlues</key>
 	<array>
@@ -214,10 +224,10 @@
 	<key>versionMajor</key>
 	<integer>3</integer>
 	<key>versionMinor</key>
-	<integer>3</integer>
+	<integer>4</integer>
 	<key>xHeight</key>
 	<integer>525</integer>
 	<key>year</key>
-	<integer>2021</integer>
+	<integer>2022</integer>
 </dict>
 </plist>

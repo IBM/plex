@@ -598,12 +598,16 @@
 	<string>brokenbar.glif</string>
 	<key>bullet</key>
 	<string>bullet.glif</string>
+	<key>bulletoperator</key>
+	<string>bulletoperator.glif</string>
 	<key>c</key>
 	<string>c.glif</string>
 	<key>cacute</key>
 	<string>cacute.glif</string>
 	<key>caron</key>
 	<string>caron.glif</string>
+	<key>caron.alt01</key>
+	<string>caron.alt01.glif</string>
 	<key>caron.case</key>
 	<string>caron.case.glif</string>
 	<key>caroncomb</key>
@@ -766,6 +770,8 @@
 	<string>ehook.glif</string>
 	<key>eight</key>
 	<string>eight.glif</string>
+	<key>eight.tosf</key>
+	<string>eight.tosf.glif</string>
 	<key>eightinferior</key>
 	<string>eightinferior.glif</string>
 	<key>eightsuperior</key>
@@ -776,10 +782,18 @@
 	<string>emacron.glif</string>
 	<key>emdash</key>
 	<string>emdash.glif</string>
+	<key>emquad</key>
+	<string>emquad.glif</string>
+	<key>emspace</key>
+	<string>emspace.glif</string>
 	<key>endash</key>
 	<string>endash.glif</string>
 	<key>eng</key>
 	<string>eng.glif</string>
+	<key>enquad</key>
+	<string>enquad.glif</string>
+	<key>enspace</key>
+	<string>enspace.glif</string>
 	<key>eogonek</key>
 	<string>eogonek.glif</string>
 	<key>equal</key>
@@ -800,8 +814,14 @@
 	<string>fcclogo.glif</string>
 	<key>fi</key>
 	<string>fi.glif</string>
+	<key>figuredash</key>
+	<string>figuredash.glif</string>
+	<key>figurespace</key>
+	<string>figurespace.glif</string>
 	<key>five</key>
 	<string>five.glif</string>
+	<key>five.tosf</key>
+	<string>five.tosf.glif</string>
 	<key>fiveinferior</key>
 	<string>fiveinferior.glif</string>
 	<key>fivesuperior</key>
@@ -812,6 +832,8 @@
 	<string>florin.glif</string>
 	<key>four</key>
 	<string>four.glif</string>
+	<key>four.tosf</key>
+	<string>four.tosf.glif</string>
 	<key>fourinferior</key>
 	<string>fourinferior.glif</string>
 	<key>foursuperior</key>
@@ -866,6 +888,8 @@
 	<string>guilsinglright.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
+	<key>hairspace</key>
+	<string>hairspace.glif</string>
 	<key>hbar</key>
 	<string>hbar.glif</string>
 	<key>hcircumflex</key>
@@ -874,6 +898,8 @@
 	<string>hookcomb.glif</string>
 	<key>hookcomb.case</key>
 	<string>hookcomb.case.glif</string>
+	<key>horizontalbar</key>
+	<string>horizontalbar.glif</string>
 	<key>horncomb</key>
 	<string>horncomb.glif</string>
 	<key>hryvnia</key>
@@ -886,6 +912,8 @@
 	<string>hungarumlautcomb.glif</string>
 	<key>hyphen</key>
 	<string>hyphen.glif</string>
+	<key>hyphendash</key>
+	<string>hyphendash.glif</string>
 	<key>i</key>
 	<string>i.glif</string>
 	<key>iacute</key>
@@ -946,6 +974,8 @@
 	<string>less.glif</string>
 	<key>lessequal</key>
 	<string>lessequal.glif</string>
+	<key>lineseparator</key>
+	<string>lineseparator.glif</string>
 	<key>lira</key>
 	<string>lira.glif</string>
 	<key>liraturkish</key>
@@ -984,6 +1014,8 @@
 	<string>naira.glif</string>
 	<key>napostrophe</key>
 	<string>napostrophe.glif</string>
+	<key>nbhyphen</key>
+	<string>nbhyphen.glif</string>
 	<key>nbspace</key>
 	<string>nbspace.glif</string>
 	<key>ncaron</key>
@@ -992,6 +1024,8 @@
 	<string>ncommaaccent.glif</string>
 	<key>nine</key>
 	<string>nine.glif</string>
+	<key>nine.tosf</key>
+	<string>nine.tosf.glif</string>
 	<key>nineinferior</key>
 	<string>nineinferior.glif</string>
 	<key>ninesuperior</key>
@@ -1056,14 +1090,22 @@
 	<string>omacron.glif</string>
 	<key>one</key>
 	<string>one.glif</string>
+	<key>one.tosf</key>
+	<string>one.tosf.glif</string>
+	<key>onefourthspace</key>
+	<string>onefourthspace.glif</string>
 	<key>onehalf</key>
 	<string>onehalf.glif</string>
 	<key>oneinferior</key>
 	<string>oneinferior.glif</string>
 	<key>onequarter</key>
 	<string>onequarter.glif</string>
+	<key>onesixthspace</key>
+	<string>onesixthspace.glif</string>
 	<key>onesuperior</key>
 	<string>onesuperior.glif</string>
+	<key>onethirdspace</key>
+	<string>onethirdspace.glif</string>
 	<key>ordfeminine</key>
 	<string>ordfeminine.glif</string>
 	<key>ordmasculine</key>
@@ -1078,6 +1120,8 @@
 	<string>p.glif</string>
 	<key>paragraph</key>
 	<string>paragraph.glif</string>
+	<key>paragraphseparator</key>
+	<string>paragraphseparator.glif</string>
 	<key>parenleft</key>
 	<string>parenleft.glif</string>
 	<key>parenright</key>
@@ -1106,6 +1150,8 @@
 	<string>primedbl.glif</string>
 	<key>product</key>
 	<string>product.glif</string>
+	<key>punctuationspace</key>
+	<string>punctuationspace.glif</string>
 	<key>q</key>
 	<string>q.glif</string>
 	<key>question</key>
@@ -1134,12 +1180,16 @@
 	<string>racute.glif</string>
 	<key>radical</key>
 	<string>radical.glif</string>
+	<key>ratiosign</key>
+	<string>ratiosign.glif</string>
 	<key>rcaron</key>
 	<string>rcaron.glif</string>
 	<key>rcommaaccent</key>
 	<string>rcommaaccent.glif</string>
 	<key>registered</key>
 	<string>registered.glif</string>
+	<key>replacement</key>
+	<string>replacement.glif</string>
 	<key>ring</key>
 	<string>ring.glif</string>
 	<key>ring.case</key>
@@ -1176,6 +1226,8 @@
 	<string>semicolon.glif</string>
 	<key>seven</key>
 	<string>seven.glif</string>
+	<key>seven.tosf</key>
+	<string>seven.tosf.glif</string>
 	<key>seveninferior</key>
 	<string>seveninferior.glif</string>
 	<key>sevensuperior</key>
@@ -1184,6 +1236,8 @@
 	<string>sheqel.glif</string>
 	<key>six</key>
 	<string>six.glif</string>
+	<key>six.tosf</key>
+	<string>six.tosf.glif</string>
 	<key>sixinferior</key>
 	<string>sixinferior.glif</string>
 	<key>sixsuperior</key>
@@ -1210,10 +1264,16 @@
 	<string>tcommaaccent.glif</string>
 	<key>tenge</key>
 	<string>tenge.glif</string>
+	<key>thinnbspace</key>
+	<string>thinnbspace.glif</string>
+	<key>thinspace</key>
+	<string>thinspace.glif</string>
 	<key>thorn</key>
 	<string>thorn.glif</string>
 	<key>three</key>
 	<string>three.glif</string>
+	<key>three.tosf</key>
+	<string>three.tosf.glif</string>
 	<key>threeinferior</key>
 	<string>threeinferior.glif</string>
 	<key>threequarters</key>
@@ -1236,6 +1296,8 @@
 	<string>tugrik.glif</string>
 	<key>two</key>
 	<string>two.glif</string>
+	<key>two.tosf</key>
+	<string>two.tosf.glif</string>
 	<key>twoinferior</key>
 	<string>twoinferior.glif</string>
 	<key>twosuperior</key>
@@ -1366,9 +1428,23 @@
 	<string>zero.alt01.glif</string>
 	<key>zero.alt02</key>
 	<string>zero.alt02.glif</string>
+	<key>zero.tosf</key>
+	<string>zero.tosf.glif</string>
+	<key>zero.tosf.alt01</key>
+	<string>zero.tosf.alt01.glif</string>
+	<key>zero.tosf.alt02</key>
+	<string>zero.tosf.alt02.glif</string>
 	<key>zeroinferior</key>
 	<string>zeroinferior.glif</string>
 	<key>zerosuperior</key>
 	<string>zerosuperior.glif</string>
+	<key>zerowidthjoiner</key>
+	<string>zerowidthjoiner.glif</string>
+	<key>zerowidthnbspace</key>
+	<string>zerowidthnbspace.glif</string>
+	<key>zerowidthnonjoiner</key>
+	<string>zerowidthnonjoiner.glif</string>
+	<key>zerowidthspace</key>
+	<string>zerowidthspace.glif</string>
 </dict>
 </plist>

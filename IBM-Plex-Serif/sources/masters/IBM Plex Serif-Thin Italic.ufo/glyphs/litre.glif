@@ -4,7 +4,7 @@
   <unicode hex="2113"/>
   <outline>
     <contour>
-      <point x="277" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="277" y="-12" type="curve" smooth="yes" name=""/>
       <point x="366" y="-12"/>
       <point x="414" y="52"/>
       <point x="446" y="114" type="curve"/>
@@ -51,19 +51,4 @@
       <point x="168" y="253" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni2113</string>
-      <key>com.type-invaders.name.production</key>
-      <string>litre</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.986</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

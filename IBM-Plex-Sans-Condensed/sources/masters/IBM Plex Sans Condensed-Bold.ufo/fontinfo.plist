@@ -18,10 +18,8 @@
 	<integer>1982</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSansCond Bold</string>
-	<key>note</key>
-	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeHeadCreated</key>
-	<string>2019/09/21 01:37:03</string>
+	<string>2022/09/21 01:37:03</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1025</integer>
 	<key>openTypeHheaDescender</key>
@@ -47,9 +45,9 @@
 	<key>openTypeNameSampleText</key>
 	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSansCondensed-Bold;1.003;2020</string>
+	<string>IBM;IBMPlexSansCondensed-Bold;1.004;2022</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.003 2020</string>
+	<string>Version 1.004 2022</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -61,8 +59,8 @@
 	</array>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
-		<integer>0</integer>
-		<integer>0</integer>
+		<integer>8</integer>
+		<integer>1</integer>
 	</array>
 	<key>openTypeOS2Panose</key>
 	<array>
@@ -138,7 +136,7 @@
 	<key>postscriptBlueFuzz</key>
 	<integer>0</integer>
 	<key>postscriptBlueScale</key>
-	<real>0.039625</real>
+	<real>0.0625</real>
 	<key>postscriptBlueShift</key>
 	<integer>7</integer>
 	<key>postscriptBlueValues</key>
@@ -160,9 +158,23 @@
 	<integer>0</integer>
 	<key>postscriptFamilyBlues</key>
 	<array>
+		<integer>-12</integer>
+		<integer>0</integer>
+		<integer>369</integer>
+		<integer>375</integer>
+		<integer>516</integer>
+		<integer>528</integer>
+		<integer>698</integer>
+		<integer>710</integer>
+		<integer>740</integer>
+		<integer>752</integer>
 	</array>
 	<key>postscriptFamilyOtherBlues</key>
 	<array>
+		<integer>-212</integer>
+		<integer>-200</integer>
+		<integer>323</integer>
+		<integer>329</integer>
 	</array>
 	<key>postscriptFontName</key>
 	<string>IBMPlexSansCond-Bold</string>
@@ -210,10 +222,10 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>3</integer>
+	<integer>4</integer>
 	<key>xHeight</key>
 	<integer>525</integer>
 	<key>year</key>
-	<integer>2020</integer>
+	<integer>2022</integer>
 </dict>
 </plist>

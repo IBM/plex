@@ -26,7 +26,7 @@
     <contour>
       <point x="190" y="0" type="line"/>
       <point x="211" y="106" type="line"/>
-      <point x="165" y="106" type="line" name="hr01"/>
+      <point x="165" y="106" type="line" name=""/>
       <point x="249" y="525" type="line"/>
       <point x="116" y="525" type="line"/>
       <point x="32" y="105" type="line" smooth="yes"/>
@@ -41,7 +41,7 @@
       <point x="114.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="196.0" y="0.0" type="move" name="bottomright"/>
+      <point x="190.0" y="0.0" type="move" name="bottomright"/>
     </contour>
   </outline>
 </glyph>

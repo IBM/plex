@@ -8,11 +8,11 @@
       <point x="566" y="613" type="line"/>
       <point x="630" y="616"/>
       <point x="646" y="638"/>
-      <point x="646" y="697" type="curve" smooth="yes" name="hr01"/>
+      <point x="646" y="697" type="curve" smooth="yes" name=""/>
       <point x="646" y="801" type="line"/>
       <point x="533" y="801" type="line"/>
       <point x="533" y="698" type="line"/>
-      <point x="423" y="698" type="line" name="hr02"/>
+      <point x="423" y="698" type="line" name=""/>
       <point x="423" y="245" type="line" smooth="yes"/>
       <point x="423" y="153"/>
       <point x="396" y="115"/>
@@ -33,7 +33,7 @@
       <point x="315.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="315.0" y="698.0" type="move" name="top"/>
+      <point x="305.0" y="698.0" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

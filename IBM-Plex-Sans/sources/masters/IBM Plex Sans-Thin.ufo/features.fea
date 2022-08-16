@@ -26,6 +26,7 @@ languagesystem latn ROM;
 @numbers_dflt = [zero one two three four five six seven eight nine];   # 10 items
 @numbers_sups = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];   # 10 items
 @numbers_sinf = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];   # 10 items
+@numbers_tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];   # 10 items
 
 
 
@@ -70,33 +71,6 @@ feature aalt {
 	sub uni0430 from [uni0430.alt01]; # 1 glyph(s)
 	sub uni04D3 from [uni04D3.alt01]; # 1 glyph(s)
 	sub uni04D1 from [uni04D1.alt01]; # 1 glyph(s)
-	sub tilde from [tilde.alt01 tilde.case tilde.alt01.case]; # 3 glyph(s)
-	sub macron from [macron.case]; # 1 glyph(s)
-	sub dotaccent from [dotaccent.case]; # 1 glyph(s)
-	sub dieresis from [dieresis.case]; # 1 glyph(s)
-	sub hungarumlaut from [hungarumlaut.case]; # 1 glyph(s)
-	sub acute from [acute.case]; # 1 glyph(s)
-	sub grave from [grave.case]; # 1 glyph(s)
-	sub circumflex from [circumflex.case]; # 1 glyph(s)
-	sub caron from [caron.case]; # 1 glyph(s)
-	sub breve from [breve.cyrl breve.case breve.cyrl_case]; # 3 glyph(s)
-	sub ring from [ring.case]; # 1 glyph(s)
-	sub ringacute from [ringacute.case]; # 1 glyph(s)
-	sub tonos from [tonos.case]; # 1 glyph(s)
-	sub hookcomb from [hookcomb.case]; # 1 glyph(s)
-	sub breveacute from [breveacute.case]; # 1 glyph(s)
-	sub brevegrave from [brevegrave.case]; # 1 glyph(s)
-	sub brevehook from [brevehook.case]; # 1 glyph(s)
-	sub brevetilde from [brevetilde.case]; # 1 glyph(s)
-	sub dieresisacute from [dieresisacute.case]; # 1 glyph(s)
-	sub dieresiscaron from [dieresiscaron.case]; # 1 glyph(s)
-	sub dieresisgrave from [dieresisgrave.case]; # 1 glyph(s)
-	sub circumflexacute from [circumflexacute.case]; # 1 glyph(s)
-	sub circumflexbreve from [circumflexbreve.case]; # 1 glyph(s)
-	sub circumflexgrave from [circumflexgrave.case]; # 1 glyph(s)
-	sub circumflexhook from [circumflexhook.case]; # 1 glyph(s)
-	sub dieresismacron from [dieresismacron.case]; # 1 glyph(s)
-	sub circumflextilde from [circumflextilde.case]; # 1 glyph(s)
 } aalt;
 
 
@@ -166,9 +140,24 @@ feature subs {
 
 
 
+feature onum {
+	# old-style numerals
+	sub @numbers_dflt by @numbers_tosf;
+} onum;
+
+
+
+feature lnum {
+	# lining numerals
+	sub @numbers_tosf by @numbers_dflt;
+} lnum;
+
+
+
 feature zero {
 	# slashed zero
 	sub zero by zero.alt02;
+	sub zero.tosf by zero.tosf.alt02;
 } zero;
 
 
@@ -204,6 +193,7 @@ feature ss03 {
 	};
 	# slashed zero
 	sub zero by zero.alt02;
+	sub zero.tosf by zero.tosf.alt02;
 } ss03;
 
 
@@ -215,6 +205,7 @@ feature ss04 {
 	};
 	# dotted zero
 	sub zero by zero.alt01;
+	sub zero.tosf by zero.tosf.alt01;
 } ss04;
 
 
@@ -237,6 +228,7 @@ feature salt {
 	sub @lca_cyrl_dflt by @lca_cyrl_alt1;
 	sub @lcg_dflt by @lcg_alt1;
 	sub zero by zero.alt01;
+	sub zero.tosf by zero.tosf.alt01;
 	sub germandbls by germandbls.alt01;
 } salt;
 
@@ -292,34 +284,39 @@ feature ccmp {
 
 
 feature kern {
-	# Created: Mon Feb 10 16:23:05 2020
+	# Created: Thu Jul 14 17:40:08 2022
 	# PS Name: IBMPlexSans-Thin
 	# MM Inst: IBM Plex Sans Thin
 	# MinKern: +/- 0 inclusive
 	# exported from Robofont
 	@MMK_L_cyrl_lc_a = [uni0430 uni04D3 uni04D1];
-	@MMK_L_cyrl_lc_de = [uni0434 uni0446 uni0449 uni04A3 uni04B7];
+	@MMK_L_cyrl_lc_de = [uni0434 uni0446 uni0449 uni04A3 uni04B7 uni04B5 uni0525];
 	@MMK_L_cyrl_lc_en = [uni0430.alt01 uni0438 uni0439 uni043B uni043C uni043D uni043F uni0447 uni0448 uni044B uni044F uni04D3.alt01 uni04D1.alt01 uni04E5 uni045D uni04E3 uni04F5 uni04B9 uni04F9 uni045F uni0456 uni0457];
 	@MMK_L_cyrl_lc_es = [uni0441 uni04AB];
 	@MMK_L_cyrl_lc_ge = [uni0433 uni0453 uni0491 uni04A5];
-	@MMK_L_cyrl_lc_je = [uni0435 uni04D5 uni0450 uni0451 uni04D7];
-	@MMK_L_cyrl_lc_ka = [uni0436 uni043A uni04DD uni04C2 uni045C uni049D uni04A1];
+	@MMK_L_cyrl_lc_ghehook = [uni0495 uni04A7];
+	@MMK_L_cyrl_lc_je = [uni0435 uni04D5 uni0450 uni0451 uni04D7 uni04BD uni04BF];
+	@MMK_L_cyrl_lc_ka = [uni0436 uni043A uni04DD uni04C2 uni045C uni049D uni04A1 uni049F];
 	@MMK_L_cyrl_lc_kadescender = [uni0497 uni049B];
 	@MMK_L_cyrl_lc_o = [uni0431 uni043E uni044D uni044E uni04E7 uni0473 uni04E9 uni04D9];
 	@MMK_L_cyrl_lc_shha = [uni045B uni04BB];
-	@MMK_L_cyrl_lc_softsign = [uni044A uni044C uni0459 uni045A];
+	@MMK_L_cyrl_lc_softsign = [uni044A uni044C uni0459 uni045A uni0463];
+	@MMK_L_cyrl_lc_tedescend = [uni04AD uni04F7];
 	@MMK_L_cyrl_lc_u = [uni0443 uni04EF uni04F1 uni04F3 uni045E];
 	@MMK_L_cyrl_lc_ve = [uni0432 uni0437 uni04DF uni0499];
 	@MMK_L_cyrl_uc_A = [uni0410 uni04D2 uni04D0];
-	@MMK_L_cyrl_uc_De = [uni0414 uni0426 uni0429 uni04A2 uni04B6];
+	@MMK_L_cyrl_uc_Cheabkhaz = [uni04BC uni04BE];
+	@MMK_L_cyrl_uc_De = [uni0414 uni0426 uni0429 uni04A2 uni04B6 uni04B4 uni0524];
 	@MMK_L_cyrl_uc_Es = [uni0421 uni04AA];
 	@MMK_L_cyrl_uc_Ge = [uni0413 uni0403 uni0490 uni04A4];
+	@MMK_L_cyrl_uc_Gehook = [uni0494 uni04A6];
 	@MMK_L_cyrl_uc_Ii = [uni04C0 uni0406 uni0407];
 	@MMK_L_cyrl_uc_Je = [uni0415 uni04D4 uni0400 uni0401 uni04D6];
-	@MMK_L_cyrl_uc_Ka = [uni0416 uni041A uni04DC uni04C1 uni040C uni049C uni04A0];
+	@MMK_L_cyrl_uc_Ka = [uni0416 uni041A uni04DC uni04C1 uni040C uni049C uni04A0 uni049E];
 	@MMK_L_cyrl_uc_Kadescender = [uni0496 uni049A];
 	@MMK_L_cyrl_uc_O = [uni041E uni042D uni042E uni04E6 uni0472 uni04E8 uni04D8];
-	@MMK_L_cyrl_uc_Softsign = [uni042A uni042C uni0409 uni040A];
+	@MMK_L_cyrl_uc_Softsign = [uni042A uni042C uni0409 uni040A uni0462];
+	@MMK_L_cyrl_uc_Tedescend = [uni04AC uni04F6];
 	@MMK_L_cyrl_uc_Tshe = [uni040B uni04BA];
 	@MMK_L_cyrl_uc_U = [uni0423 uni04EE uni04F0 uni04F2 uni040E];
 	@MMK_L_cyrl_uc_Ze = [uni0417 uni04DE uni0498];
@@ -343,48 +340,48 @@ feature kern {
 	@MMK_L_inp_fraction = [fraction divisionslash];
 	@MMK_L_inp_guill = [guilsinglleft guillemotleft];
 	@MMK_L_inp_guilr = [guilsinglright guillemotright];
-	@MMK_L_inp_hyph = [hyphen softhyphen endash emdash];
+	@MMK_L_inp_hyph = [hyphen softhyphen endash emdash figuredash horizontalbar hyphendash nbhyphen];
 	@MMK_L_inp_parenth = [bracketleft braceleft];
 	@MMK_L_inp_period = [period ellipsis comma quotesinglbase quotedblbase];
 	@MMK_L_inp_quotel = [quoteleft quotedblleft];
 	@MMK_L_inp_quoter = [quoteright quotedblright];
-	@MMK_L_latn_lc_a = [a aacute abreve acircumflex adieresis adotbelow agrave ahook amacron aogonek aring aringacute atilde abreveacute abrevedotbelow abrevegrave abrevehook abrevetilde acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhook acircumflextilde acaron];
+	@MMK_L_latn_lc_a = [a aacute abreve acaron acircumflex adieresis adotbelow agrave ahook amacron aogonek aring aringacute atilde abreveacute abrevedotbelow abrevegrave abrevehook abrevetilde acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhook acircumflextilde];
 	@MMK_L_latn_lc_b = [b p thorn];
 	@MMK_L_latn_lc_c = [c cacute ccaron ccedilla ccircumflex cdotaccent];
 	@MMK_L_latn_lc_dcaron = [dcaron lcaron];
 	@MMK_L_latn_lc_e = [e ae aeacute eacute ebreve ecaron ecircumflex edieresis edotaccent edotbelow egrave ehook emacron eogonek etilde ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhook ecircumflextilde oe];
 	@MMK_L_latn_lc_f = [f];
 	@MMK_L_latn_lc_g = [g g.alt02 gbreve gcircumflex gcommaaccent gdotaccent];
-	@MMK_L_latn_lc_i = [i fi iacute ibreve icircumflex idieresis idotbelow igrave ihook imacron iogonek itilde icaron];
+	@MMK_L_latn_lc_i = [i fi iacute ibreve icaron icircumflex idieresis idotbelow igrave ihook imacron iogonek itilde];
 	@MMK_L_latn_lc_j = [g.alt01 j q gbreve.alt01 gcircumflex.alt01 gcommaaccent.alt01 gdotaccent.alt01 dotlessi ij ijacute dotlessj jacute jcircumflex];
 	@MMK_L_latn_lc_k = [k kcommaaccent kgreenlandic];
 	@MMK_L_latn_lc_l = [l fl lacute lcommaaccent lslash];
 	@MMK_L_latn_lc_n = [h m n hbar hcircumflex nacute ncaron ncommaaccent ntilde napostrophe eng];
-	@MMK_L_latn_lc_o = [o eth schwa oacute obreve ocircumflex odieresis odotbelow ograve ohook ohungarumlaut omacron oslash oslashacute otilde ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhook ocircumflextilde ocaron];
+	@MMK_L_latn_lc_o = [o eth schwa oacute obreve ocaron ocircumflex odieresis odotbelow ograve ohook ohungarumlaut omacron oslash oslashacute otilde ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhook ocircumflextilde];
 	@MMK_L_latn_lc_ohorn = [ohorn ohornacute ohorndotbelow ohorngrave ohornhook ohorntilde];
 	@MMK_L_latn_lc_r = [r racute rcaron rcommaaccent];
 	@MMK_L_latn_lc_s = [s sacute scaron scedilla scircumflex scommaaccent];
 	@MMK_L_latn_lc_t = [t tbar tcaron tcommaaccent tcedilla];
-	@MMK_L_latn_lc_u = [a.alt01 u aacute.alt01 abreve.alt01 acircumflex.alt01 adieresis.alt01 adotbelow.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aogonek.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevedotbelow.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexdotbelow.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01 uacute ubreve ucircumflex udieresis udotbelow ugrave uhook uhungarumlaut umacron uogonek uring utilde ucaron udieresisacute udieresiscaron udieresisgrave udieresismacron acaron.alt01];
+	@MMK_L_latn_lc_u = [a.alt01 u aacute.alt01 abreve.alt01 acaron.alt01 acircumflex.alt01 adieresis.alt01 adotbelow.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aogonek.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevedotbelow.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexdotbelow.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01 uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhook uhungarumlaut umacron uogonek uring utilde udieresismacron udieresisacute udieresisgrave udieresiscaron];
 	@MMK_L_latn_lc_uhorn = [uhorn uhornacute uhorndotbelow uhorngrave uhornhook uhorntilde];
 	@MMK_L_latn_lc_w = [w wacute wcircumflex wdieresis wgrave];
 	@MMK_L_latn_lc_y = [y yacute ycircumflex ydieresis ydotbelow ygrave yhook ytilde];
 	@MMK_L_latn_lc_z = [z zacute zcaron zdotaccent];
-	@MMK_L_latn_uc_a = [A Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Ahook Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehook Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhook Acircumflextilde Acaron];
+	@MMK_L_latn_uc_a = [A Aacute Abreve Acaron Acircumflex Adieresis Adotbelow Agrave Ahook Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehook Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhook Acircumflextilde];
 	@MMK_L_latn_uc_c = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent];
 	@MMK_L_latn_uc_d = [D Dcaron Dcroat Eth];
 	@MMK_L_latn_uc_e = [E AE AEacute Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Ehook Emacron Eogonek Etilde Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhook Ecircumflextilde OE];
 	@MMK_L_latn_uc_g = [G Gbreve Gcircumflex Gcommaaccent Gdotaccent];
-	@MMK_L_latn_uc_i = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihook Imacron Iogonek Itilde Icaron];
+	@MMK_L_latn_uc_i = [I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihook Imacron Iogonek Itilde];
 	@MMK_L_latn_uc_j = [J Jacute Jcircumflex];
 	@MMK_L_latn_uc_k = [K Kcommaaccent];
 	@MMK_L_latn_uc_l = [L Lacute Lcaron Lcommaaccent Lslash];
-	@MMK_L_latn_uc_o = [O Q Schwa Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohook Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhook Ocircumflextilde Ocaron];
+	@MMK_L_latn_uc_o = [O Q Schwa Oacute Obreve Ocaron Ocircumflex Odieresis Odotbelow Ograve Ohook Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhook Ocircumflextilde];
 	@MMK_L_latn_uc_ohorn = [Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhook Ohorntilde];
 	@MMK_L_latn_uc_r = [R Racute Rcaron Rcommaaccent];
 	@MMK_L_latn_uc_s = [S Sacute Scaron Scedilla Scircumflex Scommaaccent];
 	@MMK_L_latn_uc_t = [T Tbar Tcaron Tcommaaccent Tcedilla];
-	@MMK_L_latn_uc_u = [U IJ IJacute Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhook Uhungarumlaut Umacron Uogonek Uring Utilde Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron];
+	@MMK_L_latn_uc_u = [U IJ IJacute Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhook Uhungarumlaut Umacron Uogonek Uring Utilde Udieresismacron Udieresisacute Udieresisgrave Udieresiscaron];
 	@MMK_L_latn_uc_uhorn = [Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhook Uhorntilde];
 	@MMK_L_latn_uc_w = [W Wacute Wcircumflex Wdieresis Wgrave];
 	@MMK_L_latn_uc_y = [Y Yacute Ycircumflex Ydotbelow Ydieresis Ygrave Yhook Ytilde];
@@ -392,23 +389,26 @@ feature kern {
 	@MMK_R_cyrl_lc_a = [uni0430 uni04D3 uni04D1 uni04D5];
 	@MMK_R_cyrl_lc_a.alt01 = [uni0430.alt01 uni04D3.alt01 uni04D1.alt01];
 	@MMK_R_cyrl_lc_che = [uni0447 uni04F5 uni04B7 uni04B9];
-	@MMK_R_cyrl_lc_dje = [uni0452 uni045B];
+	@MMK_R_cyrl_lc_cheabkhaz = [uni04BD uni04BF];
+	@MMK_R_cyrl_lc_dje = [uni0452 uni045B uni049F];
 	@MMK_R_cyrl_lc_el = [uni043B uni0459];
-	@MMK_R_cyrl_lc_en = [uni0432 uni0433 uni0438 uni0439 uni043A uni043C uni043D uni043F uni0446 uni0448 uni0449 uni044B uni044C uni044E uni0453 uni0491 uni0495 uni04E5 uni045D uni04E3 uni045C uni049B uni049D uni04A3 uni045A uni04A5 uni04F9 uni045F uni0456 uni0457];
+	@MMK_R_cyrl_lc_en = [uni0432 uni0433 uni0438 uni0439 uni043A uni043C uni043D uni043F uni0446 uni0448 uni0449 uni044B uni044C uni044E uni0453 uni0491 uni0495 uni04E5 uni045D uni04E3 uni045C uni049B uni049D uni04A3 uni045A uni04A5 uni04F9 uni045F uni0456 uni0457 uni04F7 uni0525];
 	@MMK_R_cyrl_lc_hardsign = [uni044A uni04A1];
 	@MMK_R_cyrl_lc_kha = [uni0445 uni04B3];
-	@MMK_R_cyrl_lc_o = [uni0435 uni043E uni0441 uni0450 uni0451 uni04D7 uni0454 uni04E7 uni0473 uni04E9 uni04AB uni04D9];
+	@MMK_R_cyrl_lc_o = [uni0435 uni043E uni0441 uni0450 uni0451 uni04D7 uni0454 uni04E7 uni0473 uni04E9 uni04AB uni04D9 uni04A9];
+	@MMK_R_cyrl_lc_te = [uni0442 uni04AD uni04B5];
 	@MMK_R_cyrl_lc_u = [uni0443 uni04EF uni04F1 uni04F3 uni045E];
 	@MMK_R_cyrl_lc_zecyrilic = [uni0437 uni04DF uni0499];
 	@MMK_R_cyrl_lc_zhe = [uni0436 uni04DD uni04C2 uni0497];
 	@MMK_R_cyrl_uc_A = [uni0410 uni04D2 uni04D0];
 	@MMK_R_cyrl_uc_Che = [uni0427 uni04F4 uni04B6 uni04B8];
+	@MMK_R_cyrl_uc_Cheabkhaz = [uni04BC uni04BE];
 	@MMK_R_cyrl_uc_El = [uni041B uni0409];
 	@MMK_R_cyrl_uc_Hardsign = [uni042A uni04A0];
 	@MMK_R_cyrl_uc_Ii = [uni04C0 uni0406 uni0407];
 	@MMK_R_cyrl_uc_Kha = [uni0425 uni04B2];
-	@MMK_R_cyrl_uc_O = [uni041E uni0421 uni0404 uni04E6 uni0472 uni04E8 uni04AA uni04D8];
-	@MMK_R_cyrl_uc_Te = [uni0422 uni0402 uni040B];
+	@MMK_R_cyrl_uc_O = [uni041E uni0421 uni0404 uni04E6 uni0472 uni04E8 uni04AA uni04D8 uni04A8];
+	@MMK_R_cyrl_uc_Te = [uni0422 uni0402 uni040B uni04AC uni04B4];
 	@MMK_R_cyrl_uc_U = [uni0423 uni04EE uni04F0 uni04F2 uni040E];
 	@MMK_R_cyrl_uc_Ze = [uni0417 uni04DE uni0498];
 	@MMK_R_cyrl_uc_Zhe = [uni0416 uni04DC uni04C1 uni0496];
@@ -432,34 +432,34 @@ feature kern {
 	@MMK_R_inp_fraction = [fraction divisionslash];
 	@MMK_R_inp_guill = [guilsinglleft guillemotleft];
 	@MMK_R_inp_guilr = [guilsinglright guillemotright];
-	@MMK_R_inp_hyph = [hyphen softhyphen endash emdash];
+	@MMK_R_inp_hyph = [hyphen softhyphen endash emdash figuredash horizontalbar hyphendash nbhyphen];
 	@MMK_R_inp_parenth = [bracketright braceright];
 	@MMK_R_inp_period = [period ellipsis comma quotesinglbase quotedblbase];
 	@MMK_R_inp_quotel = [quoteleft quotedblleft];
 	@MMK_R_inp_quoter = [quoteright quotedblright];
-	@MMK_R_latn_lc_a = [a aacute abreve acircumflex adieresis adotbelow agrave ahook amacron aogonek aring aringacute atilde abreveacute abrevedotbelow abrevegrave abrevehook abrevetilde acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhook acircumflextilde ae aeacute acaron];
-	@MMK_R_latn_lc_c = [c e o cacute ccaron ccedilla ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent edotbelow egrave ehook emacron eogonek etilde ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhook ecircumflextilde schwa oacute obreve ocircumflex odieresis odotbelow ograve ohook ohungarumlaut omacron oslash oslashacute otilde ohorn ohornacute ohorndotbelow ohorngrave ohornhook ohorntilde ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhook ocircumflextilde oe ocaron];
-	@MMK_R_latn_lc_d = [a.alt01 d g.alt01 q aacute.alt01 abreve.alt01 acircumflex.alt01 adieresis.alt01 adotbelow.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aogonek.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevedotbelow.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexdotbelow.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01 dcaron dcroat eth gbreve.alt01 gcircumflex.alt01 gcommaaccent.alt01 gdotaccent.alt01 acaron.alt01];
-	@MMK_R_latn_lc_f = [f fi fl germandbls longs];
+	@MMK_R_latn_lc_a = [a aacute abreve acaron acircumflex adieresis adotbelow agrave ahook amacron aogonek aring aringacute atilde abreveacute abrevedotbelow abrevegrave abrevehook abrevetilde acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhook acircumflextilde ae aeacute];
+	@MMK_R_latn_lc_c = [c e o cacute ccaron ccedilla ccircumflex cdotaccent eacute ebreve ecaron ecircumflex edieresis edotaccent edotbelow egrave ehook emacron eogonek etilde ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhook ecircumflextilde schwa oacute obreve ocaron ocircumflex odieresis odotbelow ograve ohook ohungarumlaut omacron oslash oslashacute otilde ohorn ohornacute ohorndotbelow ohorngrave ohornhook ohorntilde ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhook ocircumflextilde oe];
+	@MMK_R_latn_lc_d = [a.alt01 d g.alt01 q aacute.alt01 abreve.alt01 acaron.alt01 acircumflex.alt01 adieresis.alt01 adotbelow.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aogonek.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevedotbelow.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexdotbelow.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01 dcaron dcroat eth gbreve.alt01 gcircumflex.alt01 gcommaaccent.alt01 gdotaccent.alt01];
+	@MMK_R_latn_lc_f = [f fi fl longs germandbls];
 	@MMK_R_latn_lc_g = [g g.alt02 gbreve gcircumflex gcommaaccent gdotaccent];
 	@MMK_R_latn_lc_h = [b h k hbar hcircumflex kcommaaccent];
-	@MMK_R_latn_lc_i = [i iacute ibreve icircumflex idieresis idotbelow igrave ihook imacron iogonek itilde ij ijacute icaron];
+	@MMK_R_latn_lc_i = [i iacute ibreve icaron icircumflex idieresis idotbelow igrave ihook imacron iogonek itilde ij ijacute];
 	@MMK_R_latn_lc_j = [j dotlessj jacute jcircumflex];
 	@MMK_R_latn_lc_l = [l lacute lcaron lcommaaccent ldot lslash germandbls.alt01];
 	@MMK_R_latn_lc_n = [m n r dotlessi kgreenlandic nacute ncaron ncommaaccent ntilde eng racute rcaron rcommaaccent];
 	@MMK_R_latn_lc_s = [s sacute scaron scedilla scircumflex scommaaccent];
 	@MMK_R_latn_lc_t = [t tbar tcaron tcommaaccent tcedilla];
-	@MMK_R_latn_lc_u = [u uacute ubreve ucircumflex udieresis udotbelow ugrave uhook uhungarumlaut umacron uogonek uring utilde uhorn uhornacute uhorndotbelow uhorngrave uhornhook uhorntilde ucaron udieresisacute udieresiscaron udieresisgrave udieresismacron];
+	@MMK_R_latn_lc_u = [u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhook uhungarumlaut umacron uogonek uring utilde uhorn uhornacute uhorndotbelow uhorngrave uhornhook uhorntilde udieresismacron udieresisacute udieresisgrave udieresiscaron];
 	@MMK_R_latn_lc_w = [w wacute wcircumflex wdieresis wgrave];
 	@MMK_R_latn_lc_y = [y yacute ycircumflex ydieresis ydotbelow ygrave yhook ytilde];
 	@MMK_R_latn_lc_z = [z zacute zcaron zdotaccent];
-	@MMK_R_latn_uc_a = [A Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Ahook Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehook Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhook Acircumflextilde AE AEacute Acaron];
-	@MMK_R_latn_uc_i = [I Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihook Imacron Iogonek Itilde Icaron];
+	@MMK_R_latn_uc_a = [A Aacute Abreve Acaron Acircumflex Adieresis Adotbelow Agrave Ahook Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehook Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhook Acircumflextilde AE AEacute];
+	@MMK_R_latn_uc_i = [I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihook Imacron Iogonek Itilde];
 	@MMK_R_latn_uc_j = [J Jacute Jcircumflex];
-	@MMK_R_latn_uc_o = [C G O Q Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Schwa Gbreve Gcircumflex Gcommaaccent Gdotaccent Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohook Ohungarumlaut Omacron Oslash Oslashacute Otilde Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhook Ohorntilde Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhook Ocircumflextilde OE Ocaron];
+	@MMK_R_latn_uc_o = [C G O Q Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Schwa Gbreve Gcircumflex Gcommaaccent Gdotaccent Oacute Obreve Ocaron Ocircumflex Odieresis Odotbelow Ograve Ohook Ohungarumlaut Omacron Oslash Oslashacute Otilde Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhook Ohorntilde Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhook Ocircumflextilde OE];
 	@MMK_R_latn_uc_s = [S Sacute Scaron Scedilla Scircumflex Scommaaccent];
 	@MMK_R_latn_uc_t = [T Tbar Tcaron Tcommaaccent Tcedilla];
-	@MMK_R_latn_uc_u = [U IJ IJacute Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhook Uhungarumlaut Umacron Uogonek Uring Utilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhook Uhorntilde Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron];
+	@MMK_R_latn_uc_u = [U IJ IJacute Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhook Uhungarumlaut Umacron Uogonek Uring Utilde Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhook Uhorntilde Udieresismacron Udieresisacute Udieresisgrave Udieresiscaron];
 	@MMK_R_latn_uc_w = [W Wacute Wcircumflex Wdieresis Wgrave];
 	@MMK_R_latn_uc_y = [Y Yacute Ycircumflex Ydotbelow Ydieresis Ygrave Yhook Ytilde];
 	@MMK_R_latn_uc_z = [Z Zacute Zcaron Zdotaccent];
@@ -546,11 +546,6 @@ feature kern {
 	pos F eightinferior -35;
 	pos F fiveinferior -10;
 	pos F fourinferior -55;
-	pos F ibreve 30;
-	pos F icircumflex 30;
-	pos F idieresis 30;
-	pos F imacron 30;
-	pos F itilde 30;
 	pos F nineinferior -20;
 	pos F oneinferior -20;
 	pos F onesuperior 10;
@@ -902,13 +897,6 @@ feature kern {
 	pos V fivesuperior 30;
 	pos V fourinferior -65;
 	pos V foursuperior 10;
-	pos V ibreve 40;
-	pos V icircumflex 40;
-	pos V idieresis 40;
-	pos V igrave 10;
-	pos V imacron 40;
-	pos V itilde 40;
-	pos V jcircumflex 40;
 	pos V nineinferior -70;
 	pos V ninesuperior 10;
 	pos V oneinferior -50;
@@ -938,7 +926,6 @@ feature kern {
 	pos X eightsuperior -10;
 	pos X fivesuperior 25;
 	pos X foursuperior -15;
-	pos X jcircumflex 20;
 	pos X nineinferior -40;
 	pos X ninesuperior 10;
 	pos X onesuperior 20;
@@ -1010,7 +997,6 @@ feature kern {
 	pos ampersand uni0424 10;
 	pos ampersand uni042D -10;
 	pos ampersand uni0434 20;
-	pos ampersand uni0442 -10;
 	pos ampersand uni0493 20;
 	pos ampersand uni04AE -30;
 	pos ampersand uni04B0 -20;
@@ -1086,7 +1072,6 @@ feature kern {
 	pos chi zeta -22;
 	pos copyright uni0414 -10;
 	pos copyright uni0424 10;
-	pos copyright uni0442 20;
 	pos copyright uni04AF 20;
 	pos copyright uni04B1 30;
 	pos delta Chi -10;
@@ -1144,7 +1129,6 @@ feature kern {
 	pos eightinferior uni0408 10;
 	pos eightinferior uni0414 20;
 	pos eightinferior uni0434 20;
-	pos eightinferior uni0442 -50;
 	pos eightinferior uni0493 20;
 	pos eightinferior uni04AE -90;
 	pos eightinferior uni04AF -20;
@@ -1166,7 +1150,6 @@ feature kern {
 	pos eightsuperior Zeta -30;
 	pos eightsuperior chi 30;
 	pos eightsuperior eightsuperior -10;
-	pos eightsuperior jcircumflex 30;
 	pos eightsuperior lambda -20;
 	pos eightsuperior ninesuperior -5;
 	pos eightsuperior onesuperior -15;
@@ -1177,7 +1160,6 @@ feature kern {
 	pos eightsuperior threesuperior -10;
 	pos eightsuperior uni0408 -40;
 	pos eightsuperior uni0414 -40;
-	pos eightsuperior uni0457 40;
 	pos eightsuperior uni04AF 30;
 	pos eightsuperior uni04B1 30;
 	pos eightsuperior uni04D4 -55;
@@ -1212,7 +1194,6 @@ feature kern {
 	pos fiveinferior threeinferior 5;
 	pos fiveinferior uni0414 20;
 	pos fiveinferior uni0434 20;
-	pos fiveinferior uni0442 -50;
 	pos fiveinferior uni04AE -85;
 	pos fiveinferior uni04AF -10;
 	pos fiveinferior v -10;
@@ -1230,7 +1211,6 @@ feature kern {
 	pos fivesuperior delta 10;
 	pos fivesuperior eightsuperior -10;
 	pos fivesuperior foursuperior 5;
-	pos fivesuperior jcircumflex 20;
 	pos fivesuperior lambda -15;
 	pos fivesuperior ninesuperior -10;
 	pos fivesuperior onesuperior -10;
@@ -1246,7 +1226,6 @@ feature kern {
 	pos fivesuperior uni0414 -40;
 	pos fivesuperior uni0431 20;
 	pos fivesuperior uni0434 -20;
-	pos fivesuperior uni0442 20;
 	pos fivesuperior uni0493 10;
 	pos fivesuperior uni04AE 10;
 	pos fivesuperior uni04AF 35;
@@ -1278,7 +1257,6 @@ feature kern {
 	pos fourinferior uni0408 20;
 	pos fourinferior uni0414 40;
 	pos fourinferior uni0434 30;
-	pos fourinferior uni0442 -20;
 	pos fourinferior uni044D 10;
 	pos fourinferior uni0455 15;
 	pos fourinferior uni0493 10;
@@ -1298,7 +1276,6 @@ feature kern {
 	pos foursuperior chi 40;
 	pos foursuperior fivesuperior 5;
 	pos foursuperior foursuperior 20;
-	pos foursuperior jcircumflex 40;
 	pos foursuperior lambda -20;
 	pos foursuperior ninesuperior -5;
 	pos foursuperior onesuperior 5;
@@ -1312,7 +1289,6 @@ feature kern {
 	pos foursuperior uni0431 20;
 	pos foursuperior uni0434 -20;
 	pos foursuperior uni0455 15;
-	pos foursuperior uni0457 40;
 	pos foursuperior uni0493 20;
 	pos foursuperior uni04AE 10;
 	pos foursuperior uni04AF 40;
@@ -1515,7 +1491,6 @@ feature kern {
 	pos nineinferior uni0414 10;
 	pos nineinferior uni042D -5;
 	pos nineinferior uni0431 15;
-	pos nineinferior uni0442 -50;
 	pos nineinferior uni0455 -10;
 	pos nineinferior uni0493 10;
 	pos nineinferior uni04AE -90;
@@ -1540,7 +1515,6 @@ feature kern {
 	pos ninesuperior chi 20;
 	pos ninesuperior delta -20;
 	pos ninesuperior foursuperior -5;
-	pos ninesuperior jcircumflex 30;
 	pos ninesuperior lambda -20;
 	pos ninesuperior phi -20;
 	pos ninesuperior pi 30;
@@ -1553,7 +1527,6 @@ feature kern {
 	pos ninesuperior uni0408 -30;
 	pos ninesuperior uni0414 -40;
 	pos ninesuperior uni0434 -30;
-	pos ninesuperior uni0442 10;
 	pos ninesuperior uni0444 -20;
 	pos ninesuperior uni044F -10;
 	pos ninesuperior uni0455 -10;
@@ -1595,7 +1568,6 @@ feature kern {
 	pos oneinferior uni0424 -20;
 	pos oneinferior uni042F 10;
 	pos oneinferior uni0434 30;
-	pos oneinferior uni0442 -50;
 	pos oneinferior uni0455 -5;
 	pos oneinferior uni04AE -110;
 	pos oneinferior uni04AF -40;
@@ -1654,7 +1626,6 @@ feature kern {
 	pos parenleft tau -10;
 	pos parenleft uni0414 20;
 	pos parenleft uni0434 40;
-	pos parenleft uni0442 -10;
 	pos parenleft uni0458 30;
 	pos parenleft uni04AE 20;
 	pos parenleft uni04B0 20;
@@ -1726,8 +1697,6 @@ feature kern {
 	pos question V 20;
 	pos question uni0414 -20;
 	pos question uni042D 10;
-	pos question uni0442 40;
-	pos question uni0457 50;
 	pos question uni04AE 15;
 	pos question uni04AF 40;
 	pos question uni04B0 15;
@@ -1744,7 +1713,6 @@ feature kern {
 	pos registered Zeta -5;
 	pos registered uni0414 -30;
 	pos registered uni0434 -30;
-	pos registered uni0442 30;
 	pos registered uni04AE 10;
 	pos registered uni04AF 30;
 	pos registered uni04B1 30;
@@ -1808,7 +1776,6 @@ feature kern {
 	pos seveninferior uni042F -10;
 	pos seveninferior uni0431 30;
 	pos seveninferior uni0434 -10;
-	pos seveninferior uni0442 -30;
 	pos seveninferior uni044F 10;
 	pos seveninferior uni0493 20;
 	pos seveninferior uni04AE -40;
@@ -1834,7 +1801,6 @@ feature kern {
 	pos sevensuperior eightsuperior -25;
 	pos sevensuperior fivesuperior -5;
 	pos sevensuperior foursuperior -30;
-	pos sevensuperior jcircumflex 40;
 	pos sevensuperior lambda -20;
 	pos sevensuperior ninesuperior -15;
 	pos sevensuperior p -30;
@@ -1854,7 +1820,6 @@ feature kern {
 	pos sevensuperior uni0424 -10;
 	pos sevensuperior uni0434 -30;
 	pos sevensuperior uni0440 -30;
-	pos sevensuperior uni0442 -10;
 	pos sevensuperior uni0444 -40;
 	pos sevensuperior uni044D -40;
 	pos sevensuperior uni044F -40;
@@ -1933,7 +1898,6 @@ feature kern {
 	pos sixinferior threeinferior -10;
 	pos sixinferior uni0408 10;
 	pos sixinferior uni0414 30;
-	pos sixinferior uni0442 -50;
 	pos sixinferior uni044F -10;
 	pos sixinferior uni0493 10;
 	pos sixinferior uni04AE -80;
@@ -1956,7 +1920,6 @@ feature kern {
 	pos sixsuperior Zeta -30;
 	pos sixsuperior chi 30;
 	pos sixsuperior eightsuperior -5;
-	pos sixsuperior jcircumflex 20;
 	pos sixsuperior lambda -40;
 	pos sixsuperior ninesuperior -15;
 	pos sixsuperior pi 20;
@@ -2009,6 +1972,7 @@ feature kern {
 	pos slash uni04B0 30;
 	pos slash uni04BB -10;
 	pos slash uni04D4 -45;
+	pos slash uni04E1 -20;
 	pos slash x -20;
 	pos slash xi -15;
 	pos slash zeta -15;
@@ -2088,7 +2052,6 @@ feature kern {
 	pos threeinferior threeinferior -10;
 	pos threeinferior uni0408 15;
 	pos threeinferior uni0414 20;
-	pos threeinferior uni0442 -50;
 	pos threeinferior uni044D -5;
 	pos threeinferior uni044F -5;
 	pos threeinferior uni0493 10;
@@ -2118,7 +2081,6 @@ feature kern {
 	pos threesuperior uni0414 -30;
 	pos threesuperior uni0431 10;
 	pos threesuperior uni0434 -30;
-	pos threesuperior uni0442 10;
 	pos threesuperior uni0493 20;
 	pos threesuperior uni04AE 10;
 	pos threesuperior uni04AF 30;
@@ -2155,7 +2117,6 @@ feature kern {
 	pos twoinferior uni0408 -5;
 	pos twoinferior uni0414 40;
 	pos twoinferior uni0434 30;
-	pos twoinferior uni0442 -50;
 	pos twoinferior uni044D -5;
 	pos twoinferior uni0455 -5;
 	pos twoinferior uni0493 20;
@@ -2175,7 +2136,6 @@ feature kern {
 	pos twosuperior V 30;
 	pos twosuperior X 10;
 	pos twosuperior chi 25;
-	pos twosuperior jcircumflex 25;
 	pos twosuperior lambda -15;
 	pos twosuperior onesuperior 10;
 	pos twosuperior pi 15;
@@ -2184,7 +2144,6 @@ feature kern {
 	pos twosuperior uni0408 -25;
 	pos twosuperior uni0414 -30;
 	pos twosuperior uni0431 20;
-	pos twosuperior uni0442 10;
 	pos twosuperior uni0455 -10;
 	pos twosuperior uni0493 20;
 	pos twosuperior uni04AE 15;
@@ -2226,14 +2185,15 @@ feature kern {
 	pos underscore uni042F 10;
 	pos underscore uni0434 65;
 	pos underscore uni0440 10;
-	pos underscore uni0442 -60;
 	pos underscore uni0455 -10;
 	pos underscore uni0458 65;
+	pos underscore uni049E -20;
 	pos underscore uni04AE -30;
 	pos underscore uni04AF -50;
 	pos underscore uni04B0 -30;
 	pos underscore uni04B1 -20;
 	pos underscore uni04D4 25;
+	pos underscore uni04E0 -30;
 	pos underscore v -50;
 	pos underscore x 20;
 	pos underscore xi -70;
@@ -2262,7 +2222,6 @@ feature kern {
 	pos uni0402 uni0414 20;
 	pos uni0402 uni042D -10;
 	pos uni0402 uni0434 30;
-	pos uni0402 uni0442 -30;
 	pos uni0402 uni0493 10;
 	pos uni0402 uni04AE -40;
 	pos uni0402 uni04B0 -20;
@@ -2293,7 +2252,6 @@ feature kern {
 	pos uni0405 underscore -20;
 	pos uni0405 uni0405 -5;
 	pos uni0405 uni0408 10;
-	pos uni0405 uni0442 -10;
 	pos uni0405 uni0493 10;
 	pos uni0405 zeroinferior 15;
 	pos uni0405 zerosuperior 10;
@@ -2325,12 +2283,16 @@ feature kern {
 	pos uni0411 underscore -35;
 	pos uni0411 uni0414 -5;
 	pos uni0411 uni042D -10;
-	pos uni0411 uni0442 -30;
+	pos uni0411 uni0474 -15;
+	pos uni0411 uni0475 -5;
 	pos uni0411 uni0493 10;
+	pos uni0411 uni049E -20;
 	pos uni0411 uni04AE -20;
 	pos uni0411 uni04AF -10;
 	pos uni0411 uni04B0 -10;
 	pos uni0411 uni04B1 -5;
+	pos uni0411 uni04E0 -5;
+	pos uni0411 uni04E1 -10;
 	pos uni0411 zeroinferior 10;
 	pos uni0411 zerosuperior -20;
 	pos uni0412 eightinferior -5;
@@ -2352,12 +2314,17 @@ feature kern {
 	pos uni0412 uni0414 -10;
 	pos uni0412 uni042D -10;
 	pos uni0412 uni044F 5;
+	pos uni0412 uni0474 -5;
+	pos uni0412 uni0475 -5;
 	pos uni0412 uni0493 15;
+	pos uni0412 uni049E -20;
 	pos uni0412 uni04AE -20;
 	pos uni0412 uni04AF -5;
 	pos uni0412 uni04B0 -15;
 	pos uni0412 uni04B1 -5;
 	pos uni0412 uni04D4 -5;
+	pos uni0412 uni04E0 -5;
+	pos uni0412 uni04E1 -15;
 	pos uni0412 zeroinferior -5;
 	pos uni0412 zerosuperior -30;
 	pos uni0420 ampersand -20;
@@ -2392,6 +2359,8 @@ feature kern {
 	pos uni0420 uni04AE 30;
 	pos uni0420 uni04B0 10;
 	pos uni0420 uni04D4 -60;
+	pos uni0420 uni04E0 -15;
+	pos uni0420 uni04E1 -5;
 	pos uni0420 zeroinferior -40;
 	pos uni0420 zerosuperior 25;
 	pos uni0422 ampersand -20;
@@ -2425,17 +2394,18 @@ feature kern {
 	pos uni0422 uni042F 5;
 	pos uni0422 uni0434 -50;
 	pos uni0422 uni0440 -45;
-	pos uni0422 uni0442 -40;
 	pos uni0422 uni0444 -65;
 	pos uni0422 uni044D -60;
 	pos uni0422 uni044F -60;
 	pos uni0422 uni0455 -70;
+	pos uni0422 uni0475 -40;
 	pos uni0422 uni0493 -50;
 	pos uni0422 uni04AE 25;
 	pos uni0422 uni04AF -40;
 	pos uni0422 uni04B0 25;
 	pos uni0422 uni04B1 -40;
 	pos uni0422 uni04D4 -65;
+	pos uni0422 uni04E1 -90;
 	pos uni0422 zeroinferior -60;
 	pos uni0422 zerosuperior 20;
 	pos uni0424 copyright 10;
@@ -2447,9 +2417,12 @@ feature kern {
 	pos uni0424 uni042D -10;
 	pos uni0424 uni042F -10;
 	pos uni0424 uni0492 10;
+	pos uni0424 uni049E -10;
 	pos uni0424 uni04AE -40;
 	pos uni0424 uni04B0 -20;
 	pos uni0424 uni04D4 -20;
+	pos uni0424 uni04E0 -10;
+	pos uni0424 uni04E1 -10;
 	pos uni0425 ampersand -10;
 	pos uni0425 at -20;
 	pos uni0425 eightinferior -10;
@@ -2473,12 +2446,13 @@ feature kern {
 	pos uni0425 uni0414 30;
 	pos uni0425 uni0424 -20;
 	pos uni0425 uni0434 30;
-	pos uni0425 uni0442 -20;
 	pos uni0425 uni0444 -10;
 	pos uni0425 uni0455 5;
+	pos uni0425 uni0475 -5;
 	pos uni0425 uni04AF -5;
 	pos uni0425 uni04B1 -5;
 	pos uni0425 uni04D4 10;
+	pos uni0425 uni04E1 -10;
 	pos uni0431 trademark -20;
 	pos uni0440 eightinferior 10;
 	pos uni0440 eightsuperior 5;
@@ -2498,12 +2472,14 @@ feature kern {
 	pos uni0440 uni0408 10;
 	pos uni0440 uni042D -10;
 	pos uni0440 uni0431 10;
-	pos uni0440 uni0442 -20;
+	pos uni0440 uni0474 -30;
+	pos uni0440 uni0475 -5;
 	pos uni0440 uni0493 20;
 	pos uni0440 uni04AE -45;
 	pos uni0440 uni04AF -5;
 	pos uni0440 uni04B0 -10;
 	pos uni0440 uni04B1 -5;
+	pos uni0440 uni04E1 -10;
 	pos uni0440 zeroinferior 15;
 	pos uni0440 zerosuperior -30;
 	pos uni0442 ampersand -40;
@@ -2530,14 +2506,16 @@ feature kern {
 	pos uni0442 uni0444 -20;
 	pos uni0442 uni044D -10;
 	pos uni0442 uni044F -10;
+	pos uni0442 uni0474 -15;
 	pos uni0442 uni04AE -10;
 	pos uni0442 uni04B0 -10;
+	pos uni0442 uni04E1 -5;
 	pos uni0442 zeroinferior -50;
 	pos uni0442 zerosuperior 20;
 	pos uni0444 ninesuperior -30;
 	pos uni0444 trademark -40;
 	pos uni0444 uni0431 10;
-	pos uni0444 uni0442 -20;
+	pos uni0444 uni0474 -30;
 	pos uni0444 uni0493 20;
 	pos uni0444 uni04AE -45;
 	pos uni0444 uni04AF -10;
@@ -2563,6 +2541,7 @@ feature kern {
 	pos uni0445 uni0444 -10;
 	pos uni0445 uni044D -10;
 	pos uni0445 uni0455 -5;
+	pos uni0445 uni0474 -10;
 	pos uni0445 uni04AE -10;
 	pos uni0445 uni04B0 -10;
 	pos uni0445 uni04D4 15;
@@ -2570,13 +2549,15 @@ feature kern {
 	pos uni0452 ninesuperior -20;
 	pos uni0452 sevensuperior -20;
 	pos uni0452 trademark -60;
-	pos uni0452 uni0442 -20;
+	pos uni0452 uni0474 -40;
+	pos uni0452 uni0475 -5;
 	pos uni0452 uni04AE -20;
 	pos uni0452 uni04AF -5;
 	pos uni0452 uni04B1 -5;
-	pos uni0454 uni0442 -20;
 	pos uni0454 uni044D -10;
 	pos uni0454 uni0455 -5;
+	pos uni0454 uni0474 -25;
+	pos uni0454 uni0475 -5;
 	pos uni0454 uni0493 10;
 	pos uni0454 uni04AE -45;
 	pos uni0454 uni04AF -5;
@@ -2596,8 +2577,9 @@ feature kern {
 	pos uni0455 twosuperior -10;
 	pos uni0455 underscore -15;
 	pos uni0455 uni042D -10;
-	pos uni0455 uni0442 -10;
 	pos uni0455 uni0455 -10;
+	pos uni0455 uni0474 -25;
+	pos uni0455 uni0475 -5;
 	pos uni0455 uni0493 10;
 	pos uni0455 uni04AE -30;
 	pos uni0455 uni04AF -10;
@@ -2617,7 +2599,7 @@ feature kern {
 	pos uni0457 trademark 60;
 	pos uni0457 twosuperior 20;
 	pos uni0457 uni0431 20;
-	pos uni0457 uni0457 50;
+	pos uni0457 uni0457 40;
 	pos uni0457 uni04AE 20;
 	pos uni0457 uni04B0 20;
 	pos uni0457 zerosuperior 50;
@@ -2626,6 +2608,36 @@ feature kern {
 	pos uni0458 sevensuperior -10;
 	pos uni0458 trademark -10;
 	pos uni0458 uni04AE -20;
+	pos uni0474 uni0414 -30;
+	pos uni0474 uni0424 -15;
+	pos uni0474 uni042D -5;
+	pos uni0474 uni042F -10;
+	pos uni0474 uni0431 -10;
+	pos uni0474 uni0434 -80;
+	pos uni0474 uni0440 -70;
+	pos uni0474 uni0444 -70;
+	pos uni0474 uni044D -55;
+	pos uni0474 uni044F -55;
+	pos uni0474 uni0455 -50;
+	pos uni0474 uni0475 -40;
+	pos uni0474 uni0493 -50;
+	pos uni0474 uni04A7 -60;
+	pos uni0474 uni04AF -30;
+	pos uni0474 uni04B1 -30;
+	pos uni0474 uni04D4 -85;
+	pos uni0475 uni0414 -25;
+	pos uni0475 uni042D -5;
+	pos uni0475 uni042F -5;
+	pos uni0475 uni0434 -15;
+	pos uni0475 uni0444 -5;
+	pos uni0475 uni044D -5;
+	pos uni0475 uni044F -5;
+	pos uni0475 uni0455 -5;
+	pos uni0475 uni0474 -10;
+	pos uni0475 uni0493 -7;
+	pos uni0475 uni04AE -30;
+	pos uni0475 uni04B0 -30;
+	pos uni0475 uni04D4 -40;
 	pos uni0491 uni0405 20;
 	pos uni0492 ampersand -50;
 	pos uni0492 at -40;
@@ -2657,12 +2669,12 @@ feature kern {
 	pos uni0492 uni0431 -20;
 	pos uni0492 uni0434 -60;
 	pos uni0492 uni0440 -60;
-	pos uni0492 uni0442 -60;
 	pos uni0492 uni0444 -80;
 	pos uni0492 uni044D -60;
 	pos uni0492 uni044F -60;
 	pos uni0492 uni0455 -60;
 	pos uni0492 uni0458 -20;
+	pos uni0492 uni0475 -30;
 	pos uni0492 uni0493 -60;
 	pos uni0492 uni04AE 25;
 	pos uni0492 uni04AF -40;
@@ -2694,73 +2706,14 @@ feature kern {
 	pos uni0493 uni044D -10;
 	pos uni0493 uni044F -20;
 	pos uni0493 uni0455 -10;
+	pos uni0493 uni0474 -20;
 	pos uni0493 uni0493 -20;
 	pos uni0493 uni04D4 -60;
 	pos uni0493 zeroinferior -40;
-	pos uni0494 copyright 10;
-	pos uni0494 eightinferior 20;
-	pos uni0494 eightsuperior -30;
-	pos uni0494 fiveinferior 20;
-	pos uni0494 fivesuperior -20;
-	pos uni0494 fourinferior 20;
-	pos uni0494 foursuperior -30;
-	pos uni0494 nineinferior 10;
-	pos uni0494 ninesuperior -30;
-	pos uni0494 oneinferior 10;
-	pos uni0494 onesuperior -20;
-	pos uni0494 question -40;
-	pos uni0494 registered -30;
-	pos uni0494 seveninferior 10;
-	pos uni0494 sevensuperior -40;
-	pos uni0494 sixinferior 20;
-	pos uni0494 sixsuperior -40;
-	pos uni0494 threeinferior 20;
-	pos uni0494 threesuperior -20;
-	pos uni0494 trademark -30;
-	pos uni0494 twoinferior 20;
-	pos uni0494 twosuperior -20;
-	pos uni0494 uni0408 10;
-	pos uni0494 uni0414 20;
-	pos uni0494 uni042D -10;
-	pos uni0494 uni0434 20;
-	pos uni0494 uni0442 -30;
-	pos uni0494 uni0493 10;
-	pos uni0494 uni04AE -40;
-	pos uni0494 uni04B0 -20;
-	pos uni0494 zeroinferior 20;
-	pos uni0494 zerosuperior -30;
-	pos uni0495 eightinferior 10;
-	pos uni0495 eightsuperior -20;
-	pos uni0495 fiveinferior 10;
-	pos uni0495 fivesuperior -30;
-	pos uni0495 fourinferior 10;
-	pos uni0495 foursuperior -10;
-	pos uni0495 nineinferior 10;
-	pos uni0495 ninesuperior -30;
-	pos uni0495 oneinferior 10;
-	pos uni0495 onesuperior -30;
-	pos uni0495 question -10;
-	pos uni0495 registered -20;
-	pos uni0495 seveninferior 10;
-	pos uni0495 sevensuperior -40;
-	pos uni0495 sixinferior 10;
-	pos uni0495 sixsuperior -20;
-	pos uni0495 threeinferior 10;
-	pos uni0495 threesuperior -40;
-	pos uni0495 trademark -40;
-	pos uni0495 twoinferior 10;
-	pos uni0495 twosuperior -20;
-	pos uni0495 uni0408 10;
-	pos uni0495 uni0414 30;
-	pos uni0495 uni0434 20;
-	pos uni0495 uni0442 -30;
-	pos uni0495 uni04AE -30;
-	pos uni0495 uni04AF -10;
-	pos uni0495 uni04B0 -30;
-	pos uni0495 uni04B1 -10;
-	pos uni0495 uni04D4 20;
-	pos uni0495 zeroinferior 10;
-	pos uni0495 zerosuperior -30;
+	pos uni04A8 uni049E -10;
+	pos uni04A8 uni04E0 -5;
+	pos uni04A9 uni0474 -35;
+	pos uni04A9 uni0475 -10;
 	pos uni04AE ampersand -35;
 	pos uni04AE at -40;
 	pos uni04AE eightinferior -90;
@@ -2790,12 +2743,12 @@ feature kern {
 	pos uni04AE uni0424 -40;
 	pos uni04AE uni0434 -30;
 	pos uni04AE uni0440 -35;
-	pos uni04AE uni0442 -10;
 	pos uni04AE uni0444 -45;
 	pos uni04AE uni044D -30;
 	pos uni04AE uni044F -40;
 	pos uni04AE uni0455 -30;
 	pos uni04AE uni0458 -20;
+	pos uni04AE uni0475 -30;
 	pos uni04AE uni0493 -35;
 	pos uni04AE uni04AF -10;
 	pos uni04AE uni04B1 -10;
@@ -2830,6 +2783,7 @@ feature kern {
 	pos uni04AF uni0431 10;
 	pos uni04AF uni0434 -5;
 	pos uni04AF uni0444 -10;
+	pos uni04AF uni0474 -10;
 	pos uni04AF uni04AE -10;
 	pos uni04AF uni04B0 -10;
 	pos uni04AF uni04D4 -30;
@@ -2852,8 +2806,8 @@ feature kern {
 	pos uni04B0 uni0414 -10;
 	pos uni04B0 uni0424 -20;
 	pos uni04B0 uni0440 -20;
-	pos uni04B0 uni0442 -10;
 	pos uni04B0 uni0444 -10;
+	pos uni04B0 uni0475 -30;
 	pos uni04B0 uni04AF -10;
 	pos uni04B0 uni04D4 -40;
 	pos uni04B0 zeroinferior -10;
@@ -2877,6 +2831,7 @@ feature kern {
 	pos uni04B1 uni0408 -30;
 	pos uni04B1 uni0414 -20;
 	pos uni04B1 uni0444 -10;
+	pos uni04B1 uni0474 -10;
 	pos uni04B1 uni04AE -10;
 	pos uni04B1 uni04B0 -10;
 	pos uni04B1 zeroinferior -15;
@@ -2902,10 +2857,13 @@ feature kern {
 	pos uni04B2 uni0424 -20;
 	pos uni04B2 uni042F 30;
 	pos uni04B2 uni0434 50;
-	pos uni04B2 uni0442 -20;
 	pos uni04B2 uni044F 20;
 	pos uni04B2 uni0458 20;
+	pos uni04B2 uni0474 -10;
+	pos uni04B2 uni0475 -30;
+	pos uni04B2 uni049E -20;
 	pos uni04B2 uni04D4 50;
+	pos uni04B2 uni04E1 15;
 	pos uni04B2 zeroinferior 20;
 	pos uni04B3 copyright 10;
 	pos uni04B3 eightinferior 30;
@@ -2925,9 +2883,19 @@ feature kern {
 	pos uni04B3 uni042F 10;
 	pos uni04B3 uni0434 50;
 	pos uni04B3 uni044F 20;
+	pos uni04B3 uni0474 -20;
+	pos uni04B3 uni0475 -5;
 	pos uni04B3 uni04AE -10;
 	pos uni04B3 uni04B0 -10;
 	pos uni04B3 uni04D4 30;
+	pos uni04B3 uni04E1 10;
+	pos uni04E0 underscore -20;
+	pos uni04E0 uni049E -10;
+	pos uni04E0 uni04E1 -10;
+	pos uni04E1 uni0431 -5;
+	pos uni04E1 uni0434 5;
+	pos uni04E1 uni0444 -10;
+	pos uni04E1 uni04E1 -5;
 	pos v V -10;
 	pos v X -5;
 	pos v eightinferior -35;
@@ -3027,7 +2995,6 @@ feature kern {
 	pos zeroinferior threeinferior -5;
 	pos zeroinferior uni0408 -10;
 	pos zeroinferior uni0414 10;
-	pos zeroinferior uni0442 -50;
 	pos zeroinferior uni0493 10;
 	pos zeroinferior uni04AE -70;
 	pos zeroinferior uni04AF -20;
@@ -3047,7 +3014,6 @@ feature kern {
 	pos zerosuperior Zeta -10;
 	pos zerosuperior chi 30;
 	pos zerosuperior foursuperior 5;
-	pos zerosuperior jcircumflex 40;
 	pos zerosuperior lambda -20;
 	pos zerosuperior pi 10;
 	pos zerosuperior sevensuperior -5;
@@ -3057,7 +3023,6 @@ feature kern {
 	pos zerosuperior uni0414 -40;
 	pos zerosuperior uni0431 20;
 	pos zerosuperior uni0434 -20;
-	pos zerosuperior uni0442 20;
 	pos zerosuperior uni04AF 20;
 	pos zerosuperior uni04B1 20;
 	pos zerosuperior uni04D4 -40;
@@ -3106,6 +3071,11 @@ feature kern {
 	pos Chi iotadieresistonos 10;
 	pos F AE -60;
 	pos F AEacute -60;
+	pos F ibreve 30;
+	pos F icircumflex 30;
+	pos F idieresis 30;
+	pos F imacron 30;
+	pos F itilde 30;
 	pos F jcircumflex 30;
 	pos Gamma iotadieresis 10;
 	pos Gamma iotadieresistonos 10;
@@ -3121,24 +3091,17 @@ feature kern {
 	pos Thorn AEacute -30;
 	pos V AE -60;
 	pos V AEacute -60;
+	pos V ibreve 40;
+	pos V icircumflex 40;
+	pos V idieresis 40;
+	pos V igrave 10;
+	pos V imacron 40;
+	pos V itilde 40;
+	pos V jcircumflex 40;
+	pos X jcircumflex 20;
 	pos chi kappa -10;
-	pos eightsuperior iotadieresis 20;
-	pos eightsuperior iotadieresistonos 20;
-	pos fivesuperior iotadieresis 10;
-	pos fivesuperior iotadieresistonos 10;
-	pos fivesuperior uni0457 50;
-	pos foursuperior iotadieresis 20;
-	pos foursuperior iotadieresistonos 20;
 	pos jcircumflex V 50;
 	pos lslash lslash -15;
-	pos ninesuperior iotadieresis 10;
-	pos ninesuperior iotadieresistonos 10;
-	pos ninesuperior uni0457 50;
-	pos sevensuperior icircumflex 35;
-	pos sevensuperior iotadieresis 30;
-	pos sevensuperior iotadieresistonos 30;
-	pos sevensuperior uni0456 0;
-	pos sevensuperior uni0457 60;
 	pos slash ibreve 35;
 	pos slash icircumflex 25;
 	pos slash idieresis 25;
@@ -3149,13 +3112,6 @@ feature kern {
 	pos slash itilde 50;
 	pos slash jcircumflex 40;
 	pos slash uni0457 30;
-	pos threesuperior iotadieresis 20;
-	pos threesuperior iotadieresistonos 20;
-	pos threesuperior jcircumflex 40;
-	pos threesuperior uni0457 50;
-	pos twosuperior iotadieresis 20;
-	pos twosuperior iotadieresistonos 20;
-	pos twosuperior uni0457 40;
 	pos underscore g.alt01 -10;
 	pos uni0422 uni0456 0;
 	pos uni0422 uni0457 20;
@@ -3165,9 +3121,6 @@ feature kern {
 	pos uni04AE uni0457 20;
 	pos uni04B0 uni0456 0;
 	pos uni04B0 uni0457 20;
-	pos zerosuperior iotadieresis 10;
-	pos zerosuperior iotadieresistonos 10;
-	pos zerosuperior uni0457 50;
 	pos zeta iotadieresis 0;
 	pos zeta iotadieresistonos 0;
 	# glyph, group exceptions:
@@ -3224,7 +3177,7 @@ feature kern {
 	enum pos @MMK_L_grek_uc_Upsilon iotadieresis 10;
 	enum pos @MMK_L_grek_uc_Upsilon iotadieresistonos 10;
 	enum pos @MMK_L_inp_foot uni0457 60;
-	enum pos @MMK_L_inp_period AE 70;
+	enum pos @MMK_L_inp_period AE 60;
 	enum pos @MMK_L_inp_period AEacute 60;
 	enum pos @MMK_L_inp_quotel AE -100;
 	enum pos @MMK_L_inp_quotel AEacute -100;
@@ -3263,7 +3216,7 @@ feature kern {
 	enum pos @MMK_L_latn_uc_o AE 0;
 	enum pos @MMK_L_latn_uc_o AEacute 0;
 	enum pos @MMK_L_latn_uc_t AE -65;
-	enum pos @MMK_L_latn_uc_t AEacute -95;
+	enum pos @MMK_L_latn_uc_t AEacute -65;
 	enum pos @MMK_L_latn_uc_t ibreve 40;
 	enum pos @MMK_L_latn_uc_t icircumflex 40;
 	enum pos @MMK_L_latn_uc_t idieresis 40;
@@ -3281,7 +3234,7 @@ feature kern {
 	enum pos @MMK_L_latn_uc_w itilde 40;
 	enum pos @MMK_L_latn_uc_w jcircumflex 40;
 	enum pos @MMK_L_latn_uc_y AE -65;
-	enum pos @MMK_L_latn_uc_y AEacute -75;
+	enum pos @MMK_L_latn_uc_y AEacute -65;
 	enum pos @MMK_L_latn_uc_y ibreve 40;
 	enum pos @MMK_L_latn_uc_y icircumflex 40;
 	enum pos @MMK_L_latn_uc_y idieresis 40;
@@ -3296,8 +3249,51 @@ feature kern {
 	enum pos @MMK_L_latn_uc_z jcircumflex 30;
 	# glyph, group:
 	pos copyright @MMK_R_cyrl_lc_kha 20;
+	pos copyright @MMK_R_cyrl_lc_te 20;
 	pos copyright @MMK_R_cyrl_uc_U -10;
 	pos copyright @MMK_R_cyrl_uc_Zhe -10;
+	pos uni0474 @MMK_R_cyrl_lc_a -30;
+	pos uni0474 @MMK_R_cyrl_lc_che -50;
+	pos uni0474 @MMK_R_cyrl_lc_el -80;
+	pos uni0474 @MMK_R_cyrl_lc_en -60;
+	pos uni0474 @MMK_R_cyrl_lc_hardsign -40;
+	pos uni0474 @MMK_R_cyrl_lc_kha -50;
+	pos uni0474 @MMK_R_cyrl_lc_o -70;
+	pos uni0474 @MMK_R_cyrl_lc_te -50;
+	pos uni0474 @MMK_R_cyrl_lc_u -30;
+	pos uni0474 @MMK_R_cyrl_lc_zecyrilic -70;
+	pos uni0474 @MMK_R_cyrl_lc_zhe -40;
+	pos uni0474 @MMK_R_cyrl_uc_A -50;
+	pos uni0474 @MMK_R_cyrl_uc_El -30;
+	pos uni0474 @MMK_R_cyrl_uc_O -20;
+	pos uni0474 @MMK_R_cyrl_uc_Ze -15;
+	pos uni0475 @MMK_R_cyrl_lc_a -10;
+	pos uni0475 @MMK_R_cyrl_lc_el -20;
+	pos uni0475 @MMK_R_cyrl_lc_o -5;
+	pos uni0475 @MMK_R_cyrl_uc_A -15;
+	pos uni0475 @MMK_R_cyrl_uc_El -25;
+	pos uni0475 @MMK_R_cyrl_uc_Hardsign -25;
+	pos uni0475 @MMK_R_cyrl_uc_Ii -10;
+	pos uni0475 @MMK_R_cyrl_uc_Kha -7;
+	pos uni0475 @MMK_R_cyrl_uc_Te -40;
+	pos uni0475 @MMK_R_cyrl_uc_U -20;
+	pos uni0475 @MMK_R_cyrl_uc_Ze -5;
+	pos uni0475 @MMK_R_cyrl_uc_Zhe -20;
+	pos uni04A8 @MMK_R_cyrl_lc_cheabkhaz 5;
+	pos uni04A8 @MMK_R_cyrl_uc_Kha -5;
+	pos uni04A8 @MMK_R_cyrl_uc_Te -15;
+	pos uni04A8 @MMK_R_cyrl_uc_U -10;
+	pos uni04A9 @MMK_R_cyrl_lc_che -5;
+	pos uni04A9 @MMK_R_cyrl_lc_cheabkhaz 5;
+	pos uni04A9 @MMK_R_cyrl_lc_u -5;
+	pos uni04E0 @MMK_R_cyrl_lc_kha -5;
+	pos uni04E0 @MMK_R_cyrl_lc_te -20;
+	pos uni04E0 @MMK_R_cyrl_lc_u -10;
+	pos uni04E0 @MMK_R_cyrl_uc_Cheabkhaz -10;
+	pos uni04E0 @MMK_R_cyrl_uc_Te -5;
+	pos uni04E0 @MMK_R_cyrl_uc_U -5;
+	pos uni04E0 @MMK_R_cyrl_uc_Ze -10;
+	pos uni04E0 @MMK_R_cyrl_uc_Zhe -10;
 	subtable;
 	pos B @MMK_R_inp_period -20;
 	pos B @MMK_R_latn_lc_f -5;
@@ -3562,6 +3558,7 @@ feature kern {
 	pos ampersand @MMK_R_cyrl_lc_el 10;
 	pos ampersand @MMK_R_cyrl_lc_hardsign -10;
 	pos ampersand @MMK_R_cyrl_lc_o 5;
+	pos ampersand @MMK_R_cyrl_lc_te -10;
 	pos ampersand @MMK_R_cyrl_uc_A -5;
 	pos ampersand @MMK_R_cyrl_uc_Che 10;
 	pos ampersand @MMK_R_cyrl_uc_El 10;
@@ -3643,6 +3640,7 @@ feature kern {
 	pos eightinferior @MMK_R_cyrl_lc_el 10;
 	pos eightinferior @MMK_R_cyrl_lc_hardsign -40;
 	pos eightinferior @MMK_R_cyrl_lc_o 10;
+	pos eightinferior @MMK_R_cyrl_lc_te -50;
 	pos eightinferior @MMK_R_cyrl_lc_u -30;
 	pos eightinferior @MMK_R_cyrl_uc_A -5;
 	pos eightinferior @MMK_R_cyrl_uc_Che -30;
@@ -3718,6 +3716,7 @@ feature kern {
 	pos fiveinferior @MMK_R_cyrl_lc_el 10;
 	pos fiveinferior @MMK_R_cyrl_lc_hardsign -40;
 	pos fiveinferior @MMK_R_cyrl_lc_o 5;
+	pos fiveinferior @MMK_R_cyrl_lc_te -50;
 	pos fiveinferior @MMK_R_cyrl_lc_u -10;
 	pos fiveinferior @MMK_R_cyrl_uc_Che -10;
 	pos fiveinferior @MMK_R_cyrl_uc_Hardsign -30;
@@ -3751,6 +3750,7 @@ feature kern {
 	pos fivesuperior @MMK_R_cyrl_lc_hardsign 20;
 	pos fivesuperior @MMK_R_cyrl_lc_kha 15;
 	pos fivesuperior @MMK_R_cyrl_lc_o 10;
+	pos fivesuperior @MMK_R_cyrl_lc_te 20;
 	pos fivesuperior @MMK_R_cyrl_lc_u 35;
 	pos fivesuperior @MMK_R_cyrl_uc_A -25;
 	pos fivesuperior @MMK_R_cyrl_uc_Che 30;
@@ -3796,6 +3796,7 @@ feature kern {
 	pos fourinferior @MMK_R_cyrl_lc_hardsign -20;
 	pos fourinferior @MMK_R_cyrl_lc_kha 10;
 	pos fourinferior @MMK_R_cyrl_lc_o 15;
+	pos fourinferior @MMK_R_cyrl_lc_te -20;
 	pos fourinferior @MMK_R_cyrl_lc_zecyrilic 10;
 	pos fourinferior @MMK_R_cyrl_lc_zhe -5;
 	pos fourinferior @MMK_R_cyrl_uc_A 10;
@@ -3923,6 +3924,7 @@ feature kern {
 	pos nineinferior @MMK_R_cyrl_lc_hardsign -40;
 	pos nineinferior @MMK_R_cyrl_lc_kha -20;
 	pos nineinferior @MMK_R_cyrl_lc_o 15;
+	pos nineinferior @MMK_R_cyrl_lc_te -50;
 	pos nineinferior @MMK_R_cyrl_lc_u -10;
 	pos nineinferior @MMK_R_cyrl_uc_A -10;
 	pos nineinferior @MMK_R_cyrl_uc_Che -20;
@@ -3964,6 +3966,7 @@ feature kern {
 	pos ninesuperior @MMK_R_cyrl_lc_el -30;
 	pos ninesuperior @MMK_R_cyrl_lc_hardsign 10;
 	pos ninesuperior @MMK_R_cyrl_lc_o -20;
+	pos ninesuperior @MMK_R_cyrl_lc_te 10;
 	pos ninesuperior @MMK_R_cyrl_lc_u 30;
 	pos ninesuperior @MMK_R_cyrl_uc_A -45;
 	pos ninesuperior @MMK_R_cyrl_uc_Che 30;
@@ -4013,6 +4016,7 @@ feature kern {
 	pos oneinferior @MMK_R_cyrl_lc_che -40;
 	pos oneinferior @MMK_R_cyrl_lc_el 20;
 	pos oneinferior @MMK_R_cyrl_lc_hardsign -40;
+	pos oneinferior @MMK_R_cyrl_lc_te -50;
 	pos oneinferior @MMK_R_cyrl_lc_u -40;
 	pos oneinferior @MMK_R_cyrl_uc_A 10;
 	pos oneinferior @MMK_R_cyrl_uc_Che -40;
@@ -4090,8 +4094,11 @@ feature kern {
 	pos onesuperior @MMK_R_latn_uc_y -40;
 	pos onesuperior @MMK_R_latn_uc_z -30;
 	pos parenleft @MMK_R_cyrl_lc_che -10;
+	pos parenleft @MMK_R_cyrl_lc_cheabkhaz -10;
 	pos parenleft @MMK_R_cyrl_lc_hardsign -10;
+	pos parenleft @MMK_R_cyrl_lc_te -10;
 	pos parenleft @MMK_R_cyrl_lc_u 20;
+	pos parenleft @MMK_R_cyrl_uc_Cheabkhaz -20;
 	pos parenleft @MMK_R_cyrl_uc_Hardsign 20;
 	pos parenleft @MMK_R_cyrl_uc_Kha 10;
 	pos parenleft @MMK_R_cyrl_uc_Te 20;
@@ -4139,6 +4146,7 @@ feature kern {
 	pos question @MMK_R_cyrl_lc_che 10;
 	pos question @MMK_R_cyrl_lc_hardsign 40;
 	pos question @MMK_R_cyrl_lc_kha 40;
+	pos question @MMK_R_cyrl_lc_te 40;
 	pos question @MMK_R_cyrl_lc_u 40;
 	pos question @MMK_R_cyrl_uc_A -10;
 	pos question @MMK_R_cyrl_uc_Che 30;
@@ -4186,6 +4194,7 @@ feature kern {
 	pos questiondown @MMK_R_latn_uc_u -30;
 	pos questiondown @MMK_R_latn_uc_w -15;
 	pos questiondown @MMK_R_latn_uc_y -65;
+	pos registered @MMK_R_cyrl_lc_te 30;
 	pos registered @MMK_R_cyrl_uc_A -50;
 	pos registered @MMK_R_cyrl_uc_Zhe -20;
 	pos registered @MMK_R_grek_uc_Alpha -50;
@@ -4208,6 +4217,7 @@ feature kern {
 	pos seveninferior @MMK_R_cyrl_lc_hardsign -20;
 	pos seveninferior @MMK_R_cyrl_lc_kha -5;
 	pos seveninferior @MMK_R_cyrl_lc_o 20;
+	pos seveninferior @MMK_R_cyrl_lc_te -30;
 	pos seveninferior @MMK_R_cyrl_lc_u 10;
 	pos seveninferior @MMK_R_cyrl_uc_El -20;
 	pos seveninferior @MMK_R_cyrl_uc_Hardsign -50;
@@ -4245,6 +4255,7 @@ feature kern {
 	pos sevensuperior @MMK_R_cyrl_lc_en -30;
 	pos sevensuperior @MMK_R_cyrl_lc_hardsign -10;
 	pos sevensuperior @MMK_R_cyrl_lc_o -40;
+	pos sevensuperior @MMK_R_cyrl_lc_te -10;
 	pos sevensuperior @MMK_R_cyrl_lc_u 10;
 	pos sevensuperior @MMK_R_cyrl_lc_zecyrilic -40;
 	pos sevensuperior @MMK_R_cyrl_lc_zhe -20;
@@ -4308,6 +4319,7 @@ feature kern {
 	pos sixinferior @MMK_R_cyrl_lc_che -25;
 	pos sixinferior @MMK_R_cyrl_lc_dje 10;
 	pos sixinferior @MMK_R_cyrl_lc_hardsign -50;
+	pos sixinferior @MMK_R_cyrl_lc_te -50;
 	pos sixinferior @MMK_R_cyrl_lc_u -20;
 	pos sixinferior @MMK_R_cyrl_uc_A 5;
 	pos sixinferior @MMK_R_cyrl_uc_Che -30;
@@ -4379,6 +4391,7 @@ feature kern {
 	pos slash @MMK_R_cyrl_lc_a -25;
 	pos slash @MMK_R_cyrl_lc_a.alt01 -45;
 	pos slash @MMK_R_cyrl_lc_che -20;
+	pos slash @MMK_R_cyrl_lc_cheabkhaz -20;
 	pos slash @MMK_R_cyrl_lc_el -40;
 	pos slash @MMK_R_cyrl_lc_en -30;
 	pos slash @MMK_R_cyrl_lc_kha -20;
@@ -4448,6 +4461,7 @@ feature kern {
 	pos threeinferior @MMK_R_cyrl_lc_a 15;
 	pos threeinferior @MMK_R_cyrl_lc_hardsign -20;
 	pos threeinferior @MMK_R_cyrl_lc_o 15;
+	pos threeinferior @MMK_R_cyrl_lc_te -50;
 	pos threeinferior @MMK_R_cyrl_lc_u -10;
 	pos threeinferior @MMK_R_cyrl_lc_zecyrilic -5;
 	pos threeinferior @MMK_R_cyrl_lc_zhe -10;
@@ -4484,6 +4498,7 @@ feature kern {
 	pos threesuperior @MMK_R_cyrl_lc_che 10;
 	pos threesuperior @MMK_R_cyrl_lc_el -30;
 	pos threesuperior @MMK_R_cyrl_lc_hardsign 10;
+	pos threesuperior @MMK_R_cyrl_lc_te 10;
 	pos threesuperior @MMK_R_cyrl_lc_u 25;
 	pos threesuperior @MMK_R_cyrl_uc_A -50;
 	pos threesuperior @MMK_R_cyrl_uc_Che 30;
@@ -4529,6 +4544,7 @@ feature kern {
 	pos twoinferior @MMK_R_cyrl_lc_hardsign -40;
 	pos twoinferior @MMK_R_cyrl_lc_kha 20;
 	pos twoinferior @MMK_R_cyrl_lc_o 5;
+	pos twoinferior @MMK_R_cyrl_lc_te -50;
 	pos twoinferior @MMK_R_cyrl_lc_u -20;
 	pos twoinferior @MMK_R_cyrl_lc_zecyrilic -5;
 	pos twoinferior @MMK_R_cyrl_uc_A 20;
@@ -4572,6 +4588,7 @@ feature kern {
 	pos twosuperior @MMK_R_cyrl_lc_che 20;
 	pos twosuperior @MMK_R_cyrl_lc_hardsign 10;
 	pos twosuperior @MMK_R_cyrl_lc_kha 10;
+	pos twosuperior @MMK_R_cyrl_lc_te 10;
 	pos twosuperior @MMK_R_cyrl_lc_u 30;
 	pos twosuperior @MMK_R_cyrl_uc_A -20;
 	pos twosuperior @MMK_R_cyrl_uc_Che 30;
@@ -4608,13 +4625,16 @@ feature kern {
 	pos underscore @MMK_R_cyrl_lc_a -35;
 	pos underscore @MMK_R_cyrl_lc_a.alt01 -50;
 	pos underscore @MMK_R_cyrl_lc_che -80;
+	pos underscore @MMK_R_cyrl_lc_cheabkhaz -30;
 	pos underscore @MMK_R_cyrl_lc_hardsign -30;
 	pos underscore @MMK_R_cyrl_lc_kha 20;
 	pos underscore @MMK_R_cyrl_lc_o -50;
+	pos underscore @MMK_R_cyrl_lc_te -60;
 	pos underscore @MMK_R_cyrl_lc_u 25;
 	pos underscore @MMK_R_cyrl_lc_zhe -10;
 	pos underscore @MMK_R_cyrl_uc_A 25;
 	pos underscore @MMK_R_cyrl_uc_Che -70;
+	pos underscore @MMK_R_cyrl_uc_Cheabkhaz -50;
 	pos underscore @MMK_R_cyrl_uc_El 30;
 	pos underscore @MMK_R_cyrl_uc_Hardsign -50;
 	pos underscore @MMK_R_cyrl_uc_Ii 20;
@@ -4658,6 +4678,7 @@ feature kern {
 	pos uni0402 @MMK_R_cyrl_lc_che -10;
 	pos uni0402 @MMK_R_cyrl_lc_el 10;
 	pos uni0402 @MMK_R_cyrl_lc_hardsign -20;
+	pos uni0402 @MMK_R_cyrl_lc_te -30;
 	pos uni0402 @MMK_R_cyrl_uc_Che -35;
 	pos uni0402 @MMK_R_cyrl_uc_El 10;
 	pos uni0402 @MMK_R_cyrl_uc_Hardsign -60;
@@ -4677,6 +4698,7 @@ feature kern {
 	pos uni0404 @MMK_R_inp_period -15;
 	pos uni0405 @MMK_R_cyrl_lc_che -10;
 	pos uni0405 @MMK_R_cyrl_lc_hardsign -10;
+	pos uni0405 @MMK_R_cyrl_lc_te -10;
 	pos uni0405 @MMK_R_cyrl_uc_Hardsign -15;
 	pos uni0405 @MMK_R_cyrl_uc_Te -15;
 	pos uni0405 @MMK_R_cyrl_uc_U -5;
@@ -4692,9 +4714,11 @@ feature kern {
 	pos uni0408 @MMK_R_inp_period -25;
 	pos uni0411 @MMK_R_cyrl_lc_hardsign -20;
 	pos uni0411 @MMK_R_cyrl_lc_kha -10;
+	pos uni0411 @MMK_R_cyrl_lc_te -30;
 	pos uni0411 @MMK_R_cyrl_lc_u -10;
 	pos uni0411 @MMK_R_cyrl_lc_zhe -10;
 	pos uni0411 @MMK_R_cyrl_uc_Che -15;
+	pos uni0411 @MMK_R_cyrl_uc_Cheabkhaz -10;
 	pos uni0411 @MMK_R_cyrl_uc_El -10;
 	pos uni0411 @MMK_R_cyrl_uc_Hardsign -42;
 	pos uni0411 @MMK_R_cyrl_uc_Te -42;
@@ -4711,6 +4735,7 @@ feature kern {
 	pos uni0412 @MMK_R_cyrl_lc_u -10;
 	pos uni0412 @MMK_R_cyrl_lc_zecyrilic -5;
 	pos uni0412 @MMK_R_cyrl_uc_A -5;
+	pos uni0412 @MMK_R_cyrl_uc_Cheabkhaz -15;
 	pos uni0412 @MMK_R_cyrl_uc_El -20;
 	pos uni0412 @MMK_R_cyrl_uc_Hardsign -25;
 	pos uni0412 @MMK_R_cyrl_uc_Kha -20;
@@ -4721,6 +4746,7 @@ feature kern {
 	pos uni0412 @MMK_R_inp_period -20;
 	pos uni0420 @MMK_R_cyrl_lc_a.alt01 -10;
 	pos uni0420 @MMK_R_cyrl_lc_kha 10;
+	pos uni0420 @MMK_R_cyrl_lc_o -10;
 	pos uni0420 @MMK_R_cyrl_lc_u 30;
 	pos uni0420 @MMK_R_cyrl_uc_A -35;
 	pos uni0420 @MMK_R_cyrl_uc_Che 10;
@@ -4735,16 +4761,19 @@ feature kern {
 	pos uni0422 @MMK_R_cyrl_lc_a -70;
 	pos uni0422 @MMK_R_cyrl_lc_a.alt01 -65;
 	pos uni0422 @MMK_R_cyrl_lc_che -60;
+	pos uni0422 @MMK_R_cyrl_lc_cheabkhaz -110;
 	pos uni0422 @MMK_R_cyrl_lc_el -50;
 	pos uni0422 @MMK_R_cyrl_lc_en -45;
 	pos uni0422 @MMK_R_cyrl_lc_hardsign -40;
 	pos uni0422 @MMK_R_cyrl_lc_kha -25;
 	pos uni0422 @MMK_R_cyrl_lc_o -65;
+	pos uni0422 @MMK_R_cyrl_lc_te -40;
 	pos uni0422 @MMK_R_cyrl_lc_u -40;
 	pos uni0422 @MMK_R_cyrl_lc_zecyrilic -60;
 	pos uni0422 @MMK_R_cyrl_lc_zhe -30;
 	pos uni0422 @MMK_R_cyrl_uc_A -45;
 	pos uni0422 @MMK_R_cyrl_uc_Che 15;
+	pos uni0422 @MMK_R_cyrl_uc_Cheabkhaz -20;
 	pos uni0422 @MMK_R_cyrl_uc_El -20;
 	pos uni0422 @MMK_R_cyrl_uc_Hardsign 30;
 	pos uni0422 @MMK_R_cyrl_uc_O -15;
@@ -4776,11 +4805,14 @@ feature kern {
 	pos uni0425 @MMK_R_cyrl_lc_a -15;
 	pos uni0425 @MMK_R_cyrl_lc_a.alt01 -10;
 	pos uni0425 @MMK_R_cyrl_lc_che -30;
+	pos uni0425 @MMK_R_cyrl_lc_cheabkhaz -10;
 	pos uni0425 @MMK_R_cyrl_lc_hardsign -20;
 	pos uni0425 @MMK_R_cyrl_lc_kha 10;
 	pos uni0425 @MMK_R_cyrl_lc_o -10;
+	pos uni0425 @MMK_R_cyrl_lc_te -20;
 	pos uni0425 @MMK_R_cyrl_lc_u -5;
 	pos uni0425 @MMK_R_cyrl_uc_A 10;
+	pos uni0425 @MMK_R_cyrl_uc_Cheabkhaz -20;
 	pos uni0425 @MMK_R_cyrl_uc_El 20;
 	pos uni0425 @MMK_R_cyrl_uc_O -10;
 	pos uni0425 @MMK_R_cyrl_uc_Ze -10;
@@ -4790,8 +4822,10 @@ feature kern {
 	pos uni0425 @MMK_R_inp_period 20;
 	pos uni0425 @MMK_R_inp_quotel 10;
 	pos uni0425 @MMK_R_inp_quoter 25;
+	pos uni0440 @MMK_R_cyrl_lc_cheabkhaz 5;
 	pos uni0440 @MMK_R_cyrl_lc_hardsign -20;
 	pos uni0440 @MMK_R_cyrl_lc_kha -10;
+	pos uni0440 @MMK_R_cyrl_lc_te -20;
 	pos uni0440 @MMK_R_cyrl_lc_u -5;
 	pos uni0440 @MMK_R_cyrl_lc_zhe -15;
 	pos uni0440 @MMK_R_cyrl_uc_Hardsign -40;
@@ -4808,6 +4842,7 @@ feature kern {
 	pos uni0440 @MMK_R_inp_quotel -15;
 	pos uni0440 @MMK_R_inp_quoter -15;
 	pos uni0442 @MMK_R_cyrl_lc_a -20;
+	pos uni0442 @MMK_R_cyrl_lc_cheabkhaz -20;
 	pos uni0442 @MMK_R_cyrl_lc_el -20;
 	pos uni0442 @MMK_R_cyrl_lc_o -20;
 	pos uni0442 @MMK_R_cyrl_lc_zecyrilic -10;
@@ -4828,6 +4863,7 @@ feature kern {
 	pos uni0442 @MMK_R_inp_quoter 50;
 	pos uni0444 @MMK_R_cyrl_lc_hardsign -20;
 	pos uni0444 @MMK_R_cyrl_lc_kha -10;
+	pos uni0444 @MMK_R_cyrl_lc_te -20;
 	pos uni0444 @MMK_R_cyrl_lc_u -10;
 	pos uni0444 @MMK_R_cyrl_lc_zhe -15;
 	pos uni0444 @MMK_R_cyrl_uc_Hardsign -40;
@@ -4843,6 +4879,7 @@ feature kern {
 	pos uni0444 @MMK_R_inp_quotel -30;
 	pos uni0444 @MMK_R_inp_quoter -10;
 	pos uni0445 @MMK_R_cyrl_lc_a.alt01 -10;
+	pos uni0445 @MMK_R_cyrl_lc_cheabkhaz -10;
 	pos uni0445 @MMK_R_cyrl_lc_o -25;
 	pos uni0445 @MMK_R_cyrl_lc_zecyrilic -10;
 	pos uni0445 @MMK_R_cyrl_uc_A 15;
@@ -4856,6 +4893,7 @@ feature kern {
 	pos uni0445 @MMK_R_inp_hyph -35;
 	pos uni0445 @MMK_R_inp_quoter 30;
 	pos uni0452 @MMK_R_cyrl_lc_hardsign -20;
+	pos uni0452 @MMK_R_cyrl_lc_te -20;
 	pos uni0452 @MMK_R_cyrl_lc_u -5;
 	pos uni0452 @MMK_R_cyrl_uc_Che -30;
 	pos uni0452 @MMK_R_cyrl_uc_Te -20;
@@ -4868,6 +4906,7 @@ feature kern {
 	pos uni0454 @MMK_R_cyrl_lc_hardsign -20;
 	pos uni0454 @MMK_R_cyrl_lc_kha -15;
 	pos uni0454 @MMK_R_cyrl_lc_o -10;
+	pos uni0454 @MMK_R_cyrl_lc_te -20;
 	pos uni0454 @MMK_R_cyrl_lc_u -5;
 	pos uni0454 @MMK_R_cyrl_lc_zecyrilic -10;
 	pos uni0454 @MMK_R_cyrl_lc_zhe -20;
@@ -4881,6 +4920,7 @@ feature kern {
 	pos uni0454 @MMK_R_inp_quotel -20;
 	pos uni0455 @MMK_R_cyrl_lc_hardsign -10;
 	pos uni0455 @MMK_R_cyrl_lc_kha -15;
+	pos uni0455 @MMK_R_cyrl_lc_te -10;
 	pos uni0455 @MMK_R_cyrl_lc_u -15;
 	pos uni0455 @MMK_R_cyrl_uc_Hardsign -40;
 	pos uni0455 @MMK_R_cyrl_uc_Kha -5;
@@ -4902,6 +4942,7 @@ feature kern {
 	pos uni0492 @MMK_R_cyrl_lc_hardsign -60;
 	pos uni0492 @MMK_R_cyrl_lc_kha -40;
 	pos uni0492 @MMK_R_cyrl_lc_o -80;
+	pos uni0492 @MMK_R_cyrl_lc_te -60;
 	pos uni0492 @MMK_R_cyrl_lc_u -40;
 	pos uni0492 @MMK_R_cyrl_lc_zecyrilic -60;
 	pos uni0492 @MMK_R_cyrl_lc_zhe -40;
@@ -4940,30 +4981,6 @@ feature kern {
 	pos uni0493 @MMK_R_inp_period -90;
 	pos uni0493 @MMK_R_inp_quotel 20;
 	pos uni0493 @MMK_R_inp_quoter 40;
-	pos uni0494 @MMK_R_cyrl_lc_che -10;
-	pos uni0494 @MMK_R_cyrl_lc_el 10;
-	pos uni0494 @MMK_R_cyrl_lc_hardsign -20;
-	pos uni0494 @MMK_R_cyrl_uc_Che -35;
-	pos uni0494 @MMK_R_cyrl_uc_El 10;
-	pos uni0494 @MMK_R_cyrl_uc_Hardsign -60;
-	pos uni0494 @MMK_R_cyrl_uc_Te -60;
-	pos uni0494 @MMK_R_cyrl_uc_U -30;
-	pos uni0494 @MMK_R_cyrl_uc_Ze -10;
-	pos uni0494 @MMK_R_inp_foot -40;
-	pos uni0494 @MMK_R_inp_quotel -50;
-	pos uni0494 @MMK_R_inp_quoter -50;
-	pos uni0495 @MMK_R_cyrl_lc_che -30;
-	pos uni0495 @MMK_R_cyrl_lc_el 10;
-	pos uni0495 @MMK_R_cyrl_lc_hardsign -30;
-	pos uni0495 @MMK_R_cyrl_lc_u -10;
-	pos uni0495 @MMK_R_cyrl_uc_Che -30;
-	pos uni0495 @MMK_R_cyrl_uc_El 20;
-	pos uni0495 @MMK_R_cyrl_uc_Hardsign -50;
-	pos uni0495 @MMK_R_cyrl_uc_O -20;
-	pos uni0495 @MMK_R_cyrl_uc_Te -60;
-	pos uni0495 @MMK_R_cyrl_uc_U -40;
-	pos uni0495 @MMK_R_inp_foot -20;
-	pos uni0495 @MMK_R_inp_quotel -20;
 	pos uni04AE @MMK_R_cyrl_lc_a -50;
 	pos uni04AE @MMK_R_cyrl_lc_a.alt01 -45;
 	pos uni04AE @MMK_R_cyrl_lc_che -20;
@@ -4972,6 +4989,7 @@ feature kern {
 	pos uni04AE @MMK_R_cyrl_lc_hardsign -10;
 	pos uni04AE @MMK_R_cyrl_lc_kha -10;
 	pos uni04AE @MMK_R_cyrl_lc_o -45;
+	pos uni04AE @MMK_R_cyrl_lc_te -10;
 	pos uni04AE @MMK_R_cyrl_lc_u -15;
 	pos uni04AE @MMK_R_cyrl_lc_zecyrilic -30;
 	pos uni04AE @MMK_R_cyrl_lc_zhe -20;
@@ -5013,6 +5031,7 @@ feature kern {
 	pos uni04B0 @MMK_R_cyrl_lc_en -20;
 	pos uni04B0 @MMK_R_cyrl_lc_kha -10;
 	pos uni04B0 @MMK_R_cyrl_lc_o -20;
+	pos uni04B0 @MMK_R_cyrl_lc_te -10;
 	pos uni04B0 @MMK_R_cyrl_lc_zecyrilic -10;
 	pos uni04B0 @MMK_R_cyrl_lc_zhe -20;
 	pos uni04B0 @MMK_R_cyrl_uc_A -30;
@@ -5044,12 +5063,15 @@ feature kern {
 	pos uni04B1 @MMK_R_inp_quoter 40;
 	pos uni04B2 @MMK_R_cyrl_lc_a.alt01 -15;
 	pos uni04B2 @MMK_R_cyrl_lc_che -30;
+	pos uni04B2 @MMK_R_cyrl_lc_cheabkhaz -25;
 	pos uni04B2 @MMK_R_cyrl_lc_el 50;
 	pos uni04B2 @MMK_R_cyrl_lc_hardsign -20;
 	pos uni04B2 @MMK_R_cyrl_lc_kha 20;
 	pos uni04B2 @MMK_R_cyrl_lc_o -10;
+	pos uni04B2 @MMK_R_cyrl_lc_te -20;
 	pos uni04B2 @MMK_R_cyrl_lc_zhe 10;
 	pos uni04B2 @MMK_R_cyrl_uc_A 20;
+	pos uni04B2 @MMK_R_cyrl_uc_Cheabkhaz -40;
 	pos uni04B2 @MMK_R_cyrl_uc_El 50;
 	pos uni04B2 @MMK_R_cyrl_uc_Kha 30;
 	pos uni04B2 @MMK_R_cyrl_uc_O -20;
@@ -5060,6 +5082,7 @@ feature kern {
 	pos uni04B2 @MMK_R_inp_period 40;
 	pos uni04B3 @MMK_R_cyrl_lc_a.alt01 -15;
 	pos uni04B3 @MMK_R_cyrl_lc_che -10;
+	pos uni04B3 @MMK_R_cyrl_lc_cheabkhaz -20;
 	pos uni04B3 @MMK_R_cyrl_lc_el 50;
 	pos uni04B3 @MMK_R_cyrl_lc_kha 20;
 	pos uni04B3 @MMK_R_cyrl_lc_zhe 20;
@@ -5075,6 +5098,12 @@ feature kern {
 	pos uni04B3 @MMK_R_inp_hyph -35;
 	pos uni04B3 @MMK_R_inp_period 40;
 	pos uni04B3 @MMK_R_inp_quoter 30;
+	pos uni04E1 @MMK_R_cyrl_lc_a -5;
+	pos uni04E1 @MMK_R_cyrl_lc_cheabkhaz -12;
+	pos uni04E1 @MMK_R_cyrl_lc_o -10;
+	pos uni04E1 @MMK_R_cyrl_lc_te -10;
+	pos uni04E1 @MMK_R_cyrl_lc_u -5;
+	pos uni04E1 @MMK_R_inp_hyph -30;
 	pos v @MMK_R_inp_foot 35;
 	pos v @MMK_R_inp_period -40;
 	pos v @MMK_R_inp_quotel 30;
@@ -5120,6 +5149,7 @@ feature kern {
 	pos xi @MMK_R_inp_quotel -20;
 	pos zeroinferior @MMK_R_cyrl_lc_hardsign -40;
 	pos zeroinferior @MMK_R_cyrl_lc_o 15;
+	pos zeroinferior @MMK_R_cyrl_lc_te -50;
 	pos zeroinferior @MMK_R_cyrl_lc_u -20;
 	pos zeroinferior @MMK_R_cyrl_uc_A 30;
 	pos zeroinferior @MMK_R_cyrl_uc_Che -30;
@@ -5156,6 +5186,7 @@ feature kern {
 	pos zerosuperior @MMK_R_cyrl_lc_el -25;
 	pos zerosuperior @MMK_R_cyrl_lc_hardsign 20;
 	pos zerosuperior @MMK_R_cyrl_lc_kha 10;
+	pos zerosuperior @MMK_R_cyrl_lc_te 20;
 	pos zerosuperior @MMK_R_cyrl_lc_u 20;
 	pos zerosuperior @MMK_R_cyrl_uc_A -40;
 	pos zerosuperior @MMK_R_cyrl_uc_Che 30;
@@ -7028,6 +7059,7 @@ feature kern {
 	pos @MMK_L_cyrl_lc_a @MMK_R_cyrl_lc_el 20;
 	pos @MMK_L_cyrl_lc_a @MMK_R_cyrl_lc_hardsign -20;
 	pos @MMK_L_cyrl_lc_a @MMK_R_cyrl_lc_kha 10;
+	pos @MMK_L_cyrl_lc_a @MMK_R_cyrl_lc_te -20;
 	pos @MMK_L_cyrl_lc_a @MMK_R_cyrl_lc_u -10;
 	pos @MMK_L_cyrl_lc_a @MMK_R_cyrl_uc_A 30;
 	pos @MMK_L_cyrl_lc_a @MMK_R_cyrl_uc_Che -20;
@@ -7061,16 +7093,19 @@ feature kern {
 	pos @MMK_L_cyrl_lc_a uni0414 20;
 	pos @MMK_L_cyrl_lc_a uni0431 13;
 	pos @MMK_L_cyrl_lc_a uni0434 40;
-	pos @MMK_L_cyrl_lc_a uni0442 -20;
+	pos @MMK_L_cyrl_lc_a uni0474 -25;
+	pos @MMK_L_cyrl_lc_a uni0475 -10;
 	pos @MMK_L_cyrl_lc_a uni04AE -45;
 	pos @MMK_L_cyrl_lc_a uni04AF -10;
 	pos @MMK_L_cyrl_lc_a uni04B0 -20;
 	pos @MMK_L_cyrl_lc_a uni04D4 30;
+	pos @MMK_L_cyrl_lc_a uni04E1 -10;
 	pos @MMK_L_cyrl_lc_a zeroinferior 10;
 	pos @MMK_L_cyrl_lc_a zerosuperior -10;
 	pos @MMK_L_cyrl_lc_de @MMK_R_cyrl_lc_a.alt01 -5;
 	pos @MMK_L_cyrl_lc_de @MMK_R_cyrl_lc_che -20;
 	pos @MMK_L_cyrl_lc_de @MMK_R_cyrl_lc_hardsign -30;
+	pos @MMK_L_cyrl_lc_de @MMK_R_cyrl_lc_te -30;
 	pos @MMK_L_cyrl_lc_de @MMK_R_cyrl_uc_Che -20;
 	pos @MMK_L_cyrl_lc_de @MMK_R_cyrl_uc_Hardsign -20;
 	pos @MMK_L_cyrl_lc_de @MMK_R_cyrl_uc_O -10;
@@ -7093,7 +7128,8 @@ feature kern {
 	pos @MMK_L_cyrl_lc_de uni0414 15;
 	pos @MMK_L_cyrl_lc_de uni042D -10;
 	pos @MMK_L_cyrl_lc_de uni0434 25;
-	pos @MMK_L_cyrl_lc_de uni0442 -30;
+	pos @MMK_L_cyrl_lc_de uni0474 -30;
+	pos @MMK_L_cyrl_lc_de uni0475 -8;
 	pos @MMK_L_cyrl_lc_de uni04AE -40;
 	pos @MMK_L_cyrl_lc_de uni04AF -5;
 	pos @MMK_L_cyrl_lc_de uni04B0 -20;
@@ -7143,16 +7179,20 @@ feature kern {
 	pos @MMK_L_cyrl_lc_es uni0405 5;
 	pos @MMK_L_cyrl_lc_es uni0408 10;
 	pos @MMK_L_cyrl_lc_es uni0444 -10;
+	pos @MMK_L_cyrl_lc_es uni0474 -30;
 	pos @MMK_L_cyrl_lc_es uni0493 10;
 	pos @MMK_L_cyrl_lc_es uni04AE -25;
 	pos @MMK_L_cyrl_lc_es uni04AF -5;
 	pos @MMK_L_cyrl_lc_es uni04B0 -20;
 	pos @MMK_L_cyrl_lc_es uni04B1 -5;
 	pos @MMK_L_cyrl_lc_es uni04D4 20;
+	pos @MMK_L_cyrl_lc_es uni04E1 -5;
 	pos @MMK_L_cyrl_lc_es zeroinferior 20;
 	pos @MMK_L_cyrl_lc_es zerosuperior 20;
 	pos @MMK_L_cyrl_lc_ge @MMK_R_cyrl_lc_a -25;
 	pos @MMK_L_cyrl_lc_ge @MMK_R_cyrl_lc_a.alt01 -20;
+	pos @MMK_L_cyrl_lc_ge @MMK_R_cyrl_lc_cheabkhaz -20;
+	pos @MMK_L_cyrl_lc_ge @MMK_R_cyrl_lc_dje -10;
 	pos @MMK_L_cyrl_lc_ge @MMK_R_cyrl_lc_el -35;
 	pos @MMK_L_cyrl_lc_ge @MMK_R_cyrl_lc_o -30;
 	pos @MMK_L_cyrl_lc_ge @MMK_R_cyrl_lc_zecyrilic -10;
@@ -7194,11 +7234,61 @@ feature kern {
 	pos @MMK_L_cyrl_lc_ge uni044D -10;
 	pos @MMK_L_cyrl_lc_ge uni044F -20;
 	pos @MMK_L_cyrl_lc_ge uni0455 -10;
+	pos @MMK_L_cyrl_lc_ge uni0474 -10;
 	pos @MMK_L_cyrl_lc_ge uni0493 -20;
 	pos @MMK_L_cyrl_lc_ge uni04D4 -60;
+	pos @MMK_L_cyrl_lc_ge uni04E1 -10;
 	pos @MMK_L_cyrl_lc_ge zeroinferior -70;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_lc_che -30;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_lc_el 10;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_lc_hardsign -30;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_lc_te -30;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_lc_u -10;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_uc_Che -30;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_uc_El 20;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_uc_Hardsign -50;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_uc_O -20;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_uc_Te -60;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_cyrl_uc_U -40;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_inp_foot -20;
+	pos @MMK_L_cyrl_lc_ghehook @MMK_R_inp_quotel -20;
+	pos @MMK_L_cyrl_lc_ghehook eightinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook eightsuperior -20;
+	pos @MMK_L_cyrl_lc_ghehook fiveinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook fivesuperior -30;
+	pos @MMK_L_cyrl_lc_ghehook fourinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook foursuperior -10;
+	pos @MMK_L_cyrl_lc_ghehook nineinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook ninesuperior -30;
+	pos @MMK_L_cyrl_lc_ghehook oneinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook onesuperior -30;
+	pos @MMK_L_cyrl_lc_ghehook question -10;
+	pos @MMK_L_cyrl_lc_ghehook registered -20;
+	pos @MMK_L_cyrl_lc_ghehook seveninferior 10;
+	pos @MMK_L_cyrl_lc_ghehook sevensuperior -40;
+	pos @MMK_L_cyrl_lc_ghehook sixinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook sixsuperior -20;
+	pos @MMK_L_cyrl_lc_ghehook threeinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook threesuperior -40;
+	pos @MMK_L_cyrl_lc_ghehook trademark -40;
+	pos @MMK_L_cyrl_lc_ghehook twoinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook twosuperior -20;
+	pos @MMK_L_cyrl_lc_ghehook uni0408 10;
+	pos @MMK_L_cyrl_lc_ghehook uni0414 30;
+	pos @MMK_L_cyrl_lc_ghehook uni0434 20;
+	pos @MMK_L_cyrl_lc_ghehook uni0474 -40;
+	pos @MMK_L_cyrl_lc_ghehook uni0475 -8;
+	pos @MMK_L_cyrl_lc_ghehook uni04AE -30;
+	pos @MMK_L_cyrl_lc_ghehook uni04AF -10;
+	pos @MMK_L_cyrl_lc_ghehook uni04B0 -30;
+	pos @MMK_L_cyrl_lc_ghehook uni04B1 -10;
+	pos @MMK_L_cyrl_lc_ghehook uni04D4 20;
+	pos @MMK_L_cyrl_lc_ghehook zeroinferior 10;
+	pos @MMK_L_cyrl_lc_ghehook zerosuperior -30;
+	pos @MMK_L_cyrl_lc_je @MMK_R_cyrl_lc_cheabkhaz 5;
 	pos @MMK_L_cyrl_lc_je @MMK_R_cyrl_lc_hardsign -20;
 	pos @MMK_L_cyrl_lc_je @MMK_R_cyrl_lc_kha -10;
+	pos @MMK_L_cyrl_lc_je @MMK_R_cyrl_lc_te -20;
 	pos @MMK_L_cyrl_lc_je @MMK_R_cyrl_lc_u -5;
 	pos @MMK_L_cyrl_lc_je @MMK_R_cyrl_lc_zhe -20;
 	pos @MMK_L_cyrl_lc_je @MMK_R_cyrl_uc_Hardsign -50;
@@ -7233,7 +7323,8 @@ feature kern {
 	pos @MMK_L_cyrl_lc_je underscore -40;
 	pos @MMK_L_cyrl_lc_je uni0405 -10;
 	pos @MMK_L_cyrl_lc_je uni0431 10;
-	pos @MMK_L_cyrl_lc_je uni0442 -20;
+	pos @MMK_L_cyrl_lc_je uni0474 -30;
+	pos @MMK_L_cyrl_lc_je uni0475 -5;
 	pos @MMK_L_cyrl_lc_je uni0493 20;
 	pos @MMK_L_cyrl_lc_je uni04AE -45;
 	pos @MMK_L_cyrl_lc_je uni04AF -5;
@@ -7242,6 +7333,7 @@ feature kern {
 	pos @MMK_L_cyrl_lc_je zeroinferior 15;
 	pos @MMK_L_cyrl_lc_ka @MMK_R_cyrl_lc_a -10;
 	pos @MMK_L_cyrl_lc_ka @MMK_R_cyrl_lc_a.alt01 -20;
+	pos @MMK_L_cyrl_lc_ka @MMK_R_cyrl_lc_cheabkhaz -25;
 	pos @MMK_L_cyrl_lc_ka @MMK_R_cyrl_lc_o -20;
 	pos @MMK_L_cyrl_lc_ka @MMK_R_cyrl_lc_zecyrilic -10;
 	pos @MMK_L_cyrl_lc_ka @MMK_R_cyrl_uc_Hardsign -20;
@@ -7269,12 +7361,16 @@ feature kern {
 	pos @MMK_L_cyrl_lc_ka uni0434 30;
 	pos @MMK_L_cyrl_lc_ka uni0444 -15;
 	pos @MMK_L_cyrl_lc_ka uni044D -10;
+	pos @MMK_L_cyrl_lc_ka uni0474 -20;
+	pos @MMK_L_cyrl_lc_ka uni0475 -5;
 	pos @MMK_L_cyrl_lc_ka uni04AE -20;
 	pos @MMK_L_cyrl_lc_ka uni04B0 -20;
+	pos @MMK_L_cyrl_lc_ka uni04E1 -20;
 	pos @MMK_L_cyrl_lc_ka zeroinferior -10;
 	pos @MMK_L_cyrl_lc_ka zerosuperior 10;
 	pos @MMK_L_cyrl_lc_kadescender @MMK_R_cyrl_lc_a.alt01 -20;
 	pos @MMK_L_cyrl_lc_kadescender @MMK_R_cyrl_lc_che -10;
+	pos @MMK_L_cyrl_lc_kadescender @MMK_R_cyrl_lc_cheabkhaz -30;
 	pos @MMK_L_cyrl_lc_kadescender @MMK_R_cyrl_lc_el 10;
 	pos @MMK_L_cyrl_lc_kadescender @MMK_R_cyrl_lc_o -20;
 	pos @MMK_L_cyrl_lc_kadescender @MMK_R_cyrl_lc_zecyrilic -10;
@@ -7299,11 +7395,16 @@ feature kern {
 	pos @MMK_L_cyrl_lc_kadescender uni0434 20;
 	pos @MMK_L_cyrl_lc_kadescender uni0444 -15;
 	pos @MMK_L_cyrl_lc_kadescender uni044D -10;
+	pos @MMK_L_cyrl_lc_kadescender uni0474 -20;
+	pos @MMK_L_cyrl_lc_kadescender uni0475 -5;
 	pos @MMK_L_cyrl_lc_kadescender uni04AE -20;
 	pos @MMK_L_cyrl_lc_kadescender uni04B0 -20;
 	pos @MMK_L_cyrl_lc_kadescender uni04D4 10;
+	pos @MMK_L_cyrl_lc_kadescender uni04E1 -5;
+	pos @MMK_L_cyrl_lc_o @MMK_R_cyrl_lc_cheabkhaz 10;
 	pos @MMK_L_cyrl_lc_o @MMK_R_cyrl_lc_hardsign -20;
 	pos @MMK_L_cyrl_lc_o @MMK_R_cyrl_lc_kha -10;
+	pos @MMK_L_cyrl_lc_o @MMK_R_cyrl_lc_te -20;
 	pos @MMK_L_cyrl_lc_o @MMK_R_cyrl_lc_zecyrilic -10;
 	pos @MMK_L_cyrl_lc_o @MMK_R_cyrl_lc_zhe -20;
 	pos @MMK_L_cyrl_lc_o @MMK_R_cyrl_uc_Che -10;
@@ -7339,13 +7440,16 @@ feature kern {
 	pos @MMK_L_cyrl_lc_o uni042D -10;
 	pos @MMK_L_cyrl_lc_o uni042F -10;
 	pos @MMK_L_cyrl_lc_o uni0431 10;
-	pos @MMK_L_cyrl_lc_o uni0442 -20;
 	pos @MMK_L_cyrl_lc_o uni044D -10;
+	pos @MMK_L_cyrl_lc_o uni0474 -10;
+	pos @MMK_L_cyrl_lc_o uni0475 -5;
 	pos @MMK_L_cyrl_lc_o uni0493 20;
 	pos @MMK_L_cyrl_lc_o uni04AE -45;
 	pos @MMK_L_cyrl_lc_o uni04B0 -20;
+	pos @MMK_L_cyrl_lc_o uni04E1 -15;
 	pos @MMK_L_cyrl_lc_o zeroinferior 15;
 	pos @MMK_L_cyrl_lc_shha @MMK_R_cyrl_lc_hardsign -20;
+	pos @MMK_L_cyrl_lc_shha @MMK_R_cyrl_lc_te -20;
 	pos @MMK_L_cyrl_lc_shha @MMK_R_cyrl_lc_u -10;
 	pos @MMK_L_cyrl_lc_shha @MMK_R_cyrl_uc_Hardsign -30;
 	pos @MMK_L_cyrl_lc_shha @MMK_R_cyrl_uc_Te -55;
@@ -7363,7 +7467,8 @@ feature kern {
 	pos @MMK_L_cyrl_lc_shha slash 15;
 	pos @MMK_L_cyrl_lc_shha threesuperior -10;
 	pos @MMK_L_cyrl_lc_shha trademark -65;
-	pos @MMK_L_cyrl_lc_shha uni0442 -20;
+	pos @MMK_L_cyrl_lc_shha uni0474 -30;
+	pos @MMK_L_cyrl_lc_shha uni0475 -8;
 	pos @MMK_L_cyrl_lc_shha uni04AE -45;
 	pos @MMK_L_cyrl_lc_shha uni04AF -10;
 	pos @MMK_L_cyrl_lc_shha uni04B1 -10;
@@ -7371,6 +7476,7 @@ feature kern {
 	pos @MMK_L_cyrl_lc_softsign @MMK_R_cyrl_lc_che -30;
 	pos @MMK_L_cyrl_lc_softsign @MMK_R_cyrl_lc_hardsign -70;
 	pos @MMK_L_cyrl_lc_softsign @MMK_R_cyrl_lc_kha -20;
+	pos @MMK_L_cyrl_lc_softsign @MMK_R_cyrl_lc_te -70;
 	pos @MMK_L_cyrl_lc_softsign @MMK_R_cyrl_lc_u -25;
 	pos @MMK_L_cyrl_lc_softsign @MMK_R_cyrl_lc_zhe -20;
 	pos @MMK_L_cyrl_lc_softsign @MMK_R_cyrl_uc_Che -80;
@@ -7399,13 +7505,28 @@ feature kern {
 	pos @MMK_L_cyrl_lc_softsign underscore -20;
 	pos @MMK_L_cyrl_lc_softsign uni0408 10;
 	pos @MMK_L_cyrl_lc_softsign uni042F -10;
-	pos @MMK_L_cyrl_lc_softsign uni0442 -70;
+	pos @MMK_L_cyrl_lc_softsign uni0474 -60;
+	pos @MMK_L_cyrl_lc_softsign uni0475 -12;
 	pos @MMK_L_cyrl_lc_softsign uni0493 10;
 	pos @MMK_L_cyrl_lc_softsign uni04AE -80;
 	pos @MMK_L_cyrl_lc_softsign uni04AF -25;
 	pos @MMK_L_cyrl_lc_softsign uni04B0 -40;
 	pos @MMK_L_cyrl_lc_softsign uni04B1 -25;
+	pos @MMK_L_cyrl_lc_softsign uni04E1 -20;
 	pos @MMK_L_cyrl_lc_softsign zerosuperior -40;
+	pos @MMK_L_cyrl_lc_tedescend @MMK_R_cyrl_lc_a -15;
+	pos @MMK_L_cyrl_lc_tedescend @MMK_R_cyrl_lc_cheabkhaz -30;
+	pos @MMK_L_cyrl_lc_tedescend @MMK_R_cyrl_lc_el -20;
+	pos @MMK_L_cyrl_lc_tedescend @MMK_R_cyrl_lc_o -20;
+	pos @MMK_L_cyrl_lc_tedescend @MMK_R_cyrl_lc_zecyrilic -10;
+	pos @MMK_L_cyrl_lc_tedescend @MMK_R_inp_hyph -50;
+	pos @MMK_L_cyrl_lc_tedescend @MMK_R_inp_period -60;
+	pos @MMK_L_cyrl_lc_tedescend parenright -20;
+	pos @MMK_L_cyrl_lc_tedescend underscore -60;
+	pos @MMK_L_cyrl_lc_tedescend uni0434 -20;
+	pos @MMK_L_cyrl_lc_tedescend uni0444 -20;
+	pos @MMK_L_cyrl_lc_tedescend uni0474 -25;
+	pos @MMK_L_cyrl_lc_tedescend uni04E1 -5;
 	pos @MMK_L_cyrl_lc_u @MMK_R_cyrl_lc_a -15;
 	pos @MMK_L_cyrl_lc_u @MMK_R_cyrl_lc_a.alt01 -10;
 	pos @MMK_L_cyrl_lc_u @MMK_R_cyrl_lc_el -10;
@@ -7449,10 +7570,12 @@ feature kern {
 	pos @MMK_L_cyrl_lc_u uni0414 -10;
 	pos @MMK_L_cyrl_lc_u uni0434 -10;
 	pos @MMK_L_cyrl_lc_u uni0444 -10;
+	pos @MMK_L_cyrl_lc_u uni0474 -10;
 	pos @MMK_L_cyrl_lc_u uni0493 10;
 	pos @MMK_L_cyrl_lc_u uni04AE -15;
 	pos @MMK_L_cyrl_lc_u uni04B0 -15;
 	pos @MMK_L_cyrl_lc_u uni04D4 -15;
+	pos @MMK_L_cyrl_lc_u uni04E1 -5;
 	pos @MMK_L_cyrl_lc_u zeroinferior -30;
 	pos @MMK_L_cyrl_lc_u zerosuperior 20;
 	pos @MMK_L_cyrl_lc_ve @MMK_R_cyrl_lc_a -10;
@@ -7460,6 +7583,7 @@ feature kern {
 	pos @MMK_L_cyrl_lc_ve @MMK_R_cyrl_lc_el -10;
 	pos @MMK_L_cyrl_lc_ve @MMK_R_cyrl_lc_hardsign -30;
 	pos @MMK_L_cyrl_lc_ve @MMK_R_cyrl_lc_kha -20;
+	pos @MMK_L_cyrl_lc_ve @MMK_R_cyrl_lc_te -20;
 	pos @MMK_L_cyrl_lc_ve @MMK_R_cyrl_lc_u -10;
 	pos @MMK_L_cyrl_lc_ve @MMK_R_cyrl_lc_zecyrilic -15;
 	pos @MMK_L_cyrl_lc_ve @MMK_R_cyrl_lc_zhe -20;
@@ -7487,21 +7611,26 @@ feature kern {
 	pos @MMK_L_cyrl_lc_ve uni0414 -20;
 	pos @MMK_L_cyrl_lc_ve uni042D -20;
 	pos @MMK_L_cyrl_lc_ve uni042F -30;
-	pos @MMK_L_cyrl_lc_ve uni0442 -20;
 	pos @MMK_L_cyrl_lc_ve uni044D -15;
 	pos @MMK_L_cyrl_lc_ve uni044F -10;
 	pos @MMK_L_cyrl_lc_ve uni0455 -20;
+	pos @MMK_L_cyrl_lc_ve uni0474 -45;
+	pos @MMK_L_cyrl_lc_ve uni0475 -5;
 	pos @MMK_L_cyrl_lc_ve uni04AE -50;
 	pos @MMK_L_cyrl_lc_ve uni04AF -10;
 	pos @MMK_L_cyrl_lc_ve uni04B0 -30;
 	pos @MMK_L_cyrl_lc_ve uni04B1 -10;
+	pos @MMK_L_cyrl_lc_ve uni04E1 -15;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_lc_che -40;
+	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_lc_dje -15;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_lc_el 20;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_lc_hardsign -30;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_lc_kha 15;
+	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_lc_te -40;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_lc_u -15;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_uc_A 15;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_uc_Che -35;
+	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_uc_Cheabkhaz -35;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_uc_El 15;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_uc_Hardsign -45;
 	pos @MMK_L_cyrl_uc_A @MMK_R_cyrl_uc_Kha 10;
@@ -7542,20 +7671,33 @@ feature kern {
 	pos @MMK_L_cyrl_uc_A uni0424 -20;
 	pos @MMK_L_cyrl_uc_A uni042D -5;
 	pos @MMK_L_cyrl_uc_A uni0434 30;
-	pos @MMK_L_cyrl_uc_A uni0442 -40;
+	pos @MMK_L_cyrl_uc_A uni0474 -30;
+	pos @MMK_L_cyrl_uc_A uni0475 -10;
+	pos @MMK_L_cyrl_uc_A uni049E -20;
 	pos @MMK_L_cyrl_uc_A uni04AE -40;
 	pos @MMK_L_cyrl_uc_A uni04AF -15;
 	pos @MMK_L_cyrl_uc_A uni04B0 -30;
 	pos @MMK_L_cyrl_uc_A uni04B1 -10;
 	pos @MMK_L_cyrl_uc_A uni04D4 15;
+	pos @MMK_L_cyrl_uc_A uni04E1 -10;
 	pos @MMK_L_cyrl_uc_A zeroinferior 30;
 	pos @MMK_L_cyrl_uc_A zerosuperior -40;
+	pos @MMK_L_cyrl_uc_Cheabkhaz @MMK_R_cyrl_lc_cheabkhaz 10;
+	pos @MMK_L_cyrl_uc_Cheabkhaz @MMK_R_cyrl_uc_Kha -5;
+	pos @MMK_L_cyrl_uc_Cheabkhaz @MMK_R_cyrl_uc_Te -15;
+	pos @MMK_L_cyrl_uc_Cheabkhaz @MMK_R_cyrl_uc_U -10;
+	pos @MMK_L_cyrl_uc_Cheabkhaz @MMK_R_cyrl_uc_Ze -10;
+	pos @MMK_L_cyrl_uc_Cheabkhaz @MMK_R_cyrl_uc_Zhe -20;
+	pos @MMK_L_cyrl_uc_Cheabkhaz underscore -20;
+	pos @MMK_L_cyrl_uc_Cheabkhaz uni04E1 -5;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_lc_a -10;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_lc_a.alt01 -10;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_lc_che -30;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_lc_hardsign -30;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_lc_o -10;
+	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_lc_te -30;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_uc_Che -20;
+	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_uc_Cheabkhaz -15;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_uc_Hardsign -30;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_uc_O -20;
 	pos @MMK_L_cyrl_uc_De @MMK_R_cyrl_uc_Te -30;
@@ -7590,15 +7732,20 @@ feature kern {
 	pos @MMK_L_cyrl_uc_De uni0424 -20;
 	pos @MMK_L_cyrl_uc_De uni042D -10;
 	pos @MMK_L_cyrl_uc_De uni0434 15;
-	pos @MMK_L_cyrl_uc_De uni0442 -30;
 	pos @MMK_L_cyrl_uc_De uni0444 -10;
+	pos @MMK_L_cyrl_uc_De uni0474 -10;
+	pos @MMK_L_cyrl_uc_De uni0475 -15;
+	pos @MMK_L_cyrl_uc_De uni049E -15;
 	pos @MMK_L_cyrl_uc_De uni04AE -30;
 	pos @MMK_L_cyrl_uc_De uni04AF -20;
 	pos @MMK_L_cyrl_uc_De uni04B0 -30;
 	pos @MMK_L_cyrl_uc_De uni04B1 -10;
 	pos @MMK_L_cyrl_uc_De uni04D4 10;
+	pos @MMK_L_cyrl_uc_De uni04E0 -5;
 	pos @MMK_L_cyrl_uc_Es @MMK_R_cyrl_lc_che -10;
+	pos @MMK_L_cyrl_uc_Es @MMK_R_cyrl_lc_cheabkhaz -50;
 	pos @MMK_L_cyrl_uc_Es @MMK_R_cyrl_uc_A -5;
+	pos @MMK_L_cyrl_uc_Es @MMK_R_cyrl_uc_Cheabkhaz -20;
 	pos @MMK_L_cyrl_uc_Es @MMK_R_cyrl_uc_Hardsign -10;
 	pos @MMK_L_cyrl_uc_Es @MMK_R_cyrl_uc_O -15;
 	pos @MMK_L_cyrl_uc_Es @MMK_R_cyrl_uc_Te -10;
@@ -7624,21 +7771,26 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Es underscore -20;
 	pos @MMK_L_cyrl_uc_Es uni0424 -15;
 	pos @MMK_L_cyrl_uc_Es uni042D -10;
+	pos @MMK_L_cyrl_uc_Es uni0475 -10;
 	pos @MMK_L_cyrl_uc_Es uni04D4 -5;
 	pos @MMK_L_cyrl_uc_Es zerosuperior -5;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_a -100;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_a.alt01 -65;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_che -80;
+	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_cheabkhaz -120;
+	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_dje -20;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_el -70;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_en -70;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_hardsign -70;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_kha -50;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_o -100;
+	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_te -70;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_u -50;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_zecyrilic -80;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_lc_zhe -50;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_uc_A -85;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_uc_Che 15;
+	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_uc_Cheabkhaz -40;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_uc_El -50;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_uc_Hardsign 30;
 	pos @MMK_L_cyrl_uc_Ge @MMK_R_cyrl_uc_O -40;
@@ -7684,22 +7836,72 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Ge uni0431 -20;
 	pos @MMK_L_cyrl_uc_Ge uni0434 -60;
 	pos @MMK_L_cyrl_uc_Ge uni0440 -70;
-	pos @MMK_L_cyrl_uc_Ge uni0442 -70;
 	pos @MMK_L_cyrl_uc_Ge uni0444 -90;
 	pos @MMK_L_cyrl_uc_Ge uni044D -80;
 	pos @MMK_L_cyrl_uc_Ge uni044F -70;
 	pos @MMK_L_cyrl_uc_Ge uni0455 -80;
 	pos @MMK_L_cyrl_uc_Ge uni0458 -30;
+	pos @MMK_L_cyrl_uc_Ge uni0475 -40;
 	pos @MMK_L_cyrl_uc_Ge uni0493 -70;
+	pos @MMK_L_cyrl_uc_Ge uni049E -10;
 	pos @MMK_L_cyrl_uc_Ge uni04AE 25;
 	pos @MMK_L_cyrl_uc_Ge uni04AF -50;
 	pos @MMK_L_cyrl_uc_Ge uni04B0 25;
 	pos @MMK_L_cyrl_uc_Ge uni04B1 -50;
 	pos @MMK_L_cyrl_uc_Ge uni04D4 -65;
+	pos @MMK_L_cyrl_uc_Ge uni04E0 -10;
+	pos @MMK_L_cyrl_uc_Ge uni04E1 -100;
 	pos @MMK_L_cyrl_uc_Ge zeroinferior -80;
 	pos @MMK_L_cyrl_uc_Ge zerosuperior 20;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_lc_che -10;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_lc_el 10;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_lc_hardsign -20;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_lc_te -30;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_uc_Che -35;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_uc_El 10;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_uc_Hardsign -60;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_uc_Te -60;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_uc_U -30;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_cyrl_uc_Ze -10;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_inp_foot -40;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_inp_quotel -50;
+	pos @MMK_L_cyrl_uc_Gehook @MMK_R_inp_quoter -50;
+	pos @MMK_L_cyrl_uc_Gehook copyright 10;
+	pos @MMK_L_cyrl_uc_Gehook eightinferior 20;
+	pos @MMK_L_cyrl_uc_Gehook eightsuperior -30;
+	pos @MMK_L_cyrl_uc_Gehook fiveinferior 20;
+	pos @MMK_L_cyrl_uc_Gehook fivesuperior -20;
+	pos @MMK_L_cyrl_uc_Gehook fourinferior 20;
+	pos @MMK_L_cyrl_uc_Gehook foursuperior -30;
+	pos @MMK_L_cyrl_uc_Gehook nineinferior 10;
+	pos @MMK_L_cyrl_uc_Gehook ninesuperior -30;
+	pos @MMK_L_cyrl_uc_Gehook oneinferior 10;
+	pos @MMK_L_cyrl_uc_Gehook onesuperior -20;
+	pos @MMK_L_cyrl_uc_Gehook question -40;
+	pos @MMK_L_cyrl_uc_Gehook registered -30;
+	pos @MMK_L_cyrl_uc_Gehook seveninferior 10;
+	pos @MMK_L_cyrl_uc_Gehook sevensuperior -40;
+	pos @MMK_L_cyrl_uc_Gehook sixinferior 20;
+	pos @MMK_L_cyrl_uc_Gehook sixsuperior -40;
+	pos @MMK_L_cyrl_uc_Gehook threeinferior 20;
+	pos @MMK_L_cyrl_uc_Gehook threesuperior -20;
+	pos @MMK_L_cyrl_uc_Gehook trademark -30;
+	pos @MMK_L_cyrl_uc_Gehook twoinferior 20;
+	pos @MMK_L_cyrl_uc_Gehook twosuperior -20;
+	pos @MMK_L_cyrl_uc_Gehook uni0408 10;
+	pos @MMK_L_cyrl_uc_Gehook uni0414 20;
+	pos @MMK_L_cyrl_uc_Gehook uni042D -10;
+	pos @MMK_L_cyrl_uc_Gehook uni0434 20;
+	pos @MMK_L_cyrl_uc_Gehook uni0474 -15;
+	pos @MMK_L_cyrl_uc_Gehook uni0475 -15;
+	pos @MMK_L_cyrl_uc_Gehook uni0493 10;
+	pos @MMK_L_cyrl_uc_Gehook uni04AE -40;
+	pos @MMK_L_cyrl_uc_Gehook uni04B0 -20;
+	pos @MMK_L_cyrl_uc_Gehook zeroinferior 20;
+	pos @MMK_L_cyrl_uc_Gehook zerosuperior -30;
 	pos @MMK_L_cyrl_uc_Ii @MMK_R_cyrl_lc_che -15;
 	pos @MMK_L_cyrl_uc_Ii @MMK_R_cyrl_lc_hardsign -15;
+	pos @MMK_L_cyrl_uc_Ii @MMK_R_cyrl_lc_te -15;
 	pos @MMK_L_cyrl_uc_Ii @MMK_R_cyrl_uc_O -10;
 	pos @MMK_L_cyrl_uc_Ii @MMK_R_cyrl_uc_Ze -10;
 	pos @MMK_L_cyrl_uc_Ii @MMK_R_inp_hyph -30;
@@ -7719,13 +7921,14 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Ii twoinferior 5;
 	pos @MMK_L_cyrl_uc_Ii underscore 20;
 	pos @MMK_L_cyrl_uc_Ii uni0424 -15;
-	pos @MMK_L_cyrl_uc_Ii uni0442 -15;
+	pos @MMK_L_cyrl_uc_Ii uni0475 -10;
 	pos @MMK_L_cyrl_uc_Ii zeroinferior -15;
 	pos @MMK_L_cyrl_uc_Ii zerosuperior -15;
 	pos @MMK_L_cyrl_uc_Je @MMK_R_cyrl_lc_a.alt01 -10;
 	pos @MMK_L_cyrl_uc_Je @MMK_R_cyrl_lc_che -5;
 	pos @MMK_L_cyrl_uc_Je @MMK_R_cyrl_lc_hardsign -10;
 	pos @MMK_L_cyrl_uc_Je @MMK_R_cyrl_lc_o -10;
+	pos @MMK_L_cyrl_uc_Je @MMK_R_cyrl_lc_te -10;
 	pos @MMK_L_cyrl_uc_Je @MMK_R_cyrl_uc_Ze -20;
 	pos @MMK_L_cyrl_uc_Je ampersand -5;
 	pos @MMK_L_cyrl_uc_Je at -10;
@@ -7741,18 +7944,23 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Je trademark -20;
 	pos @MMK_L_cyrl_uc_Je uni0408 -5;
 	pos @MMK_L_cyrl_uc_Je uni042D -10;
-	pos @MMK_L_cyrl_uc_Je uni0442 -10;
+	pos @MMK_L_cyrl_uc_Je uni049E -10;
+	pos @MMK_L_cyrl_uc_Je uni04E0 -5;
+	pos @MMK_L_cyrl_uc_Je uni04E1 -10;
 	pos @MMK_L_cyrl_uc_Je zerosuperior -10;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_a -10;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_a.alt01 -35;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_che -50;
+	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_cheabkhaz -70;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_el 10;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_en -20;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_hardsign -50;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_o -30;
+	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_te -50;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_u -30;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_lc_zecyrilic -10;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_uc_Che -15;
+	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_uc_Cheabkhaz -40;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_uc_O -30;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_cyrl_uc_Ze -15;
 	pos @MMK_L_cyrl_uc_Ka @MMK_R_inp_foot 20;
@@ -7776,23 +7984,30 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Ka uni0424 -40;
 	pos @MMK_L_cyrl_uc_Ka uni042D -15;
 	pos @MMK_L_cyrl_uc_Ka uni0434 30;
-	pos @MMK_L_cyrl_uc_Ka uni0442 -50;
 	pos @MMK_L_cyrl_uc_Ka uni0444 -20;
 	pos @MMK_L_cyrl_uc_Ka uni044D -10;
 	pos @MMK_L_cyrl_uc_Ka uni0455 -10;
+	pos @MMK_L_cyrl_uc_Ka uni0474 -5;
+	pos @MMK_L_cyrl_uc_Ka uni0475 -20;
 	pos @MMK_L_cyrl_uc_Ka uni0493 -10;
+	pos @MMK_L_cyrl_uc_Ka uni049E -15;
 	pos @MMK_L_cyrl_uc_Ka uni04AF -30;
 	pos @MMK_L_cyrl_uc_Ka uni04B1 -30;
+	pos @MMK_L_cyrl_uc_Ka uni04E0 -10;
+	pos @MMK_L_cyrl_uc_Ka uni04E1 -40;
 	pos @MMK_L_cyrl_uc_Ka zerosuperior -10;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_a -10;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_a.alt01 -40;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_che -50;
+	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_cheabkhaz -40;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_el 10;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_en -10;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_hardsign -50;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_o -30;
+	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_te -50;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_lc_zecyrilic -10;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_uc_Che -15;
+	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_uc_Cheabkhaz -40;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_uc_El 10;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_uc_O -35;
 	pos @MMK_L_cyrl_uc_Kadescender @MMK_R_cyrl_uc_U -10;
@@ -7819,17 +8034,20 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Kadescender uni0424 -40;
 	pos @MMK_L_cyrl_uc_Kadescender uni042D -15;
 	pos @MMK_L_cyrl_uc_Kadescender uni0434 20;
-	pos @MMK_L_cyrl_uc_Kadescender uni0442 -50;
 	pos @MMK_L_cyrl_uc_Kadescender uni0444 -20;
 	pos @MMK_L_cyrl_uc_Kadescender uni044D -10;
 	pos @MMK_L_cyrl_uc_Kadescender uni0455 -10;
+	pos @MMK_L_cyrl_uc_Kadescender uni0475 -10;
 	pos @MMK_L_cyrl_uc_Kadescender uni0493 -10;
+	pos @MMK_L_cyrl_uc_Kadescender uni049E -15;
 	pos @MMK_L_cyrl_uc_Kadescender uni04AE -10;
 	pos @MMK_L_cyrl_uc_Kadescender uni04AF -10;
 	pos @MMK_L_cyrl_uc_Kadescender uni04B0 -10;
 	pos @MMK_L_cyrl_uc_Kadescender uni04B1 -10;
 	pos @MMK_L_cyrl_uc_Kadescender uni04D4 30;
+	pos @MMK_L_cyrl_uc_Kadescender uni04E0 -10;
 	pos @MMK_L_cyrl_uc_Kadescender zerosuperior -10;
+	pos @MMK_L_cyrl_uc_O @MMK_R_cyrl_lc_cheabkhaz 13;
 	pos @MMK_L_cyrl_uc_O @MMK_R_cyrl_lc_zhe -20;
 	pos @MMK_L_cyrl_uc_O @MMK_R_cyrl_uc_A -20;
 	pos @MMK_L_cyrl_uc_O @MMK_R_cyrl_uc_El -15;
@@ -7865,12 +8083,19 @@ feature kern {
 	pos @MMK_L_cyrl_uc_O uni0405 5;
 	pos @MMK_L_cyrl_uc_O uni0414 -10;
 	pos @MMK_L_cyrl_uc_O uni042D -15;
+	pos @MMK_L_cyrl_uc_O uni0474 -5;
+	pos @MMK_L_cyrl_uc_O uni049E -10;
 	pos @MMK_L_cyrl_uc_O uni04AE -35;
+	pos @MMK_L_cyrl_uc_O uni04E0 -15;
+	pos @MMK_L_cyrl_uc_O uni04E1 -5;
+	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_lc_cheabkhaz 10;
 	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_lc_hardsign -20;
 	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_lc_kha -10;
+	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_lc_te -40;
 	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_lc_zecyrilic -5;
 	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_lc_zhe -10;
 	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_uc_Che -40;
+	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_uc_Cheabkhaz -10;
 	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_uc_Hardsign -70;
 	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_uc_Kha -10;
 	pos @MMK_L_cyrl_uc_Softsign @MMK_R_cyrl_uc_Te -70;
@@ -7900,14 +8125,50 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Softsign twoinferior 10;
 	pos @MMK_L_cyrl_uc_Softsign twosuperior -10;
 	pos @MMK_L_cyrl_uc_Softsign underscore -35;
-	pos @MMK_L_cyrl_uc_Softsign uni0442 -40;
 	pos @MMK_L_cyrl_uc_Softsign uni044D -5;
+	pos @MMK_L_cyrl_uc_Softsign uni0474 -47;
+	pos @MMK_L_cyrl_uc_Softsign uni0475 -5;
 	pos @MMK_L_cyrl_uc_Softsign uni0493 10;
+	pos @MMK_L_cyrl_uc_Softsign uni049E -10;
 	pos @MMK_L_cyrl_uc_Softsign uni04AE -35;
 	pos @MMK_L_cyrl_uc_Softsign uni04B0 -20;
+	pos @MMK_L_cyrl_uc_Softsign uni04E0 -5;
+	pos @MMK_L_cyrl_uc_Softsign uni04E1 -20;
 	pos @MMK_L_cyrl_uc_Softsign zerosuperior -20;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_a -90;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_che -80;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_cheabkhaz -120;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_dje -10;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_el -110;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_en -110;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_kha -80;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_o -100;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_te -80;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_u -60;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_zecyrilic -100;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_lc_zhe -80;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_uc_A -100;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_uc_Cheabkhaz -70;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_uc_El -60;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_uc_O -20;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_uc_Te 10;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_cyrl_uc_Ze -10;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_inp_hyph -60;
+	pos @MMK_L_cyrl_uc_Tedescend @MMK_R_inp_period -60;
+	pos @MMK_L_cyrl_uc_Tedescend slash -60;
+	pos @MMK_L_cyrl_uc_Tedescend underscore -60;
+	pos @MMK_L_cyrl_uc_Tedescend uni0414 -60;
+	pos @MMK_L_cyrl_uc_Tedescend uni0424 -60;
+	pos @MMK_L_cyrl_uc_Tedescend uni0431 -20;
+	pos @MMK_L_cyrl_uc_Tedescend uni0434 -110;
+	pos @MMK_L_cyrl_uc_Tedescend uni0444 -80;
+	pos @MMK_L_cyrl_uc_Tedescend uni0475 -40;
+	pos @MMK_L_cyrl_uc_Tedescend uni049E -20;
+	pos @MMK_L_cyrl_uc_Tedescend uni04E0 -20;
+	pos @MMK_L_cyrl_uc_Tedescend uni04E1 -80;
 	pos @MMK_L_cyrl_uc_Tshe @MMK_R_cyrl_lc_che -10;
 	pos @MMK_L_cyrl_uc_Tshe @MMK_R_cyrl_lc_hardsign -20;
+	pos @MMK_L_cyrl_uc_Tshe @MMK_R_cyrl_lc_te -30;
 	pos @MMK_L_cyrl_uc_Tshe @MMK_R_cyrl_uc_Che -35;
 	pos @MMK_L_cyrl_uc_Tshe @MMK_R_cyrl_uc_El 10;
 	pos @MMK_L_cyrl_uc_Tshe @MMK_R_cyrl_uc_Hardsign -60;
@@ -7940,7 +8201,8 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Tshe underscore 20;
 	pos @MMK_L_cyrl_uc_Tshe uni0414 10;
 	pos @MMK_L_cyrl_uc_Tshe uni042D -10;
-	pos @MMK_L_cyrl_uc_Tshe uni0442 -30;
+	pos @MMK_L_cyrl_uc_Tshe uni0474 -25;
+	pos @MMK_L_cyrl_uc_Tshe uni0475 -7;
 	pos @MMK_L_cyrl_uc_Tshe uni0493 10;
 	pos @MMK_L_cyrl_uc_Tshe uni04AE -40;
 	pos @MMK_L_cyrl_uc_Tshe uni04B0 -20;
@@ -7949,13 +8211,16 @@ feature kern {
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_a -60;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_a.alt01 -45;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_che -20;
+	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_cheabkhaz -30;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_el -40;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_en -20;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_kha -20;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_o -70;
+	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_te -10;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_zecyrilic -50;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_lc_zhe -20;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_uc_A -60;
+	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_uc_Cheabkhaz -20;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_uc_El -30;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_uc_Hardsign 10;
 	pos @MMK_L_cyrl_uc_U @MMK_R_cyrl_uc_O -25;
@@ -7998,16 +8263,17 @@ feature kern {
 	pos @MMK_L_cyrl_uc_U uni0424 -30;
 	pos @MMK_L_cyrl_uc_U uni0434 -40;
 	pos @MMK_L_cyrl_uc_U uni0440 -20;
-	pos @MMK_L_cyrl_uc_U uni0442 -10;
 	pos @MMK_L_cyrl_uc_U uni0444 -60;
 	pos @MMK_L_cyrl_uc_U uni044D -50;
 	pos @MMK_L_cyrl_uc_U uni044F -40;
 	pos @MMK_L_cyrl_uc_U uni0455 -40;
 	pos @MMK_L_cyrl_uc_U uni0458 -20;
+	pos @MMK_L_cyrl_uc_U uni0475 -20;
 	pos @MMK_L_cyrl_uc_U uni0493 -30;
 	pos @MMK_L_cyrl_uc_U uni04AF -20;
 	pos @MMK_L_cyrl_uc_U uni04B1 -20;
 	pos @MMK_L_cyrl_uc_U uni04D4 -60;
+	pos @MMK_L_cyrl_uc_U uni04E1 -30;
 	pos @MMK_L_cyrl_uc_U zeroinferior -70;
 	pos @MMK_L_cyrl_uc_U zerosuperior 10;
 	pos @MMK_L_cyrl_uc_Ze @MMK_R_cyrl_uc_A -10;
@@ -8020,8 +8286,10 @@ feature kern {
 	pos @MMK_L_cyrl_uc_Ze @MMK_R_inp_period -20;
 	pos @MMK_L_cyrl_uc_Ze slash -5;
 	pos @MMK_L_cyrl_uc_Ze underscore -55;
+	pos @MMK_L_cyrl_uc_Ze uni0474 -5;
 	pos @MMK_L_cyrl_uc_Ze uni0493 10;
 	pos @MMK_L_cyrl_uc_Ze uni04AE -10;
+	pos @MMK_L_cyrl_uc_Ze uni04E1 -5;
 	subtable;
 	pos @MMK_L_inp_colon @MMK_R_cyrl_uc_El 30;
 	pos @MMK_L_inp_colon @MMK_R_cyrl_uc_Hardsign -40;
@@ -8050,13 +8318,16 @@ feature kern {
 	pos @MMK_L_inp_colon xi -15;
 	pos @MMK_L_inp_colon zeta -15;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_lc_a.alt01 -20;
+	pos @MMK_L_inp_foot @MMK_R_cyrl_lc_cheabkhaz -15;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_lc_el -40;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_lc_hardsign 20;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_lc_kha 15;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_lc_o -30;
+	pos @MMK_L_inp_foot @MMK_R_cyrl_lc_te 20;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_lc_u 30;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_uc_A -50;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_uc_Che 35;
+	pos @MMK_L_inp_foot @MMK_R_cyrl_uc_Cheabkhaz -5;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_uc_El -65;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_uc_Hardsign 35;
 	pos @MMK_L_inp_foot @MMK_R_cyrl_uc_Kha 20;
@@ -8111,13 +8382,13 @@ feature kern {
 	pos @MMK_L_inp_foot uni0424 -15;
 	pos @MMK_L_inp_foot uni042F 10;
 	pos @MMK_L_inp_foot uni0434 -30;
-	pos @MMK_L_inp_foot uni0442 20;
 	pos @MMK_L_inp_foot uni0444 -10;
 	pos @MMK_L_inp_foot uni04AE 25;
 	pos @MMK_L_inp_foot uni04AF 30;
 	pos @MMK_L_inp_foot uni04B0 25;
 	pos @MMK_L_inp_foot uni04B1 30;
 	pos @MMK_L_inp_foot uni04D4 -50;
+	pos @MMK_L_inp_foot uni04E1 -5;
 	pos @MMK_L_inp_foot v 35;
 	pos @MMK_L_inp_foot x 15;
 	pos @MMK_L_inp_foot xi -10;
@@ -8160,6 +8431,7 @@ feature kern {
 	pos @MMK_L_inp_guilr @MMK_R_cyrl_lc_che 20;
 	pos @MMK_L_inp_guilr @MMK_R_cyrl_lc_hardsign -30;
 	pos @MMK_L_inp_guilr @MMK_R_cyrl_lc_kha -5;
+	pos @MMK_L_inp_guilr @MMK_R_cyrl_lc_te -30;
 	pos @MMK_L_inp_guilr @MMK_R_cyrl_lc_zhe -40;
 	pos @MMK_L_inp_guilr @MMK_R_cyrl_uc_El -20;
 	pos @MMK_L_inp_guilr @MMK_R_cyrl_uc_Hardsign -40;
@@ -8185,7 +8457,6 @@ feature kern {
 	pos @MMK_L_inp_guilr uni0424 10;
 	pos @MMK_L_inp_guilr uni042D -10;
 	pos @MMK_L_inp_guilr uni0431 30;
-	pos @MMK_L_inp_guilr uni0442 -30;
 	pos @MMK_L_inp_guilr uni0444 10;
 	pos @MMK_L_inp_guilr uni0493 40;
 	pos @MMK_L_inp_guilr uni04AE -30;
@@ -8197,9 +8468,11 @@ feature kern {
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_lc_hardsign -30;
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_lc_kha -35;
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_lc_o 10;
+	pos @MMK_L_inp_hyph @MMK_R_cyrl_lc_te -70;
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_lc_zecyrilic -20;
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_lc_zhe -60;
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_uc_A -25;
+	pos @MMK_L_inp_hyph @MMK_R_cyrl_uc_Cheabkhaz -10;
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_uc_El -30;
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_uc_Hardsign -35;
 	pos @MMK_L_inp_hyph @MMK_R_cyrl_uc_Ii -30;
@@ -8260,13 +8533,15 @@ feature kern {
 	pos @MMK_L_inp_hyph uni042D -30;
 	pos @MMK_L_inp_hyph uni042F -30;
 	pos @MMK_L_inp_hyph uni0434 -40;
-	pos @MMK_L_inp_hyph uni0442 -70;
 	pos @MMK_L_inp_hyph uni044D -20;
 	pos @MMK_L_inp_hyph uni0493 40;
+	pos @MMK_L_inp_hyph uni049E -20;
 	pos @MMK_L_inp_hyph uni04AE -50;
 	pos @MMK_L_inp_hyph uni04AF -10;
 	pos @MMK_L_inp_hyph uni04B1 -10;
 	pos @MMK_L_inp_hyph uni04D4 -25;
+	pos @MMK_L_inp_hyph uni04E0 -30;
+	pos @MMK_L_inp_hyph uni04E1 -10;
 	pos @MMK_L_inp_hyph x -35;
 	pos @MMK_L_inp_hyph zeta 10;
 	pos @MMK_L_inp_parenth @MMK_R_latn_lc_j 10;
@@ -8275,11 +8550,14 @@ feature kern {
 	pos @MMK_L_inp_parenth uni0458 10;
 	pos @MMK_L_inp_period @MMK_R_cyrl_lc_a.alt01 -35;
 	pos @MMK_L_inp_period @MMK_R_cyrl_lc_che -80;
+	pos @MMK_L_inp_period @MMK_R_cyrl_lc_cheabkhaz -25;
 	pos @MMK_L_inp_period @MMK_R_cyrl_lc_hardsign -60;
 	pos @MMK_L_inp_period @MMK_R_cyrl_lc_o -35;
+	pos @MMK_L_inp_period @MMK_R_cyrl_lc_te -80;
 	pos @MMK_L_inp_period @MMK_R_cyrl_lc_u -40;
 	pos @MMK_L_inp_period @MMK_R_cyrl_uc_A 20;
 	pos @MMK_L_inp_period @MMK_R_cyrl_uc_Che -90;
+	pos @MMK_L_inp_period @MMK_R_cyrl_uc_Cheabkhaz -50;
 	pos @MMK_L_inp_period @MMK_R_cyrl_uc_El 40;
 	pos @MMK_L_inp_period @MMK_R_cyrl_uc_Hardsign -70;
 	pos @MMK_L_inp_period @MMK_R_cyrl_uc_Kha 20;
@@ -8358,14 +8636,16 @@ feature kern {
 	pos @MMK_L_inp_period uni042F 10;
 	pos @MMK_L_inp_period uni0431 -35;
 	pos @MMK_L_inp_period uni0434 40;
-	pos @MMK_L_inp_period uni0442 -80;
 	pos @MMK_L_inp_period uni0444 -30;
 	pos @MMK_L_inp_period uni0455 -5;
+	pos @MMK_L_inp_period uni049E -20;
 	pos @MMK_L_inp_period uni04AE -50;
 	pos @MMK_L_inp_period uni04AF -70;
 	pos @MMK_L_inp_period uni04B0 -50;
 	pos @MMK_L_inp_period uni04B1 -20;
 	pos @MMK_L_inp_period uni04D4 70;
+	pos @MMK_L_inp_period uni04E0 -10;
+	pos @MMK_L_inp_period uni04E1 -20;
 	pos @MMK_L_inp_period v -40;
 	pos @MMK_L_inp_period xi -25;
 	pos @MMK_L_inp_period zerosuperior -90;
@@ -8373,15 +8653,18 @@ feature kern {
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_a -30;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_a.alt01 -45;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_che 10;
+	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_cheabkhaz -20;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_el -60;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_en -20;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_hardsign 10;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_kha -10;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_o -45;
+	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_te 10;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_u 10;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_lc_zecyrilic -45;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_uc_A -70;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_uc_Che 20;
+	pos @MMK_L_inp_quotel @MMK_R_cyrl_uc_Cheabkhaz -10;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_uc_El -65;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_uc_Hardsign 30;
 	pos @MMK_L_inp_quotel @MMK_R_cyrl_uc_Kha 15;
@@ -8446,7 +8729,6 @@ feature kern {
 	pos @MMK_L_inp_quotel uni042F -10;
 	pos @MMK_L_inp_quotel uni0434 -60;
 	pos @MMK_L_inp_quotel uni0440 -20;
-	pos @MMK_L_inp_quotel uni0442 10;
 	pos @MMK_L_inp_quotel uni0444 -40;
 	pos @MMK_L_inp_quotel uni044D -45;
 	pos @MMK_L_inp_quotel uni044F -40;
@@ -8456,6 +8738,7 @@ feature kern {
 	pos @MMK_L_inp_quotel uni04B0 35;
 	pos @MMK_L_inp_quotel uni04B1 20;
 	pos @MMK_L_inp_quotel uni04D4 -100;
+	pos @MMK_L_inp_quotel uni04E0 -10;
 	pos @MMK_L_inp_quotel v 10;
 	pos @MMK_L_inp_quotel x -10;
 	pos @MMK_L_inp_quotel xi -20;
@@ -8463,15 +8746,18 @@ feature kern {
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_a -50;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_a.alt01 -65;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_che -10;
+	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_cheabkhaz -20;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_el -60;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_en -40;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_kha -10;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_o -75;
+	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_te -10;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_u -15;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_zecyrilic -65;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_lc_zhe -20;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_uc_A -80;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_uc_Che 30;
+	pos @MMK_L_inp_quoter @MMK_R_cyrl_uc_Cheabkhaz -20;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_uc_El -70;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_uc_Hardsign 30;
 	pos @MMK_L_inp_quoter @MMK_R_cyrl_uc_Kha 25;
@@ -8544,7 +8830,6 @@ feature kern {
 	pos @MMK_L_inp_quoter uni0431 -20;
 	pos @MMK_L_inp_quoter uni0434 -60;
 	pos @MMK_L_inp_quoter uni0440 -40;
-	pos @MMK_L_inp_quoter uni0442 -10;
 	pos @MMK_L_inp_quoter uni0444 -75;
 	pos @MMK_L_inp_quoter uni044D -65;
 	pos @MMK_L_inp_quoter uni044F -65;
@@ -8555,6 +8840,8 @@ feature kern {
 	pos @MMK_L_inp_quoter uni04B0 40;
 	pos @MMK_L_inp_quoter uni04B1 -20;
 	pos @MMK_L_inp_quoter uni04D4 -120;
+	pos @MMK_L_inp_quoter uni04E0 -5;
+	pos @MMK_L_inp_quoter uni04E1 -20;
 	pos @MMK_L_inp_quoter v -15;
 	pos @MMK_L_inp_quoter x -10;
 	pos @MMK_L_inp_quoter xi -25;
@@ -8564,7 +8851,7 @@ feature kern {
 
 
 feature mark {
-	# Created: Fri Jan 31 18:11:57 2020
+	# Created: Fri Jul 15 16:17:32 2022
 	# PS Name: IBMPlexSans-Thin
 	# MM Inst: IBM Plex Sans Thin
 	# exported from FontLab
@@ -8579,12 +8866,12 @@ feature mark {
 	lookup MARK_BASE_bottom {
 		@bGC_AE_bottom = [AE AEacute uni04D4];
 		@bGC_A_bottom = [A Aacute Abreve Acaron Acircumflex Adieresis Agrave Ahook Amacron Aring Aringacute Atilde Abreveacute Abrevegrave Abrevehook Abrevetilde Acircumflexacute Acircumflexgrave Acircumflexhook Acircumflextilde Alpha Alphatonos uni0410 uni04D2 uni04D0];
-		@bGC_B_bottom = [B D E Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Ehook Emacron Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhook Ecircumflextilde Beta Epsilon Epsilontonos uni0412 uni0415 uni0400 uni0401 uni04D6];
+		@bGC_B_bottom = [B D E Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Ehook Emacron Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhook Ecircumflextilde Beta Epsilon uni0412 uni0415 uni0400 uni0401 uni04D6];
 		@bGC_C_bottom = [C Cacute Ccaron Ccircumflex Cdotaccent uni0421];
 		@bGC_Dcroat_bottom = [Dcroat Eth];
-		@bGC_G_bottom = [G O Schwa Gbreve Gcircumflex Gdotaccent Oacute Obreve Ocaron Ocircumflex Odieresis Ograve Ohook Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocircumflexacute Ocircumflexgrave Ocircumflexhook Ocircumflextilde Omicron Omicrontonos uni041E uni04E6 uni04D8];
-		@bGC_H_bottom = [H N Hcircumflex Nacute Ncaron Ntilde Ohorn Ohornacute Ohorngrave Ohornhook Ohorntilde Eta Nu Etatonos uni041D];
-		@bGC_I_bottom = [I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Igrave Ihook Imacron Itilde Iota Iotatonos Iotadieresis uni04C0 uni0406 uni0407];
+		@bGC_G_bottom = [G O Schwa Gbreve Gcircumflex Gdotaccent Oacute Obreve Ocaron Ocircumflex Odieresis Ograve Ohook Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocircumflexacute Ocircumflexgrave Ocircumflexhook Ocircumflextilde Omicron Omicrontonos uni041E uni04E6 uni0472 uni04E8 uni04D8];
+		@bGC_H_bottom = [H N Hcircumflex Nacute Ncaron Ntilde Ohorn Ohornacute Ohorngrave Ohornhook Ohorntilde Eta Nu uni041D];
+		@bGC_I_bottom = [I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Igrave Ihook Imacron Itilde Iota Iotadieresis uni04C0 uni0406 uni0407];
 		@bGC_J_bottom = [J Jacute Jcircumflex uni0408];
 		@bGC_K_bottom = [K Kappa];
 		@bGC_L_bottom = [L Lacute Lcaron Ldot];
@@ -8595,23 +8882,24 @@ feature mark {
 		@bGC_Uhorn_bottom = [Uhorn Uhornacute Uhorngrave Uhornhook Uhorntilde];
 		@bGC_W_bottom = [W Wacute Wcircumflex Wdieresis Wgrave];
 		@bGC_Z_bottom = [Z Zacute Zcaron Zdotaccent Zeta];
-		@bGC_a.alt01_bottom = [a.alt01 e aacute.alt01 abreve.alt01 acaron.alt01 acircumflex.alt01 adieresis.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01 eacute ebreve ecaron ecircumflex edieresis edotaccent egrave ehook emacron etilde ecircumflexacute ecircumflexgrave ecircumflexhook ecircumflextilde alpha.alt01 uni0430.alt01 uni0435 uni04D3.alt01 uni04D1.alt01 uni0450 uni0451 uni04D7];
+		@bGC_a.alt01_bottom = [a.alt01 e aacute.alt01 abreve.alt01 acaron.alt01 acircumflex.alt01 adieresis.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01 eacute ebreve ecaron ecircumflex edieresis edotaccent egrave ehook emacron etilde ecircumflexacute ecircumflexgrave ecircumflexhook ecircumflextilde alpha.alt01 alphatonos.alt01 uni0430.alt01 uni0435 uni04D3.alt01 uni04D1.alt01 uni0450 uni0451 uni04D7];
 		@bGC_a_bottom = [a aacute abreve acaron acircumflex adieresis agrave ahook amacron aring aringacute atilde abreveacute abrevegrave abrevehook abrevetilde acircumflexacute acircumflexgrave acircumflexhook acircumflextilde uni0430 uni04D3 uni04D1];
 		@bGC_ae_bottom = [ae aeacute uni04D5];
 		@bGC_c_bottom = [c cacute ccaron ccircumflex cdotaccent uni0441];
-		@bGC_d_bottom = [d Y dcaron dcroat oslash oslashacute Yacute Ycircumflex Ydieresis Ygrave Yhook Ytilde Upsilon Upsilontonos Upsilondieresis uni04AE];
-		@bGC_dotlessi_bottom = [dotlessi iacute ibreve icaron icircumflex idieresis igrave ihook imacron itilde];
+		@bGC_d_bottom = [d Y dcaron dcroat oslash oslashacute Yacute Ycircumflex Ydieresis Ygrave Yhook Ytilde Upsilon Upsilondieresis uni04AE];
+		@bGC_dotlessi_bottom = [dotlessi iacute ibreve icaron icircumflex idieresis igrave ihook imacron itilde uni0457];
 		@bGC_h_bottom = [h F P T X hcircumflex Tbar Tcaron Rho Tau Chi uni0420 uni0422 uni0425 uni04BB];
-		@bGC_i_bottom = [i r ij ijacute racute rcaron uni0456];
-		@bGC_k_bottom = [k o eth kgreenlandic oacute obreve ocaron ocircumflex odieresis ograve ohook ohungarumlaut omacron otilde ohorn ohornacute ohorngrave ohornhook ohorntilde ocircumflexacute ocircumflexgrave ocircumflexhook ocircumflextilde omicron omicrontonos uni043E uni04E7];
+		@bGC_i_bottom = [i r racute rcaron uni0456];
+		@bGC_k_bottom = [k o eth kgreenlandic oacute obreve ocaron ocircumflex odieresis ograve ohook ohungarumlaut omacron otilde ohorn ohornacute ohorngrave ohornhook ohorntilde ocircumflexacute ocircumflexgrave ocircumflexhook ocircumflextilde omicron omicrontonos uni043E uni04E7 uni0473 uni04E9];
 		@bGC_l_bottom = [l lacute lcaron ldot];
 		@bGC_n_bottom = [n hbar nacute ncaron ntilde uni043F];
 		@bGC_s_bottom = [s sacute scaron scircumflex uni0455];
 		@bGC_schwa_bottom = [schwa uhorn uhornacute uhorngrave uhornhook uhorntilde uni04D9];
 		@bGC_t_bottom = [t tcaron];
 		@bGC_u_bottom = [u uacute ubreve ucaron ucircumflex udieresis ugrave uhook uhungarumlaut umacron uring utilde udieresismacron udieresisacute udieresisgrave udieresiscaron];
+		@bGC_uni0438_bottom = [uni0438 uni0439 uni04E5 uni045D uni04E3];
 		@bGC_w_bottom = [w wacute wcircumflex wdieresis wgrave];
-		@bGC_x_bottom = [x uni0445];
+		@bGC_x_bottom = [x Iotatonos uni0445];
 		@bGC_y_bottom = [y yacute ycircumflex ydieresis ygrave yhook ytilde uni0443 uni04EF uni04F1 uni04F3 uni045E];
 		@bGC_z_bottom = [z zacute zcaron zdotaccent];
 		pos base @bGC_AE_bottom <anchor 422 0> mark @MC_bottom;
@@ -8647,12 +8935,16 @@ feature mark {
 		pos base @bGC_schwa_bottom <anchor 265 0> mark @MC_bottom;
 		pos base @bGC_t_bottom <anchor 190 0> mark @MC_bottom;
 		pos base @bGC_u_bottom <anchor 269 0> mark @MC_bottom;
+		pos base @bGC_uni0438_bottom <anchor 286 0> mark @MC_bottom;
 		pos base @bGC_w_bottom <anchor 363 0> mark @MC_bottom;
 		pos base @bGC_x_bottom <anchor 236 0> mark @MC_bottom;
 		pos base @bGC_y_bottom <anchor 356 0> mark @MC_bottom;
 		pos base @bGC_z_bottom <anchor 209 0> mark @MC_bottom;
+		pos base Epsilontonos <anchor 321 0> mark @MC_bottom;
+		pos base Etatonos <anchor 368 0> mark @MC_bottom;
 		pos base Hbar <anchor 349 0> mark @MC_bottom;
 		pos base OE <anchor 548 0> mark @MC_bottom;
+		pos base Upsilontonos <anchor 353 0> mark @MC_bottom;
 		pos base V <anchor 284 0> mark @MC_bottom;
 		pos base b <anchor 294 0> mark @MC_bottom;
 		pos base f <anchor 134 0> mark @MC_bottom;
@@ -8660,18 +8952,18 @@ feature mark {
 		pos base napostrophe <anchor 488 0> mark @MC_bottom;
 		pos base oe <anchor 475 0> mark @MC_bottom;
 		pos base tbar <anchor 193 0> mark @MC_bottom;
-		pos base uni0438 <anchor 286 0> mark @MC_bottom;
 		pos base v <anchor 226 0> mark @MC_bottom;
 	} MARK_BASE_bottom;
 	lookup MARK_BASE_bottomright {
 		@bGC_A_bottomright = [A Aacute Abreve Acaron Acircumflex Adieresis Adotbelow Agrave Ahook Amacron Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehook Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhook Acircumflextilde Alpha Alphatonos uni0410 uni04D2 uni04D0];
-		@bGC_E_bottomright = [E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Ehook Emacron Etilde Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhook Ecircumflextilde Epsilon Epsilontonos uni0415 uni0400 uni0401 uni04D6];
-		@bGC_I_bottomright = [I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihook Imacron Itilde Iota Iotatonos Iotadieresis uni04C0 uni0406 uni0407];
+		@bGC_E_bottomright = [E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Edotbelow Egrave Ehook Emacron Etilde Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhook Ecircumflextilde Epsilon uni0415 uni0400 uni0401 uni04D6];
+		@bGC_I_bottomright = [I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihook Imacron Itilde Iota Iotadieresis uni04C0 uni0406 uni0407];
 		@bGC_U_bottomright = [U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhook Uhungarumlaut Umacron Uring Utilde Udieresismacron Udieresisacute Udieresisgrave Udieresiscaron];
 		@bGC_a.alt01_bottomright = [a.alt01 aacute.alt01 abreve.alt01 acaron.alt01 acircumflex.alt01 adieresis.alt01 adotbelow.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevedotbelow.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexdotbelow.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01 uni0430.alt01 uni04D3.alt01 uni04D1.alt01];
 		@bGC_a_bottomright = [a aacute abreve acaron acircumflex adieresis adotbelow agrave ahook amacron aring aringacute atilde abreveacute abrevedotbelow abrevegrave abrevehook abrevetilde acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhook acircumflextilde uni0430 uni04D3 uni04D1];
-		@bGC_e_bottomright = [e eacute ebreve ecaron ecircumflex edieresis edotaccent edotbelow egrave ehook emacron etilde ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhook ecircumflextilde uni0435 uni0450 uni0451 uni04D7];
-		@bGC_i_bottomright = [i dotlessi iacute ibreve icaron icircumflex idieresis igrave ihook imacron itilde ij ijacute uni0456];
+		@bGC_alpha.alt01_bottomright = [alpha.alt01 alphatonos.alt01];
+		@bGC_e_bottomright = [e eacute ebreve ecaron ecircumflex edieresis edotaccent edotbelow egrave ehook emacron etilde ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhook ecircumflextilde Iotatonos uni0435 uni0450 uni0451 uni04D7];
+		@bGC_i_bottomright = [i dotlessi iacute ibreve icaron icircumflex idieresis igrave ihook imacron itilde uni0456 uni0457];
 		@bGC_u_bottomright = [u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhook uhungarumlaut umacron uring utilde udieresismacron udieresisacute udieresisgrave udieresiscaron];
 		pos base @bGC_A_bottomright <anchor 556 0> mark @MC_bottomright;
 		pos base @bGC_E_bottomright <anchor 487 0> mark @MC_bottomright;
@@ -8679,20 +8971,21 @@ feature mark {
 		pos base @bGC_U_bottomright <anchor 424 0> mark @MC_bottomright;
 		pos base @bGC_a.alt01_bottomright <anchor 460 0> mark @MC_bottomright;
 		pos base @bGC_a_bottomright <anchor 499 0> mark @MC_bottomright;
+		pos base @bGC_alpha.alt01_bottomright <anchor 545 0> mark @MC_bottomright;
 		pos base @bGC_e_bottomright <anchor 351 0> mark @MC_bottomright;
 		pos base @bGC_i_bottomright <anchor 126 0> mark @MC_bottomright;
 		pos base @bGC_u_bottomright <anchor 451 0> mark @MC_bottomright;
-		pos base alpha.alt01 <anchor 545 0> mark @MC_bottomright;
+		pos base Epsilontonos <anchor 509 0> mark @MC_bottomright;
 	} MARK_BASE_bottomright;
 	lookup MARK_BASE_top {
 		@bGC_AE_top = [AE uni04D4];
-		@bGC_A_top = [A B D E Adotbelow Aogonek Edotbelow Eogonek Alpha Beta Epsilon Alphatonos Epsilontonos uni0410 uni0412 uni0415 uni0423];
+		@bGC_A_top = [A B D E Adotbelow Aogonek Edotbelow Eogonek Alpha Beta Epsilon Alphatonos uni0410 uni0412 uni0415 uni0423];
 		@bGC_C_top = [C Ccedilla uni0421];
 		@bGC_Dcroat_top = [Dcroat Eth];
-		@bGC_G_top = [G O Q Schwa Gcommaaccent Odotbelow Oslash Ohorn Ohorndotbelow Omicron Omicrontonos uni041E uni04D8];
+		@bGC_G_top = [G O Q Schwa Gcommaaccent Odotbelow Oslash Ohorn Ohorndotbelow Omicron Omicrontonos uni041E uni0472 uni04E8 uni04D8];
 		@bGC_Gamma_top = [Gamma uni0413];
-		@bGC_H_top = [H N Ncommaaccent Eng Eta Nu Etatonos uni041D];
-		@bGC_I_top = [I Idotbelow Iota Iotatonos uni04C0 uni0406];
+		@bGC_H_top = [H N Ncommaaccent Eng Eta Nu uni041D];
+		@bGC_I_top = [I Idotbelow Iota uni04C0 uni0406];
 		@bGC_J_top = [J uni0408];
 		@bGC_K_top = [K Kcommaaccent Kappa];
 		@bGC_L_top = [L Lcaron Lcommaaccent];
@@ -8702,14 +8995,15 @@ feature mark {
 		@bGC_S_top = [S Scedilla Scommaaccent uni0405];
 		@bGC_T_top = [T X Tbar Tcommaaccent Tau Chi uni0422 uni0425];
 		@bGC_U_top = [U Udotbelow Uogonek Uhorn Uhorndotbelow];
-		@bGC_Y_top = [Y Ydotbelow Upsilon Upsilontonos uni04AE];
+		@bGC_Y_top = [Y Ydotbelow Upsilon uni04AE];
 		@bGC_Z_top = [Z Zeta];
 		@bGC_a.alt01_top = [a.alt01 g.alt01 q adotbelow.alt01 aogonek.alt01 alpha.alt01 uni0430.alt01];
 		@bGC_a_top = [a adotbelow aogonek uni0430];
 		@bGC_ae_top = [ae uni04D5];
-		@bGC_c_top = [c o ccedilla kgreenlandic odotbelow ohorn ohorndotbelow alpha omicron uni043E uni0441];
+		@bGC_c_top = [c o ccedilla kgreenlandic odotbelow ohorn ohorndotbelow alpha omicron uni043E uni0441 uni0473 uni04E9];
 		@bGC_dotlessi_top = [dotlessi dotlessj];
 		@bGC_e_top = [e edotbelow eogonek uni0435];
+		@bGC_g_top = [g g.alt02];
 		@bGC_h_top = [h uni04BB];
 		@bGC_l_top = [l lcaron lcommaaccent];
 		@bGC_n_top = [n ncommaaccent eng];
@@ -8745,6 +9039,7 @@ feature mark {
 		pos base @bGC_c_top <anchor 270 540> mark @MC_top;
 		pos base @bGC_dotlessi_top <anchor 115 540> mark @MC_top;
 		pos base @bGC_e_top <anchor 268 540> mark @MC_top;
+		pos base @bGC_g_top <anchor 264 540> mark @MC_top;
 		pos base @bGC_h_top <anchor 115 698> mark @MC_top;
 		pos base @bGC_l_top <anchor 115 740> mark @MC_top;
 		pos base @bGC_n_top <anchor 284 540> mark @MC_top;
@@ -8755,15 +9050,17 @@ feature mark {
 		pos base @bGC_u_top <anchor 273 540> mark @MC_top;
 		pos base @bGC_x_top <anchor 236 540> mark @MC_top;
 		pos base @bGC_y_top <anchor 228 540> mark @MC_top;
+		pos base Epsilontonos <anchor 321 698> mark @MC_top;
+		pos base Etatonos <anchor 368 698> mark @MC_top;
 		pos base F <anchor 294 698> mark @MC_top;
 		pos base Hbar <anchor 349 698> mark @MC_top;
 		pos base Iogonek <anchor 186 698> mark @MC_top;
+		pos base Iotatonos <anchor 236 698> mark @MC_top;
 		pos base OE <anchor 548 698> mark @MC_top;
+		pos base Upsilontonos <anchor 352 698> mark @MC_top;
 		pos base V <anchor 284 698> mark @MC_top;
 		pos base W <anchor 433 698> mark @MC_top;
 		pos base eta <anchor 294 540> mark @MC_top;
-		pos base g <anchor 264 540> mark @MC_top;
-		pos base g.alt02 <anchor 263 540> mark @MC_top;
 		pos base iota <anchor 124 540> mark @MC_top;
 		pos base m <anchor 444 540> mark @MC_top;
 		pos base napostrophe <anchor 489 540> mark @MC_top;

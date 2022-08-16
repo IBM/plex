@@ -4,7 +4,7 @@
   <unicode hex="02BB"/>
   <outline>
     <contour>
-      <point x="301" y="567" type="curve" smooth="yes" name="hr00"/>
+      <point x="301" y="567" type="curve" smooth="yes" name=""/>
       <point x="351" y="567"/>
       <point x="376" y="601"/>
       <point x="376" y="641" type="curve" smooth="yes"/>
@@ -27,19 +27,4 @@
       <point x="300.0" y="540.0" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni02BB</string>
-      <key>com.type-invaders.name.production</key>
-      <string>commaturnedtop</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.986</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
