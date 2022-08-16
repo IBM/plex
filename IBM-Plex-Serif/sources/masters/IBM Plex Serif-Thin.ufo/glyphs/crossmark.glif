@@ -4,7 +4,7 @@
   <unicode hex="274C"/>
   <outline>
     <contour>
-      <point x="153" y="31" type="line" name="hr00"/>
+      <point x="153" y="31" type="line" name=""/>
       <point x="254" y="132" type="line"/>
       <point x="456" y="340" type="line"/>
       <point x="658" y="132" type="line"/>
@@ -26,19 +26,4 @@
       <point x="139" y="46" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni274C</string>
-      <key>com.type-invaders.name.production</key>
-      <string>crossmark</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.986</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

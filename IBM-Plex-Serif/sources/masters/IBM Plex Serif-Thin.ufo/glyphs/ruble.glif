@@ -4,7 +4,7 @@
   <unicode hex="20BD"/>
   <outline>
     <contour>
-      <point x="60" y="0" type="line" name="hr00"/>
+      <point x="60" y="0" type="line" name=""/>
       <point x="272" y="0" type="line"/>
       <point x="272" y="18" type="line"/>
       <point x="167" y="18" type="line"/>
@@ -47,19 +47,4 @@
       <point x="167" y="342" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni20BD</string>
-      <key>com.type-invaders.name.production</key>
-      <string>ruble</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.986</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

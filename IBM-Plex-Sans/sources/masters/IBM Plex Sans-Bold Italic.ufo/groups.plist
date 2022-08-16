@@ -32,6 +32,11 @@
 		<string>uni0491</string>
 		<string>uni04A5</string>
 	</array>
+	<key>@MMK_L_cyrl_lc_gehook</key>
+	<array>
+		<string>uni0495</string>
+		<string>uni04A7</string>
+	</array>
 	<key>@MMK_L_cyrl_lc_ii</key>
 	<array>
 		<string>uni0430</string>
@@ -54,6 +59,8 @@
 		<string>uni0450</string>
 		<string>uni0451</string>
 		<string>uni04D7</string>
+		<string>uni04BD</string>
+		<string>uni04BF</string>
 	</array>
 	<key>@MMK_L_cyrl_lc_ka</key>
 	<array>
@@ -61,6 +68,7 @@
 		<string>uni045C</string>
 		<string>uni049D</string>
 		<string>uni04A1</string>
+		<string>uni049F</string>
 	</array>
 	<key>@MMK_L_cyrl_lc_o</key>
 	<array>
@@ -85,6 +93,12 @@
 		<string>uni044C</string>
 		<string>uni0459</string>
 		<string>uni045A</string>
+		<string>uni0463</string>
+	</array>
+	<key>@MMK_L_cyrl_lc_te</key>
+	<array>
+		<string>uni04AD</string>
+		<string>uni04F7</string>
 	</array>
 	<key>@MMK_L_cyrl_lc_tse</key>
 	<array>
@@ -92,6 +106,8 @@
 		<string>uni0449</string>
 		<string>uni04A3</string>
 		<string>uni04B7</string>
+		<string>uni04B5</string>
+		<string>uni0525</string>
 	</array>
 	<key>@MMK_L_cyrl_lc_u</key>
 	<array>
@@ -120,6 +136,11 @@
 		<string>uni04D2</string>
 		<string>uni04D0</string>
 	</array>
+	<key>@MMK_L_cyrl_uc_Cheabkhaz</key>
+	<array>
+		<string>uni04BC</string>
+		<string>uni04BE</string>
+	</array>
 	<key>@MMK_L_cyrl_uc_De</key>
 	<array>
 		<string>uni0414</string>
@@ -127,6 +148,8 @@
 		<string>uni0429</string>
 		<string>uni04A2</string>
 		<string>uni04B6</string>
+		<string>uni04B4</string>
+		<string>uni0524</string>
 	</array>
 	<key>@MMK_L_cyrl_uc_Es</key>
 	<array>
@@ -139,6 +162,11 @@
 		<string>uni0403</string>
 		<string>uni0490</string>
 		<string>uni04A4</string>
+	</array>
+	<key>@MMK_L_cyrl_uc_Gehook</key>
+	<array>
+		<string>uni0494</string>
+		<string>uni04A6</string>
 	</array>
 	<key>@MMK_L_cyrl_uc_Ii</key>
 	<array>
@@ -163,6 +191,7 @@
 		<string>uni040C</string>
 		<string>uni049C</string>
 		<string>uni04A0</string>
+		<string>uni049E</string>
 	</array>
 	<key>@MMK_L_cyrl_uc_Kadescender</key>
 	<array>
@@ -185,6 +214,12 @@
 		<string>uni042C</string>
 		<string>uni0409</string>
 		<string>uni040A</string>
+		<string>uni0462</string>
+	</array>
+	<key>@MMK_L_cyrl_uc_Te</key>
+	<array>
+		<string>uni04AC</string>
+		<string>uni04F6</string>
 	</array>
 	<key>@MMK_L_cyrl_uc_Tshe</key>
 	<array>
@@ -329,6 +364,10 @@
 		<string>softhyphen</string>
 		<string>endash</string>
 		<string>emdash</string>
+		<string>figuredash</string>
+		<string>horizontalbar</string>
+		<string>hyphendash</string>
+		<string>nbhyphen</string>
 	</array>
 	<key>@MMK_L_inp_parenth</key>
 	<array>
@@ -878,6 +917,11 @@
 		<string>uni04B7</string>
 		<string>uni04B9</string>
 	</array>
+	<key>@MMK_R_cyrl_lc_cheabkhaz</key>
+	<array>
+		<string>uni04BD</string>
+		<string>uni04BF</string>
+	</array>
 	<key>@MMK_R_cyrl_lc_el</key>
 	<array>
 		<string>uni043B</string>
@@ -904,6 +948,9 @@
 		<string>uni045A</string>
 		<string>uni04A5</string>
 		<string>uni04F9</string>
+		<string>uni04A7</string>
+		<string>uni04F7</string>
+		<string>uni0525</string>
 	</array>
 	<key>@MMK_R_cyrl_lc_hardsign</key>
 	<array>
@@ -926,6 +973,7 @@
 		<string>uni045D</string>
 		<string>uni04E3</string>
 		<string>uni045F</string>
+		<string>uni04B5</string>
 	</array>
 	<key>@MMK_R_cyrl_lc_kha</key>
 	<array>
@@ -947,16 +995,23 @@
 		<string>uni04E9</string>
 		<string>uni04AB</string>
 		<string>uni04D9</string>
+		<string>uni04A9</string>
 	</array>
 	<key>@MMK_R_cyrl_lc_shha</key>
 	<array>
 		<string>uni04CF</string>
 		<string>uni04BB</string>
 	</array>
+	<key>@MMK_R_cyrl_lc_te</key>
+	<array>
+		<string>uni0442</string>
+		<string>uni04AD</string>
+	</array>
 	<key>@MMK_R_cyrl_lc_tshe</key>
 	<array>
 		<string>uni0452</string>
 		<string>uni045B</string>
+		<string>uni049F</string>
 	</array>
 	<key>@MMK_R_cyrl_lc_u</key>
 	<array>
@@ -992,6 +1047,11 @@
 		<string>uni04B6</string>
 		<string>uni04B8</string>
 	</array>
+	<key>@MMK_R_cyrl_uc_Cheabkhaz</key>
+	<array>
+		<string>uni04BC</string>
+		<string>uni04BE</string>
+	</array>
 	<key>@MMK_R_cyrl_uc_El</key>
 	<array>
 		<string>uni041B</string>
@@ -1023,12 +1083,15 @@
 		<string>uni04E8</string>
 		<string>uni04AA</string>
 		<string>uni04D8</string>
+		<string>uni04A8</string>
 	</array>
 	<key>@MMK_R_cyrl_uc_Te</key>
 	<array>
 		<string>uni0422</string>
 		<string>uni0402</string>
 		<string>uni040B</string>
+		<string>uni04B4</string>
+		<string>uni04AC</string>
 	</array>
 	<key>@MMK_R_cyrl_uc_U</key>
 	<array>
@@ -1171,6 +1234,10 @@
 		<string>softhyphen</string>
 		<string>endash</string>
 		<string>emdash</string>
+		<string>figuredash</string>
+		<string>horizontalbar</string>
+		<string>hyphendash</string>
+		<string>nbhyphen</string>
 	</array>
 	<key>@MMK_R_inp_parenth</key>
 	<array>

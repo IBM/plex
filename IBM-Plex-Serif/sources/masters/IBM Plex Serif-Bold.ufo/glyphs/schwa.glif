@@ -4,7 +4,7 @@
   <unicode hex="0259"/>
   <outline>
     <contour>
-      <point x="281" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="281" y="-12" type="curve" smooth="yes" name=""/>
       <point x="430" y="-12"/>
       <point x="528" y="92"/>
       <point x="528" y="261" type="curve" smooth="yes"/>
@@ -38,20 +38,11 @@
       <point x="367" y="91"/>
       <point x="334" y="57"/>
     </contour>
+    <contour>
+      <point x="281.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="274.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni0259</string>
-      <key>com.type-invaders.name.production</key>
-      <string>schwa</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.986</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

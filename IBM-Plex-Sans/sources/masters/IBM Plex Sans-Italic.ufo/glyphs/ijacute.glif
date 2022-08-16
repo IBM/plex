@@ -2,16 +2,10 @@
 <glyph name="ijacute" format="1">
   <advance width="512"/>
   <outline>
+    <component base="dotlessi"/>
     <component base="dotlessj" xOffset="259"/>
     <component base="acute" xOffset="-124"/>
     <component base="acute" xOffset="136"/>
-    <component base="dotlessi"/>
-    <contour>
-      <point x="117.0" y="0.0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="188.0" y="0.0" type="move" name="bottomright"/>
-    </contour>
   </outline>
   <lib>
     <dict>

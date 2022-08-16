@@ -4,7 +4,7 @@
   <unicode hex="2116"/>
   <outline>
     <contour>
-      <point x="50" y="0" type="line" name="hr00"/>
+      <point x="50" y="0" type="line"/>
       <point x="242" y="0" type="line"/>
       <point x="242" y="18" type="line"/>
       <point x="157" y="18" type="line"/>
@@ -12,7 +12,7 @@
       <point x="160" y="674" type="line"/>
       <point x="574" y="0" type="line"/>
       <point x="604" y="0" type="line"/>
-      <point x="604" y="680" type="line"/>
+      <point x="604" y="680" type="line" name=""/>
       <point x="689" y="680" type="line"/>
       <point x="689" y="698" type="line"/>
       <point x="497" y="698" type="line"/>
@@ -24,7 +24,7 @@
       <point x="50" y="698" type="line"/>
       <point x="50" y="680" type="line"/>
       <point x="135" y="680" type="line"/>
-      <point x="135" y="18" type="line"/>
+      <point x="135" y="18" type="line" name=""/>
       <point x="50" y="18" type="line"/>
     </contour>
     <contour>
@@ -64,19 +64,4 @@
       <point x="749" y="302" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni2116</string>
-      <key>com.type-invaders.name.production</key>
-      <string>numerosign</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.986</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>

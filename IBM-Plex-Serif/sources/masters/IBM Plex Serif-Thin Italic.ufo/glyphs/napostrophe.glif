@@ -3,8 +3,14 @@
   <advance width="772"/>
   <unicode hex="0149"/>
   <outline>
-    <component base="quoteright"/>
     <component base="n" xOffset="238"/>
+    <component base="quoteright"/>
+    <contour>
+      <point x="442.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="579.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

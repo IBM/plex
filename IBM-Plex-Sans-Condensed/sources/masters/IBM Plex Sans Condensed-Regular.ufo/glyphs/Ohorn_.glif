@@ -9,7 +9,7 @@
       <point x="406" y="698" type="line"/>
       <point x="380" y="706"/>
       <point x="350" y="710"/>
-      <point x="319" y="710" type="curve" smooth="yes" name="hr01"/>
+      <point x="319" y="710" type="curve" smooth="yes" name=""/>
       <point x="150" y="710"/>
       <point x="52" y="598"/>
       <point x="52" y="349" type="curve" smooth="yes"/>
@@ -22,7 +22,7 @@
       <point x="586" y="525"/>
       <point x="542" y="614"/>
       <point x="435" y="639" type="curve"/>
-      <point x="435" y="647" type="line" name="hr02"/>
+      <point x="435" y="647" type="line" name=""/>
       <point x="531" y="647" type="line" smooth="yes"/>
       <point x="579" y="647"/>
       <point x="591" y="659"/>
@@ -37,7 +37,7 @@
       <point x="138" y="427" type="line" smooth="yes"/>
       <point x="138" y="556"/>
       <point x="204" y="639"/>
-      <point x="319" y="639" type="curve" smooth="yes" name="hr03"/>
+      <point x="319" y="639" type="curve" smooth="yes" name=""/>
       <point x="434" y="639"/>
       <point x="500" y="556"/>
       <point x="500" y="427" type="curve" smooth="yes"/>
@@ -49,7 +49,7 @@
       <point x="319.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="319.0" y="698.0" type="move" name="top"/>
+      <point x="309.0" y="698.0" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

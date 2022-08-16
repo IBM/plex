@@ -20,6 +20,7 @@ languagesystem latn ROM;
 @numbers_dflt = [zero one two three four five six seven eight nine];   # 10 items
 @numbers_sups = [zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior];   # 10 items
 @numbers_sinf = [zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior];   # 10 items
+@numbers_tosf = [zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf];   # 10 items
 
 
 
@@ -59,32 +60,6 @@ feature aalt {
 	sub gcommaaccent from [gcommaaccent.alt01]; # 1 glyph(s)
 	sub gdotaccent from [gdotaccent.alt01]; # 1 glyph(s)
 	sub germandbls from [germandbls.alt01]; # 1 glyph(s)
-	sub tilde from [tilde.alt01 tilde.case tilde.alt01.case]; # 3 glyph(s)
-	sub macron from [macron.case]; # 1 glyph(s)
-	sub dotaccent from [dotaccent.case]; # 1 glyph(s)
-	sub dieresis from [dieresis.case]; # 1 glyph(s)
-	sub hungarumlaut from [hungarumlaut.case]; # 1 glyph(s)
-	sub acute from [acute.case]; # 1 glyph(s)
-	sub grave from [grave.case]; # 1 glyph(s)
-	sub circumflex from [circumflex.case]; # 1 glyph(s)
-	sub caron from [caron.case]; # 1 glyph(s)
-	sub breve from [breve.case]; # 3 glyph(s)
-	sub ring from [ring.case]; # 1 glyph(s)
-	sub ringacute from [ringacute.case]; # 1 glyph(s)
-	sub hookcomb from [hookcomb.case]; # 1 glyph(s)
-	sub breveacute from [breveacute.case]; # 1 glyph(s)
-	sub brevegrave from [brevegrave.case]; # 1 glyph(s)
-	sub brevehook from [brevehook.case]; # 1 glyph(s)
-	sub brevetilde from [brevetilde.case]; # 1 glyph(s)
-	sub dieresisacute from [dieresisacute.case]; # 1 glyph(s)
-	sub dieresiscaron from [dieresiscaron.case]; # 1 glyph(s)
-	sub dieresisgrave from [dieresisgrave.case]; # 1 glyph(s)
-	sub circumflexacute from [circumflexacute.case]; # 1 glyph(s)
-	sub circumflexbreve from [circumflexbreve.case]; # 1 glyph(s)
-	sub circumflexgrave from [circumflexgrave.case]; # 1 glyph(s)
-	sub circumflexhook from [circumflexhook.case]; # 1 glyph(s)
-	sub dieresismacron from [dieresismacron.case]; # 1 glyph(s)
-	sub circumflextilde from [circumflextilde.case]; # 1 glyph(s)
 } aalt;
 
 
@@ -154,9 +129,24 @@ feature subs {
 
 
 
+feature onum {
+	# old-style numerals
+	sub @numbers_dflt by @numbers_tosf;
+} onum;
+
+
+
+feature lnum {
+	# lining numerals
+	sub @numbers_tosf by @numbers_dflt;
+} lnum;
+
+
+
 feature zero {
 	# slashed zero
 	sub zero by zero.alt02;
+	sub zero.tosf by zero.tosf.alt02;
 } zero;
 
 
@@ -190,6 +180,7 @@ feature ss03 {
 	};
 	# slashed zero
 	sub zero by zero.alt02;
+	sub zero.tosf by zero.tosf.alt02;
 } ss03;
 
 
@@ -201,6 +192,7 @@ feature ss04 {
 	};
 	# dotted zero
 	sub zero by zero.alt01;
+	sub zero.tosf by zero.tosf.alt01;
 } ss04;
 
 
@@ -221,6 +213,7 @@ feature salt {
 	sub @lca_dflt by @lca_alt1;
 	sub @lcg_dflt by @lcg_alt1;
 	sub zero by zero.alt01;
+	sub zero.tosf by zero.tosf.alt01;
 	sub germandbls by germandbls.alt01;
 } salt;
 
@@ -270,9 +263,9 @@ feature ccmp {
 
 
 feature kern {
-	# Created: Tue Feb 11 12:59:05 2020
+	# Created: Tue Jul 26 16:40:58 2022
 	# PS Name: IBMPlexSansCond-Italic
-	# MM Inst: IBM Plex Sans Condensed
+	# MM Inst: IBM Plex Sans Cond
 	# MinKern: +/- 0 inclusive
 	# exported from Robofont
 	@MMK_L_inp_colon = [colon semicolon];
@@ -280,7 +273,7 @@ feature kern {
 	@MMK_L_inp_fraction = [fraction divisionslash];
 	@MMK_L_inp_guill = [guilsinglleft guillemotleft];
 	@MMK_L_inp_guilr = [guilsinglright guillemotright];
-	@MMK_L_inp_hyph = [hyphen softhyphen endash emdash];
+	@MMK_L_inp_hyph = [hyphen softhyphen hyphendash nbhyphen figuredash endash emdash horizontalbar];
 	@MMK_L_inp_parenth = [bracketleft braceleft];
 	@MMK_L_inp_period = [period ellipsis comma quotesinglbase quotedblbase];
 	@MMK_L_inp_quotel = [quoteleft quotedblleft];
@@ -330,7 +323,7 @@ feature kern {
 	@MMK_R_inp_fraction = [fraction divisionslash];
 	@MMK_R_inp_guill = [guilsinglleft guillemotleft];
 	@MMK_R_inp_guilr = [guilsinglright guillemotright];
-	@MMK_R_inp_hyph = [hyphen softhyphen endash emdash];
+	@MMK_R_inp_hyph = [hyphen softhyphen hyphendash nbhyphen figuredash endash emdash horizontalbar];
 	@MMK_R_inp_parenth = [bracketright braceright];
 	@MMK_R_inp_period = [period ellipsis comma quotesinglbase quotedblbase];
 	@MMK_R_inp_quotel = [quoteleft quotedblleft];
@@ -3521,9 +3514,9 @@ feature kern {
 
 
 feature mark {
-	# Created: Fri Feb 14 18:00:28 2020
+	# Created: Tue Jul 26 15:31:22 2022
 	# PS Name: IBMPlexSansCond-Italic
-	# MM Inst: IBM Plex Sans Condensed
+	# MM Inst: IBM Plex Sans Cond
 	# exported from FontLab
 	@mGC_bottom_0_0 = [cedillacomb commabelowcomb dotbelowcomb];
 	@mGC_top_0_540 = [acutecomb breveacute brevecomb brevegrave brevehook brevetilde caroncomb circumflexacute circumflexbreve circumflexcomb circumflexgrave circumflexhook circumflextilde commaturnedtopcomb dieresisacute dieresiscaron dieresiscomb dieresisgrave dieresismacron dotaccentcomb gravecomb hookcomb hungarumlautcomb macroncomb ringcomb tildecomb];
@@ -3536,32 +3529,29 @@ feature mark {
 	lookup MARK_BASE_bottom {
 		@bGC_AE_bottom = [AE AEacute];
 		@bGC_A_bottom = [A Aacute Abreve Acaron Acircumflex Adieresis Agrave Ahook Amacron Aring Aringacute Atilde Abreveacute Abrevegrave Abrevehook Abrevetilde Acircumflexacute Acircumflexgrave Acircumflexhook Acircumflextilde];
-		@bGC_B_bottom = [B Dcroat Eth];
-		@bGC_C_bottom = [C Cacute Ccaron Ccircumflex Cdotaccent Uhorn Uhornacute Uhorngrave Uhornhook Uhorntilde];
+		@bGC_C_bottom = [C Cacute Ccaron Ccircumflex Cdotaccent];
 		@bGC_D_bottom = [D Dcaron];
 		@bGC_E_bottom = [E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Ehook Emacron Etilde Ecircumflexacute Ecircumflexgrave Ecircumflexhook Ecircumflextilde];
 		@bGC_G_bottom = [G Gbreve Gcircumflex Gdotaccent];
 		@bGC_H_bottom = [H Hcircumflex];
 		@bGC_I_bottom = [I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Igrave Ihook Imacron Itilde];
 		@bGC_J_bottom = [J Jacute Jcircumflex];
-		@bGC_L_bottom = [L Lacute Lcaron Ldot Tbar];
-		@bGC_N_bottom = [N Nacute Ncaron Ntilde];
-		@bGC_O_bottom = [O Oacute Obreve Ocaron Ocircumflex Odieresis Ograve Ohook Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocircumflexacute Ocircumflexgrave Ocircumflexhook Ocircumflextilde];
-		@bGC_Ohorn_bottom = [Ohorn Ohornacute Ohorngrave Ohornhook Ohorntilde];
+		@bGC_L_bottom = [L Lacute Lcaron Ldot];
+		@bGC_N_bottom = [N Hbar Nacute Ncaron Ntilde];
+		@bGC_O_bottom = [O Oacute Obreve Ocaron Ocircumflex Odieresis Ograve Ohook Ohungarumlaut Omacron Oslash Oslashacute Otilde Ohorn Ohornacute Ohorngrave Ohornhook Ohorntilde Ocircumflexacute Ocircumflexgrave Ocircumflexhook Ocircumflextilde];
 		@bGC_R_bottom = [R Racute Rcaron];
-		@bGC_T_bottom = [T Tcaron];
-		@bGC_U_bottom = [U Uacute Ubreve Ucaron Ucircumflex Udieresis Ugrave Uhook Uhungarumlaut Umacron Uring Utilde Udieresismacron Udieresisacute Udieresisgrave Udieresiscaron];
+		@bGC_U_bottom = [U Uacute Ubreve Ucaron Ucircumflex Udieresis Ugrave Uhook Uhungarumlaut Umacron Uring Utilde Uhorn Uhornacute Uhorngrave Uhornhook Uhorntilde Udieresismacron Udieresisacute Udieresisgrave Udieresiscaron];
 		@bGC_W_bottom = [W Wacute Wcircumflex Wdieresis Wgrave];
+		@bGC_X_bottom = [X Dcroat Eth];
 		@bGC_Y_bottom = [Y Yacute Ycircumflex Ydieresis Ygrave Yhook Ytilde];
 		@bGC_Z_bottom = [Z Zacute Zcaron Zdotaccent];
-		@bGC_a.alt01_bottom = [a.alt01 aacute.alt01 abreve.alt01 acaron.alt01 acircumflex.alt01 adieresis.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01];
+		@bGC_a.alt01_bottom = [a.alt01 T aacute.alt01 abreve.alt01 acaron.alt01 acircumflex.alt01 adieresis.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01 Tbar Tcaron];
 		@bGC_a_bottom = [a d S aacute abreve acaron acircumflex adieresis agrave ahook amacron aring aringacute atilde abreveacute abrevegrave abrevehook abrevetilde acircumflexacute acircumflexgrave acircumflexhook acircumflextilde dcaron dcroat Sacute Scaron Scircumflex];
 		@bGC_ae_bottom = [ae aeacute];
 		@bGC_c_bottom = [c cacute ccaron ccircumflex cdotaccent];
-		@bGC_dotlessi_bottom = [dotlessi iacute ibreve icaron icircumflex idieresis igrave ihook imacron itilde ijacute];
 		@bGC_e_bottom = [e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave ehook emacron etilde ecircumflexacute ecircumflexgrave ecircumflexhook ecircumflextilde];
 		@bGC_h_bottom = [h hbar hcircumflex];
-		@bGC_i_bottom = [i l ij lacute lcaron ldot];
+		@bGC_i_bottom = [i l dotlessi iacute ibreve icaron icircumflex idieresis igrave ihook imacron itilde lacute lcaron ldot];
 		@bGC_k_bottom = [k kgreenlandic];
 		@bGC_n_bottom = [n nacute ncaron ntilde];
 		@bGC_o_bottom = [o oacute obreve ocaron ocircumflex odieresis ograve ohook ohungarumlaut omacron oslash oslashacute otilde ohorn ohornacute ohorngrave ohornhook ohorntilde ocircumflexacute ocircumflexgrave ocircumflexhook ocircumflextilde];
@@ -3574,7 +3564,6 @@ feature mark {
 		@bGC_z_bottom = [z zacute zcaron zdotaccent];
 		pos base @bGC_AE_bottom <anchor 364 0> mark @MC_bottom;
 		pos base @bGC_A_bottom <anchor 237 0> mark @MC_bottom;
-		pos base @bGC_B_bottom <anchor 227 0> mark @MC_bottom;
 		pos base @bGC_C_bottom <anchor 249 0> mark @MC_bottom;
 		pos base @bGC_D_bottom <anchor 219 0> mark @MC_bottom;
 		pos base @bGC_E_bottom <anchor 234 0> mark @MC_bottom;
@@ -3585,18 +3574,16 @@ feature mark {
 		pos base @bGC_L_bottom <anchor 201 0> mark @MC_bottom;
 		pos base @bGC_N_bottom <anchor 268 0> mark @MC_bottom;
 		pos base @bGC_O_bottom <anchor 255 0> mark @MC_bottom;
-		pos base @bGC_Ohorn_bottom <anchor 259 0> mark @MC_bottom;
 		pos base @bGC_R_bottom <anchor 245 0> mark @MC_bottom;
-		pos base @bGC_T_bottom <anchor 191 0> mark @MC_bottom;
 		pos base @bGC_U_bottom <anchor 246 0> mark @MC_bottom;
 		pos base @bGC_W_bottom <anchor 342 0> mark @MC_bottom;
+		pos base @bGC_X_bottom <anchor 228 0> mark @MC_bottom;
 		pos base @bGC_Y_bottom <anchor 206 0> mark @MC_bottom;
 		pos base @bGC_Z_bottom <anchor 218 0> mark @MC_bottom;
 		pos base @bGC_a.alt01_bottom <anchor 197 0> mark @MC_bottom;
 		pos base @bGC_a_bottom <anchor 214 0> mark @MC_bottom;
 		pos base @bGC_ae_bottom <anchor 304 0> mark @MC_bottom;
 		pos base @bGC_c_bottom <anchor 204 0> mark @MC_bottom;
-		pos base @bGC_dotlessi_bottom <anchor 103 0> mark @MC_bottom;
 		pos base @bGC_e_bottom <anchor 202 0> mark @MC_bottom;
 		pos base @bGC_h_bottom <anchor 222 0> mark @MC_bottom;
 		pos base @bGC_i_bottom <anchor 102 0> mark @MC_bottom;
@@ -3610,14 +3597,13 @@ feature mark {
 		pos base @bGC_w_bottom <anchor 273 0> mark @MC_bottom;
 		pos base @bGC_y_bottom <anchor 295 0> mark @MC_bottom;
 		pos base @bGC_z_bottom <anchor 163 0> mark @MC_bottom;
+		pos base B <anchor 227 0> mark @MC_bottom;
 		pos base F <anchor 72 0> mark @MC_bottom;
-		pos base Hbar <anchor 269 0> mark @MC_bottom;
 		pos base K <anchor 256 0> mark @MC_bottom;
 		pos base M <anchor 307 0> mark @MC_bottom;
 		pos base OE <anchor 409 0> mark @MC_bottom;
 		pos base P <anchor 74 0> mark @MC_bottom;
 		pos base Schwa <anchor 271 0> mark @MC_bottom;
-		pos base X <anchor 228 0> mark @MC_bottom;
 		pos base b <anchor 230 0> mark @MC_bottom;
 		pos base m <anchor 334 0> mark @MC_bottom;
 		pos base napostrophe <anchor 469 0> mark @MC_bottom;
@@ -3634,9 +3620,9 @@ feature mark {
 		@bGC_a.alt01_bottomright = [a.alt01 aacute.alt01 abreve.alt01 acaron.alt01 acircumflex.alt01 adieresis.alt01 adotbelow.alt01 agrave.alt01 ahook.alt01 amacron.alt01 aring.alt01 aringacute.alt01 atilde.alt01 abreveacute.alt01 abrevedotbelow.alt01 abrevegrave.alt01 abrevehook.alt01 abrevetilde.alt01 acircumflexacute.alt01 acircumflexdotbelow.alt01 acircumflexgrave.alt01 acircumflexhook.alt01 acircumflextilde.alt01];
 		@bGC_a_bottomright = [a aacute abreve acaron acircumflex adieresis adotbelow agrave ahook amacron aring aringacute atilde abreveacute abrevedotbelow abrevegrave abrevehook abrevetilde acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhook acircumflextilde];
 		@bGC_e_bottomright = [e eacute ebreve ecaron ecircumflex edieresis edotaccent edotbelow egrave ehook emacron etilde ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhook ecircumflextilde];
-		@bGC_i_bottomright = [i dotlessi iacute ibreve icaron icircumflex idieresis igrave ihook imacron itilde ij ijacute];
+		@bGC_i_bottomright = [i dotlessi iacute ibreve icaron icircumflex idieresis igrave ihook imacron itilde];
 		@bGC_u_bottomright = [u uacute ubreve ucaron ucircumflex udieresis udotbelow ugrave uhook uhungarumlaut umacron uring utilde udieresismacron udieresisacute udieresisgrave udieresiscaron];
-		pos base @bGC_A_bottomright <anchor 495 0> mark @MC_bottomright;
+		pos base @bGC_A_bottomright <anchor 489 0> mark @MC_bottomright;
 		pos base @bGC_E_bottomright <anchor 421 0> mark @MC_bottomright;
 		pos base @bGC_I_bottomright <anchor 249 0> mark @MC_bottomright;
 		pos base @bGC_U_bottomright <anchor 351 0> mark @MC_bottomright;
@@ -3644,34 +3630,35 @@ feature mark {
 		pos base @bGC_a_bottomright <anchor 447 0> mark @MC_bottomright;
 		pos base @bGC_e_bottomright <anchor 287 0> mark @MC_bottomright;
 		pos base @bGC_i_bottomright <anchor 167 0> mark @MC_bottomright;
-		pos base @bGC_u_bottomright <anchor 433 0> mark @MC_bottomright;
+		pos base @bGC_u_bottomright <anchor 434 0> mark @MC_bottomright;
 	} MARK_BASE_bottomright;
 	lookup MARK_BASE_top {
 		@bGC_A_top = [A Adotbelow Aogonek];
 		@bGC_B_top = [B R Rcommaaccent];
-		@bGC_C_top = [C E P Ccedilla Edotbelow Eogonek];
+		@bGC_C_top = [C E P Ccedilla Dcroat Eth Edotbelow Eogonek];
 		@bGC_G_top = [G Gcommaaccent];
 		@bGC_H_top = [H N Ncommaaccent Eng];
 		@bGC_I_top = [I Idotbelow Iogonek];
 		@bGC_K_top = [K Kcommaaccent];
 		@bGC_L_top = [L Lcaron Lcommaaccent];
 		@bGC_O_top = [O Odotbelow Oslash];
+		@bGC_Ohorn_top = [Ohorn Ohorndotbelow];
+		@bGC_Q_top = [Q Uhorn Uhorndotbelow];
 		@bGC_S_top = [S Scedilla Scommaaccent];
-		@bGC_Schwa_top = [Schwa Ohorn Ohorndotbelow];
-		@bGC_T_top = [T V Tbar Tcommaaccent];
-		@bGC_U_top = [U Udotbelow Uogonek Uhorn Uhorndotbelow];
-		@bGC_X_top = [X Dcroat Eth];
+		@bGC_T_top = [T V Tbar Tcommaaccent Tcedilla];
+		@bGC_U_top = [U Udotbelow Uogonek];
 		@bGC_Y_top = [Y Ydotbelow];
 		@bGC_a.alt01_top = [a.alt01 adotbelow.alt01 aogonek.alt01];
 		@bGC_a_top = [a g.alt01 q adotbelow aogonek];
 		@bGC_c_top = [c ccedilla];
 		@bGC_e_top = [e edotbelow eogonek];
-		@bGC_g_top = [g g.alt02 y ydotbelow];
+		@bGC_g_top = [g g.alt02 y ohorn ohorndotbelow ydotbelow];
 		@bGC_l_top = [l lcaron lcommaaccent];
 		@bGC_n_top = [n ncommaaccent eng];
-		@bGC_o_top = [o u odotbelow oslash ohorn ohorndotbelow udotbelow uogonek uhorn uhorndotbelow];
+		@bGC_o_top = [o u odotbelow oslash udotbelow uogonek];
 		@bGC_r_top = [r rcommaaccent];
 		@bGC_s_top = [s scedilla scommaaccent];
+		@bGC_uhorn_top = [uhorn uhorndotbelow];
 		pos base @bGC_A_top <anchor 368 698> mark @MC_top;
 		pos base @bGC_B_top <anchor 364 698> mark @MC_top;
 		pos base @bGC_C_top <anchor 363 698> mark @MC_top;
@@ -3681,11 +3668,11 @@ feature mark {
 		pos base @bGC_K_top <anchor 370 698> mark @MC_top;
 		pos base @bGC_L_top <anchor 212 698> mark @MC_top;
 		pos base @bGC_O_top <anchor 394 698> mark @MC_top;
+		pos base @bGC_Ohorn_top <anchor 374 698> mark @MC_top;
+		pos base @bGC_Q_top <anchor 380 698> mark @MC_top;
 		pos base @bGC_S_top <anchor 326 698> mark @MC_top;
-		pos base @bGC_Schwa_top <anchor 377 698> mark @MC_top;
 		pos base @bGC_T_top <anchor 340 698> mark @MC_top;
 		pos base @bGC_U_top <anchor 390 698> mark @MC_top;
-		pos base @bGC_X_top <anchor 362 698> mark @MC_top;
 		pos base @bGC_Y_top <anchor 336 698> mark @MC_top;
 		pos base @bGC_a.alt01_top <anchor 273 540> mark @MC_top;
 		pos base @bGC_a_top <anchor 289 540> mark @MC_top;
@@ -3697,6 +3684,7 @@ feature mark {
 		pos base @bGC_o_top <anchor 302 540> mark @MC_top;
 		pos base @bGC_r_top <anchor 247 540> mark @MC_top;
 		pos base @bGC_s_top <anchor 253 540> mark @MC_top;
+		pos base @bGC_uhorn_top <anchor 292 540> mark @MC_top;
 		pos base AE <anchor 542 698> mark @MC_top;
 		pos base D <anchor 354 698> mark @MC_top;
 		pos base F <anchor 356 698> mark @MC_top;
@@ -3704,14 +3692,15 @@ feature mark {
 		pos base J <anchor 330 698> mark @MC_top;
 		pos base M <anchor 443 698> mark @MC_top;
 		pos base OE <anchor 549 698> mark @MC_top;
-		pos base Q <anchor 380 698> mark @MC_top;
+		pos base Schwa <anchor 377 698> mark @MC_top;
 		pos base W <anchor 476 698> mark @MC_top;
+		pos base X <anchor 362 698> mark @MC_top;
 		pos base Z <anchor 333 698> mark @MC_top;
 		pos base ae <anchor 411 540> mark @MC_top;
-		pos base dotlessi <anchor 173 540> mark @MC_top;
-		pos base dotlessj <anchor 178 540> mark @MC_top;
+		pos base dotlessi <anchor 174 540> mark @MC_top;
+		pos base dotlessj <anchor 179 540> mark @MC_top;
 		pos base h <anchor 206 698> mark @MC_top;
-		pos base kgreenlandic <anchor 300 540> mark @MC_top;
+		pos base kgreenlandic <anchor 308 540> mark @MC_top;
 		pos base m <anchor 451 540> mark @MC_top;
 		pos base napostrophe <anchor 556 540> mark @MC_top;
 		pos base oe <anchor 463 540> mark @MC_top;

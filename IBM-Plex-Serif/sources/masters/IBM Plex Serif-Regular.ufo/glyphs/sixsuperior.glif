@@ -4,7 +4,7 @@
   <unicode hex="2076"/>
   <outline>
     <contour>
-      <point x="187" y="324" type="curve" smooth="yes" name="hr00"/>
+      <point x="187" y="324" type="curve" smooth="yes" name=""/>
       <point x="272" y="324"/>
       <point x="328" y="374"/>
       <point x="328" y="448" type="curve" smooth="yes"/>
@@ -42,19 +42,4 @@
       <point x="235" y="363"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.type-invaders.name.final</key>
-      <string>uni2076</string>
-      <key>com.type-invaders.name.production</key>
-      <string>sixsuperior</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.986</real>
-        <real>1.0</real>
-        <real>0.6</real>
-        <real>1.0</real>
-      </array>
-    </dict>
-  </lib>
 </glyph>
