@@ -56,3 +56,21 @@ Once the PR has been approved and merged, you can follow these steps to release:
 1. Check the box to open a discussion for this release
 1. In Finder, within the `/zip` directory, select all the `.zip` files. Drag them from Finder to the GitHub release page to upload the assets to the release. These files are large and the upload will take some time.
 1. Save/publish the GitHub release
+
+## Close related issues
+
+Oftentimes the changelog will contain a link to an issue as reference for a particular change. Each issue needs a comment posted.
+
+Open all related issues in different tabs, then for each tab repeat this process:
+
+1. Scroll to the bottom and post the following comment
+   1. Replace `v6.x.x` with the current release in both the link text and the url.
+   1. Replace the `###` in the release discussion url with the discussion issue number
+
+```
+Hey there! [v6.x.x](https://github.com/IBM/plex/releases/tag/v6.x.x) was just released that references this issue.
+
+Comment here or join the [release discussion](https://github.com/IBM/plex/discussions/###) to provide feedback or voice concerns. Thanks!
+```
+
+2. Close the issue if it's not already closed. If the issue is not complete, it can be reopened.
