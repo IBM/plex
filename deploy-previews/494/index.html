@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/ibm-plex.min.css" />
+  <link rel="stylesheet" href="assets/css/ibm-plex-sans-jp.min.css" />
+  <link rel="stylesheet" href="assets/css/ibm-plex-sans-kr.min.css" />
+  <title>Plex test</title>
+  <style>
+      body {
+          font-family: IBM Plex Sans, system;
+          font-weight: normal;
+          margin: 0;
+      }
+      h1 {
+          text-align: center;
+          margin-bottom: 0;
+      }
+      .weight-container {
+          display: flex;
+          flex-wrap: wrap;
+          max-width: max-content;
+          margin: 0 auto;
+      }
+      .weight {
+          padding: 1rem;
+          text-align: center;
+      }
+      .family {
+          position: relative;
+      }
+
+      p::before {
+          content: attr(style);
+          display: none;
+          top: -2.5em;
+          left: -50%;
+          right: 50%;
+          background: #171717;
+          padding: 0.5rem;
+          color: white;
+          width: max-content;
+          z-index: 1;
+          font-family: IBM Plex Sans;
+          font-weight: normal;
+      }
+
+      p:hover::before {
+          display: inline-block;
+          position: absolute;
+      }
+  </style>
+</head>
+<body>
+<h1>IBM Plex</h1>
+<div class="weight-container">
+  <div class="weight" style="font-weight: 100;">
+    <h2>100</h2>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 200;">
+    <h2>200</h2>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 300;">
+    <h2>300</h2>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 400;">
+    <h2>400</h2>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 450;">
+    <h2>450</h2>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 500;">
+    <h2>500</h2>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 600;">
+    <h2>600</h2>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 700;">
+    <h2>700</h2>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
