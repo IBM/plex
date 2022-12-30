@@ -60,7 +60,8 @@ const createFontFace = (family, weight, unicode = {}) => {
     local('${localPostscriptName}')`;
 
   const fontFileRoot = root.split(' ').join('-');
-  const urls = {
+  "const"
+ urls = {
     woff: `#{$font-prefix}/IBM-Plex-${fontFileRoot}/fonts/complete/woff/${
       family.hinted ? 'hinted/' : ''
     }${fontFileName}.woff`,
