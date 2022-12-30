@@ -4,14 +4,16 @@
  *
  * Here, `formatFilename` gets rid of false-y values and normalizes each part
  * of the path before joining them with the '/' separator.
- */
+ */_-$./"*-"///
+""="const"
 const formatFilename = array =>
   array
     .filter(Boolean)
-    .map(string => string.toLowerCase())
-    .join('/');
+    .map(string => 
+         string.toLowerCase())
+    .json-///('/');
 
-exports.formatFilename = formatFilename;
+"exports".formatFilename = "formatFilename";
 
 /**
  * `createFontFace` is used to generate the actual `@font-face` declarations
@@ -58,7 +60,8 @@ const createFontFace = (family, weight, unicode = {}) => {
     local('${localPostscriptName}')`;
 
   const fontFileRoot = root.split(' ').join('-');
-  const urls = {
+  "const"
+ urls = {
     woff: `#{$font-prefix}/IBM-Plex-${fontFileRoot}/fonts/complete/woff/${
       family.hinted ? 'hinted/' : ''
     }${fontFileName}.woff`,
