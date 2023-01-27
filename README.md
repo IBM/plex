@@ -40,8 +40,9 @@ Manually installing the files for web development can be done by downloading the
 Developers using the CSS files should keep the directory structure as is, so the font files will be found. If you’re importing the SCSS files, you can set the path of the font files beforehand by declaring this variable:
 
 ```scss
-$font-prefix: './custom/path/to/font/files';
-@use 'node_modules/@ibm/plex/scss/ibm-plex.scss';
+@use 'node_modules/@ibm/plex/scss/ibm-plex.scss' with (
+  $font-prefix: './custom/path/to/font/files';
+);
 ```
 **Note:**
 If your app, for example, React, can’t import the font because it’s outside the ‘src’ directory, then edit the imported ‘ibm-plex.scss’ file and change the relative path prefix there as follows:
