@@ -10,11 +10,9 @@ Meet the IBM Plex® typeface, our new corporate typeface family. It’s global, 
 
 We designed the IBM Plex typeface carefully to both meet our needs as a global tech company and express who we are as IBMers. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Discover more about our development of the [IBM Plex typeface](https://www.ibm.com/plex/).
 
-The IBM Plex typeface is an open-source project and available for download and use following the Open Font License (OFL). The IBM Plex family comes in Sans, Serif, Mono and Sans Condensed, all with roman and true italics. The fonts have been designed to work well in user interface (UI) environments, as well as other mediums. This project provides all source files and file formats to support most typographical situations. Currently, IBM Plex Sans supports Extended Latin, Arabic, Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean and Thai. Chinese will follow in 2022.
+The IBM Plex typeface is an open-source project available for download and various uses following the Open Font License (OFL). The IBM Plex family comes in Sans, Serif, Mono, and Sans Condensed, all with roman and true italics. Plex has been designed to work well in user interface (UI) environments and other mediums. This project provides all source files and multiple formats to support most typographical situations. Currently, IBM Plex Sans supports Extended Latin, Arabic, Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean and Thai. Traditional and Simpliﬁed Chinese versions will be available in Q1 2024, and IBM Plex Math in Q2 2024.
 
 Thanks for trying the IBM Plex typeface! We hope you like it.
-
-
 
 ## Add the IBM Plex typeface to your device
 
@@ -31,6 +29,7 @@ This project contains the following for web development:
 We also include whole .woff2, .woff, and .eot files. However, we recommend using the prescribed split strategy for performance.
 
 Installation with [Node.js®](https://nodejs.org/en/):
+
 ```
 npm install @ibm/plex
 ```
@@ -43,14 +42,16 @@ Developers using the CSS files should keep the directory structure as is, so the
 $font-prefix: './custom/path/to/font/files';
 @import 'node_modules/@ibm/plex/scss/ibm-plex.scss';
 ```
+
 **Note:**
 If your app, for example, React, can’t import the font because it’s outside the ‘src’ directory, then edit the imported ‘ibm-plex.scss’ file and change the relative path prefix there as follows:
-```$font-prefix: '' !default;```
+`$font-prefix: '' !default;`
 
 Below are the `font-family` rules for the family:
 
 ```css
-font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono',
+  'Bitstream Vera Sans Mono', Courier, monospace;
 font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
 font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
@@ -60,7 +61,7 @@ font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
 
 ### Requirements
 
-To build binary font files from .vfb sources you need [FontLab Studio 5](https://www.fontlab.com). A Python script called `IBM Plex export FDK files.py` is necessary to export the proper files from FontLab. To run this script you’ll need  the [RoboFab](https://github.com/robofab-developers/robofab) library. Also, you’ll need to have the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO) installed.
+To build binary font files from .vfb sources you need [FontLab Studio 5](https://www.fontlab.com). A Python script called `IBM Plex export FDK files.py` is necessary to export the proper files from FontLab. To run this script you’ll need the [RoboFab](https://github.com/robofab-developers/robofab) library. Also, you’ll need to have the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO) installed.
 
 ### Building one font
 
