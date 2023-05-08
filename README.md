@@ -6,6 +6,18 @@
   </a>
 </p>
 
+
+## Table of contents
+
+- [Intro](#intro)
+- [Add the IBM Plex typeface to your device](#add-the-ibm-plex-typeface-to-your-device)
+- [Web usage](#web-usage)
+- [Building the fonts from source](#building-the-fonts-from-source)
+- [Language support](https://www.ibm.com/design/language/typography/typeface/#language-support)
+
+## Intro
+
+
 Meet the IBM Plex® typeface, our new corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.
 
 We designed the IBM Plex typeface carefully to both meet our needs as a global tech company and express who we are as IBMers. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Discover more about our development of the [IBM Plex typeface](https://www.ibm.com/plex/).
@@ -68,3 +80,57 @@ To build binary font files from .vfb sources you need [FontLab Studio 5](https:/
 From FontLab, run `IBM Plex export FDK files.py` and choose a directory with IBM Plex .vfb source files. The script will create a new directory called `fdk` in which subdirectories are created for every font. The script will export files necessary for AFDKO in those subdirectories.
 
 Subsequently, OpenType Fonts (OTFs) or TrueType Fonts (TTFs) can be generated from the command line using `makeotf`, which is part of the AFDKO toolset. Information and usage instructions can be found by executing `makeotf -h`.
+
+## Language support
+
+IBM Plex covers over 100 languages. All four sub-families offer an extended Latin character set that supports – among others – all modern European languages, Turkish, and Vietnamese. In addition Plex covers a growing set of other scripts which currently include Arabic, Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean and Thai.
+
+|||||
+|--- |--- |--- |--- |
+|Afrikaans|Filipino|Luhya|Sena|
+|Albanian|Finnish|Lwalu|Serbian|
+|Arabic|French|Macedonian|Seraiki|
+|Arabic Afrikaans|Galician|Machame|Serer|
+|Arwi (Arabic Tamil)|Ganda|Makhuwa-Meetto|Shambala|
+|Asu|German|Makonde|Shona|
+|Äynu|Gilaki|Malagasy|Sindhi|
+|Azerbaijani|Greek|Malay|Slovak|
+|Bakhtiari|Gujari|Maltese|Slovenian|
+|Balti|Gusii|Manx|So|
+|Balochi/Baluchi|Hausa|Mazanderani|Soga|
+|Basque|Hawaiian|Meru|Somali|
+|Beja|Hazaragi|Mongolian|South Azerbaijani|
+|Belarusian|Hebrew|Morisien|Southern Hindko|
+|Bemba|Hindko|Moroccan Arabic|Southern Kurdish|
+|Bena|Hungarian|Muslim Tat|Southern Luri|
+|Bokmål|Icelandic|Northern Hindko|Spanish|
+|Bosnian|Indonesian|Northern Khmer|Susu|
+|Brahui|Indus|Northern Luri|Swahili|
+|Breton|Ingush|Ndebele|Swedish|
+|Bru|Irish|Norwegian|Swiss German|
+|Bulgarian|Italian|Nyah Kur|Tachelhit|
+|Catalan Central|Japanese|Nyankole|Taita|
+|Chagatai|Jola-Fonyi|Nynorsk|Tajik|
+|Chiga|Kabuverdianu|Oromo|Talysh|
+|Chong|Kachi Koli|Ottoman Turkish|Teso|
+|Comorian|Kalaallisut|Pali|Thai|
+|Coptic|Kalenjin|Parkari Koli|Tongan|
+|Cornish|Kamba|Parsi-Dari|Turkish|
+|Croatian|Kanuri|Pashto|Turkmen|
+|Czech|Karakalpak|Patani Malay|Ukrainian|
+|Danish|Kashmiri/|Polish|Urdu|
+|Dari|Kazakh|Portuguese|Uyghur|
+|Deccani|Khowar|Punjabi|Uzbek|
+|Devanagari|Kikuyu|Qashqai|Vietnamese|
+|Dogri|Kinyarwanda|Romanian|Vunjo|
+|Domari|Kohistani|Romansh|Wadiyara Koli|
+|Dutch|Korean|Rombo|Western Cham|
+|Eastern Cham|Kurdish|Rundi|Wolof|
+|Embu|Kuy|Russian|Welsh|
+|English|Kyrgyz|Rwa|Zoroastrian|
+|Esperanto|Lahnda|Samburu|Zulu|
+|Estonian|Laki|Sango||
+|Faroese|Latvian|Sangu||
+|Farsi|Lithuanian|Sanskrit||
+
+For more info, visit the [IBM Design Language](https://www.ibm.com/design/language/typography/typeface/) website
