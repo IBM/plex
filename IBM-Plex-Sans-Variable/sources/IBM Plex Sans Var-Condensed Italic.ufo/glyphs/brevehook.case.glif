@@ -3,7 +3,7 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-52" y="993" type="line" name="hr00"/>
+      <point x="-52" y="993" type="line" name=""/>
       <point x="51" y="993" type="line"/>
       <point x="-12" y="885" type="line"/>
       <point x="26" y="863" type="line"/>
@@ -35,33 +35,7 @@
       <point x="-77" y="756"/>
     </contour>
     <contour>
-      <point x="0" y="698" type="move" name="_top"/>
+      <point x="0.0" y="698.0" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ijc1NiIgd2lkdGg9IjU2IiAvPgogICAgICA8aHN0ZW0gcG9zPSI5
-      OTMiIHdpZHRoPSI1OCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTEiIHdpZHRoPSI2MSIg
-      Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>-139.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

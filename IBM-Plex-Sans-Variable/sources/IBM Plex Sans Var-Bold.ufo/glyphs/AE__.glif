@@ -18,7 +18,7 @@
       <point x="340" y="698" type="line"/>
       <point x="-1" y="0" type="line"/>
       <point x="151" y="0" type="line"/>
-      <point x="229" y="166" type="line" name="hr01"/>
+      <point x="229" y="166" type="line" name=""/>
       <point x="438" y="166" type="line"/>
     </contour>
     <contour>
@@ -28,19 +28,10 @@
       <point x="415" y="563" type="line"/>
     </contour>
     <contour>
-      <point x="579" y="698" type="move" name="top"/>
+      <point x="530.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="645.0" y="698.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIxMzUiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjI4
-      NiIgd2lkdGg9IjEzNCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTYzIiB3aWR0aD0iMTM1
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0MzgiIHdpZHRoPSIxNTEiIC8+CiAgICA8L2hp
-      bnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-    </dict>
-  </lib>
 </glyph>

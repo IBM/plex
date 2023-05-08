@@ -4,17 +4,16 @@
   <unicode hex="0328"/>
   <outline>
     <component base="ogonek" xOffset="-290"/>
+    <contour>
+      <point x="0.0" y="0.0" type="move" name="_bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-OFFSET[R], $ogonek$, -290, 0
-CALL[], 27, 28, 88
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0328</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ogonekcomb</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

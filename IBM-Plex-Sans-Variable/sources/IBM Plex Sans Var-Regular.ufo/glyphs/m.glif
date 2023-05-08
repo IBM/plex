@@ -38,7 +38,7 @@
       <point x="192" y="485"/>
       <point x="169" y="432" type="curve"/>
       <point x="165" y="432" type="line"/>
-      <point x="165" y="516" type="line" name="hr01"/>
+      <point x="165" y="516" type="line" name=""/>
       <point x="85" y="516" type="line"/>
       <point x="85" y="0" type="line"/>
     </contour>
@@ -49,30 +49,4 @@
       <point x="438.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjUx
-      NiIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtMyBzdGVtM0xpc3Q9Ijg1LDgwLDM5
-      OSw4MCw3MTMsODAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(1,10)
-YShift(1,20)
-YShift(1,30)
-ResYAnchor(2,6)
-ResYAnchor(8,7)
-ResYDist(8,34)
-YShift(8,15)
-ResYDist(15,24)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

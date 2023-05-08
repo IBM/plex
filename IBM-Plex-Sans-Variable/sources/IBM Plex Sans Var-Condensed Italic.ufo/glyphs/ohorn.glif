@@ -25,7 +25,7 @@
       <point x="355" y="516" type="line"/>
       <point x="334" y="524"/>
       <point x="311" y="528"/>
-      <point x="284" y="528" type="curve" smooth="yes" name="hr01"/>
+      <point x="284" y="528" type="curve" smooth="yes" name=""/>
       <point x="163" y="528"/>
       <point x="82" y="442"/>
       <point x="52" y="291" type="curve" smooth="yes"/>
@@ -58,22 +58,10 @@
       <point x="288" y="53"/>
     </contour>
     <contour>
-      <point x="194" y="0" type="move" name="bottom"/>
+      <point x="194.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="302" y="540" type="move" name="top"/>
+      <point x="302.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjY1IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      NjMiIHdpZHRoPSI2NSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzgiIHdpZHRoPSI3NCIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iMzc5IiB3aWR0aD0iNzQiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-    </dict>
-  </lib>
 </glyph>

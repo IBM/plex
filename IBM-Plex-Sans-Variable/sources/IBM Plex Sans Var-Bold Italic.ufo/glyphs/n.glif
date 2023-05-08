@@ -39,26 +39,15 @@
       <point x="281" y="487"/>
       <point x="241" y="403" type="curve"/>
       <point x="235" y="403" type="line"/>
-      <point x="259" y="525" type="line" name="hr01"/>
+      <point x="259" y="525" type="line" name=""/>
       <point x="119" y="525" type="line"/>
       <point x="14" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="263" y="0" type="move" name="bottom"/>
+      <point x="263.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="348" y="540" type="move" name="top"/>
+      <point x="348.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIxMTIiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjUy
-      NSIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzk2IiB3aWR0aD0iMTQ1
-      IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

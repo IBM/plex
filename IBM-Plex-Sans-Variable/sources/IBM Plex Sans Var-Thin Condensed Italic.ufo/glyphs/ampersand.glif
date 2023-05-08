@@ -34,10 +34,10 @@
       <point x="41" y="136" type="curve" smooth="yes"/>
       <point x="41" y="36"/>
       <point x="104" y="-12"/>
-      <point x="200" y="-12" type="curve" smooth="yes" name="hr01"/>
+      <point x="200" y="-12" type="curve" smooth="yes" name=""/>
       <point x="285" y="-12"/>
       <point x="366" y="39"/>
-      <point x="418" y="111" type="curve" name="hr02"/>
+      <point x="418" y="111" type="curve" name=""/>
       <point x="420" y="111" type="line"/>
     </contour>
     <contour>
@@ -58,7 +58,7 @@
       <point x="278" y="691"/>
     </contour>
     <contour>
-      <point x="204" y="8" type="curve" smooth="yes" name="hr03"/>
+      <point x="204" y="8" type="curve" smooth="yes" name=""/>
       <point x="117" y="8"/>
       <point x="63" y="46"/>
       <point x="63" y="133" type="curve" smooth="yes"/>
@@ -73,43 +73,4 @@
       <point x="286" y="8"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjIwIiAvPgogICAgICA8aHN0ZW0gcG9zPSIz
-      MzEiIHdpZHRoPSIyMCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjkxIiB3aWR0aD0iMTki
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjQxIiB3aWR0aD0iMjIiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjE4MSIgd2lkdGg9IjIyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI0NjQiIHdp
-      ZHRoPSIyMiIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJo
-      cjAyIj4KICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPGhz
-      dGVtIHBvcz0iMzMxIiB3aWR0aD0iMjAiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjY5MSIg
-      d2lkdGg9IjE5IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0MSIgd2lkdGg9IjIyIiAvPgog
-      ICAgICA8dnN0ZW0gcG9zPSIxODEiIHdpZHRoPSIyMiIgLz4KICAgICAgPHZzdGVtIHBv
-      cz0iNDY0IiB3aWR0aD0iMjIiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBw
-      b2ludFRhZz0iaHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjIwIiAv
-      PgogICAgICA8aHN0ZW0gcG9zPSIzMzEiIHdpZHRoPSIyMCIgLz4KICAgICAgPGhzdGVt
-      IHBvcz0iNjkxIiB3aWR0aD0iMTkiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQxIiB3aWR0
-      aD0iMjIiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE4MSIgd2lkdGg9IjIyIiAvPgogICAg
-      ICA8dnN0ZW0gcG9zPSI0NjQiIHdpZHRoPSIyMiIgLz4KICAgIDwvaGludHNldD4KICA8
-      L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>95.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

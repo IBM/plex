@@ -4,18 +4,10 @@
   <unicode hex="003A"/>
   <outline>
     <component base="period" xOffset="10"/>
-    <component base="period" xOffset="10" yOffset="406"/>
+    <component base="period" xOffset="10" yOffset="411"/>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-OFFSET[R], $period$, 10, 0
-OFFSET[R], $period$, 10, 406
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

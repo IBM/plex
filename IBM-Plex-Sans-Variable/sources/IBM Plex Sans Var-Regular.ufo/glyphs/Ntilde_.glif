@@ -5,24 +5,12 @@
   <outline>
     <component base="N"/>
     <component base="tilde.case" xOffset="53"/>
+    <contour>
+      <point x="353.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $N$, 0, 0
-OFFSET[R], $tilde.case$, 53, 0
-SVTCA[Y]
-CALL[], 16, 13, 1, 1, 84, 86
-SHC[2], 1
-SVTCA[X]
-CALL[], 26, 39, 6, 32, 15, 87
-SHC[2], 1
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

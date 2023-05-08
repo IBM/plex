@@ -25,7 +25,7 @@
       <point x="548" y="192" type="line" smooth="yes"/>
       <point x="548" y="149"/>
       <point x="519" y="114"/>
-      <point x="472" y="114" type="curve" smooth="yes" name="hr01"/>
+      <point x="472" y="114" type="curve" smooth="yes" name=""/>
       <point x="425" y="114"/>
       <point x="397" y="134"/>
       <point x="369" y="164" type="curve"/>
@@ -39,15 +39,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjEyNiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      MzAyIiB3aWR0aD0iMTA5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI1NzAiIHdpZHRoPSIx
-      MjgiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijc3IiB3aWR0aD0iMTUyIiAvPgogICAgICA8
-      dnN0ZW0gcG9zPSIzNTYiIHdpZHRoPSIxNTciIC8+CiAgICAgIDx2c3RlbSBwb3M9IjU0
-      OCIgd2lkdGg9IjE1MyIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1E9E</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Germandbls</string>
     </dict>
   </lib>
 </glyph>

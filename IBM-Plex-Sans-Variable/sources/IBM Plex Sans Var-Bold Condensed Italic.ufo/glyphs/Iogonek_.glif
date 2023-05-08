@@ -4,7 +4,7 @@
   <unicode hex="012E"/>
   <outline>
     <contour>
-      <point x="-6" y="0" type="line" name="hr00"/>
+      <point x="-6" y="0" type="line" name=""/>
       <point x="214" y="0" type="line"/>
       <point x="212" y="-10" type="line"/>
       <point x="109" y="-37"/>
@@ -37,17 +37,8 @@
       <point x="94" y="110" type="line"/>
       <point x="16" y="110" type="line"/>
     </contour>
+    <contour>
+      <point x="283.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSI2OCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      MCIgd2lkdGg9IjExMCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTg4IiB3aWR0aD0iMTEw
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI3MyIgd2lkdGg9IjkwIiAvPgogICAgPC9oaW50
-      c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

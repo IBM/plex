@@ -4,7 +4,7 @@
   <unicode hex="20AB"/>
   <outline>
     <contour>
-      <point x="429" y="110" type="line" name="hr00"/>
+      <point x="429" y="110" type="line" name=""/>
       <point x="450" y="110" type="line"/>
       <point x="450" y="645" type="line"/>
       <point x="522" y="645" type="line"/>
@@ -57,16 +57,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyMCIgLz4KICAgICAgPGhzdGVtIHBvcz0iOTgi
-      IHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTI5IiB3aWR0aD0iMTkiIC8+
-      CiAgICAgIDxoc3RlbSBwb3M9IjY0NSIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0g
-      cG9zPSI3NDAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjY5IiB3aWR0
-      aD0iMjMiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQyOSIgd2lkdGg9IjIxIiAvPgogICAg
-      PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20AB</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dong</string>
     </dict>
   </lib>
 </glyph>

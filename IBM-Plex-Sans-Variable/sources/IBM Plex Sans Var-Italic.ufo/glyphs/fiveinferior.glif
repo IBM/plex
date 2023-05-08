@@ -4,7 +4,7 @@
   <unicode hex="2085"/>
   <outline>
     <contour>
-      <point x="294" y="320" type="line" name="hr00"/>
+      <point x="294" y="320" type="line" name=""/>
       <point x="304" y="369" type="line"/>
       <point x="86" y="369" type="line"/>
       <point x="28" y="164" type="line"/>
@@ -43,35 +43,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii02IiB3aWR0aD0iNDkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE4
-      NiIgd2lkdGg9IjQ4IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzMjAiIHdpZHRoPSI0OSIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iMjE0IiB3aWR0aD0iNjMiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(13,158)
-ResYDist(13,20)
-ResYAnchor(34,155)
-YDelta(34,-1@15)
-YDelta(34,1@20)
-YDelta(34,1@23)
-YDelta(34,1@31)
-YDelta(34,1@38)
-YDelta(34,-1@42)
-YDelta(34,1@44)
-ResYDist(34,1)
-YIPAnchor(34,6,13)
-ResYDist(6,29)
-YInterpolate(20,17,32,29)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2085</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fiveinferior</string>
     </dict>
   </lib>
 </glyph>

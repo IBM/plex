@@ -10,7 +10,7 @@
       <point x="121" y="78" type="line"/>
       <point x="140" y="25"/>
       <point x="191" y="-12"/>
-      <point x="265" y="-12" type="curve" smooth="yes" name="hr01"/>
+      <point x="265" y="-12" type="curve" smooth="yes" name=""/>
       <point x="386" y="-12"/>
       <point x="455" y="69"/>
       <point x="455" y="253" type="curve" smooth="yes"/>
@@ -21,11 +21,11 @@
       <point x="140" y="483"/>
       <point x="121" y="430" type="curve"/>
       <point x="115" y="430" type="line"/>
-      <point x="115" y="740" type="line" name="hr02"/>
+      <point x="115" y="740" type="line" name=""/>
       <point x="94" y="740" type="line"/>
     </contour>
     <contour>
-      <point x="265" y="7" type="curve" smooth="yes" name="hr03"/>
+      <point x="265" y="7" type="curve" smooth="yes" name=""/>
       <point x="179" y="7"/>
       <point x="115" y="59"/>
       <point x="115" y="147" type="curve" smooth="yes"/>
@@ -44,26 +44,4 @@
       <point x="265.0" y="0.0" type="move" name="bottom"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      OTkiIHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIx
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI5NCIgd2lkdGg9IjIxIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSI0MzIiIHdpZHRoPSIyMyIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50
-      c2V0IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9Ii0y
-      MSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDk5IiB3aWR0aD0iMTkiIC8+CiAgICAgIDxo
-      c3RlbSBwb3M9Ijc0MCIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iOTQi
-      IHdpZHRoPSIyMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNDMyIiB3aWR0aD0iMjMiIC8+
-      CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      OTkiIHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIx
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI5NCIgd2lkdGg9IjIxIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSI0MzIiIHdpZHRoPSIyMyIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
-      ZXRMaXN0Pgo=
-      </data>
-    </dict>
-  </lib>
 </glyph>

@@ -5,26 +5,16 @@
   <outline>
     <component base="Y"/>
     <component base="tilde.case" xOffset="71"/>
+    <contour>
+      <point x="236.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $Y$, 0, 0
-OFFSET[R], $tilde.case$, 71, 0
-CALL[], 21, 22, 88
-SVTCA[Y]
-CALL[], 10, 7, 1, 1, 84, 86
-SHC[2], 1
-CALL[], 9
-CALL[], 20, 33, 3, 30, 8, 87
-SVTCA[X]
-SHC[2], 1
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EF8</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Ytilde</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

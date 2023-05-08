@@ -4,7 +4,7 @@
   <unicode hex="0192"/>
   <outline>
     <contour>
-      <point x="-50" y="-134" type="line" name="hr00"/>
+      <point x="-50" y="-134" type="line" name=""/>
       <point x="55" y="-134" type="line" smooth="yes"/>
       <point x="151" y="-134"/>
       <point x="188" y="-111"/>
@@ -28,55 +28,4 @@
       <point x="-29" y="-28" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMzQiIHdpZHRoPSIxMDYiIC8+CiAgICAgIDxoc3RlbSBwb3M9
-      IjI2MiIgd2lkdGg9IjEwNiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTkyIiB3aWR0aD0i
-      MTA2IiAvPgogICAgICA8dnN0ZW0gcG9zPSItNTAiIHdpZHRoPSI1NDEiIC8+CiAgICA8
-      L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>75.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>83.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>75.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>217.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>-21.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

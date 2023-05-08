@@ -4,7 +4,7 @@
   <unicode hex="2085"/>
   <outline>
     <contour>
-      <point x="272" y="322" type="line" name="hr00"/>
+      <point x="272" y="322" type="line" name=""/>
       <point x="281" y="369" type="line"/>
       <point x="84" y="369" type="line"/>
       <point x="28" y="165" type="line"/>
@@ -43,14 +43,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii02IiB3aWR0aD0iNDciIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE4
-      NyIgd2lkdGg9IjQ2IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzMjIiIHdpZHRoPSI0NyIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iMTk0IiB3aWR0aD0iNjAiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2085</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fiveinferior</string>
     </dict>
   </lib>
 </glyph>

@@ -5,6 +5,9 @@
   <outline>
     <component base="Oslash"/>
     <component base="acute.case" xOffset="120"/>
+    <contour>
+      <point x="255.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

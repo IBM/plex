@@ -4,7 +4,7 @@
   <unicode hex="2079"/>
   <outline>
     <contour>
-      <point x="318" y="560" type="curve" smooth="yes" name="hr00"/>
+      <point x="318" y="560" type="curve" smooth="yes" name=""/>
       <point x="318" y="649"/>
       <point x="266" y="704"/>
       <point x="178" y="704" type="curve" smooth="yes"/>
@@ -44,28 +44,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjMyOSIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      NDY0IiB3aWR0aD0iNDgiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjY1NiIgd2lkdGg9IjQ4
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNyIgd2lkdGg9IjY0IiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSIyNTMiIHdpZHRoPSI2NSIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
-      ZXRMaXN0Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(4,133)
-YDelta(4,1@17;28;41,-1@45)
-ResYAnchor(18,132)
-ResYDist(18,28)
-YIPAnchor(4,12,18)
-ResYDist(12,21)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2079</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ninesuperior</string>
     </dict>
   </lib>
 </glyph>

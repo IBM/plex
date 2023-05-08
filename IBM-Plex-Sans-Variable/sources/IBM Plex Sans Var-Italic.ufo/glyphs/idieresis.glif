@@ -4,29 +4,16 @@
   <unicode hex="00EF"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="dieresis.alt01" xOffset="-106"/>
+    <component base="dieresis.alt01" xOffset="-106.0"/>
+    <contour>
+      <point x="117.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="188.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $dotlessi$, 0, 0
-OFFSET[R], $dieresis.alt01$, -106, 0
-CALL[], 23, 24, 88
-SVTCA[Y]
-CALL[], 12, 8, 1, 1, 102, 86
-SHC[2], 1
-SHC[2], 2
-CALL[], 9
-CALL[], 33, 42, 4, -45, 9, 87
-SVTCA[X]
-SHC[2], 1
-SHC[2], 2
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

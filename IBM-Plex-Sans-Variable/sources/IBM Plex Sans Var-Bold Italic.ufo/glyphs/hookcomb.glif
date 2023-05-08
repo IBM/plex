@@ -4,7 +4,7 @@
   <unicode hex="0309"/>
   <outline>
     <contour>
-      <point x="-84" y="698" type="line" name="hr00"/>
+      <point x="-84" y="698" type="line" name=""/>
       <point x="33" y="698" type="line"/>
       <point x="-16" y="605" type="line"/>
       <point x="53" y="571" type="line"/>
@@ -18,17 +18,15 @@
       <point x="-64" y="802" type="line"/>
     </contour>
     <contour>
-      <point x="0" y="540" type="move" name="_top"/>
+      <point x="0.0" y="540.0" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjY5OCIgd2lkdGg9IjEwNCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-      MzMiIHdpZHRoPSIxMjciIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0309</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hookcomb</string>
     </dict>
   </lib>
 </glyph>

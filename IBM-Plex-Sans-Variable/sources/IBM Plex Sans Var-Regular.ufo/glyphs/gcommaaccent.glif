@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gcommaaccent" format="1">
-  <advance width="528"/>
+  <advance width="531"/>
   <unicode hex="0123"/>
   <outline>
     <component base="g.alt02"/>
@@ -8,14 +8,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-OFFSET[R], $g.alt02$, 0, 0
-OFFSET[R], $commaturnedtop$, -34, 0
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

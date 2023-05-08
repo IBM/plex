@@ -22,7 +22,7 @@
       <point x="27" y="153" type="curve" smooth="yes"/>
       <point x="27" y="33"/>
       <point x="71" y="-12"/>
-      <point x="150" y="-12" type="curve" smooth="yes" name="hr01"/>
+      <point x="150" y="-12" type="curve" smooth="yes" name=""/>
       <point x="222" y="-12"/>
       <point x="263" y="23"/>
       <point x="301" y="118" type="curve"/>
@@ -33,10 +33,10 @@
       <point x="308" y="69" type="curve" smooth="yes"/>
       <point x="308" y="21"/>
       <point x="332" y="0"/>
-      <point x="386" y="0" type="curve" smooth="yes" name="hr02"/>
+      <point x="386" y="0" type="curve" smooth="yes" name=""/>
     </contour>
     <contour>
-      <point x="216" y="97" type="curve" smooth="yes" name="hr03"/>
+      <point x="216" y="97" type="curve" smooth="yes" name=""/>
       <point x="179" y="97"/>
       <point x="162" y="121"/>
       <point x="162" y="153" type="curve" smooth="yes"/>
@@ -58,30 +58,10 @@
       <point x="252" y="97"/>
     </contour>
     <contour>
-      <point x="215" y="0" type="move" name="bottom"/>
+      <point x="215.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="621" y="740" type="move" name="topright"/>
+      <point x="621.0" y="740.0" type="move" name="topright"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjEwOSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      NDI4IiB3aWR0aD0iMTA5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI3NDAiIHdpZHRoPSIt
-      MjEiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjI3IiB3aWR0aD0iMTM1IiAvPgogICAgPC9o
-      aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0g
-      cG9zPSIwIiB3aWR0aD0iMTA2IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0MjgiIHdpZHRo
-      PSIxMDkiIC8+CiAgICAgIDxoc3RlbSBwb3M9Ijc0MCIgd2lkdGg9Ii0yMSIgLz4KICAg
-      ICAgPHZzdGVtIHBvcz0iMjciIHdpZHRoPSIxMzUiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
-      ICA8aGludHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0xMiIg
-      d2lkdGg9IjEwOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDI4IiB3aWR0aD0iMTA5IiAv
-      PgogICAgICA8aHN0ZW0gcG9zPSI3NDAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjI3IiB3aWR0aD0iMTM1IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-      dExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

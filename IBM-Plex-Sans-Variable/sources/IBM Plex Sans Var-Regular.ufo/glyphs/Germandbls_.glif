@@ -25,7 +25,7 @@
       <point x="558" y="181" type="line" smooth="yes"/>
       <point x="558" y="107"/>
       <point x="512" y="59"/>
-      <point x="428" y="59" type="curve" smooth="yes" name="hr01"/>
+      <point x="428" y="59" type="curve" smooth="yes" name=""/>
       <point x="370" y="59"/>
       <point x="322" y="84"/>
       <point x="287" y="130" type="curve"/>
@@ -39,31 +39,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjcxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIz
-      MzIiIHdpZHRoPSI2OSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjI0IiB3aWR0aD0iNzQi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjkzIiB3aWR0aD0iODQiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjMzNCIgd2lkdGg9Ijg5IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1NTgiIHdp
-      ZHRoPSI5MCIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(4,9)
-ResYDist(4,12)
-ResYAnchor(25,8)
-ResYAnchor(26,2)
-YIPAnchor(25,21,26)
-ResYDist(21,20)
-YShift(21,30)
-ResYDist(26,23)
-YShift(23,28)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1E9E</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Germandbls</string>
     </dict>
   </lib>
 </glyph>
