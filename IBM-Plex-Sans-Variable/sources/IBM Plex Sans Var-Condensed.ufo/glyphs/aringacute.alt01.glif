@@ -4,6 +4,12 @@
   <outline>
     <component base="a.alt01"/>
     <component base="ringacute" xOffset="-18"/>
+    <contour>
+      <point x="230.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="448.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

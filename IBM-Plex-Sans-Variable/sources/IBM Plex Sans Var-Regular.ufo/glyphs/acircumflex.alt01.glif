@@ -4,18 +4,15 @@
   <outline>
     <component base="a.alt01"/>
     <component base="circumflex" xOffset="-22"/>
+    <contour>
+      <point x="279.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="495.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $a.alt01$, 0, 0
-OFFSET[R], $circumflex$, -22, 0
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

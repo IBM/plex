@@ -5,26 +5,16 @@
   <outline>
     <component base="Uhorn"/>
     <component base="dotbelowcomb" xOffset="278"/>
+    <contour>
+      <point x="408.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $Uhorn$, 0, 0
-OFFSET[R], $dotbelowcomb$, 278, 0
-CALL[], 21, 22, 88
-SVTCA[Y]
-CALL[], 43, 26, 1, 1, -54, 86
-SHC[2], 1
-CALL[], 9
-CALL[], 37, 46, 30, 27, 16, 87
-SVTCA[X]
-SHC[2], 1
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EF0</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Uhorndotbelow</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

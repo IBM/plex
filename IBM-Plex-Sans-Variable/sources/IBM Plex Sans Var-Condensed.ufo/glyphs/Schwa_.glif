@@ -8,7 +8,7 @@
       <point x="52" y="349" type="line" smooth="yes"/>
       <point x="52" y="100"/>
       <point x="150" y="-12"/>
-      <point x="319" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="319" y="-12" type="curve" smooth="yes" name=""/>
       <point x="488" y="-12"/>
       <point x="586" y="100"/>
       <point x="586" y="349" type="curve" smooth="yes"/>
@@ -38,18 +38,19 @@
       <point x="135" y="142"/>
       <point x="135" y="271" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="319.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="319.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjcxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIz
-      MDQiIHdpZHRoPSI2NSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjM5IiB3aWR0aD0iNzEi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjUyIiB3aWR0aD0iODMiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjUwMyIgd2lkdGg9IjgzIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-      dExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni018F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Schwa</string>
     </dict>
   </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="2082"/>
   <outline>
     <contour>
-      <point x="311" y="50" type="line" name="hr00"/>
+      <point x="311" y="50" type="line" name=""/>
       <point x="106" y="50" type="line"/>
       <point x="203" y="125" type="line" smooth="yes"/>
       <point x="259" y="168"/>
@@ -34,33 +34,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSI1MCIgLz4KICAgICAgPGhzdGVtIHBvcz0iMzIz
-      IiB3aWR0aD0iNTIiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjIzMSIgd2lkdGg9IjY3IiAv
-      PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(2,137)
-ResYDist(2,25)
-ResYAnchor(18,136)
-YDelta(18,-1@15)
-YDelta(18,1@20)
-YDelta(18,1@23)
-YDelta(18,1@31)
-YDelta(18,1@38)
-YDelta(18,-1@42)
-YDelta(18,1@44)
-YInterpolate(25,4,18)
-ResYDist(18,11)
-YInterpolate(2,24,11)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2082</string>
+      <key>com.type-invaders.name.production</key>
+      <string>twoinferior</string>
     </dict>
   </lib>
 </glyph>

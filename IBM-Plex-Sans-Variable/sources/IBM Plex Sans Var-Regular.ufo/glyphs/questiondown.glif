@@ -32,7 +32,7 @@
       <point x="262" y="399" type="curve" smooth="yes"/>
       <point x="304" y="399"/>
       <point x="323" y="422"/>
-      <point x="323" y="457" type="curve" smooth="yes" name="hr01"/>
+      <point x="323" y="457" type="curve" smooth="yes" name=""/>
       <point x="323" y="470" type="line" smooth="yes"/>
       <point x="323" y="505"/>
       <point x="304" y="528"/>
@@ -45,28 +45,4 @@
       <point x="220" y="399"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xOTQiIHdpZHRoPSI3MyIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      Mzk5IiB3aWR0aD0iMTI5IiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNyIgd2lkdGg9Ijg2
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyMDEiIHdpZHRoPSIxMjIiIC8+CiAgICA8L2hp
-      bnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0)
-ResYDist(0,18)
-ResYAnchor(33)
-ResYDist(33,26)
-ResYDist(26,9)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

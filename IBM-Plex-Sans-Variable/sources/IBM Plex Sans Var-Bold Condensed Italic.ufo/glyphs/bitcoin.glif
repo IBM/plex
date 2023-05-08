@@ -16,7 +16,7 @@
       <point x="435" y="370" type="line"/>
       <point x="524" y="387"/>
       <point x="578" y="437"/>
-      <point x="578" y="536" type="curve" smooth="yes" name="hr01"/>
+      <point x="578" y="536" type="curve" smooth="yes" name=""/>
       <point x="578" y="603"/>
       <point x="551" y="650"/>
       <point x="492" y="669" type="curve"/>
@@ -54,7 +54,7 @@
       <point x="367" y="298" type="line" smooth="yes"/>
       <point x="398" y="298"/>
       <point x="411" y="282"/>
-      <point x="411" y="251" type="curve" smooth="yes" name="hr02"/>
+      <point x="411" y="251" type="curve" smooth="yes" name=""/>
       <point x="411" y="243"/>
       <point x="410" y="233"/>
       <point x="404" y="199" type="curve" smooth="yes"/>
@@ -66,18 +66,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjIwIiB3aWR0aD0iMTEyIiAvPgogICAgICA8aHN0ZW0gcG9zPSIy
-      OTgiIHdpZHRoPSIxMDYiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjU2NiIgd2lkdGg9IjEx
-      MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iNDQyIiB3aWR0aD0iMTM2IiAvPgogICAgPC9o
-      aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0g
-      cG9zPSIyMCIgd2lkdGg9IjExMiIgLz4KICAgICAgPGhzdGVtIHBvcz0iMjk4IiB3aWR0
-      aD0iMTA2IiAvPgogICAgICA8aHN0ZW0gcG9zPSI1NjYiIHdpZHRoPSIxMTIiIC8+CiAg
-      ICAgIDx2c3RlbSBwb3M9IjQxMSIgd2lkdGg9IjEzNiIgLz4KICAgIDwvaGludHNldD4K
-      ICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20BF</string>
+      <key>com.type-invaders.name.production</key>
+      <string>bitcoin</string>
     </dict>
   </lib>
 </glyph>

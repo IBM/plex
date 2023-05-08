@@ -32,7 +32,7 @@
       <point x="250" y="525" type="line"/>
       <point x="308" y="529"/>
       <point x="340" y="561"/>
-      <point x="340" y="616" type="curve" smooth="yes" name="hr01"/>
+      <point x="340" y="616" type="curve" smooth="yes" name=""/>
       <point x="340" y="673"/>
       <point x="299" y="704"/>
       <point x="224" y="704" type="curve" smooth="yes"/>
@@ -54,67 +54,4 @@
       <point x="193" y="554" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjMyMyIgd2lkdGg9IjcyIiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      ODIiIHdpZHRoPSI3MiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjMyIiB3aWR0aD0iNzIi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjI0NiIgd2lkdGg9Ijk0IiAvPgogICAgPC9oaW50
-      c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>124.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>128.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>150.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>43.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

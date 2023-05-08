@@ -25,7 +25,7 @@
       <point x="363" y="525" type="line"/>
       <point x="340" y="533"/>
       <point x="314" y="537"/>
-      <point x="283" y="537" type="curve" smooth="yes" name="hr01"/>
+      <point x="283" y="537" type="curve" smooth="yes" name=""/>
       <point x="139" y="537"/>
       <point x="65" y="444"/>
       <point x="36" y="295" type="curve" smooth="yes"/>
@@ -58,49 +58,10 @@
       <point x="273" y="95"/>
     </contour>
     <contour>
-      <point x="203" y="0" type="move" name="bottom"/>
+      <point x="203.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="294" y="540" type="move" name="top"/>
+      <point x="294.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjEwNyIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      NDMwIiB3aWR0aD0iMTA3IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyNyIgd2lkdGg9IjEz
-      MSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzM1IiB3aWR0aD0iMTMxIiAvPgogICAgPC9o
-      aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>627.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>428.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

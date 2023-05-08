@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcommaaccent" format="1">
   <advance width="320"/>
-  <unicode hex="0163"/>
+  <unicode hex="021B"/>
   <outline>
     <component base="t"/>
     <component base="commabelowcomb" xOffset="143"/>
+    <contour>
+      <point x="341.0" y="751.0" type="move" name="topright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $t$, 0, 0
-OFFSET[R], $commabelowcomb$, 143, 0
-CALL[], 23, 24, 88
-SVTCA[Y]
-CALL[], 23, 1, 1, 1, -66, 86
-SHC[2], 1
-CALL[], 9
-CALL[], 33, 26, 4, 73, 17, 87
-SVTCA[X]
-SHC[2], 1
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni021B</string>
+      <key>com.type-invaders.name.production</key>
+      <string>tcommaaccent</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

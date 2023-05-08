@@ -61,7 +61,7 @@
       <point x="355" y="567"/>
       <point x="336" y="387" type="curve"/>
       <point x="200" y="387" type="line"/>
-      <point x="200" y="622" type="line" name="hr01"/>
+      <point x="200" y="622" type="line" name=""/>
       <point x="370" y="622" type="line"/>
       <point x="431" y="698" type="line"/>
       <point x="128" y="698" type="line"/>
@@ -71,17 +71,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii05IiB3aWR0aD0iNzUiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE0
-      MyIgd2lkdGg9Ijc1IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzMTEiIHdpZHRoPSI3NiIg
-      Lz4KICAgICAgPGhzdGVtIHBvcz0iNDgwIiB3aWR0aD0iNzUiIC8+CiAgICAgIDxoc3Rl
-      bSBwb3M9IjYyMiIgd2lkdGg9Ijc2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMjgiIHdp
-      ZHRoPSI3MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzM2IiB3aWR0aD0iNzUiIC8+CiAg
-      ICAgIDx2c3RlbSBwb3M9IjQ4NiIgd2lkdGg9Ijc3IiAvPgogICAgPC9oaW50c2V0Pgog
-      IDwvaGludFNldExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uniEFCC</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fcclogo</string>
     </dict>
   </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="00E6"/>
   <outline>
     <contour>
-      <point x="366" y="238" type="line" name="hr00"/>
+      <point x="366" y="238" type="line" name=""/>
       <point x="366" y="150" type="line" smooth="yes"/>
       <point x="366" y="97"/>
       <point x="308" y="56"/>
@@ -79,41 +79,10 @@
       <point x="665" y="58"/>
     </contour>
     <contour>
-      <point x="414" y="540" type="move" name="top"/>
+      <point x="414.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="414.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjcwIiAvPgogICAgICA8aHN0ZW0gcG9zPSIy
-      MzgiIHdpZHRoPSI2MCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDU5IiB3aWR0aD0iNjki
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ0IiB3aWR0aD0iODQiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjM2NiIgd2lkdGg9IjgwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI3MzEiIHdp
-      ZHRoPSI4NiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(40,11)
-ResYDist(40,8)
-YShift(40,31)
-ResYDist(31,24)
-ResYAnchor(59,7)
-ResYDist(59,52)
-YIPAnchor(8,74,52)
-YShift(74,1)
-ResYDist(74,13)
-YShift(13,47)
-YInterpolate(47,55,52)
-YInterpolate(24,27,74)
-YShift(59,68)
-ResYDist(68,19)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

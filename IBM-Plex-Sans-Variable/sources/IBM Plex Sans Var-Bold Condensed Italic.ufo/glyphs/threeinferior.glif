@@ -32,7 +32,7 @@
       <point x="200" y="196" type="line"/>
       <point x="258" y="200"/>
       <point x="290" y="232"/>
-      <point x="290" y="287" type="curve" smooth="yes" name="hr01"/>
+      <point x="290" y="287" type="curve" smooth="yes" name=""/>
       <point x="290" y="344"/>
       <point x="249" y="375"/>
       <point x="174" y="375" type="curve" smooth="yes"/>
@@ -56,14 +56,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii02IiB3aWR0aD0iNzIiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE1
-      MyIgd2lkdGg9IjcyIiAvPgogICAgICA8aHN0ZW0gcG9zPSIzMDMiIHdpZHRoPSI3MiIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iMTk2IiB3aWR0aD0iOTQiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2083</string>
+      <key>com.type-invaders.name.production</key>
+      <string>threeinferior</string>
     </dict>
   </lib>
 </glyph>

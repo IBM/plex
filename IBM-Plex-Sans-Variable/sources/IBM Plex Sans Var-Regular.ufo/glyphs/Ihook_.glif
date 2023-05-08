@@ -5,24 +5,19 @@
   <outline>
     <component base="I"/>
     <component base="hookcomb.case" xOffset="200"/>
+    <contour>
+      <point x="200.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="340.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $I$, 0, 0
-OFFSET[R], $hookcomb.case$, 200, 0
-SVTCA[Y]
-CALL[], 21, 6, 1, 1, 49, 86
-SHC[2], 1
-SVTCA[X]
-CALL[], 12, 17, 1, 33, 8, 87
-SHC[2], 1
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EC8</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Ihook</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -4,9 +4,16 @@
   <unicode hex="0308"/>
   <outline>
     <component base="dieresis" xOffset="-293"/>
+    <contour>
+      <point x="0.0" y="540.0" type="move" name="_top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0308</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dieresiscomb</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

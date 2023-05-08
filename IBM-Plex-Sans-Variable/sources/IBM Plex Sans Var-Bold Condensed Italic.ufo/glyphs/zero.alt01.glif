@@ -3,7 +3,7 @@
   <advance width="540"/>
   <outline>
     <contour>
-      <point x="226" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="226" y="-12" type="curve" smooth="yes" name=""/>
       <point x="377" y="-12"/>
       <point x="469" y="82"/>
       <point x="511" y="278" type="curve" smooth="yes"/>
@@ -65,66 +65,4 @@
       <point x="245" y="289"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbTMgc3RlbTNMaXN0PSItMTIsMTEyLDI4OSwxMjAsNTk4LDExMiIgLz4KICAg
-      ICAgPHZzdGVtMyBzdGVtM0xpc3Q9IjM1LDEzNiwyMjksMTE2LDQwMywxMzYiIC8+CiAg
-      ICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>409.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>289.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>160.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>270.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

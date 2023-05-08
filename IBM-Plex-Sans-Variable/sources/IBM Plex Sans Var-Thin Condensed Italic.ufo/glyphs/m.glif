@@ -61,66 +61,15 @@
       <point x="180" y="477"/>
       <point x="148" y="401" type="curve"/>
       <point x="142" y="401" type="line"/>
-      <point x="163" y="506" type="line" name="hr01"/>
+      <point x="163" y="506" type="line" name=""/>
       <point x="142" y="506" type="line"/>
       <point x="41" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="328" y="0" type="move" name="bottom"/>
+      <point x="328.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="436" y="540" type="move" name="top"/>
+      <point x="436.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTA2
-      IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzODkiIHdpZHRoPSIyMSIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNjY2IiB3aWR0aD0iMjEiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>402.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>339.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>317.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

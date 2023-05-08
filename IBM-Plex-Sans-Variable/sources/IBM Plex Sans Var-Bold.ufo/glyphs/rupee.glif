@@ -10,7 +10,7 @@
       <point x="391" y="120" type="line" smooth="yes"/>
       <point x="437" y="24"/>
       <point x="512" y="-12"/>
-      <point x="621" y="-12" type="curve" smooth="yes" name="hr01"/>
+      <point x="621" y="-12" type="curve" smooth="yes" name=""/>
       <point x="784" y="-12"/>
       <point x="844" y="61"/>
       <point x="844" y="150" type="curve" smooth="yes"/>
@@ -55,7 +55,7 @@
       <point x="442" y="698"/>
       <point x="313" y="698" type="curve" smooth="yes"/>
       <point x="77" y="698" type="line"/>
-      <point x="77" y="0" type="line" name="hr02"/>
+      <point x="77" y="0" type="line" name=""/>
     </contour>
     <contour>
       <point x="229" y="396" type="line"/>
@@ -72,24 +72,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjExNSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      MjczIiB3aWR0aD0iMTIzIiAvPgogICAgICA8aHN0ZW0gcG9zPSI0MjciIHdpZHRoPSIx
-      MDkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjU3NSIgd2lkdGg9IjEyMyIgLz4KICAgICAg
-      PHZzdGVtIHBvcz0iNzciIHdpZHRoPSIxNTIiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjM2
-      NyIgd2lkdGg9IjE1NyIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTU2IiB3aWR0aD0iMTQw
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI2OTciIHdpZHRoPSIxNDciIC8+CiAgICA8L2hp
-      bnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBw
-      b3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjI3MyIgd2lkdGg9
-      IjEyMyIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDI3IiB3aWR0aD0iMTA5IiAvPgogICAg
-      ICA8aHN0ZW0gcG9zPSI1NzUiIHdpZHRoPSIxMjMiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-      Ijc3IiB3aWR0aD0iMTUyIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNjciIHdpZHRoPSIx
-      NTciIC8+CiAgICAgIDx2c3RlbSBwb3M9IjU1NiIgd2lkdGg9IjE0MCIgLz4KICAgICAg
-      PHZzdGVtIHBvcz0iNjk3IiB3aWR0aD0iMTQ3IiAvPgogICAgPC9oaW50c2V0PgogIDwv
-      aGludFNldExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20A8</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rupee</string>
     </dict>
   </lib>
 </glyph>

@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon" format="1">
-  <advance width="292"/>
+  <advance width="293"/>
   <unicode hex="003B"/>
   <outline>
     <component base="comma" xOffset="10"/>
-    <component base="period" xOffset="92" yOffset="406"/>
+    <component base="period" xOffset="93" yOffset="411"/>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-OFFSET[R], $comma$, 10, 0
-OFFSET[R], $period$, 92, 406
-CALL[], 27, 28, 88
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

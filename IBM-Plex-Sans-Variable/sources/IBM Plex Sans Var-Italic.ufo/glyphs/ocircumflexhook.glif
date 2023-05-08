@@ -5,28 +5,16 @@
   <outline>
     <component base="o"/>
     <component base="circumflexhook" xOffset="318"/>
+    <contour>
+      <point x="233.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $o$, 0, 0
-OFFSET[R], $circumflexhook$, 318, 0
-CALL[], 23, 24, 88
-SVTCA[Y]
-CALL[], 59, 11, 1, 1, 53, 86
-SHC[2], 2
-SHC[2], 3
-CALL[], 9
-CALL[], 62, 58, 4, 30, 15, 87
-SVTCA[X]
-SHC[2], 2
-SHC[2], 3
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1ED5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ocircumflexhook</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

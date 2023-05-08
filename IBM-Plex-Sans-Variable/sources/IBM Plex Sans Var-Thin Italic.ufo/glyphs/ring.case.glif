@@ -3,7 +3,7 @@
   <advance width="600"/>
   <outline>
     <contour>
-      <point x="319" y="769" type="curve" smooth="yes" name="hr00"/>
+      <point x="319" y="769" type="curve" smooth="yes" name=""/>
       <point x="383" y="769"/>
       <point x="425" y="813"/>
       <point x="425" y="879" type="curve" smooth="yes"/>
@@ -37,19 +37,7 @@
       <point x="364" y="787"/>
     </contour>
     <contour>
-      <point x="300" y="698" type="move" name="_top"/>
+      <point x="300.0" y="698.0" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ijc2OSIgd2lkdGg9IjE4IiAvPgogICAgICA8aHN0ZW0gcG9zPSI5
-      MzMiIHdpZHRoPSIxOCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMjQzIiB3aWR0aD0iMTgi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjQwNyIgd2lkdGg9IjE4IiAvPgogICAgPC9oaW50
-      c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

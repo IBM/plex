@@ -5,9 +5,16 @@
   <outline>
     <component base="O"/>
     <component base="circumflextilde.case" xOffset="321"/>
+    <contour>
+      <point x="321.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1ED6</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Ocircumflextilde</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -27,7 +27,7 @@
       <point x="285" y="-60"/>
       <point x="383" y="0" type="curve"/>
       <point x="383" y="121" type="line"/>
-      <point x="292" y="121" type="line" name="hr01"/>
+      <point x="292" y="121" type="line" name=""/>
       <point x="292" y="577" type="line"/>
       <point x="383" y="577" type="line"/>
       <point x="383" y="698" type="line"/>
@@ -37,17 +37,8 @@
       <point x="140" y="121" type="line"/>
       <point x="50" y="121" type="line"/>
     </contour>
+    <contour>
+      <point x="216.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSI3NCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      MCIgd2lkdGg9IjEyMSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTc3IiB3aWR0aD0iMTIx
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxNDAiIHdpZHRoPSIxNTIiIC8+CiAgICA8L2hp
-      bnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-    </dict>
-  </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="0259"/>
   <outline>
     <contour>
-      <point x="47" y="278" type="line" name="hr00"/>
+      <point x="47" y="278" type="line" name=""/>
       <point x="47" y="240" type="line" smooth="yes"/>
       <point x="47" y="94"/>
       <point x="132" y="-12"/>
@@ -38,31 +38,19 @@
       <point x="133" y="116"/>
       <point x="133" y="207" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="270.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="267.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjY3IiAvPgogICAgICA8aHN0ZW0gcG9zPSIy
-      MTgiIHdpZHRoPSI2MCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDU4IiB3aWR0aD0iNzAi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ3IiB3aWR0aD0iODYiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjQxOCIgd2lkdGg9Ijg0IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-      dExpc3Q+Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(12,7)
-ResYDist(12,5)
-ResYAnchor(20,11)
-ResYDist(20,30)
-YInterpolate(30,0,8,5)
-ResYDist(0,25)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0259</string>
+      <key>com.type-invaders.name.production</key>
+      <string>schwa</string>
     </dict>
   </lib>
 </glyph>

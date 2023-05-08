@@ -25,7 +25,7 @@
       <point x="221" y="453" type="line"/>
       <point x="434" y="0" type="line"/>
       <point x="535" y="0" type="line"/>
-      <point x="535" y="698" type="line" name="hr01"/>
+      <point x="535" y="698" type="line" name=""/>
       <point x="457" y="698" type="line"/>
       <point x="457" y="245" type="line"/>
       <point x="464" y="101" type="line"/>
@@ -43,7 +43,7 @@
       <point x="668" y="573" type="line" smooth="yes"/>
       <point x="668" y="624"/>
       <point x="697" y="660"/>
-      <point x="748" y="660" type="curve" smooth="yes" name="hr02"/>
+      <point x="748" y="660" type="curve" smooth="yes" name=""/>
       <point x="799" y="660"/>
       <point x="828" y="624"/>
       <point x="828" y="573" type="curve" smooth="yes"/>
@@ -60,23 +60,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjI1
-      MSIgd2lkdGg9IjU5IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzNjQiIHdpZHRoPSI1MCIg
-      Lz4KICAgICAgPGhzdGVtIHBvcz0iNjk4IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSI4MyIgd2lkdGg9Ijc4IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0NTciIHdp
-      ZHRoPSI3OCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjAzIiB3aWR0aD0iNjUiIC8+CiAg
-      ICAgIDx2c3RlbSBwb3M9IjgyOCIgd2lkdGg9IjY1IiAvPgogICAgPC9oaW50c2V0Pgog
-      ICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0gcG9zPSIwIiB3
-      aWR0aD0iLTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIyNTEiIHdpZHRoPSI1OSIgLz4K
-      ICAgICAgPGhzdGVtIHBvcz0iMzY0IiB3aWR0aD0iNTAiIC8+CiAgICAgIDxoc3RlbSBw
-      b3M9IjY2MCIgd2lkdGg9IjUwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI4MyIgd2lkdGg9
-      Ijc4IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0NTciIHdpZHRoPSI3OCIgLz4KICAgICAg
-      PHZzdGVtIHBvcz0iNjAzIiB3aWR0aD0iNjUiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijgy
-      OCIgd2lkdGg9IjY1IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2116</string>
+      <key>com.type-invaders.name.production</key>
+      <string>numerosign</string>
     </dict>
   </lib>
 </glyph>

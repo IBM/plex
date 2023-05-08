@@ -4,7 +4,7 @@
   <unicode hex="018F"/>
   <outline>
     <contour>
-      <point x="260" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="260" y="-12" type="curve" smooth="yes" name=""/>
       <point x="424" y="-12"/>
       <point x="517" y="142"/>
       <point x="550" y="313" type="curve" smooth="yes"/>
@@ -46,18 +46,19 @@
       <point x="495" y="117"/>
       <point x="386" y="8"/>
     </contour>
+    <contour>
+      <point x="242.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="381.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjIwIiAvPgogICAgICA8aHN0ZW0gcG9zPSIz
-      MzEiIHdpZHRoPSIyMCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjkwIiB3aWR0aD0iMjAi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjYwIiB3aWR0aD0iMjIiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjU0MyIgd2lkdGg9IjIyIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-      dExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni018F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Schwa</string>
     </dict>
   </lib>
 </glyph>

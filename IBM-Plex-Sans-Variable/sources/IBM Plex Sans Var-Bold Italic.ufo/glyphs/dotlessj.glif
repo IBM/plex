@@ -4,7 +4,7 @@
   <unicode hex="0237"/>
   <outline>
     <contour>
-      <point x="-97" y="-200" type="line" name="hr00"/>
+      <point x="-97" y="-200" type="line" name=""/>
       <point x="-18" y="-200" type="line" smooth="yes"/>
       <point x="79" y="-200"/>
       <point x="126" y="-152"/>
@@ -15,18 +15,15 @@
       <point x="-75" y="-88" type="line"/>
     </contour>
     <contour>
-      <point x="196" y="540" type="move" name="top"/>
+      <point x="196.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMDAiIHdpZHRoPSIxMTIiIC8+CiAgICAgIDxoc3RlbSBwb3M9
-      IjUyNSIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iLTk3IiB3aWR0aD0i
-      MzYwIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0237</string>
+      <key>com.type-invaders.name.production</key>
+      <string>dotlessj</string>
     </dict>
   </lib>
 </glyph>

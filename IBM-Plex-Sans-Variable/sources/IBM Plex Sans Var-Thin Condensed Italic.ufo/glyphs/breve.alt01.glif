@@ -3,7 +3,7 @@
   <advance width="540"/>
   <outline>
     <contour>
-      <point x="280" y="606" type="curve" smooth="yes" name="hr00"/>
+      <point x="280" y="606" type="curve" smooth="yes" name=""/>
       <point x="343" y="606"/>
       <point x="373" y="651"/>
       <point x="415" y="723" type="curve"/>
@@ -21,35 +21,7 @@
       <point x="221" y="606"/>
     </contour>
     <contour>
-      <point x="270" y="540" type="move" name="_top"/>
+      <point x="270.0" y="540.0" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>angle</key>
-      <real>78.69</real>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>161</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjYwNiIgd2lkdGg9IjE5IiAvPgogICAgICA8
-dnN0ZW0gcG9zPSIxNzciIHdpZHRoPSIyMzgiIC8+
-CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlz
-dD4K
-  </data>
-  </dict>
-  </lib>
 </glyph>

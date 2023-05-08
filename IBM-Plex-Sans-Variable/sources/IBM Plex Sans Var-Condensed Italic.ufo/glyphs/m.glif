@@ -61,42 +61,15 @@
       <point x="225" y="492"/>
       <point x="196" y="415" type="curve"/>
       <point x="186" y="415" type="line"/>
-      <point x="206" y="516" type="line" name="hr01"/>
+      <point x="206" y="516" type="line" name=""/>
       <point x="132" y="516" type="line"/>
       <point x="29" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="334" y="0" type="move" name="bottom"/>
+      <point x="334.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="451" y="540" type="move" name="top"/>
+      <point x="451.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSI2NCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTE2
-      IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNjgiIHdpZHRoPSI3NCIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNjM1IiB3aWR0aD0iNzYiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>415.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

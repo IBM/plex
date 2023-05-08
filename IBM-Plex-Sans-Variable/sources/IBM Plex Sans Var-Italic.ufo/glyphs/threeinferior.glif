@@ -32,7 +32,7 @@
       <point x="195" y="189" type="line"/>
       <point x="241" y="198"/>
       <point x="283" y="232"/>
-      <point x="283" y="285" type="curve" smooth="yes" name="hr01"/>
+      <point x="283" y="285" type="curve" smooth="yes" name=""/>
       <point x="283" y="335"/>
       <point x="243" y="375"/>
       <point x="173" y="375" type="curve" smooth="yes"/>
@@ -56,35 +56,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii02IiB3aWR0aD0iNDkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE2
-      NyIgd2lkdGg9IjQ5IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzMjYiIHdpZHRoPSI0OSIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iMjIxIiB3aWR0aD0iNjIiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(17,156)
-YDelta(17,-1@15)
-YDelta(17,1@20)
-YDelta(17,1@23)
-YDelta(17,1@31)
-YDelta(17,1@38)
-YDelta(17,-1@42)
-YDelta(17,1@44)
-ResYDist(17,10)
-ResYAnchor(30,158)
-ResYDist(30,37)
-YIPAnchor(17,47,30)
-ResYDist(47,0)
-YInterpolate(47,23,0)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2083</string>
+      <key>com.type-invaders.name.production</key>
+      <string>threeinferior</string>
     </dict>
   </lib>
 </glyph>

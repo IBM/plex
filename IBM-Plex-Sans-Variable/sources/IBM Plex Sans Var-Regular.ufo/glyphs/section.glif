@@ -11,7 +11,7 @@
       <point x="400" y="141" type="line"/>
       <point x="470" y="169"/>
       <point x="510" y="220"/>
-      <point x="510" y="284" type="curve" smooth="yes" name="hr01"/>
+      <point x="510" y="284" type="curve" smooth="yes" name=""/>
       <point x="510" y="351"/>
       <point x="464" y="405"/>
       <point x="356" y="437" type="curve" smooth="yes"/>
@@ -38,7 +38,7 @@
       <point x="185" y="414" type="line"/>
       <point x="116" y="386"/>
       <point x="76" y="335"/>
-      <point x="76" y="271" type="curve" smooth="yes" name="hr02"/>
+      <point x="76" y="271" type="curve" smooth="yes" name=""/>
       <point x="76" y="204"/>
       <point x="122" y="150"/>
       <point x="229" y="118" type="curve" smooth="yes"/>
@@ -60,7 +60,7 @@
       <point x="475" y="-94"/>
     </contour>
     <contour>
-      <point x="431" y="263" type="curve" smooth="yes" name="hr03"/>
+      <point x="431" y="263" type="curve" smooth="yes" name=""/>
       <point x="431" y="216"/>
       <point x="405" y="181"/>
       <point x="365" y="152" type="curve"/>
@@ -82,39 +82,4 @@
       <point x="431" y="319"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xNTUiIHdpZHRoPSI2OSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      NjQxIiB3aWR0aD0iNjkiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjExMSIgd2lkdGg9Ijc4
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0MzEiIHdpZHRoPSI3OSIgLz4KICAgIDwvaGlu
-      dHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBv
-      cz0iLTE1NSIgd2lkdGg9IjY5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2NDEiIHdpZHRo
-      PSI2OSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNzYiIHdpZHRoPSI3OSIgLz4KICAgICAg
-      PHZzdGVtIHBvcz0iMzk2IiB3aWR0aD0iNzkiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
-      aGludHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0xNTUiIHdp
-      ZHRoPSI2OSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjQxIiB3aWR0aD0iNjkiIC8+CiAg
-      ICAgIDx2c3RlbSBwb3M9Ijc2IiB3aWR0aD0iNzkiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-      IjQzMSIgd2lkdGg9Ijc5IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
-      Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(4)
-ResYDist(4,11)
-ResYAnchor(34,17)
-ResYDist(34,41)
-YInterpolate(41,68,18,4)
-YShift(68,27)
-YInterpolate(11,78,48,34)
-YShift(78,57)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

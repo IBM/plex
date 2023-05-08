@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lcaron" format="1">
-  <advance width="277"/>
+  <advance width="311"/>
   <unicode hex="013E"/>
   <outline>
     <component base="l"/>
     <component base="caronslovak" xOffset="-18"/>
+    <contour>
+      <point x="160.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="131.0" y="740.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

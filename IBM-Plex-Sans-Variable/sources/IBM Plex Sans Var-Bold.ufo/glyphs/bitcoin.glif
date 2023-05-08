@@ -16,10 +16,10 @@
       <point x="472" y="368" type="line"/>
       <point x="559" y="379"/>
       <point x="600" y="418"/>
-      <point x="600" y="509" type="curve" smooth="yes" name="hr01"/>
+      <point x="600" y="509" type="curve" smooth="yes" name=""/>
       <point x="600" y="599"/>
       <point x="550" y="661"/>
-      <point x="464" y="675" type="curve" name="hr02"/>
+      <point x="464" y="675" type="curve" name=""/>
       <point x="464" y="780" type="line"/>
       <point x="354" y="780" type="line"/>
       <point x="354" y="678" type="line"/>
@@ -40,7 +40,7 @@
       <point x="391" y="557" type="line" smooth="yes"/>
       <point x="429" y="557"/>
       <point x="452" y="537"/>
-      <point x="452" y="499" type="curve" smooth="yes" name="hr03"/>
+      <point x="452" y="499" type="curve" smooth="yes" name=""/>
       <point x="452" y="466" type="line" smooth="yes"/>
       <point x="452" y="428"/>
       <point x="429" y="408"/>
@@ -52,7 +52,7 @@
       <point x="415" y="292" type="line" smooth="yes"/>
       <point x="453" y="292"/>
       <point x="477" y="271"/>
-      <point x="477" y="233" type="curve" smooth="yes" name="hr04"/>
+      <point x="477" y="233" type="curve" smooth="yes" name=""/>
       <point x="477" y="200" type="line" smooth="yes"/>
       <point x="477" y="162"/>
       <point x="453" y="141"/>
@@ -62,30 +62,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjIwIiB3aWR0aD0iMTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIy
-      OTIiIHdpZHRoPSIxMTYiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjU1NyIgd2lkdGg9IjEy
-      MSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTc3IiB3aWR0aD0iMTEwIiAvPgogICAgICA8
-      dnN0ZW0gcG9zPSI0NTIiIHdpZHRoPSIxNDgiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
-      aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9IjIwIiB3aWR0
-      aD0iMTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIyOTIiIHdpZHRoPSIxMTYiIC8+CiAg
-      ICAgIDxoc3RlbSBwb3M9IjU1NyIgd2lkdGg9IjEyMSIgLz4KICAgICAgPHZzdGVtIHBv
-      cz0iMTc3IiB3aWR0aD0iMTEwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNTQiIHdpZHRo
-      PSIxMTAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ3NyIgd2lkdGg9IjE0OCIgLz4KICAg
-      IDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAzIj4KICAgICAgPGhz
-      dGVtIHBvcz0iMjAiIHdpZHRoPSIxMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjI5MiIg
-      d2lkdGg9IjExNiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTU3IiB3aWR0aD0iMTIxIiAv
-      PgogICAgICA8dnN0ZW0gcG9zPSIxNzciIHdpZHRoPSIxMTAiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjQ1MiIgd2lkdGg9IjE0OCIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50
-      c2V0IHBvaW50VGFnPSJocjA0Ij4KICAgICAgPGhzdGVtIHBvcz0iMjAiIHdpZHRoPSIx
-      MjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjI5MiIgd2lkdGg9IjExNiIgLz4KICAgICAg
-      PGhzdGVtIHBvcz0iNTU3IiB3aWR0aD0iMTIxIiAvPgogICAgICA8dnN0ZW0gcG9zPSIx
-      NzciIHdpZHRoPSIxMTAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjM1NCIgd2lkdGg9IjEx
-      MCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNDc3IiB3aWR0aD0iMTQ4IiAvPgogICAgPC9o
-      aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20BF</string>
+      <key>com.type-invaders.name.production</key>
+      <string>bitcoin</string>
     </dict>
   </lib>
 </glyph>

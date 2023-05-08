@@ -20,7 +20,7 @@
       <point x="260" y="184" type="curve" smooth="yes"/>
       <point x="432" y="184"/>
       <point x="505" y="284"/>
-      <point x="505" y="381" type="curve" smooth="yes" name="hr01"/>
+      <point x="505" y="381" type="curve" smooth="yes" name=""/>
       <point x="505" y="436"/>
       <point x="482" y="478"/>
       <point x="441" y="504" type="curve"/>
@@ -34,14 +34,14 @@
       <point x="401" y="524" type="line"/>
       <point x="375" y="532"/>
       <point x="345" y="537"/>
-      <point x="311" y="537" type="curve" smooth="yes" name="hr02"/>
+      <point x="311" y="537" type="curve" smooth="yes" name=""/>
       <point x="139" y="537"/>
       <point x="66" y="437"/>
       <point x="66" y="340" type="curve" smooth="yes"/>
       <point x="66" y="279"/>
       <point x="93" y="234"/>
       <point x="142" y="209" type="curve"/>
-      <point x="141" y="202" type="line" name="hr03"/>
+      <point x="141" y="202" type="line" name=""/>
       <point x="82" y="190"/>
       <point x="26" y="155"/>
       <point x="26" y="96" type="curve" smooth="yes"/>
@@ -51,7 +51,7 @@
       <point x="85" y="13" type="line"/>
       <point x="20" y="-2"/>
       <point x="-30" y="-31"/>
-      <point x="-30" y="-96" type="curve" smooth="yes" name="hr04"/>
+      <point x="-30" y="-96" type="curve" smooth="yes" name=""/>
       <point x="-30" y="-160"/>
       <point x="18" y="-212"/>
       <point x="193" y="-212" type="curve" smooth="yes"/>
@@ -78,7 +78,7 @@
       <point x="272" y="280" type="curve" smooth="yes"/>
       <point x="222" y="280"/>
       <point x="199" y="300"/>
-      <point x="199" y="336" type="curve" smooth="yes" name="hr05"/>
+      <point x="199" y="336" type="curve" smooth="yes" name=""/>
       <point x="199" y="341"/>
       <point x="199" y="349"/>
       <point x="203" y="369" type="curve" smooth="yes"/>
@@ -95,42 +95,7 @@
       <point x="327" y="280"/>
     </contour>
     <contour>
-      <point x="298" y="540" type="move" name="top"/>
+      <point x="298.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSI5NiIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      LTkiIHdpZHRoPSIxMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE4NCIgd2lkdGg9Ijk2
-      IiAvPgogICAgICA8aHN0ZW0gcG9zPSI1MTciIHdpZHRoPSIxMDgiIC8+CiAgICAgIDx2
-      c3RlbSBwb3M9IjY2IiB3aWR0aD0iMTMzIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNzEi
-      IHdpZHRoPSIxMzQiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRh
-      Zz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSI5NiIgLz4KICAg
-      ICAgPGhzdGVtIHBvcz0iLTkiIHdpZHRoPSIxMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9
-      IjE4NCIgd2lkdGg9Ijk2IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0NDEiIHdpZHRoPSI5
-      NiIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjYiIHdpZHRoPSIxMzMiIC8+CiAgICAgIDx2
-      c3RlbSBwb3M9IjM3MSIgd2lkdGg9IjEzNCIgLz4KICAgIDwvaGludHNldD4KICAgIDxo
-      aW50c2V0IHBvaW50VGFnPSJocjAzIj4KICAgICAgPGhzdGVtIHBvcz0iLTIxMiIgd2lk
-      dGg9Ijk2IiAvPgogICAgICA8aHN0ZW0gcG9zPSItOSIgd2lkdGg9IjEyMSIgLz4KICAg
-      ICAgPGhzdGVtIHBvcz0iMTg0IiB3aWR0aD0iOTYiIC8+CiAgICAgIDxoc3RlbSBwb3M9
-      IjQ0MSIgd2lkdGg9Ijk2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyNiIgd2lkdGg9IjEx
-      NSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzcxIiB3aWR0aD0iMTM0IiAvPgogICAgPC9o
-      aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDQiPgogICAgICA8aHN0ZW0g
-      cG9zPSItMjEyIiB3aWR0aD0iOTYiIC8+CiAgICAgIDxoc3RlbSBwb3M9Ii05IiB3aWR0
-      aD0iMTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIxODQiIHdpZHRoPSI5NiIgLz4KICAg
-      ICAgPGhzdGVtIHBvcz0iNDQxIiB3aWR0aD0iOTYiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-      Ii0zMCIgd2lkdGg9IjExNiIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzU3IiB3aWR0aD0i
-      MTQwIiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDUi
-      PgogICAgICA8aHN0ZW0gcG9zPSItMjEyIiB3aWR0aD0iOTYiIC8+CiAgICAgIDxoc3Rl
-      bSBwb3M9Ii05IiB3aWR0aD0iMTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSIxODQiIHdp
-      ZHRoPSI5NiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDQxIiB3aWR0aD0iOTYiIC8+CiAg
-      ICAgIDx2c3RlbSBwb3M9IjY2IiB3aWR0aD0iMTMzIiAvPgogICAgICA8dnN0ZW0gcG9z
-      PSIzNzEiIHdpZHRoPSIxMzQiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlz
-      dD4K
-      </data>
-    </dict>
-  </lib>
 </glyph>
