@@ -18,14 +18,14 @@
       <point x="54" y="253" type="curve" smooth="yes"/>
       <point x="54" y="69"/>
       <point x="123" y="-12"/>
-      <point x="244" y="-12" type="curve" smooth="yes" name="hr01"/>
+      <point x="244" y="-12" type="curve" smooth="yes" name=""/>
       <point x="318" y="-12"/>
       <point x="369" y="25"/>
-      <point x="388" y="78" type="curve" name="hr02"/>
+      <point x="388" y="78" type="curve" name=""/>
       <point x="394" y="78" type="line"/>
     </contour>
     <contour>
-      <point x="244" y="7" type="curve" smooth="yes" name="hr03"/>
+      <point x="244" y="7" type="curve" smooth="yes" name=""/>
       <point x="137" y="7"/>
       <point x="77" y="87"/>
       <point x="77" y="219" type="curve" smooth="yes"/>
@@ -47,26 +47,4 @@
       <point x="493.0" y="740.0" type="move" name="topright"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      OTkiIHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIx
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1NCIgd2lkdGg9IjIzIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSIzOTQiIHdpZHRoPSIyMSIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50
-      c2V0IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9Ii0y
-      MSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDk5IiB3aWR0aD0iMTkiIC8+CiAgICAgIDxo
-      c3RlbSBwb3M9Ijc0MCIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTQi
-      IHdpZHRoPSIyMyIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzk0IiB3aWR0aD0iMjEiIC8+
-      CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      OTkiIHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIx
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1NCIgd2lkdGg9IjIzIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSIzOTQiIHdpZHRoPSIyMSIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
-      ZXRMaXN0Pgo=
-      </data>
-    </dict>
-  </lib>
 </glyph>

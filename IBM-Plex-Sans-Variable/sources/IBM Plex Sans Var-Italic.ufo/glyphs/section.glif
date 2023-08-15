@@ -51,7 +51,7 @@
       <point x="197" y="-155" type="curve" smooth="yes"/>
       <point x="310" y="-155"/>
       <point x="404" y="-86"/>
-      <point x="404" y="24" type="curve" smooth="yes" name="hr01"/>
+      <point x="404" y="24" type="curve" smooth="yes" name=""/>
       <point x="404" y="67"/>
       <point x="389" y="106"/>
       <point x="352" y="135" type="curve"/>
@@ -82,39 +82,4 @@
       <point x="410" y="329"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xNTUiIHdpZHRoPSI2OCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      NjQyIiB3aWR0aD0iNjgiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjY3IiB3aWR0aD0iODAi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjQxMCIgd2lkdGg9IjgwIiAvPgogICAgPC9oaW50
-      c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDEiPgogICAgICA8aHN0ZW0gcG9z
-      PSItMTU1IiB3aWR0aD0iNjgiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjY0MiIgd2lkdGg9
-      IjY4IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxNTMiIHdpZHRoPSI3OSIgLz4KICAgICAg
-      PHZzdGVtIHBvcz0iMzI1IiB3aWR0aD0iNzkiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
-      aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBwb3M9Ii0xNTUiIHdp
-      ZHRoPSI2OCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjQyIiB3aWR0aD0iNjgiIC8+CiAg
-      ICAgIDx2c3RlbSBwb3M9IjE1MyIgd2lkdGg9Ijc5IiAvPgogICAgICA8dnN0ZW0gcG9z
-      PSI0MTAiIHdpZHRoPSI4MCIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0
-      Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(11)
-ResYDist(11,18)
-ResYAnchor(40,17)
-ResYDist(40,47)
-YInterpolate(47,65,25,11)
-YShift(65,33)
-YInterpolate(18,75,54,40)
-YShift(75,4)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

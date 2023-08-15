@@ -4,7 +4,7 @@
   <unicode hex="015F"/>
   <outline>
     <contour>
-      <point x="183" y="-207" type="curve" smooth="yes" name="hr01"/>
+      <point x="183" y="-207" type="curve" smooth="yes" name=""/>
       <point x="247" y="-207"/>
       <point x="291" y="-171"/>
       <point x="291" y="-116" type="curve" smooth="yes"/>
@@ -71,38 +71,8 @@
       <point x="97" y="-190"/>
       <point x="133" y="-207"/>
     </contour>
+    <contour>
+      <point x="267.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMDciIHdpZHRoPSI1MyIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      LTEyIiB3aWR0aD0iNjciIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ2MSIgd2lkdGg9IjY3
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI3MyIgd2lkdGg9Ijc1IiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSIzMjYiIHdpZHRoPSI3NCIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50
-      c2V0IHBvaW50VGFnPSJocjAxIj4KICAgICAgPGhzdGVtIHBvcz0iLTIwNyIgd2lkdGg9
-      IjUzIiAvPgogICAgICA8aHN0ZW0gcG9zPSItMTIiIHdpZHRoPSI2NyIgLz4KICAgICAg
-      PGhzdGVtIHBvcz0iNDYxIiB3aWR0aD0iNjciIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijcz
-      IiB3aWR0aD0iNzUiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjIyNyIgd2lkdGg9IjY0IiAv
-      PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0)
-ResYDist(0,7)
-ResYAnchor(15,11)
-YShift(15,59)
-ResYDist(15,22)
-ResYAnchor(37,7)
-ResYDist(37,44)
-YInterpolate(44,29,15)
-YInterpolate(22,50,37)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

@@ -16,7 +16,7 @@
       <point x="463" y="369" type="line"/>
       <point x="543" y="392"/>
       <point x="594" y="453"/>
-      <point x="594" y="536" type="curve" smooth="yes" name="hr01"/>
+      <point x="594" y="536" type="curve" smooth="yes" name=""/>
       <point x="594" y="609"/>
       <point x="551" y="660"/>
       <point x="473" y="673" type="curve"/>
@@ -54,7 +54,7 @@
       <point x="368" y="324" type="line" smooth="yes"/>
       <point x="434" y="324"/>
       <point x="471" y="302"/>
-      <point x="471" y="252" type="curve" smooth="yes" name="hr02"/>
+      <point x="471" y="252" type="curve" smooth="yes" name=""/>
       <point x="471" y="234"/>
       <point x="467" y="216"/>
       <point x="462" y="191" type="curve" smooth="yes"/>
@@ -66,40 +66,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjIwIiB3aWR0aD0iNzIiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjMy
-      NCIgd2lkdGg9IjcwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MDUiIHdpZHRoPSI3MiIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNTA3IiB3aWR0aD0iODciIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9
-      IjIwIiB3aWR0aD0iNzIiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjMyNCIgd2lkdGg9Ijcw
-      IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MDUiIHdpZHRoPSI3MiIgLz4KICAgICAgPHZz
-      dGVtIHBvcz0iNDcxIiB3aWR0aD0iODQiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50
-      U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(6)
-YShift(6,2)
-YShift(2,29)
-ResYDist(6,4)
-YShift(4,0)
-ResYDist(6,44)
-ResYAnchor(7)
-ResYDist(7,9)
-YShift(9,14)
-YShift(7,11)
-YShift(11,15)
-ResYDist(7,31)
-YIPAnchor(44,43,31)
-ResYDist(43,32)
-YInterpolate(43,21,32)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20BF</string>
+      <key>com.type-invaders.name.production</key>
+      <string>bitcoin</string>
     </dict>
   </lib>
 </glyph>

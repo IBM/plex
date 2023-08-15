@@ -8,22 +8,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-OFFSET[R], $l$, 0, 0
-OFFSET[R], $dotaccent$, -13, -363
-CALL[], 23, 24, 88
-SVTCA[Y]
-CALL[], 12, 1, 2, 0, 253, 86
-SHC[2], 1
-CALL[], 9
-CALL[], 15, 11, 1, 1, 6, 86
-SVTCA[X]
-SHC[2], 1
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

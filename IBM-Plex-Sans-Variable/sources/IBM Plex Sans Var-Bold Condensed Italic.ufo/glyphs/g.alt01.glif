@@ -28,7 +28,7 @@
       <point x="364" y="432" type="line"/>
       <point x="363" y="494"/>
       <point x="329" y="537"/>
-      <point x="258" y="537" type="curve" smooth="yes" name="hr01"/>
+      <point x="258" y="537" type="curve" smooth="yes" name=""/>
       <point x="143" y="537"/>
       <point x="71" y="437"/>
       <point x="40" y="273" type="curve" smooth="yes"/>
@@ -61,58 +61,7 @@
       <point x="255" y="109"/>
     </contour>
     <contour>
-      <point x="308" y="540" type="move" name="top"/>
+      <point x="308.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSIxMDYiIC8+CiAgICAgIDxoc3RlbSBwb3M9
-      IjAiIHdpZHRoPSIxMDkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQyOCIgd2lkdGg9IjEw
-      OSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMjkiIHdpZHRoPSIxMzYiIC8+CiAgICA8L2hp
-      bnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>457.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>423.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>93.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

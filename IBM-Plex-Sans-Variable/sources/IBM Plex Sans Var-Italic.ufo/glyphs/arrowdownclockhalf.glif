@@ -4,7 +4,7 @@
   <unicode hex="21B7"/>
   <outline>
     <contour>
-      <point x="600" y="47" type="line" name="hr00"/>
+      <point x="600" y="47" type="line" name=""/>
       <point x="807" y="254" type="line"/>
       <point x="759" y="303" type="line"/>
       <point x="673" y="216" type="line"/>
@@ -35,23 +35,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjU5NiIgd2lkdGg9IjY0IiAvPgogICAgICA8dnN0ZW0gcG9zPSIx
-      NCIgd2lkdGg9IjY4IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1NjYiIHdpZHRoPSI2OCIg
-      Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0)
-ResYAnchor(21)
-ResYDist(21,11)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni21B7</string>
+      <key>com.type-invaders.name.production</key>
+      <string>arrowdownclockhalf</string>
     </dict>
   </lib>
 </glyph>

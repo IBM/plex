@@ -20,7 +20,7 @@
       <point x="241" y="173" type="curve" smooth="yes"/>
       <point x="371" y="173"/>
       <point x="464" y="261"/>
-      <point x="464" y="377" type="curve" smooth="yes" name="hr01"/>
+      <point x="464" y="377" type="curve" smooth="yes" name=""/>
       <point x="464" y="417"/>
       <point x="453" y="450"/>
       <point x="432" y="476" type="curve"/>
@@ -34,7 +34,7 @@
       <point x="396" y="506" type="line"/>
       <point x="371" y="520"/>
       <point x="338" y="528"/>
-      <point x="300" y="528" type="curve" smooth="yes" name="hr02"/>
+      <point x="300" y="528" type="curve" smooth="yes" name=""/>
       <point x="172" y="528"/>
       <point x="82" y="440"/>
       <point x="82" y="322" type="curve" smooth="yes"/>
@@ -44,14 +44,14 @@
       <point x="151" y="185" type="line"/>
       <point x="81" y="171"/>
       <point x="47" y="136"/>
-      <point x="47" y="87" type="curve" smooth="yes" name="hr03"/>
+      <point x="47" y="87" type="curve" smooth="yes" name=""/>
       <point x="47" y="57"/>
       <point x="60" y="37"/>
       <point x="89" y="24" type="curve"/>
       <point x="87" y="16" type="line"/>
       <point x="19" y="-4"/>
       <point x="-15" y="-45"/>
-      <point x="-15" y="-98" type="curve" smooth="yes" name="hr04"/>
+      <point x="-15" y="-98" type="curve" smooth="yes" name=""/>
       <point x="-15" y="-173"/>
       <point x="55" y="-212"/>
       <point x="193" y="-212" type="curve" smooth="yes"/>
@@ -87,7 +87,7 @@
       <point x="291" y="466" type="curve" smooth="yes"/>
       <point x="355" y="466"/>
       <point x="385" y="435"/>
-      <point x="385" y="387" type="curve" smooth="yes" name="hr05"/>
+      <point x="385" y="387" type="curve" smooth="yes" name=""/>
       <point x="385" y="375"/>
       <point x="383" y="367"/>
       <point x="376" y="331" type="curve" smooth="yes"/>
@@ -95,65 +95,7 @@
       <point x="326" y="234"/>
     </contour>
     <contour>
-      <point x="300" y="540" type="move" name="top"/>
+      <point x="300.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSI2MyIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      NiIgd2lkdGg9IjczIiAvPgogICAgICA8aHN0ZW0gcG9zPSIxNzMiIHdpZHRoPSI2MSIg
-      Lz4KICAgICAgPGhzdGVtIHBvcz0iNTE3IiB3aWR0aD0iNjkiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9Ii0xNSIgd2lkdGg9Ijc3IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4MiIgd2lk
-      dGg9Ijc3IiAvPgogICAgICA8dnN0ZW0gcG9zPSIzODUiIHdpZHRoPSI3OSIgLz4KICAg
-      IDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhz
-      dGVtIHBvcz0iLTIxMiIgd2lkdGg9IjYzIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2IiB3
-      aWR0aD0iNzMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE3MyIgd2lkdGg9IjYxIiAvPgog
-      ICAgICA8aHN0ZW0gcG9zPSI0NjYiIHdpZHRoPSI2MiIgLz4KICAgICAgPHZzdGVtIHBv
-      cz0iLTE1IiB3aWR0aD0iNzciIC8+CiAgICAgIDx2c3RlbSBwb3M9IjgyIiB3aWR0aD0i
-      NzciIC8+CiAgICAgIDx2c3RlbSBwb3M9IjM4NSIgd2lkdGg9Ijc5IiAvPgogICAgPC9o
-      aW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDMiPgogICAgICA8aHN0ZW0g
-      cG9zPSItMjEyIiB3aWR0aD0iNjMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjYiIHdpZHRo
-      PSI3MyIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTczIiB3aWR0aD0iNjEiIC8+CiAgICAg
-      IDxoc3RlbSBwb3M9IjQ2NiIgd2lkdGg9IjYyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI0
-      NyIgd2lkdGg9IjczIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzODUiIHdpZHRoPSI3OSIg
-      Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjA0Ij4KICAg
-      ICAgPGhzdGVtIHBvcz0iLTIxMiIgd2lkdGg9IjYzIiAvPgogICAgICA8aHN0ZW0gcG9z
-      PSI2IiB3aWR0aD0iNzMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE3MyIgd2lkdGg9IjYx
-      IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0NjYiIHdpZHRoPSI2MiIgLz4KICAgICAgPHZz
-      dGVtIHBvcz0iLTE1IiB3aWR0aD0iNzciIC8+CiAgICAgIDx2c3RlbSBwb3M9IjgyIiB3
-      aWR0aD0iNzciIC8+CiAgICAgIDx2c3RlbSBwb3M9IjM4MiIgd2lkdGg9IjgwIiAvPgog
-      ICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDUiPgogICAgICA8
-      aHN0ZW0gcG9zPSItMjEyIiB3aWR0aD0iNjMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjYi
-      IHdpZHRoPSI3MyIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTczIiB3aWR0aD0iNjEiIC8+
-      CiAgICAgIDxoc3RlbSBwb3M9IjQ2NiIgd2lkdGg9IjYyIiAvPgogICAgICA8dnN0ZW0g
-      cG9zPSItMTUiIHdpZHRoPSI3NyIgLz4KICAgICAgPHZzdGVtIHBvcz0iODIiIHdpZHRo
-      PSI3NyIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzg1IiB3aWR0aD0iNzkiIC8+CiAgICA8
-      L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(5,15)
-ResYDist(5,69)
-ResYAnchor(27,7)
-ResYDist(27,83)
-YInterpolate(83,30,27)
-YShift(30,38)
-ResYAnchor(37)
-ResYDist(37,34)
-ResYAnchor(62,10)
-ResYDist(62,54)
-YInterpolate(62,13,54)
-YIPAnchor(54,45,83)
-ResYDist(45,74)
-YInterpolate(45,20,74)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

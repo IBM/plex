@@ -4,7 +4,7 @@
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="105" y="0" type="line" name="hr00"/>
+      <point x="105" y="0" type="line" name=""/>
       <point x="203" y="0" type="line"/>
       <point x="336" y="279" type="line"/>
       <point x="395" y="411" type="line"/>
@@ -28,36 +28,10 @@
       <point x="77" y="516" type="line"/>
     </contour>
     <contour>
-      <point x="315" y="0" type="move" name="bottom"/>
+      <point x="315.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="416" y="540" type="move" name="top"/>
+      <point x="416.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSI3NCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTE2
-      IiB3aWR0aD0iLTEwNSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNzciIHdpZHRoPSI2ODMi
-      IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0,10)
-YShift(0,4)
-YShift(0,16)
-YShift(16,10)
-ResYAnchor(1,6)
-YShift(1,14)
-YShift(1,8)
-YShift(8,18)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

@@ -5,26 +5,12 @@
   <outline>
     <component base="ae"/>
     <component base="acute" xOffset="157"/>
+    <contour>
+      <point x="352.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $ae$, 0, 0
-OFFSET[R], $acute$, 157, 0
-CALL[], 23, 24, 88
-SVTCA[Y]
-CALL[], 90, 58, 1, 1, 57, 86
-SHC[2], 3
-CALL[], 9
-CALL[], 91, 89, 32, 34, 63, 87
-SVTCA[X]
-SHC[2], 3
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -5,26 +5,19 @@
   <outline>
     <component base="A"/>
     <component base="brevehook.case" xOffset="322"/>
+    <contour>
+      <point x="322.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="618.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $A$, 0, 0
-OFFSET[R], $brevehook.case$, 322, 0
-SVTCA[Y]
-CALL[], 26, 6, 1, 1, 58, 86
-SHC[2], 2
-SHC[2], 3
-SVTCA[X]
-CALL[], 30, 40, 5, 32, 0, 87
-SHC[2], 2
-SHC[2], 3
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EB2</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Abrevehook</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

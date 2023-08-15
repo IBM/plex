@@ -3,7 +3,7 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-75" y="942" type="curve" smooth="yes" name="hr02"/>
+      <point x="-75" y="942" type="curve" smooth="yes" name=""/>
       <point x="-128" y="942"/>
       <point x="-165" y="914"/>
       <point x="-189" y="878" type="curve"/>
@@ -16,7 +16,7 @@
       <point x="-2" y="817" type="curve" smooth="yes"/>
       <point x="23" y="806"/>
       <point x="45" y="797"/>
-      <point x="75" y="797" type="curve" smooth="yes" name="hr01"/>
+      <point x="75" y="797" type="curve" smooth="yes" name=""/>
       <point x="128" y="797"/>
       <point x="165" y="825"/>
       <point x="189" y="861" type="curve"/>
@@ -40,20 +40,7 @@
       <point x="48" y="768" type="line"/>
     </contour>
     <contour>
-      <point x="0" y="540" type="move" name="_top"/>
+      <point x="0.0" y="540.0" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjgzOSIgd2lkdGg9IjEwMyIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-      LTE4OSIgd2lkdGg9IjM3OCIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBv
-      aW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iNzk3IiB3aWR0aD0iMTAzIiAv
-      PgogICAgICA8dnN0ZW0gcG9zPSItMTg5IiB3aWR0aD0iMzc4IiAvPgogICAgPC9oaW50
-      c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

@@ -4,7 +4,13 @@
   <unicode hex="00EE"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="circumflex.alt01" xOffset="-128"/>
+    <component base="circumflex.alt01" xOffset="-128.0"/>
+    <contour>
+      <point x="108.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="159.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>

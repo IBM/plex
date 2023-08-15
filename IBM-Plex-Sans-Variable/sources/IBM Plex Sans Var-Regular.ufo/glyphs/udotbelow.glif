@@ -5,24 +5,19 @@
   <outline>
     <component base="u"/>
     <component base="dotbelowcomb" xOffset="278"/>
+    <contour>
+      <point x="483.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="282.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $u$, 0, 0
-OFFSET[R], $dotbelowcomb$, 278, 0
-SVTCA[Y]
-CALL[], 29, 5, 1, 1, -54, 86
-SHC[2], 1
-SVTCA[X]
-CALL[], 25, 33, 8, 31, 21, 87
-SHC[2], 1
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EE5</string>
+      <key>com.type-invaders.name.production</key>
+      <string>udotbelow</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

@@ -18,7 +18,7 @@
       <point x="263" y="-11" type="line"/>
       <point x="367" y="-4"/>
       <point x="431" y="56"/>
-      <point x="431" y="149" type="curve" smooth="yes" name="hr01"/>
+      <point x="431" y="149" type="curve" smooth="yes" name=""/>
       <point x="431" y="227"/>
       <point x="387" y="277"/>
       <point x="273" y="294" type="curve" smooth="yes"/>
@@ -60,7 +60,7 @@
       <point x="228" y="-81" type="line" smooth="yes"/>
       <point x="284" y="-89"/>
       <point x="296" y="-104"/>
-      <point x="296" y="-122" type="curve" smooth="yes" name="hr02"/>
+      <point x="296" y="-122" type="curve" smooth="yes" name=""/>
       <point x="296" y="-143"/>
       <point x="277" y="-153"/>
       <point x="252" y="-153" type="curve" smooth="yes"/>
@@ -71,38 +71,8 @@
       <point x="167" y="-185"/>
       <point x="198" y="-207"/>
     </contour>
+    <contour>
+      <point x="238.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMDciIHdpZHRoPSI1NCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      LTExIiB3aWR0aD0iNjciIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ2MCIgd2lkdGg9IjY4
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1NyIgd2lkdGg9Ijc3IiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSIzNTQiIHdpZHRoPSI3NyIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50
-      c2V0IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iLTIwNyIgd2lkdGg9
-      IjU0IiAvPgogICAgICA8aHN0ZW0gcG9zPSItMTEiIHdpZHRoPSI2NyIgLz4KICAgICAg
-      PGhzdGVtIHBvcz0iNDYwIiB3aWR0aD0iNjgiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjU3
-      IiB3aWR0aD0iNzciIC8+CiAgICAgIDx2c3RlbSBwb3M9IjI5NiIgd2lkdGg9IjY3IiAv
-      PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0)
-ResYDist(0,7)
-ResYAnchor(15,11)
-YShift(15,57)
-ResYDist(15,22)
-ResYAnchor(36,7)
-ResYDist(36,44)
-YInterpolate(44,29,15)
-YInterpolate(22,50,36)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

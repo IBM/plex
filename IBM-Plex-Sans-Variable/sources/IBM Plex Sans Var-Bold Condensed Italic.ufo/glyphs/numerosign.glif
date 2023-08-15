@@ -31,7 +31,7 @@
       <point x="261" y="373" type="line"/>
       <point x="332" y="0" type="line"/>
       <point x="493" y="0" type="line"/>
-      <point x="633" y="698" type="line" name="hr01"/>
+      <point x="633" y="698" type="line" name=""/>
       <point x="505" y="698" type="line"/>
       <point x="430" y="325" type="line"/>
       <point x="413" y="188" type="line"/>
@@ -52,7 +52,7 @@
       <point x="760" y="562" type="line" smooth="yes"/>
       <point x="771" y="618"/>
       <point x="785" y="636"/>
-      <point x="819" y="636" type="curve" smooth="yes" name="hr02"/>
+      <point x="819" y="636" type="curve" smooth="yes" name=""/>
       <point x="848" y="636"/>
       <point x="860" y="623"/>
       <point x="860" y="596" type="curve" smooth="yes"/>
@@ -72,60 +72,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjIy
-      MiIgd2lkdGg9Ijc2IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzNTgiIHdpZHRoPSI3NSIg
-      Lz4KICAgICAgPGhzdGVtIHBvcz0iNjk4IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSI2NTIiIHdpZHRoPSI5MyIgLz4KICAgICAgPHZzdGVtIHBvcz0iODYwIiB3
-      aWR0aD0iOTMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0i
-      aHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxo
-      c3RlbSBwb3M9IjIyMiIgd2lkdGg9Ijc2IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzNTgi
-      IHdpZHRoPSI3NSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjM2IiB3aWR0aD0iNzQiIC8+
-      CiAgICAgIDx2c3RlbSBwb3M9IjY1MiIgd2lkdGg9IjkzIiAvPgogICAgICA8dnN0ZW0g
-      cG9zPSI4NjAiIHdpZHRoPSI5MyIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
-      aXN0Pgo=
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>576.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>652.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>748.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2116</string>
+      <key>com.type-invaders.name.production</key>
+      <string>numerosign</string>
     </dict>
   </lib>
 </glyph>

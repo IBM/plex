@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="napostrophe" format="1">
-  <advance width="799"/>
+  <advance width="818"/>
   <unicode hex="0149"/>
   <outline>
     <component base="quoteright"/>
-    <component base="n" xOffset="264"/>
+    <component base="n" xOffset="283"/>
+    <contour>
+      <point x="523.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="610.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>

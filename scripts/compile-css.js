@@ -15,7 +15,7 @@ const compile = (file, output) => {
 
 compile('scss/ibm-plex.scss', 'css/ibm-plex');
 
-// Compile CJK/split families seperately from core bundle
+// Compile CJK/split families separately from core bundle
 families
   .filter(family => family.ownStyleSheet)
   .forEach(font => {

@@ -30,7 +30,7 @@
       <point x="210" y="523" type="line"/>
       <point x="253" y="533"/>
       <point x="280" y="561"/>
-      <point x="280" y="609" type="curve" smooth="yes" name="hr01"/>
+      <point x="280" y="609" type="curve" smooth="yes" name=""/>
       <point x="280" y="667"/>
       <point x="239" y="704"/>
       <point x="168" y="704" type="curve" smooth="yes"/>
@@ -50,16 +50,4 @@
       <point x="159" y="529" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjMyMyIgd2lkdGg9IjE3IiAvPgogICAgICA8aHN0ZW0gcG9zPSI1
-      MTIiIHdpZHRoPSIxNyIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjg3IiB3aWR0aD0iMTci
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjI2MCIgd2lkdGg9IjIwIiAvPgogICAgPC9oaW50
-      c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

@@ -14,7 +14,7 @@
       <point x="297" y="525" type="line"/>
       <point x="343" y="538"/>
       <point x="376" y="569"/>
-      <point x="376" y="618" type="curve" smooth="yes" name="hr01"/>
+      <point x="376" y="618" type="curve" smooth="yes" name=""/>
       <point x="376" y="669"/>
       <point x="332" y="704"/>
       <point x="263" y="704" type="curve" smooth="yes"/>
@@ -27,7 +27,7 @@
       <point x="171" y="520" type="line"/>
       <point x="114" y="510"/>
       <point x="78" y="471"/>
-      <point x="78" y="415" type="curve" smooth="yes" name="hr02"/>
+      <point x="78" y="415" type="curve" smooth="yes" name=""/>
       <point x="78" y="361"/>
       <point x="124" y="323"/>
     </contour>
@@ -35,7 +35,7 @@
       <point x="240" y="542" type="curve" smooth="yes"/>
       <point x="205" y="542"/>
       <point x="180" y="559"/>
-      <point x="180" y="586" type="curve" smooth="yes" name="hr03"/>
+      <point x="180" y="586" type="curve" smooth="yes" name=""/>
       <point x="180" y="592"/>
       <point x="181" y="600"/>
       <point x="182" y="605" type="curve" smooth="yes"/>
@@ -55,7 +55,7 @@
       <point x="207" y="370" type="curve" smooth="yes"/>
       <point x="165" y="370"/>
       <point x="139" y="390"/>
-      <point x="139" y="419" type="curve" smooth="yes" name="hr04"/>
+      <point x="139" y="419" type="curve" smooth="yes" name=""/>
       <point x="139" y="424"/>
       <point x="140" y="431"/>
       <point x="141" y="436" type="curve" smooth="yes"/>
@@ -74,43 +74,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjMyMyIgd2lkdGg9IjQ3IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      OTgiIHdpZHRoPSI0NCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjU3IiB3aWR0aD0iNDci
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9Ijc4IiB3aWR0aD0iNjEiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjI5NCIgd2lkdGg9IjYxIiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
-      ZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0gcG9zPSIzMjMiIHdpZHRoPSI0
-      NyIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDk4IiB3aWR0aD0iNDQiIC8+CiAgICAgIDxo
-      c3RlbSBwb3M9IjY1NyIgd2lkdGg9IjQ3IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMjIi
-      IHdpZHRoPSI1OCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzE3IiB3aWR0aD0iNTkiIC8+
-      CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjMyMyIgd2lkdGg9IjQ3IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      OTgiIHdpZHRoPSI0NCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjU3IiB3aWR0aD0iNDci
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9Ijc4IiB3aWR0aD0iNjEiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjI5NCIgd2lkdGg9IjYxIiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
-      ZXQgcG9pbnRUYWc9ImhyMDQiPgogICAgICA8aHN0ZW0gcG9zPSIzMjMiIHdpZHRoPSI0
-      NyIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDk4IiB3aWR0aD0iNDQiIC8+CiAgICAgIDxo
-      c3RlbSBwb3M9IjY1NyIgd2lkdGg9IjQ3IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMjIi
-      IHdpZHRoPSI1OCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzE3IiB3aWR0aD0iNTkiIC8+
-      CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0,154)
-YDelta(0,1@17;28;41,-1@45)
-ResYDist(0,46)
-ResYAnchor(14,152)
-ResYDist(14,37)
-YIPAnchor(14,55,0)
-ResYDist(55,28)
-YInterpolate(28,20,7,55)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2078</string>
+      <key>com.type-invaders.name.production</key>
+      <string>eightsuperior</string>
     </dict>
   </lib>
 </glyph>

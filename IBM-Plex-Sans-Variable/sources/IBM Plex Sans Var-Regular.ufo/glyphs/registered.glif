@@ -4,7 +4,7 @@
   <unicode hex="00AE"/>
   <outline>
     <contour>
-      <point x="238" y="298" type="curve" smooth="yes" name="hr00"/>
+      <point x="238" y="298" type="curve" smooth="yes" name=""/>
       <point x="346" y="298"/>
       <point x="436" y="387"/>
       <point x="436" y="504" type="curve" smooth="yes"/>
@@ -62,36 +62,4 @@
       <point x="251" y="508" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjI5OCIgd2lkdGg9IjQwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      NzYiIHdpZHRoPSIzMiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTcyIiB3aWR0aD0iMzMi
-      IC8+CiAgICAgIDxoc3RlbSBwb3M9IjY3MCIgd2lkdGg9IjQwIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSI0MCIgd2lkdGg9IjQzIiAvPgogICAgICA8dnN0ZW0gcG9zPSIxNjMiIHdp
-      ZHRoPSI0MCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMjc0IiB3aWR0aD0iNDMiIC8+CiAg
-      ICAgIDx2c3RlbSBwb3M9IjM5MyIgd2lkdGg9IjQzIiAvPgogICAgPC9oaW50c2V0Pgog
-      IDwvaGludFNldExpc3Q+Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(8,17)
-ResYDist(8,25)
-YIPAnchor(58,0,8)
-ResYDist(0,16)
-YIPAnchor(16,36,37,25)
-YShift(36,46)
-ResYDist(37,57)
-YIPAnchor(36,34,57)
-ResYDist(34,48)
-YInterpolate(34,44,48)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

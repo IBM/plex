@@ -14,7 +14,7 @@
       <point x="248" y="192" type="line"/>
       <point x="303" y="206"/>
       <point x="321" y="244"/>
-      <point x="321" y="281" type="curve" smooth="yes" name="hr01"/>
+      <point x="321" y="281" type="curve" smooth="yes" name=""/>
       <point x="321" y="340"/>
       <point x="275" y="375"/>
       <point x="198" y="375" type="curve" smooth="yes"/>
@@ -27,7 +27,7 @@
       <point x="148" y="189" type="line"/>
       <point x="96" y="178"/>
       <point x="61" y="151"/>
-      <point x="61" y="97" type="curve" smooth="yes" name="hr02"/>
+      <point x="61" y="97" type="curve" smooth="yes" name=""/>
       <point x="61" y="35"/>
       <point x="107" y="-6"/>
     </contour>
@@ -51,7 +51,7 @@
       <point x="198" y="199" type="curve" smooth="yes"/>
       <point x="127" y="199"/>
       <point x="95" y="229"/>
-      <point x="95" y="275" type="curve" smooth="yes" name="hr03"/>
+      <point x="95" y="275" type="curve" smooth="yes" name=""/>
       <point x="95" y="282" type="line" smooth="yes"/>
       <point x="95" y="328"/>
       <point x="127" y="358"/>
@@ -66,24 +66,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii02IiB3aWR0aD0iMTciIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE4
-      MiIgd2lkdGg9IjE3IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzNTgiIHdpZHRoPSIxNyIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNzUiIHdpZHRoPSIyMCIgLz4KICAgICAgPHZzdGVt
-      IHBvcz0iMzAxIiB3aWR0aD0iMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNl
-      dCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9Ii02IiB3aWR0aD0iMTci
-      IC8+CiAgICAgIDxoc3RlbSBwb3M9IjE4MiIgd2lkdGg9IjE3IiAvPgogICAgICA8aHN0
-      ZW0gcG9zPSIzNTgiIHdpZHRoPSIxNyIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjEiIHdp
-      ZHRoPSIyMCIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzE1IiB3aWR0aD0iMjAiIC8+CiAg
-      ICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxo
-      c3RlbSBwb3M9Ii02IiB3aWR0aD0iMTciIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE4MiIg
-      d2lkdGg9IjE3IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzNTgiIHdpZHRoPSIxNyIgLz4K
-      ICAgICAgPHZzdGVtIHBvcz0iNzUiIHdpZHRoPSIyMCIgLz4KICAgICAgPHZzdGVtIHBv
-      cz0iMzAxIiB3aWR0aD0iMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlz
-      dD4K
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2088</string>
+      <key>com.type-invaders.name.production</key>
+      <string>eightinferior</string>
     </dict>
   </lib>
 </glyph>

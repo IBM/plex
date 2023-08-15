@@ -16,7 +16,7 @@
       <point x="438" y="368" type="line"/>
       <point x="501" y="379"/>
       <point x="555" y="419"/>
-      <point x="555" y="508" type="curve" smooth="yes" name="hr01"/>
+      <point x="555" y="508" type="curve" smooth="yes" name=""/>
       <point x="555" y="601"/>
       <point x="498" y="665"/>
       <point x="402" y="676" type="curve"/>
@@ -52,7 +52,7 @@
       <point x="376" y="323" type="line" smooth="yes"/>
       <point x="448" y="323"/>
       <point x="493" y="289"/>
-      <point x="493" y="225" type="curve" smooth="yes" name="hr02"/>
+      <point x="493" y="225" type="curve" smooth="yes" name=""/>
       <point x="493" y="193" type="line" smooth="yes"/>
       <point x="493" y="129"/>
       <point x="448" y="95"/>
@@ -62,43 +62,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjIxIiB3aWR0aD0iNzQiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjMy
-      MyIgd2lkdGg9IjcyIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MDMiIHdpZHRoPSI3NCIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iMjAyIiB3aWR0aD0iNzAiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjMzMiIgd2lkdGg9IjcwIiAvPgogICAgICA8dnN0ZW0gcG9zPSI0OTMiIHdp
-      ZHRoPSI4NyIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJo
-      cjAyIj4KICAgICAgPGhzdGVtIHBvcz0iMjEiIHdpZHRoPSI3NCIgLz4KICAgICAgPGhz
-      dGVtIHBvcz0iMzIzIiB3aWR0aD0iNzIiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjYwMyIg
-      d2lkdGg9Ijc0IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyMDIiIHdpZHRoPSI3MCIgLz4K
-      ICAgICAgPHZzdGVtIHBvcz0iMzMyIiB3aWR0aD0iNzAiIC8+CiAgICAgIDx2c3RlbSBw
-      b3M9IjQ2OCIgd2lkdGg9Ijg3IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExp
-      c3Q+Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(6)
-ResYDist(6,0)
-YShift(0,4)
-YShift(6,2)
-YShift(2,30)
-ResYDist(6,43)
-ResYAnchor(7)
-ResYDist(7,9)
-YShift(9,14)
-YShift(7,11)
-YShift(11,15)
-ResYDist(7,32)
-YIPAnchor(43,42,32)
-ResYDist(42,33)
-YInterpolate(33,21,42)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20BF</string>
+      <key>com.type-invaders.name.production</key>
+      <string>bitcoin</string>
     </dict>
   </lib>
 </glyph>

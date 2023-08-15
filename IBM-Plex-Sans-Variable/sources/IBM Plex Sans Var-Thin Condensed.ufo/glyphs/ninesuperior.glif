@@ -4,7 +4,7 @@
   <unicode hex="2079"/>
   <outline>
     <contour>
-      <point x="268" y="576" type="curve" smooth="yes" name="hr00"/>
+      <point x="268" y="576" type="curve" smooth="yes" name=""/>
       <point x="268" y="670"/>
       <point x="222" y="704"/>
       <point x="156" y="704" type="curve" smooth="yes"/>
@@ -44,15 +44,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjMyOSIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      NDc2IiB3aWR0aD0iMTciIC8+CiAgICAgIDxoc3RlbSBwb3M9IjY4NyIgd2lkdGg9IjE3
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI0MiIgd2lkdGg9IjIxIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSIyNDciIHdpZHRoPSIyMSIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
-      ZXRMaXN0Pgo=
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2079</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ninesuperior</string>
     </dict>
   </lib>
 </glyph>

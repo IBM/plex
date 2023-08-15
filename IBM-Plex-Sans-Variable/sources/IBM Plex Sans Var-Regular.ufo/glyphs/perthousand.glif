@@ -16,7 +16,7 @@
       <point x="381" y="512" type="curve" smooth="yes"/>
       <point x="381" y="640"/>
       <point x="324" y="710"/>
-      <point x="223" y="710" type="curve" smooth="yes" name="hr01"/>
+      <point x="223" y="710" type="curve" smooth="yes" name=""/>
       <point x="122" y="710"/>
       <point x="65" y="640"/>
       <point x="65" y="512" type="curve" smooth="yes"/>
@@ -46,7 +46,7 @@
       <point x="862" y="186" type="curve" smooth="yes"/>
       <point x="862" y="314"/>
       <point x="805" y="384"/>
-      <point x="704" y="384" type="curve" smooth="yes" name="hr02"/>
+      <point x="704" y="384" type="curve" smooth="yes" name=""/>
       <point x="603" y="384"/>
       <point x="546" y="314"/>
       <point x="546" y="186" type="curve" smooth="yes"/>
@@ -100,50 +100,4 @@
       <point x="1141" y="40"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjMx
-      NCIgd2lkdGg9IjUyIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2NTgiIHdpZHRoPSI1MiIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNjUiIHdpZHRoPSI3MiIgLz4KICAgICAgPHZzdGVt
-      IHBvcz0iMzA5IiB3aWR0aD0iNzIiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjU0NiIgd2lk
-      dGg9IjcyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI3OTAiIHdpZHRoPSI3MiIgLz4KICAg
-      ICAgPHZzdGVtIHBvcz0iOTI1IiB3aWR0aD0iNzIiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-      IjExNjkiIHdpZHRoPSI3MiIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBv
-      aW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9Ii0yMSIgLz4K
-      ICAgICAgPGhzdGVtIHBvcz0iMzE0IiB3aWR0aD0iNTIiIC8+CiAgICAgIDxoc3RlbSBw
-      b3M9IjY5OCIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjUiIHdpZHRo
-      PSI3MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzA5IiB3aWR0aD0iNzIiIC8+CiAgICAg
-      IDx2c3RlbSBwb3M9IjU0NiIgd2lkdGg9IjcyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI3
-      OTAiIHdpZHRoPSI3MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iOTI1IiB3aWR0aD0iNzIi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjExNjkiIHdpZHRoPSI3MiIgLz4KICAgIDwvaGlu
-      dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(1,18)
-ResYAnchor(3,16)
-ResYAnchor(12,17)
-ResYDist(12,29)
-YIPAnchor(1,4,12)
-ResYDist(4,20)
-ResYAnchor(38,19)
-ResYDist(38,54)
-YIPAnchor(38,46,3)
-ResYDist(46,63)
-YShift(46,80)
-YAnchor(80)
-ResYDist(80,97)
-YShift(38,72)
-ResYAnchor(72)
-ResYDist(72,88)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

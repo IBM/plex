@@ -24,7 +24,7 @@
       <point x="450" y="6"/>
     </contour>
     <contour>
-      <point x="287" y="-12" type="curve" smooth="yes" name="hr01"/>
+      <point x="287" y="-12" type="curve" smooth="yes" name=""/>
       <point x="444" y="-12"/>
       <point x="577" y="104"/>
       <point x="618" y="293" type="curve" smooth="yes"/>
@@ -44,7 +44,7 @@
       <point x="127" y="-12"/>
     </contour>
     <contour>
-      <point x="313" y="149" type="curve" smooth="yes" name="hr02"/>
+      <point x="313" y="149" type="curve" smooth="yes" name=""/>
       <point x="366" y="149"/>
       <point x="412" y="186"/>
       <point x="434" y="230" type="curve"/>
@@ -61,7 +61,7 @@
       <point x="225" y="370" type="line" smooth="yes"/>
       <point x="243" y="474"/>
       <point x="297" y="526"/>
-      <point x="371" y="526" type="curve" smooth="yes" name="hr03"/>
+      <point x="371" y="526" type="curve" smooth="yes" name=""/>
       <point x="421" y="526"/>
       <point x="446" y="497"/>
       <point x="459" y="458" type="curve"/>
@@ -79,27 +79,4 @@
       <point x="244" y="149"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjcyMiIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-      MjIxIiB3aWR0aD0iLTE3OCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjA5IiB3aWR0aD0i
-      LTEzMyIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAy
-      Ij4KICAgICAgPGhzdGVtIHBvcz0iMTQ5IiB3aWR0aD0iMTciIC8+CiAgICAgIDxoc3Rl
-      bSBwb3M9IjY5MiIgd2lkdGg9Ii0xNDkiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjIyMSIg
-      d2lkdGg9Ii0xNzgiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjYwOSIgd2lkdGg9Ii0xMzMi
-      IC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMyI+CiAg
-      ICAgIDxoc3RlbSBwb3M9IjUyNiIgd2lkdGg9Ii01MjAiIC8+CiAgICAgIDxoc3RlbSBw
-      b3M9IjY5MiIgd2lkdGg9Ii0xNDkiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjE5NyIgd2lk
-      dGg9Ii0xNDUiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjYwOSIgd2lkdGg9Ii0xMzMiIC8+
-      CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwNCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjE0OSIgd2lkdGg9IjE3IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2
-      OTIiIHdpZHRoPSItMTQ5IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxOTciIHdpZHRoPSIt
-      MTQ1IiAvPgogICAgICA8dnN0ZW0gcG9zPSI2MDkiIHdpZHRoPSItMTMzIiAvPgogICAg
-      PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

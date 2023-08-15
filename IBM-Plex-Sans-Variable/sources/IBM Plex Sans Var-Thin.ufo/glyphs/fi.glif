@@ -25,7 +25,7 @@
       <point x="123" y="487" type="line"/>
     </contour>
     <contour>
-      <point x="395" y="673" type="curve" smooth="yes" name="hr01"/>
+      <point x="395" y="673" type="curve" smooth="yes" name=""/>
       <point x="412" y="673"/>
       <point x="418" y="683"/>
       <point x="418" y="694" type="curve" smooth="yes"/>
@@ -41,17 +41,4 @@
       <point x="378" y="673"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ4
-      NyIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2NzMiIHdpZHRoPSI0OSIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iMTIzIiB3aWR0aD0iMjEiIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjM3MiIgd2lkdGg9IjQ2IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-      dExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

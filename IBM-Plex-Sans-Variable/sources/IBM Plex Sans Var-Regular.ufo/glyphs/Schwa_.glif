@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="58" y="371" type="line"/>
-      <point x="58" y="349" type="line" smooth="yes" name="hr00"/>
+      <point x="58" y="349" type="line" smooth="yes" name=""/>
       <point x="58" y="109"/>
       <point x="169" y="-12"/>
       <point x="353" y="-12" type="curve" smooth="yes"/>
@@ -38,31 +38,19 @@
       <point x="145" y="156"/>
       <point x="145" y="297" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="353.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="353.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9Ijc1IiAvPgogICAgICA8aHN0ZW0gcG9zPSIz
-      MDIiIHdpZHRoPSI2OSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjM1IiB3aWR0aD0iNzUi
-      IC8+CiAgICAgIDx2c3RlbSBwb3M9IjU4IiB3aWR0aD0iODciIC8+CiAgICAgIDx2c3Rl
-      bSBwb3M9IjU2MSIgd2lkdGg9Ijg5IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-      dExpc3Q+Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(13,3)
-ResYDist(13,5)
-ResYAnchor(21,9)
-ResYDist(21,31)
-YInterpolate(31,0,8,5)
-ResYDist(0,26)
-/* X direction */
-Smooth()
-</string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni018F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Schwa</string>
     </dict>
   </lib>
 </glyph>

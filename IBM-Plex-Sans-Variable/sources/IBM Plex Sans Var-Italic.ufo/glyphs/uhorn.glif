@@ -22,7 +22,7 @@
       <point x="312" y="99" type="curve" smooth="yes"/>
       <point x="285" y="71"/>
       <point x="254" y="58"/>
-      <point x="220" y="58" type="curve" smooth="yes" name="hr01"/>
+      <point x="220" y="58" type="curve" smooth="yes" name=""/>
       <point x="165" y="58"/>
       <point x="142" y="87"/>
       <point x="142" y="142" type="curve" smooth="yes"/>
@@ -48,42 +48,13 @@
       <point x="349" y="63" type="curve" smooth="yes"/>
       <point x="349" y="26"/>
       <point x="371" y="0"/>
-      <point x="415" y="0" type="curve" smooth="yes" name="hr02"/>
+      <point x="415" y="0" type="curve" smooth="yes" name=""/>
     </contour>
     <contour>
-      <point x="256" y="0" type="move" name="bottom"/>
+      <point x="256.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="322" y="540" type="move" name="top"/>
+      <point x="322.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjcwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      NjQiIHdpZHRoPSI1MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjMiIHdpZHRoPSI3OSIg
-      Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAyIj4KICAg
-      ICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9IjY4IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      NjQiIHdpZHRoPSI1MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjMiIHdpZHRoPSI3OSIg
-      Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(1,10)
-ResYDist(1,43)
-ResYAnchor(12,11)
-ResYDist(12,27)
-ResYAnchor(19,6)
-YShift(19,34)
-ResYDist(34,42)
-ResYAnchor(36)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

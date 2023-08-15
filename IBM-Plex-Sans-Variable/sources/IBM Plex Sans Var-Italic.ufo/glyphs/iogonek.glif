@@ -19,7 +19,7 @@
       <point x="128" y="-5" type="line"/>
       <point x="52" y="-39"/>
       <point x="1" y="-77"/>
-      <point x="1" y="-132" type="curve" smooth="yes" name="hr01"/>
+      <point x="1" y="-132" type="curve" smooth="yes" name=""/>
       <point x="1" y="-186"/>
       <point x="47" y="-207"/>
       <point x="97" y="-207" type="curve" smooth="yes"/>
@@ -44,7 +44,7 @@
       <point x="260" y="677" type="curve" smooth="yes"/>
       <point x="264" y="696"/>
       <point x="264" y="701"/>
-      <point x="264" y="705" type="curve" smooth="yes" name="hr02"/>
+      <point x="264" y="705" type="curve" smooth="yes" name=""/>
       <point x="264" y="724"/>
       <point x="253" y="740"/>
       <point x="222" y="740" type="curve" smooth="yes"/>
@@ -58,38 +58,4 @@
       <point x="175" y="637"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMDciIHdpZHRoPSI1NCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      MCIgd2lkdGg9IjY4IiAvPgogICAgICA8aHN0ZW0gcG9zPSI1MTYiIHdpZHRoPSItMjEi
-      IC8+CiAgICAgIDxoc3RlbSBwb3M9IjYzNyIgd2lkdGg9IjEwMyIgLz4KICAgICAgPHZz
-      dGVtIHBvcz0iMSIgd2lkdGg9IjY4IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMjciIHdp
-      ZHRoPSI3MyIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJo
-      cjAyIj4KICAgICAgPGhzdGVtIHBvcz0iLTIwNyIgd2lkdGg9IjU0IiAvPgogICAgICA8
-      aHN0ZW0gcG9zPSIwIiB3aWR0aD0iNjgiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjUxNiIg
-      d2lkdGg9Ii0yMSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjM3IiB3aWR0aD0iMTAzIiAv
-      PgogICAgICA8dnN0ZW0gcG9zPSIxIiB3aWR0aD0iNjgiIC8+CiAgICAgIDx2c3RlbSBw
-      b3M9IjE2NCIgd2lkdGg9IjEwMCIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
-      aXN0Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(15)
-ResYDist(15,8)
-ResYAnchor(24,10)
-YShift(24,1)
-ResYDist(24,33)
-ResYAnchor(31,6)
-ResYDist(31,34)
-ResYDist(34,43)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

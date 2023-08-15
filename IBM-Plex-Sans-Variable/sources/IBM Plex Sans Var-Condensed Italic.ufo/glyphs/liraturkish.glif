@@ -4,7 +4,7 @@
   <unicode hex="20BA"/>
   <outline>
     <contour>
-      <point x="84" y="0" type="line" name="hr00"/>
+      <point x="84" y="0" type="line" name=""/>
       <point x="260" y="0" type="line" smooth="yes"/>
       <point x="431" y="0"/>
       <point x="502" y="124"/>
@@ -36,13 +36,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSI2NiIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjk4
-      IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0ZW0gcG9zPSI0MiIgd2lkdGg9IjQ5NSIg
-      Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20BA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>liraturkish</string>
     </dict>
   </lib>
 </glyph>

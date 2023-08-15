@@ -5,26 +5,12 @@
   <outline>
     <component base="Oslash"/>
     <component base="acute.case" xOffset="115"/>
+    <contour>
+      <point x="289.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $Oslash$, 0, 0
-OFFSET[R], $acute.case$, 115, 0
-CALL[], 21, 22, 88
-SVTCA[Y]
-CALL[], 69, 13, 1, 1, 46, 86
-SHC[2], 3
-CALL[], 9
-CALL[], 70, 68, 5, 38, 19, 87
-SVTCA[X]
-SHC[2], 3
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

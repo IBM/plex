@@ -4,7 +4,7 @@
   <unicode hex="2113"/>
   <outline>
     <contour>
-      <point x="314" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="314" y="-12" type="curve" smooth="yes" name=""/>
       <point x="425" y="-12"/>
       <point x="494" y="57"/>
       <point x="532" y="158" type="curve"/>
@@ -53,14 +53,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjEyOCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      NjIxIiB3aWR0aD0iMTMxIiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMTQiIHdpZHRoPSIx
-      NDAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjM0MSIgd2lkdGg9IjEzNiIgLz4KICAgIDwv
-      aGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2113</string>
+      <key>com.type-invaders.name.production</key>
+      <string>litre</string>
     </dict>
   </lib>
 </glyph>

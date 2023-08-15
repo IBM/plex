@@ -4,16 +4,16 @@
   <unicode hex="030B"/>
   <outline>
     <component base="hungarumlaut" xOffset="-300"/>
+    <contour>
+      <point x="0.0" y="540.0" type="move" name="_top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-OFFSET[R], $hungarumlaut$, -300, 0
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni030B</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hungarumlautcomb</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

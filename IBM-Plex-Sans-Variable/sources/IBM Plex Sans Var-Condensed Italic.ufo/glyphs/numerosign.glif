@@ -31,7 +31,7 @@
       <point x="260" y="453" type="line"/>
       <point x="373" y="0" type="line"/>
       <point x="466" y="0" type="line"/>
-      <point x="606" y="698" type="line" name="hr01"/>
+      <point x="606" y="698" type="line" name=""/>
       <point x="533" y="698" type="line"/>
       <point x="442" y="245" type="line"/>
       <point x="421" y="90" type="line"/>
@@ -52,7 +52,7 @@
       <point x="712" y="583" type="line" smooth="yes"/>
       <point x="722" y="633"/>
       <point x="751" y="661"/>
-      <point x="798" y="661" type="curve" smooth="yes" name="hr02"/>
+      <point x="798" y="661" type="curve" smooth="yes" name=""/>
       <point x="836" y="661"/>
       <point x="859" y="641"/>
       <point x="859" y="595" type="curve" smooth="yes"/>
@@ -72,21 +72,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjI1
-      MSIgd2lkdGg9IjU5IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzNjQiIHdpZHRoPSI0OSIg
-      Lz4KICAgICAgPGhzdGVtIHBvcz0iNjk4IiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSI2MzIiIHdpZHRoPSI2MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iODU5IiB3
-      aWR0aD0iNjIiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0i
-      aHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxo
-      c3RlbSBwb3M9IjI1MSIgd2lkdGg9IjU5IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzNjQi
-      IHdpZHRoPSI0OSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjYxIiB3aWR0aD0iNDkiIC8+
-      CiAgICAgIDx2c3RlbSBwb3M9IjYzMiIgd2lkdGg9IjYyIiAvPgogICAgICA8dnN0ZW0g
-      cG9zPSI4NTkiIHdpZHRoPSI2MiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
-      aXN0Pgo=
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2116</string>
+      <key>com.type-invaders.name.production</key>
+      <string>numerosign</string>
     </dict>
   </lib>
 </glyph>

@@ -19,7 +19,7 @@
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSerif Bold</string>
 	<key>openTypeHeadCreated</key>
-	<string>2022/06/18 09:30:46</string>
+	<string>2022/11/09 07:29:57</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1025</integer>
 	<key>openTypeHheaDescender</key>
@@ -41,14 +41,15 @@
 	<key>openTypeNameSampleText</key>
 	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSerif-Bold;2.008;2022</string>
+	<string>IBM;IBMPlexSerif-Bold;3.000;2022</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.008 2022</string>
+	<string>Version 3.000</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
 		<integer>1</integer>
 		<integer>2</integer>
+		<integer>3</integer>
 		<integer>4</integer>
 		<integer>7</integer>
 		<integer>8</integer>
@@ -109,6 +110,7 @@
 		<integer>3</integer>
 		<integer>5</integer>
 		<integer>6</integer>
+		<integer>7</integer>
 		<integer>9</integer>
 		<integer>29</integer>
 		<integer>31</integer>
@@ -198,7 +200,7 @@
 		<integer>330</integer>
 	</array>
 	<key>postscriptSlantAngle</key>
-	<real>0.0</real>
+	<real>-0.0</real>
 	<key>postscriptStemSnapH</key>
 	<array>
 		<integer>66</integer>
@@ -233,9 +235,9 @@
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>versionMinor</key>
-	<integer>8</integer>
+	<integer>0</integer>
 	<key>xHeight</key>
 	<integer>524</integer>
 	<key>year</key>

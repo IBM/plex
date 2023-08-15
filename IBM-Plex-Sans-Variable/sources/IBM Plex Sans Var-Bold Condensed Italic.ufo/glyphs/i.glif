@@ -26,7 +26,7 @@
     <contour>
       <point x="190" y="0" type="line"/>
       <point x="211" y="106" type="line"/>
-      <point x="165" y="106" type="line" name="hr01"/>
+      <point x="165" y="106" type="line" name=""/>
       <point x="249" y="525" type="line"/>
       <point x="116" y="525" type="line"/>
       <point x="32" y="105" type="line" smooth="yes"/>
@@ -38,37 +38,10 @@
       <point x="106" y="0" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="114" y="0" type="move" name="bottom"/>
+      <point x="114.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="196" y="0" type="move" name="bottomright"/>
+      <point x="196.0" y="0.0" type="move" name="bottomright"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIxMDYiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjUy
-      NSIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNTkwIiB3aWR0aD0iMTU2
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyOCIgd2lkdGg9IjEzNyIgLz4KICAgIDwvaGlu
-      dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>9.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

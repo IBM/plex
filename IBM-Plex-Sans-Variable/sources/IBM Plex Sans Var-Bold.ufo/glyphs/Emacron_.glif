@@ -5,6 +5,12 @@
   <outline>
     <component base="E"/>
     <component base="macron.case" xOffset="15"/>
+    <contour>
+      <point x="315.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="554.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
