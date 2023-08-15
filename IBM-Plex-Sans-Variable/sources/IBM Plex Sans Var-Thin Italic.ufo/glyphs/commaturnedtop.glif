@@ -4,7 +4,7 @@
   <unicode hex="02BB"/>
   <outline>
     <contour>
-      <point x="312" y="599" type="curve" smooth="yes" name="hr00"/>
+      <point x="312" y="599" type="curve" smooth="yes" name=""/>
       <point x="331" y="599"/>
       <point x="336" y="607"/>
       <point x="338" y="616" type="curve" smooth="yes"/>
@@ -28,17 +28,15 @@
       <point x="295" y="599"/>
     </contour>
     <contour>
-      <point x="300" y="540" type="move" name="_top"/>
+      <point x="300.0" y="540.0" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjU5OSIgd2lkdGg9IjQ5IiAvPgogICAgICA8dnN0ZW0gcG9zPSIy
-      OTEiIHdpZHRoPSI0OSIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni02BB</string>
+      <key>com.type-invaders.name.production</key>
+      <string>commaturnedtop</string>
     </dict>
   </lib>
 </glyph>

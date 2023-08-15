@@ -14,7 +14,7 @@
       <point x="565" y="568"/>
       <point x="539" y="636"/>
       <point x="472" y="677" type="curve"/>
-      <point x="473" y="680" type="line" name="hr02"/>
+      <point x="473" y="680" type="line" name=""/>
       <point x="556" y="680" type="line" smooth="yes"/>
       <point x="572" y="680"/>
       <point x="580" y="688"/>
@@ -25,7 +25,7 @@
       <point x="439" y="698" type="line"/>
       <point x="417" y="706"/>
       <point x="392" y="710"/>
-      <point x="365" y="710" type="curve" smooth="yes" name="hr01"/>
+      <point x="365" y="710" type="curve" smooth="yes" name=""/>
       <point x="201" y="710"/>
       <point x="108" y="556"/>
       <point x="75" y="385" type="curve" smooth="yes"/>
@@ -46,7 +46,7 @@
       <point x="102" y="394" type="line" smooth="yes"/>
       <point x="139" y="581"/>
       <point x="239" y="690"/>
-      <point x="365" y="690" type="curve" smooth="yes" name="hr03"/>
+      <point x="365" y="690" type="curve" smooth="yes" name=""/>
       <point x="485" y="690"/>
       <point x="543" y="601"/>
       <point x="543" y="468" type="curve" smooth="yes"/>
@@ -58,44 +58,10 @@
       <point x="386" y="8"/>
     </contour>
     <contour>
-      <point x="242" y="0" type="move" name="bottom"/>
+      <point x="242.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="382" y="698" type="move" name="top"/>
+      <point x="382.0" y="698.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjIwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2
-      OTAiIHdpZHRoPSIyMCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjAiIHdpZHRoPSIyMiIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNTQzIiB3aWR0aD0iMjIiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9
-      Ii0xMiIgd2lkdGg9IjIwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2ODAiIHdpZHRoPSIx
-      OCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjAiIHdpZHRoPSIyMiIgLz4KICAgICAgPHZz
-      dGVtIHBvcz0iNTQzIiB3aWR0aD0iMjIiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
-      dHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9
-      IjIwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2OTAiIHdpZHRoPSIyMCIgLz4KICAgICAg
-      PHZzdGVtIHBvcz0iNjAiIHdpZHRoPSIyMiIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTQz
-      IiB3aWR0aD0iMjIiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>809.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

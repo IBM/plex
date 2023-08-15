@@ -20,9 +20,9 @@
 		<string>uni0446</string>
 		<string>uni0449</string>
 		<string>uni04A3</string>
-		<string>uni04B7</string>
-		<string>uni04B5</string>
 		<string>uni0525</string>
+		<string>uni04B5</string>
+		<string>uni04B7</string>
 	</array>
 	<key>@MMK_L_cyrl_lc_en</key>
 	<array>
@@ -54,9 +54,9 @@
 		<string>uni0433</string>
 		<string>uni0453</string>
 		<string>uni0491</string>
-		<string>uni04A5</string>
-		<string>uni0493</string>
 		<string>uni04F7</string>
+		<string>uni0493</string>
+		<string>uni04A5</string>
 	</array>
 	<key>@MMK_L_cyrl_lc_ghehook</key>
 	<array>
@@ -119,8 +119,8 @@
 	</array>
 	<key>@MMK_L_cyrl_lc_tedescend</key>
 	<array>
-		<string>uni04AD</string>
 		<string>uni0442</string>
+		<string>uni04AD</string>
 	</array>
 	<key>@MMK_L_cyrl_lc_u</key>
 	<array>
@@ -154,9 +154,9 @@
 		<string>uni0426</string>
 		<string>uni0429</string>
 		<string>uni04A2</string>
-		<string>uni04B6</string>
-		<string>uni04B4</string>
 		<string>uni0524</string>
+		<string>uni04B4</string>
+		<string>uni04B6</string>
 	</array>
 	<key>@MMK_L_cyrl_uc_En</key>
 	<array>
@@ -191,9 +191,9 @@
 		<string>uni0413</string>
 		<string>uni0403</string>
 		<string>uni0490</string>
-		<string>uni04A4</string>
-		<string>uni0492</string>
 		<string>uni04F6</string>
+		<string>uni0492</string>
+		<string>uni04A4</string>
 	</array>
 	<key>@MMK_L_cyrl_uc_Gehook</key>
 	<array>
@@ -244,8 +244,8 @@
 	</array>
 	<key>@MMK_L_cyrl_uc_Tedescend</key>
 	<array>
-		<string>uni04AC</string>
 		<string>uni0422</string>
+		<string>uni04AC</string>
 	</array>
 	<key>@MMK_L_cyrl_uc_Tshe</key>
 	<array>
@@ -267,10 +267,113 @@
 		<string>uni04DE</string>
 		<string>uni0498</string>
 	</array>
+	<key>@MMK_L_grk_lc_alpha</key>
+	<array>
+		<string>alpha</string>
+		<string>alphatonos</string>
+	</array>
+	<key>@MMK_L_grk_lc_beta</key>
+	<array>
+		<string>beta</string>
+		<string>uni03D0</string>
+	</array>
+	<key>@MMK_L_grk_lc_epsilon</key>
+	<array>
+		<string>epsilon</string>
+		<string>epsilontonos</string>
+	</array>
+	<key>@MMK_L_grk_lc_eta</key>
+	<array>
+		<string>eta</string>
+		<string>etatonos</string>
+	</array>
+	<key>@MMK_L_grk_lc_iota</key>
+	<array>
+		<string>iota</string>
+		<string>iotatonos</string>
+		<string>iotadieresis</string>
+		<string>iotadieresistonos</string>
+	</array>
+	<key>@MMK_L_grk_lc_mu</key>
+	<array>
+		<string>mu</string>
+		<string>uni03BC</string>
+	</array>
+	<key>@MMK_L_grk_lc_nu</key>
+	<array>
+		<string>gamma</string>
+		<string>nu</string>
+	</array>
+	<key>@MMK_L_grk_lc_omega</key>
+	<array>
+		<string>omega</string>
+		<string>omegatonos</string>
+	</array>
+	<key>@MMK_L_grk_lc_omicron</key>
+	<array>
+		<string>omicron</string>
+		<string>rho</string>
+		<string>omicrontonos</string>
+	</array>
+	<key>@MMK_L_grk_lc_upsilon</key>
+	<array>
+		<string>upsilon</string>
+		<string>psi</string>
+		<string>upsilontonos</string>
+		<string>upsilondieresis</string>
+		<string>upsilondieresistonos</string>
+	</array>
+	<key>@MMK_L_grk_uc_Alpha</key>
+	<array>
+		<string>Alpha</string>
+		<string>Lambda</string>
+		<string>Alphatonos</string>
+	</array>
+	<key>@MMK_L_grk_uc_Delta</key>
+	<array>
+		<string>Delta</string>
+		<string>uni0394</string>
+	</array>
+	<key>@MMK_L_grk_uc_Epsilon</key>
+	<array>
+		<string>Epsilon</string>
+		<string>Xi</string>
+		<string>Sigma</string>
+		<string>Epsilontonos</string>
+	</array>
+	<key>@MMK_L_grk_uc_Eta</key>
+	<array>
+		<string>Eta</string>
+		<string>Iota</string>
+		<string>Mu</string>
+		<string>Pi</string>
+		<string>Etatonos</string>
+		<string>Iotatonos</string>
+		<string>Iotadieresis</string>
+	</array>
+	<key>@MMK_L_grk_uc_Omega</key>
+	<array>
+		<string>Omega</string>
+		<string>uni03A9</string>
+		<string>Omegatonos</string>
+	</array>
+	<key>@MMK_L_grk_uc_Omicron</key>
+	<array>
+		<string>Theta</string>
+		<string>Omicron</string>
+		<string>Omicrontonos</string>
+	</array>
+	<key>@MMK_L_grk_uc_Upsilon</key>
+	<array>
+		<string>Upsilon</string>
+		<string>Upsilontonos</string>
+		<string>Upsilondieresis</string>
+	</array>
 	<key>@MMK_L_inp_colon</key>
 	<array>
 		<string>colon</string>
 		<string>semicolon</string>
+		<string>questiongreek</string>
 	</array>
 	<key>@MMK_L_inp_foot</key>
 	<array>
@@ -857,9 +960,9 @@
 	</array>
 	<key>@MMK_R_cyrl_lc_dje</key>
 	<array>
+		<string>uni049F</string>
 		<string>uni0452</string>
 		<string>uni045B</string>
-		<string>uni049F</string>
 	</array>
 	<key>@MMK_R_cyrl_lc_el</key>
 	<array>
@@ -884,6 +987,7 @@
 		<string>uni044E</string>
 		<string>uni0453</string>
 		<string>uni0491</string>
+		<string>uni04F7</string>
 		<string>uni0495</string>
 		<string>uni04E5</string>
 		<string>uni045D</string>
@@ -894,11 +998,10 @@
 		<string>uni04A3</string>
 		<string>uni045A</string>
 		<string>uni04A5</string>
+		<string>uni0525</string>
+		<string>uni04A7</string>
 		<string>uni04F9</string>
 		<string>uni045F</string>
-		<string>uni04A7</string>
-		<string>uni04F7</string>
-		<string>uni0525</string>
 	</array>
 	<key>@MMK_R_cyrl_lc_i</key>
 	<array>
@@ -1005,6 +1108,7 @@
 		<string>uni042E</string>
 		<string>uni0403</string>
 		<string>uni0490</string>
+		<string>uni04F6</string>
 		<string>uni0494</string>
 		<string>uni0400</string>
 		<string>uni0401</string>
@@ -1019,14 +1123,13 @@
 		<string>uni04A2</string>
 		<string>uni040A</string>
 		<string>uni04A4</string>
+		<string>uni0524</string>
+		<string>uni04A6</string>
 		<string>uni04F8</string>
 		<string>uni040F</string>
 		<string>uni0406</string>
 		<string>uni0407</string>
 		<string>uni04BA</string>
-		<string>uni04A6</string>
-		<string>uni04F6</string>
-		<string>uni0524</string>
 	</array>
 	<key>@MMK_R_cyrl_uc_Hardsign</key>
 	<array>
@@ -1053,10 +1156,10 @@
 	<key>@MMK_R_cyrl_uc_Te</key>
 	<array>
 		<string>uni0422</string>
-		<string>uni0402</string>
-		<string>uni040B</string>
 		<string>uni04AC</string>
 		<string>uni04B4</string>
+		<string>uni0402</string>
+		<string>uni040B</string>
 	</array>
 	<key>@MMK_R_cyrl_uc_U</key>
 	<array>
@@ -1080,10 +1183,103 @@
 		<string>uni04C1</string>
 		<string>uni0496</string>
 	</array>
+	<key>@MMK_R_grk_lc_alpha</key>
+	<array>
+		<string>alpha</string>
+		<string>alphatonos</string>
+	</array>
+	<key>@MMK_R_grk_lc_epsilon</key>
+	<array>
+		<string>epsilon</string>
+		<string>epsilontonos</string>
+	</array>
+	<key>@MMK_R_grk_lc_eta</key>
+	<array>
+		<string>eta</string>
+		<string>etatonos</string>
+	</array>
+	<key>@MMK_R_grk_lc_mu</key>
+	<array>
+		<string>mu</string>
+		<string>iota</string>
+		<string>kappa</string>
+		<string>uni03BC</string>
+		<string>iotatonos</string>
+		<string>iotadieresis</string>
+		<string>iotadieresistonos</string>
+	</array>
+	<key>@MMK_R_grk_lc_nu</key>
+	<array>
+		<string>gamma</string>
+		<string>nu</string>
+	</array>
+	<key>@MMK_R_grk_lc_omega</key>
+	<array>
+		<string>omega</string>
+		<string>omegatonos</string>
+	</array>
+	<key>@MMK_R_grk_lc_omicron</key>
+	<array>
+		<string>omicron</string>
+		<string>omicrontonos</string>
+	</array>
+	<key>@MMK_R_grk_lc_theta</key>
+	<array>
+		<string>theta</string>
+		<string>uni03D0</string>
+	</array>
+	<key>@MMK_R_grk_lc_upsilon</key>
+	<array>
+		<string>upsilon</string>
+		<string>psi</string>
+		<string>upsilontonos</string>
+		<string>upsilondieresis</string>
+		<string>upsilondieresistonos</string>
+	</array>
+	<key>@MMK_R_grk_uc_Alpha</key>
+	<array>
+		<string>Alpha</string>
+		<string>Lambda</string>
+	</array>
+	<key>@MMK_R_grk_uc_Delta</key>
+	<array>
+		<string>Delta</string>
+		<string>uni0394</string>
+	</array>
+	<key>@MMK_R_grk_uc_Eta</key>
+	<array>
+		<string>Beta</string>
+		<string>Gamma</string>
+		<string>Epsilon</string>
+		<string>Eta</string>
+		<string>Iota</string>
+		<string>Kappa</string>
+		<string>Mu</string>
+		<string>Nu</string>
+		<string>Pi</string>
+		<string>Rho</string>
+		<string>Iotadieresis</string>
+	</array>
+	<key>@MMK_R_grk_uc_Omega</key>
+	<array>
+		<string>Omega</string>
+		<string>uni03A9</string>
+	</array>
+	<key>@MMK_R_grk_uc_Omicron</key>
+	<array>
+		<string>Theta</string>
+		<string>Omicron</string>
+	</array>
+	<key>@MMK_R_grk_uc_Upsilon</key>
+	<array>
+		<string>Upsilon</string>
+		<string>Upsilondieresis</string>
+	</array>
 	<key>@MMK_R_inp_colon</key>
 	<array>
 		<string>colon</string>
 		<string>semicolon</string>
+		<string>questiongreek</string>
 	</array>
 	<key>@MMK_R_inp_foot</key>
 	<array>

@@ -4,7 +4,7 @@
   <unicode hex="20B4"/>
   <outline>
     <contour>
-      <point x="305" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="305" y="-12" type="curve" smooth="yes" name=""/>
       <point x="379" y="-12"/>
       <point x="454" y="22"/>
       <point x="496" y="69" type="curve"/>
@@ -66,15 +66,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjExNSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      MjI3IiB3aWR0aD0iODMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjM4OCIgd2lkdGg9Ijgz
-      IiAvPgogICAgICA8aHN0ZW0gcG9zPSI1OTUiIHdpZHRoPSIxMTUiIC8+CiAgICAgIDx2
-      c3RlbSBwb3M9IjkzIiB3aWR0aD0iMTMzIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNjIi
-      IHdpZHRoPSIxMzMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20B4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hryvnia</string>
     </dict>
   </lib>
 </glyph>

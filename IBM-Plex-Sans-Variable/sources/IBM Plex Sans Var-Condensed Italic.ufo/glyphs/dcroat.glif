@@ -30,7 +30,7 @@
       <point x="38" y="158" type="curve" smooth="yes"/>
       <point x="38" y="57"/>
       <point x="84" y="-12"/>
-      <point x="173" y="-12" type="curve" smooth="yes" name="hr01"/>
+      <point x="173" y="-12" type="curve" smooth="yes" name=""/>
       <point x="241" y="-12"/>
       <point x="290" y="28"/>
       <point x="321" y="111" type="curve"/>
@@ -41,10 +41,10 @@
       <point x="320" y="47" type="curve" smooth="yes"/>
       <point x="320" y="16"/>
       <point x="339" y="0"/>
-      <point x="371" y="0" type="curve" smooth="yes" name="hr02"/>
+      <point x="371" y="0" type="curve" smooth="yes" name=""/>
     </contour>
     <contour>
-      <point x="202" y="54" type="curve" smooth="yes" name="hr03"/>
+      <point x="202" y="54" type="curve" smooth="yes" name=""/>
       <point x="146" y="54"/>
       <point x="112" y="86"/>
       <point x="112" y="159" type="curve" smooth="yes"/>
@@ -65,27 +65,8 @@
       <point x="269" y="71"/>
       <point x="240" y="54"/>
     </contour>
+    <contour>
+      <point x="214.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjY2IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      NjMiIHdpZHRoPSI2NSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjI1IiB3aWR0aD0iNTQi
-      IC8+CiAgICAgIDxoc3RlbSBwb3M9Ijc0MCIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPHZz
-      dGVtIHBvcz0iMzgiIHdpZHRoPSI3NCIgLz4KICAgIDwvaGludHNldD4KICAgIDxoaW50
-      c2V0IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVtIHBvcz0iMCIgd2lkdGg9IjY0
-      IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0NjMiIHdpZHRoPSI2NSIgLz4KICAgICAgPGhz
-      dGVtIHBvcz0iNjI1IiB3aWR0aD0iNTQiIC8+CiAgICAgIDxoc3RlbSBwb3M9Ijc0MCIg
-      d2lkdGg9Ii0yMSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzgiIHdpZHRoPSI3NCIgLz4K
-      ICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAzIj4KICAgICAg
-      PGhzdGVtIHBvcz0iLTEyIiB3aWR0aD0iNjYiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ2
-      MyIgd2lkdGg9IjY1IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MjUiIHdpZHRoPSI1NCIg
-      Lz4KICAgICAgPGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSIzOCIgd2lkdGg9Ijc0IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNl
-      dExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

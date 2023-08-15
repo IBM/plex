@@ -14,7 +14,7 @@
       <point x="203" y="197" type="line"/>
       <point x="249" y="203"/>
       <point x="282" y="238"/>
-      <point x="282" y="291" type="curve" smooth="yes" name="hr01"/>
+      <point x="282" y="291" type="curve" smooth="yes" name=""/>
       <point x="282" y="345"/>
       <point x="244" y="375"/>
       <point x="181" y="375" type="curve" smooth="yes"/>
@@ -27,7 +27,7 @@
       <point x="99" y="191" type="line"/>
       <point x="40" y="185"/>
       <point x="8" y="145"/>
-      <point x="8" y="84" type="curve" smooth="yes" name="hr02"/>
+      <point x="8" y="84" type="curve" smooth="yes" name=""/>
       <point x="8" y="26"/>
       <point x="48" y="-6"/>
     </contour>
@@ -55,7 +55,7 @@
       <point x="156" y="214" type="curve" smooth="yes"/>
       <point x="127" y="214"/>
       <point x="105" y="230"/>
-      <point x="105" y="253" type="curve" smooth="yes" name="hr03"/>
+      <point x="105" y="253" type="curve" smooth="yes" name=""/>
       <point x="105" y="262"/>
       <point x="106" y="274"/>
       <point x="109" y="285" type="curve" smooth="yes"/>
@@ -74,24 +74,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii02IiB3aWR0aD0iNDUiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjE2
-      OSIgd2lkdGg9IjQ1IiAvPgogICAgICA8aHN0ZW0gcG9zPSIzMzAiIHdpZHRoPSI0NSIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNTEiIHdpZHRoPSI1NCIgLz4KICAgICAgPHZzdGVt
-      IHBvcz0iMjI2IiB3aWR0aD0iNTYiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGludHNl
-      dCBwb2ludFRhZz0iaHIwMiI+CiAgICAgIDxoc3RlbSBwb3M9Ii02IiB3aWR0aD0iNDUi
-      IC8+CiAgICAgIDxoc3RlbSBwb3M9IjE2OSIgd2lkdGg9IjQ1IiAvPgogICAgICA8aHN0
-      ZW0gcG9zPSIzMzAiIHdpZHRoPSI0NSIgLz4KICAgICAgPHZzdGVtIHBvcz0iOCIgd2lk
-      dGg9IjU2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyMDQiIHdpZHRoPSI1NiIgLz4KICAg
-      IDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJocjAzIj4KICAgICAgPGhz
-      dGVtIHBvcz0iLTYiIHdpZHRoPSI0NSIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTY5IiB3
-      aWR0aD0iNDUiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjMzMCIgd2lkdGg9IjQ1IiAvPgog
-      ICAgICA8dnN0ZW0gcG9zPSI1MSIgd2lkdGg9IjU0IiAvPgogICAgICA8dnN0ZW0gcG9z
-      PSIyMjYiIHdpZHRoPSI1NiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0
-      Pgo=
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2088</string>
+      <key>com.type-invaders.name.production</key>
+      <string>eightinferior</string>
     </dict>
   </lib>
 </glyph>

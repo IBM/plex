@@ -4,7 +4,7 @@
   <unicode hex="20A8"/>
   <outline>
     <contour>
-      <point x="159" y="0" type="line" name="hr00"/>
+      <point x="159" y="0" type="line" name=""/>
       <point x="159" y="324" type="line"/>
       <point x="236" y="324" type="line"/>
       <point x="325" y="101" type="line" smooth="yes"/>
@@ -72,17 +72,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjY0IiAvPgogICAgICA8aHN0ZW0gcG9zPSIz
-      MjQiIHdpZHRoPSI2OCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDEzIiB3aWR0aD0iNjAi
-      IC8+CiAgICAgIDxoc3RlbSBwb3M9IjYzMCIgd2lkdGg9IjY4IiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSI4MyIgd2lkdGg9Ijc2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIzMjciIHdp
-      ZHRoPSI3OCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNDIxIiB3aWR0aD0iNzAiIC8+CiAg
-      ICAgIDx2c3RlbSBwb3M9IjU1NiIgd2lkdGg9IjcyIiAvPgogICAgPC9oaW50c2V0Pgog
-      IDwvaGludFNldExpc3Q+Cg==
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20A8</string>
+      <key>com.type-invaders.name.production</key>
+      <string>rupee</string>
     </dict>
   </lib>
 </glyph>

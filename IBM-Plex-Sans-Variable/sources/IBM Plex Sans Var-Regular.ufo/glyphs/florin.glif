@@ -4,7 +4,7 @@
   <unicode hex="0192"/>
   <outline>
     <contour>
-      <point x="-3" y="-134" type="line" name="hr00"/>
+      <point x="-3" y="-134" type="line" name=""/>
       <point x="109" y="-134" type="line" smooth="yes"/>
       <point x="187" y="-134"/>
       <point x="228" y="-85"/>
@@ -28,31 +28,4 @@
       <point x="4" y="-64" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMzQiIHdpZHRoPSI3MCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      MzAxIiB3aWR0aD0iNzMiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjYyOCIgd2lkdGg9Ijcw
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSItMyIgd2lkdGg9IjQ2NCIgLz4KICAgIDwvaGlu
-      dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0)
-ResYDist(0,1)
-ResYAnchor(10,16)
-ResYDist(10,13)
-YIPAnchor(10,14,0)
-YShift(14,5)
-ResYDist(14,17)
-YShift(17,4)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

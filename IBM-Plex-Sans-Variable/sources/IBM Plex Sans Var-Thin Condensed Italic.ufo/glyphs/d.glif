@@ -22,7 +22,7 @@
       <point x="52" y="179" type="curve" smooth="yes"/>
       <point x="52" y="55"/>
       <point x="104" y="-12"/>
-      <point x="196" y="-12" type="curve" smooth="yes" name="hr01"/>
+      <point x="196" y="-12" type="curve" smooth="yes" name=""/>
       <point x="267" y="-12"/>
       <point x="319" y="27"/>
       <point x="356" y="111" type="curve"/>
@@ -33,10 +33,10 @@
       <point x="344" y="15" type="curve" smooth="yes"/>
       <point x="344" y="4"/>
       <point x="354" y="0"/>
-      <point x="367" y="0" type="curve" smooth="yes" name="hr02"/>
+      <point x="367" y="0" type="curve" smooth="yes" name=""/>
     </contour>
     <contour>
-      <point x="202" y="7" type="curve" smooth="yes" name="hr03"/>
+      <point x="202" y="7" type="curve" smooth="yes" name=""/>
       <point x="114" y="7"/>
       <point x="72" y="65"/>
       <point x="72" y="183" type="curve" smooth="yes"/>
@@ -58,80 +58,10 @@
       <point x="241" y="7"/>
     </contour>
     <contour>
-      <point x="188" y="0" type="move" name="bottom"/>
+      <point x="188.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="553" y="740" type="move" name="topright"/>
+      <point x="553.0" y="740.0" type="move" name="topright"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      OTkiIHdpZHRoPSIxOSIgLz4KICAgICAgPGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIx
-      IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1MiIgd2lkdGg9IjIwIiAvPgogICAgPC9oaW50
-      c2V0PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0gcG9z
-      PSIwIiB3aWR0aD0iMTkiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ5OSIgd2lkdGg9IjE5
-      IiAvPgogICAgICA8aHN0ZW0gcG9zPSI3NDAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDx2
-      c3RlbSBwb3M9IjUyIiB3aWR0aD0iMjAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
-      dHNldCBwb2ludFRhZz0iaHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9
-      IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0OTkiIHdpZHRoPSIxOSIgLz4KICAgICAg
-      PGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0ZW0gcG9zPSI1
-      MiIgd2lkdGg9IjIwIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>-91.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>339.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>360.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>188.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="02DB"/>
   <outline>
     <contour>
-      <point x="261" y="-207" type="curve" smooth="yes" name="hr00"/>
+      <point x="261" y="-207" type="curve" smooth="yes" name=""/>
       <point x="307" y="-207"/>
       <point x="337" y="-189"/>
       <point x="349" y="-168" type="curve"/>
@@ -28,27 +28,7 @@
       <point x="209" y="-207"/>
     </contour>
     <contour>
-      <point x="328" y="0" type="move" name="_bottomright"/>
+      <point x="328.0" y="0.0" type="move" name="_bottomright"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMDciIHdpZHRoPSI1NCIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-      MTY2IiB3aWR0aD0iNjQiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0)
-ResYDist(0,17)
-ResYAnchor(10)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

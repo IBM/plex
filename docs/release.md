@@ -8,6 +8,7 @@ To release a new version of plex, the following steps can be taken:
 1. Create a new release branch with the version to be released `release/v6.x.x`
 1. Ensure you're using the correct version of node by running `nvm use`
 1. Run `yarn` to install
+2. Run `yarn build` to build
 
 ## Gather new files
 

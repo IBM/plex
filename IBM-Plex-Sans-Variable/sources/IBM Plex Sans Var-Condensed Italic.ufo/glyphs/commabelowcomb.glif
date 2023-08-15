@@ -4,7 +4,7 @@
   <unicode hex="0326"/>
   <outline>
     <contour>
-      <point x="-8" y="-68" type="curve" smooth="yes" name="hr00"/>
+      <point x="-8" y="-68" type="curve" smooth="yes" name=""/>
       <point x="-44" y="-68"/>
       <point x="-57" y="-84"/>
       <point x="-63" y="-106" type="curve" smooth="yes"/>
@@ -28,33 +28,15 @@
       <point x="18" y="-68"/>
     </contour>
     <contour>
-      <point x="0" y="0" type="move" name="_bottom"/>
+      <point x="0.0" y="0.0" type="move" name="_bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xNjUiIHdpZHRoPSI5NyIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-      LTY4IiB3aWR0aD0iMTAxIiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+
-      Cg==
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0326</string>
+      <key>com.type-invaders.name.production</key>
+      <string>commabelowcomb</string>
     </dict>
   </lib>
 </glyph>

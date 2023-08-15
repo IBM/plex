@@ -4,7 +4,7 @@
   <unicode hex="00A9"/>
   <outline>
     <contour>
-      <point x="317" y="47" type="curve" smooth="yes" name="hr00"/>
+      <point x="317" y="47" type="curve" smooth="yes" name=""/>
       <point x="186" y="47"/>
       <point x="112" y="128"/>
       <point x="112" y="272" type="curve" smooth="yes"/>
@@ -79,33 +79,4 @@
       <point x="238" y="137"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjQ3IiB3aWR0aD0iLTU5IiAvPgogICAgICA8aHN0ZW0gcG9zPSIx
-      MzciIHdpZHRoPSI5MyIgLz4KICAgICAgPGhzdGVtIHBvcz0iNDY4IiB3aWR0aD0iOTMi
-      IC8+CiAgICAgIDxoc3RlbSBwb3M9IjcxMCIgd2lkdGg9Ii01OSIgLz4KICAgICAgPHZz
-      dGVtIHBvcz0iNTUiIHdpZHRoPSI3MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTg1IiB3
-      aWR0aD0iMTE1IiAvPgogICAgICA8dnN0ZW0gcG9zPSI1OTYiIHdpZHRoPSI3MiIgLz4K
-      ICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>598.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

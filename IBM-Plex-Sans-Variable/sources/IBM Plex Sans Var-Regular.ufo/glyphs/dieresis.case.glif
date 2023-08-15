@@ -3,7 +3,7 @@
   <advance width="600"/>
   <outline>
     <contour>
-      <point x="207" y="788" type="curve" smooth="yes" name="hr00"/>
+      <point x="207" y="788" type="curve" smooth="yes" name=""/>
       <point x="241" y="788"/>
       <point x="257" y="807"/>
       <point x="257" y="835" type="curve" smooth="yes"/>
@@ -35,29 +35,7 @@
       <point x="359" y="788"/>
     </contour>
     <contour>
-      <point x="300" y="698" type="move" name="_top"/>
+      <point x="300.0" y="698.0" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ijc4OCIgd2lkdGg9IjEwNiIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-      MTU3IiB3aWR0aD0iMTAwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNDMiIHdpZHRoPSIx
-      MDAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0)
-YShift(0,14)
-ResYDist(0,7)
-YShift(7,21)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

@@ -21,7 +21,7 @@
       <point x="196" y="497"/>
       <point x="169" y="432" type="curve"/>
       <point x="165" y="432" type="line"/>
-      <point x="165" y="516" type="line" name="hr01"/>
+      <point x="165" y="516" type="line" name=""/>
       <point x="85" y="516" type="line"/>
     </contour>
     <contour>
@@ -32,7 +32,7 @@
       <point x="165" y="357" type="line" smooth="yes"/>
       <point x="165" y="414"/>
       <point x="225" y="456"/>
-      <point x="298" y="456" type="curve" smooth="yes" name="hr02"/>
+      <point x="298" y="456" type="curve" smooth="yes" name=""/>
       <point x="388" y="456"/>
       <point x="444" y="394"/>
       <point x="444" y="302" type="curve" smooth="yes"/>
@@ -44,34 +44,4 @@
       <point x="308.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMDAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9
-      Ii0xMiIgd2lkdGg9IjcyIiAvPgogICAgICA8aHN0ZW0gcG9zPSI1MTYiIHdpZHRoPSIt
-      MjEiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijg1IiB3aWR0aD0iODAiIC8+CiAgICAgIDx2
-      c3RlbSBwb3M9IjQ0NCIgd2lkdGg9Ijg2IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhp
-      bnRzZXQgcG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0gcG9zPSItMjAwIiB3aWR0
-      aD0iLTIxIiAvPgogICAgICA8aHN0ZW0gcG9zPSItMTIiIHdpZHRoPSI3MiIgLz4KICAg
-      ICAgPGhzdGVtIHBvcz0iNDU2IiB3aWR0aD0iNzIiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-      Ijg1IiB3aWR0aD0iODAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQ0NCIgd2lkdGg9Ijg2
-      IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-      <key>com.type-invaders.vtt.talk</key>
-      <string>
-
-/* Y direction */
-ResYAnchor(0,14)
-ResYAnchor(1,6)
-ResYAnchor(7,7)
-ResYDist(7,28)
-ResYAnchor(15,11)
-ResYDist(15,21)
-/* X direction */
-Smooth()
-</string>
-    </dict>
-  </lib>
 </glyph>

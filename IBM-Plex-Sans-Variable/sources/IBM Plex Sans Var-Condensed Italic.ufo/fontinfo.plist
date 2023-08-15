@@ -15,7 +15,7 @@
 	<key>italicAngle</key>
 	<real>-11.31</real>
 	<key>macintoshFONDFamilyID</key>
-	<integer>1974</integer>
+	<integer>2003</integer>
 	<key>macintoshFONDName</key>
 	<string>IBMPlexSansVar CondensedItalic</string>
 	<key>openTypeHeadCreated</key>
@@ -29,8 +29,6 @@
 	<integer>-275</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
-	<key>openTypeNameCompatibleFullName</key>
-	<string></string>
 	<key>openTypeNameDesigner</key>
 	<string>Mike Abbink, Paul van der Laan, Pieter van Rosmalen</string>
 	<key>openTypeNameDesignerURL</key>
@@ -50,9 +48,9 @@
 	<key>openTypeNameSampleText</key>
 	<string>How razorback-jumping frogs can level six piqued gymnasts!</string>
 	<key>openTypeNameUniqueID</key>
-	<string>IBM;IBMPlexSansVar-CondensedItalic;1.000;2019</string>
+	<string>IBM;IBMPlexSansVar-CondensedItalic;1.001;2023</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.000 2019</string>
+	<string>Version 1.001</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -64,8 +62,8 @@
 	</array>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
-		<integer>0</integer>
-		<integer>0</integer>
+		<integer>8</integer>
+		<integer>1</integer>
 	</array>
 	<key>openTypeOS2Panose</key>
 	<array>
@@ -107,11 +105,11 @@
 	<array>
 	</array>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>780</integer>
+	<integer>1025</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-220</integer>
+	<integer>-275</integer>
 	<key>openTypeOS2TypoLineGap</key>
-	<integer>300</integer>
+	<integer>0</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
 		<integer>0</integer>
@@ -127,7 +125,6 @@
 		<integer>35</integer>
 		<integer>36</integer>
 		<integer>37</integer>
-		<integer>38</integer>
 		<integer>45</integer>
 		<integer>60</integer>
 		<integer>62</integer>
@@ -172,11 +169,11 @@
 	<array>
 	</array>
 	<key>postscriptFontName</key>
-	<string>IBMPlexSansVar-CondensedItalic</string>
+	<string>IBMPlexSansVar-CondItalic</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
-	<string>IBM Plex Sans Var Condensed Italic</string>
+	<string>IBM Plex Sans Var Cond Italic</string>
 	<key>postscriptIsFixedPitch</key>
 	<false/>
 	<key>postscriptOtherBlues</key>
@@ -187,7 +184,7 @@
 		<integer>329</integer>
 	</array>
 	<key>postscriptSlantAngle</key>
-	<integer>0</integer>
+	<real>0.0</real>
 	<key>postscriptStemSnapH</key>
 	<array>
 	</array>
@@ -205,22 +202,22 @@
 	<key>postscriptWindowsCharacterSet</key>
 	<integer>1</integer>
 	<key>styleMapFamilyName</key>
-	<string>IBM Plex Sans Var Condensed</string>
+	<string>IBM Plex Sans Var Cond</string>
 	<key>styleMapStyleName</key>
 	<string>italic</string>
 	<key>styleName</key>
 	<string>Condensed Italic</string>
 	<key>trademark</key>
-	<string>IBM Plex™ is a trademark of IBM Corp, registered in many jurisdictions worldwide.</string>
+	<string>IBM Plex® is a trademark of IBM Corp, registered in many jurisdictions worldwide.</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>xHeight</key>
 	<integer>516</integer>
 	<key>year</key>
-	<integer>2019</integer>
+	<integer>2023</integer>
 </dict>
 </plist>

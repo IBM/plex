@@ -4,7 +4,7 @@
   <unicode hex="0127"/>
   <outline>
     <contour>
-      <point x="152" y="0" type="line" name="hr00"/>
+      <point x="152" y="0" type="line" name=""/>
       <point x="152" y="352" type="line" smooth="yes"/>
       <point x="152" y="419"/>
       <point x="201" y="459"/>
@@ -34,18 +34,8 @@
       <point x="76" y="614" type="line"/>
       <point x="76" y="0" type="line"/>
     </contour>
+    <contour>
+      <point x="259.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSItMjEiIC8+CiAgICAgIDxoc3RlbSBwb3M9IjQ1
-      OSIgd2lkdGg9IjY5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI2MTQiIHdpZHRoPSI1NiIg
-      Lz4KICAgICAgPGhzdGVtIHBvcz0iNzQwIiB3aWR0aD0iLTIxIiAvPgogICAgICA8dnN0
-      ZW0gcG9zPSI3NiIgd2lkdGg9Ijc2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIzNjYiIHdp
-      ZHRoPSI3NiIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-    </dict>
-  </lib>
 </glyph>

@@ -4,9 +4,16 @@
   <unicode hex="0315"/>
   <outline>
     <component base="caronslovak" xOffset="-216"/>
+    <contour>
+      <point x="54.0" y="740.0" type="move" name="_topright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0315</string>
+      <key>com.type-invaders.name.production</key>
+      <string>caronslovakcomb</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

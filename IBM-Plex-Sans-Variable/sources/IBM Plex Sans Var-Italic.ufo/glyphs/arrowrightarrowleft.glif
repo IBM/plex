@@ -8,16 +8,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $arrowright$, 0, 154
-OFFSET[R], $arrowleft$, 0, -154
-CALL[], 27, 28, 88
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni21C4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>arrowrightarrowleft</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

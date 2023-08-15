@@ -3,7 +3,7 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="46" y="894" type="line" name="hr00"/>
+      <point x="46" y="894" type="line" name=""/>
       <point x="148" y="1028" type="line"/>
       <point x="108" y="1058" type="line"/>
       <point x="0" y="950" type="line"/>
@@ -44,19 +44,7 @@
       <point x="57" y="767"/>
     </contour>
     <contour>
-      <point x="0" y="698" type="move" name="_top"/>
+      <point x="0.0" y="698.0" type="move" name="_top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ijc2NyIgd2lkdGg9Ijk4IiAvPgogICAgICA8aHN0ZW0gcG9zPSI4
-      OTQiIHdpZHRoPSIxNjQiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ii0xNDAiIHdpZHRoPSIx
-      MDAiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjQwIiB3aWR0aD0iMTAwIiAvPgogICAgPC9o
-      aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
-      </data>
-    </dict>
-  </lib>
 </glyph>

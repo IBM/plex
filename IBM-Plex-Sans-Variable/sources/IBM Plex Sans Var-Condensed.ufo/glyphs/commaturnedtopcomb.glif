@@ -4,9 +4,16 @@
   <unicode hex="0312"/>
   <outline>
     <component base="commaturnedtop" xOffset="-270"/>
+    <contour>
+      <point x="0.0" y="540.0" type="move" name="_top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0312</string>
+      <key>com.type-invaders.name.production</key>
+      <string>commaturnedtopcomb</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

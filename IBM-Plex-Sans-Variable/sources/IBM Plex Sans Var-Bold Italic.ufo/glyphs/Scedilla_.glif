@@ -4,7 +4,7 @@
   <unicode hex="015E"/>
   <outline>
     <contour>
-      <point x="358" y="581" type="curve" smooth="yes" name="hr01"/>
+      <point x="358" y="581" type="curve" smooth="yes" name=""/>
       <point x="429" y="581"/>
       <point x="466" y="563"/>
       <point x="498" y="519" type="curve"/>
@@ -71,22 +71,8 @@
       <point x="241" y="547"/>
       <point x="286" y="581"/>
     </contour>
+    <contour>
+      <point x="355.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0yMTIiIHdpZHRoPSI3MCIgLz4KICAgICAgPGhzdGVtIHBvcz0i
-      LTExIiB3aWR0aD0iMTI4IiAvPgogICAgICA8aHN0ZW0gcG9zPSI1ODEiIHdpZHRoPSIx
-      MjkiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijk1IiB3aWR0aD0iMTQ2IiAvPgogICAgICA8
-      dnN0ZW0gcG9zPSIzODgiIHdpZHRoPSIxNTAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
-      aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yMTIiIHdp
-      ZHRoPSI3MCIgLz4KICAgICAgPGhzdGVtIHBvcz0iLTExIiB3aWR0aD0iMTI4IiAvPgog
-      ICAgICA8aHN0ZW0gcG9zPSI1ODEiIHdpZHRoPSIxMjkiIC8+CiAgICAgIDx2c3RlbSBw
-      b3M9Ijk1IiB3aWR0aD0iMTQ2IiAvPgogICAgICA8dnN0ZW0gcG9zPSIyNzIiIHdpZHRo
-      PSI5NSIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-      </data>
-    </dict>
-  </lib>
 </glyph>

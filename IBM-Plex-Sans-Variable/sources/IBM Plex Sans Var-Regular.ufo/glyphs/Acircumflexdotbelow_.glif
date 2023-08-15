@@ -6,29 +6,16 @@
     <component base="A"/>
     <component base="circumflex.case" xOffset="22"/>
     <component base="dotbelowcomb" xOffset="322"/>
+    <contour>
+      <point x="618.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $A$, 0, 0
-OFFSET[R], $circumflex.case$, 22, 0
-OFFSET[R], $dotbelowcomb$, 322, 0
-SVTCA[Y]
-CALL[], 17, 6, 1, 1, 63, 86
-SHC[2], 2
-CALL[], 28, 1, 1, 1, -66, 86
-SHC[2], 3
-SVTCA[X]
-CALL[], 20, 16, 5, 32, 0, 87
-SHC[2], 2
-CALL[], 24, 32, 5, 32, 0, 87
-SHC[2], 3
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EAC</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Acircumflexdotbelow</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

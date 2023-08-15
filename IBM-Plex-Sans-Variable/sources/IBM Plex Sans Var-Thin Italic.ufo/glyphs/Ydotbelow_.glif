@@ -5,9 +5,16 @@
   <outline>
     <component base="Y"/>
     <component base="dotbelowcomb" xOffset="219"/>
+    <contour>
+      <point x="359.0" y="698.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EF4</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Ydotbelow</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

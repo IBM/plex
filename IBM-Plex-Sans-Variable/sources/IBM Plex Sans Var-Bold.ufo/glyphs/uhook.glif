@@ -5,9 +5,19 @@
   <outline>
     <component base="u"/>
     <component base="hookcomb" xOffset="295"/>
+    <contour>
+      <point x="295.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="527.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EE7</string>
+      <key>com.type-invaders.name.production</key>
+      <string>uhook</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

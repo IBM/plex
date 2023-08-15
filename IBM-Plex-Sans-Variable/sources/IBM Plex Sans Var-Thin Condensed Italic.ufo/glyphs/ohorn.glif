@@ -25,7 +25,7 @@
       <point x="344" y="506" type="line"/>
       <point x="326" y="514"/>
       <point x="305" y="518"/>
-      <point x="281" y="518" type="curve" smooth="yes" name="hr01"/>
+      <point x="281" y="518" type="curve" smooth="yes" name=""/>
       <point x="163" y="518"/>
       <point x="91" y="419"/>
       <point x="64" y="287" type="curve" smooth="yes"/>
@@ -58,61 +58,10 @@
       <point x="311" y="7"/>
     </contour>
     <contour>
-      <point x="192" y="0" type="move" name="bottom"/>
+      <point x="192.0" y="0.0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="300" y="540" type="move" name="top"/>
+      <point x="300.0" y="540.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjE5IiAvPgogICAgICA8aHN0ZW0gcG9zPSI0
-      OTkiIHdpZHRoPSIxOSIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTIiIHdpZHRoPSIyMCIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNDEyIiB3aWR0aD0iMjAiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>617.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>351.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>331.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

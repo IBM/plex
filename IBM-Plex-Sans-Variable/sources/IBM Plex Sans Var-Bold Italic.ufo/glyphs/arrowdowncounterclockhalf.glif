@@ -18,7 +18,7 @@
       <point x="689" y="565"/>
       <point x="752" y="460"/>
       <point x="752" y="346" type="curve"/>
-      <point x="874" y="346" type="line" name="hr01"/>
+      <point x="874" y="346" type="line" name=""/>
       <point x="874" y="528"/>
       <point x="762" y="683"/>
       <point x="539" y="683" type="curve" smooth="yes"/>
@@ -35,13 +35,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMSI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjY4MyIgd2lkdGg9Ii0xMTQiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-      IjMyNiIgd2lkdGg9Ii0xMjIiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijg3NCIgd2lkdGg9
-      Ii0xMjIiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni21B6</string>
+      <key>com.type-invaders.name.production</key>
+      <string>arrowdowncounterclockhalf</string>
     </dict>
   </lib>
 </glyph>

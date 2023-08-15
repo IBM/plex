@@ -42,7 +42,7 @@
       <point x="513" y="608" type="curve"/>
       <point x="317" y="370" type="line"/>
       <point x="105" y="110" type="line"/>
-      <point x="103" y="110" type="line" name="hr00"/>
+      <point x="103" y="110" type="line" name=""/>
       <point x="89" y="143"/>
       <point x="82" y="184"/>
       <point x="82" y="230" type="curve" smooth="yes"/>
@@ -72,19 +72,10 @@
       <point x="386" y="8"/>
     </contour>
     <contour>
-      <point x="382" y="698" type="move" name="top"/>
+      <point x="243.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="382.0" y="698.0" type="move" name="top"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9Ii0xMiIgd2lkdGg9IjIwIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2
-      OTAiIHdpZHRoPSIyMCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNjAiIHdpZHRoPSIyMiIg
-      Lz4KICAgICAgPHZzdGVtIHBvcz0iNTQzIiB3aWR0aD0iMjIiIC8+CiAgICA8L2hpbnRz
-      ZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-    </dict>
-  </lib>
 </glyph>

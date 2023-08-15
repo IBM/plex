@@ -4,7 +4,7 @@
   <unicode hex="00B2"/>
   <outline>
     <contour>
-      <point x="308" y="401" type="line" name="hr00"/>
+      <point x="308" y="401" type="line" name=""/>
       <point x="161" y="401" type="line"/>
       <point x="228" y="446" type="line" smooth="yes"/>
       <point x="307" y="498"/>
@@ -34,30 +34,4 @@
       <point x="294" y="329" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjMyOSIgd2lkdGg9IjcyIiAvPgogICAgICA8aHN0ZW0gcG9zPSI2
-      MjciIHdpZHRoPSI3NyIgLz4KICAgICAgPHZzdGVtIHBvcz0iMjQ5IiB3aWR0aD0iOTQi
-      IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>78.69</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>124.0</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

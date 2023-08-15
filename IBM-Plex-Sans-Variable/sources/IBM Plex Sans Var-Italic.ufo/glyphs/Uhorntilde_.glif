@@ -4,27 +4,17 @@
   <unicode hex="1EEE"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="tilde.alt01.case" xOffset="115"/>
+    <component base="tilde.alt01.case" xOffset="118"/>
+    <contour>
+      <point x="278.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $Uhorn$, 0, 0
-OFFSET[R], $tilde.alt01.case$, 115, 0
-CALL[], 21, 22, 88
-SVTCA[Y]
-CALL[], 34, 15, 1, 0, -24, 86
-SHC[2], 1
-CALL[], 9
-CALL[], 44, 57, 30, 26, 16, 87
-SVTCA[X]
-SHC[2], 1
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EEE</string>
+      <key>com.type-invaders.name.production</key>
+      <string>Uhorntilde</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

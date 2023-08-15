@@ -5,9 +5,16 @@
   <outline>
     <component base="ohorn"/>
     <component base="dotbelowcomb" xOffset="281"/>
+    <contour>
+      <point x="281.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EE3</string>
+      <key>com.type-invaders.name.production</key>
+      <string>ohorndotbelow</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

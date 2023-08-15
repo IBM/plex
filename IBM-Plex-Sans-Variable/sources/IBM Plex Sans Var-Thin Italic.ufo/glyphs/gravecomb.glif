@@ -4,9 +4,16 @@
   <unicode hex="0300"/>
   <outline>
     <component base="grave" xOffset="-300"/>
+    <contour>
+      <point x="0.0" y="540.0" type="move" name="_top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0300</string>
+      <key>com.type-invaders.name.production</key>
+      <string>gravecomb</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

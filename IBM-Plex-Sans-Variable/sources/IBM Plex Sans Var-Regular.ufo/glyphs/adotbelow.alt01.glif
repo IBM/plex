@@ -4,18 +4,19 @@
   <outline>
     <component base="a.alt01"/>
     <component base="dotbelowcomb" xOffset="279"/>
+    <contour>
+      <point x="495.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="278.0" y="540.0" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.type-invaders.vtt.assembly</key>
-      <string>
-
-USEMYMETRICS[]
-OFFSET[R], $a.alt01$, 0, 0
-OFFSET[R], $dotbelowcomb$, 279, 0
-</string>
-      <key>com.type-invaders.vtt.talk</key>
-      <string></string>
+      <key>com.type-invaders.name.final</key>
+      <string>uni1EA1.alt01</string>
+      <key>com.type-invaders.name.production</key>
+      <string>adotbelow.alt01</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.6</real>

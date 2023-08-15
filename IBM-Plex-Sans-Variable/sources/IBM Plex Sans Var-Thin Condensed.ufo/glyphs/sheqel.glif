@@ -4,7 +4,7 @@
   <unicode hex="20AA"/>
   <outline>
     <contour>
-      <point x="255" y="0" type="line" name="hr00"/>
+      <point x="255" y="0" type="line" name=""/>
       <point x="464" y="0" type="line" smooth="yes"/>
       <point x="550" y="0"/>
       <point x="593" y="43"/>
@@ -38,15 +38,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIwMCI+CiAgICAg
-      IDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyMCIgLz4KICAgICAgPGhzdGVtIHBvcz0iNjc4
-      IiB3aWR0aD0iMjAiIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijk3IiB3aWR0aD0iMjIiIC8+
-      CiAgICAgIDx2c3RlbSBwb3M9IjI1NSIgd2lkdGg9IjIyIiAvPgogICAgICA8dnN0ZW0g
-      cG9zPSI0MTMiIHdpZHRoPSIyMiIgLz4KICAgICAgPHZzdGVtIHBvcz0iNTcxIiB3aWR0
-      aD0iMjIiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-      </data>
+      <key>com.type-invaders.name.final</key>
+      <string>uni20AA</string>
+      <key>com.type-invaders.name.production</key>
+      <string>sheqel</string>
     </dict>
   </lib>
 </glyph>

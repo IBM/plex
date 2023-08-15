@@ -5,6 +5,9 @@
   <outline>
     <component base="w"/>
     <component base="dieresis" xOffset="63"/>
+    <contour>
+      <point x="363.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
