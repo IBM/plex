@@ -320,3 +320,6 @@ For this reason, we've split `IBM Plex Sans KR` off into it's own style sheet. I
 ### Added
 
 - IBM Plex Sans Devanagari
+
+## BUGS
+some bugs still need fixing please focus in it.
