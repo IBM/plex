@@ -6,7 +6,7 @@
   </a>
 </p>
 
-Meet the IBM Plex® typeface, our new corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.
+Meet the IBM Plex® typeface, our corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.
 
 We designed the IBM Plex typeface carefully to both meet our needs as a global tech company and express who we are as IBMers. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Discover more about our development of the [IBM Plex typeface](https://www.ibm.com/plex/).
 
