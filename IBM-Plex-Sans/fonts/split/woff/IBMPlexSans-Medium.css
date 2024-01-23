@@ -4,7 +4,7 @@
 	font-style: normal;
 	font-weight: 500;
 	src: local("IBM Plex Sans Medm"), local("IBMPlexSans-Medm"), url("IBMPlexSans-Medium-Cyrillic.woff") format("woff");
-	unicode-range: U+0400-045F, U+0462-0463, U+0472-0475, U+0490-04C2, U+04CF-04D9, U+04DC-04E9, U+04EE-04F9, U+0524-0525
+	unicode-range: U+0400-045F, U+0462-0463, U+046A-046B, U+0472-0475, U+0490-04C2, U+04CF-04D9, U+04DC-04E9, U+04EE-04F9, U+0524-0525
 }
 /* Subset: Greek */
 @font-face {
