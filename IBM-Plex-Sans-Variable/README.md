@@ -3,8 +3,9 @@
 ## Using pre-compiled ttf fonts
 
 Pre-compiled binaries are supplied in the `fonts` folder.
- 
+
 The pre-compiled ttf fonts contain several enhancements that are not included when compiling source files yourself:
+
 - Variable TrueType hint instructions for better rendering on Windows;
 - Alternate forms for glyphs `naira`, `won` and `fraction` that are automatically shown when using particular widths;
 - A `stat` table containing names of all instances that is used to show these instances in font menus;
@@ -12,7 +13,7 @@ The pre-compiled ttf fonts contain several enhancements that are not included wh
 
 ## Building fonts from source
 
-UFO source files are supplied in the `sources` folder.
+UFO source files are supplied in the `sources` folder. You can find these in the source files provided on Box by BoldMonday, or in the GitHub release as release artifacts within the family .zip files.
 
 ### Requirements
 
