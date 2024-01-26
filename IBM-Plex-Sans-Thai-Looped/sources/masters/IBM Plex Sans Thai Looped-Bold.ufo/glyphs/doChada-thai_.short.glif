@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doChada-thai.short" format="1">
+  <advance width="713"/>
+  <outline>
+    <contour>
+      <point x="235" y="-251" type="curve" smooth="yes"/>
+      <point x="299" y="-251"/>
+      <point x="327" y="-229"/>
+      <point x="360" y="-179" type="curve" smooth="yes"/>
+      <point x="369" y="-165" type="line"/>
+      <point x="496" y="-245" type="line"/>
+      <point x="566" y="-245" type="line" smooth="yes"/>
+      <point x="604" y="-245"/>
+      <point x="633" y="-219"/>
+      <point x="633" y="-184" type="curve" smooth="yes"/>
+      <point x="633" y="332" type="line" smooth="yes"/>
+      <point x="633" y="472"/>
+      <point x="530" y="566"/>
+      <point x="360" y="566" type="curve" smooth="yes"/>
+      <point x="197" y="566"/>
+      <point x="83" y="473"/>
+      <point x="71" y="327" type="curve"/>
+      <point x="159" y="291" type="line"/>
+      <point x="159" y="227" type="line"/>
+      <point x="91" y="221"/>
+      <point x="43" y="176"/>
+      <point x="43" y="108" type="curve" smooth="yes"/>
+      <point x="43" y="34"/>
+      <point x="99" y="-12"/>
+      <point x="175" y="-12" type="curve" smooth="yes"/>
+      <point x="251" y="-12"/>
+      <point x="307" y="36"/>
+      <point x="307" y="114" type="curve" smooth="yes"/>
+      <point x="307" y="280" type="line" smooth="yes"/>
+      <point x="307" y="336"/>
+      <point x="286" y="350"/>
+      <point x="245" y="366" type="curve" smooth="yes"/>
+      <point x="208" y="380" type="line"/>
+      <point x="229" y="424"/>
+      <point x="281" y="460"/>
+      <point x="350" y="460" type="curve" smooth="yes"/>
+      <point x="441" y="460"/>
+      <point x="485" y="403"/>
+      <point x="485" y="313" type="curve" smooth="yes"/>
+      <point x="485" y="-43" type="line"/>
+      <point x="489" y="-153" type="line"/>
+      <point x="485" y="-153" type="line"/>
+      <point x="407" y="-107" type="line"/>
+      <point x="452" y="-39" type="line"/>
+      <point x="355" y="-39" type="line"/>
+      <point x="338" y="-67" type="line"/>
+      <point x="300" y="-44"/>
+      <point x="279" y="-31"/>
+      <point x="235" y="-31" type="curve" smooth="yes"/>
+      <point x="174" y="-31"/>
+      <point x="130" y="-76"/>
+      <point x="130" y="-141" type="curve" smooth="yes" name="hr01"/>
+      <point x="130" y="-206"/>
+      <point x="174" y="-251"/>
+    </contour>
+    <contour>
+      <point x="171" y="59" type="curve" smooth="yes"/>
+      <point x="144" y="59"/>
+      <point x="125" y="78"/>
+      <point x="125" y="108" type="curve" smooth="yes"/>
+      <point x="125" y="138"/>
+      <point x="144" y="157"/>
+      <point x="171" y="157" type="curve" smooth="yes"/>
+      <point x="198" y="157"/>
+      <point x="217" y="138"/>
+      <point x="217" y="108" type="curve" smooth="yes"/>
+      <point x="217" y="78"/>
+      <point x="198" y="59"/>
+    </contour>
+    <contour>
+      <point x="242" y="-182" type="curve" smooth="yes"/>
+      <point x="225" y="-182"/>
+      <point x="214" y="-172"/>
+      <point x="214" y="-151" type="curve" smooth="yes"/>
+      <point x="214" y="-131" type="line" smooth="yes"/>
+      <point x="214" y="-110"/>
+      <point x="225" y="-100"/>
+      <point x="242" y="-100" type="curve" smooth="yes"/>
+      <point x="259" y="-100"/>
+      <point x="267" y="-103"/>
+      <point x="303" y="-125" type="curve"/>
+      <point x="296" y="-138" type="line" smooth="yes"/>
+      <point x="276" y="-172"/>
+      <point x="268" y="-182"/>
+    </contour>
+    <contour>
+      <point x="633.0" y="-177.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="355.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="633.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E0E.short</string>
+      <key>com.type-invaders.name.production</key>
+      <string>doChada-thai.short</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehDotbelowThreedotsabove-ar" format="1">
+  <advance width="901"/>
+  <unicode hex="08A4"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="dotbelow-ar" xOffset="353" yOffset="-582"/>
+    <component base="threedotsupabove-ar" xOffset="543" yOffset="303"/>
+    <contour>
+      <point x="418.0" y="-213.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="672.0" y="887.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <real>1.0</real>
+        <real>0.6</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

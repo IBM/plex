@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvN_JxA" format="1">
+  <advance width="1141"/>
+  <outline>
+    <component base="dvN_JA"/>
+    <component base="dvNukta" xOffset="487" yOffset="-50"/>
+    <contour>
+      <point x="997.0" y="0.0" type="move" name="bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="813.0" y="696.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="997.0" y="696.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

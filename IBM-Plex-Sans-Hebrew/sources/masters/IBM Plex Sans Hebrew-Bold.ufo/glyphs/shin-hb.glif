@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shin-hb" format="1">
+  <advance width="802"/>
+  <unicode hex="05E9"/>
+  <outline>
+    <contour>
+      <point x="401" y="-12" type="curve" smooth="yes" name="hr00"/>
+      <point x="644" y="-12"/>
+      <point x="744" y="112"/>
+      <point x="744" y="362" type="curve" smooth="yes"/>
+      <point x="744" y="610" type="line"/>
+      <point x="596" y="610" type="line"/>
+      <point x="596" y="346" type="line" smooth="yes"/>
+      <point x="596" y="183"/>
+      <point x="534" y="123"/>
+      <point x="401" y="123" type="curve" smooth="yes"/>
+      <point x="304" y="123"/>
+      <point x="244" y="155"/>
+      <point x="220" y="236" type="curve"/>
+      <point x="328" y="236" type="line" smooth="yes"/>
+      <point x="429" y="236"/>
+      <point x="475" y="287"/>
+      <point x="475" y="380" type="curve" smooth="yes"/>
+      <point x="475" y="610" type="line"/>
+      <point x="327" y="610" type="line"/>
+      <point x="327" y="357" type="line"/>
+      <point x="206" y="357" type="line"/>
+      <point x="206" y="610" type="line"/>
+      <point x="58" y="610" type="line"/>
+      <point x="58" y="362" type="line" smooth="yes"/>
+      <point x="58" y="112"/>
+      <point x="158" y="-12"/>
+    </contour>
+    <contour>
+      <point x="400.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="496.0" y="227.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="135.0" y="525.0" type="move" name="top_hebr"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="525.0" type="move" name="topleft_hebr"/>
+    </contour>
+    <contour>
+      <point x="667.0" y="525.0" type="move" name="topright_hebr"/>
+    </contour>
+  </outline>
+</glyph>

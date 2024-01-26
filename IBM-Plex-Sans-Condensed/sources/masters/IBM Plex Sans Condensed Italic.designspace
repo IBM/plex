@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="-925" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="IBM Plex Sans Condensed" filename="IBM Plex Sans Condensed-Thin Italic.ufo" stylename="Thin Italic">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="-925" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Condensed" filename="IBM Plex Sans Condensed-Italic.ufo" stylename="Italic">
+            <groups copy="1" />
+            <features copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Condensed" filename="IBM Plex Sans Condensed-Bold Italic.ufo" stylename="Bold Italic">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="IBM Plex Sans Condensed" filename="instances/IBMPlexSansCondensed-Extralight Italic.ufo" postscriptfontname="IBMPlexSansCondensed-ExtralightItalic" stylemapfamilyname="IBM Plex Sans Condensed Extralight" stylemapstylename="italic" stylename="Extralight Italic">
+            <location>
+                <dimension name="weight" xvalue="-705.780000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Condensed" filename="instances/IBMPlexSansCondensed-Light Italic.ufo" postscriptfontname="IBMPlexSansCondensed-LightItalic" stylemapfamilyname="IBM Plex Sans Condensed Light" stylemapstylename="italic" stylename="Light Italic">
+            <location>
+                <dimension name="weight" xvalue="-360.750000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Condensed" filename="instances/IBMPlexSansCondensed-Text Italic.ufo" postscriptfontname="IBMPlexSansCondensed-TextItalic" stylemapfamilyname="IBM Plex Sans Condensed Text" stylemapstylename="italic" stylename="Text Italic">
+            <location>
+                <dimension name="weight" xvalue="191" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Condensed" filename="instances/IBMPlexSansCondensed-Medium Italic.ufo" postscriptfontname="IBMPlexSansCondensed-MediumItalic" stylemapfamilyname="IBM Plex Sans Condensed Medium" stylemapstylename="italic" stylename="Medium Italic">
+            <location>
+                <dimension name="weight" xvalue="427" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Condensed" filename="instances/IBMPlexSansCondensed-SemiBold Italic.ufo" postscriptfontname="IBMPlexSansCondensed-SemiBoldItalic" stylemapfamilyname="IBM Plex Sans Condensed SemiBold" stylemapstylename="italic" stylename="SemiBold Italic">
+            <location>
+                <dimension name="weight" xvalue="705" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

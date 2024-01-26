@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thanthakhat-thai.narrow" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-379" y="640" type="line" name="hr00"/>
+      <point x="-256" y="640" type="line"/>
+      <point x="-256" y="718" type="line"/>
+      <point x="-65" y="718" type="line"/>
+      <point x="-65" y="836" type="line"/>
+      <point x="-252" y="836" type="line" smooth="yes"/>
+      <point x="-333" y="836"/>
+      <point x="-379" y="796"/>
+      <point x="-379" y="722" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="600.0" type="move" name="_topright"/>
+    </contour>
+  </outline>
+</glyph>

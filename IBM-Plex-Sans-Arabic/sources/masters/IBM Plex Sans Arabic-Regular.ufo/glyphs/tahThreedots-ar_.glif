@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tahThreedots-ar" format="1">
+  <advance width="780"/>
+  <unicode hex="069F"/>
+  <outline>
+    <component base="tah-ar"/>
+    <component base="threedotsupabove-ar" xOffset="372" yOffset="161"/>
+    <contour>
+      <point x="390.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="501.0" y="745.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="187.0" y="134.0" type="move" name="verticalbar"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

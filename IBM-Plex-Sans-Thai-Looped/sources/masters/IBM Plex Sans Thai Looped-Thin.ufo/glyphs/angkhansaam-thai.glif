@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="angkhansaam-thai" format="1">
+  <advance width="897"/>
+  <unicode hex="EC01"/>
+  <outline>
+    <contour>
+      <point x="568" y="0" type="line"/>
+      <point x="589" y="0" type="line"/>
+      <point x="589" y="301" type="line"/>
+      <point x="696" y="303"/>
+      <point x="730" y="340"/>
+      <point x="755" y="383" type="curve"/>
+      <point x="758" y="383" type="line"/>
+      <point x="758" y="0" type="line"/>
+      <point x="779" y="0" type="line"/>
+      <point x="779" y="536" type="line"/>
+      <point x="758" y="536" type="line"/>
+      <point x="758" y="453" type="line" smooth="yes"/>
+      <point x="758" y="362"/>
+      <point x="683" y="319"/>
+      <point x="596" y="319" type="curve" smooth="yes"/>
+      <point x="589" y="319" type="line"/>
+      <point x="589" y="536" type="line"/>
+      <point x="568" y="536" type="line"/>
+      <point x="568" y="453" type="line" smooth="yes"/>
+      <point x="568" y="362"/>
+      <point x="493" y="319"/>
+      <point x="406" y="319" type="curve" smooth="yes"/>
+      <point x="399" y="319" type="line"/>
+      <point x="399" y="536" type="line"/>
+      <point x="378" y="536" type="line"/>
+      <point x="378" y="453" type="line" smooth="yes"/>
+      <point x="378" y="362"/>
+      <point x="303" y="319"/>
+      <point x="216" y="319" type="curve" smooth="yes"/>
+      <point x="183" y="319" type="line" smooth="yes"/>
+      <point x="119" y="319"/>
+      <point x="57" y="356"/>
+      <point x="45" y="427" type="curve"/>
+      <point x="47" y="428" type="line"/>
+      <point x="58" y="410"/>
+      <point x="77" y="400"/>
+      <point x="103" y="400" type="curve" smooth="yes"/>
+      <point x="146" y="400"/>
+      <point x="178" y="429"/>
+      <point x="178" y="474" type="curve" smooth="yes"/>
+      <point x="178" y="519"/>
+      <point x="146" y="548"/>
+      <point x="103" y="548" type="curve" smooth="yes" name="hr01"/>
+      <point x="60" y="548"/>
+      <point x="28" y="519"/>
+      <point x="28" y="474" type="curve" smooth="yes"/>
+      <point x="28" y="453" type="line" smooth="yes"/>
+      <point x="28" y="348"/>
+      <point x="101" y="301"/>
+      <point x="199" y="301" type="curve" smooth="yes"/>
+      <point x="314" y="301"/>
+      <point x="349" y="339"/>
+      <point x="375" y="383" type="curve"/>
+      <point x="378" y="383" type="line"/>
+      <point x="378" y="0" type="line"/>
+      <point x="399" y="0" type="line"/>
+      <point x="399" y="301" type="line"/>
+      <point x="506" y="303"/>
+      <point x="540" y="340"/>
+      <point x="565" y="383" type="curve"/>
+      <point x="568" y="383" type="line"/>
+    </contour>
+    <contour>
+      <point x="103" y="415" type="curve" smooth="yes"/>
+      <point x="66" y="415"/>
+      <point x="46" y="440"/>
+      <point x="46" y="474" type="curve" smooth="yes"/>
+      <point x="46" y="508"/>
+      <point x="66" y="533"/>
+      <point x="103" y="533" type="curve" smooth="yes"/>
+      <point x="140" y="533"/>
+      <point x="160" y="508"/>
+      <point x="160" y="474" type="curve" smooth="yes"/>
+      <point x="160" y="440"/>
+      <point x="140" y="415"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniEC01</string>
+      <key>com.type-invaders.name.production</key>
+      <string>angkhansaam-thai</string>
+    </dict>
+  </lib>
+</glyph>

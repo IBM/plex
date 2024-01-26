@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="toTao-thai" format="1">
+  <advance width="696"/>
+  <unicode hex="0E15"/>
+  <outline>
+    <contour>
+      <point x="113" y="0" type="line" name="hr00"/>
+      <point x="232" y="0" type="line"/>
+      <point x="358" y="144" type="line" smooth="yes"/>
+      <point x="405" y="198"/>
+      <point x="423" y="220"/>
+      <point x="423" y="258" type="curve" smooth="yes"/>
+      <point x="423" y="302"/>
+      <point x="392" y="333"/>
+      <point x="348" y="333" type="curve" smooth="yes"/>
+      <point x="304" y="333"/>
+      <point x="273" y="302"/>
+      <point x="273" y="258" type="curve" smooth="yes"/>
+      <point x="273" y="214"/>
+      <point x="304" y="183"/>
+      <point x="348" y="183" type="curve" smooth="yes"/>
+      <point x="361" y="183"/>
+      <point x="370" y="185"/>
+      <point x="378" y="190" type="curve"/>
+      <point x="337" y="147" type="line"/>
+      <point x="222" y="17" type="line"/>
+      <point x="134" y="17" type="line"/>
+      <point x="134" y="419" type="line" smooth="yes"/>
+      <point x="134" y="491"/>
+      <point x="169" y="528"/>
+      <point x="234" y="528" type="curve"/>
+      <point x="348" y="423" type="line"/>
+      <point x="462" y="528" type="line"/>
+      <point x="527" y="528"/>
+      <point x="562" y="491"/>
+      <point x="562" y="419" type="curve" smooth="yes"/>
+      <point x="562" y="0" type="line"/>
+      <point x="583" y="0" type="line"/>
+      <point x="583" y="421" type="line" smooth="yes"/>
+      <point x="583" y="502"/>
+      <point x="536" y="548"/>
+      <point x="458" y="548" type="curve"/>
+      <point x="348" y="447" type="line"/>
+      <point x="238" y="548" type="line"/>
+      <point x="160" y="548"/>
+      <point x="113" y="502"/>
+      <point x="113" y="421" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="348" y="198" type="curve" smooth="yes"/>
+      <point x="310" y="198"/>
+      <point x="292" y="223"/>
+      <point x="292" y="258" type="curve" smooth="yes"/>
+      <point x="292" y="293"/>
+      <point x="310" y="318"/>
+      <point x="348" y="318" type="curve" smooth="yes"/>
+      <point x="386" y="318"/>
+      <point x="404" y="293"/>
+      <point x="404" y="258" type="curve" smooth="yes"/>
+      <point x="404" y="223"/>
+      <point x="386" y="198"/>
+    </contour>
+    <contour>
+      <point x="583.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="348.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="583.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E15</string>
+      <key>com.type-invaders.name.production</key>
+      <string>toTao-thai</string>
+    </dict>
+  </lib>
+</glyph>

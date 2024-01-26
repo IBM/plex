@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kafdagesh-hb" format="1">
+  <advance width="531"/>
+  <unicode hex="FB3B"/>
+  <outline>
+    <component base="kaf-hb"/>
+    <component base="dagesh-hb" xOffset="212"/>
+    <contour>
+      <point x="239.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="216.0" y="516.0" type="move" name="top_hebr"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="516.0" type="move" name="topleft_hebr"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

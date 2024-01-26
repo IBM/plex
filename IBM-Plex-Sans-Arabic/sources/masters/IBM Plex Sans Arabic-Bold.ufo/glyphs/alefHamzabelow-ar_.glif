@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefHamzabelow-ar" format="1">
+  <advance width="240"/>
+  <unicode hex="0625"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="hamzabelow-ar" xOffset="3" yOffset="-630"/>
+    <contour>
+      <point x="134.0" y="-227.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="344.0" y="489.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="120.0" y="740.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

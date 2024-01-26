@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kafrafe-hb" format="1">
+  <advance width="529"/>
+  <unicode hex="FB4D"/>
+  <outline>
+    <component base="kaf-hb"/>
+    <component base="rafe-hb" xOffset="191"/>
+    <contour>
+      <point x="197.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="231.0" y="297.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="506.0" type="move" name="topleft_hebr"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

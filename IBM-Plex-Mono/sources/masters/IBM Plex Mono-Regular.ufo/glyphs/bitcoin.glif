@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bitcoin" format="1">
+  <advance width="600"/>
+  <unicode hex="20BF"/>
+  <outline>
+    <contour>
+      <point x="319" y="-113" type="line"/>
+      <point x="381" y="-113" type="line"/>
+      <point x="381" y="2" type="line"/>
+      <point x="476" y="15"/>
+      <point x="543" y="97"/>
+      <point x="543" y="201" type="curve" smooth="yes"/>
+      <point x="543" y="296"/>
+      <point x="489" y="346"/>
+      <point x="408" y="365" type="curve"/>
+      <point x="408" y="368" type="line"/>
+      <point x="474" y="390"/>
+      <point x="517" y="436"/>
+      <point x="517" y="518" type="curve" smooth="yes" name="hr01"/>
+      <point x="517" y="609"/>
+      <point x="466" y="673"/>
+      <point x="381" y="692" type="curve"/>
+      <point x="381" y="811" type="line"/>
+      <point x="319" y="811" type="line"/>
+      <point x="319" y="698" type="line"/>
+      <point x="250" y="698" type="line"/>
+      <point x="250" y="811" type="line"/>
+      <point x="188" y="811" type="line"/>
+      <point x="188" y="698" type="line"/>
+      <point x="88" y="698" type="line"/>
+      <point x="88" y="0" type="line"/>
+      <point x="188" y="0" type="line"/>
+      <point x="188" y="-113" type="line"/>
+      <point x="250" y="-113" type="line"/>
+      <point x="250" y="0" type="line"/>
+      <point x="319" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="172" y="626" type="line"/>
+      <point x="317" y="626" type="line" smooth="yes"/>
+      <point x="387" y="626"/>
+      <point x="429" y="593"/>
+      <point x="429" y="529" type="curve" smooth="yes"/>
+      <point x="429" y="490" type="line" smooth="yes"/>
+      <point x="429" y="426"/>
+      <point x="387" y="395"/>
+      <point x="317" y="395" type="curve" smooth="yes"/>
+      <point x="172" y="395" type="line"/>
+    </contour>
+    <contour>
+      <point x="172" y="326" type="line"/>
+      <point x="331" y="326" type="line" smooth="yes"/>
+      <point x="408" y="326"/>
+      <point x="454" y="290"/>
+      <point x="454" y="220" type="curve" smooth="yes" name="hr02"/>
+      <point x="454" y="179" type="line" smooth="yes"/>
+      <point x="454" y="108"/>
+      <point x="408" y="72"/>
+      <point x="331" y="72" type="curve" smooth="yes"/>
+      <point x="172" y="72" type="line"/>
+    </contour>
+  </outline>
+</glyph>

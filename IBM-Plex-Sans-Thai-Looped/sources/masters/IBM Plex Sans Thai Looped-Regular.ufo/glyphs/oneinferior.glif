@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oneinferior" format="1">
+  <advance width="359"/>
+  <unicode hex="2081"/>
+  <outline>
+    <contour>
+      <point x="325" y="0" type="line" name="hr00"/>
+      <point x="325" y="50" type="line"/>
+      <point x="227" y="50" type="line"/>
+      <point x="227" y="369" type="line"/>
+      <point x="134" y="369" type="line"/>
+      <point x="32" y="266" type="line"/>
+      <point x="68" y="229" type="line"/>
+      <point x="158" y="318" type="line"/>
+      <point x="164" y="318" type="line"/>
+      <point x="164" y="50" type="line"/>
+      <point x="55" y="50" type="line"/>
+      <point x="55" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni2081</string>
+      <key>com.type-invaders.name.production</key>
+      <string>oneinferior</string>
+    </dict>
+  </lib>
+</glyph>

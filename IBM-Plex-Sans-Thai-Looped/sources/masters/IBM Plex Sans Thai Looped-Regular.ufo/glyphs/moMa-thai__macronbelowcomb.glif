@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="moMa-thai_macronbelowcomb" format="1">
+  <advance width="667"/>
+  <outline>
+    <contour>
+      <point x="163" y="-12" type="curve" smooth="yes"/>
+      <point x="226" y="-12"/>
+      <point x="269" y="27"/>
+      <point x="269" y="87" type="curve" smooth="yes"/>
+      <point x="269" y="91"/>
+      <point x="269" y="95"/>
+      <point x="268" y="99" type="curve"/>
+      <point x="488" y="0" type="line" name="hr01"/>
+      <point x="563" y="0" type="line"/>
+      <point x="563" y="546" type="line"/>
+      <point x="483" y="546" type="line"/>
+      <point x="483" y="64" type="line"/>
+      <point x="479" y="64" type="line"/>
+      <point x="268" y="160" type="line"/>
+      <point x="268" y="461" type="line" smooth="yes"/>
+      <point x="268" y="520"/>
+      <point x="225" y="558"/>
+      <point x="162" y="558" type="curve" smooth="yes" name="hr02"/>
+      <point x="99" y="558"/>
+      <point x="56" y="520"/>
+      <point x="56" y="461" type="curve" smooth="yes"/>
+      <point x="56" y="402"/>
+      <point x="99" y="364"/>
+      <point x="162" y="364" type="curve" smooth="yes"/>
+      <point x="171" y="364"/>
+      <point x="179" y="364"/>
+      <point x="188" y="366" type="curve"/>
+      <point x="188" y="221" type="line" smooth="yes"/>
+      <point x="188" y="206"/>
+      <point x="189" y="193"/>
+      <point x="192" y="183" type="curve"/>
+      <point x="183" y="185"/>
+      <point x="173" y="186"/>
+      <point x="163" y="186" type="curve" smooth="yes"/>
+      <point x="100" y="186"/>
+      <point x="57" y="147"/>
+      <point x="57" y="87" type="curve" smooth="yes"/>
+      <point x="57" y="27"/>
+      <point x="100" y="-12"/>
+    </contour>
+    <contour>
+      <point x="563" y="-113" type="line"/>
+      <point x="88" y="-113" type="line"/>
+      <point x="88" y="-173" type="line"/>
+      <point x="563" y="-173" type="line"/>
+    </contour>
+    <contour>
+      <point x="163" y="32" type="curve" smooth="yes"/>
+      <point x="130" y="32"/>
+      <point x="111" y="51"/>
+      <point x="111" y="79" type="curve" smooth="yes"/>
+      <point x="111" y="95" type="line" smooth="yes"/>
+      <point x="111" y="123"/>
+      <point x="130" y="142"/>
+      <point x="163" y="142" type="curve" smooth="yes"/>
+      <point x="196" y="142"/>
+      <point x="215" y="123"/>
+      <point x="215" y="95" type="curve" smooth="yes"/>
+      <point x="215" y="79" type="line" smooth="yes"/>
+      <point x="215" y="51"/>
+      <point x="196" y="32"/>
+    </contour>
+    <contour>
+      <point x="159" y="408" type="curve" smooth="yes"/>
+      <point x="129" y="408"/>
+      <point x="110" y="429"/>
+      <point x="110" y="461" type="curve" smooth="yes"/>
+      <point x="110" y="493"/>
+      <point x="129" y="514"/>
+      <point x="159" y="514" type="curve" smooth="yes"/>
+      <point x="189" y="514"/>
+      <point x="208" y="493"/>
+      <point x="208" y="461" type="curve" smooth="yes"/>
+      <point x="208" y="429"/>
+      <point x="189" y="408"/>
+    </contour>
+    <contour>
+      <point x="563.0" y="-140.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="337.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="563.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E210331</string>
+      <key>com.type-invaders.name.production</key>
+      <string>moMa-thai_macronbelowcomb</string>
+    </dict>
+  </lib>
+</glyph>

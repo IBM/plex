@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehTwodotsbelowDotabove-ar" format="1">
+  <advance width="716"/>
+  <unicode hex="08A9"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="dotabove-ar" xOffset="43" yOffset="-87"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="231" yOffset="-857"/>
+    <contour>
+      <point x="357.0" y="-441.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="515.0" y="460.0" type="move" name="high"/>
+    </contour>
+    <contour>
+      <point x="357.0" y="-240.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="106.0" y="373.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

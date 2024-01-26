@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thoThong-thai" format="1">
+  <advance width="618"/>
+  <unicode hex="0E18"/>
+  <outline>
+    <contour>
+      <point x="320" y="-12" type="curve" smooth="yes"/>
+      <point x="523" y="-12"/>
+      <point x="563" y="74"/>
+      <point x="563" y="169" type="curve" smooth="yes"/>
+      <point x="563" y="207" type="line" smooth="yes"/>
+      <point x="563" y="340"/>
+      <point x="469" y="367"/>
+      <point x="344" y="377" type="curve" smooth="yes"/>
+      <point x="196" y="389" type="line"/>
+      <point x="196" y="428"/>
+      <point x="244" y="453"/>
+      <point x="323" y="453" type="curve" smooth="yes"/>
+      <point x="404" y="453"/>
+      <point x="470" y="427"/>
+      <point x="505" y="394" type="curve"/>
+      <point x="575" y="489" type="line"/>
+      <point x="520" y="535"/>
+      <point x="443" y="566"/>
+      <point x="333" y="566" type="curve" smooth="yes"/>
+      <point x="161" y="566"/>
+      <point x="65" y="495"/>
+      <point x="65" y="372" type="curve" smooth="yes"/>
+      <point x="65" y="292" type="line"/>
+      <point x="325" y="271" type="line" smooth="yes"/>
+      <point x="400" y="265"/>
+      <point x="415" y="240"/>
+      <point x="415" y="196" type="curve" smooth="yes"/>
+      <point x="415" y="158" type="line" smooth="yes"/>
+      <point x="415" y="120"/>
+      <point x="404" y="93"/>
+      <point x="350" y="93" type="curve" smooth="yes"/>
+      <point x="290" y="93" type="line" smooth="yes"/>
+      <point x="236" y="93"/>
+      <point x="225" y="120"/>
+      <point x="225" y="158" type="curve" smooth="yes" name="hr01"/>
+      <point x="225" y="228" type="line"/>
+      <point x="77" y="228" type="line"/>
+      <point x="77" y="169" type="line" smooth="yes"/>
+      <point x="77" y="74"/>
+      <point x="117" y="-12"/>
+    </contour>
+    <contour>
+      <point x="574.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="324.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="574.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E18</string>
+      <key>com.type-invaders.name.production</key>
+      <string>thoThong-thai</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reversedKhomut-thai" format="1">
+  <advance width="1501"/>
+  <unicode hex="EC00"/>
+  <outline>
+    <contour>
+      <point x="1144" y="-12" type="curve" smooth="yes"/>
+      <point x="1331" y="-12"/>
+      <point x="1451" y="96"/>
+      <point x="1451" y="277" type="curve" smooth="yes"/>
+      <point x="1451" y="458"/>
+      <point x="1338" y="566"/>
+      <point x="1168" y="566" type="curve" smooth="yes"/>
+      <point x="1062" y="566"/>
+      <point x="952" y="507"/>
+      <point x="952" y="385" type="curve" smooth="yes"/>
+      <point x="952" y="300"/>
+      <point x="1001" y="252"/>
+      <point x="1074" y="252" type="curve" smooth="yes"/>
+      <point x="1138" y="252"/>
+      <point x="1183" y="294"/>
+      <point x="1183" y="349" type="curve" smooth="yes"/>
+      <point x="1183" y="402"/>
+      <point x="1142" y="442"/>
+      <point x="1086" y="443" type="curve"/>
+      <point x="1085" y="449" type="line"/>
+      <point x="1107" y="456"/>
+      <point x="1134" y="460"/>
+      <point x="1167" y="460" type="curve" smooth="yes"/>
+      <point x="1250" y="460"/>
+      <point x="1297" y="403"/>
+      <point x="1297" y="316" type="curve" smooth="yes"/>
+      <point x="1297" y="237" type="line" smooth="yes"/>
+      <point x="1297" y="147"/>
+      <point x="1230" y="93"/>
+      <point x="1139" y="93" type="curve" smooth="yes"/>
+      <point x="1004" y="93"/>
+      <point x="909" y="166"/>
+      <point x="884" y="502" type="curve"/>
+      <point x="740" y="502" type="line"/>
+      <point x="663" y="258" type="line"/>
+      <point x="660" y="258" type="line"/>
+      <point x="597" y="459" type="line"/>
+      <point x="485" y="459" type="line"/>
+      <point x="432" y="290" type="line"/>
+      <point x="429" y="290" type="line"/>
+      <point x="385" y="430" type="line"/>
+      <point x="273" y="430" type="line"/>
+      <point x="265" y="350"/>
+      <point x="234" y="281"/>
+      <point x="135" y="281" type="curve" smooth="yes" name="hr01"/>
+      <point x="67" y="281" type="line"/>
+      <point x="67" y="176" type="line"/>
+      <point x="140" y="176" type="line" smooth="yes"/>
+      <point x="229" y="176"/>
+      <point x="275" y="199"/>
+      <point x="318" y="271" type="curve"/>
+      <point x="321" y="271" type="line"/>
+      <point x="374" y="103" type="line"/>
+      <point x="487" y="103" type="line"/>
+      <point x="540" y="271" type="line"/>
+      <point x="543" y="271" type="line"/>
+      <point x="606" y="71" type="line"/>
+      <point x="718" y="71" type="line"/>
+      <point x="794" y="312" type="line"/>
+      <point x="797" y="312" type="line"/>
+      <point x="848" y="41"/>
+      <point x="987" y="-12"/>
+    </contour>
+    <contour>
+      <point x="1075" y="314" type="curve" smooth="yes" name="hr02"/>
+      <point x="1051" y="314"/>
+      <point x="1034" y="330"/>
+      <point x="1034" y="356" type="curve" smooth="yes"/>
+      <point x="1034" y="382"/>
+      <point x="1051" y="398"/>
+      <point x="1075" y="398" type="curve" smooth="yes"/>
+      <point x="1099" y="398"/>
+      <point x="1116" y="382"/>
+      <point x="1116" y="356" type="curve" smooth="yes"/>
+      <point x="1116" y="330"/>
+      <point x="1099" y="314"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniEC00</string>
+      <key>com.type-invaders.name.production</key>
+      <string>reversedKhomut-thai</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sheen_rreh-ar.fina.rlig" format="1">
+  <advance width="1027"/>
+  <outline>
+    <component base="seen_reh-ar.fina.rlig"/>
+    <component base="tahabove-ar" xOffset="14"/>
+    <component base="threedotsupabove-ar" xOffset="521"/>
+    <contour>
+      <point x="650.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="32.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="84.0" y="-227.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="650.0" y="584.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="155.0" y="619.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

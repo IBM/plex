@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reshdagesh-hb" format="1">
+  <advance width="526"/>
+  <unicode hex="FB48"/>
+  <outline>
+    <component base="resh-hb"/>
+    <component base="dagesh-hb" xOffset="195"/>
+    <contour>
+      <point x="401.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="3.0" y="516.0" type="move" name="topleft_hebr"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

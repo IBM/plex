@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="boBaimai-thai" format="1">
+  <advance width="673"/>
+  <unicode hex="0E1A"/>
+  <outline>
+    <contour>
+      <point x="78" y="18" type="line"/>
+      <point x="78" y="0" type="line"/>
+      <point x="400" y="0" type="line" smooth="yes"/>
+      <point x="501" y="0"/>
+      <point x="558" y="56"/>
+      <point x="558" y="152" type="curve" smooth="yes"/>
+      <point x="558" y="536" type="line"/>
+      <point x="537" y="536" type="line"/>
+      <point x="537" y="155" type="line" smooth="yes"/>
+      <point x="537" y="69"/>
+      <point x="485" y="18"/>
+      <point x="396" y="18" type="curve" smooth="yes"/>
+      <point x="202" y="18" type="line"/>
+      <point x="202" y="474" type="line" smooth="yes"/>
+      <point x="202" y="519"/>
+      <point x="170" y="548"/>
+      <point x="127" y="548" type="curve" smooth="yes" name="hr01"/>
+      <point x="84" y="548"/>
+      <point x="52" y="519"/>
+      <point x="52" y="474" type="curve" smooth="yes"/>
+      <point x="52" y="429"/>
+      <point x="84" y="400"/>
+      <point x="127" y="400" type="curve" smooth="yes"/>
+      <point x="150" y="400"/>
+      <point x="168" y="408"/>
+      <point x="181" y="423" type="curve"/>
+      <point x="181" y="18" type="line"/>
+    </contour>
+    <contour>
+      <point x="127" y="415" type="curve" smooth="yes"/>
+      <point x="90" y="415"/>
+      <point x="71" y="440"/>
+      <point x="71" y="474" type="curve" smooth="yes"/>
+      <point x="71" y="508"/>
+      <point x="90" y="533"/>
+      <point x="127" y="533" type="curve" smooth="yes"/>
+      <point x="164" y="533"/>
+      <point x="183" y="508"/>
+      <point x="183" y="474" type="curve" smooth="yes"/>
+      <point x="183" y="440"/>
+      <point x="164" y="415"/>
+    </contour>
+    <contour>
+      <point x="558.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="370.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="558.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E1A</string>
+      <key>com.type-invaders.name.production</key>
+      <string>boBaimai-thai</string>
+    </dict>
+  </lib>
+</glyph>

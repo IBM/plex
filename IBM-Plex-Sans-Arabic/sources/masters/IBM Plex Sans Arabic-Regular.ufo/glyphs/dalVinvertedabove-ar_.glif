@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dalVinvertedabove-ar" format="1">
+  <advance width="468"/>
+  <unicode hex="06EE"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="vinvertedabove-ar" xOffset="85" yOffset="240"/>
+    <contour>
+      <point x="230.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="240.0" y="0.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="210.0" y="805.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

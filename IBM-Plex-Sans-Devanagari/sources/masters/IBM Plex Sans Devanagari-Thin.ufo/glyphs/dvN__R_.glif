@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvN_R" format="1">
+  <advance width="306"/>
+  <outline>
+    <contour>
+      <point x="-20" y="679" type="line"/>
+      <point x="355" y="679" type="line"/>
+      <point x="355" y="698" type="line"/>
+      <point x="-20" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="135" y="325" type="curve" smooth="yes"/>
+      <point x="142" y="325"/>
+      <point x="147" y="326"/>
+      <point x="152" y="328" type="curve"/>
+      <point x="152" y="384" type="line"/>
+      <point x="435" y="384" type="line" name="hr01"/>
+      <point x="435" y="403" type="line"/>
+      <point x="140" y="403" type="line" smooth="yes"/>
+      <point x="118" y="403"/>
+      <point x="106" y="389"/>
+      <point x="106" y="365" type="curve" smooth="yes"/>
+      <point x="106" y="341"/>
+      <point x="117" y="325"/>
+    </contour>
+    <contour>
+      <point x="238" y="-28" type="line"/>
+      <point x="433" y="165" type="line"/>
+      <point x="487" y="219" type="line" name="hr02"/>
+      <point x="474" y="232" type="line"/>
+      <point x="224" y="-15" type="line"/>
+    </contour>
+  </outline>
+</glyph>

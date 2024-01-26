@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sadTwodotsbelow-ar.init" format="1">
+  <advance width="887"/>
+  <outline>
+    <component base="sad-ar.init"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="304" yOffset="-579"/>
+    <contour>
+      <point x="462.0" y="-216.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="586.0" y="463.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="263.0" y="150.0" type="move" name="verticalbar"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

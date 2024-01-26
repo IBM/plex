@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbelow-ar" format="1">
+  <advance width="232"/>
+  <unicode hex="06E6"/>
+  <outline>
+    <component base="comp.yehSmall-ar"/>
+    <contour>
+      <point x="118.0" y="656.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="118.0" y="369.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peh_rreh-ar.fina.rlig" format="1">
+  <advance width="590"/>
+  <outline>
+    <component base="alefMaksura_reh-ar.fina.rlig"/>
+    <component base="tahabove-ar" xOffset="35" yOffset="-3"/>
+    <component base="threedotsdownbelow-ar" xOffset="304" yOffset="-737"/>
+    <contour>
+      <point x="430.0" y="-321.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="14.0" y="-240.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="71.0" y="-226.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="430.0" y="329.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="156.0" y="576.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
