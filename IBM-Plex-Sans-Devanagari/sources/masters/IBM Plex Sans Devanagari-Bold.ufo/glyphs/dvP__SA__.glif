@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvP_SA" format="1">
+  <advance width="1092"/>
+  <outline>
+    <contour>
+      <point x="-20" y="594" type="line"/>
+      <point x="61" y="594" type="line"/>
+      <point x="61" y="422" type="line" smooth="yes"/>
+      <point x="61" y="266"/>
+      <point x="131" y="194"/>
+      <point x="267" y="194" type="curve" smooth="yes"/>
+      <point x="339" y="194"/>
+      <point x="392" y="213"/>
+      <point x="433" y="244" type="curve"/>
+      <point x="610" y="-21" type="line"/>
+      <point x="714" y="48" type="line"/>
+      <point x="633" y="174" type="line"/>
+      <point x="567" y="256" type="line"/>
+      <point x="567" y="259" type="line" name="hr01"/>
+      <point x="859" y="259" type="line"/>
+      <point x="859" y="0" type="line"/>
+      <point x="996" y="0" type="line"/>
+      <point x="996" y="594" type="line"/>
+      <point x="1112" y="594" type="line"/>
+      <point x="1112" y="698" type="line"/>
+      <point x="-20" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="556" y="505" type="line" smooth="yes"/>
+      <point x="556" y="432"/>
+      <point x="517" y="394"/>
+      <point x="449" y="394" type="curve" smooth="yes"/>
+      <point x="415" y="394" type="line"/>
+      <point x="384" y="345"/>
+      <point x="348" y="316"/>
+      <point x="286" y="316" type="curve" smooth="yes" name="hr02"/>
+      <point x="231" y="316"/>
+      <point x="198" y="348"/>
+      <point x="198" y="425" type="curve" smooth="yes"/>
+      <point x="198" y="594" type="line"/>
+      <point x="556" y="594" type="line"/>
+    </contour>
+    <contour>
+      <point x="623" y="374" type="line"/>
+      <point x="678" y="403"/>
+      <point x="701" y="442"/>
+      <point x="701" y="512" type="curve" smooth="yes"/>
+      <point x="701" y="594" type="line"/>
+      <point x="859" y="594" type="line"/>
+      <point x="859" y="376" type="line" name="hr03"/>
+      <point x="735" y="376" type="line"/>
+      <point x="623" y="372" type="line"/>
+    </contour>
+    <contour>
+      <point x="996.0" y="0.0" type="move" name="bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="784.0" y="688.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="995.0" y="688.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+</glyph>

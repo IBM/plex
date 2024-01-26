@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sheenThreedotsbelow-ar.fina" format="1">
+  <advance width="1225"/>
+  <outline>
+    <component base="seen-ar.fina"/>
+    <component base="threedotsdownbelow-ar" xOffset="191" yOffset="-977"/>
+    <component base="threedotsupabove-ar" xOffset="719" yOffset="-40"/>
+    <contour>
+      <point x="317.0" y="-561.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="845.0" y="-165.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="845.0" y="540.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

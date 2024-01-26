@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="soRusi-thai" format="1">
+  <advance width="695"/>
+  <unicode hex="0E29"/>
+  <outline>
+    <contour>
+      <point x="78" y="18" type="line"/>
+      <point x="78" y="0" type="line"/>
+      <point x="400" y="0" type="line" smooth="yes"/>
+      <point x="501" y="0"/>
+      <point x="558" y="56"/>
+      <point x="558" y="152" type="curve" smooth="yes"/>
+      <point x="558" y="238" type="line"/>
+      <point x="620" y="238" type="line"/>
+      <point x="620" y="255" type="line"/>
+      <point x="558" y="255" type="line"/>
+      <point x="558" y="536" type="line"/>
+      <point x="537" y="536" type="line"/>
+      <point x="537" y="255" type="line"/>
+      <point x="429" y="255" type="line" smooth="yes"/>
+      <point x="422" y="255"/>
+      <point x="416" y="254"/>
+      <point x="411" y="252" type="curve" smooth="yes"/>
+      <point x="431" y="263"/>
+      <point x="444" y="283"/>
+      <point x="444" y="311" type="curve" smooth="yes"/>
+      <point x="444" y="355"/>
+      <point x="412" y="384"/>
+      <point x="369" y="384" type="curve" smooth="yes"/>
+      <point x="326" y="384"/>
+      <point x="294" y="355"/>
+      <point x="294" y="311" type="curve" smooth="yes"/>
+      <point x="294" y="267"/>
+      <point x="324" y="238"/>
+      <point x="375" y="238" type="curve" smooth="yes"/>
+      <point x="537" y="238" type="line"/>
+      <point x="537" y="155" type="line" smooth="yes"/>
+      <point x="537" y="69"/>
+      <point x="485" y="18"/>
+      <point x="396" y="18" type="curve" smooth="yes"/>
+      <point x="202" y="18" type="line"/>
+      <point x="202" y="474" type="line" smooth="yes"/>
+      <point x="202" y="519"/>
+      <point x="170" y="548"/>
+      <point x="127" y="548" type="curve" smooth="yes" name="hr01"/>
+      <point x="84" y="548"/>
+      <point x="52" y="519"/>
+      <point x="52" y="474" type="curve" smooth="yes"/>
+      <point x="52" y="429"/>
+      <point x="84" y="400"/>
+      <point x="127" y="400" type="curve" smooth="yes"/>
+      <point x="150" y="400"/>
+      <point x="168" y="408"/>
+      <point x="181" y="423" type="curve"/>
+      <point x="181" y="18" type="line"/>
+    </contour>
+    <contour>
+      <point x="127" y="415" type="curve" smooth="yes"/>
+      <point x="90" y="415"/>
+      <point x="71" y="440"/>
+      <point x="71" y="474" type="curve" smooth="yes"/>
+      <point x="71" y="508"/>
+      <point x="90" y="533"/>
+      <point x="127" y="533" type="curve" smooth="yes"/>
+      <point x="164" y="533"/>
+      <point x="183" y="508"/>
+      <point x="183" y="474" type="curve" smooth="yes" name="hr02"/>
+      <point x="183" y="440"/>
+      <point x="164" y="415"/>
+    </contour>
+    <contour>
+      <point x="369" y="253" type="curve" smooth="yes"/>
+      <point x="332" y="253"/>
+      <point x="313" y="278"/>
+      <point x="313" y="311" type="curve" smooth="yes"/>
+      <point x="313" y="344"/>
+      <point x="332" y="369"/>
+      <point x="369" y="369" type="curve" smooth="yes"/>
+      <point x="406" y="369"/>
+      <point x="425" y="344"/>
+      <point x="425" y="311" type="curve" smooth="yes"/>
+      <point x="425" y="278"/>
+      <point x="406" y="253"/>
+    </contour>
+    <contour>
+      <point x="558.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="370.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="558.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E29</string>
+      <key>com.type-invaders.name.production</key>
+      <string>soRusi-thai</string>
+    </dict>
+  </lib>
+</glyph>

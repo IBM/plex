@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="1">
+  <advance width="600"/>
+  <unicode hex="010F"/>
+  <outline>
+    <contour>
+      <point x="290" y="-12" type="curve" smooth="yes"/>
+      <point x="377" y="-12"/>
+      <point x="430" y="34"/>
+      <point x="451" y="78" type="curve"/>
+      <point x="454" y="78" type="line"/>
+      <point x="454" y="0" type="line" name="hr01"/>
+      <point x="475" y="0" type="line"/>
+      <point x="475" y="740" type="line"/>
+      <point x="454" y="740" type="line"/>
+      <point x="454" y="438" type="line"/>
+      <point x="451" y="438" type="line"/>
+      <point x="430" y="482"/>
+      <point x="377" y="528"/>
+      <point x="290" y="528" type="curve" smooth="yes"/>
+      <point x="158" y="528"/>
+      <point x="80" y="437"/>
+      <point x="80" y="258" type="curve" smooth="yes"/>
+      <point x="80" y="79"/>
+      <point x="158" y="-12"/>
+    </contour>
+    <contour>
+      <point x="290" y="7" type="curve" smooth="yes"/>
+      <point x="170" y="7"/>
+      <point x="103" y="94"/>
+      <point x="103" y="234" type="curve" smooth="yes"/>
+      <point x="103" y="282" type="line" smooth="yes"/>
+      <point x="103" y="422"/>
+      <point x="170" y="509"/>
+      <point x="290" y="509" type="curve" smooth="yes"/>
+      <point x="376" y="509"/>
+      <point x="454" y="454"/>
+      <point x="454" y="373" type="curve" smooth="yes"/>
+      <point x="454" y="143" type="line" smooth="yes"/>
+      <point x="454" y="62"/>
+      <point x="376" y="7"/>
+    </contour>
+    <contour>
+      <point x="546" y="564" type="line"/>
+      <point x="562" y="564" type="line"/>
+      <point x="587" y="740" type="line"/>
+      <point x="562" y="740" type="line"/>
+    </contour>
+  </outline>
+</glyph>

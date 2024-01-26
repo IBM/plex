@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thanthakhat-thai.small" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-242" y="849" type="curve" smooth="yes"/>
+      <point x="-193" y="849"/>
+      <point x="-163" y="881"/>
+      <point x="-163" y="926" type="curve" smooth="yes"/>
+      <point x="-163" y="957"/>
+      <point x="-178" y="982"/>
+      <point x="-208" y="991" type="curve"/>
+      <point x="-208" y="993" type="line"/>
+      <point x="-178" y="993" type="line"/>
+      <point x="-68" y="993" type="line" smooth="yes"/>
+      <point x="-54" y="993"/>
+      <point x="-47" y="996"/>
+      <point x="-44" y="1010" type="curve" smooth="yes"/>
+      <point x="-30" y="1074" type="line"/>
+      <point x="-49" y="1077" type="line"/>
+      <point x="-64" y="1008" type="line"/>
+      <point x="-213" y="1008" type="line" smooth="yes"/>
+      <point x="-294" y="1008"/>
+      <point x="-321" y="974"/>
+      <point x="-321" y="926" type="curve" smooth="yes"/>
+      <point x="-321" y="881"/>
+      <point x="-291" y="849"/>
+    </contour>
+    <contour>
+      <point x="-242" y="988" type="curve" smooth="yes" name="hr01"/>
+      <point x="-202" y="988"/>
+      <point x="-183" y="962"/>
+      <point x="-183" y="926" type="curve" smooth="yes"/>
+      <point x="-183" y="890"/>
+      <point x="-202" y="864"/>
+      <point x="-242" y="864" type="curve" smooth="yes"/>
+      <point x="-282" y="864"/>
+      <point x="-301" y="890"/>
+      <point x="-301" y="926" type="curve" smooth="yes"/>
+      <point x="-301" y="962"/>
+      <point x="-282" y="988"/>
+    </contour>
+    <contour>
+      <point x="-184.0" y="800.0" type="move" name="_topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E4C.small</string>
+      <key>com.type-invaders.name.production</key>
+      <string>thanthakhat-thai.small</string>
+    </dict>
+  </lib>
+</glyph>

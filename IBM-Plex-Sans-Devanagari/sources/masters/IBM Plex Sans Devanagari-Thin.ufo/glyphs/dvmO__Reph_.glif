@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmO_Reph" format="1">
+  <advance width="311"/>
+  <outline>
+    <contour>
+      <point x="144" y="0" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="165" y="679" type="line"/>
+      <point x="329" y="679" type="line"/>
+      <point x="329" y="698" type="line"/>
+      <point x="165" y="698" type="line"/>
+      <point x="165" y="789" type="line" smooth="yes"/>
+      <point x="165" y="872"/>
+      <point x="200" y="909"/>
+      <point x="274" y="909" type="curve" smooth="yes"/>
+      <point x="306" y="909" type="line"/>
+      <point x="306" y="927" type="line"/>
+      <point x="273" y="927" type="line" smooth="yes"/>
+      <point x="190" y="927"/>
+      <point x="147" y="886"/>
+      <point x="147" y="793" type="curve" smooth="yes"/>
+      <point x="147" y="763"/>
+      <point x="148" y="752"/>
+      <point x="149" y="725" type="curve"/>
+      <point x="147" y="724" type="line"/>
+      <point x="42" y="906" type="line" smooth="yes"/>
+      <point x="36" y="917"/>
+      <point x="29" y="923"/>
+      <point x="15" y="923" type="curve" smooth="yes" name="hr01"/>
+      <point x="-138" y="923" type="line"/>
+      <point x="-138" y="904" type="line"/>
+      <point x="21" y="904" type="line"/>
+      <point x="144" y="698" type="line"/>
+      <point x="-20" y="698" type="line"/>
+      <point x="-20" y="679" type="line"/>
+      <point x="144" y="679" type="line"/>
+    </contour>
+    <contour>
+      <point x="155.0" y="696.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="165.0" y="696.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+</glyph>

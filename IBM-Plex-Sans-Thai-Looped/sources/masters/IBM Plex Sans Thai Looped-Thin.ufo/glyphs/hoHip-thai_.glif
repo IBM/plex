@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hoHip-thai" format="1">
+  <advance width="674"/>
+  <unicode hex="0E2B"/>
+  <outline>
+    <contour>
+      <point x="189" y="0" type="line"/>
+      <point x="189" y="258" type="line"/>
+      <point x="496" y="392" type="line"/>
+      <point x="499" y="392" type="line"/>
+      <point x="499" y="0" type="line"/>
+      <point x="520" y="0" type="line"/>
+      <point x="520" y="382" type="line" smooth="yes"/>
+      <point x="520" y="388"/>
+      <point x="518" y="393"/>
+      <point x="515" y="396" type="curve"/>
+      <point x="555" y="398"/>
+      <point x="584" y="428"/>
+      <point x="584" y="472" type="curve" smooth="yes"/>
+      <point x="584" y="518"/>
+      <point x="552" y="548"/>
+      <point x="509" y="548" type="curve" smooth="yes"/>
+      <point x="466" y="548"/>
+      <point x="434" y="518"/>
+      <point x="434" y="472" type="curve" smooth="yes"/>
+      <point x="434" y="438"/>
+      <point x="451" y="413"/>
+      <point x="478" y="402" type="curve"/>
+      <point x="189" y="276" type="line"/>
+      <point x="189" y="474" type="line" smooth="yes"/>
+      <point x="189" y="519"/>
+      <point x="157" y="548"/>
+      <point x="114" y="548" type="curve" smooth="yes"/>
+      <point x="71" y="548"/>
+      <point x="39" y="519"/>
+      <point x="39" y="474" type="curve" smooth="yes"/>
+      <point x="39" y="429"/>
+      <point x="71" y="400"/>
+      <point x="114" y="400" type="curve" smooth="yes"/>
+      <point x="137" y="400"/>
+      <point x="155" y="408"/>
+      <point x="168" y="423" type="curve"/>
+      <point x="168" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="509" y="411" type="curve" smooth="yes"/>
+      <point x="472" y="411"/>
+      <point x="453" y="435"/>
+      <point x="453" y="465" type="curve" smooth="yes"/>
+      <point x="453" y="479" type="line" smooth="yes"/>
+      <point x="453" y="509"/>
+      <point x="472" y="533"/>
+      <point x="509" y="533" type="curve" smooth="yes"/>
+      <point x="546" y="533"/>
+      <point x="565" y="509"/>
+      <point x="565" y="479" type="curve" smooth="yes"/>
+      <point x="565" y="465" type="line" smooth="yes"/>
+      <point x="565" y="435"/>
+      <point x="546" y="411"/>
+    </contour>
+    <contour>
+      <point x="114" y="415" type="curve" smooth="yes"/>
+      <point x="77" y="415"/>
+      <point x="58" y="440"/>
+      <point x="58" y="474" type="curve" smooth="yes"/>
+      <point x="58" y="508"/>
+      <point x="77" y="533"/>
+      <point x="114" y="533" type="curve" smooth="yes"/>
+      <point x="151" y="533"/>
+      <point x="170" y="508"/>
+      <point x="170" y="474" type="curve" smooth="yes" name="hr01"/>
+      <point x="170" y="440"/>
+      <point x="151" y="415"/>
+    </contour>
+    <contour>
+      <point x="520.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="344.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="520.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E2B</string>
+      <key>com.type-invaders.name.production</key>
+      <string>hoHip-thai</string>
+    </dict>
+  </lib>
+</glyph>

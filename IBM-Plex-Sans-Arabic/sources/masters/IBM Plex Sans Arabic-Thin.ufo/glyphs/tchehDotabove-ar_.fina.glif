@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tchehDotabove-ar.fina" format="1">
+  <advance width="636"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="dotabove-ar" xOffset="242" yOffset="115"/>
+    <component base="threedotsdowncenter-ar" xOffset="198" yOffset="-497"/>
+    <contour>
+      <point x="337.0" y="-304.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="324.0" y="11.0" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="305.0" y="575.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Epsilontonos" format="1">
+  <advance width="666"/>
+  <unicode hex="0388"/>
+  <outline>
+    <component base="E" xOffset="88"/>
+    <component base="tonos.case" xOffset="-280"/>
+    <contour>
+      <point x="351.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="569.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="474.0" y="698.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

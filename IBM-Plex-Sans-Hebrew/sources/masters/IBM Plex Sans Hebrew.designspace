@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="0" maximum="1000" minimum="-925" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="IBM Plex Sans Hebrew" filename="IBM Plex Sans Hebrew-Thin.ufo" stylename="Thin">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="-925" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Hebrew" filename="IBM Plex Sans Hebrew-Regular.ufo" stylename="Regular">
+            <groups copy="1" />
+            <features copy="1" />
+            <location>
+                <dimension name="weight" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="IBM Plex Sans Hebrew" filename="IBM Plex Sans Hebrew-Bold.ufo" stylename="Bold">
+            <info mute="1" />
+            <location>
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="IBM Plex Sans Hebrew" filename="instances/IBMPlexSansHebrew-Extralight.ufo" postscriptfontname="IBMPlexSansHebrew-Extralight" stylemapfamilyname="IBM Plex Sans Hebrew Extralight" stylemapstylename="regular" stylename="Extralight">
+            <location>
+                <dimension name="weight" xvalue="-705.780000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Hebrew" filename="instances/IBMPlexSansHebrew-Light.ufo" postscriptfontname="IBMPlexSansHebrew-Light" stylemapfamilyname="IBM Plex Sans Hebrew Light" stylemapstylename="regular" stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="-360.750000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Hebrew" filename="instances/IBMPlexSansHebrew-Text.ufo" postscriptfontname="IBMPlexSansHebrew-Text" stylemapfamilyname="IBM Plex Sans Hebrew Text" stylemapstylename="regular" stylename="Text">
+            <location>
+                <dimension name="weight" xvalue="191" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Hebrew" filename="instances/IBMPlexSansHebrew-Medium.ufo" postscriptfontname="IBMPlexSansHebrew-Medium" stylemapfamilyname="IBM Plex Sans Hebrew Medium" stylemapstylename="regular" stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="427" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="IBM Plex Sans Hebrew" filename="instances/IBMPlexSansHebrew-SemiBold.ufo" postscriptfontname="IBMPlexSansHebrew-SemiBold" stylemapfamilyname="IBM Plex Sans Hebrew SemiBold" stylemapstylename="regular" stylename="SemiBold">
+            <location>
+                <dimension name="weight" xvalue="705" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

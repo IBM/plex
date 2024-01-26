@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="saraAa-thai" format="1">
+  <advance width="465"/>
+  <unicode hex="0E32"/>
+  <outline>
+    <contour>
+      <point x="359" y="0" type="line" name="hr00"/>
+      <point x="380" y="0" type="line"/>
+      <point x="380" y="382" type="line" smooth="yes"/>
+      <point x="380" y="489"/>
+      <point x="325" y="548"/>
+      <point x="215" y="548" type="curve" smooth="yes"/>
+      <point x="121" y="548"/>
+      <point x="72" y="507"/>
+      <point x="44" y="442" type="curve"/>
+      <point x="62" y="434" type="line"/>
+      <point x="90" y="500"/>
+      <point x="139" y="529"/>
+      <point x="215" y="529" type="curve" smooth="yes"/>
+      <point x="309" y="529"/>
+      <point x="359" y="483"/>
+      <point x="359" y="379" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="380.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+</glyph>

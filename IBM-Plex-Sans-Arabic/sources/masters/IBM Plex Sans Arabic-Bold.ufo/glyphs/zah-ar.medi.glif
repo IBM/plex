@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zah-ar.medi" format="1">
+  <advance width="731"/>
+  <unicode hex="FEC8"/>
+  <outline>
+    <component base="tah-ar.medi"/>
+    <component base="dotabove-ar" xOffset="314" yOffset="180"/>
+    <contour>
+      <point x="366.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="393.0" y="677.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="70.0" y="150.0" type="move" name="verticalbar"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

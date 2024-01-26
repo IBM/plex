@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="maiChattawa-thai.small" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-30" y="940" type="line" name="hr00"/>
+      <point x="-30" y="995" type="line"/>
+      <point x="-110" y="989" type="line"/>
+      <point x="-104" y="1067" type="line"/>
+      <point x="-164" y="1067" type="line"/>
+      <point x="-158" y="989" type="line"/>
+      <point x="-238" y="995" type="line"/>
+      <point x="-238" y="940" type="line"/>
+      <point x="-158" y="946" type="line"/>
+      <point x="-164" y="868" type="line"/>
+      <point x="-104" y="868" type="line"/>
+      <point x="-110" y="946" type="line"/>
+    </contour>
+    <contour>
+      <point x="-103.0" y="800.0" type="move" name="_topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E4B.small</string>
+      <key>com.type-invaders.name.production</key>
+      <string>maiChattawa-thai.small</string>
+    </dict>
+  </lib>
+</glyph>

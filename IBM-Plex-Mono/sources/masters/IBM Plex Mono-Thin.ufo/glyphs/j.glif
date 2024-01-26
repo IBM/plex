@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j" format="1">
+  <advance width="600"/>
+  <unicode hex="006A"/>
+  <outline>
+    <contour>
+      <point x="111" y="-200" type="line"/>
+      <point x="398" y="-200" type="line" smooth="yes"/>
+      <point x="418" y="-200"/>
+      <point x="427" y="-191"/>
+      <point x="427" y="-171" type="curve" smooth="yes"/>
+      <point x="427" y="516" type="line"/>
+      <point x="96" y="516" type="line"/>
+      <point x="96" y="497" type="line"/>
+      <point x="406" y="497" type="line"/>
+      <point x="406" y="-181" type="line"/>
+      <point x="111" y="-181" type="line"/>
+    </contour>
+    <contour>
+      <point x="417" y="691" type="curve" smooth="yes"/>
+      <point x="438" y="691"/>
+      <point x="446" y="701"/>
+      <point x="446" y="714" type="curve" smooth="yes" name="hr01"/>
+      <point x="446" y="722" type="line" smooth="yes"/>
+      <point x="446" y="735"/>
+      <point x="438" y="745"/>
+      <point x="417" y="745" type="curve" smooth="yes"/>
+      <point x="396" y="745"/>
+      <point x="388" y="735"/>
+      <point x="388" y="722" type="curve" smooth="yes"/>
+      <point x="388" y="714" type="line" smooth="yes"/>
+      <point x="388" y="701"/>
+      <point x="396" y="691"/>
+    </contour>
+  </outline>
+</glyph>

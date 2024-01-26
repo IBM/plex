@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rehDotbelowdotabove-ar" format="1">
+  <advance width="299"/>
+  <unicode hex="0696"/>
+  <outline>
+    <component base="dotbelow-ar" xOffset="-39" yOffset="-819"/>
+    <component base="reh-ar"/>
+    <component base="dotabove-ar" xOffset="85" yOffset="40"/>
+    <contour>
+      <point x="40.0" y="-456.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="102.0" y="-224.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="164.0" y="537.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

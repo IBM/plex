@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown" format="1">
+  <advance width="600"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="344" y="-182" type="line"/>
+      <point x="344" y="21" type="line"/>
+      <point x="316" y="283" type="line"/>
+      <point x="284" y="283" type="line"/>
+      <point x="256" y="21" type="line"/>
+      <point x="256" y="-182" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="387" type="curve"/>
+      <point x="354" y="387"/>
+      <point x="374" y="413"/>
+      <point x="374" y="447" type="curve" smooth="yes" name="hr01"/>
+      <point x="374" y="465" type="line" smooth="yes"/>
+      <point x="374" y="499"/>
+      <point x="354" y="525"/>
+      <point x="300" y="525" type="curve" smooth="yes"/>
+      <point x="246" y="525"/>
+      <point x="226" y="499"/>
+      <point x="226" y="465" type="curve" smooth="yes"/>
+      <point x="226" y="447" type="line" smooth="yes"/>
+      <point x="226" y="413"/>
+      <point x="246" y="387"/>
+    </contour>
+  </outline>
+</glyph>

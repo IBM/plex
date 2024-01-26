@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvDD" format="1">
+  <advance width="537"/>
+  <outline>
+    <component base="dvDDA"/>
+    <component base="dvVirama" xOffset="433" yOffset="10"/>
+    <contour>
+      <point x="314.0" y="10.0" type="move" name="_bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="314.0" y="10.0" type="move" name="bottom_deva"/>
+    </contour>
+    <contour>
+      <point x="314.0" y="688.0" type="move" name="center_deva"/>
+    </contour>
+    <contour>
+      <point x="429.0" y="688.0" type="move" name="top_deva"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

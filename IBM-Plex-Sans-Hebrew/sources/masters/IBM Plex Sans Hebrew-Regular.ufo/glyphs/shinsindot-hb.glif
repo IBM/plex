@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shinsindot-hb" format="1">
+  <advance width="752"/>
+  <unicode hex="FB2B"/>
+  <outline>
+    <component base="shin-hb"/>
+    <component base="sindot-hb" xOffset="120"/>
+    <contour>
+      <point x="376.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="504.0" y="305.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="7.0" y="516.0" type="move" name="topleft_hebr"/>
+    </contour>
+    <contour>
+      <point x="634.0" y="516.0" type="move" name="topright_hebr"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

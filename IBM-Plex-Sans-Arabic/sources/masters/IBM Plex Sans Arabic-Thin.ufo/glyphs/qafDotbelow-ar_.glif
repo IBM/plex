@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotbelow-ar" format="1">
+  <advance width="713"/>
+  <unicode hex="08A5"/>
+  <outline>
+    <component base="qafDotless-ar"/>
+    <component base="dotbelow-ar" xOffset="294" yOffset="-857"/>
+    <component base="twodotshorizontalabove-ar" xOffset="366" yOffset="90"/>
+    <contour>
+      <point x="357.0" y="-441.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="492.0" y="550.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

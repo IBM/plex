@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gafThreedots-ar.init" format="1">
+  <advance width="332"/>
+  <outline>
+    <component base="threedotsupabove-ar" xOffset="-105" yOffset="426"/>
+    <component base="kaf-ar.init"/>
+    <component base="comp.kafbar-ar" xOffset="1" yOffset="17"/>
+    <contour>
+      <point x="199.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="19.0" y="552.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="281.0" y="603.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="21.0" y="1006.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

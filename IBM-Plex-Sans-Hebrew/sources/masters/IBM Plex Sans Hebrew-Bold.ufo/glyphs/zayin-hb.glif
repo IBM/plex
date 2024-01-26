@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zayin-hb" format="1">
+  <advance width="405"/>
+  <unicode hex="05D6"/>
+  <outline>
+    <contour>
+      <point x="30" y="477" type="line" name="hr00"/>
+      <point x="201" y="477" type="line"/>
+      <point x="201" y="471" type="line"/>
+      <point x="136" y="429"/>
+      <point x="102" y="362"/>
+      <point x="102" y="263" type="curve" smooth="yes"/>
+      <point x="102" y="234"/>
+      <point x="105" y="200"/>
+      <point x="111" y="167" type="curve" smooth="yes"/>
+      <point x="141" y="0" type="line"/>
+      <point x="291" y="0" type="line"/>
+      <point x="250" y="229" type="line" smooth="yes"/>
+      <point x="237" y="301"/>
+      <point x="230" y="349"/>
+      <point x="230" y="382" type="curve" smooth="yes"/>
+      <point x="230" y="417"/>
+      <point x="236" y="438"/>
+      <point x="261" y="477" type="curve"/>
+      <point x="382" y="477" type="line"/>
+      <point x="382" y="610" type="line"/>
+      <point x="30" y="610" type="line"/>
+    </contour>
+    <contour>
+      <point x="216.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="22.0" y="315.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="3.0" y="525.0" type="move" name="topleft_hebr"/>
+    </contour>
+  </outline>
+</glyph>

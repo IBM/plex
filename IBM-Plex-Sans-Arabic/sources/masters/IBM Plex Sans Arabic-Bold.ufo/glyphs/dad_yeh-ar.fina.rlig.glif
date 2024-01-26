@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dad_yeh-ar.fina.rlig" format="1">
+  <advance width="1535"/>
+  <unicode hex="FD24"/>
+  <outline>
+    <component base="sad_alefMaksura-ar.fina.rlig"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="218" yOffset="-885"/>
+    <component base="dotabove-ar" xOffset="1118" yOffset="180"/>
+    <contour>
+      <point x="1073.0" y="0.0" type="move" name="bottom_1"/>
+    </contour>
+    <contour>
+      <point x="376.0" y="-522.0" type="move" name="bottom_2"/>
+    </contour>
+    <contour>
+      <point x="1197.0" y="677.0" type="move" name="top_1"/>
+    </contour>
+    <contour>
+      <point x="130.0" y="151.0" type="move" name="top_2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

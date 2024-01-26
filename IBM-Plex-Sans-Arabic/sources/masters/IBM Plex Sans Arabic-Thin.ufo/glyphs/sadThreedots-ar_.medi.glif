@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sadThreedots-ar.medi" format="1">
+  <advance width="897"/>
+  <outline>
+    <component base="sad-ar.medi"/>
+    <component base="threedotsupabove-ar" xOffset="441" yOffset="86"/>
+    <contour>
+      <point x="449.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="567.0" y="666.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="273.0" y="80.0" type="move" name="verticalbar"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

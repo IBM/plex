@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shaddaAlefabove-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="shadda-ar"/>
+    <component base="comp.alefmini-ar" xOffset="107" yOffset="173"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

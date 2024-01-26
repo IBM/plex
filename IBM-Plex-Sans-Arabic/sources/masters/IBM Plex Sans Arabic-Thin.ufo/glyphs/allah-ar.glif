@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="allah-ar" format="1">
+  <advance width="1141"/>
+  <unicode hex="FDF2"/>
+  <outline>
+    <component base="allah-ar.alt"/>
+    <component base="shadda-ar" xOffset="425" yOffset="311"/>
+    <component base="comp.alefmini-ar" xOffset="532" yOffset="484"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.995</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

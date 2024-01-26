@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two-ar" format="1">
+  <advance width="440"/>
+  <unicode hex="0662"/>
+  <outline>
+    <contour>
+      <point x="110" y="596" type="line"/>
+      <point x="90" y="596" type="line"/>
+      <point x="129" y="0" type="line"/>
+      <point x="149" y="0" type="line"/>
+      <point x="126" y="341" type="line"/>
+      <point x="256" y="341" type="line" smooth="yes"/>
+      <point x="374" y="341"/>
+      <point x="410" y="390"/>
+      <point x="410" y="485" type="curve" smooth="yes"/>
+      <point x="410" y="508"/>
+      <point x="407" y="545"/>
+      <point x="394" y="603" type="curve" name="hr01"/>
+      <point x="373" y="599" type="line"/>
+      <point x="384" y="548"/>
+      <point x="390" y="512"/>
+      <point x="390" y="485" type="curve" smooth="yes"/>
+      <point x="390" y="407"/>
+      <point x="360" y="363"/>
+      <point x="256" y="363" type="curve" smooth="yes" name="hr02"/>
+      <point x="125" y="363" type="line"/>
+    </contour>
+  </outline>
+</glyph>

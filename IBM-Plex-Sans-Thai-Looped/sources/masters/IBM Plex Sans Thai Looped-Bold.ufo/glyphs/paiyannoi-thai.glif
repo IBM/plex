@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="paiyannoi-thai" format="1">
+  <advance width="625"/>
+  <unicode hex="0E2F"/>
+  <outline>
+    <contour>
+      <point x="393" y="0" type="line"/>
+      <point x="541" y="0" type="line"/>
+      <point x="541" y="554" type="line"/>
+      <point x="393" y="554" type="line"/>
+      <point x="393" y="469" type="line" smooth="yes"/>
+      <point x="393" y="372"/>
+      <point x="325" y="362"/>
+      <point x="274" y="362" type="curve" smooth="yes"/>
+      <point x="224" y="362" type="line"/>
+      <point x="224" y="363" type="line"/>
+      <point x="267" y="371"/>
+      <point x="297" y="396"/>
+      <point x="297" y="452" type="curve" smooth="yes"/>
+      <point x="297" y="521"/>
+      <point x="243" y="566"/>
+      <point x="167" y="566" type="curve" smooth="yes" name="hr01"/>
+      <point x="91" y="566"/>
+      <point x="35" y="516"/>
+      <point x="35" y="435" type="curve" smooth="yes"/>
+      <point x="35" y="428" type="line" smooth="yes"/>
+      <point x="35" y="321"/>
+      <point x="109" y="261"/>
+      <point x="222" y="261" type="curve" smooth="yes"/>
+      <point x="322" y="261"/>
+      <point x="373" y="303"/>
+      <point x="388" y="347" type="curve"/>
+      <point x="393" y="347" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="397" type="curve" smooth="yes"/>
+      <point x="144" y="397"/>
+      <point x="125" y="416"/>
+      <point x="125" y="446" type="curve" smooth="yes"/>
+      <point x="125" y="476"/>
+      <point x="144" y="495"/>
+      <point x="171" y="495" type="curve" smooth="yes"/>
+      <point x="198" y="495"/>
+      <point x="217" y="476"/>
+      <point x="217" y="446" type="curve" smooth="yes"/>
+      <point x="217" y="416"/>
+      <point x="198" y="397"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E2F</string>
+      <key>com.type-invaders.name.production</key>
+      <string>paiyannoi-thai</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gueh-ar.medi" format="1">
+  <advance width="500"/>
+  <unicode hex="FB99"/>
+  <outline>
+    <component base="twodotsverticalbelow-ar" xOffset="-23" yOffset="-703"/>
+    <component base="comp.kafbar-ar" xOffset="-10" yOffset="70"/>
+    <component base="kaf-ar.medi"/>
+    <contour>
+      <point x="214.0" y="-340.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="10.0" y="600.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="305.0" y="558.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="159.0" y="698.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

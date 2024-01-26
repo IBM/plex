@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="angkhankhu_wisanchani-thai" format="1">
+  <advance width="760"/>
+  <unicode hex="EC03"/>
+  <outline>
+    <contour>
+      <point x="576" y="0" type="line"/>
+      <point x="656" y="0" type="line"/>
+      <point x="656" y="546" type="line"/>
+      <point x="576" y="546" type="line"/>
+      <point x="576" y="465" type="line" smooth="yes"/>
+      <point x="576" y="397"/>
+      <point x="532" y="353"/>
+      <point x="452" y="348" type="curve"/>
+      <point x="452" y="546" type="line"/>
+      <point x="371" y="546" type="line"/>
+      <point x="371" y="465" type="line" smooth="yes"/>
+      <point x="371" y="393"/>
+      <point x="321" y="348"/>
+      <point x="231" y="348" type="curve" smooth="yes"/>
+      <point x="189" y="348" type="line" smooth="yes"/>
+      <point x="170" y="348"/>
+      <point x="151" y="352"/>
+      <point x="139" y="360" type="curve"/>
+      <point x="140" y="362" type="line"/>
+      <point x="200" y="364"/>
+      <point x="240" y="402"/>
+      <point x="240" y="460" type="curve" smooth="yes"/>
+      <point x="240" y="520"/>
+      <point x="197" y="558"/>
+      <point x="134" y="558" type="curve" smooth="yes" name="hr01"/>
+      <point x="72" y="558"/>
+      <point x="28" y="517"/>
+      <point x="28" y="453" type="curve" smooth="yes"/>
+      <point x="28" y="446" type="line" smooth="yes"/>
+      <point x="28" y="339"/>
+      <point x="106" y="288"/>
+      <point x="210" y="288" type="curve" smooth="yes"/>
+      <point x="306" y="288"/>
+      <point x="348" y="332"/>
+      <point x="367" y="377" type="curve"/>
+      <point x="371" y="377" type="line"/>
+      <point x="371" y="0" type="line"/>
+      <point x="452" y="0" type="line"/>
+      <point x="452" y="290" type="line"/>
+      <point x="522" y="300"/>
+      <point x="555" y="338"/>
+      <point x="572" y="377" type="curve"/>
+      <point x="576" y="377" type="line"/>
+    </contour>
+    <contour>
+      <point x="137" y="408" type="curve" smooth="yes"/>
+      <point x="107" y="408"/>
+      <point x="88" y="429"/>
+      <point x="88" y="461" type="curve" smooth="yes"/>
+      <point x="88" y="493"/>
+      <point x="107" y="514"/>
+      <point x="137" y="514" type="curve" smooth="yes"/>
+      <point x="167" y="514"/>
+      <point x="186" y="493"/>
+      <point x="186" y="461" type="curve" smooth="yes"/>
+      <point x="186" y="429"/>
+      <point x="167" y="408"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniEC03</string>
+      <key>com.type-invaders.name.production</key>
+      <string>angkhankhu_wisanchani-thai</string>
+    </dict>
+  </lib>
+</glyph>

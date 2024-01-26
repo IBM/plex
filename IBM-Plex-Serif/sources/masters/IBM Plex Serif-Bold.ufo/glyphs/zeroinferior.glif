@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zeroinferior" format="1">
+  <advance width="366"/>
+  <unicode hex="2080"/>
+  <outline>
+    <contour>
+      <point x="183" y="47" type="curve" smooth="yes" name=""/>
+      <point x="147" y="47"/>
+      <point x="137" y="74"/>
+      <point x="137" y="121" type="curve" smooth="yes"/>
+      <point x="137" y="247" type="line" smooth="yes"/>
+      <point x="137" y="294"/>
+      <point x="147" y="321"/>
+      <point x="183" y="321" type="curve" smooth="yes"/>
+      <point x="219" y="321"/>
+      <point x="229" y="294"/>
+      <point x="229" y="247" type="curve" smooth="yes"/>
+      <point x="229" y="121" type="line" smooth="yes"/>
+      <point x="229" y="74"/>
+      <point x="219" y="47"/>
+    </contour>
+    <contour>
+      <point x="183" y="-6" type="curve" smooth="yes"/>
+      <point x="289" y="-6"/>
+      <point x="339" y="62"/>
+      <point x="339" y="184" type="curve" smooth="yes"/>
+      <point x="339" y="306"/>
+      <point x="289" y="374"/>
+      <point x="183" y="374" type="curve" smooth="yes"/>
+      <point x="77" y="374"/>
+      <point x="27" y="306"/>
+      <point x="27" y="184" type="curve" smooth="yes"/>
+      <point x="27" y="62"/>
+      <point x="77" y="-6"/>
+    </contour>
+  </outline>
+</glyph>

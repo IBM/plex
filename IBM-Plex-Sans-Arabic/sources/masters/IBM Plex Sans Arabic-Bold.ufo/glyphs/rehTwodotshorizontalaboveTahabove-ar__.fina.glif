@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rehTwodotshorizontalaboveTahabove-ar.fina" format="1">
+  <advance width="350"/>
+  <outline>
+    <component base="tahabove-ar" xOffset="-1" yOffset="254"/>
+    <component base="reh-ar.fina"/>
+    <component base="twodotshorizontalabove-ar" xOffset="6" yOffset="40"/>
+    <contour>
+      <point x="40.0" y="-240.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="102.0" y="-224.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="159.0" y="903.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

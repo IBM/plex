@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fannu-thai" format="1">
+  <advance width="0"/>
+  <unicode hex="EC08"/>
+  <outline>
+    <component base="maiEk-thai" xOffset="-130"/>
+    <component base="maiEk-thai"/>
+    <contour>
+      <point x="-105.0" y="558.0" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uniEC08</string>
+      <key>com.type-invaders.name.production</key>
+      <string>fannu-thai</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

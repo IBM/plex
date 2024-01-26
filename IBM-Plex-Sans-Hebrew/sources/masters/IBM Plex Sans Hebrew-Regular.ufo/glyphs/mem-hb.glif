@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mem-hb" format="1">
+  <advance width="654"/>
+  <unicode hex="05DE"/>
+  <outline>
+    <contour>
+      <point x="56" y="0" type="line"/>
+      <point x="138" y="0" type="line"/>
+      <point x="208" y="405" type="line" smooth="yes"/>
+      <point x="214" y="438"/>
+      <point x="230" y="544"/>
+      <point x="356" y="544" type="curve" smooth="yes"/>
+      <point x="488" y="544"/>
+      <point x="488" y="428"/>
+      <point x="488" y="375" type="curve" smooth="yes"/>
+      <point x="488" y="72" type="line"/>
+      <point x="311" y="72" type="line"/>
+      <point x="311" y="0" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="570" y="393" type="line" smooth="yes"/>
+      <point x="570" y="551"/>
+      <point x="494" y="618"/>
+      <point x="387" y="618" type="curve" smooth="yes"/>
+      <point x="296" y="618"/>
+      <point x="239" y="569"/>
+      <point x="211" y="501" type="curve"/>
+      <point x="206" y="501" type="line"/>
+      <point x="189" y="606" type="line" name="hr01"/>
+      <point x="107" y="606" type="line"/>
+      <point x="134" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="348.0" y="0.0" type="move" name="bottom_hebr"/>
+    </contour>
+    <contour>
+      <point x="348.0" y="305.0" type="move" name="center_hebr"/>
+    </contour>
+    <contour>
+      <point x="49.0" y="516.0" type="move" name="topleft_hebr"/>
+    </contour>
+  </outline>
+</glyph>

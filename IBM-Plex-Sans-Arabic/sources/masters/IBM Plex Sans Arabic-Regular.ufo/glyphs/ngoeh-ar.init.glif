@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ngoeh-ar.init" format="1">
+  <advance width="332"/>
+  <unicode hex="FB9C"/>
+  <outline>
+    <component base="twodotshorizontalabove-ar" xOffset="-122" yOffset="471"/>
+    <component base="comp.kafbar-ar" xOffset="-10" yOffset="22"/>
+    <component base="kaf-ar.init"/>
+    <contour>
+      <point x="199.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="10.0" y="552.0" type="move" name="kafbar"/>
+    </contour>
+    <contour>
+      <point x="267.0" y="571.0" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="7.0" y="941.0" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

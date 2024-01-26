@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="choChang-thai" format="1">
+  <advance width="643"/>
+  <unicode hex="0E0A"/>
+  <outline>
+    <contour>
+      <point x="331" y="-12" type="curve" smooth="yes"/>
+      <point x="448" y="-12"/>
+      <point x="537" y="60"/>
+      <point x="537" y="200" type="curve" smooth="yes"/>
+      <point x="537" y="299"/>
+      <point x="506" y="387"/>
+      <point x="430" y="399" type="curve"/>
+      <point x="430" y="404" type="line"/>
+      <point x="490" y="413"/>
+      <point x="541" y="439"/>
+      <point x="541" y="510" type="curve" smooth="yes" name="hr01"/>
+      <point x="541" y="563" type="line"/>
+      <point x="461" y="563" type="line"/>
+      <point x="461" y="507" type="line" smooth="yes"/>
+      <point x="461" y="446"/>
+      <point x="426" y="420"/>
+      <point x="369" y="420" type="curve" smooth="yes"/>
+      <point x="356" y="420" type="line"/>
+      <point x="356" y="360" type="line"/>
+      <point x="369" y="360" type="line" smooth="yes"/>
+      <point x="424" y="360"/>
+      <point x="452" y="317"/>
+      <point x="452" y="234" type="curve" smooth="yes" name="hr02"/>
+      <point x="452" y="166" type="line" smooth="yes"/>
+      <point x="452" y="86"/>
+      <point x="406" y="48"/>
+      <point x="331" y="48" type="curve" smooth="yes"/>
+      <point x="256" y="48"/>
+      <point x="216" y="93"/>
+      <point x="216" y="156" type="curve" smooth="yes"/>
+      <point x="216" y="169" type="line" smooth="yes"/>
+      <point x="216" y="218"/>
+      <point x="239" y="251"/>
+      <point x="275" y="292" type="curve" smooth="yes"/>
+      <point x="313" y="336"/>
+      <point x="334" y="369"/>
+      <point x="334" y="426" type="curve" smooth="yes"/>
+      <point x="334" y="505"/>
+      <point x="279" y="558"/>
+      <point x="179" y="558" type="curve" smooth="yes"/>
+      <point x="82" y="558"/>
+      <point x="27" y="496"/>
+      <point x="27" y="429" type="curve" smooth="yes"/>
+      <point x="27" y="373"/>
+      <point x="60" y="334"/>
+      <point x="117" y="334" type="curve" smooth="yes"/>
+      <point x="174" y="334"/>
+      <point x="207" y="373"/>
+      <point x="207" y="419" type="curve" smooth="yes" name="hr03"/>
+      <point x="207" y="465"/>
+      <point x="174" y="493"/>
+      <point x="130" y="493" type="curve" smooth="yes"/>
+      <point x="124" y="493"/>
+      <point x="119" y="492"/>
+      <point x="114" y="491" type="curve"/>
+      <point x="112" y="496" type="line"/>
+      <point x="126" y="501"/>
+      <point x="144" y="504"/>
+      <point x="165" y="504" type="curve" smooth="yes"/>
+      <point x="227" y="504"/>
+      <point x="264" y="478"/>
+      <point x="264" y="423" type="curve" smooth="yes"/>
+      <point x="264" y="378"/>
+      <point x="243" y="349"/>
+      <point x="205" y="305" type="curve" smooth="yes"/>
+      <point x="164" y="258"/>
+      <point x="136" y="222"/>
+      <point x="136" y="156" type="curve" smooth="yes" name="hr04"/>
+      <point x="136" y="54"/>
+      <point x="214" y="-12"/>
+    </contour>
+    <contour>
+      <point x="119" y="375" type="curve" smooth="yes"/>
+      <point x="93" y="375"/>
+      <point x="76" y="393"/>
+      <point x="76" y="421" type="curve" smooth="yes"/>
+      <point x="76" y="449"/>
+      <point x="93" y="467"/>
+      <point x="119" y="467" type="curve" smooth="yes"/>
+      <point x="145" y="467"/>
+      <point x="162" y="449"/>
+      <point x="162" y="421" type="curve" smooth="yes" name="hr05"/>
+      <point x="162" y="393"/>
+      <point x="145" y="375"/>
+    </contour>
+    <contour>
+      <point x="532.0" y="0.0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="334.0" y="558.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="532.0" y="600.0" type="move" name="topright"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.type-invaders.name.final</key>
+      <string>uni0E0A</string>
+      <key>com.type-invaders.name.production</key>
+      <string>choChang-thai</string>
+    </dict>
+  </lib>
+</glyph>

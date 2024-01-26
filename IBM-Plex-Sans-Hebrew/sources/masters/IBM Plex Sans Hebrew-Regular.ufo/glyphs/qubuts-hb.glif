@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qubuts-hb" format="1">
+  <advance width="0"/>
+  <unicode hex="05BB"/>
+  <outline>
+    <contour>
+      <point x="-42" y="-140" type="curve" smooth="yes"/>
+      <point x="-13" y="-140"/>
+      <point x="0" y="-124"/>
+      <point x="0" y="-100" type="curve" smooth="yes"/>
+      <point x="0" y="-91" type="line" smooth="yes"/>
+      <point x="0" y="-67"/>
+      <point x="-13" y="-51"/>
+      <point x="-42" y="-51" type="curve" smooth="yes"/>
+      <point x="-71" y="-51"/>
+      <point x="-84" y="-67"/>
+      <point x="-84" y="-91" type="curve" smooth="yes"/>
+      <point x="-84" y="-100" type="line" smooth="yes"/>
+      <point x="-84" y="-124"/>
+      <point x="-71" y="-140"/>
+    </contour>
+    <contour>
+      <point x="36" y="-227" type="curve" smooth="yes" name="hr01"/>
+      <point x="65" y="-227"/>
+      <point x="78" y="-211"/>
+      <point x="78" y="-187" type="curve" smooth="yes"/>
+      <point x="78" y="-178" type="line" smooth="yes"/>
+      <point x="78" y="-154"/>
+      <point x="65" y="-138"/>
+      <point x="36" y="-138" type="curve" smooth="yes"/>
+      <point x="7" y="-138"/>
+      <point x="-6" y="-154"/>
+      <point x="-6" y="-178" type="curve" smooth="yes"/>
+      <point x="-6" y="-187" type="line" smooth="yes"/>
+      <point x="-6" y="-211"/>
+      <point x="7" y="-227"/>
+    </contour>
+    <contour>
+      <point x="114" y="-314" type="curve" smooth="yes" name="hr02"/>
+      <point x="143" y="-314"/>
+      <point x="156" y="-298"/>
+      <point x="156" y="-274" type="curve" smooth="yes"/>
+      <point x="156" y="-265" type="line" smooth="yes"/>
+      <point x="156" y="-241"/>
+      <point x="143" y="-225"/>
+      <point x="114" y="-225" type="curve" smooth="yes"/>
+      <point x="85" y="-225"/>
+      <point x="72" y="-241"/>
+      <point x="72" y="-265" type="curve" smooth="yes"/>
+      <point x="72" y="-274" type="line" smooth="yes"/>
+      <point x="72" y="-298"/>
+      <point x="85" y="-314"/>
+    </contour>
+    <contour>
+      <point x="0.0" y="0.0" type="move" name="_bottom_hebr"/>
+    </contour>
+  </outline>
+</glyph>
