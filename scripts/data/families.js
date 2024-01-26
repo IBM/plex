@@ -1,6 +1,5 @@
 const koreanUnicodeRanges = require('./unicodes/korean');
 const japaneseUnicodeRanges = require('./unicodes/japanese');
-const traditionalChineseUnicodeRanges = require('./unicodes/traditional-chinese');
 
 const families = [
   {
@@ -73,14 +72,6 @@ const families = [
     hinted: true,
     hasItalic: false,
     unicodes: japaneseUnicodeRanges.map(({ type }) => type),
-  },
-  {
-    type: 'Sans TC',
-    name: 'IBM Plex Sans TC',
-    ownStyleSheet: true,
-    hinted: true,
-    hasItalic: false,
-    unicodes: traditionalChineseUnicodeRanges.map(({ type }) => type),
   },
 ];
 
