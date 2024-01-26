@@ -13,14 +13,3 @@ dist
 /deploy-preview
 /tmp
 .env
-
-# Source files
-# https://github.com/IBM/plex/issues/554
-/sources
-/instances
-/masters
-*.glif
-*.glyphs
-*.vfb
-*.designspace
-*.ufo

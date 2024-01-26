@@ -2,26 +2,23 @@
 
 To release a new version of plex, the following steps can be taken:
 
-## Set up
+## Setup
 
-1. Open the plex repo folder in finder
+1. Clone and open the plex repo folder in finder
 1. Create a new release branch with the version to be released `release/v6.x.x`
 1. Ensure you're using the correct version of node by running `nvm use`
 1. Run `yarn` to install
-   1.. Run `yarn build` to build
+2. Run `yarn build` to build
 
 ## Gather new files
 
 1. Download the new/updated source files from box and open in a second finder window
 1. Unzip the new source files
    1. Observe the file structure. The structure within box does not always map 1:1 to the structure of the repository.
-   1. Keep the existing .zip files - they will be used at the end of the release to be uploaded as release assets.
 
 ## Copy/replace files
 
-1. With the two finder windows open, drag and drop or copy and paste the new versions from Box into the repo source folder structure.
-   1. Only copy over the `IBM-Plex-{family}/fonts`
-   1. Do not copy over `IBM-Plex-{family}/sources` as these are not tracked in GitHub or included in the repository. They are included later as release assets in the GitHub release.
+1. Open two finder windows and drag and drop or copy and paste the new versions into the repo folder structure.
 1. When presented with the prompt to skip, stop, or replace - choose "Replace" and check "Apply to All"
    1. ![image](https://user-images.githubusercontent.com/3360588/168936511-5e0f8003-6670-4c63-a782-96365953765b.png)
 1. Repeat the previous steps one by one for each family - sans, serif, mono, etc.
@@ -38,7 +35,6 @@ To release a new version of plex, the following steps can be taken:
 ## Create release PR
 
 1. Commit and push changes
-1. Do not add or commit the `IBM-Plex-{family}/sources` folders. These are in the gitignore. They are too large to be hosted on GitHub. They are instead included as release assets within the .zip file of each family.
 1. Make a PR titled "Release v6.x.x"
 
 ## Release
@@ -55,18 +51,11 @@ Once the PR has been approved and merged, you can follow these steps to release:
    1. This can take a while as it's uploading the large amount of source files.
 1. Once finished, make sure the release is present at https://www.npmjs.com/package/@ibm/plex
 1. Run `git push --tags`
-
-### Create the GitHub Release
-
 1. Make a new release on GitHub for the new tag that was created for the release.
 1. Copy over changelog from the box folder
    1. This file contains the entire changelog since the initial release, so remove everything except the most recent change(s) included in this release.
 1. Check the box to open a discussion for this release
 1. In Finder, within the `/zip` directory, select all the `.zip` files. Drag them from Finder to the GitHub release page to upload the assets to the release. These files are large and the upload will take some time.
-1. In the original files downloaded from BlueMonday from Box, select all the original `.zip` files for each family, and upload these assets to the release as well.
-   1. The `IBM-Plex-{family}/sources` folders are not tracked in GitHub as the files are too large. Uploading these `.zip` files ensures the `sources/instances` and `sources/masters` files are included as release assets only.
-1. The final list of release assets should look like this:
-   1. TODO: paste screenshot here
 1. Save/publish the GitHub release
 
 ## Close related issues
