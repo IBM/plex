@@ -24,3 +24,7 @@ dist
 *.vfb
 *.designspace
 *.ufo
+
+# Packages
+packages/*/css
+packages/*/scss

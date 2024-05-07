@@ -57,15 +57,14 @@ const createFontFace = (family, weight, unicode = {}) => {
   const local = `local('${localFileName}'),
     local('${localPostscriptName}')`;
 
-  const fontFileRoot = root.split(' ').join('-');
   const urls = {
-    woff: `#{$font-prefix}/IBM-Plex-${fontFileRoot}/fonts/complete/woff/${
+    woff: `#{$font-prefix}/fonts/complete/woff/${
       family.hinted ? 'hinted/' : ''
     }${fontFileName}.woff`,
-    woff2Split: `#{$font-prefix}/IBM-Plex-${fontFileRoot}/fonts/split/woff2/${
+    woff2Split: `#{$font-prefix}/fonts/split/woff2/${
       family.hinted ? 'hinted/' : ''
     }${fontFileName}.woff2`,
-    woff2Complete: `#{$font-prefix}/IBM-Plex-${fontFileRoot}/fonts/complete/woff2/${
+    woff2Complete: `#{$font-prefix}/fonts/complete/woff2/${
       family.hinted ? 'hinted/' : ''
     }${fontFileName}.woff2`,
   };

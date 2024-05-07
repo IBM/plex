@@ -1,6 +1,7 @@
 const sass = require('sass');
 const fs = require('fs-extra');
-const families = require('./data/families');
+
+const familiesData = JSON.parse(fs.readFileSync('scripts/families.json')).data;
 
 const compile = (file, output) => {
   const { css: expandedCss } = sass.renderSync({ file });
@@ -13,16 +14,12 @@ const compile = (file, output) => {
   fs.outputFileSync(`${output}.min.css`, minifiedCss);
 };
 
-compile('scss/ibm-plex.scss', 'css/ibm-plex');
+familiesData.forEach(family => {
 
-// Compile CJK/split families separately from core bundle
-families
-  .filter(family => family.ownStyleSheet)
-  .forEach(font => {
-    const inputFile = `scss/${font.type
-      .replace(/\s/g, '-')
-      .toLowerCase()}/index.scss`;
-    const output = `css/${font.name.replace(/\s/g, '-').toLowerCase()}`;
+  const inputFile = `packages/${family.packageName}/scss/index.scss`;
+  const output = `packages/${family.packageName}/css/${family.name.replace(/\s/g, '-').toLowerCase()}`;
 
-    compile(inputFile, output);
-  });
+  compile(inputFile, output);
+});
+
+fs.unlinkSync('scripts/families.json');

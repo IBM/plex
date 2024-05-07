@@ -1,8 +1,3 @@
-/**
- * `scripts/export-css.js` is used to help generate all the sass files that we
- * need for each font family, supported weight, and unicode range.
- */
-
 const fs = require('fs-extra');
 const path = require('path');
 
