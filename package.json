@@ -14,7 +14,7 @@
     "telemetry.yml"
   ],
   "scripts": {
-    "clean": "rimraf css scss deploy-preview",
+    "clean": "rimraf css scss zip deploy-preview",
     "build": "node runner",
     "clean:families": "node ./scripts/clean-families.js",
     "build:output": "yarn clean && yarn clean:families && yarn build:scss && yarn build:css && yarn build:deploy-preview",
