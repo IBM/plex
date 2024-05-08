@@ -8,5 +8,11 @@
     "url": "https://github.com/ibm/plex/issues"
   },
   "files": [
-  ]
+    "css",
+    "scss",
+    "fonts"
+  ],
+  "scripts": {
+    "build": "cd ../ && yarn build --families=plex-sans-condensed"
+  }
 }
