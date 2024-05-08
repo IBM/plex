@@ -13,6 +13,9 @@
   "files": [
     "telemetry.yml"
   ],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "clean": "rimraf css scss zip deploy-preview",
     "build": "node runner",
