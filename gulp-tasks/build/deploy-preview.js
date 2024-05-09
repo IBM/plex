@@ -10,7 +10,6 @@
 'use strict';
 
 const gulp = require('gulp');
-const del = require('del');
 const config = require('../config');
 const { globSync } = require('glob');
 const inject = require('gulp-inject');
