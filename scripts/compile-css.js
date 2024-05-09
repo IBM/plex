@@ -1,7 +1,8 @@
 const sass = require('sass');
 const fs = require('fs-extra');
+const families = require('./data/families');
 
-const familiesData = JSON.parse(fs.readFileSync('scripts/families.json')).data;
+const familiesData = process.env.npm_package_config_family ? families.filter(({ packageName }) => { return packageName === process.env.npm_package_config_family }) : families;
 
 const compile = (file, output) => {
   const { css: expandedCss } = sass.renderSync({ file });
@@ -21,5 +22,3 @@ familiesData.forEach(family => {
 
   compile(inputFile, output);
 });
-
-fs.unlinkSync('scripts/families.json');

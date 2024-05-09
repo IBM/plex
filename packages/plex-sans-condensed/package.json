@@ -12,7 +12,10 @@
     "scss",
     "fonts"
   ],
+  "config": {
+    "family": "plex-sans-condensed"
+  },
   "scripts": {
-    "build": "cd ../ && yarn build --families=plex-sans-condensed"
+    "build": "cd ../ && yarn build"
   }
 }

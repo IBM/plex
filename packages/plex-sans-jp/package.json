@@ -12,7 +12,10 @@
     "scss",
     "fonts"
   ],
+  "config": {
+    "family": "plex-sans-jp"
+  },
   "scripts": {
-    "build": "cd ../ && yarn build --families=plex-sans-jp"
+    "build": "cd ../ && yarn build"
   }
 }

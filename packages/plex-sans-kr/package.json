@@ -12,7 +12,10 @@
     "scss",
     "fonts"
   ],
+  "config": {
+    "family": "plex-sans-kr"
+  },
   "scripts": {
-    "build": "cd ../ && yarn build --families=plex-sans-kr"
+    "build": "cd ../ && yarn build"
   }
 }

@@ -75,6 +75,11 @@ const writeWebFiles = () => {
     fs.copySync(`packages/${name}/scss`, `${OUTPUT_DIRECTORY}/Web/${name}/scss`);
     fs.copySync('LICENSE.txt', `${OUTPUT_DIRECTORY}/Web/${name}/LICENSE.txt`);
     fs.copySync('CHANGELOG.md', `${OUTPUT_DIRECTORY}/Web/${name}/CHANGELOG.md`);
+
+    fs.ensureDirSync(`${OUTPUT_DIRECTORY}/ibm-${name}`);
+    fs.copySync(`packages/${name}/fonts`, `${OUTPUT_DIRECTORY}/ibm-${name}/fonts`);
+    fs.copySync('LICENSE.txt', `${OUTPUT_DIRECTORY}/ibm-${name}/LICENSE.txt`);
+
   });
 }
 

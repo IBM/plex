@@ -12,7 +12,10 @@
     "scss",
     "fonts"
   ],
+  "config": {
+    "family": "plex-sans-hebrew"
+  },
   "scripts": {
-    "build": "cd ../ && yarn build --families=plex-sans-hebrew"
+    "build": "cd ../ && yarn build"
   }
 }

@@ -12,7 +12,10 @@
     "scss",
     "fonts"
   ],
+  "config": {
+    "family": "plex-mono"
+  },
   "scripts": {
-    "build": "cd ../ && yarn build --families=plex-mono"
+    "build": "cd ../ && yarn build"
   }
 }

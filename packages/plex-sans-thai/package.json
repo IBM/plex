@@ -12,7 +12,10 @@
     "scss",
     "fonts"
   ],
+  "config": {
+    "family": "plex-sans-thai"
+  },
   "scripts": {
-    "build": "cd ../ && yarn build --families=plex-sans-thai"
+    "build": "cd ../ && yarn build"
   }
 }

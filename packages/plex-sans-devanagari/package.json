@@ -12,7 +12,10 @@
     "scss",
     "fonts"
   ],
+  "config": {
+    "family": "plex-sans-devanagari"
+  },
   "scripts": {
-    "build": "cd ../ && yarn build --families=plex-sans-devanagari"
+    "build": "cd ../ && yarn build"
   }
 }

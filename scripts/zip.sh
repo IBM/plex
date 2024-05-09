@@ -1,4 +1,2 @@
 cd zip
-zip -qr OpenType.zip OpenType
-zip -qr TrueType.zip TrueType
-zip -qr Web.zip Web
+for i in */; do zip -qr "${i%/}.zip" "$i"; done

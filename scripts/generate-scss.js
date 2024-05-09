@@ -9,8 +9,9 @@ const path = require('path');
 const { formatFilename, createFontFace } = require('./tools');
 const unicodes = require('./data/unicodes');
 const weights = require('./data/weights');
+const families = require('./data/families');
 
-const familiesData = JSON.parse(fs.readFileSync('scripts/families.json')).data;
+const familiesData = process.env.npm_package_config_family ? families.filter(({ packageName }) => { return packageName === process.env.npm_package_config_family }) : families;
 
 /**
  * The general flow for this is to iterate through families, weights, and

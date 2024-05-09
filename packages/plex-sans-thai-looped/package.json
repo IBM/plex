@@ -12,7 +12,10 @@
     "scss",
     "fonts"
   ],
+  "config": {
+    "family": "plex-sans-thai-looped"
+  },
   "scripts": {
-    "build": "cd ../ && yarn build --families=plex-sans-thai-looped"
+    "build": "cd ../ && yarn build"
   }
 }
