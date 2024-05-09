@@ -10,7 +10,6 @@
 'use strict';
 
 require('./gulp-tasks/build');
-require('./gulp-tasks/clean');
 
 process.once('SIGINT', () => {
   process.exit(0);

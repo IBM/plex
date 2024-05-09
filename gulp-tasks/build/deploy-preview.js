@@ -10,6 +10,7 @@
 'use strict';
 
 const gulp = require('gulp');
+const del = require('del');
 const config = require('../config');
 const { globSync } = require('glob');
 const inject = require('gulp-inject');
@@ -153,13 +154,21 @@ function _copyCss(done) {
  *
  * @returns {*} gulp stream
  */
-function _copyFonts() {
+function _copyFonts(done) {
 
   console.log("Copy fonts");
 
-  return gulp
-    .src(['packages/**/fonts/**/*.*'])
-    .pipe(gulp.dest(config.deployPreviewAssets));
+  const tasks = _LIST_PACKAGES.map(({ path, family }) => {
+
+    return () => gulp
+      .src([`packages/${family}/fonts/**/*.*`])
+      .pipe(gulp.dest([`${config.deployPreviewAssets}/${family}/fonts`]));
+  });
+
+  return gulp.series(...tasks, (seriesDone) => {
+    seriesDone();
+    done();
+  })(); 
 }
 
 gulp.task('build:deploy-preview', gulp.series(_copyTest, _copyFonts, _copyCss, _injectHtml));
