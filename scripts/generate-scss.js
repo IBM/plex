@@ -128,13 +128,7 @@ const filesToWrite = familiesData
   })
   .join('\n');
 
-  return [
-    ...files,
-    {
-      filename,
-      content: `$font-prefix: '..' !default;\n${content}`,
-    },
-  ];
+  return files;
 })
 .reduce((acc, array) => acc.concat(array));
 

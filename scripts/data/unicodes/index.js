@@ -113,7 +113,7 @@ const unicodes = [
   },
   {
     type: 'Devanagari',
-    characters: ['U+0900–097F'],
+    characters: ['U+0900-097F'],
   },
   ...korean,
   ...japanese,

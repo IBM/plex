@@ -25,6 +25,7 @@
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
     "build:deploy-preview": "gulp build:deploy-preview",
+    "unicodes": "node ./scripts/parse-unicodes.js",
     "preview": "rimraf deploy-preview dist .parcel-cache && yarn build:deploy-preview && yarn parcel:serve",
     "parcel:serve": "parcel serve ./deploy-preview/index.html",
     "serve": "parcel ./deploy-preview/index.html",

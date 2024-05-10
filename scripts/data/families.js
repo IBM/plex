@@ -1,5 +1,6 @@
 const koreanUnicodeRanges = require('./unicodes/korean');
 const japaneseUnicodeRanges = require('./unicodes/japanese');
+const chinesetcUnicoreRanges = require('./unicodes/chinesetc');
 
 const families = [
   {
@@ -82,6 +83,14 @@ const families = [
     hasItalic: false,
     unicodes: japaneseUnicodeRanges.map(({ type }) => type),
   },
+  {
+    type: 'Sans TC',
+    name: 'IBM Plex Sans TC',
+    packageName: 'plex-sans-tc',
+    hinted: true,
+    hasItalic: false,
+    unicodes: chinesetcUnicoreRanges.map(({ type }) => type),
+  }
 ];
 
 module.exports = families;

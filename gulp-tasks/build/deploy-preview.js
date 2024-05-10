@@ -40,8 +40,9 @@ function _listPackages() {
  * Transform family name map
  */
 const _transformFamilyMap = {
-  "jp": "JP",
-  "kr": "KR"
+  jp: "JP",
+  kr: "KR",
+  tc: "TC"
 }
 
 function _transformFamilyName(family) {
