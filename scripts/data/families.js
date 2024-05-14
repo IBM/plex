@@ -90,7 +90,15 @@ const families = [
     hinted: true,
     hasItalic: false,
     unicodes: chinesetcUnicoreRanges.map(({ type }) => type),
-  }
+  },
+  {
+    type: 'Math',
+    name: 'IBM Plex Math',
+    packageName: 'plex-math',
+    hasItalic: false,
+    unicodes: [],
+    weights: ['Regular'],
+  },
 ];
 
 module.exports = families;

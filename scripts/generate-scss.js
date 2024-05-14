@@ -28,13 +28,17 @@ const filesToWrite = familiesData
   const output_dir = path.resolve(__dirname, `../packages/${family.packageName}/scss`);
   familiesData[index].output_dir = output_dir;
 
-  // Don't generate scss if the font doesn't have italic weights
+  // Don't generate scss if the font doesn't have italic weights / existing weights
   const filteredWeights = weights.filter(weight => {
 
     const italicWeight = weight.variant === 'Italic' || weight.type === 'Italic';
 
     if (italicWeight) {
       return family.hasItalic;
+    }
+
+    if (family.weights) {
+      return family.weights.includes(weight.type);
     }
 
     return true;
@@ -113,20 +117,20 @@ const filesToWrite = familiesData
   // If a family is split from the core stylesheet, we don't use the underscore
   // since it isn't a partial
 
-  const fontFileRoot = family.preferredName || family.type;
+  //const fontFileRoot = family.preferredName || family.type;
 
-  const filename = `${output_dir}/${fontFileRoot.toLowerCase()
+  /*const filename = `${output_dir}/${fontFileRoot.toLowerCase()
   .split(' ')
-  .join('-')}/_index.scss`;
+  .join('-')}/_index.scss`;*/
 
-  const content = files
+  /*const content = files
   .filter(file => file.weight)
   .map(({ weight }) => {
         
     const importPath = formatFilename([weight.type, weight.variant]);
     return `@import '${importPath}/index';`;
   })
-  .join('\n');
+  .join('\n');*/
 
   return files;
 })
@@ -148,8 +152,11 @@ familiesData.forEach(family => {
     const italicWeight = weight.variant === 'Italic' || weight.type === 'Italic';
 
     if (italicWeight) {
-
       return family.hasItalic;
+    }
+
+    if (family.weights) {
+      return family.weights.includes(weight.type);
     }
 
     return true;
