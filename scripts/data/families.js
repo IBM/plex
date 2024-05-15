@@ -1,6 +1,6 @@
 const koreanUnicodeRanges = require('./unicodes/korean');
 const japaneseUnicodeRanges = require('./unicodes/japanese');
-const chinesetcUnicoreRanges = require('./unicodes/chinesetc');
+const chinesetcUnicodeRanges = require('./unicodes/chinesetc');
 
 const families = [
   {
@@ -89,7 +89,7 @@ const families = [
     packageName: 'plex-sans-tc',
     hinted: true,
     hasItalic: false,
-    unicodes: chinesetcUnicoreRanges.map(({ type }) => type),
+    unicodes: chinesetcUnicodeRanges.map(({ type }) => type),
   },
   {
     type: 'Math',
