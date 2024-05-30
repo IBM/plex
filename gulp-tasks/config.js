@@ -10,6 +10,6 @@
 module.exports = {
   cssSrc: 'css',
   testSrc: 'test',
-  deployPreviewPath: 'deploy-preview',
-  deployPreviewAssets: 'deploy-preview/assets',
+  deployPreviewPath: 'public',
+  deployPreviewAssets: 'public/assets',
 };

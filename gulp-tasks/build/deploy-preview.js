@@ -55,7 +55,7 @@ function _transformFamilyName(family) {
 }
 
 /**
- * Copies test file to the deploy-preview folder
+ * Copies test file to the public folder
  *
  * @returns {*} gulp stream
  */
@@ -69,7 +69,7 @@ function _copyTest() {
 }
 
 /**
- * Injects used CSS files into deploy-preview index file
+ * Injects used CSS files into public index file
  * 
  * @returns {*} gulp stream
  */
@@ -101,7 +101,7 @@ function _injectHtml() {
       gulp.src(injectCss, { read: false }), {
         transform: function(filepath) {
           
-          return `<link rel="stylesheet" href="${filepath.replace("/deploy-preview/", "")}" />`;
+          return `<link rel="stylesheet" href="${filepath.replace("/public/", "")}" />`;
         }
       }
     ))
@@ -171,4 +171,16 @@ function _copyFonts(done) {
   })(); 
 }
 
-gulp.task('build:deploy-preview', gulp.series(_copyTest, _copyFonts, _copyCss, _injectHtml));
+/**
+ * Copies preview node file to the public folder
+ *
+ * @returns {*} gulp stream
+ */
+function _copyPreview() {
+
+  return gulp
+    .src(["scripts/preview.js"])
+    .pipe(gulp.dest(config.deployPreviewPath));
+}
+
+gulp.task('build:deploy-preview', gulp.series(_copyTest, _copyFonts, _copyCss, _injectHtml, _copyPreview));

@@ -18,7 +18,7 @@
     "packages/*"
   ],
   "scripts": {
-    "clean": "rimraf deploy-preview zip dist",
+    "clean": "rimraf public zip dist",
     "clean:family": "node ./scripts/clean.js",
     "build": "yarn clean:family && yarn build:scss && yarn build:css",
     "build:zip": "rimraf zip && yarn build && node ./scripts/prepare-zip.js && sh scripts/zip.sh",
@@ -26,15 +26,15 @@
     "build:scss": "node ./scripts/generate-scss.js",
     "build:deploy-preview": "gulp build:deploy-preview",
     "unicodes": "node ./scripts/parse-unicodes.js",
-    "preview": "rimraf deploy-preview dist .parcel-cache && yarn build:deploy-preview && yarn parcel:serve",
-    "parcel:serve": "parcel serve ./deploy-preview/index.html",
-    "serve": "parcel ./deploy-preview/index.html",
+    "preview": "rimraf public dist .parcel-cache && yarn build:deploy-preview && node ./public/preview.js",
+    "parcel:serve": "parcel serve ./public/index.html",
+    "serve": "parcel ./public/index.html",
     "postinstall": "ibmtelemetry --config=telemetry.yml",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "husky install && yarn build",
-    "test:e2e:local": "start-server-and-test 'http-server -c-1 deploy-preview --silent' 8080 'percy exec --config cypress/.percy.json -- cypress run --config-file cypress/cypress.json'",
-    "test:e2e:local:no-percy": "start-server-and-test 'http-server -c-1 deploy-preview --silent' 8080 'cypress run --config-file cypress/cypress.json'"
+    "test:e2e:local": "start-server-and-test 'http-server -c-1 public --silent' 8080 'percy exec --config cypress/.percy.json -- cypress run --config-file cypress/cypress.json'",
+    "test:e2e:local:no-percy": "start-server-and-test 'http-server -c-1 public --silent' 8080 'cypress run --config-file cypress/cypress.json'"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
@@ -65,7 +65,8 @@
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2",
     "sass": "^1.77.2",
-    "start-server-and-test": "^1.14.0"
+    "start-server-and-test": "^1.14.0",
+    "server":"^1.0.39"
   },
   "prettier": {
     "printWidth": 80,
