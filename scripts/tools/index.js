@@ -28,8 +28,9 @@ const createTools = (unicodes) => {
 
   if (unicodes) {
 
-    fileContent += `@use '../unicodes/' as unicodes;\n\n`;
-    fileContent += `@function get-range($name) {\n\t@if map.has-key(unicodes.$ranges, $name) {\n\t\t@return map.get(unicodes.$ranges, $name);\n\t}\n\t@error 'Unable to find range with the name: #{$name}';\n}\n`;
+    fileContent += `@use "sass:string";\n@use '../unicodes/' as unicodes;\n\n`;
+    fileContent += `@function get-range($name) {\n\t@if map.has-key(unicodes.$ranges, $name) {\n\t\t@return map.get(unicodes.$ranges, $name);\n\t}\n\t@error 'Unable to find range with the name: #{$name}';\n}\n\n`;
+    fileContent += `@function split-range($name) {\n\t$index: string.index($name, '-');\n\t@if $index != null {\n\t\t@return string.slice($name, $index + 1);\n\t}\n\t@return $name;\n}\n`;
   }
 
   fileContent += `\n@function enabled($font-weights, $weight) {\n\t@if map.has-key($font-weights, $weight) {\n\t\t@return map.get($font-weights, $weight);\n\t}\n\t@return false;\n}`;
@@ -181,7 +182,7 @@ const creatWeightScss = (weight, family, unicodes, dir) => {
     fileContent += `\t\t\tfont-family: '${family.name}';\n`;
     fileContent += `\t\t\tfont-style: ${weight.properties.fontStyle};\n`;
     fileContent += `\t\t\tfont-weight: ${weight.properties.fontWeight};\n`;
-    fileContent += `\t\t\tsrc: local('${localFileName}'), local('${localPostscriptName}'), url('${urls.woff2Split}') format('woff2');\n`;
+    fileContent += `\t\t\tsrc: local('${localFileName}'), local('${localPostscriptName}'), url('${urls.woff2Split.replace('-#{$unicode-range}', '-#{tools.split-range($unicode-range)}')}') format('woff2');\n`;
     fileContent += `\t\t\tunicode-range: tools.get-range($unicode-range);\n`;
     fileContent += `\t\t}\t}\n}`;
   }
