@@ -74,10 +74,13 @@ familiesData.forEach((family, index) => {
     });
 
     // Generate temporary scss file for css generation
-    const temporaryScssFileContent = createTemporaryScss();
-    filesToWrite.push({
-      filename: `${output_dir}/css.scss`,
-      content: temporaryScssFileContent
+    const temporaryScssFiles = createTemporaryScss();
+    temporaryScssFiles.forEach(({ filename, content }) => {
+
+      filesToWrite.push({
+        filename: `${output_dir}/${filename}`,
+        content
+      });
     });
 
     // Generate partial scss files for weights

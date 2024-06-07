@@ -4,6 +4,7 @@ const families = require('./data/families');
 
 const familiesData = process.env.npm_package_config_family ? families.filter(({ packageName }) => { return packageName === process.env.npm_package_config_family }) : families;
 
+
 const compile = (file, output) => {
 
   const { css: expandedCss } = sass.compile(file);
@@ -20,8 +21,12 @@ const compile = (file, output) => {
 
 familiesData.forEach(family => {
 
-  const inputFile = `packages/${family.packageName}/scss/css.scss`;
-  const output = `packages/${family.packageName}/css/${family.name.replace(/\s/g, '-').toLowerCase()}`;
+  const inputFileAll = `packages/${family.packageName}/scss/css-all.scss`;
+  const outputAll = `packages/${family.packageName}/css/${family.name.replace(/\s/g, '-').toLowerCase()}-all`;
 
-  compile(inputFile, output);
+  const inputFileDefault = `packages/${family.packageName}/scss/css-default.scss`;
+  const outputDefault = `packages/${family.packageName}/css/${family.name.replace(/\s/g, '-').toLowerCase()}-default`;
+
+  compile(inputFileAll, outputAll);
+  compile(inputFileDefault, outputDefault);
 });

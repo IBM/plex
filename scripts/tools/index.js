@@ -102,9 +102,13 @@ exports.createEntryScss = createEntryScss;
  */
 const createTemporaryScss = () => {
 
-  let fileContent = `@use './index.scss' as family;\n@include family.all();`;
-
-  return fileContent;
+  return [{
+    filename: 'css-all.scss',
+    content: `@use './index.scss' as family;\n@include family.all();`
+  }, {
+    filename: 'css-default.scss',
+    content: `@use './index.scss' as family;\n@include family.default();`
+  }];
 }
 
 exports.createTemporaryScss = createTemporaryScss;
