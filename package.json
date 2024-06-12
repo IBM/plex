@@ -1,7 +1,8 @@
 {
   "name": "@ibm/plex",
+  "private": true,
   "description": "The package of IBM’s typeface, IBM Plex",
-  "version": "6.4.0",
+  "version": "0.0.0",
   "repository": "https://github.com/ibm/plex.git",
   "license": "OFL-1.1",
   "keywords": [
@@ -11,44 +12,31 @@
     "url": "https://github.com/ibm/plex/issues"
   },
   "files": [
-    "css",
-    "variants",
-    "examples",
-    "scss",
-    "IBM-Plex-*/**/woff2",
-    "IBM-Plex-*/**/woff",
-    "!IBM-Plex-Sans-KR/fonts/hinted/**/woff2",
-    "!IBM-Plex-Sans-KR/fonts/hinted/**/woff",
-    "!IBM-Plex-Sans-JP/fonts/hinted/**/woff2",
-    "!IBM-Plex-Sans-JP/fonts/hinted/**/woff",
     "telemetry.yml"
   ],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "clean": "rimraf css scss deploy-preview",
-    "build": "yarn clean && yarn build:scss && yarn build:css && yarn build:deploy-preview",
-    "build:zip": "yarn build && node ./scripts/prepare-zip.js && sh scripts/zip.sh",
+    "clean": "rimraf public zip dist",
+    "clean:family": "node ./scripts/clean.js",
+    "build": "yarn clean:family && yarn build:scss && yarn build:css",
+    "build:zip": "rimraf zip && yarn build && node ./scripts/prepare-zip.js && sh scripts/zip.sh && node ./scripts/clean-zip.js",
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
     "build:deploy-preview": "gulp build:deploy-preview",
-    "test": "parcel serve ./deploy-preview/index.html",
+    "unicodes": "node ./scripts/parse-unicodes.js",
+    "preview": "rimraf public dist && yarn build:deploy-preview && node ./public/preview.js",
     "postinstall": "ibmtelemetry --config=telemetry.yml",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "husky install && yarn build",
-    "test:e2e:local": "start-server-and-test 'http-server -c-1 deploy-preview --silent' 8080 'percy exec --config cypress/.percy.json -- cypress run --config-file cypress/cypress.json'",
-    "test:e2e:local:no-percy": "start-server-and-test 'http-server -c-1 deploy-preview --silent' 8080 'cypress run --config-file cypress/cypress.json'"
+    "test:e2e:local": "start-server-and-test 'http-server -c-1 public --silent' 8080 'percy exec --config cypress/.percy.json -- cypress run --config-file cypress/cypress.json'",
+    "test:e2e:local:no-percy": "start-server-and-test 'http-server -c-1 public --silent' 8080 'cypress run --config-file cypress/cypress.json'"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^17.0.0",
-    "@parcel/optimizer-cssnano": "2.0.0-nightly.611",
-    "@parcel/optimizer-htmlnano": "2.0.0-nightly.611",
-    "@parcel/packager-css": "2.0.0-nightly.611",
-    "@parcel/packager-html": "2.0.0-nightly.611",
-    "@parcel/transformer-css": "2.0.0-nightly.611",
-    "@parcel/transformer-html": "2.0.0-nightly.611",
-    "@parcel/transformer-postcss": "2.0.0-nightly.611",
-    "@parcel/transformer-posthtml": "2.0.0-nightly.611",
     "@percy/cli": "^1.2.1",
     "@percy/cypress": "^3.1.1",
     "archiver": "^3.0.0",
@@ -56,14 +44,17 @@
     "del": "^6.1.1",
     "fs-extra": "^7.0.0",
     "gulp": "^4.0.2",
+    "gulp-inject": "^5.0.5",
+    "gulp-replace": "^1.1.4",
     "http-server": "^14.1.0",
     "husky": "^7.0.4",
+    "lerna": "^8.1.2",
     "lint-staged": "^12.4.2",
-    "parcel": "^2.0.0-beta.1",
     "postcss": "^8.2.1",
     "prettier": "^1.7.4",
     "rimraf": "^2.6.2",
-    "sass": "^1.51.0",
+    "sass": "^1.77.2",
+    "server": "^1.0.39",
     "start-server-and-test": "^1.14.0"
   },
   "prettier": {
@@ -90,6 +81,8 @@
     "needs": "*"
   },
   "dependencies": {
-    "@ibm/telemetry-js": "^1.5.1"
+    "@ibm/telemetry-js": "^1.5.1",
+    "glob": "^10.3.12",
+    "minimist": "^1.2.8"
   }
 }

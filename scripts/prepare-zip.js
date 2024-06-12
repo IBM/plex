@@ -1,32 +1,28 @@
-/**
- * `scripts/export-css.js` is used to help generate all the sass files that we
- * need for each font family, supported weight, and unicode range.
- */
-
 const fs = require('fs-extra');
 const path = require('path');
 
 const OUTPUT_DIRECTORY = path.resolve(__dirname, '../zip');
 
 const getFontDirectories = () => {
-  const files = fs.readdirSync(path.resolve('.'));
+  const files = fs.readdirSync(path.resolve('./packages/'));
 
   // Don't build Variable fonts for now
   return files.filter(
-    name => name.includes('IBM-Plex') && !name.includes('Variable')
+    name => name.includes('plex-') && !name.includes('variable')
   );
 };
 
 const globDirectory = type => {
+
   const folders = [];
 
   const files = getFontDirectories();
   files.forEach(name => {
     const list = [];
 
-    let p = `${name}/fonts/complete/${type}`;
+    let p = `packages/${name}/fonts/complete/${type}`;
     if (!fs.pathExistsSync(p)) {
-      p = `${name}/fonts/${type}`;
+      p = `packages/${name}/fonts/${type}`;
     }
 
     if (!fs.pathExistsSync(p)) {
@@ -50,7 +46,7 @@ const globDirectory = type => {
   });
 
   return folders;
-};
+}
 
 const writeZip = (typeName, folders) => {
   fs.ensureDirSync(OUTPUT_DIRECTORY);
@@ -68,23 +64,24 @@ const writeZip = (typeName, folders) => {
 };
 
 const writeWebFiles = () => {
+
   fs.ensureDirSync(`${OUTPUT_DIRECTORY}/Web`);
+
   const files = getFontDirectories();
   files.forEach(name => {
     fs.ensureDirSync(`${OUTPUT_DIRECTORY}/Web/${name}`);
-    fs.copySync(`${name}/fonts`, `${OUTPUT_DIRECTORY}/Web/${name}/fonts`);
+    fs.copySync(`packages/${name}/fonts`, `${OUTPUT_DIRECTORY}/Web/${name}/fonts`);
+    fs.copySync(`packages/${name}/css`, `${OUTPUT_DIRECTORY}/Web/${name}/css`);
+    fs.copySync(`packages/${name}/scss`, `${OUTPUT_DIRECTORY}/Web/${name}/scss`);
+    fs.copySync('LICENSE.txt', `${OUTPUT_DIRECTORY}/Web/${name}/LICENSE.txt`);
+    fs.copySync('CHANGELOG.md', `${OUTPUT_DIRECTORY}/Web/${name}/CHANGELOG.md`);
+
+    fs.ensureDirSync(`${OUTPUT_DIRECTORY}/ibm-${name}`);
+    fs.copySync(`packages/${name}/fonts`, `${OUTPUT_DIRECTORY}/ibm-${name}/fonts`);
+    fs.copySync('LICENSE.txt', `${OUTPUT_DIRECTORY}/ibm-${name}/LICENSE.txt`);
+
   });
-
-  fs.copySync('css', `${OUTPUT_DIRECTORY}/Web/css`);
-  fs.copySync('scss', `${OUTPUT_DIRECTORY}/Web/scss`);
-  fs.copySync('LICENSE.txt', `${OUTPUT_DIRECTORY}/Web/LICENSE.txt`);
-  fs.copySync('CHANGELOG.md', `${OUTPUT_DIRECTORY}/Web/CHANGELOG.md`);
-};
-
-const zip = target => {
-  const f = target;
-  return `zip -qr ${f}.zip ${f}\n`;
-};
+}
 
 writeZip('OpenType', globDirectory('otf'));
 

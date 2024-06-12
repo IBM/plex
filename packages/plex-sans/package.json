@@ -1,0 +1,21 @@
+{
+  "name": "@ibm/plex-sans",
+  "description": "The package of IBM’s typeface, IBM Plex Sans",
+  "version": "0.0.0",
+  "repository": "https://github.com/ibm/plex.git",
+  "license": "OFL-1.1",
+  "bugs": {
+    "url": "https://github.com/ibm/plex/issues"
+  },
+  "files": [
+    "css",
+    "scss",
+    "fonts"
+  ],
+  "config": {
+    "family": "plex-sans"
+  },
+  "scripts": {
+    "build": "cd ../ && yarn build"
+  }
+}

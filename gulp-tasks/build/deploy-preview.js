@@ -11,15 +11,118 @@
 
 const gulp = require('gulp');
 const config = require('../config');
+const { globSync } = require('glob');
+const inject = require('gulp-inject');
+const replace = require('gulp-replace');
+
+const _LIST_PACKAGES = [];
 
 /**
- * Copies test file to the deploy-preview folder
+ * List packages with output CSS
+ */
+function _listPackages() {
+
+  const listPackages = globSync(`packages/**/${config.cssSrc}`);
+
+  listPackages.length && listPackages.forEach(( path ) => {
+
+    const [, family] = path.split("/");
+
+    _LIST_PACKAGES.push({
+      family, 
+      path,
+      cssPath: `assets/${family}/${config.cssSrc}/ibm-${family}.css`
+    });
+  });
+}
+
+/**
+ * Transform family name map
+ */
+const _transformFamilyMap = {
+  jp: "JP",
+  kr: "KR",
+  tc: "TC"
+}
+
+function _transformFamilyName(family) {
+
+  return "IBM " + family.split("-").map((part) => {
+
+    return _transformFamilyMap[part] ? _transformFamilyMap[part] : part.charAt(0).toUpperCase() + part.slice(1);
+
+  }).join(" ");
+}
+
+/**
+ * Copies test file to the public folder
  *
  * @returns {*} gulp stream
  */
 function _copyTest() {
+
+  _listPackages();
+
   return gulp
-    .src([config.testSrc])
+    .src([config.testSrc + "/index.html"])
+    .pipe(gulp.dest(config.deployPreviewPath));
+}
+
+/**
+ * Injects used CSS files into public index file
+ * 
+ * @returns {*} gulp stream
+ */
+function _injectHtml() {
+
+  console.log("Inject html");
+
+  const injectCss = [];
+  const injectStyle = [];
+  const injectOptions = [
+    `<option value="select" selected>Select family</option>`
+  ];
+  
+  _LIST_PACKAGES.forEach(({ family, cssPath }) => {
+
+    injectCss.push(`${config.deployPreviewPath}/${cssPath}`);
+
+    injectStyle.push(`div[data-family="${family}"] { display: initial; }`);
+
+    const transformedFamily = _transformFamilyName(family);
+
+    injectOptions.push(`<option value="${transformedFamily}">${transformedFamily}</option>`)
+  });
+
+  const target = gulp.src(`${config.deployPreviewPath}/index.html`);
+
+  return target
+    .pipe(inject(
+      gulp.src(injectCss, { read: false }), {
+        transform: function(filepath) {
+          
+          return `<link rel="stylesheet" href="${filepath.replace("/public/", "")}" />`;
+        }
+      }
+    ))
+    .pipe(inject(
+      gulp.src(config.testSrc + "/inject.txt", { ready: false }), {
+        starttag: '<!-- inject:style -->',
+        transform: function() {
+
+          return `<style>\n${injectStyle.join('\n')}\n</style>`;
+        }
+      }
+    ))
+    .pipe(inject(
+      gulp.src(config.testSrc + "/inject.txt", { ready: false }), {
+        starttag: '<!-- inject:options -->',
+        transform: function() {
+
+          return injectOptions.join('\n');
+        }
+      }
+    ))
     .pipe(gulp.dest(config.deployPreviewPath));
 }
 
@@ -28,10 +131,22 @@ function _copyTest() {
  *
  * @returns {*} gulp stream
  */
-function _copyCss() {
-  return gulp
-    .src([`${config.cssSrc}/**/*`])
-    .pipe(gulp.dest(config.deployPreviewCSSPath));
+function _copyCss(done) {
+
+  console.log("Copy css");
+
+  const tasks = _LIST_PACKAGES.map(({ path, family }) => {
+
+    return () => gulp
+      .src([path + "/*.*", "!" + path + "/*.min.*"])
+      .pipe(replace(/local\(.*?\),/gm, ""))
+      .pipe(gulp.dest([`${config.deployPreviewAssets}/${family}/${config.cssSrc}`]));
+  });
+
+  return gulp.series(...tasks, (seriesDone) => {
+    seriesDone();
+    done();
+  })(); 
 }
 
 /**
@@ -39,13 +154,33 @@ function _copyCss() {
  *
  * @returns {*} gulp stream
  */
-function _copyFonts() {
-  return gulp
-    .src(['IBM-Plex-*/fonts/**/*.*'])
-    .pipe(gulp.dest(config.deployPreviewFontsPath));
+function _copyFonts(done) {
+
+  console.log("Copy fonts");
+
+  const tasks = _LIST_PACKAGES.map(({ path, family }) => {
+
+    return () => gulp
+      .src([`packages/${family}/fonts/**/*.*`])
+      .pipe(gulp.dest([`${config.deployPreviewAssets}/${family}/fonts`]));
+  });
+
+  return gulp.series(...tasks, (seriesDone) => {
+    seriesDone();
+    done();
+  })(); 
 }
 
-gulp.task('build:deploy-preview:test', _copyTest);
-gulp.task('build:deploy-preview:css', _copyCss);
-gulp.task('build:deploy-preview:fonts', _copyFonts);
-gulp.task('build:deploy-preview', gulp.parallel('build:deploy-preview:test','build:deploy-preview:css','build:deploy-preview:fonts'));
+/**
+ * Copies preview node file to the public folder
+ *
+ * @returns {*} gulp stream
+ */
+function _copyPreview() {
+
+  return gulp
+    .src(["scripts/preview.js"])
+    .pipe(gulp.dest(config.deployPreviewPath));
+}
+
+gulp.task('build:deploy-preview', gulp.series(_copyTest, _copyFonts, _copyCss, _injectHtml, _copyPreview));

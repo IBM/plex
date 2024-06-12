@@ -1,0 +1,10 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "command": {
+    "version": {
+      "message": "chore(release): %s"
+    }
+  },
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
+}

@@ -1,5 +1,6 @@
 const korean = require('./korean');
 const japanese = require('./japanese');
+const chinesetc = require('./chinesetc');
 
 const unicodes = [
   {
@@ -113,10 +114,11 @@ const unicodes = [
   },
   {
     type: 'Devanagari',
-    characters: ['U+0900–097F'],
+    characters: ['U+0900-097F'],
   },
   ...korean,
   ...japanese,
+  ...chinesetc
 ];
 
 module.exports = unicodes;

@@ -11,8 +11,10 @@ zip
 .idea
 dist
 /deploy-preview
+/public
 /tmp
 .env
+/.nx
 
 # Source files
 # https://github.com/IBM/plex/issues/554
@@ -24,3 +26,7 @@ dist
 *.vfb
 *.designspace
 *.ufo
+
+# Packages
+packages/*/css
+packages/*/scss

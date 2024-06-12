@@ -9,8 +9,7 @@
 
 module.exports = {
   cssSrc: 'css',
-  testSrc: 'test/*.*',
-  deployPreviewPath: 'deploy-preview',
-  deployPreviewCSSPath: 'deploy-preview/assets/css',
-  deployPreviewFontsPath: 'deploy-preview/assets',
+  testSrc: 'test',
+  deployPreviewPath: 'public',
+  deployPreviewAssets: 'public/assets',
 };

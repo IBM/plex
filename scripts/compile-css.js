@@ -2,27 +2,31 @@ const sass = require('sass');
 const fs = require('fs-extra');
 const families = require('./data/families');
 
+const familiesData = process.env.npm_package_config_family ? families.filter(({ packageName }) => { return packageName === process.env.npm_package_config_family }) : families;
+
+
 const compile = (file, output) => {
-  const { css: expandedCss } = sass.renderSync({ file });
+
+  const { css: expandedCss } = sass.compile(file);
+  
   fs.outputFileSync(`${output}.css`, expandedCss);
 
-  const { css: minifiedCss } = sass.renderSync({
-    file,
-    outputStyle: 'compressed',
+  const { css: minifiedCss } = sass.compile(file, {
+    style: 'compressed',
   });
   fs.outputFileSync(`${output}.min.css`, minifiedCss);
+
+  fs.removeSync(file);
 };
 
-compile('scss/ibm-plex.scss', 'css/ibm-plex');
+familiesData.forEach(family => {
 
-// Compile CJK/split families separately from core bundle
-families
-  .filter(family => family.ownStyleSheet)
-  .forEach(font => {
-    const inputFile = `scss/${font.type
-      .replace(/\s/g, '-')
-      .toLowerCase()}/index.scss`;
-    const output = `css/${font.name.replace(/\s/g, '-').toLowerCase()}`;
+  const inputFileAll = `packages/${family.packageName}/scss/css-all.scss`;
+  const outputAll = `packages/${family.packageName}/css/${family.name.replace(/\s/g, '-').toLowerCase()}-all`;
 
-    compile(inputFile, output);
-  });
+  const inputFileDefault = `packages/${family.packageName}/scss/css-default.scss`;
+  const outputDefault = `packages/${family.packageName}/css/${family.name.replace(/\s/g, '-').toLowerCase()}-default`;
+
+  compile(inputFileAll, outputAll);
+  compile(inputFileDefault, outputDefault);
+});
