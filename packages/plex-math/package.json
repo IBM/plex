@@ -1,7 +1,7 @@
 {
   "name": "@ibm/plex-math",
   "description": "The package of IBM’s typeface, IBM Plex Math",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "repository": "https://github.com/ibm/plex.git",
   "license": "OFL-1.1",
   "bugs": {
@@ -12,10 +12,14 @@
     "scss",
     "fonts"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "config": {
     "family": "plex-math"
   },
   "scripts": {
     "build": "cd ../ && yarn build"
-  }
+  },
+  "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900"
 }
