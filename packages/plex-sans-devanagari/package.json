@@ -10,7 +10,8 @@
   "files": [
     "css",
     "scss",
-    "fonts"
+    "fonts/complete/woff/*",
+    "fonts/complete/woff2/*"
   ],
   "publishConfig": {
     "access": "public"

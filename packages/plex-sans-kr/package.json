@@ -10,7 +10,9 @@
   "files": [
     "css",
     "scss",
-    "fonts"
+    "fonts/complete/woff/hinted/*",
+    "fonts/complete/woff2/hinted/*",
+    "fonts/split/woff2/hinted/*"
   ],
   "publishConfig": {
     "access": "public"
