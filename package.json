@@ -25,6 +25,7 @@
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
     "build:deploy-preview": "gulp build:deploy-preview",
+    "build:cdn": "rimraf cdn && yarn build && node ./scripts/generate-cdn.js",
     "unicodes": "node ./scripts/parse-unicodes.js",
     "preview": "rimraf public dist && yarn build:deploy-preview && node ./public/preview.js",
     "postinstall": "ibmtelemetry --config=telemetry.yml",
