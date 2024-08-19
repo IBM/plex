@@ -129,6 +129,4 @@ const { css: minifiedCss } = sass.compile(`cdn/temp/plex-full.scss`, {
 
 fs.outputFileSync(`cdn/plex-full.css`, minifiedCss);
 
-fs.copySync('scripts/load-non-latin-plex.js', 'cdn/load-non-latin-plex.js');
-
 fs.removeSync('cdn/temp');

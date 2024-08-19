@@ -22,6 +22,8 @@ jobs:
         with:
           node-version: '20.x'
           cache: 'yarn'
+      - name: Install dependencies
+        run: yarn install
       - name: Build cdn folder
         run: yarn build:cdn
       - uses: jakejarvis/s3-sync-action@master

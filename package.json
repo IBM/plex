@@ -25,13 +25,13 @@
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
     "build:deploy-preview": "gulp build:deploy-preview",
-    "build:cdn": "rimraf cdn && yarn build && node ./scripts/generate-cdn.js",
+    "build:cdn" : "rimraf cdn && yarn build && node ./scripts/generate-cdn.js && webpack --config webpack.config.js",
     "unicodes": "node ./scripts/parse-unicodes.js",
     "preview": "rimraf public dist && yarn build:deploy-preview && node ./public/preview.js",
     "postinstall": "ibmtelemetry --config=telemetry.yml",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
-    "prepare": "husky install && yarn build",
+    "prepare": "husky install",
     "test:e2e:local": "start-server-and-test 'http-server -c-1 public --silent' 8080 'percy exec --config cypress/.percy.json -- cypress run --config-file cypress/cypress.json'",
     "test:e2e:local:no-percy": "start-server-and-test 'http-server -c-1 public --silent' 8080 'cypress run --config-file cypress/cypress.json'"
   },
@@ -56,7 +56,9 @@
     "rimraf": "^2.6.2",
     "sass": "^1.77.2",
     "server": "^1.0.39",
-    "start-server-and-test": "^1.14.0"
+    "start-server-and-test": "^1.14.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
   },
   "prettier": {
     "printWidth": 80,
@@ -84,6 +86,8 @@
   "dependencies": {
     "@ibm/telemetry-js": "^1.5.1",
     "glob": "^10.3.12",
-    "minimist": "^1.2.8"
+    "minimist": "^1.2.8",
+    "@carbon/ibmdotcom-services": "^2.11.1",
+    "@carbon/ibmdotcom-utilities": "^2.11.1"
   }
 }
