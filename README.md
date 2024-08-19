@@ -8,11 +8,11 @@
 
 Meet the IBM Plex® typeface, our corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.
 
-We designed the IBM Plex typeface carefully to both meet our needs as a global tech company and express who we are as IBMers. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Discover more about our development of the [IBM Plex typeface](https://www.ibm.com/plex/).
+We designed the IBM Plex typeface carefully to meet our needs as a global tech company and express who we are as IBMers. It took two years and a lot of work to get here, but today, we have a signature typeface we’re proud of and excited to share with the world. Discover more about our development of the [IBM Plex typeface](https://www.ibm.com/plex/).
 
 The IBM Plex typeface is an open-source project available for download and various uses following the Open Font License (OFL). The IBM Plex family comes in Sans, Serif, Mono, and Sans Condensed, all with Roman and true italics. Plex has been designed to work well in user interface (UI) environments and other mediums. This project provides all source files and multiple formats to support most typographical situations. Currently, IBM Plex Sans supports extended Latin, Arabic, Chinese (Traditional), Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean, and Thai. The Chinese SC (Simplified) version will be available in Q4 2024.
 
-Additionally, we have introduced IBM Plex® Math. This highly anticipated release includes over 600 new glyphs, covering a wide range of mathematical symbols (such as alphanumeric, double-struck, fraktur, operators, and script), icons, arrows, Greek letters, phonetics, technical and geometric shapes — making it one of the most complete math fonts available today. IBM Plex Math is a game-changer, providing a fresh and comprehensive alternative to STIX and Microsoft’s Cambria. Its compatibility with IBM Plex Serif Regular makes it an ideal choice for IBM researchers and mathematicians.
+Additionally, we have introduced IBM Plex® Math. This highly anticipated release includes over 5,000 new glyphs, covering a wide range of mathematical symbols such as alphanumeric, double-struck, Fraktur, operators, script, icons, arrows, Greek letters, phonetics, technical and geometric shapes — making it one of the most complete math fonts available today. IBM Plex Math provides a fresh and comprehensive alternative to STIX and Microsoft’s Cambria. Its compatibility with IBM Plex Serif Regular makes it an ideal choice for IBM researchers and mathematicians.
 
 Thanks for trying the IBM Plex typeface! We hope you like it.
 
