@@ -31,7 +31,7 @@ function _listPackages() {
     _LIST_PACKAGES.push({
       family, 
       path,
-      cssPath: `assets/${family}/${config.cssSrc}/ibm-${family}.css`
+      cssPath: `assets/${family}/${config.cssSrc}/ibm-${family}-all.css`
     });
   });
 }

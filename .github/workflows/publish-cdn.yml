@@ -2,7 +2,9 @@ name: Publish CDN artifacts (versioned) to S3
 run-name: Publish CDN artifacts - versioned by @${{ github.actor }}
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 concurrency:
   group: deploy-${{ github.ref }}
