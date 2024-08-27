@@ -4,7 +4,6 @@ const families = require('./data/families');
 
 const familiesData = process.env.npm_package_config_family ? families.filter(({ packageName }) => { return packageName === process.env.npm_package_config_family }) : families;
 
-
 const compile = (file, output) => {
 
   const { css: expandedCss } = sass.compile(file);

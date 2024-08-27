@@ -8,9 +8,11 @@
 
 Meet the IBM Plex® typeface, our corporate typeface family. It’s global, it’s versatile and it’s distinctly IBM.
 
-We designed the IBM Plex typeface carefully to both meet our needs as a global tech company and express who we are as IBMers. It took two years and a lot of work to get here, but today we have a signature typeface we’re proud and excited to share with the world. Discover more about our development of the [IBM Plex typeface](https://www.ibm.com/plex/).
+We designed the IBM Plex typeface carefully to meet our needs as a global tech company and express who we are as IBMers. It took two years and a lot of work to get here, but today, we have a signature typeface we’re proud of and excited to share with the world. Discover more about our development of the [IBM Plex typeface](https://www.ibm.com/plex/).
 
-The IBM Plex typeface is an open-source project available for download and various uses following the Open Font License (OFL). The IBM Plex family comes in Sans, Serif, Mono, and Sans Condensed, all with roman and true italics. Plex has been designed to work well in user interface (UI) environments and other mediums. This project provides all source files and multiple formats to support most typographical situations. Currently, IBM Plex Sans supports Extended Latin, Arabic, Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean and Thai. Traditional and Simpliﬁed Chinese versions will be available in Q1 2024, and IBM Plex Math in Q2 2024.
+The IBM Plex typeface is an open-source project available for download and various uses following the Open Font License (OFL). The IBM Plex family comes in Sans, Serif, Mono, and Sans Condensed, all with Roman and true italics. Plex has been designed to work well in user interface (UI) environments and other mediums. This project provides all source files and multiple formats to support most typographical situations. Currently, IBM Plex Sans supports extended Latin, Arabic, Chinese (Traditional), Cyrillic, Devanagari, Greek, Hebrew, Japanese, Korean, and Thai. The Chinese SC (Simplified) version will be available in Q4 2024.
+
+Additionally, we have introduced IBM Plex® Math. This highly anticipated release includes over 5,000 new glyphs, covering a wide range of mathematical symbols such as alphanumeric, double-struck, Fraktur, operators, script, icons, arrows, Greek letters, phonetics, technical and geometric shapes — making it one of the most complete math fonts available today. IBM Plex Math provides a fresh and comprehensive alternative to STIX and Microsoft’s Cambria. Its compatibility with IBM Plex Serif Regular makes it an ideal choice for IBM researchers and mathematicians.
 
 Thanks for trying the IBM Plex typeface! We hope you like it.
 
@@ -18,56 +20,24 @@ Thanks for trying the IBM Plex typeface! We hope you like it.
 
 Please download the latest zip files from our [releases page](https://github.com/IBM/plex/releases) for installation.
 
-## Web usage
+### IBM Plex typeface packages
 
-This project contains the following for web development:
+| Package           | NPM |
+|------------------ |-----|
+| IBM Plex Math     | [@ibm/plex-math](https://www.npmjs.com/package/@ibm/plex-math) |
+| IBM Plex Mono     | [@ibm/plex-mono](https://www.npmjs.com/package/@ibm/plex-mono) |
+| IBM Plex Sans     | [@ibm/plex-sans](https://www.npmjs.com/package/@ibm/plex-sans) |
+| IBM Plex Sans Arabic  | [@ibm/plex-sans-arabic](https://www.npmjs.com/package/@ibm/plex-sans-arabic) |
+| IBM Plex Sans Condensed  | [@ibm/plex-sans-condensed](https://www.npmjs.com/package/@ibm/plex-sans-condensed) |
+| IBM Plex Sans Devanagari  | [@ibm/plex-sans-devanagari](https://www.npmjs.com/package/@ibm/plex-sans-devanagari) |
+| IBM Plex Sans Hebrew  | [@ibm/plex-sans-hebrew](https://www.npmjs.com/package/@ibm/plex-sans-hebrew) |
+| IBM Plex Sans Japanese  | [@ibm/plex-sans-jp](https://www.npmjs.com/package/@ibm/plex-sans-jp) |
+| IBM Plex Sans Korean  | [@ibm/plex-sans-kr](https://www.npmjs.com/package/@ibm/plex-sans-kr) |
+| IBM Plex Sans Chinese TC  | [@ibm/plex-sans-tc](https://www.npmjs.com/package/@ibm/plex-sans-tc) |
+| IBM Plex Sans Thai  | [@ibm/plex-sans-thai](https://www.npmjs.com/package/@ibm/plex-sans-thai) |
+| IBM Plex Sans Thai Looped  | [@ibm/plex-sans-thai-looped](https://www.npmjs.com/package/@ibm/plex-sans-thai-looped) |
+| IBM Plex Serif  | [@ibm/plex-serif](https://www.npmjs.com/package/@ibm/plex-serif) |
 
-- IBM Plex .woff2 and .woff files split into performant subsets of glyphs
-- Cascading style sheet (CSS) code to reference any weight, variant and split
-- Sassy CSS (SCSS) code partials down to each weight, variant and split
-
-We also include whole .woff2, .woff, and .eot files. However, we recommend using the prescribed split strategy for performance.
-
-Installation with [Node.js®](https://nodejs.org/en/):
-
-```
-npm install @ibm/plex
-```
-
-Manually installing the files for web development can be done by downloading the latest web zip from our [releases page](https://github.com/IBM/plex/releases).
-
-Developers using the CSS files should keep the directory structure as is, so the font files will be found. If you’re importing the SCSS files, you can set the path of the font files beforehand by declaring this variable:
-
-```scss
-$font-prefix: './custom/path/to/font/files';
-@import 'node_modules/@ibm/plex/scss/ibm-plex.scss';
-```
-
-**Note:**
-If your app, for example, React, can’t import the font because it’s outside the ‘src’ directory, then edit the imported ‘ibm-plex.scss’ file and change the relative path prefix there as follows:
-`$font-prefix: '' !default;`
-
-Below are the `font-family` rules for the family:
-
-```css
-font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono',
-  'Bitstream Vera Sans Mono', Courier, monospace;
-font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
-font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
-font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
-```
-
-## Building the fonts from source
-
-### Requirements
-
-To build binary font files from .vfb sources you need [FontLab Studio 5](https://www.fontlab.com). A Python script called `IBM Plex export FDK files.py` is necessary to export the proper files from FontLab. To run this script you’ll need the [RoboFab](https://github.com/robofab-developers/robofab) library. Also, you’ll need to have the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO) installed.
-
-### Building one font
-
-From FontLab, run `IBM Plex export FDK files.py` and choose a directory with IBM Plex .vfb source files. The script will create a new directory called `fdk` in which subdirectories are created for every font. The script will export files necessary for AFDKO in those subdirectories.
-
-Subsequently, OpenType Fonts (OTFs) or TrueType Fonts (TTFs) can be generated from the command line using `makeotf`, which is part of the AFDKO toolset. Information and usage instructions can be found by executing `makeotf -h`.
 
 ## <picture><source height="20" width="20" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-dark.svg"><source height="20" width="20" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-light.svg"><img height="20" width="20" alt="IBM Telemetry" src="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-light.svg"></picture> IBM Telemetry
 
