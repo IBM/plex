@@ -11,7 +11,11 @@
     "access": "public"
   },
   "files": [
-    "fonts"
+    "fonts",
+    "telemetry.yml"
   ],
+  "scripts": {
+    "postinstall": "ibmtelemetry --config=telemetry.yml"
+  },
   "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900"
 }

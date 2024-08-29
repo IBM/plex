@@ -12,7 +12,8 @@
     "scss",
     "fonts/complete/woff/hinted/*",
     "fonts/complete/woff2/hinted/*",
-    "fonts/split/woff2/hinted/*"
+    "fonts/split/woff2/hinted/*",
+    "telemetry.yml"
   ],
   "publishConfig": {
     "access": "public"
@@ -21,7 +22,8 @@
     "family": "plex-sans-kr"
   },
   "scripts": {
-    "build": "cd ../ && yarn build"
+    "build": "cd ../ && yarn build",
+    "postinstall": "ibmtelemetry --config=telemetry.yml"
   },
   "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900"
 }

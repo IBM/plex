@@ -11,7 +11,8 @@
     "css",
     "scss",
     "fonts/complete/woff/*",
-    "fonts/complete/woff2/*"
+    "fonts/complete/woff2/*",
+    "telemetry.yml"
   ],
   "publishConfig": {
     "access": "public"
@@ -20,7 +21,8 @@
     "family": "plex-math"
   },
   "scripts": {
-    "build": "cd ../ && yarn build"
+    "build": "cd ../ && yarn build",
+    "postinstall": "ibmtelemetry --config=telemetry.yml"
   },
   "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900"
 }
