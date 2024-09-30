@@ -56,15 +56,13 @@ We provide two ways of importing weights into your project. Using `PlexMath.all(
 IBM Plex Math typeface weights map:
 
 | Weight  | Enabled by default with | PlexMath.all() | PlexMath.default() |
-|---------|-------------------------|----------------|--------------------|
+| ------- | ----------------------- | -------------- | ------------------ |
 | regular |                         | ✅             | ✅                 |
-
-
 
 Below are the `font-family` rules for the family:
 
 ```css
-font-family: 'IBM Plex Math'
+font-family: 'IBM Plex Math';
 ```
 
 ## Building the fonts from source
@@ -81,8 +79,8 @@ Subsequently, OpenType Fonts (OTFs) or TrueType Fonts (TTFs) can be generated fr
 
 ## <picture><source height="20" width="20" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-dark.svg"><source height="20" width="20" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-light.svg"><img height="20" width="20" alt="IBM Telemetry" src="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-light.svg"></picture> IBM Telemetry
 
-This package uses IBM Telemetry to collect metrics data. By installing this package as a dependency
-you are agreeing to telemetry collection. To opt out, see
-[opting out of IBM Telemetry data collection](https://github.com/ibm-telemetry/telemetry-js/tree/main#opting-out-of-ibm-telemetry-data-collection).
+This package uses IBM Telemetry to collect de-identified and anonymized metrics data. By installing
+this package as a dependency you are agreeing to telemetry collection. To opt out, see
+[Opting out of IBM Telemetry data collection](https://github.com/ibm-telemetry/telemetry-js/tree/main#opting-out-of-ibm-telemetry-data-collection).
 For more information on the data being collected, please see the
 [IBM Telemetry documentation](https://github.com/ibm-telemetry/telemetry-js/tree/main#ibm-telemetry-collection-basics).

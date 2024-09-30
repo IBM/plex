@@ -22,27 +22,18 @@ Please download the latest zip files from our [releases page](https://github.com
 
 ### IBM Plex typeface packages
 
-| Package           | NPM |
-|------------------ |-----|
-| IBM Plex Math     | [@ibm/plex-math](https://www.npmjs.com/package/@ibm/plex-math) |
-| IBM Plex Mono     | [@ibm/plex-mono](https://www.npmjs.com/package/@ibm/plex-mono) |
-| IBM Plex Sans     | [@ibm/plex-sans](https://www.npmjs.com/package/@ibm/plex-sans) |
-| IBM Plex Sans Arabic  | [@ibm/plex-sans-arabic](https://www.npmjs.com/package/@ibm/plex-sans-arabic) |
-| IBM Plex Sans Condensed  | [@ibm/plex-sans-condensed](https://www.npmjs.com/package/@ibm/plex-sans-condensed) |
-| IBM Plex Sans Devanagari  | [@ibm/plex-sans-devanagari](https://www.npmjs.com/package/@ibm/plex-sans-devanagari) |
-| IBM Plex Sans Hebrew  | [@ibm/plex-sans-hebrew](https://www.npmjs.com/package/@ibm/plex-sans-hebrew) |
-| IBM Plex Sans Japanese  | [@ibm/plex-sans-jp](https://www.npmjs.com/package/@ibm/plex-sans-jp) |
-| IBM Plex Sans Korean  | [@ibm/plex-sans-kr](https://www.npmjs.com/package/@ibm/plex-sans-kr) |
-| IBM Plex Sans Chinese TC  | [@ibm/plex-sans-tc](https://www.npmjs.com/package/@ibm/plex-sans-tc) |
-| IBM Plex Sans Thai  | [@ibm/plex-sans-thai](https://www.npmjs.com/package/@ibm/plex-sans-thai) |
-| IBM Plex Sans Thai Looped  | [@ibm/plex-sans-thai-looped](https://www.npmjs.com/package/@ibm/plex-sans-thai-looped) |
-| IBM Plex Serif  | [@ibm/plex-serif](https://www.npmjs.com/package/@ibm/plex-serif) |
-
-
-## <picture><source height="20" width="20" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-dark.svg"><source height="20" width="20" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-light.svg"><img height="20" width="20" alt="IBM Telemetry" src="https://raw.githubusercontent.com/ibm-telemetry/telemetry-js/main/docs/images/ibm-telemetry-light.svg"></picture> IBM Telemetry
-
-This package uses IBM Telemetry to collect metrics data. By installing this package as a dependency
-you are agreeing to telemetry collection. To opt out, see
-[opting out of IBM Telemetry data collection](https://github.com/ibm-telemetry/telemetry-js/tree/main#opting-out-of-ibm-telemetry-data-collection).
-For more information on the data being collected, please see the
-[IBM Telemetry documentation](https://github.com/ibm-telemetry/telemetry-js/tree/main#ibm-telemetry-collection-basics).
+| Package                   | NPM                                                                                    |
+| ------------------------- | -------------------------------------------------------------------------------------- |
+| IBM Plex Math             | [@ibm/plex-math](https://www.npmjs.com/package/@ibm/plex-math)                         |
+| IBM Plex Mono             | [@ibm/plex-mono](https://www.npmjs.com/package/@ibm/plex-mono)                         |
+| IBM Plex Sans             | [@ibm/plex-sans](https://www.npmjs.com/package/@ibm/plex-sans)                         |
+| IBM Plex Sans Arabic      | [@ibm/plex-sans-arabic](https://www.npmjs.com/package/@ibm/plex-sans-arabic)           |
+| IBM Plex Sans Condensed   | [@ibm/plex-sans-condensed](https://www.npmjs.com/package/@ibm/plex-sans-condensed)     |
+| IBM Plex Sans Devanagari  | [@ibm/plex-sans-devanagari](https://www.npmjs.com/package/@ibm/plex-sans-devanagari)   |
+| IBM Plex Sans Hebrew      | [@ibm/plex-sans-hebrew](https://www.npmjs.com/package/@ibm/plex-sans-hebrew)           |
+| IBM Plex Sans Japanese    | [@ibm/plex-sans-jp](https://www.npmjs.com/package/@ibm/plex-sans-jp)                   |
+| IBM Plex Sans Korean      | [@ibm/plex-sans-kr](https://www.npmjs.com/package/@ibm/plex-sans-kr)                   |
+| IBM Plex Sans Chinese TC  | [@ibm/plex-sans-tc](https://www.npmjs.com/package/@ibm/plex-sans-tc)                   |
+| IBM Plex Sans Thai        | [@ibm/plex-sans-thai](https://www.npmjs.com/package/@ibm/plex-sans-thai)               |
+| IBM Plex Sans Thai Looped | [@ibm/plex-sans-thai-looped](https://www.npmjs.com/package/@ibm/plex-sans-thai-looped) |
+| IBM Plex Serif            | [@ibm/plex-serif](https://www.npmjs.com/package/@ibm/plex-serif)                       |
