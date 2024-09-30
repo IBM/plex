@@ -11,9 +11,6 @@
   "bugs": {
     "url": "https://github.com/ibm/plex/issues"
   },
-  "files": [
-    "telemetry.yml"
-  ],
   "workspaces": [
     "packages/*"
   ],
@@ -25,10 +22,9 @@
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
     "build:deploy-preview": "gulp build:deploy-preview",
-    "build:cdn" : "rimraf cdn && yarn build && node ./scripts/generate-cdn.js && webpack --config webpack.config.js",
+    "build:cdn": "rimraf cdn && yarn build && node ./scripts/generate-cdn.js && webpack --config webpack.config.js",
     "unicodes": "node ./scripts/parse-unicodes.js",
     "preview": "rimraf public dist && yarn build:deploy-preview && node ./public/preview.js",
-    "postinstall": "ibmtelemetry --config=telemetry.yml",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "husky install",
@@ -84,10 +80,9 @@
     "needs": "*"
   },
   "dependencies": {
-    "@ibm/telemetry-js": "^1.5.1",
-    "glob": "^10.3.12",
-    "minimist": "^1.2.8",
     "@carbon/ibmdotcom-services": "^2.11.1",
-    "@carbon/ibmdotcom-utilities": "^2.11.1"
+    "@carbon/ibmdotcom-utilities": "^2.11.1",
+    "glob": "^10.3.12",
+    "minimist": "^1.2.8"
   }
 }
