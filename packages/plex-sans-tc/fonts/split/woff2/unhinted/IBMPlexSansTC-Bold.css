@@ -1148,7 +1148,7 @@
 	font-style: normal;
 	font-weight: 700;
 	src: local("IBM Plex Sans TC Bold"), local("IBMPlexSansTC-Bold"), url("IBMPlexSansTC-Bold-144.woff2") format("woff2");
-	unicode-range: U+2F00-2F51, U+2F63-2F64, U+2F83, U+2F8F, U+3003, U+3005-3007, U+3012, U+3021-3029, U+3038-303A, U+3041, U+3043, U+3045, U+3047, U+3049, U+3052
+	unicode-range: U+2F00-2F20, U+2F22-2F51, U+2F63-2F64, U+2F83, U+2F8F, U+3003, U+3005-3007, U+3012, U+3021-3029, U+3038-303A, U+3041, U+3043, U+3045, U+3047, U+3049, U+3052
 }
 /* Subset: 145 */
 @font-face {
@@ -1556,7 +1556,7 @@
 	font-style: normal;
 	font-weight: 700;
 	src: local("IBM Plex Sans TC Bold"), local("IBMPlexSansTC-Bold"), url("IBMPlexSansTC-Bold-195.woff2") format("woff2");
-	unicode-range: U+00A5, U+00B0, U+2022, U+2190-2191, U+2193, U+22EF, U+2500, U+2502, U+25BC, U+25C6, U+25CB, U+25CE-25CF, U+2605-2606, U+3008-3009, U+3127, U+FE30, U+FF05-FF06, U+FF0A-FF0B, U+FF10-FF15, U+FF1E
+	unicode-range: U+00A5, U+00B0, U+2022, U+2190-2191, U+2193-2195, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+22EF, U+2500, U+2502, U+25BC, U+25C6, U+25CB, U+25CE-25CF, U+2605-2606, U+2B0E-2B11, U+3008-3009, U+3127, U+FE30, U+FF05-FF06, U+FF0A-FF0B, U+FF10-FF15, U+FF1E
 }
 /* Subset: 196 */
 @font-face {
@@ -1604,7 +1604,7 @@
 	font-style: normal;
 	font-weight: 700;
 	src: local("IBM Plex Sans TC Bold"), local("IBMPlexSansTC-Bold"), url("IBMPlexSansTC-Bold-201.woff2") format("woff2");
-	unicode-range: U+0020-0022, U+0027-002A, U+002C-003B, U+003F, U+0041-005D, U+0061-007B, U+007D, U+00A0, U+00B7, U+00C9, U+00E0-00E1, U+00E8-00EA, U+00EC-00ED, U+00F2-00F3, U+00F9-00FA, U+00FC, U+0101, U+0113, U+012B, U+014D, U+016B, U+01CE, U+0300, U+1EBF, U+2013-2014, U+2122, U+3001-3002, U+FF0C, U+FF1A
+	unicode-range: U+0020-0022, U+0027-002A, U+002C-003B, U+003F, U+0041-005D, U+0061-007B, U+007D, U+00A0, U+00AE, U+00B7, U+00C9, U+00E0-00E1, U+00E8-00EA, U+00EC-00ED, U+00F2-00F3, U+00F9-00FA, U+00FC, U+0101, U+0113, U+012B, U+014D, U+016B, U+01CE, U+0300, U+1EBF, U+2013-2015, U+2122, U+24C7, U+3001-3002, U+FF0C, U+FF1A
 }
 /* Subset: 202 */
 @font-face {

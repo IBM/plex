@@ -1,6 +1,9 @@
 /**
  * `scripts/parse-unicodes.js` is used to help parse unicodes from one of the provided CSS file and output file ready to be used in unicodes folder
+ *  usage: yarn unicodes -i {LANGCODE} -p /packages/{package-name}/fonts/split/woff/hinted/{css-input-filename}.css -f {output-filename}.js
+ *  example: yarn unicodes -i TC -p /packages/plex-sans-tc/fonts/split/woff/hinted/IBMPlexSansTC-Bold.css -f chinesetc.js
  */
+
 const fs = require('fs-extra');
 const path = require('path');
 const argv = require('minimist')(process.argv.slice(2));
