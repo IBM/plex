@@ -476,7 +476,7 @@
 	font-style: normal;
 	font-weight: 200;
 	src: local("IBM Plex Sans JP ExtLt"), local("IBMPlexSansJP-ExtLt"), url("IBMPlexSansJP-ExtraLight-059.woff") format("woff");
-	unicode-range: U+00A1-00A4, U+00A6-00A7, U+00AA, U+00AC-00AD, U+00B5-00B6, U+00B8-00BA, U+00BC-00C8, U+00CA-00D5, U+00D9-00DB, U+00DD-00DF, U+00E6, U+00EE, U+00F0, U+00F5, U+00F7, U+00F9, U+00FB, U+00FE-00FF, U+0152-0153, U+0192, U+02C9, U+2011-2012, U+2016, U+2018-201A, U+201E, U+2021, U+2030, U+2033, U+20AC, U+2109-210A
+	unicode-range: U+00A1-00A4, U+00A6, U+00AA, U+00AC-00AD, U+00B5, U+00B8-00BA, U+00BC-00C8, U+00CA-00D5, U+00D9-00DB, U+00DD-00DF, U+00E6, U+00EE, U+00F0, U+00F5, U+00F9, U+00FB, U+00FE-00FF, U+0152-0153, U+0192, U+02C9, U+2011-2012, U+2016, U+2018-201A, U+201E, U+2021, U+2030, U+2033, U+20AC, U+2109-210A
 }
 /* Subset: 060 */
 @font-face {
@@ -524,7 +524,7 @@
 	font-style: normal;
 	font-weight: 200;
 	src: local("IBM Plex Sans JP ExtLt"), local("IBMPlexSansJP-ExtLt"), url("IBMPlexSansJP-ExtraLight-065.woff") format("woff");
-	unicode-range: U+00B1, U+309B, U+4E5E, U+51F1, U+5506, U+55C5, U+58CC, U+59D1, U+5C51, U+5EF7, U+6284, U+62D7, U+6689, U+673D, U+681E, U+6A2B, U+6A8E, U+6A9C, U+6D63, U+6DD1, U+70B8, U+7235, U+72DB, U+72F8, U+7560, U+7C9B, U+7CE7, U+7E1E, U+80AF, U+82EB, U+8463, U+8499, U+85DD, U+86EE, U+8A60, U+8A6E, U+8C79, U+8E87, U+8E8A, U+8F5F, U+9010, U+918D, U+9190, U+97FB, U+9AB8, U+9BAD, U+9D3B, U+9D5C, U+9DFA, U+9E93
+	unicode-range: U+309B, U+4E5E, U+51F1, U+5506, U+55C5, U+58CC, U+59D1, U+5C51, U+5EF7, U+6284, U+62D7, U+6689, U+673D, U+681E, U+6A2B, U+6A8E, U+6A9C, U+6D63, U+6DD1, U+70B8, U+7235, U+72DB, U+72F8, U+7560, U+7C9B, U+7CE7, U+7E1E, U+80AF, U+82EB, U+8463, U+8499, U+85DD, U+86EE, U+8A60, U+8A6E, U+8C79, U+8E87, U+8E8A, U+8F5F, U+9010, U+918D, U+9190, U+97FB, U+9AB8, U+9BAD, U+9D3B, U+9D5C, U+9DFA, U+9E93
 }
 /* Subset: 066 */
 @font-face {
@@ -692,7 +692,7 @@
 	font-style: normal;
 	font-weight: 200;
 	src: local("IBM Plex Sans JP ExtLt"), local("IBMPlexSansJP-ExtLt"), url("IBMPlexSansJP-ExtraLight-086.woff") format("woff");
-	unicode-range: U+0024, U+2022, U+2212, U+221F, U+2665, U+4ECF, U+5100, U+51CD, U+52D8, U+5378, U+53F6, U+5618, U+574A, U+5982, U+5996, U+5C1A, U+5E1D, U+5F84, U+609F, U+61A7, U+61F8, U+6398, U+63EE, U+6676, U+6691, U+6EB6, U+7126, U+71E5, U+7687, U+7965, U+7D17, U+80A1, U+8107, U+8266, U+85A6, U+8987, U+8CA2, U+8CAB, U+8E0A, U+9042, U+95C7, U+9810, U+98FC, U+FF52-FF54, U+FF61, U+FF77, U+FF98-FF99
+	unicode-range: U+0024, U+2022, U+221F, U+2665, U+4ECF, U+5100, U+51CD, U+52D8, U+5378, U+53F6, U+5618, U+574A, U+5982, U+5996, U+5C1A, U+5E1D, U+5F84, U+609F, U+61A7, U+61F8, U+6398, U+63EE, U+6676, U+6691, U+6EB6, U+7126, U+71E5, U+7687, U+7965, U+7D17, U+80A1, U+8107, U+8266, U+85A6, U+8987, U+8CA2, U+8CAB, U+8E0A, U+9042, U+95C7, U+9810, U+98FC, U+FF52-FF54, U+FF61, U+FF77, U+FF98-FF99
 }
 /* Subset: 087 */
 @font-face {
@@ -700,7 +700,7 @@
 	font-style: normal;
 	font-weight: 200;
 	src: local("IBM Plex Sans JP ExtLt"), local("IBMPlexSansJP-ExtLt"), url("IBMPlexSansJP-ExtraLight-087.woff") format("woff");
-	unicode-range: U+00B0, U+226A, U+2462, U+4E39, U+4FC3, U+4FD7, U+50BE, U+50DA, U+5200, U+5211, U+54F2, U+596A, U+5B22, U+5BB4, U+5D50, U+60A3, U+63FA, U+658E, U+65E8, U+6669, U+6795, U+679D, U+67A0, U+6B3A, U+6E09, U+757F, U+7CD6, U+7DBE, U+7FFB, U+83CC, U+83F1, U+840C, U+845B, U+8846, U+8972, U+8A34, U+8A50, U+8A87, U+8EDF, U+8FF0, U+90A6, U+9154, U+95A3, U+9663, U+9686, U+96C7, U+FF1B, U+FF3C, U+FF7C, U+FF8A
+	unicode-range: U+226A, U+2462, U+4E39, U+4FC3, U+4FD7, U+50BE, U+50DA, U+5200, U+5211, U+54F2, U+596A, U+5B22, U+5BB4, U+5D50, U+60A3, U+63FA, U+658E, U+65E8, U+6669, U+6795, U+679D, U+67A0, U+6B3A, U+6E09, U+757F, U+7CD6, U+7DBE, U+7FFB, U+83CC, U+83F1, U+840C, U+845B, U+8846, U+8972, U+8A34, U+8A50, U+8A87, U+8EDF, U+8FF0, U+90A6, U+9154, U+95A3, U+9663, U+9686, U+96C7, U+FF1B, U+FF3C, U+FF7C, U+FF8A
 }
 /* Subset: 088 */
 @font-face {
@@ -892,7 +892,7 @@
 	font-style: normal;
 	font-weight: 200;
 	src: local("IBM Plex Sans JP ExtLt"), local("IBMPlexSansJP-ExtLt"), url("IBMPlexSansJP-ExtraLight-111.woff") format("woff");
-	unicode-range: U+002B, U+00D7, U+300E-300F, U+4E07, U+4E8C, U+512A, U+5149, U+518D, U+5236, U+52B9, U+52D9, U+5468, U+578B, U+57FA, U+5B8C, U+5BA2, U+5C02, U+5DE5, U+5F37, U+5F62, U+623B, U+63D0, U+652F, U+672A, U+6848, U+6D41, U+7136, U+7537, U+754C, U+76F4, U+79C1, U+7BA1, U+7D44, U+7D4C, U+7DCF, U+7DDA, U+7DE8, U+82B1, U+897F, U+8CA9, U+8CFC, U+904E, U+9664, U+982D, U+9858, U+98A8, U+9A13, U+FF13, U+FF5C
+	unicode-range: U+002B, U+300E-300F, U+4E07, U+4E8C, U+512A, U+5149, U+518D, U+5236, U+52B9, U+52D9, U+5468, U+578B, U+57FA, U+5B8C, U+5BA2, U+5C02, U+5DE5, U+5F37, U+5F62, U+623B, U+63D0, U+652F, U+672A, U+6848, U+6D41, U+7136, U+7537, U+754C, U+76F4, U+79C1, U+7BA1, U+7D44, U+7D4C, U+7DCF, U+7DDA, U+7DE8, U+82B1, U+897F, U+8CA9, U+8CFC, U+904E, U+9664, U+982D, U+9858, U+98A8, U+9A13, U+FF13, U+FF5C
 }
 /* Subset: 112 */
 @font-face {
@@ -981,4 +981,12 @@
 	font-weight: 200;
 	src: local("IBM Plex Sans JP ExtLt"), local("IBMPlexSansJP-ExtLt"), url("IBMPlexSansJP-ExtraLight-122.woff") format("woff");
 	unicode-range: U+203E, U+205A, U+205D, U+2160-216B, U+2170-217B, U+217F, U+2219, U+223C, U+23A7-23A9, U+23AB-23AD, U+2B95, U+32FF
+}
+/* Subset: 123 */
+@font-face {
+	font-family: 'IBM Plex Sans JP';
+	font-style: normal;
+	font-weight: 200;
+	src: local("IBM Plex Sans JP ExtLt"), local("IBMPlexSansJP-ExtLt"), url("IBMPlexSansJP-ExtraLight-123.woff") format("woff");
+	unicode-range: U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0300-0308, U+030A-030C, U+0327-0328, U+0332, U+0336, U+2194-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+2B0E-2B11
 }
