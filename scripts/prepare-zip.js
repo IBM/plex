@@ -48,7 +48,7 @@ const globDirectory = type => {
   return folders;
 }
 
-const writeZip = (typeName, folders) => {
+/*const writeZip = (typeName, folders) => {
   fs.ensureDirSync(OUTPUT_DIRECTORY);
 
   fs.removeSync(`${OUTPUT_DIRECTORY}/${typeName}`);
@@ -61,30 +61,33 @@ const writeZip = (typeName, folders) => {
       fs.copySync(source, dest);
     });
   });
-};
+};*/
 
-const writeWebFiles = () => {
-
-  fs.ensureDirSync(`${OUTPUT_DIRECTORY}/Web`);
+const writeFiles = () => {
 
   const files = getFontDirectories();
+
   files.forEach(name => {
-    fs.ensureDirSync(`${OUTPUT_DIRECTORY}/Web/${name}`);
-    fs.copySync(`packages/${name}/fonts`, `${OUTPUT_DIRECTORY}/Web/${name}/fonts`);
-    fs.copySync(`packages/${name}/css`, `${OUTPUT_DIRECTORY}/Web/${name}/css`);
-    fs.copySync(`packages/${name}/scss`, `${OUTPUT_DIRECTORY}/Web/${name}/scss`);
-    fs.copySync('LICENSE.txt', `${OUTPUT_DIRECTORY}/Web/${name}/LICENSE.txt`);
-    fs.copySync('CHANGELOG.md', `${OUTPUT_DIRECTORY}/Web/${name}/CHANGELOG.md`);
+
+    //fs.ensureDirSync(`${OUTPUT_DIRECTORY}/Web`);
+    //fs.ensureDirSync(`${OUTPUT_DIRECTORY}/Web/${name}`);
+
+    //fs.copySync(`packages/${name}/fonts`, `${OUTPUT_DIRECTORY}/Web/${name}/fonts`);
 
     fs.ensureDirSync(`${OUTPUT_DIRECTORY}/ibm-${name}`);
+
     fs.copySync(`packages/${name}/fonts`, `${OUTPUT_DIRECTORY}/ibm-${name}/fonts`);
+
+    fs.copySync(`packages/${name}/css`, `${OUTPUT_DIRECTORY}/ibm-${name}/css`);
+    fs.copySync(`packages/${name}/scss`, `${OUTPUT_DIRECTORY}/ibm-${name}/scss`);
     fs.copySync('LICENSE.txt', `${OUTPUT_DIRECTORY}/ibm-${name}/LICENSE.txt`);
+    //fs.copySync('CHANGELOG.md', `${OUTPUT_DIRECTORY}/${name}/CHANGELOG.md`);
 
   });
 }
 
-writeZip('OpenType', globDirectory('otf'));
+//writeZip('OpenType', globDirectory('otf'));
 
-writeZip('TrueType', globDirectory('ttf'));
+//writeZip('TrueType', globDirectory('ttf'));
 
-writeWebFiles();
+writeFiles();
