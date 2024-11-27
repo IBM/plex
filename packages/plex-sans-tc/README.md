@@ -76,7 +76,7 @@ IBM Plex Sans Chinese TC typeface weights map:
 Below are the `font-family` rules for the family:
 
 ```css
-font-family: 'IBM Plex Sans KR';
+font-family: 'IBM Plex Sans TC';
 ```
 
 ## Building the fonts from source
