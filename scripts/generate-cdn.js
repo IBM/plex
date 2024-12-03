@@ -12,6 +12,7 @@ const excludedFromAllCSS = [
   'IBM Plex Sans KR',
   'IBM Plex Sans JP',
   'IBM Plex Sans TC',
+  'IBM Plex Sans SC',
   'IBM Plex Math'
 ]
 
