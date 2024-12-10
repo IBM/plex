@@ -26,25 +26,18 @@ jobs:
         run: yarn install
       - name: Build cdn folder
         run: yarn build:cdn
-      - uses: jakejarvis/s3-sync-action@be0c4ab89158cac4278689ebedd8407dd5f35a83 #v0.5.1
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4.0.2
         with:
-          args: --acl public-read --follow-symlinks
-        env:
-          AWS_S3_BUCKET: ${{ secrets.COMMON_COS_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.COMMON_COS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.COMMON_COS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.COMMON_COS_REGION }}
-          AWS_S3_ENDPOINT: https://${{ secrets.COMMON_COS_ENDPOINT }}
+          aws-access-key-id: ${{ secrets.COMMON_COS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.COMMON_COS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.COMMON_COS_REGION }}
+      - name: Sync files to S3 bucket
+        env: 
           SOURCE_DIR: 'cdn'
-          DEST_DIR: '/common/carbon/plex-test'
-      - uses: jakejarvis/s3-sync-action@be0c4ab89158cac4278689ebedd8407dd5f35a83 #v0.5.1
-        with:
-          args: --acl public-read --follow-symlinks
-        env:
-          AWS_S3_BUCKET: ${{ secrets.COMMON_COS_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.COMMON_COS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.COMMON_COS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.COMMON_COS_REGION }}
-          AWS_S3_ENDPOINT: https://${{ secrets.COMMON_COS_ENDPOINT }}
-          SOURCE_DIR: 'cdn'
-          DEST_DIR: '/common/carbon-for-ibm-dotcom/plex-test'
+          DEST_DIR_A: '/common/carbon/plex-test'
+          DEST_DIR_B: '/common/carbon-for-ibm-dotcom/plex-test'
+          AWS_S3_NAME: ${{ secrets.COMMON_COS_BUCKET }}
+        run: |
+          aws s3 sync ${{ env.SOURCE_DIR }} s3://${{ env.AWS_S3_NAME }}${{ env.DEST_DIR_A }} && aws s3 sync ${{ env.SOURCE_DIR }} s3://${{ env.AWS_S3_NAME }}${{ env.DEST_DIR_B }}
+            
