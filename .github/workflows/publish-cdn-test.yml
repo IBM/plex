@@ -26,18 +26,16 @@ jobs:
         run: yarn install
       - name: Build cdn folder
         run: yarn build:cdn
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4.0.2
-        with:
-          aws-access-key-id: ${{ secrets.COMMON_COS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.COMMON_COS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.COMMON_COS_REGION }}
-      - name: Sync files to S3 bucket
-        env: 
+      - name: Upload to S3 bucket
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.COMMON_COS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.COMMON_COS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.COMMON_COS_REGION }}
+          AWS_S3_NAME: ${{ secrets.COMMON_COS_BUCKET }}
+          AWS_S3_ENDPOINT: https://${{ secrets.COMMON_COS_ENDPOINT }}
           SOURCE_DIR: 'cdn'
           DEST_DIR_A: '/common/carbon/plex-test'
           DEST_DIR_B: '/common/carbon-for-ibm-dotcom/plex-test'
-          AWS_S3_NAME: ${{ secrets.COMMON_COS_BUCKET }}
         run: |
-          aws s3 sync ${{ env.SOURCE_DIR }} s3://${{ env.AWS_S3_NAME }}${{ env.DEST_DIR_A }} && aws s3 sync ${{ env.SOURCE_DIR }} s3://${{ env.AWS_S3_NAME }}${{ env.DEST_DIR_B }}
+          aws s3 cp ${{ env.SOURCE_DIR }} s3://${{ env.AWS_S3_NAME }}${{ env.DEST_DIR_A }} --endpoint-url ${{ env.AWS_S3_ENDPOINT }} --recursive --acl public-read --follow-symlinks &&  aws s3 cp ${{ env.SOURCE_DIR }} s3://${{ env.AWS_S3_NAME }}${{ env.DEST_DIR_B }} --endpoint-url ${{ env.AWS_S3_ENDPOINT }} --recursive --acl public-read --follow-symlinks
             
