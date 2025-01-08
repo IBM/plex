@@ -1,4 +1,4 @@
-# IBM Plex Sans Var 1.0
+# IBM Plex Sans Var 3.0
 
 ## Using pre-compiled ttf fonts
 
