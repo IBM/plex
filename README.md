@@ -38,8 +38,3 @@ Please download the latest zip files from our [releases page](https://github.com
 | IBM Plex Sans Thai        | [@ibm/plex-sans-thai](https://www.npmjs.com/package/@ibm/plex-sans-thai)               |
 | IBM Plex Sans Thai Looped | [@ibm/plex-sans-thai-looped](https://www.npmjs.com/package/@ibm/plex-sans-thai-looped) |
 | IBM Plex Serif            | [@ibm/plex-serif](https://www.npmjs.com/package/@ibm/plex-serif)                       |
-
-### Line height
-IBM Plex Sans JP, SC, and TC set the `hhea.lineGap` value to `0` to match
-CJK font conventions. Earlier versions used a large line gap which resulted in
-excessive vertical spacing.
