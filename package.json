@@ -1,0 +1,88 @@
+{
+  "name": "@ibm/plex",
+  "private": true,
+  "description": "The package of IBM’s typeface, IBM Plex",
+  "version": "0.0.0",
+  "repository": "https://github.com/ibm/plex.git",
+  "license": "OFL-1.1",
+  "keywords": [
+    "eyeglass-module"
+  ],
+  "bugs": {
+    "url": "https://github.com/ibm/plex/issues"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "rimraf public zip dist",
+    "clean:family": "node ./scripts/clean.js",
+    "build": "yarn clean:family && yarn build:scss && yarn build:css",
+    "build:zip": "rimraf zip && yarn build && node ./scripts/prepare-zip.js && sh scripts/zip.sh && node ./scripts/clean-zip.js",
+    "build:css": "node ./scripts/compile-css.js",
+    "build:scss": "node ./scripts/generate-scss.js",
+    "build:deploy-preview": "gulp build:deploy-preview",
+    "build:cdn": "rimraf cdn && yarn build && node ./scripts/generate-cdn.js && webpack --config webpack.config.js",
+    "unicodes": "node ./scripts/parse-unicodes.js",
+    "preview": "rimraf public dist && yarn build:deploy-preview && node ./public/preview.js",
+    "precommit": "lint-staged",
+    "prettier": "prettier --write \"**/*.{scss}\"",
+    "prepare": "husky install",
+    "test:e2e:local": "start-server-and-test 'http-server -c-1 public --silent' 8080 'percy exec --config cypress/.percy.json -- cypress run --config-file cypress/cypress.json'",
+    "test:e2e:local:no-percy": "start-server-and-test 'http-server -c-1 public --silent' 8080 'cypress run --config-file cypress/cypress.json'"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@percy/cli": "^1.2.1",
+    "@percy/cypress": "^3.1.1",
+    "archiver": "^3.0.0",
+    "cypress": "^9.7.0",
+    "del": "^6.1.1",
+    "fs-extra": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-inject": "^5.0.5",
+    "gulp-replace": "^1.1.4",
+    "http-server": "^14.1.0",
+    "husky": "^7.0.4",
+    "lerna": "^8.1.2",
+    "lint-staged": "^12.4.2",
+    "postcss": "^8.2.1",
+    "prettier": "^1.7.4",
+    "rimraf": "^2.6.2",
+    "sass": "^1.77.2",
+    "server": "^1.0.39",
+    "start-server-and-test": "^1.14.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": true,
+    "trailingComma": "es5"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "prettier",
+      "git add"
+    ],
+    "**/*.scss": [
+      "prettier",
+      "git add"
+    ]
+  },
+  "eyeglass": {
+    "exports": false,
+    "name": "ibm-plex",
+    "sassDir": "scss",
+    "needs": "*"
+  },
+  "dependencies": {
+    "@carbon/ibmdotcom-services": "^2.11.1",
+    "@carbon/ibmdotcom-utilities": "^2.11.1",
+    "glob": "^10.3.12",
+    "minimist": "^1.2.8"
+  }
+}

@@ -1,0 +1,15 @@
+zip
+test
+scripts
+
+# Ignore font source folders
+**/sources/**
+
+.editorconfig
+TODO.md
+.vercel
+
+dist
+.parcel-cache
+node_modules
+

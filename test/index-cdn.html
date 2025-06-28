@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="https://www.ibm.com/content/dam/adobe-cms/default-images/favicon.svg"/>
+
+  <title>Plex test</title>
+  <style>
+      body {
+          font-family: IBM Plex Sans, system;
+          font-weight: normal;
+          margin: 0;
+      }
+      h1 {
+          text-align: center;
+          margin-bottom: 0;
+      }
+      .weight-container {
+          display: flex;
+          flex-wrap: wrap;
+          max-width: 80%;
+          margin: 0 auto;
+      }
+      .weight {
+          padding: 1rem;
+          text-align: center;
+          flex-grow: 1;
+      }
+      .family {
+          position: relative;
+      }
+
+      p::before {
+          content: attr(style);
+          display: none;
+          top: -2.5em;
+          left: -50%;
+          right: 50%;
+          background: #171717;
+          padding: 0.5rem;
+          color: white;
+          width: max-content;
+          z-index: 1;
+          font-family: IBM Plex Sans;
+          font-weight: normal;
+      }
+
+      p:hover::before {
+          display: inline-block;
+          position: absolute;
+      }
+
+      #family-test {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      #plex-family-tester {
+        background: #f4f4f4;
+        box-sizing: border-box;
+        border: none;
+        outline: 0;
+        padding: 1rem;
+        resize: none;
+        width: 100%;
+        font-size: 1.6rem;
+        line-height: 1.85rem;
+      }
+  </style>
+  <!-- inject:style -->
+  <!-- endinject -->
+</head>
+<body>
+<h1>IBM Plex</h1>
+<div class="weight-container">
+  <div class="weight" style="font-weight: 100;">
+    <h2>100</h2>
+    <div class="family" data-family="plex-mono">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans-condensed">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family" data-family="plex-sans-hebrew">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family" data-family="plex-sans-arabic">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai-looped">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-devanagari">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family" data-family="plex-sans-kr">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family" data-family="plex-sans-jp">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-tc">
+      <p style="font-family: 'IBM Plex Sans TC';">你好世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-sc">
+      <p style="font-family: 'IBM Plex Sans SC';">你好世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 200;">
+    <h2>200</h2>
+    <div class="family" data-family="plex-mono">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans-condensed">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family" data-family="plex-sans-hebrew">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family" data-family="plex-sans-arabic">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai-looped">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-devanagari">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family" data-family="plex-sans-kr">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family" data-family="plex-sans-jp">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-tc">
+      <p style="font-family: 'IBM Plex Sans TC';">你好世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-sc">
+      <p style="font-family: 'IBM Plex Sans SC';">你好世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 300;">
+    <h2>300</h2>
+    <div class="family" data-family="plex-mono">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans-condensed">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family" data-family="plex-sans-hebrew">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family" data-family="plex-sans-arabic">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai-looped">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-devanagari">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family" data-family="plex-sans-kr">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family" data-family="plex-sans-jp">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-tc">
+      <p style="font-family: 'IBM Plex Sans TC';">你好世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-sc">
+      <p style="font-family: 'IBM Plex Sans SC';">你好世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 400;">
+    <h2>400</h2>
+    <div class="family" data-family="plex-mono">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans-condensed">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family" data-family="plex-sans-hebrew">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family" data-family="plex-sans-arabic">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai-looped">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-devanagari">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family" data-family="plex-sans-kr">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family" data-family="plex-sans-jp">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-tc">
+      <p style="font-family: 'IBM Plex Sans TC';">你好世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-sc">
+      <p style="font-family: 'IBM Plex Sans SC';">你好世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 450;">
+    <h2>450</h2>
+    <div class="family" data-family="plex-mono">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans-condensed">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family" data-family="plex-sans-hebrew">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family" data-family="plex-sans-arabic">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai-looped">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-devanagari">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family" data-family="plex-sans-kr">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family" data-family="plex-sans-jp">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-tc">
+      <p style="font-family: 'IBM Plex Sans TC';">你好世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-sc">
+      <p style="font-family: 'IBM Plex Sans SC';">你好世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 500;">
+    <h2>500</h2>
+    <div class="family" data-family="plex-mono">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans-condensed">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family" data-family="plex-sans-hebrew">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family" data-family="plex-sans-arabic">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai-looped">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-devanagari">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family" data-family="plex-sans-kr">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family" data-family="plex-sans-jp">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-tc">
+      <p style="font-family: 'IBM Plex Sans TC';">你好世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-sc">
+      <p style="font-family: 'IBM Plex Sans SC';">你好世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 600;">
+    <h2>600</h2>
+    <div class="family" data-family="plex-mono">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans-condensed">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family" data-family="plex-sans-hebrew">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family" data-family="plex-sans-arabic">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai-looped">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-devanagari">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family" data-family="plex-sans-kr">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family" data-family="plex-sans-jp">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-tc">
+      <p style="font-family: 'IBM Plex Sans TC';">你好世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-sc">
+      <p style="font-family: 'IBM Plex Sans SC';">你好世界</p>
+    </div>
+  </div>
+  <div class="weight" style="font-weight: 700;">
+    <h2>700</h2>
+    <div class="family" data-family="plex-mono">
+      <p style="font-family: 'IBM Plex Mono';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans-condensed">
+      <p style="font-family: 'IBM Plex Sans Condensed';">Hello world</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-serif">
+      <p style="font-family: 'IBM Plex Serif';">Здравствуй мир</p>
+    </div>
+    <div class="family" data-family="plex-sans">
+      <p style="font-family: 'IBM Plex Sans';">Γειά σου Κόσμε</p>
+    </div>
+    <div class="family" data-family="plex-sans-hebrew">
+      <p style="font-family: 'IBM Plex Sans Hebrew';">שלום עולם</p>
+    </div>
+    <div class="family" data-family="plex-sans-arabic">
+      <p style="font-family: 'IBM Plex Sans Arabic';">مرحبا بالعالم</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai">
+      <p style="font-family: 'IBM Plex Sans Thai';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-thai-looped">
+      <p style="font-family: 'IBM Plex Sans Thai Looped';">สวัสดีชาวโลก</p>
+    </div>
+    <div class="family" data-family="plex-sans-devanagari">
+      <p style="font-family: 'IBM Plex Sans Devanagari';">नमस्ते दुनिया</p>
+    </div>
+    <div class="family" data-family="plex-sans-kr">
+      <p style="font-family: 'IBM Plex Sans KR';">여보세요 세계</p>
+    </div>
+    <div class="family" data-family="plex-sans-jp">
+      <p style="font-family: 'IBM Plex Sans JP';">こんにちは世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-tc">
+      <p style="font-family: 'IBM Plex Sans TC';">你好世界</p>
+    </div>
+    <div class="family" data-family="plex-sans-sc">
+      <p style="font-family: 'IBM Plex Sans SC';">你好世界</p>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  const testVersion = true;
+
+  const transformLink = (link) => {
+
+    return testVersion ? link.replace("plex/", "plex-test/") : link;
+  }
+
+  const cdnLinks = [
+    "https://1.www.s81c.com/common/carbon/plex/mono-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-bold-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-extralight-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-light-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-medium-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-semibold-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-text-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/mono-thin-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-bold-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-extralight-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-light-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-medium-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-semibold-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-text-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thin-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-bold-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-extralight-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-light-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-medium-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-semibold-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-text-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-condensed-thin-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-hebrew-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-hebrew-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-hebrew-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-hebrew-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-hebrew-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-hebrew-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-hebrew-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-hebrew-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-devanagari-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-devanagari-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-devanagari-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-devanagari-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-devanagari-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-devanagari-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-devanagari-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-devanagari-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-looped-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-looped-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-looped-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-looped-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-looped-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-looped-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-looped-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-thai-looped-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-bold-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-extralight-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-light-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-medium-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-semibold-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-text-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/serif-thin-italic.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-arabic-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-arabic-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-arabic-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-arabic-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-arabic-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-arabic-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-arabic-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-arabic-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-kr-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-kr-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-kr-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-kr-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-kr-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-kr-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-kr-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-kr-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-jp-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-jp-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-jp-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-jp-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-jp-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-jp-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-jp-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-jp-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-tc-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-tc-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-tc-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-tc-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-tc-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-tc-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-tc-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-tc-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-sc-bold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-sc-extralight.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-sc-light.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-sc-medium.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-sc-regular.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-sc-semibold.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-sc-text.css",
+    "https://1.www.s81c.com/common/carbon/plex/sans-sc-thin.css",
+    "https://1.www.s81c.com/common/carbon/plex/math-regular.css"
+  ]
+
+  const docHead = document.getElementsByTagName("head")[0];
+
+  cdnLinks.forEach((link) => {
+
+    const linkElement = document.createElement("link");
+
+    linkElement.type = "text/css";
+    linkElement.rel = "stylesheet";
+    linkElement.href = transformLink(link);
+    
+    docHead.appendChild(linkElement);
+  });
+</script>
+</body>
+</html>

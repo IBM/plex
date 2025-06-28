@@ -1,0 +1,24 @@
+{
+  "name": "@ibm/plex-sans-variable",
+  "description": "The package of IBM’s typeface, IBM Plex Sans Variable",
+  "version": "0.2.0",
+  "repository": "https://github.com/ibm/plex.git",
+  "license": "OFL-1.1",
+  "bugs": {
+    "url": "https://github.com/ibm/plex/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "fonts",
+    "telemetry.yml"
+  ],
+  "scripts": {
+    "postinstall": "ibmtelemetry --config=telemetry.yml"
+  },
+  "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900",
+  "dependencies": {
+    "@ibm/telemetry-js": "^1.6.1"
+  }
+}

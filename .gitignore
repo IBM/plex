@@ -1,0 +1,34 @@
+node_modules
+scss
+css
+*.log
+package-lock.json
+.DS_Store
+zip
+**/.DS_Store
+.vercel
+.parcel-cache
+.idea
+dist
+cdn
+/deploy-preview
+/public
+/tmp
+.env
+/.nx
+.vscode
+
+# Source files
+# https://github.com/IBM/plex/issues/554
+/sources
+/instances
+/masters
+*.glif
+*.glyphs
+*.vfb
+*.designspace
+*.ufo
+
+# Packages
+packages/*/css
+packages/*/scss

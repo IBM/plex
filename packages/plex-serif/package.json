@@ -1,0 +1,32 @@
+{
+  "name": "@ibm/plex-serif",
+  "description": "The package of IBM’s typeface, IBM Plex Serif",
+  "version": "1.1.0",
+  "repository": "https://github.com/ibm/plex.git",
+  "license": "OFL-1.1",
+  "bugs": {
+    "url": "https://github.com/ibm/plex/issues"
+  },
+  "files": [
+    "css",
+    "scss",
+    "fonts/complete/woff/*",
+    "fonts/complete/woff2/*",
+    "fonts/split/woff2/*",
+    "telemetry.yml"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "config": {
+    "family": "plex-serif"
+  },
+  "scripts": {
+    "build": "cd ../ && yarn build",
+    "postinstall": "ibmtelemetry --config=telemetry.yml"
+  },
+  "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900",
+  "dependencies": {
+    "@ibm/telemetry-js": "^1.6.1"
+  }
+}
