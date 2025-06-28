@@ -15,9 +15,10 @@ def fix_font(path: Path) -> bool:
         font = TTFont(str(path))
         if "hhea" in font:
             hhea = font["hhea"]
-            if hhea.lineGap != 0:
-                hhea.lineGap = 0
+            if hhea.lineGap != 300:
+                hhea.lineGap = 300
                 font.save(str(path))
+                print(f"Processed {path}".ljust(100), end="\r", flush=True)
                 return True
     except Exception as e:
         print(f"Failed to process {path}: {e}")
@@ -30,7 +31,7 @@ def main(paths):
             for font_file in Path(dir_path).rglob(ext):
                 if fix_font(font_file):
                     changed += 1
-    print(f"Updated {changed} fonts")
+    print(f"Updated {changed} fonts", flush=True)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
