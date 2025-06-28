@@ -27,10 +27,11 @@ def fix_font(path: Path) -> bool:
 def main(paths):
     changed = 0
     for dir_path in paths:
-        for ext in ("*.ttf", "*.otf", "*.woff", "*.woff2"):
+        for ext in ("*.ttf", "*.otf"):
             for font_file in Path(dir_path).rglob(ext):
                 if fix_font(font_file):
                     changed += 1
+    print()
     print(f"Updated {changed} fonts", flush=True)
 
 if __name__ == "__main__":
