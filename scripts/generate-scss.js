@@ -15,6 +15,21 @@ const familiesData = process.env.npm_package_config_family ? families.filter(({ 
 
 const filesToWrite = [];
 
+const adjustBaseSet = (set) => {
+
+  const { type, characters } = set;
+
+  if (type.charAt(0) === '*') {
+
+    return {
+      type: type.slice(1),
+      characters
+    }
+  }
+
+  return set;
+}
+
 familiesData.forEach((family, index) => {
 
     // Generate path
@@ -30,7 +45,7 @@ familiesData.forEach((family, index) => {
       Latin1: 5,
     };
 
-    const familyUnicodes = unicodes.filter(unicode => family.unicodes.includes(unicode.type)).sort((a, b) => order[a.type] - order[b.type]);
+    const familyUnicodes = unicodes.filter(unicode => family.unicodes.includes(unicode.type)).map(set => adjustBaseSet(set)).sort((a, b) => order[a.type] - order[b.type]);
     const hasFamilyUnicodes = familyUnicodes.length;
 
     if (hasFamilyUnicodes) {
