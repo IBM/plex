@@ -1,0 +1,31 @@
+{
+  "name": "@ibm/plex-serif-variable",
+  "description": "The package of IBM’s typeface, IBM Plex Serif Variable",
+  "version": "1.0.0",
+  "repository": "https://github.com/ibm/plex.git",
+  "license": "OFL-1.1",
+  "bugs": {
+    "url": "https://github.com/ibm/plex/issues"
+  },
+   "files": [
+    "css",
+    "scss",
+    "fonts/complete/woff/hinted/*",
+    "fonts/complete/woff2/hinted/*",
+    "fonts/split/woff2/hinted/*",
+    "telemetry.yml"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "config": {
+    "family": "plex-serif-var"
+  },
+  "scripts": {
+    "postinstall": "ibmtelemetry --config=telemetry.yml"
+  },
+  "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900",
+  "dependencies": {
+    "@ibm/telemetry-js": "^1.6.1"
+  }
+}
