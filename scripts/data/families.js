@@ -2,6 +2,7 @@ const koreanUnicodeRanges = require('./unicodes/korean');
 const japaneseUnicodeRanges = require('./unicodes/japanese');
 const chinesetcUnicodeRanges = require('./unicodes/chinesetc');
 const chinesescUnicodeRanges = require('./unicodes/chinesesc');
+const serifUnicodeRanges = require('./unicodes/serif');
 
 const families = [
   {
@@ -59,7 +60,7 @@ const families = [
     name: 'IBM Plex Serif',
     packageName: 'plex-serif',
     hasItalic: true,
-    unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
+    unicodes: serifUnicodeRanges.map(({ type }) => type),
   },
   {
     type: 'Sans Arabic',
