@@ -26,7 +26,7 @@ const families = [
     hasItalic: true,
     name: 'IBM Plex Sans Condensed',
     packageName: 'plex-sans-condensed',
-    unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi'],
+    unicodes: condensedUnicodeRanges.map(({ type }) => type),
   },
   {
     type: 'Sans Hebrew',
