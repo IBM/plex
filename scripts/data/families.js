@@ -3,6 +3,7 @@ const japaneseUnicodeRanges = require('./unicodes/japanese');
 const chinesetcUnicodeRanges = require('./unicodes/chinesetc');
 const chinesescUnicodeRanges = require('./unicodes/chinesesc');
 const serifUnicodeRanges = require('./unicodes/serif');
+const monoUnicodeRanges = require('./unicodes/mono');
 
 const families = [
   {
@@ -10,7 +11,7 @@ const families = [
     name: 'IBM Plex Mono',
     packageName: 'plex-mono',
     hasItalic: true,
-    unicodes: ['Latin1', 'Latin2', 'Latin3', 'Pi', 'Cyrillic'],
+    unicodes: monoUnicodeRanges.map(({ type }) => type),
   },
   {
     type: 'Sans',
