@@ -1,6 +1,6 @@
 module.exports = [
   {
-    type: 'serif*Cyrillic',
+    type: 'mono*Cyrillic',
     characters: [
       'U+0400-045F',
       'U+0462-0463',
@@ -14,19 +14,7 @@ module.exports = [
     ],
   },
   {
-    type: 'serif*Greek',
-    characters: [
-      'U+037E',
-      'U+0386-038A',
-      'U+038C',
-      'U+038E-03A1',
-      'U+03A3-03CE',
-      'U+03D0-03D1',
-      'U+03D5',
-    ],
-  },
-  {
-    type: 'serif*Latin1',
+    type: 'mono*Latin1',
     characters: [
       'U+0020-007E',
       'U+00A0-00FF',
@@ -50,7 +38,7 @@ module.exports = [
     ],
   },
   {
-    type: 'serif*Latin2',
+    type: 'mono*Latin2',
     characters: [
       'U+0100-0101',
       'U+0104-0130',
@@ -79,7 +67,7 @@ module.exports = [
     ],
   },
   {
-    type: 'serif*Latin3',
+    type: 'mono*Latin3',
     characters: [
       'U+0102-0103',
       'U+01CD-01DC',
@@ -99,8 +87,9 @@ module.exports = [
     ],
   },
   {
-    type: 'serif*Pi',
+    type: 'mono*Pi',
     characters: [
+      'U+03C0',
       'U+0E3F',
       'U+2000-200D',
       'U+2010-2012',
@@ -109,6 +98,7 @@ module.exports = [
       'U+202F',
       'U+2032-2033',
       'U+203E',
+      'U+205F',
       'U+2070',
       'U+2074-2079',
       'U+2080-2089',
@@ -137,12 +127,13 @@ module.exports = [
       'U+2248',
       'U+2260',
       'U+2264-2265',
+      'U+2400-2421',
+      'U+2500-259F',
       'U+25CA',
       'U+2713',
       'U+274C',
       'U+2B0E-2B11',
-      'U+ECE0',
-      'U+EFCC',
+      'U+3000',
       'U+FEFF',
       'U+FFFD',
     ],

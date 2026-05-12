@@ -3,6 +3,7 @@ const japanese = require('./japanese');
 const chinesetc = require('./chinesetc');
 const chinesesc = require('./chinesesc');
 const serif = require('./serif');
+const mono = require('./mono');
 
 const unicodes = [
   {
@@ -122,7 +123,8 @@ const unicodes = [
   ...japanese,
   ...chinesetc,
   ...chinesesc,
-  ...serif
+  ...serif,
+  ...mono
 ];
 
 module.exports = unicodes;
