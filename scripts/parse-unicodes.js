@@ -2,7 +2,7 @@
  * `scripts/parse-unicodes.js` is used to help parse unicodes from one of the provided CSS file and output file ready to be used in unicodes folder
  *  usage: yarn unicodes -i {LANGCODE} -p /packages/{package-name}/fonts/split/woff/hinted/{css-input-filename}.css -f {output-filename}.js
  *  example: yarn unicodes -i TC -p /packages/plex-sans-tc/fonts/split/woff/hinted/IBMPlexSansTC-Bold.css -f chinesetc.js
- *  
+ *
  *  usage for base type set: yarn unicodes -p /packages/{package-name}/fonts/split/woff/{css-input-filename}.css -f {output-filename}.js
  *  example: yarn unicodes -p /packages/plex-sans-condensed/fonts/split/woff/IBMPlexSansCondensed-Bold.css -f condensed.js
  */
@@ -21,6 +21,7 @@ let collection = `module.exports = [`;
 
 if (p && f && f.includes('.js')) {
   const cssPath = path.resolve(__dirname, `../${p}`);
+  const currentFile = f.substring(0, f.indexOf(".js"));
   const cssContent = fs.readFileSync(cssPath).toString();
   const definitionMatches = cssContent.match(/\/*((.|\n)*?)\}\n/gm);
 
@@ -36,7 +37,7 @@ if (p && f && f.includes('.js')) {
     ) {
       if (i === undefined) {
         collection += `{
-          type: '*${subsetMatches[1]}',
+          type: '${currentFile}*${subsetMatches[1]}',
           characters: [${unicodeRangeMatches[1]
             .split(',')
             .map(item => `'${item.trim()}'`)}]

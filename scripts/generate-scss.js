@@ -19,10 +19,11 @@ const adjustBaseSet = (set) => {
 
   const { type, characters } = set;
 
-  if (type.charAt(0) === '*') {
+  if (type.includes("*") ) {
+    const typeCleaner = type.substring(type.indexOf("*")+1);
 
     return {
-      type: type.slice(1),
+      type: typeCleaner,
       characters
     }
   }
