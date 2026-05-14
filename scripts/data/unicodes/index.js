@@ -4,6 +4,7 @@ const chinesetc = require('./chinesetc');
 const chinesesc = require('./chinesesc');
 const serif = require('./serif');
 const mono = require('./mono');
+const condensed = require('./condensed');
 
 const unicodes = [
   {
@@ -124,7 +125,8 @@ const unicodes = [
   ...chinesetc,
   ...chinesesc,
   ...serif,
-  ...mono
+  ...mono,
+  ...condensed
 ];
 
 module.exports = unicodes;
