@@ -15,7 +15,7 @@
     "access": "public"
   },
   "config": {
-    "family": "plex-serif-var"
+    "family": "plex-mono-var"
   },
   "scripts": {
     "postinstall": "ibmtelemetry --config=telemetry.yml"
