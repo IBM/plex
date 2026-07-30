@@ -1,0 +1,27 @@
+{
+  "name": "@ibm/plex-mono-variable",
+  "description": "The package of IBM’s typeface, IBM Plex Mono Variable",
+  "version": "1.0.0",
+  "repository": "https://github.com/ibm/plex.git",
+  "license": "OFL-1.1",
+  "bugs": {
+    "url": "https://github.com/ibm/plex/issues"
+  },
+  "files": [
+    "fonts",
+    "telemetry.yml"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "config": {
+    "family": "plex-mono-var"
+  },
+  "scripts": {
+    "postinstall": "ibmtelemetry --config=telemetry.yml"
+  },
+  "gitHead": "03dea6f4809b5b8b8e3cc3afbedf825379d97900",
+  "dependencies": {
+    "@ibm/telemetry-js": "^1.6.1"
+  }
+}
