@@ -4,6 +4,9 @@ run-name: Publish CDN artifacts - versioned by @${{ github.actor }}
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 concurrency:
   group: deploy-${{ github.ref }}
   cancel-in-progress: true
@@ -26,7 +29,7 @@ jobs:
         run: yarn install
       - name: Build cdn folder
         run: yarn build:cdn
-      - uses: jakejarvis/s3-sync-action@master
+      - uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311 # master
         with:
           args: --acl public-read --follow-symlinks
         env:
@@ -37,7 +40,7 @@ jobs:
           AWS_S3_ENDPOINT: https://${{ secrets.COMMON_COS_ENDPOINT }}
           SOURCE_DIR: 'cdn'
           DEST_DIR: '/common/carbon/plex'
-      - uses: jakejarvis/s3-sync-action@master
+      - uses: jakejarvis/s3-sync-action@7ed8b112447abb09f1da74f3466e4194fc7a6311 # master
         with:
           args: --acl public-read --follow-symlinks
         env:
