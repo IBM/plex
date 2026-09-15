@@ -4,6 +4,9 @@ run-name: Publish test CDN artifacts - versioned by @${{ github.actor }}
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 concurrency:
   group: deploy-${{ github.ref }}
   cancel-in-progress: true
