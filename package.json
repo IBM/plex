@@ -114,6 +114,25 @@
     "socket.io-parser": "^4.2.7",
     "tar": "^7.5.4",
     "tmp": "^0.2.4",
-    "ws": "^8.17.1"
+    "ws": "^8.17.1",
+    "handlebars": "^4.7.9",
+    "minimatch": "^3.1.4",
+    "micromatch": "^4.0.8",
+    "picomatch": "^2.3.2",
+    "js-cookie": "^3.0.7",
+    "yaml": "^2.8.3",
+    "sigstore": "^4.1.1",
+    "@sigstore/core": "^3.2.1",
+    "@octokit/request-error": "^5.1.1",
+    "@octokit/request": "^8.4.1",
+    "@octokit/plugin-paginate-rest": "^9.2.2",
+    "pacote": "^21.5.1",
+    "nx": "^22.7.2",
+    "uuid": "^11.1.1",
+    "joi": "^17.13.6",
+    "diff": "^4.0.4",
+    "es5-ext": "^0.10.63",
+    "@tootallnate/once": "^2.0.1",
+    "ajv": "^8.18.0"
   }
 }
