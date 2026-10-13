@@ -1,5 +1,89 @@
 ## [Unreleased]
 
+# IBM Plex Sans Var v3.1 / IBM Plex Sans v3.6 / IBM Plex Sans Condensed v3.1
+
+## IBM Plex Sans Var
+
+### Added
+
+- Numerous currency symbols: MANAT (U+20BC), LARI (U+20BE), SOM (U+20C0), RIYAL (U+20C1), RIAL (U+20C4), DIRHAM (U+20C3)
+  referenced in [#655](https://github.com/IBM/plex/issues/655)
+- Various punctuation marks: DOUBLE VERTICAL LINE (U+2016), DOUBLE EXCLAMATION MARK (U+203C), INTERROBANG (U+203D), ASTERISM (U+2042), DOUBLE QUESTION MARK (U+2047), QUESTION EXCLAMATION MARK (U+2048), EXCLAMATION QUESTION MARK (U+2049), TWO ASTERISKS VERTICAL (U+2051), SWUNG DASH (U+2053), THREE DOT PUNCTUATION (U+2056), FOUR DOT PUNCTUATION (U+2058), FIVE DOT PUNCTUATION (U+2059), TWO DOT PUNCTUATION (U+205A), FOUR DOT MARK (U+205B), TRICOLON (U+205D), VERTICAL FOUR DOTS (U+205E), TWO-EM DASH (U+2E3A), THREE-EM DASH (U+2E3B)
+  referenced in [#492](https://github.com/IBM/plex/issues/492)
+- Glyph OVERLINE (U+203E)
+- Support for Venda language (10 additional characters)
+- Support for Arabic transliteration (10 additional characters)
+- Support for Hebrew transliteration (1 additional character)
+  referenced in [#432](https://github.com/IBM/plex/issues/432)
+- Support for Sanskrit transliteration (18 additional characters)
+  referenced in [#495](https://github.com/IBM/plex/issues/495)
+- Additional combining marks /macronbelowcomb (U+0331) /circumflexbelowcomb (U+032D) /brevebelowcomb (U+032E)
+  referenced in [#632](https://github.com/IBM/plex/issues/632)
+
+### Fixed
+
+- Correction in metrics of /u and related characters (Thin Condensed)
+- Correction in starting point of /circumflextilde.case (Condensed Italic)
+- Correction in metrics of /N and related characters (Condensed)
+
+## IBM Plex Sans Condensed
+
+### Added
+
+- Numerous currency symbols: MANAT (U+20BC), LARI (U+20BE), SOM (U+20C0), RIYAL (U+20C1), RIAL (U+20C4), DIRHAM (U+20C3)
+  referenced in [#655](https://github.com/IBM/plex/issues/655)
+- Various punctuation marks: DOUBLE VERTICAL LINE (U+2016), DOUBLE EXCLAMATION MARK (U+203C), INTERROBANG (U+203D), ASTERISM (U+2042), DOUBLE QUESTION MARK (U+2047), QUESTION EXCLAMATION MARK (U+2048), EXCLAMATION QUESTION MARK (U+2049), TWO ASTERISKS VERTICAL (U+2051), SWUNG DASH (U+2053), THREE DOT PUNCTUATION (U+2056), FOUR DOT PUNCTUATION (U+2058), FIVE DOT PUNCTUATION (U+2059), TWO DOT PUNCTUATION (U+205A), FOUR DOT MARK (U+205B), TRICOLON (U+205D), VERTICAL FOUR DOTS (U+205E), TWO-EM DASH (U+2E3A), THREE-EM DASH (U+2E3B)
+  referenced in [#492](https://github.com/IBM/plex/issues/492)
+- Glyph OVERLINE (U+203E)
+- Support for Venda language (10 additional characters)
+- Support for Arabic transliteration (10 additional characters)
+- Support for Hebrew transliteration (1 additional character)
+  referenced in [#432](https://github.com/IBM/plex/issues/432)
+- Support for Sanskrit transliteration (18 additional characters)
+  referenced in [#495](https://github.com/IBM/plex/issues/495)
+- Additional combining marks /macronbelowcomb (U+0331) /circumflexbelowcomb (U+032D) /brevebelowcomb (U+032E)
+  referenced in [#632](https://github.com/IBM/plex/issues/632)
+
+### Fixed
+
+- Correction in metrics of /u and related characters (Thin Condensed)
+- Correction in starting point of /circumflextilde.case (Condensed Italic)
+- Correction in metrics of /N and related characters (Condensed)
+
+### Changed
+
+- Improved shapes for U+04AA CYRILLIC CAPITAL ES WITH DESCENDER and U+04AB CYRILLIC LOWERCASE ES WITH DESCENDER
+  referenced in [#498](https://github.com/IBM/plex/issues/498)
+
+## IBM Plex Sans
+
+### Added
+
+- Numerous currency symbols: MANAT (U+20BC), LARI (U+20BE), SOM (U+20C0), RIYAL (U+20C1), RIAL (U+20C4), DIRHAM (U+20C3)
+  referenced in [#655](https://github.com/IBM/plex/issues/655)
+- Various punctuation marks: DOUBLE VERTICAL LINE (U+2016), DOUBLE EXCLAMATION MARK (U+203C), INTERROBANG (U+203D), ASTERISM (U+2042), DOUBLE QUESTION MARK (U+2047), QUESTION EXCLAMATION MARK (U+2048), EXCLAMATION QUESTION MARK (U+2049), TWO ASTERISKS VERTICAL (U+2051), SWUNG DASH (U+2053), THREE DOT PUNCTUATION (U+2056), FOUR DOT PUNCTUATION (U+2058), FIVE DOT PUNCTUATION (U+2059), TWO DOT PUNCTUATION (U+205A), FOUR DOT MARK (U+205B), TRICOLON (U+205D), VERTICAL FOUR DOTS (U+205E), TWO-EM DASH (U+2E3A), THREE-EM DASH (U+2E3B)
+  referenced in [#492](https://github.com/IBM/plex/issues/492)
+- Glyph OVERLINE (U+203E)
+- Support for Venda language (10 additional characters)
+- Support for Arabic transliteration (10 additional characters)
+- Support for Hebrew transliteration (1 additional character)
+  referenced in [#432](https://github.com/IBM/plex/issues/432)
+- Support for Sanskrit transliteration (18 additional characters)
+  referenced in [#495](https://github.com/IBM/plex/issues/495)
+- Additional combining marks /macronbelowcomb (U+0331) /circumflexbelowcomb (U+032D) /brevebelowcomb (U+032E)
+  referenced in [#632](https://github.com/IBM/plex/issues/632)
+
+### Fixed
+
+- Outline error in /zero.tosf.alt01 (Regular)
+  referenced in [#522](https://github.com/IBM/plex/issues/522)
+
+### Changed
+
+- Improved shapes for U+04AA CYRILLIC CAPITAL ES WITH DESCENDER and U+04AB CYRILLIC LOWERCASE ES WITH DESCENDER
+  referenced in [#498](https://github.com/IBM/plex/issues/498)
+
+
 - IBM Plex Sans CN
 - [IBM Plex Mono] Addition of glyphs /currency /prime /primedbl
 - Allow more granular selection of font-families and weights [#329](https://github.com/IBM/plex/issues/329)
