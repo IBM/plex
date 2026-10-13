@@ -14,23 +14,24 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {
+    "scripts": {
     "clean": "rimraf public zip dist",
     "clean:family": "node ./scripts/clean.js",
     "build": "yarn clean:family && yarn build:scss && yarn build:css",
     "build:zip": "rimraf zip && yarn build && node ./scripts/prepare-zip.js && sh scripts/zip.sh && node ./scripts/clean-zip.js",
     "build:css": "node ./scripts/compile-css.js",
     "build:scss": "node ./scripts/generate-scss.js",
-    "build:deploy-preview": "gulp build:deploy-preview",
+    "build:deploy-preview": "yarn build:scss && yarn build:css && gulp build:deploy-preview",
     "build:cdn": "rimraf cdn && yarn build && node ./scripts/generate-cdn.js && webpack --config webpack.config.js",
     "unicodes": "node ./scripts/parse-unicodes.js",
-    "preview": "rimraf public dist && yarn build:deploy-preview && node ./public/preview.js",
+    "preview": "rimraf public dist && yarn build && yarn build:deploy-preview && node ./public/preview.js",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "husky install",
     "test:e2e:local": "start-server-and-test 'http-server -c-1 public --silent' 8080 'percy exec --config cypress/.percy.json -- cypress run --config-file cypress/cypress.json'",
     "test:e2e:local:no-percy": "start-server-and-test 'http-server -c-1 public --silent' 8080 'cypress run --config-file cypress/cypress.json'"
   },
+
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^17.0.0",
