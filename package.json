@@ -24,7 +24,7 @@
     "build:deploy-preview": "gulp build:deploy-preview",
     "build:cdn": "rimraf cdn && yarn build && node ./scripts/generate-cdn.js && webpack --config webpack.config.js",
     "unicodes": "node ./scripts/parse-unicodes.js",
-    "preview": "rimraf public dist && yarn build:deploy-preview && node ./public/preview.js",
+    "preview": "rimraf public dist && yarn build && yarn build:deploy-preview && node ./public/preview.js",
     "precommit": "lint-staged",
     "prettier": "prettier --write \"**/*.{scss}\"",
     "prepare": "husky install",
