@@ -2,16 +2,17 @@
  * `scripts/preview.js` is used to run a local server to preview all complied fonts
  */
 
-const server = require('server');
-const spawn = require('child_process').spawn;
-const { get } = server.router;
-const { render } = server.reply;
+const httpServer = require('http-server');
+const { spawn } = require('child_process');
 const port = process.env.PORT || 8081;
 
+const server = httpServer.createServer({
+  root: __dirname,
+  cache: -1,
+  robots: true,
+});
 
-console.log(`Server started at: http://localhost:${port}/`);
-spawn('open', [`http://localhost:${port}/`]);
-
-server({ port }, [
-  get('/', ctx => render("./index.html"))
-]);
+server.listen(port, () => {
+  console.log(`Server started at: http://localhost:${port}/`);
+  spawn('open', [`http://localhost:${port}/`]);
+});
