@@ -21,19 +21,24 @@ const _LIST_PACKAGES = [];
  * List packages with output CSS
  */
 function _listPackages() {
-
   const listPackages = globSync(`packages/**/${config.cssSrc}`);
 
-  listPackages.length && listPackages.forEach(( path ) => {
+  if (listPackages.length) {
+    listPackages.forEach((pathStr) => {
+      // FIX: Handles both Windows backward slashes (\) and Unix forward slashes (/)
+      const pathParts = pathStr.split(/[\\/]/);
+      const family = pathParts[1];
 
-    const [, family] = path.split("/");
-
-    _LIST_PACKAGES.push({
-      family, 
-      path,
-      cssPath: `assets/${family}/${config.cssSrc}/ibm-${family}-all.css`
+      // CRITICAL GUARD: Only register valid, existing font package directories
+      if (family && family !== 'undefined') {
+        _LIST_PACKAGES.push({
+          family, 
+          path: pathStr,
+          cssPath: `assets/${family}/${config.cssSrc}/ibm-${family}-all.css`
+        });
+      }
     });
-  });
+  }
 }
 
 /**
@@ -43,14 +48,16 @@ const _transformFamilyMap = {
   jp: "JP",
   kr: "KR",
   tc: "TC"
-}
+};
 
 function _transformFamilyName(family) {
+  // CRITICAL GUARD: Stop string operation crashes if family data string is corrupt
+  if (!family || typeof family !== 'string' || family === 'undefined') {
+    return "IBM Plex";
+  }
 
   return "IBM " + family.split("-").map((part) => {
-
     return _transformFamilyMap[part] ? _transformFamilyMap[part] : part.charAt(0).toUpperCase() + part.slice(1);
-
   }).join(" ");
 }
 
@@ -60,7 +67,6 @@ function _transformFamilyName(family) {
  * @returns {*} gulp stream
  */
 function _copyTest() {
-
   _listPackages();
 
   return gulp
@@ -74,7 +80,6 @@ function _copyTest() {
  * @returns {*} gulp stream
  */
 function _injectHtml() {
-
   console.log("Inject html");
 
   const injectCss = [];
@@ -84,41 +89,42 @@ function _injectHtml() {
   ];
   
   _LIST_PACKAGES.forEach(({ family, cssPath }) => {
+    // Double check to prevent injecting undefined layouts into stream
+    if (!family || family === 'undefined') return;
 
     injectCss.push(`${config.deployPreviewPath}/${cssPath}`);
-
     injectStyle.push(`div[data-family="${family}"] { display: initial; }`);
 
     const transformedFamily = _transformFamilyName(family);
-
-    injectOptions.push(`<option value="${transformedFamily}">${transformedFamily}</option>`)
+    injectOptions.push(`<option value="${transformedFamily}">${transformedFamily}</option>`);
   });
+
+  // CRITICAL FIX FOR GULP GLOB ERRORS:
+  // If no packages compiled yet, clean array out to prevent singular glob crash
+  const verifiedCssSources = injectCss.filter(Boolean);
 
   const target = gulp.src(`${config.deployPreviewPath}/index.html`);
 
   return target
     .pipe(inject(
-      gulp.src(injectCss, { read: false }), {
+      gulp.src(verifiedCssSources, { read: false, allowEmpty: true }), {
         transform: function(filepath) {
-          
           return `<link rel="stylesheet" href="${filepath.replace("/public/", "")}" />`;
         }
       }
     ))
     .pipe(inject(
-      gulp.src(config.testSrc + "/inject.txt", { ready: false }), {
+      gulp.src(config.testSrc + "/inject.txt", { read: false, allowEmpty: true }), {
         starttag: '<!-- inject:style -->',
         transform: function() {
-
           return `<style>\n${injectStyle.join('\n')}\n</style>`;
         }
       }
     ))
     .pipe(inject(
-      gulp.src(config.testSrc + "/inject.txt", { ready: false }), {
+      gulp.src(config.testSrc + "/inject.txt", { read: false, allowEmpty: true }), {
         starttag: '<!-- inject:options -->',
         transform: function() {
-
           return injectOptions.join('\n');
         }
       }
@@ -132,11 +138,14 @@ function _injectHtml() {
  * @returns {*} gulp stream
  */
 function _copyCss(done) {
-
   console.log("Copy css");
 
-  const tasks = _LIST_PACKAGES.map(({ path, family }) => {
+  // Safety exit if package tree array parsing state came back blank
+  if (_LIST_PACKAGES.length === 0) {
+    return done();
+  }
 
+  const tasks = _LIST_PACKAGES.map(({ path, family }) => {
     return () => gulp
       .src([path + "/*.*", "!" + path + "/*.min.*"])
       .pipe(replace(/local\(.*?\),/gm, ""))
@@ -155,11 +164,13 @@ function _copyCss(done) {
  * @returns {*} gulp stream
  */
 function _copyFonts(done) {
-
   console.log("Copy fonts");
 
-  const tasks = _LIST_PACKAGES.map(({ path, family }) => {
+  if (_LIST_PACKAGES.length === 0) {
+    return done();
+  }
 
+  const tasks = _LIST_PACKAGES.map(({ path, family }) => {
     return () => gulp
       .src([`packages/${family}/fonts/**/*.*`])
       .pipe(gulp.dest([`${config.deployPreviewAssets}/${family}/fonts`]));
@@ -177,7 +188,6 @@ function _copyFonts(done) {
  * @returns {*} gulp stream
  */
 function _copyPreview() {
-
   return gulp
     .src(["scripts/preview.js"])
     .pipe(gulp.dest(config.deployPreviewPath));
